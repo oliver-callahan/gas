@@ -1,0 +1,1 @@
+var chatJson = {"chat":[{"time":"a day ago","text":"hi there","user":"ski"},{"time":"a day ago","text":"what's yup","user":"ski"},{"time":"a day ago","text":"hello there","user":"ski"}],"hash":{"ka":"afcd6916d56b597f343e1e55ed944bac","slack":"9e40e8e9d29df8cdf682c37e494eedd4"}}
