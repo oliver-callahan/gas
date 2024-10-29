@@ -116,7 +116,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
@@ -160,7 +160,7 @@ var json = {
                         "text": "It was meant to be different rooms, like capture, and you would have checkpoints. I just had not made checkpoints yet, and having you restart all the way back to the beginning every time you died would be frustrating, so I just made the doors the checkpoints. I am going to be very busy lol"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "LemonTurtle",
                             "id": "kaid_26727758302107548837304",
@@ -184,7 +184,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -253,7 +253,7 @@ var json = {
                         "text": "What a small world(not sure if that is applicable in this situation though). Good luck! but not too good so you don't bump me off the hotlist lol"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Duke :P",
                             "id": "kaid_351465532815782433620675",
@@ -264,9 +264,9 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
-                "date": "11 minutes ago",
+                "date": "16 minutes ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -275,7 +275,17 @@ var json = {
                 "text": "its too much for my potato computer :(",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "The Former Wizard of Oz",
+                            "id": "kaid_981854986090143486946241",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "It should not be that bad. It runs really fast on my school managed Chromebook, and that is about as potato as they come. What type of computer do you have, a Ti-84?"
+                    }
+                ]
             },
             {
                 "replyCount": 1,
