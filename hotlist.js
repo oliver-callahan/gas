@@ -115,7 +115,7 @@ var json = {
                 "votes": 2,
                 "date": "a day ago",
                 "author": {
-                    "name": "𝓧𝓛𝓟 [Off]",
+                    "name": "𝓧𝓛𝓟 [On]",
                     "id": "kaid_387597695665654041806576",
                     "avatar": "/images/avatars/svg/piceratops-seed.svg"
                 },
@@ -194,7 +194,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -259,7 +259,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 minutes ago",
+                "date": "15 minutes ago",
                 "author": {
                     "name": "AmethystSky",
                     "id": "kaid_784805823121542822870790",
