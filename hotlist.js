@@ -3,7 +3,7 @@ var json = {
     "title": "Fuego [GAME]",
     "votes": 37,
     "created": "12 hours ago",
-    "updated": "39 minutes ago",
+    "updated": "44 minutes ago",
     "type": "HTML",
     "author": {
         "name": "The Former Wizard of Oz",
@@ -64,7 +64,7 @@ var json = {
             },
             {
                 "replyCount": 4,
-                "votes": 6,
+                "votes": 7,
                 "date": "8 hours ago",
                 "author": {
                     "name": "Liam K.",
@@ -94,7 +94,7 @@ var json = {
                         "text": "By parallax, I mean that the background looks like it has perspective, and slightly moves with the camera"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "ASBackup",
                             "id": "kaid_714780036830891967670231",
@@ -103,7 +103,7 @@ var json = {
                         "text": "if it helps, i used a parallax in the background of<br><br>khanacademy.org/cs/-/6727382872539136<br><br>in this example, the mouse moves the background at varying speeds depending on the layer."
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -173,7 +173,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "26 minutes ago",
+                "date": "31 minutes ago",
                 "author": {
                     "name": "Dat",
                     "id": "kaid_4164356982737975081215128",
@@ -184,7 +184,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -221,7 +221,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "24 minutes ago",
+                "date": "29 minutes ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Online)",
                     "id": "kaid_333534297788735128142174",
@@ -232,7 +232,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -334,7 +334,7 @@ var json = {
                         "text": "It should not be that bad. It runs really fast on my school managed Chromebook, and that is about as potato as they come. What type of computer do you have, a Ti-84?"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "sugarnlight",
                             "id": "kaid_516497598968512440616556",
@@ -343,7 +343,7 @@ var json = {
                         "text": "xD, that's a calculator<br>I have a school Chromebook, but oh noes says the JavaScript is taking too long to load."
                     },
                     {
-                        "date": "29 minutes ago",
+                        "date": "34 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -352,7 +352,7 @@ var json = {
                         "text": "Try pressing reload. There are a lot of things pushed into arrays at the beginning, once the game is there it should work fast. If it is slow, you have to be on internet explorer which does not execute the <code>ctx.fillStyle</code> property the right way. As far as I know, that is the only web browser that has issues with canvas 2D.<br><br>The Ti-84 thing was a joke lol."
                     },
                     {
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "sugarnlight",
                             "id": "kaid_516497598968512440616556",
@@ -403,7 +403,7 @@ var json = {
                     {
                         "replyCount": 0,
                         "votes": 1,
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
