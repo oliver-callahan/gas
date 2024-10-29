@@ -187,7 +187,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "an hour ago",
                 "author": {
@@ -198,7 +198,17 @@ var json = {
                 "text": "Nice! Bug report: in a fullscreen tab, if you rightclick the pointerlock stops.",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "Dat",
+                            "id": "kaid_4164356982737975081215128",
+                            "avatar": "/images/avatars/svg/marcimus-orange.svg"
+                        },
+                        "text": "thats intentional cuz ur supposed to right click to make the water go vroom vroom but u cant move ur mouse when its locked"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
