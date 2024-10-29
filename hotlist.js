@@ -3,7 +3,7 @@ var json = {
     "title": "Fuego [GAME]",
     "votes": 36,
     "created": "11 hours ago",
-    "updated": "19 minutes ago",
+    "updated": "24 minutes ago",
     "type": "HTML",
     "author": {
         "name": "The Former Wizard of Oz",
@@ -65,7 +65,7 @@ var json = {
             {
                 "replyCount": 4,
                 "votes": 6,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "Liam K.",
                     "id": "kaid_160653079463992085090428",
@@ -172,6 +172,30 @@ var json = {
             },
             {
                 "replyCount": 1,
+                "votes": 2,
+                "date": "11 minutes ago",
+                "author": {
+                    "name": "Dat",
+                    "id": "kaid_4164356982737975081215128",
+                    "avatar": "/images/avatars/svg/marcimus-orange.svg"
+                },
+                "text": "hey where are the takis",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "The Former Wizard of Oz",
+                            "id": "kaid_981854986090143486946241",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "I ate them now u have to get them"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
                 "votes": 1,
                 "date": "6 hours ago",
                 "author": {
@@ -195,9 +219,9 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
-                "date": "4 minutes ago",
+                "date": "9 minutes ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
@@ -206,7 +230,17 @@ var json = {
                 "text": "Nice but that last level 💀",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "The Former Wizard of Oz",
+                            "id": "kaid_981854986090143486946241",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "lol, thanks"
+                    }
+                ]
             },
             {
                 "replyCount": 6,
@@ -278,23 +312,9 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "6 minutes ago",
-                "author": {
-                    "name": "Dat",
-                    "id": "kaid_4164356982737975081215128",
-                    "avatar": "/images/avatars/svg/marcimus-orange.svg"
-                },
-                "text": "hey where are the takis",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
                 "replyCount": 4,
                 "votes": 1,
-                "date": "41 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -305,7 +325,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -314,7 +334,7 @@ var json = {
                         "text": "It should not be that bad. It runs really fast on my school managed Chromebook, and that is about as potato as they come. What type of computer do you have, a Ti-84?"
                     },
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "sugarnlight",
                             "id": "kaid_516497598968512440616556",
@@ -323,7 +343,7 @@ var json = {
                         "text": "xD, that's a calculator<br>I have a school Chromebook, but oh noes says the JavaScript is taking too long to load."
                     },
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -332,7 +352,7 @@ var json = {
                         "text": "Try pressing reload. There are a lot of things pushed into arrays at the beginning, once the game is there it should work fast. If it is slow, you have to be on internet explorer which does not execute the <code>ctx.fillStyle</code> property the right way. As far as I know, that is the only web browser that has issues with canvas 2D.<br><br>The Ti-84 thing was a joke lol."
                     },
                     {
-                        "date": "6 minutes ago",
+                        "date": "11 minutes ago",
                         "author": {
                             "name": "sugarnlight",
                             "id": "kaid_516497598968512440616556",
