@@ -3,7 +3,7 @@ var json = {
     "title": "Fuego [GAME]",
     "votes": 33,
     "created": "11 hours ago",
-    "updated": "5 hours ago",
+    "updated": "6 hours ago",
     "type": "HTML",
     "author": {
         "name": "The Former Wizard of Oz",
@@ -94,7 +94,7 @@ var json = {
                         "text": "By parallax, I mean that the background looks like it has perspective, and slightly moves with the camera"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "ASBackup",
                             "id": "kaid_714780036830891967670231",
@@ -103,7 +103,7 @@ var json = {
                         "text": "if it helps, i used a parallax in the background of<br><br>khanacademy.org/cs/-/6727382872539136<br><br>in this example, the mouse moves the background at varying speeds depending on the layer."
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -266,7 +266,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "a minute ago",
+                "date": "6 minutes ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -318,7 +318,7 @@ var json = {
                     {
                         "replyCount": 0,
                         "votes": 1,
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
