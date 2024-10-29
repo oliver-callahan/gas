@@ -71,7 +71,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 11,
-                "date": "2024-10-28T13:35:41.405681Z",
+                "date": "a day ago",
                 "author": {
                     "name": "Dat",
                     "id": "kaid_4164356982737975081215128",
@@ -85,7 +85,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 4,
-                "date": "2024-10-28T13:38:50.474727Z",
+                "date": "a day ago",
                 "author": {
                     "name": "Electric Dolphin ⚡️🐬",
                     "id": "kaid_1188776231699286995947997",
@@ -99,7 +99,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "2024-10-28T13:47:27.355561Z",
+                "date": "a day ago",
                 "author": {
                     "name": "Duke :P",
                     "id": "kaid_351465532815782433620675",
@@ -113,7 +113,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "2024-10-28T17:07:17.889771Z",
+                "date": "a day ago",
                 "author": {
                     "name": "𝓧𝓛𝓟 [Off]",
                     "id": "kaid_387597695665654041806576",
@@ -127,7 +127,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "2024-10-28T16:22:10.210487Z",
+                "date": "a day ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
@@ -141,7 +141,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "2024-10-28T15:03:37.695748Z",
+                "date": "a day ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -155,7 +155,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2024-10-28T14:50:05.037094Z",
+                "date": "a day ago",
                 "author": {
                     "name": "Raven",
                     "id": "kaid_1094399428577851630415346",
@@ -169,7 +169,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2024-10-29T14:33:05.072834Z",
+                "date": "an hour ago",
                 "author": {
                     "name": "JSCoder",
                     "id": "kaid_3032679493880386290676439",
@@ -183,7 +183,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "2024-10-29T14:37:55.351869Z",
+                "date": "an hour ago",
                 "author": {
                     "name": "NathanL",
                     "id": "kaid_329695054038719177004266",
@@ -194,7 +194,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2024-10-29T14:48:38.144389Z",
+                        "date": "an hour ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -207,7 +207,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2024-10-28T22:40:07.781314Z",
+                "date": "17 hours ago",
                 "author": {
                     "name": "angel",
                     "id": "kaid_3609829637526806958830337",
@@ -221,7 +221,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "2024-10-28T14:35:29.167136Z",
+                "date": "a day ago",
                 "author": {
                     "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
                     "id": "kaid_706406430552760652245376",
@@ -232,7 +232,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2024-10-28T14:40:21.158694Z",
+                        "date": "a day ago",
                         "author": {
                             "name": "Dat",
                             "id": "kaid_4164356982737975081215128",
@@ -245,7 +245,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2024-10-28T15:16:30.772366Z",
+                "date": "a day ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -259,7 +259,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2024-10-28T14:47:53.818283Z",
+                "date": "a day ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -273,7 +273,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2024-10-28T23:11:02.848098Z",
+                "date": "16 hours ago",
                 "author": {
                     "name": "GroundedSquidy",
                     "id": "kaid_8597585382861928237037056",
@@ -289,7 +289,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2024-10-28T16:17:37.196439Z",
+                "date": "a day ago",
                 "author": {
                     "name": "- S p a r t a -",
                     "id": "kaid_546205135843777431062822",
@@ -302,7 +302,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2024-10-29T13:15:12.566759Z",
+                "date": "2 hours ago",
                 "author": {
                     "name": "Avonlea Brickman",
                     "id": "kaid_7291821769954844241207087",
