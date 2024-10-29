@@ -51,7 +51,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 11,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "The Former Wizard of Oz",
                     "id": "kaid_981854986090143486946241",
@@ -208,7 +208,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -266,7 +266,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 minutes ago",
+                "date": "11 minutes ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -280,7 +280,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "Vuong Vo",
                     "id": "kaid_79869111098624859119085",
