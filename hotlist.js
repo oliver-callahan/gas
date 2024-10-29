@@ -70,7 +70,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 0,
-                "votes": 11,
+                "votes": 12,
                 "date": "a day ago",
                 "author": {
                     "name": "Dat",
