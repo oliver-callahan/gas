@@ -3,7 +3,7 @@ var json = {
     "title": "Fuego [GAME]",
     "votes": 42,
     "created": "21 hours ago",
-    "updated": "9 hours ago",
+    "updated": "10 hours ago",
     "type": "HTML",
     "author": {
         "name": "The Former Wizard of Oz",
@@ -151,7 +151,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -199,7 +199,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
