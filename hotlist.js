@@ -79,7 +79,7 @@ var json = {
     "posts": {
         "tips": [
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 15,
                 "date": "a day ago",
                 "author": {
@@ -90,7 +90,17 @@ var json = {
                 "text": "Be notified when I release it!<br><em>Post a \".\" here and you will get mail in a long time!</em>",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "EmiliaChrystal",
+                            "id": "kaid_751613025897813683409214",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "Can you make the air jump work by double tapping the jump button?"
+                    }
+                ]
             },
             {
                 "replyCount": 4,
@@ -146,7 +156,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 7,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "Dat",
                     "id": "kaid_4164356982737975081215128",
@@ -373,7 +383,7 @@ var json = {
                         "text": "xD, that's a calculator<br>I have a school Chromebook, but oh noes says the JavaScript is taking too long to load."
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -382,7 +392,7 @@ var json = {
                         "text": "Try pressing reload. There are a lot of things pushed into arrays at the beginning, once the game is there it should work fast. If it is slow, you have to be on internet explorer which does not execute the <code>ctx.fillStyle</code> property the right way. As far as I know, that is the only web browser that has issues with canvas 2D.<br><br>The Ti-84 thing was a joke lol."
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "sugarnlight",
                             "id": "kaid_516497598968512440616556",
@@ -404,7 +414,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "39 minutes ago",
+                "date": "44 minutes ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
@@ -476,7 +486,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "11 minutes ago",
+                "date": "16 minutes ago",
                 "author": {
                     "name": "EmiliaChrystal",
                     "id": "kaid_751613025897813683409214",
