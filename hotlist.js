@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 30,
     "created": "11 hours ago",
-    "updated": "a minute ago",
+    "updated": "6 minutes ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -51,7 +51,7 @@ var json = {
                         "text": "I would get banned if I did that"
                     },
                     {
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -108,7 +108,7 @@ var json = {
                         "text": "lol that would be hilarious"
                     },
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -119,7 +119,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 3,
                 "votes": 5,
                 "date": "11 hours ago",
                 "author": {
@@ -132,19 +132,37 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
                             "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                         },
                         "text": "yeah I'm not trying to be political because I only 14 and because elections coming up and because I'm not trying to get banned AGAIN"
+                    },
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "Danomi42",
+                            "id": "kaid_1045282636896433254069987",
+                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
+                        },
+                        "text": "<code>@<b>honeyghost</b></code> | Top 10 quotes of 2024: <em>\"The surest way to become a meme is to become the President of the United States.\"</em> - <code>honeyghost</code>'s brother (whoever it may be)"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "Derpachu made a quote that made no sense.<br><br>\"Somedays Your happy, and somedays you dressed up as a president\" - Derpachu 2024"
                     }
                 ]
             },
             {
                 "replyCount": 0,
-                "votes": 2,
+                "votes": 3,
                 "date": "4 hours ago",
                 "author": {
                     "name": "Firebrand (offline)",
@@ -173,7 +191,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 minutes ago",
+                "date": "9 minutes ago",
                 "author": {
                     "name": "Danomi42",
                     "id": "kaid_1045282636896433254069987",
@@ -198,7 +216,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -254,7 +272,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 9,
+                "replyCount": 10,
                 "votes": 1,
                 "date": "10 hours ago",
                 "author": {
@@ -339,20 +357,29 @@ var json = {
                         "text": "also wanna participate in my competition"
                     },
                     {
-                        "date": "a few seconds ago",
+                        "date": "5 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
                             "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                         },
                         "text": "Maybe :)"
+                    },
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "Pikiminachu Maybe nothing else though whats the competition"
                     }
                 ]
             },
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Duke :P",
                     "id": "kaid_351465532815782433620675",
