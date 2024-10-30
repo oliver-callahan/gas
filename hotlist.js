@@ -3,7 +3,7 @@ var json = {
     "title": "Fuego [GAME]",
     "votes": 56,
     "created": "a day ago",
-    "updated": "5 hours ago",
+    "updated": "6 hours ago",
     "type": "HTML",
     "author": {
         "name": "The Former Wizard of Oz",
@@ -152,7 +152,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "EmiliaChrystal",
                             "id": "kaid_751613025897813683409214",
@@ -337,7 +337,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "an hour ago",
                 "author": {
@@ -348,7 +348,17 @@ var json = {
                 "text": "It crashed for some reason when I crashed into the drone sideways.",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "The Former Wizard of Oz",
+                            "id": "kaid_981854986090143486946241",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Ok, I will look into it."
+                    }
+                ]
             },
             {
                 "replyCount": 1,
@@ -636,7 +646,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 2,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "FossilTortoise",
                     "id": "kaid_8716569811959107613232986",
@@ -721,7 +731,7 @@ var json = {
                                 "text": "You should make it less confusing. I was also stuck for a while and figured it out on a different level."
                             },
                             {
-                                "date": "6 hours ago",
+                                "date": "7 hours ago",
                                 "author": {
                                     "name": "The Former Wizard of Oz",
                                     "id": "kaid_981854986090143486946241",
