@@ -65,7 +65,7 @@ var json = {
             {
                 "replyCount": 4,
                 "votes": 7,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "Liam K.",
                     "id": "kaid_160653079463992085090428",
@@ -325,7 +325,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -361,7 +361,7 @@ var json = {
                         "text": "oh ok, it worked now, thanks!<br><br>yep ik, xD"
                     },
                     {
-                        "date": "19 minutes ago",
+                        "date": "24 minutes ago",
                         "author": {
                             "name": "HM Wogglebug TE",
                             "id": "kaid_2128909595278771717919649",
