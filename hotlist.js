@@ -740,7 +740,7 @@ var json = {
                                 "text": "What do you mean? I don't really know how else to explain air jump. If you have an idea, please tell me."
                             },
                             {
-                                "date": "7 hours ago",
+                                "date": "8 hours ago",
                                 "author": {
                                     "name": "FossilTortoise",
                                     "id": "kaid_8716569811959107613232986",
