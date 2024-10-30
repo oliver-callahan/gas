@@ -92,7 +92,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "EmiliaChrystal",
                             "id": "kaid_751613025897813683409214",
@@ -224,7 +224,7 @@ var json = {
                         "text": "It is difficult, but it is possible."
                     },
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "xSilentx",
                             "id": "kaid_1041630047418182982949076",
@@ -233,7 +233,7 @@ var json = {
                         "text": "Thanks, I just beat it."
                     },
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "xSilentx",
                             "id": "kaid_1041630047418182982949076",
@@ -372,7 +372,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "5 minutes ago",
+                "date": "10 minutes ago",
                 "author": {
                     "name": "Spooderman Spooderman",
                     "id": "kaid_481502226850506771685891",
@@ -446,7 +446,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "26 minutes ago",
+                "date": "31 minutes ago",
                 "author": {
                     "name": "- S p a r t a - Off",
                     "id": "kaid_546205135843777431062822",
@@ -457,7 +457,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "22 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -551,7 +551,7 @@ var json = {
                 "text": "How do you air jump?!",
                 "replies": [
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
