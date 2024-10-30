@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 33,
     "created": "12 hours ago",
-    "updated": "41 minutes ago",
+    "updated": "an hour ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -29,86 +29,8 @@ var json = {
     "posts": {
         "tips": [
             {
-                "replyCount": 7,
-                "votes": 7,
-                "date": "9 hours ago",
-                "author": {
-                    "name": "Eyeinthesky",
-                    "id": "kaid_6136710333637048514584747",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "You forgot the bandage on his ear :P",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I would get banned if I did that"
-                    },
-                    {
-                        "date": "43 minutes ago",
-                        "author": {
-                            "name": "Danomi42",
-                            "id": "kaid_1045282636896433254069987",
-                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
-                        },
-                        "text": "<code>@<b>HACK</b></code> | Wait, really? Why?"
-                    },
-                    {
-                        "date": "33 minutes ago",
-                        "author": {
-                            "name": "AlIEN",
-                            "id": "kaid_213001050410218690794137",
-                            "avatar": "/images/avatars/svg/marcimus-purple.svg"
-                        },
-                        "text": "@Eyeinthesky highly innapropriatte"
-                    },
-                    {
-                        "date": "27 minutes ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "yeah very"
-                    },
-                    {
-                        "date": "24 minutes ago",
-                        "author": {
-                            "name": "Danomi42",
-                            "id": "kaid_1045282636896433254069987",
-                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
-                        },
-                        "text": "hmmm...<br><br>I didn't say anything"
-                    },
-                    {
-                        "date": "23 minutes ago",
-                        "author": {
-                            "name": "AlIEN",
-                            "id": "kaid_213001050410218690794137",
-                            "avatar": "/images/avatars/svg/marcimus-purple.svg"
-                        },
-                        "text": "we know, i was referring to the comment we are well commenting on. I think it would be best to close this thread. No one else respond"
-                    },
-                    {
-                        "date": "22 minutes ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "<b>NO more commenting  on THIS THREAD</b>"
-                    }
-                ]
-            },
-            {
                 "replyCount": 3,
-                "votes": 6,
+                "votes": 7,
                 "date": "12 hours ago",
                 "author": {
                     "name": "honeyghost",
@@ -129,7 +51,7 @@ var json = {
                         "text": "yeah I'm not trying to be political because I only 14 and because elections coming up and because I'm not trying to get banned AGAIN"
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -138,7 +60,7 @@ var json = {
                         "text": "<code>@<b>honeyghost</b></code> | Top 10 quotes of 2024: <em>\"The surest way to become a meme is to become the President of the United States.\"</em> - <code>honeyghost</code>'s brother (whoever it may be)"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -149,8 +71,86 @@ var json = {
                 ]
             },
             {
+                "replyCount": 7,
+                "votes": 7,
+                "date": "9 hours ago",
+                "author": {
+                    "name": "Eyeinthesky",
+                    "id": "kaid_6136710333637048514584747",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "You forgot the bandage on his ear :P",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "9 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "I would get banned if I did that"
+                    },
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "Danomi42",
+                            "id": "kaid_1045282636896433254069987",
+                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
+                        },
+                        "text": "<code>@<b>HACK</b></code> | Wait, really? Why?"
+                    },
+                    {
+                        "date": "38 minutes ago",
+                        "author": {
+                            "name": "AlIEN",
+                            "id": "kaid_213001050410218690794137",
+                            "avatar": "/images/avatars/svg/marcimus-purple.svg"
+                        },
+                        "text": "@Eyeinthesky highly innapropriatte"
+                    },
+                    {
+                        "date": "32 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "yeah very"
+                    },
+                    {
+                        "date": "29 minutes ago",
+                        "author": {
+                            "name": "Danomi42",
+                            "id": "kaid_1045282636896433254069987",
+                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
+                        },
+                        "text": "hmmm...<br><br>I didn't say anything"
+                    },
+                    {
+                        "date": "28 minutes ago",
+                        "author": {
+                            "name": "AlIEN",
+                            "id": "kaid_213001050410218690794137",
+                            "avatar": "/images/avatars/svg/marcimus-purple.svg"
+                        },
+                        "text": "we know, i was referring to the comment we are well commenting on. I think it would be best to close this thread. No one else respond"
+                    },
+                    {
+                        "date": "27 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "<b>NO more commenting  on THIS THREAD</b>"
+                    }
+                ]
+            },
+            {
                 "replyCount": 1,
-                "votes": 6,
+                "votes": 7,
                 "date": "4 hours ago",
                 "author": {
                     "name": "wealR",
@@ -174,7 +174,7 @@ var json = {
             },
             {
                 "replyCount": 4,
-                "votes": 6,
+                "votes": 7,
                 "date": "8 hours ago",
                 "author": {
                     "name": "Shifter -ON-",
@@ -195,7 +195,7 @@ var json = {
                         "text": "lol that would be hilarious"
                     },
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -204,7 +204,7 @@ var json = {
                         "text": "Try saying that ten times fast..."
                     },
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -213,7 +213,7 @@ var json = {
                         "text": "that's not possible"
                     },
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -251,7 +251,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -264,7 +264,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "10 minutes ago",
+                "date": "15 minutes ago",
                 "author": {
                     "name": "Blocked by Taquavion",
                     "id": "kaid_568819712822552226070124",
@@ -278,7 +278,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "44 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Danomi42",
                     "id": "kaid_1045282636896433254069987",
@@ -289,7 +289,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -454,7 +454,7 @@ var json = {
                         "text": "also wanna participate in my competition"
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -463,7 +463,7 @@ var json = {
                         "text": "Maybe :)"
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -474,7 +474,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 3,
+                "replyCount": 4,
                 "votes": 1,
                 "date": "3 hours ago",
                 "author": {
@@ -512,13 +512,31 @@ var json = {
                             "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                         },
                         "text": "well I'm glad you like it"
+                    },
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "I got a question someone on here locked a discussion. How do you do that?"
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "You know a lot me then me am I allowed to post a link to my subpage in my comments of a project"
                     }
                 ]
             },
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "5 minutes ago",
+                "date": "10 minutes ago",
                 "author": {
                     "name": "SquiirelBoyMO",
                     "id": "kaid_773398490746126089688872",
@@ -532,7 +550,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "13 minutes ago",
+                "date": "18 minutes ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -543,7 +561,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 minutes ago",
+                        "date": "11 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -567,7 +585,7 @@ var json = {
                 "text": "trump 2024 fuh nga",
                 "replies": [
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "AlIEN",
                             "id": "kaid_213001050410218690794137",
@@ -576,7 +594,7 @@ var json = {
                         "text": "Again Innapropriatte"
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
