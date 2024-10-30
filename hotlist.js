@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 32,
     "created": "12 hours ago",
-    "updated": "26 minutes ago",
+    "updated": "31 minutes ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -51,7 +51,7 @@ var json = {
                         "text": "I would get banned if I did that"
                     },
                     {
-                        "date": "28 minutes ago",
+                        "date": "33 minutes ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -60,7 +60,7 @@ var json = {
                         "text": "<code>@<b>HACK</b></code> | Wait, really? Why?"
                     },
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "AlIEN",
                             "id": "kaid_213001050410218690794137",
@@ -69,7 +69,7 @@ var json = {
                         "text": "@Eyeinthesky highly innapropriatte"
                     },
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -78,7 +78,7 @@ var json = {
                         "text": "yeah very"
                     },
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -87,7 +87,7 @@ var json = {
                         "text": "hmmm...<br><br>I didn't say anything"
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "AlIEN",
                             "id": "kaid_213001050410218690794137",
@@ -96,13 +96,55 @@ var json = {
                         "text": "we know, i was referring to the comment we are well commenting on. I think it would be best to close this thread. No one else respond"
                     },
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
                             "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                         },
                         "text": "<b>NO more commenting  on THIS THREAD</b>"
+                    }
+                ]
+            },
+            {
+                "replyCount": 3,
+                "votes": 6,
+                "date": "12 hours ago",
+                "author": {
+                    "name": "honeyghost",
+                    "id": "kaid_381818316234075133568777",
+                    "avatar": "/images/avatars/svg/boggle-yellow.svg"
+                },
+                "text": "Okay, so this is Trump the meme, not Trump the presidential candidate. As my brother said, the surest way to become a meme is to become the president of the United States. XD",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "10 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "yeah I'm not trying to be political because I only 14 and because elections coming up and because I'm not trying to get banned AGAIN"
+                    },
+                    {
+                        "date": "30 minutes ago",
+                        "author": {
+                            "name": "Danomi42",
+                            "id": "kaid_1045282636896433254069987",
+                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
+                        },
+                        "text": "<code>@<b>honeyghost</b></code> | Top 10 quotes of 2024: <em>\"The surest way to become a meme is to become the President of the United States.\"</em> - <code>honeyghost</code>'s brother (whoever it may be)"
+                    },
+                    {
+                        "date": "27 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "Derpachu made a quote that made no sense.<br><br>\"Somedays Your happy, and somedays you dressed up as a president\" - Derpachu 2024"
                     }
                 ]
             },
@@ -153,55 +195,13 @@ var json = {
                         "text": "lol that would be hilarious"
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
                             "avatar": "/images/avatars/svg/primosaur-sapling.svg"
                         },
                         "text": "Try saying that ten times fast..."
-                    }
-                ]
-            },
-            {
-                "replyCount": 3,
-                "votes": 5,
-                "date": "11 hours ago",
-                "author": {
-                    "name": "honeyghost",
-                    "id": "kaid_381818316234075133568777",
-                    "avatar": "/images/avatars/svg/boggle-yellow.svg"
-                },
-                "text": "Okay, so this is Trump the meme, not Trump the presidential candidate. As my brother said, the surest way to become a meme is to become the president of the United States. XD",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "10 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "yeah I'm not trying to be political because I only 14 and because elections coming up and because I'm not trying to get banned AGAIN"
-                    },
-                    {
-                        "date": "25 minutes ago",
-                        "author": {
-                            "name": "Danomi42",
-                            "id": "kaid_1045282636896433254069987",
-                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
-                        },
-                        "text": "<code>@<b>honeyghost</b></code> | Top 10 quotes of 2024: <em>\"The surest way to become a meme is to become the President of the United States.\"</em> - <code>honeyghost</code>'s brother (whoever it may be)"
-                    },
-                    {
-                        "date": "22 minutes ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Derpachu made a quote that made no sense.<br><br>\"Somedays Your happy, and somedays you dressed up as a president\" - Derpachu 2024"
                     }
                 ]
             },
@@ -236,7 +236,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "29 minutes ago",
+                "date": "34 minutes ago",
                 "author": {
                     "name": "Danomi42",
                     "id": "kaid_1045282636896433254069987",
@@ -250,7 +250,7 @@ var json = {
             {
                 "replyCount": 6,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "LJ",
                     "id": "kaid_1144628223469068678737336",
@@ -348,7 +348,7 @@ var json = {
                         "text": "will you make a blue pikmin pikachu"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -402,7 +402,7 @@ var json = {
                         "text": "also wanna participate in my competition"
                     },
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -411,7 +411,7 @@ var json = {
                         "text": "Maybe :)"
                     },
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -462,6 +462,34 @@ var json = {
                         "text": "well I'm glad you like it"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "a few seconds ago",
+                "author": {
+                    "name": "Blocked by Taquavion",
+                    "id": "kaid_568819712822552226070124",
+                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                },
+                "text": "Convicted criminal pikachu noice",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "3 minutes ago",
+                "author": {
+                    "name": "Luke Ellis",
+                    "id": "kaid_8535468719137003545030723",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "To be honest, I can't believe this is #1 on the hotlist.<br>You did a great job making some people laugh, so I'll give you that. However, next time I would not recommend doing something like this.<br>lol. Great job.",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             }
         ],
         "questions": [
@@ -477,7 +505,7 @@ var json = {
                 "text": "trump 2024 fuh nga",
                 "replies": [
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "AlIEN",
                             "id": "kaid_213001050410218690794137",
