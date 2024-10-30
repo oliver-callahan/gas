@@ -3,7 +3,7 @@ var json = {
     "title": "Fuego [GAME]",
     "votes": 46,
     "created": "a day ago",
-    "updated": "30 minutes ago",
+    "updated": "35 minutes ago",
     "type": "HTML",
     "author": {
         "name": "The Former Wizard of Oz",
@@ -151,7 +151,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -400,7 +400,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 2,
-                "date": "32 minutes ago",
+                "date": "37 minutes ago",
                 "author": {
                     "name": "FossilTortoise",
                     "id": "kaid_8716569811959107613232986",
@@ -409,7 +409,7 @@ var json = {
                 "text": "I complaeted it. I fel grate!",
                 "replies": [
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -418,7 +418,7 @@ var json = {
                         "text": "Nice job! Don't tell anyone, but I have not beat the last level lol. I knew it was beatable, just did not do all of the level at once."
                     },
                     {
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "FossilTortoise",
                             "id": "kaid_8716569811959107613232986",
@@ -471,7 +471,7 @@ var json = {
                                 "text": "What do you mean? I don't really know how else to explain air jump. If you have an idea, please tell me."
                             },
                             {
-                                "date": "43 minutes ago",
+                                "date": "an hour ago",
                                 "author": {
                                     "name": "FossilTortoise",
                                     "id": "kaid_8716569811959107613232986",
