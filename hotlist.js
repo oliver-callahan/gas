@@ -3,7 +3,7 @@ var json = {
     "title": "Fuego [GAME]",
     "votes": 46,
     "created": "a day ago",
-    "updated": "20 minutes ago",
+    "updated": "25 minutes ago",
     "type": "HTML",
     "author": {
         "name": "The Former Wizard of Oz",
@@ -38,16 +38,6 @@ var json = {
         {
             "title": "Spin-off of \"Fuego [GAME]\"",
             "id": "5156908378800128",
-            "forks": 0,
-            "votes": 1,
-            "author": {
-                "name": "SephB",
-                "id": "kaid_749481601357154844323167"
-            }
-        },
-        {
-            "title": "Spin-off of \"Fuego [GAME]\"",
-            "id": "5475612165586944",
             "forks": 0,
             "votes": 1,
             "author": {
@@ -324,7 +314,7 @@ var json = {
             {
                 "replyCount": 5,
                 "votes": 1,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -410,7 +400,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 2,
-                "date": "22 minutes ago",
+                "date": "27 minutes ago",
                 "author": {
                     "name": "FossilTortoise",
                     "id": "kaid_8716569811959107613232986",
@@ -419,7 +409,7 @@ var json = {
                 "text": "I complaeted it. I fel grate!",
                 "replies": [
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -428,7 +418,7 @@ var json = {
                         "text": "Nice job! Don't tell anyone, but I have not beat the last level lol. I knew it was beatable, just did not do all of the level at once."
                     },
                     {
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "FossilTortoise",
                             "id": "kaid_8716569811959107613232986",
@@ -481,7 +471,7 @@ var json = {
                                 "text": "What do you mean? I don't really know how else to explain air jump. If you have an idea, please tell me."
                             },
                             {
-                                "date": "33 minutes ago",
+                                "date": "38 minutes ago",
                                 "author": {
                                     "name": "FossilTortoise",
                                     "id": "kaid_8716569811959107613232986",
