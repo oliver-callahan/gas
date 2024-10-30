@@ -85,7 +85,7 @@ var json = {
                         "text": "Thanks! in the later version I plan to add more graphics and stuff like that. But what does parallax mean? Does it mean a good color scheme?"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
