@@ -234,7 +234,7 @@ var json = {
                         "text": "It is difficult, but it is possible."
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "xSilentx",
                             "id": "kaid_1041630047418182982949076",
@@ -243,7 +243,7 @@ var json = {
                         "text": "Thanks, I just beat it."
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "xSilentx",
                             "id": "kaid_1041630047418182982949076",
@@ -289,7 +289,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
@@ -382,7 +382,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "25 minutes ago",
+                "date": "30 minutes ago",
                 "author": {
                     "name": "Spooderman Spooderman",
                     "id": "kaid_481502226850506771685891",
@@ -454,7 +454,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 1,
                 "date": "an hour ago",
                 "author": {
@@ -467,13 +467,22 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "Ya you can, u cant double jump."
+                    },
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "- S p a r t a - Off",
+                            "id": "kaid_546205135843777431062822",
+                            "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
+                        },
+                        "text": "As i said that, i did da air jump. Karma"
                     }
                 ]
             },
@@ -561,7 +570,7 @@ var json = {
                 "text": "How do you air jump?!",
                 "replies": [
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -596,7 +605,7 @@ var json = {
                         "text": "If you touch the ground and then slide off the edge of a block, you can jump in the air.<br><br>EDIT: you can fall and jump midair.",
                         "replies": [
                             {
-                                "date": "4 hours ago",
+                                "date": "5 hours ago",
                                 "author": {
                                     "name": "FossilTortoise",
                                     "id": "kaid_8716569811959107613232986",
