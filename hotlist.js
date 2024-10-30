@@ -85,7 +85,7 @@ var json = {
                         "text": "Thanks! in the later version I plan to add more graphics and stuff like that. But what does parallax mean? Does it mean a good color scheme?"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -421,7 +421,7 @@ var json = {
                         "text": "If you touch the ground and then slide off the edge of a block, you can jump in the air.",
                         "replies": [
                             {
-                                "date": "19 minutes ago",
+                                "date": "24 minutes ago",
                                 "author": {
                                     "name": "FossilTortoise",
                                     "id": "kaid_8716569811959107613232986",
