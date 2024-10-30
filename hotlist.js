@@ -339,7 +339,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "23 minutes ago",
+                "date": "28 minutes ago",
                 "author": {
                     "name": "Arden Dragon",
                     "id": "kaid_217695367062767875131569",
