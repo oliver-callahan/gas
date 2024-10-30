@@ -164,7 +164,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "xSilentx",
                     "id": "kaid_1041630047418182982949076",
@@ -421,7 +421,7 @@ var json = {
                         "text": "If you touch the ground and then slide off the edge of a block, you can jump in the air.",
                         "replies": [
                             {
-                                "date": "39 minutes ago",
+                                "date": "44 minutes ago",
                                 "author": {
                                     "name": "FossilTortoise",
                                     "id": "kaid_8716569811959107613232986",
@@ -430,7 +430,7 @@ var json = {
                                 "text": "You should make it less confusing. I was also stuck for a while and figured it out on a different level."
                             },
                             {
-                                "date": "11 minutes ago",
+                                "date": "16 minutes ago",
                                 "author": {
                                     "name": "The Former Wizard of Oz",
                                     "id": "kaid_981854986090143486946241",
