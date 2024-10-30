@@ -3,7 +3,7 @@ var json = {
     "title": "Fuego [GAME]",
     "votes": 42,
     "created": "14 hours ago",
-    "updated": "2 hours ago",
+    "updated": "3 hours ago",
     "type": "HTML",
     "author": {
         "name": "The Former Wizard of Oz",
@@ -50,7 +50,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 0,
-                "votes": 12,
+                "votes": 13,
                 "date": "14 hours ago",
                 "author": {
                     "name": "The Former Wizard of Oz",
@@ -115,31 +115,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 3,
-                "date": "8 hours ago",
-                "author": {
-                    "name": "HB_the_Pencil (semi-retired)",
-                    "id": "kaid_412656070256786668848958",
-                    "avatar": "/images/avatars/svg/mr-pants-green.svg"
-                },
-                "text": "Cool start!",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "7 hours ago",
-                        "author": {
-                            "name": "The Former Wizard of Oz",
-                            "id": "kaid_981854986090143486946241",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "Thank you!"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 3,
+                "votes": 5,
                 "date": "3 hours ago",
                 "author": {
                     "name": "Dat",
@@ -158,6 +134,30 @@ var json = {
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "I ate them now u have to get them"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 3,
+                "date": "8 hours ago",
+                "author": {
+                    "name": "HB_the_Pencil (semi-retired)",
+                    "id": "kaid_412656070256786668848958",
+                    "avatar": "/images/avatars/svg/mr-pants-green.svg"
+                },
+                "text": "Cool start!",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "8 hours ago",
+                        "author": {
+                            "name": "The Former Wizard of Oz",
+                            "id": "kaid_981854986090143486946241",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Thank you!"
                     }
                 ]
             },
@@ -199,7 +199,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
