@@ -164,7 +164,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "xSilentx",
                     "id": "kaid_1041630047418182982949076",
@@ -265,7 +265,7 @@ var json = {
                         "text": "Thanks! What does \"a little weird out of where\" mean? Whatever it is, I am sure it will be fixed in the later version."
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "Duke :P",
                             "id": "kaid_351465532815782433620675",
