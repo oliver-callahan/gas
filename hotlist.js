@@ -284,7 +284,7 @@ var json = {
                         "text": "It is difficult, but it is possible."
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "xSilentx",
                             "id": "kaid_1041630047418182982949076",
@@ -293,7 +293,7 @@ var json = {
                         "text": "Thanks, I just beat it."
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "xSilentx",
                             "id": "kaid_1041630047418182982949076",
@@ -419,7 +419,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "34 minutes ago",
+                        "date": "39 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -432,7 +432,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
@@ -470,7 +470,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Spooderman Spooderman",
                     "id": "kaid_481502226850506771685891",
@@ -722,7 +722,7 @@ var json = {
                         "text": "If you touch the ground and then slide off the edge of a block, you can jump in the air.<br><br>EDIT: you can fall and jump midair.",
                         "replies": [
                             {
-                                "date": "7 hours ago",
+                                "date": "8 hours ago",
                                 "author": {
                                     "name": "FossilTortoise",
                                     "id": "kaid_8716569811959107613232986",
