@@ -188,7 +188,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 2,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "LemonTurtle",
                     "id": "kaid_26727758302107548837304",
@@ -361,7 +361,7 @@ var json = {
                         "text": "oh ok, it worked now, thanks!<br><br>yep ik, xD"
                     },
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "HM Wogglebug TE",
                             "id": "kaid_2128909595278771717919649",
@@ -400,7 +400,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "gpnedelea",
                     "id": "kaid_837047048676564421111370",
