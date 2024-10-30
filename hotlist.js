@@ -92,7 +92,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "EmiliaChrystal",
                             "id": "kaid_751613025897813683409214",
@@ -354,7 +354,7 @@ var json = {
             {
                 "replyCount": 5,
                 "votes": 1,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -414,7 +414,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "6 minutes ago",
+                "date": "11 minutes ago",
                 "author": {
                     "name": "- S p a r t a - Off",
                     "id": "kaid_546205135843777431062822",
@@ -425,7 +425,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -510,7 +510,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "36 minutes ago",
+                "date": "41 minutes ago",
                 "author": {
                     "name": "EmiliaChrystal",
                     "id": "kaid_751613025897813683409214",
@@ -519,7 +519,7 @@ var json = {
                 "text": "How do you air jump?!",
                 "replies": [
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
