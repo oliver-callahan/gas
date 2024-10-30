@@ -90,7 +90,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 1,
-                "votes": 15,
+                "votes": 16,
                 "date": "a day ago",
                 "author": {
                     "name": "The Former Wizard of Oz",
@@ -234,7 +234,7 @@ var json = {
                         "text": "It is difficult, but it is possible."
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "xSilentx",
                             "id": "kaid_1041630047418182982949076",
@@ -243,7 +243,7 @@ var json = {
                         "text": "Thanks, I just beat it."
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "xSilentx",
                             "id": "kaid_1041630047418182982949076",
@@ -382,7 +382,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "35 minutes ago",
+                "date": "40 minutes ago",
                 "author": {
                     "name": "Spooderman Spooderman",
                     "id": "kaid_481502226850506771685891",
@@ -393,7 +393,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a few seconds ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -486,7 +486,7 @@ var json = {
                         "text": "Ya you can, u cant double jump."
                     },
                     {
-                        "date": "6 minutes ago",
+                        "date": "11 minutes ago",
                         "author": {
                             "name": "- S p a r t a - Off",
                             "id": "kaid_546205135843777431062822",
@@ -495,7 +495,7 @@ var json = {
                         "text": "As i said that, i did da air jump. Karma"
                     },
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -506,7 +506,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "2 hours ago",
                 "author": {
@@ -517,7 +517,17 @@ var json = {
                 "text": "I have an idea, what if you had a level with 2 players one controlled with wasd and on with the arrow keys and both have to finish the level. Great game 39th vote :D",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "The Former Wizard of Oz",
+                            "id": "kaid_981854986090143486946241",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Yea, that's been done to death though. Also, I like solitary games. Thanks!"
+                    }
+                ]
             },
             {
                 "replyCount": 1,
@@ -580,7 +590,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "EmiliaChrystal",
                     "id": "kaid_751613025897813683409214",
