@@ -274,7 +274,7 @@ var json = {
                         "text": "Your most welcome! Keep it up :)<br>Oh I just meant everything is cubes and then there are drones which aren't exactly cubes ;P<br><br>but yeah it look sweet. And that isn't really a problem just something I was surprised by."
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -314,7 +314,7 @@ var json = {
             {
                 "replyCount": 4,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -376,7 +376,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
