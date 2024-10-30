@@ -3,7 +3,7 @@ var json = {
     "title": "Fuego [GAME]",
     "votes": 46,
     "created": "a day ago",
-    "updated": "a few seconds ago",
+    "updated": "5 minutes ago",
     "type": "HTML",
     "author": {
         "name": "The Former Wizard of Oz",
@@ -221,7 +221,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
@@ -398,6 +398,38 @@ var json = {
         ],
         "questions": [
             {
+                "replyCount": 2,
+                "votes": 2,
+                "date": "7 minutes ago",
+                "author": {
+                    "name": "FossilTortoise",
+                    "id": "kaid_8716569811959107613232986",
+                    "avatar": "/images/avatars/svg/blobby-green.svg"
+                },
+                "text": "I complaeted it. I fel grate!",
+                "replies": [
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "The Former Wizard of Oz",
+                            "id": "kaid_981854986090143486946241",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Nice job! Don't tell anyone, but I have not beat the last level lol. I knew it was beatable, just did not do all of the level at once."
+                    },
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "FossilTortoise",
+                            "id": "kaid_8716569811959107613232986",
+                            "avatar": "/images/avatars/svg/blobby-green.svg"
+                        },
+                        "text": "yeah it took me a while lol"
+                    }
+                ],
+                "answers": []
+            },
+            {
                 "replyCount": 0,
                 "votes": 1,
                 "date": "a day ago",
@@ -421,7 +453,7 @@ var json = {
                         "text": "If you touch the ground and then slide off the edge of a block, you can jump in the air.<br><br>EDIT: you can fall and jump midair.",
                         "replies": [
                             {
-                                "date": "an hour ago",
+                                "date": "2 hours ago",
                                 "author": {
                                     "name": "FossilTortoise",
                                     "id": "kaid_8716569811959107613232986",
@@ -439,7 +471,7 @@ var json = {
                                 "text": "What do you mean? I don't really know how else to explain air jump. If you have an idea, please tell me."
                             },
                             {
-                                "date": "13 minutes ago",
+                                "date": "18 minutes ago",
                                 "author": {
                                     "name": "FossilTortoise",
                                     "id": "kaid_8716569811959107613232986",
@@ -450,19 +482,6 @@ var json = {
                         ]
                     }
                 ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "2 minutes ago",
-                "author": {
-                    "name": "FossilTortoise",
-                    "id": "kaid_8716569811959107613232986",
-                    "avatar": "/images/avatars/svg/blobby-green.svg"
-                },
-                "text": "I complaeted it. I fel grate!",
-                "replies": [],
-                "answers": []
             }
         ]
     }
