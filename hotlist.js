@@ -382,7 +382,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "16 minutes ago",
+                "date": "21 minutes ago",
                 "author": {
                     "name": "Emily Farr",
                     "id": "kaid_462447658815836917479419",
@@ -407,7 +407,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -440,7 +440,7 @@ var json = {
                         "text": "It should not be that bad. It runs really fast on my school managed Chromebook, and that is about as potato as they come. What type of computer do you have, a Ti-84?"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "sugarnlight",
                             "id": "kaid_516497598968512440616556",
@@ -467,7 +467,7 @@ var json = {
                         "text": "oh ok, it worked now, thanks!<br><br>yep ik, xD"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "HM Wogglebug TE",
                             "id": "kaid_2128909595278771717919649",
@@ -491,7 +491,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -500,7 +500,7 @@ var json = {
                         "text": "Ya you can, u cant double jump."
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "- S p a r t a - Off",
                             "id": "kaid_546205135843777431062822",
@@ -509,7 +509,7 @@ var json = {
                         "text": "As i said that, i did da air jump. Karma"
                     },
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -522,7 +522,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
@@ -533,7 +533,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -613,7 +613,7 @@ var json = {
                 "text": "How do you air jump?!",
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
