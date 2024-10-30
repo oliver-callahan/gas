@@ -325,7 +325,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -430,7 +430,7 @@ var json = {
                                 "text": "You should make it less confusing. I was also stuck for a while and figured it out on a different level."
                             },
                             {
-                                "date": "36 minutes ago",
+                                "date": "41 minutes ago",
                                 "author": {
                                     "name": "The Former Wizard of Oz",
                                     "id": "kaid_981854986090143486946241",
