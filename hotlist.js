@@ -92,7 +92,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "EmiliaChrystal",
                             "id": "kaid_751613025897813683409214",
@@ -202,7 +202,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 3,
                 "votes": 2,
                 "date": "a day ago",
                 "author": {
@@ -222,6 +222,24 @@ var json = {
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "It is difficult, but it is possible."
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "xSilentx",
+                            "id": "kaid_1041630047418182982949076",
+                            "avatar": "/images/avatars/svg/stelly-blue.svg"
+                        },
+                        "text": "Thanks, I just beat it."
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "xSilentx",
+                            "id": "kaid_1041630047418182982949076",
+                            "avatar": "/images/avatars/svg/stelly-blue.svg"
+                        },
+                        "text": "And it is very hard."
                     }
                 ]
             },
@@ -352,6 +370,20 @@ var json = {
                 ]
             },
             {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "a few seconds ago",
+                "author": {
+                    "name": "Spooderman Spooderman",
+                    "id": "kaid_481502226850506771685891",
+                    "avatar": "/images/avatars/svg/piceratops-sapling.svg"
+                },
+                "text": "I beat it finally",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
                 "replyCount": 5,
                 "votes": 1,
                 "date": "19 hours ago",
@@ -414,7 +446,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "16 minutes ago",
+                "date": "21 minutes ago",
                 "author": {
                     "name": "- S p a r t a - Off",
                     "id": "kaid_546205135843777431062822",
@@ -425,7 +457,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -487,7 +519,7 @@ var json = {
                 "text": "I complaeted it. I fel grate!",
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -496,7 +528,7 @@ var json = {
                         "text": "Nice job! Don't tell anyone, but I have not beat the last level lol. I knew it was beatable, just did not do all of the level at once."
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "FossilTortoise",
                             "id": "kaid_8716569811959107613232986",
@@ -519,7 +551,7 @@ var json = {
                 "text": "How do you air jump?!",
                 "replies": [
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
