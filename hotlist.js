@@ -574,7 +574,7 @@ var json = {
                         "text": "Ya you can, u cant double jump."
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "- S p a r t a - Off",
                             "id": "kaid_546205135843777431062822",
@@ -655,7 +655,7 @@ var json = {
                 "text": "I complaeted it. I fel grate!",
                 "replies": [
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -664,7 +664,7 @@ var json = {
                         "text": "Nice job! Don't tell anyone, but I have not beat the last level lol. I knew it was beatable, just did not do all of the level at once."
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "FossilTortoise",
                             "id": "kaid_8716569811959107613232986",
