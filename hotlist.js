@@ -92,7 +92,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "EmiliaChrystal",
                             "id": "kaid_751613025897813683409214",
@@ -412,9 +412,9 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
-                "date": "a minute ago",
+                "date": "6 minutes ago",
                 "author": {
                     "name": "- S p a r t a - Off",
                     "id": "kaid_546205135843777431062822",
@@ -423,7 +423,17 @@ var json = {
                 "text": "bruh you can't air jump",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "The Former Wizard of Oz",
+                            "id": "kaid_981854986090143486946241",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Ya you can, u cant double jump."
+                    }
+                ]
             },
             {
                 "replyCount": 0,
@@ -498,16 +508,26 @@ var json = {
                 "answers": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
-                "date": "31 minutes ago",
+                "date": "36 minutes ago",
                 "author": {
                     "name": "EmiliaChrystal",
                     "id": "kaid_751613025897813683409214",
                     "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
                 },
                 "text": "How do you air jump?!",
-                "replies": [],
+                "replies": [
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "The Former Wizard of Oz",
+                            "id": "kaid_981854986090143486946241",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "see other answer"
+                    }
+                ],
                 "answers": []
             },
             {
@@ -552,7 +572,7 @@ var json = {
                                 "text": "What do you mean? I don't really know how else to explain air jump. If you have an idea, please tell me."
                             },
                             {
-                                "date": "2 hours ago",
+                                "date": "3 hours ago",
                                 "author": {
                                     "name": "FossilTortoise",
                                     "id": "kaid_8716569811959107613232986",
