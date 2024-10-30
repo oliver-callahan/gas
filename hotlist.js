@@ -3,7 +3,7 @@ var json = {
     "title": "Fuego [GAME]",
     "votes": 49,
     "created": "a day ago",
-    "updated": "an hour ago",
+    "updated": "2 hours ago",
     "type": "HTML",
     "author": {
         "name": "The Former Wizard of Oz",
@@ -404,7 +404,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 minutes ago",
+                "date": "15 minutes ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
@@ -444,7 +444,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 2,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "FossilTortoise",
                     "id": "kaid_8716569811959107613232986",
@@ -506,7 +506,7 @@ var json = {
                                 "text": "You should make it less confusing. I was also stuck for a while and figured it out on a different level."
                             },
                             {
-                                "date": "2 hours ago",
+                                "date": "3 hours ago",
                                 "author": {
                                     "name": "The Former Wizard of Oz",
                                     "id": "kaid_981854986090143486946241",
