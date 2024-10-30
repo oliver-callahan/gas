@@ -94,7 +94,7 @@ var json = {
                         "text": "By parallax, I mean that the background looks like it has perspective, and slightly moves with the camera"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "ASBackup",
                             "id": "kaid_714780036830891967670231",
@@ -103,7 +103,7 @@ var json = {
                         "text": "if it helps, i used a parallax in the background of<br><br>khanacademy.org/cs/-/6727382872539136<br><br>in this example, the mouse moves the background at varying speeds depending on the layer."
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -116,7 +116,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 6,
-                "date": "14 hours ago",
+                "date": "15 hours ago",
                 "author": {
                     "name": "Dat",
                     "id": "kaid_4164356982737975081215128",
@@ -343,7 +343,7 @@ var json = {
                         "text": "xD, that's a calculator<br>I have a school Chromebook, but oh noes says the JavaScript is taking too long to load."
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -352,7 +352,7 @@ var json = {
                         "text": "Try pressing reload. There are a lot of things pushed into arrays at the beginning, once the game is there it should work fast. If it is slow, you have to be on internet explorer which does not execute the <code>ctx.fillStyle</code> property the right way. As far as I know, that is the only web browser that has issues with canvas 2D.<br><br>The Ti-84 thing was a joke lol."
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "sugarnlight",
                             "id": "kaid_516497598968512440616556",
@@ -410,9 +410,9 @@ var json = {
                 "replies": [],
                 "answers": [
                     {
-                        "replyCount": 1,
+                        "replyCount": 2,
                         "votes": 1,
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -421,13 +421,22 @@ var json = {
                         "text": "If you touch the ground and then slide off the edge of a block, you can jump in the air.",
                         "replies": [
                             {
-                                "date": "24 minutes ago",
+                                "date": "29 minutes ago",
                                 "author": {
                                     "name": "FossilTortoise",
                                     "id": "kaid_8716569811959107613232986",
                                     "avatar": "/images/avatars/svg/blobby-green.svg"
                                 },
                                 "text": "You should make it less confusing. I was also stuck for a while and figured it out on a different level."
+                            },
+                            {
+                                "date": "a minute ago",
+                                "author": {
+                                    "name": "The Former Wizard of Oz",
+                                    "id": "kaid_981854986090143486946241",
+                                    "avatar": "/images/avatars/svg/leaf-blue.svg"
+                                },
+                                "text": "What do you mean? I don't really know how else to explain air jump. If you have an idea, please tell me."
                             }
                         ]
                     }
