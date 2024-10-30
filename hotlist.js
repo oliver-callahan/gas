@@ -136,7 +136,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 7,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "Dat",
                     "id": "kaid_4164356982737975081215128",
@@ -363,7 +363,7 @@ var json = {
                         "text": "xD, that's a calculator<br>I have a school Chromebook, but oh noes says the JavaScript is taking too long to load."
                     },
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -372,7 +372,7 @@ var json = {
                         "text": "Try pressing reload. There are a lot of things pushed into arrays at the beginning, once the game is there it should work fast. If it is slow, you have to be on internet explorer which does not execute the <code>ctx.fillStyle</code> property the right way. As far as I know, that is the only web browser that has issues with canvas 2D.<br><br>The Ti-84 thing was a joke lol."
                     },
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "sugarnlight",
                             "id": "kaid_516497598968512440616556",
