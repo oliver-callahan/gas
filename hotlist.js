@@ -241,7 +241,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
@@ -473,7 +473,7 @@ var json = {
                         "text": "If you touch the ground and then slide off the edge of a block, you can jump in the air.<br><br>EDIT: you can fall and jump midair.",
                         "replies": [
                             {
-                                "date": "2 hours ago",
+                                "date": "3 hours ago",
                                 "author": {
                                     "name": "FossilTortoise",
                                     "id": "kaid_8716569811959107613232986",
