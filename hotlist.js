@@ -334,7 +334,7 @@ var json = {
                         "text": "It should not be that bad. It runs really fast on my school managed Chromebook, and that is about as potato as they come. What type of computer do you have, a Ti-84?"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "sugarnlight",
                             "id": "kaid_516497598968512440616556",
@@ -361,7 +361,7 @@ var json = {
                         "text": "oh ok, it worked now, thanks!<br><br>yep ik, xD"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "HM Wogglebug TE",
                             "id": "kaid_2128909595278771717919649",
@@ -410,7 +410,7 @@ var json = {
                 "replies": [],
                 "answers": [
                     {
-                        "replyCount": 2,
+                        "replyCount": 3,
                         "votes": 1,
                         "date": "21 hours ago",
                         "author": {
@@ -437,6 +437,15 @@ var json = {
                                     "avatar": "/images/avatars/svg/leaf-blue.svg"
                                 },
                                 "text": "What do you mean? I don't really know how else to explain air jump. If you have an idea, please tell me."
+                            },
+                            {
+                                "date": "3 minutes ago",
+                                "author": {
+                                    "name": "FossilTortoise",
+                                    "id": "kaid_8716569811959107613232986",
+                                    "avatar": "/images/avatars/svg/blobby-green.svg"
+                                },
+                                "text": "idk maybe \"You can fall and then jump midair\" or have arrows that show where to jump."
                             }
                         ]
                     }
