@@ -76,7 +76,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -283,7 +283,7 @@ var json = {
                         "text": "Oh, ok. I might make the blocks have better graphics in the later games, or at least put something like bolts or a texture on them. So the drones will fit in better because they won't be the only non-square. Thanks!"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Duke :P",
                             "id": "kaid_351465532815782433620675",
