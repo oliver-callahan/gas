@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 32,
     "created": "12 hours ago",
-    "updated": "16 minutes ago",
+    "updated": "21 minutes ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -29,7 +29,7 @@ var json = {
     "posts": {
         "tips": [
             {
-                "replyCount": 4,
+                "replyCount": 7,
                 "votes": 7,
                 "date": "8 hours ago",
                 "author": {
@@ -51,7 +51,7 @@ var json = {
                         "text": "I would get banned if I did that"
                     },
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -60,7 +60,7 @@ var json = {
                         "text": "<code>@<b>HACK</b></code> | Wait, really? Why?"
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "AlIEN",
                             "id": "kaid_213001050410218690794137",
@@ -69,13 +69,40 @@ var json = {
                         "text": "@Eyeinthesky highly innapropriatte"
                     },
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
                             "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                         },
                         "text": "yeah very"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Danomi42",
+                            "id": "kaid_1045282636896433254069987",
+                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
+                        },
+                        "text": "hmmm...<br><br>I didn't say anything"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "AlIEN",
+                            "id": "kaid_213001050410218690794137",
+                            "avatar": "/images/avatars/svg/marcimus-purple.svg"
+                        },
+                        "text": "we know, i was referring to the comment we are well commenting on. I think it would be best to close this thread. No one else respond"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "<b>no more commenting  on this</b>"
                     }
                 ]
             },
@@ -106,7 +133,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 6,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "Shifter -ON-",
                     "id": "kaid_892112752920553577482062",
@@ -126,7 +153,7 @@ var json = {
                         "text": "lol that would be hilarious"
                     },
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -159,7 +186,7 @@ var json = {
                         "text": "yeah I'm not trying to be political because I only 14 and because elections coming up and because I'm not trying to get banned AGAIN"
                     },
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -168,7 +195,7 @@ var json = {
                         "text": "<code>@<b>honeyghost</b></code> | Top 10 quotes of 2024: <em>\"The surest way to become a meme is to become the President of the United States.\"</em> - <code>honeyghost</code>'s brother (whoever it may be)"
                     },
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -209,7 +236,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "19 minutes ago",
+                "date": "24 minutes ago",
                 "author": {
                     "name": "Danomi42",
                     "id": "kaid_1045282636896433254069987",
@@ -357,7 +384,7 @@ var json = {
                         "text": "Ohh Actually I could make a blue Pikamin I have an idea for that"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -366,7 +393,7 @@ var json = {
                         "text": "pikamin rainbow and pikaborb (bulborb) confirmed?"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -375,7 +402,7 @@ var json = {
                         "text": "also wanna participate in my competition"
                     },
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -384,7 +411,7 @@ var json = {
                         "text": "Maybe :)"
                     },
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -426,7 +453,7 @@ var json = {
                         "text": "Your welcome ;)<br>I comment on what I like :)"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -439,7 +466,7 @@ var json = {
         ],
         "questions": [
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 0,
                 "date": "4 hours ago",
                 "author": {
@@ -448,7 +475,17 @@ var json = {
                     "avatar": "/images/avatars/svg/starky-seed.svg"
                 },
                 "text": "trump 2024 fuh nga",
-                "replies": [],
+                "replies": [
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "AlIEN",
+                            "id": "kaid_213001050410218690794137",
+                            "avatar": "/images/avatars/svg/marcimus-purple.svg"
+                        },
+                        "text": "Again Innapropriatte"
+                    }
+                ],
                 "answers": []
             }
         ]
