@@ -3,7 +3,7 @@ var json = {
     "title": "Fuego [GAME]",
     "votes": 43,
     "created": "a day ago",
-    "updated": "13 hours ago",
+    "updated": "14 hours ago",
     "type": "HTML",
     "author": {
         "name": "The Former Wizard of Oz",
@@ -151,7 +151,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -410,7 +410,7 @@ var json = {
                 "replies": [],
                 "answers": [
                     {
-                        "replyCount": 0,
+                        "replyCount": 1,
                         "votes": 1,
                         "date": "20 hours ago",
                         "author": {
@@ -419,7 +419,17 @@ var json = {
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "If you touch the ground and then slide off the edge of a block, you can jump in the air.",
-                        "replies": []
+                        "replies": [
+                            {
+                                "date": "4 minutes ago",
+                                "author": {
+                                    "name": "FossilTortoise",
+                                    "id": "kaid_8716569811959107613232986",
+                                    "avatar": "/images/avatars/svg/blobby-green.svg"
+                                },
+                                "text": "You should make it less confusing. I was also stuck for a while and figured it out on a different level."
+                            }
+                        ]
                     }
                 ]
             }
