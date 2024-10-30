@@ -382,7 +382,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "21 minutes ago",
+                "date": "26 minutes ago",
                 "author": {
                     "name": "Emily Farr",
                     "id": "kaid_462447658815836917479419",
@@ -407,7 +407,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -509,7 +509,7 @@ var json = {
                         "text": "As i said that, i did da air jump. Karma"
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -533,7 +533,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
