@@ -177,7 +177,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -234,7 +234,7 @@ var json = {
                         "text": "It is difficult, but it is possible."
                     },
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "xSilentx",
                             "id": "kaid_1041630047418182982949076",
@@ -243,7 +243,7 @@ var json = {
                         "text": "Thanks, I just beat it."
                     },
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "xSilentx",
                             "id": "kaid_1041630047418182982949076",
@@ -300,7 +300,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -380,9 +380,9 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
-                "date": "30 minutes ago",
+                "date": "35 minutes ago",
                 "author": {
                     "name": "Spooderman Spooderman",
                     "id": "kaid_481502226850506771685891",
@@ -391,7 +391,17 @@ var json = {
                 "text": "I beat it finally",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "The Former Wizard of Oz",
+                            "id": "kaid_981854986090143486946241",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Nice job!"
+                    }
+                ]
             },
             {
                 "replyCount": 5,
@@ -454,7 +464,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 2,
+                "replyCount": 3,
                 "votes": 1,
                 "date": "an hour ago",
                 "author": {
@@ -476,13 +486,22 @@ var json = {
                         "text": "Ya you can, u cant double jump."
                     },
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "- S p a r t a - Off",
                             "id": "kaid_546205135843777431062822",
                             "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
                         },
                         "text": "As i said that, i did da air jump. Karma"
+                    },
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "The Former Wizard of Oz",
+                            "id": "kaid_981854986090143486946241",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Lol, hope you hav fun playing the gam"
                     }
                 ]
             },
