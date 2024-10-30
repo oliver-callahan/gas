@@ -312,7 +312,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 4,
+                "replyCount": 5,
                 "votes": 1,
                 "date": "4 hours ago",
                 "author": {
@@ -359,6 +359,15 @@ var json = {
                             "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
                         },
                         "text": "oh ok, it worked now, thanks!<br><br>yep ik, xD"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "HM Wogglebug TE",
+                            "id": "kaid_2128909595278771717919649",
+                            "avatar": "/images/avatars/svg/boggle-green.svg"
+                        },
+                        "text": "A Ti-86 could probably run a watered down version of this game =P"
                     }
                 ]
             },
