@@ -1,9 +1,9 @@
 var json = {
     "code": "/** \n **IMPORTANT**\n **This Is not me being political \n **This Is not me Encouraging you to vote for him\n **This Is not me Encouraging you to vote against him\n **So Don't be thinking this is me doing anything \n **This is the First Idea I got when I thought of a new Derpachu to make\n * \n * \n * Oct 30 5:50pm I log on to make something find out this is 2ND on the HOTLIST HOW\n * Oct 30 7:10pm I AM 1ST ON THE HOTLIST FOR THE FIRST TIME EVER YAAAAAAAAAAAAAAAAYYYY\n * Oct 31 7:55am HALLOWEEN HOW ON EARTH IS THIS STILL 1ST ON THE HOTLIST HOOWWWW\n\n              Here Is my Subpage\n              if you wanna sub\n\nhttps://www.khanacademy.org/computer-programming/my-subpage-yeaaaaaaaaaaaaaaaaaaaa/6431479248109568 \n\n\n**/\n{\nvar pixelSize = 6;\n\nvar palette = {\n    \".\" : color(0, 166, 255),\n    \"1\" : color(0, 0, 0),\n    \"2\" : color(252, 5, 5),\n    \"3\" : color(117, 69, 2),\n    \"4\" : color(251, 255, 0),\n    \"5\" : color(0, 7, 133),\n    \"6\" : color(207, 207, 207),\n    \"7\" : color(230, 172, 12),\n    \"8\" : color(240, 202, 32),\n    \"9\" : color(135, 83, 0),\n    \"a\" : color(255, 175, 84),\n    \"b\" : color(255, 255, 255)\n};\n\nvar bitmap = [\n     \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"..................0000000000000....................................\",\n    \".................00000.000.00000...................................\",\n    \"................000...........000..................................\",\n    \"..........00000000..............000000.............................\",\n    \"........00000........................00............................\",\n    \".......0000...........................00...........................\",\n    \".......000.............................00..........................\",\n    \".......00...............................0..........................\",\n    \".......00...............................0..........................\",\n    \".......00...............................0..........................\",\n    \".......00...............................0..........................\",\n    \"........00.............................00..........................\",\n    \".........00..........................000...........................\",\n    \"..........00000000..............0000000............................\",\n    \"................000............000.................................\",\n    \".................000........0000...................................\",\n    \"..................000000000000.....................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \".................................7777778...........................\",\n    \"............................7777777777778..........................\",\n    \"..........................77777777777777788........................\",\n    \"........................777777777777777778.........................\",\n    \"........................77777777777777788..........................\",\n    \".......................777777888888888811..........................\",\n    \".......................7778888114444441bb1.........................\",\n    \".......................7888441bb1411141b1b1........................\",\n    \"....................1..884441b1b1412141bbb1........................\",\n    \"...................141..14441bbb14414441bb1........................\",\n    \"..................1441..14441bb1444444441121.......................\",\n    \".................14441..14442114444444444221.......................\",\n    \"................1444441.14442244444444444441.......................\",\n    \"...............14444441..1555555566665555551.......................\",\n    \"..............1444444441.15555555522555555551......................\",\n    \"...............144444441.1555555552255555/551......................\",\n    \"................144444331155555/5522555/5/551......................\",\n    \"....aaaaaa.......144443331555/5/55225555/5551......................\",\n    \"...aa....a........144433315555/55522555555551......................\",\n    \"..aa.....a.........14411331555555522555555551......................\",\n    \".aa......a..........11..11155555556655555551.......................\",\n    \"aa.......a................15555555665555551........................\",\n    \".a.......a.................155555566555551.........................\",\n    \".a.......a..................1151111111151..........................\",\n    \".a.......a...................111......111..........................\",\n    \".a...99999999999999999999999999999999999999999999999999999999999999\",\n    \".a..999999999999999999999999999999999999999999999999999999999999999\",\n    \".a.9999999999999999999999999999999999999999999999999999999999999999\",\n    \".a99999999999999999999999999999999999999999999999999999999999999999\",\n    \".999999999999999999999999999999999999999999999999999999999999999999\",\n    \"9999999999999999999999999999999999999999999999999999999999999999999\",\n\n\n\n\n    ];\n\nnoStroke(); \nfor (var i = 0; i < bitmap.length; i++) {\n    for (var j = 0; j < bitmap[i].length; j++) {\n        fill(palette[bitmap[i].charAt(j)]);\n        rect(j * pixelSize, i * pixelSize, pixelSize, pixelSize);\n    }\n    \n    \n}\n\n\n\nvar leftX = 147;\nvar rightX = 270;\nfill(255, 255, 255);\nellipse(leftX, 100, 126, 97);\nellipse(leftX+62, 100, 70, 60);\nellipse(leftX-62, 100, 70, 60);\n\n}",
     "title": "Trumpachu *read description*",
-    "votes": 41,
+    "votes": 42,
     "created": "a day ago",
-    "updated": "an hour ago",
+    "updated": "2 hours ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -251,7 +251,7 @@ var json = {
                         "text": "I third this... my comment was locked because people argued in the reply"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -350,7 +350,7 @@ var json = {
                         "text": "@LJ oh XD <br><br>yeah I think the guardians r volunteers"
                     },
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "ρlατγρυς ρгοgгαммιηg",
                             "id": "kaid_3625391900429892923499026",
@@ -359,7 +359,7 @@ var json = {
                         "text": "Actually, I think the guardians are watching too busy watching something else right now: this thread lol"
                     },
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "ρlατγρυς ρгοgгαммιηg",
                             "id": "kaid_3625391900429892923499026",
@@ -368,7 +368,7 @@ var json = {
                         "text": "Btw, I had one of my posts taken down (people probably reported it because of their political ideas)"
                     },
                     {
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -377,7 +377,7 @@ var json = {
                         "text": "@pp can u change ur bio, this is an educational website and all the 4th graders don't need to see ur political opinions<br><br>also yeah the guardians are totally watching this thread XD"
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "ρlατγρυς ρгοgгαммιηg",
                             "id": "kaid_3625391900429892923499026",
@@ -386,7 +386,7 @@ var json = {
                         "text": "@Mathlete11, I understand what you mean, but please try to understand what I mean.<br><br>This is supposed to be a free country. I am not telling anybody to vote a certain way. I’m not forcing people to agree with my opinions. I am only practicing my rights as an American citizen to practice my freedom of speech. In public schools, people can share their political and religious opinions, as long as they don’t force others to agree.<br><br>I hope you understand. I will try to rephrase my bio in a way that won’t offend others.<br><br>EDIT: I just rephrased it. Thank you for telling me your thoughts, @Mathlete11. Your idea could could have just saved me from some trouble"
                     },
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -462,7 +462,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -576,7 +576,7 @@ var json = {
                         "text": "Pikiminachu Maybe nothing else though whats the competition"
                     },
                     {
-                        "date": "29 minutes ago",
+                        "date": "34 minutes ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -585,7 +585,7 @@ var json = {
                         "text": "its a mario and luigi (based off the rpg mario and luigis) art competition. due by november 7th. you could technichallly do a luigi pikachu with the rpg hammer or in one of the rpg areas and get first place."
                     },
                     {
-                        "date": "29 minutes ago",
+                        "date": "34 minutes ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -618,7 +618,7 @@ var json = {
                         "text": "Thanks I never thought I would see you comment on one of my projects"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Duke :P",
                             "id": "kaid_351465532815782433620675",
@@ -636,7 +636,7 @@ var json = {
                         "text": "well I'm glad you like it"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -645,7 +645,7 @@ var json = {
                         "text": "I got a question someone on here locked a discussion. How do you do that?"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -816,7 +816,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "25 minutes ago",
+                "date": "30 minutes ago",
                 "author": {
                     "name": "Zidane Medina",
                     "id": "kaid_4593991067080431920712749",
