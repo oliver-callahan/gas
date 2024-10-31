@@ -42,91 +42,13 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
                             "avatar": "/images/avatars/svg/starky-sapling.svg"
                         },
                         "text": "yeah lol"
-                    }
-                ]
-            },
-            {
-                "replyCount": 7,
-                "votes": 8,
-                "date": "10 hours ago",
-                "author": {
-                    "name": "Eyeinthesky",
-                    "id": "kaid_6136710333637048514584747",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "You forgot the bandage on his ear :P",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "10 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I would get banned if I did that"
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "Danomi42",
-                            "id": "kaid_1045282636896433254069987",
-                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
-                        },
-                        "text": "<code>@<b>HACK</b></code> | Wait, really? Why?"
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "AlIEN",
-                            "id": "kaid_213001050410218690794137",
-                            "avatar": "/images/avatars/svg/marcimus-purple.svg"
-                        },
-                        "text": "@Eyeinthesky highly innapropriatte"
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "yeah very"
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "Danomi42",
-                            "id": "kaid_1045282636896433254069987",
-                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
-                        },
-                        "text": "hmmm...<br><br>I didn't say anything"
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "AlIEN",
-                            "id": "kaid_213001050410218690794137",
-                            "avatar": "/images/avatars/svg/marcimus-purple.svg"
-                        },
-                        "text": "we know, i was referring to the comment we are well commenting on. I think it would be best to close this thread. No one else respond"
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "<b>NO more commenting  on THIS THREAD</b>"
                     }
                 ]
             },
@@ -144,7 +66,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -240,7 +162,7 @@ var json = {
             {
                 "replyCount": 5,
                 "votes": 4,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -461,7 +383,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -485,7 +407,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "Blocked by Taquavion",
                     "id": "kaid_568819712822552226070124",
@@ -543,7 +465,7 @@ var json = {
                         "text": "what? he's wearing a tuxedo"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -628,7 +550,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "31 minutes ago",
+                "date": "36 minutes ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
