@@ -42,7 +42,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -66,7 +66,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -176,7 +176,7 @@ var json = {
             {
                 "replyCount": 5,
                 "votes": 4,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -328,7 +328,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -489,7 +489,7 @@ var json = {
                         "text": "what? he's wearing a tuxedo"
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -586,7 +586,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "2 hours ago",
                 "author": {
@@ -597,12 +597,22 @@ var json = {
                 "text": "I have a feeling that the guardians are closely watching the comments of this program...<br>This is on the verge of breaking the guidelines...<br>I am scared for you...",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "CodeNinja",
+                            "id": "kaid_6247985199070618801670730",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "I second this...."
+                    }
+                ]
             },
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Blocked by Taquavion",
                     "id": "kaid_568819712822552226070124",
