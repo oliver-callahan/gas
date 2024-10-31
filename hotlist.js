@@ -1,882 +1,239 @@
 var json = {
-    "code": "/** \n **IMPORTANT**\n **This Is not me being political \n **This Is not me Encouraging you to vote for him\n **This Is not me Encouraging you to vote against him\n **So Don't be thinking this is me doing anything \n **This is the First Idea I got when I thought of a new Derpachu to make\n * \n * \n * Oct 30 5:50pm I log on to make something find out this is 2ND on the HOTLIST HOW\n * Oct 30 7:10pm I AM 1ST ON THE HOTLIST FOR THE FIRST TIME EVER YAAAAAAAAAAAAAAAAYYYY\n * Oct 31 7:55am HALLOWEEN HOW ON EARTH IS THIS STILL 1ST ON THE HOTLIST HOOWWWW\n\n              Here Is my Subpage\n              if you wanna sub\n\nhttps://www.khanacademy.org/computer-programming/my-subpage-yeaaaaaaaaaaaaaaaaaaaa/6431479248109568 \n\n\n**/\n{\nvar pixelSize = 6;\n\nvar palette = {\n    \".\" : color(0, 166, 255),\n    \"1\" : color(0, 0, 0),\n    \"2\" : color(252, 5, 5),\n    \"3\" : color(117, 69, 2),\n    \"4\" : color(251, 255, 0),\n    \"5\" : color(0, 7, 133),\n    \"6\" : color(207, 207, 207),\n    \"7\" : color(230, 172, 12),\n    \"8\" : color(240, 202, 32),\n    \"9\" : color(135, 83, 0),\n    \"a\" : color(255, 175, 84),\n    \"b\" : color(255, 255, 255)\n};\n\nvar bitmap = [\n     \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"..................0000000000000....................................\",\n    \".................00000.000.00000...................................\",\n    \"................000...........000..................................\",\n    \"..........00000000..............000000.............................\",\n    \"........00000........................00............................\",\n    \".......0000...........................00...........................\",\n    \".......000.............................00..........................\",\n    \".......00...............................0..........................\",\n    \".......00...............................0..........................\",\n    \".......00...............................0..........................\",\n    \".......00...............................0..........................\",\n    \"........00.............................00..........................\",\n    \".........00..........................000...........................\",\n    \"..........00000000..............0000000............................\",\n    \"................000............000.................................\",\n    \".................000........0000...................................\",\n    \"..................000000000000.....................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \".................................7777778...........................\",\n    \"............................7777777777778..........................\",\n    \"..........................77777777777777788........................\",\n    \"........................777777777777777778.........................\",\n    \"........................77777777777777788..........................\",\n    \".......................777777888888888811..........................\",\n    \".......................7778888114444441bb1.........................\",\n    \".......................7888441bb1411141b1b1........................\",\n    \"....................1..884441b1b1412141bbb1........................\",\n    \"...................141..14441bbb14414441bb1........................\",\n    \"..................1441..14441bb1444444441121.......................\",\n    \".................14441..14442114444444444221.......................\",\n    \"................1444441.14442244444444444441.......................\",\n    \"...............14444441..1555555566665555551.......................\",\n    \"..............1444444441.15555555522555555551......................\",\n    \"...............144444441.1555555552255555/551......................\",\n    \"................144444331155555/5522555/5/551......................\",\n    \"....aaaaaa.......144443331555/5/55225555/5551......................\",\n    \"...aa....a........144433315555/55522555555551......................\",\n    \"..aa.....a.........14411331555555522555555551......................\",\n    \".aa......a..........11..11155555556655555551.......................\",\n    \"aa.......a................15555555665555551........................\",\n    \".a.......a.................155555566555551.........................\",\n    \".a.......a..................1151111111151..........................\",\n    \".a.......a...................111......111..........................\",\n    \".a...99999999999999999999999999999999999999999999999999999999999999\",\n    \".a..999999999999999999999999999999999999999999999999999999999999999\",\n    \".a.9999999999999999999999999999999999999999999999999999999999999999\",\n    \".a99999999999999999999999999999999999999999999999999999999999999999\",\n    \".999999999999999999999999999999999999999999999999999999999999999999\",\n    \"9999999999999999999999999999999999999999999999999999999999999999999\",\n\n\n\n\n    ];\n\nnoStroke(); \nfor (var i = 0; i < bitmap.length; i++) {\n    for (var j = 0; j < bitmap[i].length; j++) {\n        fill(palette[bitmap[i].charAt(j)]);\n        rect(j * pixelSize, i * pixelSize, pixelSize, pixelSize);\n    }\n    \n    \n}\n\n\n\nvar leftX = 147;\nvar rightX = 270;\nfill(255, 255, 255);\nellipse(leftX, 100, 126, 97);\nellipse(leftX+62, 100, 70, 60);\nellipse(leftX-62, 100, 70, 60);\n\n}",
-    "title": "Trumpachu *read description*",
-    "votes": 59,
-    "created": "a day ago",
-    "updated": "7 hours ago",
+    "code": "// KHANTOBER AAAAAAAAAAAAAAAAAAa\n\n// i was at an event and i was early (and a little bored) and luckily i had brought my drawing notebook and a pencil. so i started drawing. then i thought \"hey wait, this would make a great final khantober program!\" so here we are. (the event was on 10/23/24)\n\n\n// also, should i start doing song recommendations for each graphic? the song recommendations for this are 'Nautilus Waltz' by Raw Lawson and '深海少女-初音ミク' by Yuuyu (yeah just because i'm a swiftie doesn't mean i don't listen to anything else)\n\n\nvar kuragekyatto = function(x, y, w, h, r, face) // translate it lol\n{\n\tpushMatrix();\n\ttranslate(x, y);\n\tscale(w, h);\n\trotate(r);\n\n\tbeginShape();\n\tvertex(105, -100);\n\tbezierVertex(175, 120, -122, 164, -110, 155);\n\tbezierVertex(-100, 155, 21, 90, -13, 63);\n\tbezierVertex(32, 85, -88, 139, -198, 138);\n\tbezierVertex(-111, 76, -82, 138, -53, 50);\n\tbezierVertex(-74, 105, -148, 112, -239, 114);\n\tbezierVertex(-94, 56, -108, 76, -63, 24);\n\tbezierVertex(-136, 94, -130, 76, -247, 52);\n\tbezierVertex(-79, 60, -124, 46, -78, 1);\n\tbezierVertex(-86, 34, -90, 46, -230, 49);\n\tbezierVertex(-114, -33, -116, 46, -75, -51);\n\tvertex(-27, -120);\n\tvertex(4, -147);\n\tvertex(9, -145);\n\tvertex(19, -120);\n\tbezierVertex(29, -125, 50, -93, 85, -137);\n\tvertex(105, -100);\n\tendShape();\n\n\tnoStroke();\n\tfill(211, 219, 224);\n\tbeginShape();\n\tvertex(-65, -61);\n\tvertex(-100, -2);\n\tvertex(-159, 11);\n\tvertex(-225, 45);\n\tvertex(-159, 22);\n\tvertex(-105, 13);\n\tvertex(-80, 0);\n\tvertex(-68, -18);\n\tvertex(-42, -43);\n\tvertex(-40, -95);\n\tendShape();\n\n\tbeginShape();\n\tvertex(-71, 20);\n\tvertex(-124, 56);\n\tvertex(-232, 58);\n\tvertex(-173, 61);\n\tvertex(-125, 65);\n\tvertex(-92, 47);\n\tendShape();\n\n\tbeginShape();\n\tvertex(-48, 24);\n\tvertex(-124, 78);\n\tvertex(-232, 116);\n\tvertex(-144, 93);\n\tvertex(-85, 67);\n\tendShape();\n\n\tbeginShape();\n\tvertex(-44, 52);\n\tvertex(-65, 92);\n\tvertex(-104, 109);\n\tvertex(-132, 107);\n\tvertex(-197, 137);\n\tvertex(-134, 119);\n\tvertex(-75, 107);\n\tvertex(-48, 79);\n\tendShape();\n\n\tbeginShape();\n\tvertex(8, 63);\n\tvertex(-6, 92);\n\tvertex(-42, 123);\n\tvertex(-95, 155);\n\tvertex(-30, 123);\n\tvertex(0, 102);\n\tendShape();\n\n\tstroke(255, 255, 255);\n\tnoFill();\n\tbezier(4, 74, -146, 123, -25, 155, -205, 166); // this is my first time using a bezier (not bezierVertex) without a tool :D\n\tbezier(-94, 25, -146, 96, -176, 60, -272, 78);\n\tbezier(-77, 93, -141, 105, -184, 71, -223, 150);\n\tbezier(21, 104, -25, 233, -175, 96, -186, 222);\n\tbezier(-113, 0, -147, -29, -175, 59, -227, 7);\n\n\n\tif (face === 'happy') {\n\t\tfill(0);\n\t\tnoStroke();\n\t\tellipse(0, -83, 10, 10);\n\t\tellipse(87, -81, 10, 10);\n\n\t\tstrokeWeight(0.6);\n\t\tstroke(0, 0, 0);\n\t\tnoFill();\n\t\tarc(43, -75, 15, 5, 0, 180);\n\n\t\tnoStroke();\n\t\tfill(255, 229, 229, 200);\n\t\tellipse(-10, -75, 25, 10);\n\t\tellipse(100, -73, 25, 10);\n\t}\n\tif (face === 'sleepy') {\n\n\t\tstrokeWeight(1);\n\t\tstroke(0, 0, 0);\n\t\tnoFill();\n\t\tarc(0, -85, 15, 10, 0, 180);\n\t\tarc(89, -83, 15, 10, 0, 180);\n\t\tstrokeWeight(0.6);\n\t\tarc(43, -75, 15, 5, 0, 180);\n\n\t\tnoStroke();\n\t\tfill(255, 229, 229, 200);\n\t\tellipse(-10, -75, 25, 10);\n\t\tellipse(100, -73, 25, 10);\n\t}\n\tif (face === 'goofy') {\n\t\tfill(0);\n\t\tnoStroke();\n\t\tellipse(0, -83, 17, 10);\n\t\tellipse(87, -81, 13, 15);\n\n\n\t\tstroke(0, 0, 0);\n\t\tnoFill();\n\t\tarc(43, -75, 15, 24, 0, 180);\n\n\t\tnoStroke();\n\t\tfill(255, 229, 229, 200);\n\t\tellipse(-10, -75, 26, 17);\n\t\tellipse(100, -73, 26, 17);\n\t}\n\n\tstrokeWeight(5);\n\tstroke(255, 255, 255);\n\tfill(235, 238, 245);\n\tpopMatrix();\n\n};\nvar bubbles = function(x, y, w, h, r) // wHy DoES iT HAvE bUbBLeS? because it's part mammal, so it partially breathes air :)\n{\n\tpushMatrix();\n\ttranslate(x, y);\n\tscale(w, h);\n\trotate(r);\n\tellipse(99, -98, 15, 15);\n\tellipse(110, -127, 20, 20);\n\tellipse(129, -160, 25, 25);\n\tellipse(100, -195, 30, 30);\n\tpopMatrix();\n};\nnoStroke();\nbackground(53, 74, 94);\n\nfor (var j = 0; j < 50; j++) { // this is better than ANY gradient\n\tfor (var i = 0; i < 40; i++) {\n\t\tfill(0 + i * 1.5, 4 + i * 2, 41 + i * 2.5);\n\t\tellipse(-108 - i * -20, 684 + i * -8, random(1, 300), random(1, 300));\n\t\tellipse(-49 - i * -7, 420 + i * -16, random(1, 300), random(1, 300));\n\t\tellipse(-404 - i * -24, 525 + i * -5, random(1, 300), random(1, 300));\n\t\tellipse(-398 - i * -19, 680 + i * -16, random(1, 300), random(1, 300));\n\t}\n}\nstrokeJoin(ROUND);\nstrokeWeight(5);\nstroke(255, 255, 255);\nfill(235, 238, 245);\nkuragekyatto(371, 285, 0.1, 0.1, 7, 'happy');\nkuragekyatto(325, 159, 0.1, 0.1, 7, 'goofy');\nkuragekyatto(70, 225, 0.1, 0.1, 7, 'happy');\nkuragekyatto(91, 78, 0.2, 0.2, -5, 'sleepy');\nkuragekyatto(359, 30, 0.2, 0.2, -5, 'happy');\nkuragekyatto(291, 399, 0.2, 0.2, -5, 'sleepy');\nkuragekyatto(91, 504, 0.2, 0.2, -5, 'goofy');\nkuragekyatto(325, 508, 0.4, 0.4, 7, 'sleepy');\nkuragekyatto(208, 102, 0.4, 0.4, 7, 'happy');\nkuragekyatto(200, 285, 0.8, 0.8, -2, 'happy');\n\nbubbles(324, 152, 0.1, 0.1, 0);\nbubbles(72, 219, 0.1, 0.1, 0);\nbubbles(372, 279, 0.1, 0.1, 0);\nbubbles(348, 21, 0.2, 0.2, 0);\nbubbles(83, 58, 0.2, 0.2, 0);\nbubbles(87, 489, 0.2, 0.2, 0);\nbubbles(284, 386, 0.2, 0.2, 0);\nbubbles(196, 81, 0.4, 0.4, 0);\nbubbles(321, 490, 0.4, 0.4, 0);\nbubbles(191, 235, 0.8, 0.8, 0);\nenableContextMenu(); // 200 lines :D\n\nvar bobacat = function(x, y, w, h) {\n\tpushMatrix();\n\ttranslate(x, y);\n\n\n\tscale(w, h);\n\n\n\t{\n\t\tfill(235, 193, 129, 150); // tan\n\t\tnoStroke();\n\t\tellipse(165, 335, 200, 45);\n\t\tellipse(220, 365, 200, 45);\n\t\tstroke(235, 193, 129, 150);\n\t\tstrokeWeight(5);\n\t\tline(110, 130, 130, 310);\n\t} // spill\n\n\t{\n\t\tfill(235, 193, 129);\n\t\tstrokeWeight(1);\n\t\tstroke(0, 0, 0);\n\t\tquad(260, 350, 140, 350, 110, 125, 290, 125); // cup\n\t\tarc(200, 345, 120, 50, 0, 180); // bottom part of cup (for 3d)\n\t} // cup\n\n\t{\n\t\tnoStroke(); // no outlines\n\t\tfill(239, 205, 154); // lighter tan\n\t\trect(135, 137, 130, 76); // cat body\n\t\tquad(240, 285, 265, 210, 135, 205, 160, 285); // cat body\n\t} // cat body\n\n\t{\n\t\tfill(0);\n\t\tstroke(201, 161, 114);\n\t\tstrokeWeight(5);\n\t\tellipse(155, 290, 20, 20);\n\t\tellipse(240, 275, 20, 20);\n\t\tellipse(185, 295, 20, 20);\n\t\tellipse(185, 335, 20, 20);\n\t\tellipse(230, 325, 20, 20);\n\t\tellipse(255, 290, 20, 20);\n\t\tellipse(155, 265, 20, 20);\n\t\tellipse(260, 255, 20, 20);\n\t\tellipse(145, 245, 20, 20);\n\t\tellipse(260, 235, 20, 20);\n\t} // boba dont look\n\n\t{\n\t\tnoFill();\n\t\tstrokeWeight(15);\n\t\tstroke(239, 205, 154);\n\t\tarc(230, 295, 50, 105, 240, 425);\n\t\tstrokeWeight(1);\n\t\tstroke(148, 148, 148); // gray\n\t\tfill(239, 205, 154);\n\t\tarc(255, 185, 30, 100, 315, 525);\n\t\tarc(145, 185, 30, 100, -710, -490);\n\n\t\tellipse(175, 300, 30, 70); // left foot\n\t\tellipse(225, 300, 30, 70); // right foot\n\t\tnoStroke();\n\n\t\tellipse(200, 255, 100, 80); // cat body\n\t} // feet\n\n\t{\n\t\tfill(255, 255, 255); // white\n\t\tarc(200, 125, 185, 170, -180, 0); // main part of cat\n\t\ttriangle(145, 0, 170, 45, 125, 75); // left ear\n\t\ttriangle(255, 0, 230, 45, 275, 75); // right ear\n\t\ttriangle(120, 80, 85, 95, 110, 120); // left fluff bottom\n\t\ttriangle(125, 75, 90, 80, 110, 105); // left fluff top\n\t\ttriangle(280, 80, 315, 95, 290, 120); // right fluff bottom\n\t\ttriangle(275, 75, 315, 80, 285, 105); // right fluff top\n\t\tnoStroke(); // no outlines\n\t\tellipse(200, 125, 185, 50); // uh\n\t\tellipse(155, 65, 50, 40); // uh\n\t\tellipse(243, 65, 50, 40); // uh\n\t\tellipse(115, 100, 30, 30); // uh\n\t\tellipse(285, 100, 30, 30); // uh\n\t} // cat's head\n\n\t{\n\t\tfill(0);\n\t\tstroke(201, 161, 114);\n\t\tstrokeWeight(5);\n\t\tellipse(200, 355, 20, 20);\n\t\tellipse(180, 350, 20, 20);\n\t\tellipse(240, 310, 20, 20);\n\t\tellipse(225, 290, 20, 20);\n\t\tellipse(160, 340, 20, 20);\n\t\tellipse(205, 320, 20, 20);\n\t\tellipse(240, 350, 20, 20);\n\t\tellipse(150, 310, 20, 20);\n\t\tellipse(175, 300, 20, 20);\n\t\tellipse(170, 320, 20, 20);\n\t\tellipse(220, 335, 20, 20);\n\t\tellipse(160, 250, 20, 20);\n\t\tellipse(225, 260, 20, 20);\n\t\tellipse(170, 270, 20, 20);\n\t\tellipse(145, 275, 20, 20);\n\t\tellipse(150, 330, 20, 20);\n\t\tellipse(250, 325, 20, 20);\n\t} // boba don't look\n\n\t{\n\t\tnoStroke(); // no outlines\n\t\tellipse(145, 110, 30, 30); // left eye\n\t\tellipse(255, 110, 30, 30); // right eye\n\t\tfill(255, 212, 212); // pink\n\t\tellipse(145, 135, 30, 15); // left blush\n\t\tellipse(255, 135, 30, 15); // right blush\n\t\tfill(255, 255, 255); // white\n\t\tstroke(0, 0, 0); // black\n\t\tstrokeWeight(1); // thinner stroke\n\t\tarc(195, 115, 10, 10, 0, 180); // left mouth arc\n\t\tarc(205, 115, 10, 10, 0, 180); // right mouth arc\n\t\tnoFill(); // no fill \n\t\tarc(200, 126, 180, 50, 0, 180); // cup rim outline\n\t} // face\n\n\tfill(255, 255, 255);\n\ttextSize(100);\n\ttext(\"katite\", 80, 460);\n\tpopMatrix();\n}; // this is the logo so it's not included in the line count :)\nbobacat(330, 530, 0.15, 0.15);",
+    "title": "kuragekyatto (khantober)",
+    "votes": 24,
+    "created": "3 hours ago",
+    "updated": "3 hours ago",
     "type": "PJS",
     "author": {
-        "name": "HACK",
-        "id": "kaid_6815067100354522609320825",
-        "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+        "name": "- k a t i t e -",
+        "id": "kaid_312040000225853665820004",
+        "avatar": "/images/avatars/svg/duskpin-sapling.svg"
     },
     "dimensions": {
         "width": 400,
-        "height": 400
+        "height": 600
     },
-    "forks": [
-        {
-            "title": "Harrisachu *spinoff of trumpachu*",
-            "id": "6735659923324928",
-            "forks": 0,
-            "votes": 6,
-            "author": {
-                "name": "Mathlete11",
-                "id": "kaid_4902531429433401500771997"
-            }
-        },
-        {
-            "title": "Penguin",
-            "id": "4672677609390080",
-            "forks": 0,
-            "votes": 3,
-            "author": {
-                "name": "The Old Gaffer",
-                "id": "kaid_811792557435292983639055"
-            }
-        }
-    ],
+    "forks": [],
     "posts": {
         "tips": [
             {
-                "replyCount": 1,
-                "votes": 9,
-                "date": "a day ago",
-                "author": {
-                    "name": "wealR",
-                    "id": "kaid_831993479561352012904348",
-                    "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                },
-                "text": "this is so funny",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "yeah lol"
-                    }
-                ]
-            },
-            {
-                "replyCount": 18,
-                "votes": 6,
-                "date": "17 hours ago",
-                "author": {
-                    "name": "Pineapples",
-                    "id": "kaid_6104902828627300552146889",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "I have a feeling that the guardians are closely watching the comments of this program...<br>This is on the verge of breaking the guidelines...<br>I am scared for you...",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "15 hours ago",
-                        "author": {
-                            "name": "CodeNinja",
-                            "id": "kaid_6247985199070618801670730",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I second this...."
-                    },
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "LJ",
-                            "id": "kaid_1144628223469068678737336",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "I third this... my comment was locked because people argued in the reply"
-                    },
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Most likely Hopefully they are watching this and will not take this whole project down because this is crazy"
-                    },
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "LJ",
-                            "id": "kaid_1144628223469068678737336",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "I don't think guardians are going to take down the whole thing, but they might lock and/or remove some comments deemed not suitable for an educational website like KA"
-                    },
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Yes I know its even worse that this is 1st on the hotlist"
-                    },
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "they already locked one of the threads that you made"
-                    },
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "true... its kinda sad tho cause this is a WORK OF ART"
-                    },
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "who me??"
-                    },
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "the guardians are probably being paid in overtime for this project"
-                    },
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "no mathlete11 I'm talking about LJ"
-                    },
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "LJ",
-                            "id": "kaid_1144628223469068678737336",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "@Mathelete11<br>no me, scroll down<br>@HACK<br>I thought Guardians were volunteers?"
-                    },
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "they probably are I don't know"
-                    },
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "@LJ oh XD <br><br>yeah I think the guardians r volunteers"
-                    },
-                    {
-                        "date": "7 hours ago",
-                        "author": {
-                            "name": "ρlατγρυς ρгοgгαммιηg",
-                            "id": "kaid_3625391900429892923499026",
-                            "avatar": "/images/avatars/svg/blobby-purple.svg"
-                        },
-                        "text": "Actually, I think the guardians are watching too busy watching something else right now: this thread lol"
-                    },
-                    {
-                        "date": "7 hours ago",
-                        "author": {
-                            "name": "ρlατγρυς ρгοgгαммιηg",
-                            "id": "kaid_3625391900429892923499026",
-                            "avatar": "/images/avatars/svg/blobby-purple.svg"
-                        },
-                        "text": "Btw, I had one of my posts taken down (people probably reported it because of their political ideas)"
-                    },
-                    {
-                        "date": "7 hours ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "@pp can u change ur bio, this is an educational website and all the 4th graders don't need to see ur political opinions<br><br>also yeah the guardians are totally watching this thread XD"
-                    },
-                    {
-                        "date": "7 hours ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "uh huh :)  I'm just trying to raise awareness. I have nothing against ppl sharing their opinions in their bio, but some 3rd graders parents might, and u could get banned or smthing"
-                    }
-                ]
-            },
-            {
-                "replyCount": 4,
-                "votes": 5,
-                "date": "a day ago",
-                "author": {
-                    "name": "honeyghost",
-                    "id": "kaid_381818316234075133568777",
-                    "avatar": "/images/avatars/svg/boggle-yellow.svg"
-                },
-                "text": "Okay, so this is Trump the meme, not Trump the presidential candidate. As my brother said, the surest way to become a meme is to become the president of the United States. XD",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "yeah I'm not trying to be political because I only 14 and because elections coming up and because I'm not trying to get banned AGAIN"
-                    },
-                    {
-                        "date": "21 hours ago",
-                        "author": {
-                            "name": "Danomi42",
-                            "id": "kaid_1045282636896433254069987",
-                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
-                        },
-                        "text": "<code>@<b>honeyghost</b></code> | Top 10 quotes of 2024: <em>\"The surest way to become a meme is to become the President of the United States.\"</em> - <code>honeyghost</code>'s brother (whoever it may be)"
-                    },
-                    {
-                        "date": "21 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Derpachu made a quote that made no sense.<br><br>\"Somedays Your happy, and somedays you dressed up as a president\" - Derpachu 2024"
-                    },
-                    {
-                        "date": "5 hours ago",
-                        "author": {
-                            "name": "Dojo Ninja #BringBackBackgrounds",
-                            "id": "kaid_9951099012656077844855",
-                            "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
-                        },
-                        "text": "Obama prism"
-                    }
-                ]
-            },
-            {
-                "replyCount": 4,
-                "votes": 5,
-                "date": "a day ago",
-                "author": {
-                    "name": "Shifter -OFF-",
-                    "id": "kaid_892112752920553577482062",
-                    "avatar": "/images/avatars/svg/blobby-purple.svg"
-                },
-                "text": "Ha ha, cute. Do a George Washingchu next!",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "lol that would be hilarious"
-                    },
-                    {
-                        "date": "21 hours ago",
-                        "author": {
-                            "name": "Danomi42",
-                            "id": "kaid_1045282636896433254069987",
-                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
-                        },
-                        "text": "Try saying that ten times fast..."
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "that's not possible"
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "Danomi42",
-                            "id": "kaid_1045282636896433254069987",
-                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
-                        },
-                        "text": "<b>Watch me</b>.<br><br>George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu.<br><br>easy"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 4,
-                "date": "7 hours ago",
-                "author": {
-                    "name": "Zidane Medina",
-                    "id": "kaid_4593991067080431920712749",
-                    "avatar": "/images/avatars/svg/scuttlebug-blue.svg"
-                },
-                "text": "We will make, our Pokémon, great again!",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "5 hours ago",
-                        "author": {
-                            "name": "Dojo Ninja #BringBackBackgrounds",
-                            "id": "kaid_9951099012656077844855",
-                            "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
-                        },
-                        "text": "remove the 9999999 different ways to mega evolve, we just need 1"
-                    }
-                ]
-            },
-            {
                 "replyCount": 0,
-                "votes": 4,
+                "votes": 10,
                 "date": "3 hours ago",
                 "author": {
-                    "name": "//I'M BOB ;)...(FYI I'm online)",
-                    "id": "kaid_7500540694222150489044752",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                    "name": "- k a t i t e -",
+                    "id": "kaid_312040000225853665820004",
+                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
                 },
-                "text": "How does this have #1 on the hot list?",
+                "text": "subscribe for more graphics :D<br><br>https://www.khanacademy.org/computer-programming/katites-sub-page/6033337831440384<br><br>please keep this comment from sinking <3",
                 "locked": false,
                 "pinned": false,
                 "replies": []
             },
             {
-                "replyCount": 5,
-                "votes": 4,
-                "date": "20 hours ago",
-                "author": {
-                    "name": "Luke Ellis",
-                    "id": "kaid_8535468719137003545030723",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "To be honest, I can't believe this is #1 on the hotlist.<br>You did a great job making some people laugh, so I'll give you that. However, next time I would not recommend doing something like this.<br>lol. Great job.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Why would you recommend that"
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "Luke Ellis",
-                            "id": "kaid_8535468719137003545030723",
-                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                        },
-                        "text": "Because it's a little risky on the KA guidelines. It hasn't been taken down yet, though, so I think you're fine."
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I know I have flagged most of the \"not good\" comments and told people not to comment on the thread of them so yeah I probably wont but people want me to make a George Washington one so I might make that one"
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Am I allowed to post a link to my subpage in the comments of my projects or would that be advertising even though its my own thing"
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "Luke Ellis",
-                            "id": "kaid_8535468719137003545030723",
-                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                        },
-                        "text": "George Washington should be fine as well.<br>And, yeah, most coders post their subpage in the comments."
-                    }
-                ]
-            },
-            {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "19 hours ago",
+                "date": "2 hours ago",
                 "author": {
-                    "name": "Equilibrium",
-                    "id": "kaid_1842852586096096865081151",
-                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                    "name": "cactuses.always.win.",
+                    "id": "kaid_488290387935041457443716",
+                    "avatar": "/images/avatars/svg/cacteye-green.svg"
                 },
-                "text": "Make Kanto great again!",
+                "text": "this is so wispy and whispery",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 hours ago",
+                        "date": "2 hours ago",
                         "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Slowly but Surely"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 2,
-                "date": "21 hours ago",
-                "author": {
-                    "name": "Danomi42",
-                    "id": "kaid_1045282636896433254069987",
-                    "avatar": "/images/avatars/svg/primosaur-sapling.svg"
-                },
-                "text": "I don't know why, but I'm just enjoying looking at this... <em>creation...</em> I guess...",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                            "name": "- k a t i t e -",
+                            "id": "kaid_312040000225853665820004",
+                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
                         },
                         "text": "thank you"
                     }
                 ]
             },
             {
-                "replyCount": 0,
-                "votes": 2,
-                "date": "a day ago",
-                "author": {
-                    "name": "Firebrand (offline)",
-                    "id": "kaid_423049852746380987692804",
-                    "avatar": "/images/avatars/svg/stelly-orange.svg"
-                },
-                "text": "lol lol lol lol<br><br>...<br><br>I seriously could not stop laughing for about three minutes straight.<br>It's so cute.<br><br>Great job! Vote++",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 6,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "LJ",
-                    "id": "kaid_1144628223469068678737336",
-                    "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                },
-                "text": "this is not me being political but where are the ears?<br><br>also how about kamalachu next",
-                "locked": true,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I had the ears when I first made it but it looked insanely weird because it was just a floating black triangle for both ears so I removed them."
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I don't think I'm going to make a kamalachu"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
-                            "id": "kaid_693763055742960827086832",
-                            "avatar": "/images/avatars/svg/cs-winston.svg"
-                        },
-                        "text": "@HACK<br>Why not? :/ If you make fun of one, you gotta make fun of the other. It's only fair."
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "because no"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
-                            "id": "kaid_693763055742960827086832",
-                            "avatar": "/images/avatars/svg/cs-winston.svg"
-                        },
-                        "text": "Umm... no. :/ I say no to your no. XD"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "AmethystSky",
-                            "id": "kaid_784805823121542822870790",
-                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
-                        },
-                        "text": "I say yes to your no to his no."
-                    }
-                ]
-            },
-            {
-                "replyCount": 12,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "Pro0planter",
-                    "id": "kaid_1863950377056983766116587",
-                    "avatar": "/images/avatars/svg/cs-winston.svg"
-                },
-                "text": "blue pika-min when",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "what? he's wearing a tuxedo"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Pro0planter",
-                            "id": "kaid_1863950377056983766116587",
-                            "avatar": "/images/avatars/svg/cs-winston.svg"
-                        },
-                        "text": "will you make a blue pikmin pikachu"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Like a full blue derpachu? is that what your asking."
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Pro0planter",
-                            "id": "kaid_1863950377056983766116587",
-                            "avatar": "/images/avatars/svg/cs-winston.svg"
-                        },
-                        "text": "kinda?... a pikmin is a creature from another game franchise. i was asking if you could make a blue pikmin derpachu/ blue pikamin. please look up pikmin adn blue pikmin."
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I just searched it. I could make a blue pikimin."
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Ohh Actually I could make a blue Pikamin I have an idea for that"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Pro0planter",
-                            "id": "kaid_1863950377056983766116587",
-                            "avatar": "/images/avatars/svg/cs-winston.svg"
-                        },
-                        "text": "pikamin rainbow and pikaborb (bulborb) confirmed?"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Pro0planter",
-                            "id": "kaid_1863950377056983766116587",
-                            "avatar": "/images/avatars/svg/cs-winston.svg"
-                        },
-                        "text": "also wanna participate in my competition"
-                    },
-                    {
-                        "date": "21 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Maybe :)"
-                    },
-                    {
-                        "date": "21 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Pikiminachu Maybe nothing else though whats the competition"
-                    },
-                    {
-                        "date": "7 hours ago",
-                        "author": {
-                            "name": "Pro0planter",
-                            "id": "kaid_1863950377056983766116587",
-                            "avatar": "/images/avatars/svg/cs-winston.svg"
-                        },
-                        "text": "its a mario and luigi (based off the rpg mario and luigis) art competition. due by november 7th. you could technichallly do a luigi pikachu with the rpg hammer or in one of the rpg areas and get first place."
-                    },
-                    {
-                        "date": "7 hours ago",
-                        "author": {
-                            "name": "Pro0planter",
-                            "id": "kaid_1863950377056983766116587",
-                            "avatar": "/images/avatars/svg/cs-winston.svg"
-                        },
-                        "text": "no other participents so far :("
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "20 hours ago",
-                "author": {
-                    "name": "- k a t i t e -",
-                    "id": "kaid_312040000225853665820004",
-                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
-                },
-                "text": "congrats on your first 1000 kelvin :D",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 7,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "Duke :P",
-                    "id": "kaid_351465532815782433620675",
-                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                },
-                "text": "Lol this is great",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Thanks I never thought I would see you comment on one of my projects"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Duke :P",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Your welcome ;)<br>I comment on what I like :)"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "well I'm glad you like it"
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I got a question someone on here locked a discussion. How do you do that?"
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "You know a lot me then me am I allowed to post a link to my subpage in my comments of a project"
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "Duke :P",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "You have to be a guardian."
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "OHH so a guardian was on my project HOW COOL"
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "5 hours ago",
-                "author": {
-                    "name": "That One Guy ME",
-                    "id": "kaid_3823720261811268848400557",
-                    "avatar": "/images/avatars/svg/duskpin-seed.svg"
-                },
-                "text": "imo his skin color is closer to raichu",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 2,
-                "votes": 1,
-                "date": "a day ago",
+                "replyCount": 1,
+                "votes": 3,
+                "date": "3 hours ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
                     "avatar": "/images/avatars/svg/starky-sapling.svg"
                 },
-                "text": "This is awesome XD<br><br>can you do a dirpy Eevee next?",
+                "text": "noice :)  is it like a cat jellyfish? whatever it is, it's very cute ^-^<br><br>5th vote",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 hours ago",
+                        "date": "2 hours ago",
                         "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                            "name": "- k a t i t e -",
+                            "id": "kaid_312040000225853665820004",
+                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
                         },
-                        "text": "maybe I am making other things to"
-                    },
+                        "text": "thanks :D <br>yeah, 'kurage' means jellyfish and 'kyatto' is a way of saying cat"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 2,
+                "date": "3 hours ago",
+                "author": {
+                    "name": "Luke Ellis",
+                    "id": "kaid_8535468719137003545030723",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "This is disturbingly cute.",
+                "locked": false,
+                "pinned": false,
+                "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "3 hours ago",
                         "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
+                            "name": "- k a t i t e -",
+                            "id": "kaid_312040000225853665820004",
+                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
                         },
-                        "text": "okie :)"
+                        "text": "lol thanks..?"
                     }
                 ]
             },
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "8 hours ago",
+                "date": "3 hours ago",
                 "author": {
-                    "name": "Mathlete11",
-                    "id": "kaid_4902531429433401500771997",
-                    "avatar": "/images/avatars/svg/starky-sapling.svg"
+                    "name": "Raven",
+                    "id": "kaid_1094399428577851630415346",
+                    "avatar": "/images/avatars/svg/cs-winston.svg"
                 },
-                "text": "I made a Harrisachu in the spinoffs XD",
+                "text": "a fellow hatsune miku lover wow<br>also kool graphic<br>happy halloween :3",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "2 hours ago",
                         "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                            "name": "- k a t i t e -",
+                            "id": "kaid_312040000225853665820004",
+                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
                         },
-                        "text": "I saw I was just looking at that"
+                        "text": "yes lol<br>thanks :D<br>you too :3"
                     }
                 ]
             },
             {
-                "replyCount": 2,
-                "votes": 0,
-                "date": "18 hours ago",
+                "replyCount": 1,
+                "votes": 1,
+                "date": "2 hours ago",
                 "author": {
-                    "name": "NL",
-                    "id": "kaid_101904269317089495055459",
-                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                    "name": "windawine",
+                    "id": "kaid_316582545582561029284805",
+                    "avatar": "/images/avatars/svg/scuttlebug-green.svg"
                 },
-                "text": "i am nl. 👍",
+                "text": "one of those things I never knew I needed",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "2 hours ago",
                         "author": {
-                            "name": "Ezra",
-                            "id": "kaid_1112279572017452692208390",
-                            "avatar": "/images/avatars/svg/leaf-red.svg"
+                            "name": "- k a t i t e -",
+                            "id": "kaid_312040000225853665820004",
+                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
                         },
-                        "text": "<em>Gasp??</em><br>mind blowing 😱"
-                    },
+                        "text": "lol thanks"
+                    }
+                ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "33 minutes ago",
+                "author": {
+                    "name": "sugarnlight",
+                    "id": "kaid_516497598968512440616556",
+                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
+                },
+                "text": "wow cute! I love the shading and the stuff you did for the background!!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 1,
+                "date": "3 hours ago",
+                "author": {
+                    "name": "Coder2098",
+                    "id": "kaid_673573024191290348573492",
+                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
+                },
+                "text": "FIRST awww i love it :P the kitties are sooo cute!",
+                "locked": false,
+                "pinned": false,
+                "replies": [
                     {
                         "date": "3 hours ago",
                         "author": {
-                            "name": "//I'M BOB ;)...(FYI I'm online)",
-                            "id": "kaid_7500540694222150489044752",
-                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                            "name": "- k a t i t e -",
+                            "id": "kaid_312040000225853665820004",
+                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
                         },
-                        "text": "rapp music plays"
+                        "text": "thank you so much :D"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 1,
+                "date": "an hour ago",
+                "author": {
+                    "name": "RedRaven9#makegamesthenmakegraphics",
+                    "id": "kaid_768975196864016071606552",
+                    "avatar": "/images/avatars/svg/starky-tree.svg"
+                },
+                "text": "This is great :D",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "RedRaven9#makegamesthenmakegraphics",
+                            "id": "kaid_768975196864016071606552",
+                            "avatar": "/images/avatars/svg/starky-tree.svg"
+                        },
+                        "text": "Edit AMAZING! :D"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 1,
+                "date": "3 hours ago",
+                "author": {
+                    "name": "Shifter -OFF-",
+                    "id": "kaid_892112752920553577482062",
+                    "avatar": "/images/avatars/svg/blobby-purple.svg"
+                },
+                "text": "Aww, These are so cute!",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "2 hours ago",
+                        "author": {
+                            "name": "- k a t i t e -",
+                            "id": "kaid_312040000225853665820004",
+                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                        },
+                        "text": "thank you :D"
                     }
                 ]
             }
