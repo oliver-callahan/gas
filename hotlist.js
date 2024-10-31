@@ -33,7 +33,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 3,
+                "votes": 4,
                 "date": "4 hours ago",
                 "author": {
                     "name": "SavageBunions29",
@@ -113,7 +113,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 2,
+                "replyCount": 3,
                 "votes": 2,
                 "date": "4 hours ago",
                 "author": {
@@ -135,13 +135,22 @@ var json = {
                         "text": "then we can agree its rushed art. thx :)"
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
                             "avatar": "/images/avatars/svg/cs-winston.svg"
                         },
                         "text": "Hah. XD I guess, as long as my statement still stands a compliment. :/"
+                    },
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "ASBackup",
+                            "id": "kaid_714780036830891967670231",
+                            "avatar": "/images/avatars/svg/aqualine-tree.svg"
+                        },
+                        "text": "lol dont worry it is :)"
                     }
                 ]
             },
@@ -170,7 +179,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "an hour ago",
                 "author": {
@@ -181,7 +190,17 @@ var json = {
                 "text": "Happy halloween!",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "ASBackup",
+                            "id": "kaid_714780036830891967670231",
+                            "avatar": "/images/avatars/svg/aqualine-tree.svg"
+                        },
+                        "text": "thanks :)"
+                    }
+                ]
             },
             {
                 "replyCount": 1,
