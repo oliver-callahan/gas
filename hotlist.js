@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 40,
     "created": "a day ago",
-    "updated": "42 minutes ago",
+    "updated": "an hour ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -54,7 +54,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 7,
+                "votes": 8,
                 "date": "13 hours ago",
                 "author": {
                     "name": "SquiirelBoyMO",
@@ -89,7 +89,7 @@ var json = {
                         "text": "lol that would be hilarious"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -209,7 +209,7 @@ var json = {
                         "text": "Am I allowed to post a link to my subpage in the comments of my projects or would that be advertising even though its my own thing"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
@@ -222,7 +222,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "NL",
                     "id": "kaid_101904269317089495055459",
@@ -246,7 +246,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "Danomi42",
                     "id": "kaid_1045282636896433254069987",
@@ -309,7 +309,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "CodeNinja",
                             "id": "kaid_6247985199070618801670730",
@@ -327,7 +327,7 @@ var json = {
                         "text": "I third this... my comment was locked because people argued in the reply"
                     },
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -336,7 +336,7 @@ var json = {
                         "text": "Most likely Hopefully they are watching this and will not take this whole project down because this is crazy"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -345,7 +345,7 @@ var json = {
                         "text": "I don't think guardians are going to take down the whole thing, but they might lock and/or remove some comments deemed not suitable for an educational website like KA"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -354,7 +354,7 @@ var json = {
                         "text": "Yes I know its even worse that this is 1st on the hotlist"
                     },
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -363,7 +363,7 @@ var json = {
                         "text": "they already locked one of the threads that you made"
                     },
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -372,7 +372,7 @@ var json = {
                         "text": "true... its kinda sad tho cause this is a WORK OF ART"
                     },
                     {
-                        "date": "34 minutes ago",
+                        "date": "39 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -381,7 +381,7 @@ var json = {
                         "text": "who me??"
                     },
                     {
-                        "date": "34 minutes ago",
+                        "date": "39 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -390,7 +390,7 @@ var json = {
                         "text": "the guardians are probably being paid in overtime for this project"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -399,7 +399,7 @@ var json = {
                         "text": "no mathlete11 I'm talking about LJ"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -408,7 +408,7 @@ var json = {
                         "text": "@Mathelete11<br>no me, scroll down<br>@HACK<br>I thought Guardians were volunteers?"
                     },
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -417,7 +417,7 @@ var json = {
                         "text": "they probably are I don't know"
                     },
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -459,7 +459,7 @@ var json = {
                         "text": "will you make a blue pikmin pikachu"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -513,7 +513,7 @@ var json = {
                         "text": "also wanna participate in my competition"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -591,7 +591,7 @@ var json = {
                         "text": "You know a lot me then me am I allowed to post a link to my subpage in my comments of a project"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Duke :P",
                             "id": "kaid_351465532815782433620675",
@@ -633,7 +633,7 @@ var json = {
                         "text": "maybe I am making other things to"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -729,7 +729,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "39 minutes ago",
+                "date": "44 minutes ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -740,7 +740,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "38 minutes ago",
+                        "date": "43 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
