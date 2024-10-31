@@ -144,7 +144,7 @@ var json = {
                         "text": "Derpachu made a quote that made no sense.<br><br>\"Somedays Your happy, and somedays you dressed up as a president\" - Derpachu 2024"
                     },
                     {
-                        "date": "11 minutes ago",
+                        "date": "16 minutes ago",
                         "author": {
                             "name": "Dojo Ninja #BringBackBackgrounds",
                             "id": "kaid_9951099012656077844855",
@@ -246,7 +246,7 @@ var json = {
                         "text": "I third this... my comment was locked because people argued in the reply"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -363,7 +363,7 @@ var json = {
                         "text": "Btw, I had one of my posts taken down (people probably reported it because of their political ideas)"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -557,7 +557,7 @@ var json = {
                         "text": "Pikiminachu Maybe nothing else though whats the competition"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -566,7 +566,7 @@ var json = {
                         "text": "its a mario and luigi (based off the rpg mario and luigis) art competition. due by november 7th. you could technichallly do a luigi pikachu with the rpg hammer or in one of the rpg areas and get first place."
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -599,7 +599,7 @@ var json = {
                         "text": "Thanks I never thought I would see you comment on one of my projects"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Duke :P",
                             "id": "kaid_351465532815782433620675",
@@ -617,7 +617,7 @@ var json = {
                         "text": "well I'm glad you like it"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -626,7 +626,7 @@ var json = {
                         "text": "I got a question someone on here locked a discussion. How do you do that?"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -701,7 +701,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -797,7 +797,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "17 minutes ago",
+                "date": "22 minutes ago",
                 "author": {
                     "name": "That One Guy ME",
                     "id": "kaid_3823720261811268848400557",
@@ -811,7 +811,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Zidane Medina",
                     "id": "kaid_4593991067080431920712749",
@@ -822,7 +822,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "Dojo Ninja #BringBackBackgrounds",
                             "id": "kaid_9951099012656077844855",
