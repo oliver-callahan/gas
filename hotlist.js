@@ -53,20 +53,6 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
-                "votes": 8,
-                "date": "15 hours ago",
-                "author": {
-                    "name": "SquiirelBoyMO",
-                    "id": "kaid_773398490746126089688872",
-                    "avatar": "/images/avatars/svg/leaf-grey.svg"
-                },
-                "text": "You know what, Im not scared of a strike. I am just practicing freedom of speech. \"Give me liberty or give me death!!\"<br><br>#MakeAmericaGreatAgain!!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
                 "replyCount": 4,
                 "votes": 6,
                 "date": "a day ago",
@@ -200,7 +186,7 @@ var json = {
                         "text": "I know I have flagged most of the \"not good\" comments and told people not to comment on the thread of them so yeah I probably wont but people want me to make a George Washington one so I might make that one"
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -296,7 +282,7 @@ var json = {
                         "text": "true... its kinda sad tho cause this is a WORK OF ART"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -305,7 +291,7 @@ var json = {
                         "text": "who me??"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -314,7 +300,7 @@ var json = {
                         "text": "the guardians are probably being paid in overtime for this project"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -323,7 +309,7 @@ var json = {
                         "text": "no mathlete11 I'm talking about LJ"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -332,7 +318,7 @@ var json = {
                         "text": "@Mathelete11<br>no me, scroll down<br>@HACK<br>I thought Guardians were volunteers?"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -341,7 +327,7 @@ var json = {
                         "text": "they probably are I don't know"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -447,7 +433,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Firebrand (offline)",
                     "id": "kaid_423049852746380987692804",
@@ -457,30 +443,6 @@ var json = {
                 "locked": false,
                 "pinned": false,
                 "replies": []
-            },
-            {
-                "replyCount": 1,
-                "votes": 2,
-                "date": "12 hours ago",
-                "author": {
-                    "name": "NL",
-                    "id": "kaid_101904269317089495055459",
-                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
-                },
-                "text": "i am nl. 👍",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "12 hours ago",
-                        "author": {
-                            "name": "Ezra",
-                            "id": "kaid_1112279572017452692208390",
-                            "avatar": "/images/avatars/svg/leaf-red.svg"
-                        },
-                        "text": "<em>Gasp??</em><br>mind blowing 😱"
-                    }
-                ]
             },
             {
                 "replyCount": 12,
@@ -713,6 +675,30 @@ var json = {
                             "avatar": "/images/avatars/svg/starky-sapling.svg"
                         },
                         "text": "okie :)"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 1,
+                "date": "12 hours ago",
+                "author": {
+                    "name": "NL",
+                    "id": "kaid_101904269317089495055459",
+                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                },
+                "text": "i am nl. 👍",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "12 hours ago",
+                        "author": {
+                            "name": "Ezra",
+                            "id": "kaid_1112279572017452692208390",
+                            "avatar": "/images/avatars/svg/leaf-red.svg"
+                        },
+                        "text": "<em>Gasp??</em><br>mind blowing 😱"
                     }
                 ]
             },
