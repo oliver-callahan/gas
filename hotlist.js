@@ -42,7 +42,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -54,7 +54,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 8,
+                "votes": 7,
                 "date": "13 hours ago",
                 "author": {
                     "name": "SquiirelBoyMO",
@@ -80,7 +80,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -161,8 +161,8 @@ var json = {
             },
             {
                 "replyCount": 5,
-                "votes": 4,
-                "date": "13 hours ago",
+                "votes": 5,
+                "date": "14 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -216,30 +216,6 @@ var json = {
                             "avatar": "/images/avatars/svg/orange-juice-squid.svg"
                         },
                         "text": "George Washington should be fine as well.<br>And, yeah, most coders post their subpage in the comments."
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 3,
-                "date": "11 hours ago",
-                "author": {
-                    "name": "NL",
-                    "id": "kaid_101904269317089495055459",
-                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
-                },
-                "text": "i am nl. 👍",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "10 hours ago",
-                        "author": {
-                            "name": "Ezra",
-                            "id": "kaid_1112279572017452692208390",
-                            "avatar": "/images/avatars/svg/leaf-red.svg"
-                        },
-                        "text": "<em>Gasp??</em><br>mind blowing 😱"
                     }
                 ]
             },
@@ -426,7 +402,7 @@ var json = {
                         "text": "@LJ oh XD <br><br>yeah I think the guardians r volunteers"
                     },
                     {
-                        "date": "21 minutes ago",
+                        "date": "26 minutes ago",
                         "author": {
                             "name": "ρlατγρυς ρгοgгαммιηg",
                             "id": "kaid_3625391900429892923499026",
@@ -435,7 +411,7 @@ var json = {
                         "text": "Actually, I think the guardians are watching too busy watching something else right now: this thread lol"
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "ρlατγρυς ρгοgгαммιηg",
                             "id": "kaid_3625391900429892923499026",
@@ -444,7 +420,7 @@ var json = {
                         "text": "Btw, I had one of my posts taken down (people probably reported it because of their political ideas)"
                     },
                     {
-                        "date": "11 minutes ago",
+                        "date": "16 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -453,13 +429,37 @@ var json = {
                         "text": "@pp can u change ur bio, this is an educational website and all the 4th graders don't need to see ur political opinions<br><br>also yeah the guardians are totally watching this thread XD"
                     },
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "ρlατγρυς ρгοgгαммιηg",
                             "id": "kaid_3625391900429892923499026",
                             "avatar": "/images/avatars/svg/blobby-purple.svg"
                         },
-                        "text": "@Mathlete11, I understand what you mean, but please try to understand what I mean.<br><br>This is supposed to be a free country. I am not telling anybody to vote a certain way. I’m not forcing people to agree with my opinions. I am only practicing my rights as an American citizen to practice my freedom of speech. In public schools, people can share their political and religious opinions, as long as they don’t force others to agree.<br><br>I hope you understand.<br><br>EDIT: I will try to rephrase my bio in a way that won’t offend others."
+                        "text": "@Mathlete11, I understand what you mean, but please try to understand what I mean.<br><br>This is supposed to be a free country. I am not telling anybody to vote a certain way. I’m not forcing people to agree with my opinions. I am only practicing my rights as an American citizen to practice my freedom of speech. In public schools, people can share their political and religious opinions, as long as they don’t force others to agree.<br><br>I hope you understand. I will try to rephrase my bio in a way that won’t offend others.<br><br>EDIT: I just rephrased it. Thank you for telling me your thoughts, @Mathlete11. Your idea could could have just saved me from some trouble"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 2,
+                "date": "11 hours ago",
+                "author": {
+                    "name": "NL",
+                    "id": "kaid_101904269317089495055459",
+                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                },
+                "text": "i am nl. 👍",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "10 hours ago",
+                        "author": {
+                            "name": "Ezra",
+                            "id": "kaid_1112279572017452692208390",
+                            "avatar": "/images/avatars/svg/leaf-red.svg"
+                        },
+                        "text": "<em>Gasp??</em><br>mind blowing 😱"
                     }
                 ]
             },
@@ -567,7 +567,7 @@ var json = {
                         "text": "Pikiminachu Maybe nothing else though whats the competition"
                     },
                     {
-                        "date": "14 minutes ago",
+                        "date": "19 minutes ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -576,7 +576,7 @@ var json = {
                         "text": "its a mario and luigi (based off the rpg mario and luigis) art competition. due by november 7th. you could technichallly do a luigi pikachu with the rpg hammer or in one of the rpg areas and get first place."
                     },
                     {
-                        "date": "14 minutes ago",
+                        "date": "19 minutes ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -667,7 +667,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 2,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -694,6 +694,30 @@ var json = {
                             "avatar": "/images/avatars/svg/starky-sapling.svg"
                         },
                         "text": "okie :)"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 2,
+                "date": "an hour ago",
+                "author": {
+                    "name": "Mathlete11",
+                    "id": "kaid_4902531429433401500771997",
+                    "avatar": "/images/avatars/svg/starky-sapling.svg"
+                },
+                "text": "I made a Harrisachu in the spinoffs XD",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "I saw I was just looking at that"
                     }
                 ]
             },
@@ -783,7 +807,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 minutes ago",
+                "date": "15 minutes ago",
                 "author": {
                     "name": "Zidane Medina",
                     "id": "kaid_4593991067080431920712749",
@@ -795,33 +819,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "an hour ago",
-                "author": {
-                    "name": "Mathlete11",
-                    "id": "kaid_4902531429433401500771997",
-                    "avatar": "/images/avatars/svg/starky-sapling.svg"
-                },
-                "text": "I made a Harrisachu in the spinoffs XD",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I saw I was just looking at that"
-                    }
-                ]
-            },
-            {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "Blocked by Taquavion",
                     "id": "kaid_568819712822552226070124",
