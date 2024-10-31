@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 42,
     "created": "a day ago",
-    "updated": "19 minutes ago",
+    "updated": "24 minutes ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -386,7 +386,7 @@ var json = {
                         "text": "@Mathlete11, I understand what you mean, but please try to understand what I mean.<br><br>This is supposed to be a free country. I am not telling anybody to vote a certain way. I’m not forcing people to agree with my opinions. I am only practicing my rights as an American citizen to practice my freedom of speech. In public schools, people can share their political and religious opinions, as long as they don’t force others to agree.<br><br>I hope you understand. I will try to rephrase my bio in a way that won’t offend others.<br><br>EDIT: I just rephrased it. Thank you for telling me your thoughts, @Mathlete11. Your idea could could have just saved me from some trouble"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -434,7 +434,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
