@@ -31,7 +31,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 10,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
@@ -265,7 +265,7 @@ var json = {
                         "text": "I don't think I'm going to make a kamalachu"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -418,7 +418,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -574,7 +574,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
@@ -602,7 +602,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "20 minutes ago",
+                "date": "25 minutes ago",
                 "author": {
                     "name": "Pineapples",
                     "id": "kaid_6104902828627300552146889",
