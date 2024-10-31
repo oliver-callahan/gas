@@ -1,9 +1,9 @@
 var json = {
     "code": "/** \n **IMPORTANT**\n **This Is not me being political \n **This Is not me Encouraging you to vote for him\n **This Is not me Encouraging you to vote against him\n **So Don't be thinking this is me doing anything \n **This is the First Idea I got when I thought of a new Derpachu to make\n * \n * \n * Oct 30 5:50pm I log on to make something find out this is 2ND on the HOTLIST HOW\n * Oct 30 7:10pm I AM 1ST ON THE HOTLIST FOR THE FIRST TIME EVER YAAAAAAAAAAAAAAAAYYYY\n * Oct 31 7:55am HALLOWEEN HOW ON EARTH IS THIS STILL 1ST ON THE HOTLIST HOOWWWW\n\n              Here Is my Subpage\n              if you wanna sub\n\nhttps://www.khanacademy.org/computer-programming/my-subpage-yeaaaaaaaaaaaaaaaaaaaa/6431479248109568 \n\n\n**/\n{\nvar pixelSize = 6;\n\nvar palette = {\n    \".\" : color(0, 166, 255),\n    \"1\" : color(0, 0, 0),\n    \"2\" : color(252, 5, 5),\n    \"3\" : color(117, 69, 2),\n    \"4\" : color(251, 255, 0),\n    \"5\" : color(0, 7, 133),\n    \"6\" : color(207, 207, 207),\n    \"7\" : color(230, 172, 12),\n    \"8\" : color(240, 202, 32),\n    \"9\" : color(135, 83, 0),\n    \"a\" : color(255, 175, 84),\n    \"b\" : color(255, 255, 255)\n};\n\nvar bitmap = [\n     \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"..................0000000000000....................................\",\n    \".................00000.000.00000...................................\",\n    \"................000...........000..................................\",\n    \"..........00000000..............000000.............................\",\n    \"........00000........................00............................\",\n    \".......0000...........................00...........................\",\n    \".......000.............................00..........................\",\n    \".......00...............................0..........................\",\n    \".......00...............................0..........................\",\n    \".......00...............................0..........................\",\n    \".......00...............................0..........................\",\n    \"........00.............................00..........................\",\n    \".........00..........................000...........................\",\n    \"..........00000000..............0000000............................\",\n    \"................000............000.................................\",\n    \".................000........0000...................................\",\n    \"..................000000000000.....................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \"...................................................................\",\n    \".................................7777778...........................\",\n    \"............................7777777777778..........................\",\n    \"..........................77777777777777788........................\",\n    \"........................777777777777777778.........................\",\n    \"........................77777777777777788..........................\",\n    \".......................777777888888888811..........................\",\n    \".......................7778888114444441bb1.........................\",\n    \".......................7888441bb1411141b1b1........................\",\n    \"....................1..884441b1b1412141bbb1........................\",\n    \"...................141..14441bbb14414441bb1........................\",\n    \"..................1441..14441bb1444444441121.......................\",\n    \".................14441..14442114444444444221.......................\",\n    \"................1444441.14442244444444444441.......................\",\n    \"...............14444441..1555555566665555551.......................\",\n    \"..............1444444441.15555555522555555551......................\",\n    \"...............144444441.1555555552255555/551......................\",\n    \"................144444331155555/5522555/5/551......................\",\n    \"....aaaaaa.......144443331555/5/55225555/5551......................\",\n    \"...aa....a........144433315555/55522555555551......................\",\n    \"..aa.....a.........14411331555555522555555551......................\",\n    \".aa......a..........11..11155555556655555551.......................\",\n    \"aa.......a................15555555665555551........................\",\n    \".a.......a.................155555566555551.........................\",\n    \".a.......a..................1151111111151..........................\",\n    \".a.......a...................111......111..........................\",\n    \".a...99999999999999999999999999999999999999999999999999999999999999\",\n    \".a..999999999999999999999999999999999999999999999999999999999999999\",\n    \".a.9999999999999999999999999999999999999999999999999999999999999999\",\n    \".a99999999999999999999999999999999999999999999999999999999999999999\",\n    \".999999999999999999999999999999999999999999999999999999999999999999\",\n    \"9999999999999999999999999999999999999999999999999999999999999999999\",\n\n\n\n\n    ];\n\nnoStroke(); \nfor (var i = 0; i < bitmap.length; i++) {\n    for (var j = 0; j < bitmap[i].length; j++) {\n        fill(palette[bitmap[i].charAt(j)]);\n        rect(j * pixelSize, i * pixelSize, pixelSize, pixelSize);\n    }\n    \n    \n}\n\n\n\nvar leftX = 147;\nvar rightX = 270;\nfill(255, 255, 255);\nellipse(leftX, 100, 126, 97);\nellipse(leftX+62, 100, 70, 60);\nellipse(leftX-62, 100, 70, 60);\n\n}",
     "title": "Trumpachu *read description*",
-    "votes": 38,
+    "votes": 40,
     "created": "a day ago",
-    "updated": "32 minutes ago",
+    "updated": "37 minutes ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -69,7 +69,7 @@ var json = {
             {
                 "replyCount": 4,
                 "votes": 6,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "Shifter -ON-",
                     "id": "kaid_892112752920553577482062",
@@ -182,7 +182,7 @@ var json = {
                         "text": "Why would you recommend that"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
@@ -191,7 +191,7 @@ var json = {
                         "text": "Because it's a little risky on the KA guidelines. It hasn't been taken down yet, though, so I think you're fine."
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -318,7 +318,7 @@ var json = {
                         "text": "I second this...."
                     },
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -327,7 +327,7 @@ var json = {
                         "text": "I third this... my comment was locked because people argued in the reply"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -336,7 +336,7 @@ var json = {
                         "text": "Most likely Hopefully they are watching this and will not take this whole project down because this is crazy"
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -345,7 +345,7 @@ var json = {
                         "text": "I don't think guardians are going to take down the whole thing, but they might lock and/or remove some comments deemed not suitable for an educational website like KA"
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -354,7 +354,7 @@ var json = {
                         "text": "Yes I know its even worse that this is 1st on the hotlist"
                     },
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -363,7 +363,7 @@ var json = {
                         "text": "they already locked one of the threads that you made"
                     },
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -372,7 +372,7 @@ var json = {
                         "text": "true... its kinda sad tho cause this is a WORK OF ART"
                     },
                     {
-                        "date": "24 minutes ago",
+                        "date": "29 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -381,7 +381,7 @@ var json = {
                         "text": "who me??"
                     },
                     {
-                        "date": "24 minutes ago",
+                        "date": "29 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -390,7 +390,7 @@ var json = {
                         "text": "the guardians are probably being paid in overtime for this project"
                     },
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -399,7 +399,7 @@ var json = {
                         "text": "no mathlete11 I'm talking about LJ"
                     },
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -408,7 +408,7 @@ var json = {
                         "text": "@Mathelete11<br>no me, scroll down<br>@HACK<br>I thought Guardians were volunteers?"
                     },
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -417,7 +417,7 @@ var json = {
                         "text": "they probably are I don't know"
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -495,7 +495,7 @@ var json = {
                         "text": "Ohh Actually I could make a blue Pikamin I have an idea for that"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -504,7 +504,7 @@ var json = {
                         "text": "pikamin rainbow and pikaborb (bulborb) confirmed?"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -564,7 +564,7 @@ var json = {
                         "text": "Your welcome ;)<br>I comment on what I like :)"
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -633,7 +633,7 @@ var json = {
                         "text": "maybe I am making other things to"
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -729,7 +729,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "29 minutes ago",
+                "date": "34 minutes ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -740,7 +740,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "28 minutes ago",
+                        "date": "33 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
