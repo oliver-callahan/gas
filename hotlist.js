@@ -292,7 +292,7 @@ var json = {
                         "text": "Umm... no. :/ I say no to your no. XD"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "AmethystSky",
                             "id": "kaid_784805823121542822870790",
@@ -431,7 +431,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "28 minutes ago",
+                "date": "32 minutes ago",
                 "author": {
                     "name": "Equilibrium",
                     "id": "kaid_1842852586096096865081151",
@@ -483,7 +483,7 @@ var json = {
                         "text": "Like a full blue derpachu? is that what your asking."
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -492,7 +492,7 @@ var json = {
                         "text": "kinda?... a pikmin is a creature from another game franchise. i was asking if you could make a blue pikmin derpachu/ blue pikamin. please look up pikmin adn blue pikmin."
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -501,7 +501,7 @@ var json = {
                         "text": "I just searched it. I could make a blue pikimin."
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
