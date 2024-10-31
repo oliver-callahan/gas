@@ -144,7 +144,7 @@ var json = {
                         "text": "Derpachu made a quote that made no sense.<br><br>\"Somedays Your happy, and somedays you dressed up as a president\" - Derpachu 2024"
                     },
                     {
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "Dojo Ninja #BringBackBackgrounds",
                             "id": "kaid_9951099012656077844855",
@@ -177,7 +177,7 @@ var json = {
                         "text": "Why would you recommend that"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
@@ -186,7 +186,7 @@ var json = {
                         "text": "Because it's a little risky on the KA guidelines. It hasn't been taken down yet, though, so I think you're fine."
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -255,7 +255,7 @@ var json = {
                         "text": "Most likely Hopefully they are watching this and will not take this whole project down because this is crazy"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -264,7 +264,7 @@ var json = {
                         "text": "I don't think guardians are going to take down the whole thing, but they might lock and/or remove some comments deemed not suitable for an educational website like KA"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -273,7 +273,7 @@ var json = {
                         "text": "Yes I know its even worse that this is 1st on the hotlist"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -282,7 +282,7 @@ var json = {
                         "text": "they already locked one of the threads that you made"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -372,7 +372,7 @@ var json = {
                         "text": "@pp can u change ur bio, this is an educational website and all the 4th graders don't need to see ur political opinions<br><br>also yeah the guardians are totally watching this thread XD"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "ρlατγρυς ρгοgгαммιηg",
                             "id": "kaid_3625391900429892923499026",
@@ -608,7 +608,7 @@ var json = {
                         "text": "Your welcome ;)<br>I comment on what I like :)"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -677,7 +677,7 @@ var json = {
                         "text": "maybe I am making other things to"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -797,7 +797,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "22 minutes ago",
+                "date": "27 minutes ago",
                 "author": {
                     "name": "That One Guy ME",
                     "id": "kaid_3823720261811268848400557",
@@ -822,7 +822,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "Dojo Ninja #BringBackBackgrounds",
                             "id": "kaid_9951099012656077844855",
@@ -835,7 +835,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -846,7 +846,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
