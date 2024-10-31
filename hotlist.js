@@ -55,7 +55,7 @@ var json = {
             {
                 "replyCount": 4,
                 "votes": 8,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "Shifter -ON-",
                     "id": "kaid_892112752920553577482062",
@@ -196,7 +196,7 @@ var json = {
                         "text": "Why would you recommend that"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
@@ -205,7 +205,7 @@ var json = {
                         "text": "Because it's a little risky on the KA guidelines. It hasn't been taken down yet, though, so I think you're fine."
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -327,7 +327,7 @@ var json = {
                         "text": "Your welcome ;)<br>I comment on what I like :)"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -345,7 +345,7 @@ var json = {
                         "text": "I got a question someone on here locked a discussion. How do you do that?"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -558,7 +558,7 @@ var json = {
                         "text": "Ohh Actually I could make a blue Pikamin I have an idea for that"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -567,7 +567,7 @@ var json = {
                         "text": "pikamin rainbow and pikaborb (bulborb) confirmed?"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
