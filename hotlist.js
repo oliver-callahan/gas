@@ -58,7 +58,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -152,21 +152,31 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
-                "date": "3 minutes ago",
+                "date": "8 minutes ago",
                 "author": {
-                    "name": "Samurai Warrior™ ✝ (Offline)",
+                    "name": "Samurai Warrior™ ✝ (Online)",
                     "id": "kaid_333534297788735128142174",
                     "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                 },
                 "text": "Wow, cool! :D<br>and a little creepy...<br>You're programs are really getting better and better fast o.O",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "- k a t i t e -",
+                            "id": "kaid_312040000225853665820004",
+                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                        },
+                        "text": "thank you so much :D"
+                    }
+                ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "an hour ago",
                 "author": {
@@ -177,7 +187,17 @@ var json = {
                 "text": "wow cute! I love the shading and the stuff you did for the background!!",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "- k a t i t e -",
+                            "id": "kaid_312040000225853665820004",
+                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                        },
+                        "text": "thank you :D"
+                    }
+                ]
             },
             {
                 "replyCount": 1,
@@ -204,7 +224,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 1,
                 "date": "2 hours ago",
                 "author": {
@@ -224,6 +244,15 @@ var json = {
                             "avatar": "/images/avatars/svg/starky-tree.svg"
                         },
                         "text": "Edit AMAZING! :D"
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "- k a t i t e -",
+                            "id": "kaid_312040000225853665820004",
+                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                        },
+                        "text": "thank you so much :D"
                     }
                 ]
             },
