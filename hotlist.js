@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 48,
     "created": "a day ago",
-    "updated": "2 hours ago",
+    "updated": "3 hours ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -41,7 +41,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 9,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
@@ -439,7 +439,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -793,7 +793,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
