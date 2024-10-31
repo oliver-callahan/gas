@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 33,
     "created": "13 hours ago",
-    "updated": "39 minutes ago",
+    "updated": "44 minutes ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -51,7 +51,7 @@ var json = {
                         "text": "yeah I'm not trying to be political because I only 14 and because elections coming up and because I'm not trying to get banned AGAIN"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -60,7 +60,7 @@ var json = {
                         "text": "<code>@<b>honeyghost</b></code> | Top 10 quotes of 2024: <em>\"The surest way to become a meme is to become the President of the United States.\"</em> - <code>honeyghost</code>'s brother (whoever it may be)"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -225,7 +225,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 3,
+                "votes": 4,
                 "date": "6 hours ago",
                 "author": {
                     "name": "Firebrand (offline)",
@@ -264,6 +264,66 @@ var json = {
                 "locked": false,
                 "pinned": false,
                 "replies": []
+            },
+            {
+                "replyCount": 5,
+                "votes": 3,
+                "date": "an hour ago",
+                "author": {
+                    "name": "Luke Ellis",
+                    "id": "kaid_8535468719137003545030723",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "To be honest, I can't believe this is #1 on the hotlist.<br>You did a great job making some people laugh, so I'll give you that. However, next time I would not recommend doing something like this.<br>lol. Great job.",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "Why would you recommend that"
+                    },
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "Luke Ellis",
+                            "id": "kaid_8535468719137003545030723",
+                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                        },
+                        "text": "Because it's a little risky on the KA guidelines. It hasn't been taken down yet, though, so I think you're fine."
+                    },
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "I know I have flagged most of the \"not good\" comments and told people not to comment on the thread of them so yeah I probably wont but people want me to make a George Washington one so I might make that one"
+                    },
+                    {
+                        "date": "44 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "Am I allowed to post a link to my subpage in the comments of my projects or would that be advertising even though its my own thing"
+                    },
+                    {
+                        "date": "36 minutes ago",
+                        "author": {
+                            "name": "Luke Ellis",
+                            "id": "kaid_8535468719137003545030723",
+                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                        },
+                        "text": "George Washington should be fine as well.<br>And, yeah, most coders post their subpage in the comments."
+                    }
+                ]
             },
             {
                 "replyCount": 7,
@@ -324,7 +384,7 @@ var json = {
                         "text": "You know a lot me then me am I allowed to post a link to my subpage in my comments of a project"
                     },
                     {
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "Duke :P",
                             "id": "kaid_351465532815782433620675",
@@ -333,7 +393,7 @@ var json = {
                         "text": "You have to be a guardian."
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -364,66 +424,6 @@ var json = {
                             "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                         },
                         "text": "maybe I am making other things to"
-                    }
-                ]
-            },
-            {
-                "replyCount": 5,
-                "votes": 2,
-                "date": "an hour ago",
-                "author": {
-                    "name": "Luke Ellis",
-                    "id": "kaid_8535468719137003545030723",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "To be honest, I can't believe this is #1 on the hotlist.<br>You did a great job making some people laugh, so I'll give you that. However, next time I would not recommend doing something like this.<br>lol. Great job.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Why would you recommend that"
-                    },
-                    {
-                        "date": "43 minutes ago",
-                        "author": {
-                            "name": "Luke Ellis",
-                            "id": "kaid_8535468719137003545030723",
-                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                        },
-                        "text": "Because it's a little risky on the KA guidelines. It hasn't been taken down yet, though, so I think you're fine."
-                    },
-                    {
-                        "date": "41 minutes ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I know I have flagged most of the \"not good\" comments and told people not to comment on the thread of them so yeah I probably wont but people want me to make a George Washington one so I might make that one"
-                    },
-                    {
-                        "date": "39 minutes ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Am I allowed to post a link to my subpage in the comments of my projects or would that be advertising even though its my own thing"
-                    },
-                    {
-                        "date": "31 minutes ago",
-                        "author": {
-                            "name": "Luke Ellis",
-                            "id": "kaid_8535468719137003545030723",
-                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                        },
-                        "text": "George Washington should be fine as well.<br>And, yeah, most coders post their subpage in the comments."
                     }
                 ]
             },
@@ -474,7 +474,7 @@ var json = {
                         "text": "I had the ears when I first made it but it looked insanely weird because it was just a floating black triangle for both ears so I removed them."
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -523,7 +523,7 @@ var json = {
             {
                 "replyCount": 10,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "Pro0planter",
                     "id": "kaid_1863950377056983766116587",
@@ -615,7 +615,7 @@ var json = {
                         "text": "Maybe :)"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -628,7 +628,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 minutes ago",
+                "date": "11 minutes ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
