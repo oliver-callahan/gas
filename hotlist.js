@@ -145,7 +145,7 @@ var json = {
                         "text": "I third this... my comment was locked because people argued in the reply"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -262,7 +262,7 @@ var json = {
                         "text": "Btw, I had one of my posts taken down (people probably reported it because of their political ideas)"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -426,6 +426,20 @@ var json = {
                 ]
             },
             {
+                "replyCount": 0,
+                "votes": 3,
+                "date": "2 hours ago",
+                "author": {
+                    "name": "//I'M BOB ;)...(FYI I'm online)",
+                    "id": "kaid_7500540694222150489044752",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "How does this have #1 on the hot list?",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
                 "replyCount": 1,
                 "votes": 2,
                 "date": "19 hours ago",
@@ -459,20 +473,6 @@ var json = {
                     "avatar": "/images/avatars/svg/stelly-orange.svg"
                 },
                 "text": "lol lol lol lol<br><br>...<br><br>I seriously could not stop laughing for about three minutes straight.<br>It's so cute.<br><br>Great job! Vote++",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 2,
-                "date": "an hour ago",
-                "author": {
-                    "name": "//I'M BOB ;)...(FYI I'm online)",
-                    "id": "kaid_7500540694222150489044752",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "How does this have #1 on the hot list?",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -650,7 +650,7 @@ var json = {
                         "text": "Pikiminachu Maybe nothing else though whats the competition"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -659,7 +659,7 @@ var json = {
                         "text": "its a mario and luigi (based off the rpg mario and luigis) art competition. due by november 7th. you could technichallly do a luigi pikachu with the rpg hammer or in one of the rpg areas and get first place."
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -706,7 +706,7 @@ var json = {
                         "text": "Thanks I never thought I would see you comment on one of my projects"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Duke :P",
                             "id": "kaid_351465532815782433620675",
@@ -724,7 +724,7 @@ var json = {
                         "text": "well I'm glad you like it"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -733,7 +733,7 @@ var json = {
                         "text": "I got a question someone on here locked a discussion. How do you do that?"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -778,7 +778,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Zidane Medina",
                     "id": "kaid_4593991067080431920712749",
@@ -870,7 +870,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -879,7 +879,7 @@ var json = {
                         "text": "<em>Gasp??</em><br>mind blowing 😱"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "//I'M BOB ;)...(FYI I'm online)",
                             "id": "kaid_7500540694222150489044752",
