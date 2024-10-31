@@ -3,7 +3,7 @@ var json = {
     "title": "kuragekyatto (khantober)",
     "votes": 29,
     "created": "5 hours ago",
-    "updated": "43 minutes ago",
+    "updated": "an hour ago",
     "type": "PJS",
     "author": {
         "name": "- k a t i t e -",
@@ -34,7 +34,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 4,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "cactuses.always.win.",
                     "id": "kaid_488290387935041457443716",
@@ -54,7 +54,7 @@ var json = {
                         "text": "thank you"
                     },
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "Kumpenump",
                             "id": "kaid_1065086901382358401624396",
@@ -63,7 +63,7 @@ var json = {
                         "text": "well you're so whispy and wispery"
                     },
                     {
-                        "date": "6 minutes ago",
+                        "date": "11 minutes ago",
                         "author": {
                             "name": "cactuses.always.win.",
                             "id": "kaid_488290387935041457443716",
@@ -96,7 +96,7 @@ var json = {
                         "text": "thanks :D <br>yeah, 'kurage' means jellyfish and 'kyatto' is a way of saying cat"
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -105,7 +105,7 @@ var json = {
                         "text": "its rly adorable :)  nice job"
                     },
                     {
-                        "date": "39 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -114,7 +114,7 @@ var json = {
                         "text": "thank you again :D"
                     },
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -123,7 +123,7 @@ var json = {
                         "text": "no problem :D<br><br>also, can you code a snake graphic next..."
                     },
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -132,7 +132,7 @@ var json = {
                         "text": "yes absolutely! i may have to make it themed as a certain taylor swift album though (for certain reasons)"
                     },
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -141,7 +141,7 @@ var json = {
                         "text": "okie thanks :DD"
                     },
                     {
-                        "date": "6 minutes ago",
+                        "date": "11 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -250,7 +250,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "20 minutes ago",
+                "date": "25 minutes ago",
                 "author": {
                     "name": "Dat",
                     "id": "kaid_4164356982737975081215128",
@@ -261,7 +261,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 minutes ago",
+                        "date": "24 minutes ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -294,7 +294,7 @@ var json = {
                         "text": "thank you :D"
                     },
                     {
-                        "date": "44 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "sugarnlight",
                             "id": "kaid_516497598968512440616556",
