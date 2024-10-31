@@ -16,7 +16,7 @@ var json = {
     },
     "forks": [
         {
-            "title": "Kamalachu *spinoff of trumpachu\"",
+            "title": "Kamalachu *spinoff of trumpachu*",
             "id": "6735659923324928",
             "forks": 0,
             "votes": 1,
@@ -102,7 +102,7 @@ var json = {
                         "text": "yeah very"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -111,7 +111,7 @@ var json = {
                         "text": "hmmm...<br><br>I didn't say anything"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "AlIEN",
                             "id": "kaid_213001050410218690794137",
@@ -120,7 +120,7 @@ var json = {
                         "text": "we know, i was referring to the comment we are well commenting on. I think it would be best to close this thread. No one else respond"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -238,22 +238,8 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
-                "votes": 3,
-                "date": "an hour ago",
-                "author": {
-                    "name": "SquiirelBoyMO",
-                    "id": "kaid_773398490746126089688872",
-                    "avatar": "/images/avatars/svg/leaf-grey.svg"
-                },
-                "text": "You know what, Im not scared of a strike. I am just practicing freedom of speech. \"Give me liberty or give me death!!\"<br><br>#MakeAmericaGreatAgain!!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
                 "replyCount": 5,
-                "votes": 3,
+                "votes": 4,
                 "date": "an hour ago",
                 "author": {
                     "name": "Luke Ellis",
@@ -310,6 +296,20 @@ var json = {
                         "text": "George Washington should be fine as well.<br>And, yeah, most coders post their subpage in the comments."
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 3,
+                "date": "an hour ago",
+                "author": {
+                    "name": "SquiirelBoyMO",
+                    "id": "kaid_773398490746126089688872",
+                    "avatar": "/images/avatars/svg/leaf-grey.svg"
+                },
+                "text": "You know what, Im not scared of a strike. I am just practicing freedom of speech. \"Give me liberty or give me death!!\"<br><br>#MakeAmericaGreatAgain!!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 6,
@@ -448,7 +448,7 @@ var json = {
                         "text": "You have to be a guardian."
                     },
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -534,7 +534,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -628,7 +628,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "22 minutes ago",
+                "date": "26 minutes ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
