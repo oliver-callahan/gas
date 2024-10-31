@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 38,
     "created": "a day ago",
-    "updated": "27 minutes ago",
+    "updated": "32 minutes ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -233,7 +233,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -318,7 +318,7 @@ var json = {
                         "text": "I second this...."
                     },
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -327,7 +327,7 @@ var json = {
                         "text": "I third this... my comment was locked because people argued in the reply"
                     },
                     {
-                        "date": "28 minutes ago",
+                        "date": "33 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -336,7 +336,7 @@ var json = {
                         "text": "Most likely Hopefully they are watching this and will not take this whole project down because this is crazy"
                     },
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -345,7 +345,7 @@ var json = {
                         "text": "I don't think guardians are going to take down the whole thing, but they might lock and/or remove some comments deemed not suitable for an educational website like KA"
                     },
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -354,7 +354,7 @@ var json = {
                         "text": "Yes I know its even worse that this is 1st on the hotlist"
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -363,7 +363,7 @@ var json = {
                         "text": "they already locked one of the threads that you made"
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -372,7 +372,7 @@ var json = {
                         "text": "true... its kinda sad tho cause this is a WORK OF ART"
                     },
                     {
-                        "date": "19 minutes ago",
+                        "date": "24 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -381,7 +381,7 @@ var json = {
                         "text": "who me??"
                     },
                     {
-                        "date": "19 minutes ago",
+                        "date": "24 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -390,7 +390,7 @@ var json = {
                         "text": "the guardians are probably being paid in overtime for this project"
                     },
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -399,7 +399,7 @@ var json = {
                         "text": "no mathlete11 I'm talking about LJ"
                     },
                     {
-                        "date": "17 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -408,7 +408,7 @@ var json = {
                         "text": "@Mathelete11<br>no me, scroll down<br>@HACK<br>I thought Guardians were volunteers?"
                     },
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -417,7 +417,7 @@ var json = {
                         "text": "they probably are I don't know"
                     },
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -555,7 +555,7 @@ var json = {
                         "text": "Thanks I never thought I would see you comment on one of my projects"
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "Duke :P",
                             "id": "kaid_351465532815782433620675",
@@ -573,7 +573,7 @@ var json = {
                         "text": "well I'm glad you like it"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -582,7 +582,7 @@ var json = {
                         "text": "I got a question someone on here locked a discussion. How do you do that?"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -633,7 +633,7 @@ var json = {
                         "text": "maybe I am making other things to"
                     },
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -729,7 +729,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "24 minutes ago",
+                "date": "29 minutes ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -740,7 +740,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
