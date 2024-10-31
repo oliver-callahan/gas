@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 33,
     "created": "13 hours ago",
-    "updated": "29 minutes ago",
+    "updated": "34 minutes ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -226,13 +226,27 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Firebrand (offline)",
                     "id": "kaid_423049852746380987692804",
                     "avatar": "/images/avatars/svg/stelly-orange.svg"
                 },
                 "text": "lol lol lol lol<br><br>...<br><br>I seriously could not stop laughing for about three minutes straight.<br>It's so cute.<br><br>Great job! Vote++",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 3,
+                "date": "an hour ago",
+                "author": {
+                    "name": "SquiirelBoyMO",
+                    "id": "kaid_773398490746126089688872",
+                    "avatar": "/images/avatars/svg/leaf-grey.svg"
+                },
+                "text": "You know what, Im not scared of a strike. I am just practicing freedom of speech. \"Give me liberty or give me death!!\"<br><br>#MakeAmericaGreatAgain!!",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -278,7 +292,7 @@ var json = {
                         "text": "well I'm glad you like it"
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -287,7 +301,7 @@ var json = {
                         "text": "I got a question someone on here locked a discussion. How do you do that?"
                     },
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -296,7 +310,7 @@ var json = {
                         "text": "You know a lot me then me am I allowed to post a link to my subpage in my comments of a project"
                     },
                     {
-                        "date": "21 minutes ago",
+                        "date": "26 minutes ago",
                         "author": {
                             "name": "Duke :P",
                             "id": "kaid_351465532815782433620675",
@@ -305,7 +319,7 @@ var json = {
                         "text": "You have to be a guardian."
                     },
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -329,7 +343,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -376,7 +390,7 @@ var json = {
                         "text": "Why would you recommend that"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
@@ -385,7 +399,7 @@ var json = {
                         "text": "Because it's a little risky on the KA guidelines. It hasn't been taken down yet, though, so I think you're fine."
                     },
                     {
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -394,7 +408,7 @@ var json = {
                         "text": "I know I have flagged most of the \"not good\" comments and told people not to comment on the thread of them so yeah I probably wont but people want me to make a George Washington one so I might make that one"
                     },
                     {
-                        "date": "29 minutes ago",
+                        "date": "34 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -403,7 +417,7 @@ var json = {
                         "text": "Am I allowed to post a link to my subpage in the comments of my projects or would that be advertising even though its my own thing"
                     },
                     {
-                        "date": "21 minutes ago",
+                        "date": "26 minutes ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
@@ -427,7 +441,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -614,13 +628,13 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 minutes ago",
                 "author": {
-                    "name": "SquiirelBoyMO",
-                    "id": "kaid_773398490746126089688872",
-                    "avatar": "/images/avatars/svg/leaf-grey.svg"
+                    "name": "- k a t i t e -",
+                    "id": "kaid_312040000225853665820004",
+                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
                 },
-                "text": "You know what, Im not scared of a strike. I am just practicing freedom of speech. \"Give me liberty or give me death!!\"<br><br>#MakeAmericaGreatAgain!!",
+                "text": "congrats on your first 1000 kelvin :D",
                 "locked": false,
                 "pinned": false,
                 "replies": []
