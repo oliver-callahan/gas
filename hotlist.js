@@ -3,7 +3,7 @@ var json = {
     "title": "kuragekyatto (khantober)",
     "votes": 28,
     "created": "4 hours ago",
-    "updated": "8 minutes ago",
+    "updated": "13 minutes ago",
     "type": "PJS",
     "author": {
         "name": "- k a t i t e -",
@@ -78,7 +78,7 @@ var json = {
                         "text": "thanks :D <br>yeah, 'kurage' means jellyfish and 'kyatto' is a way of saying cat"
                     },
                     {
-                        "date": "6 minutes ago",
+                        "date": "11 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -87,7 +87,7 @@ var json = {
                         "text": "its rly adorable :)  nice job"
                     },
                     {
-                        "date": "4 minutes ago",
+                        "date": "9 minutes ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -124,7 +124,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Raven",
                     "id": "kaid_1094399428577851630415346",
@@ -172,7 +172,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "18 minutes ago",
+                "date": "23 minutes ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Online)",
                     "id": "kaid_333534297788735128142174",
@@ -183,7 +183,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 minutes ago",
+                        "date": "16 minutes ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -207,7 +207,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -216,7 +216,7 @@ var json = {
                         "text": "thank you :D"
                     },
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "sugarnlight",
                             "id": "kaid_516497598968512440616556",
@@ -273,7 +273,7 @@ var json = {
                         "text": "Edit AMAZING! :D"
                     },
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
