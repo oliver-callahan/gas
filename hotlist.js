@@ -30,7 +30,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 1,
-                "votes": 9,
+                "votes": 10,
                 "date": "7 hours ago",
                 "author": {
                     "name": "wealR",
@@ -418,7 +418,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a few seconds ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -480,7 +480,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -602,7 +602,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "15 minutes ago",
+                "date": "20 minutes ago",
                 "author": {
                     "name": "Pineapples",
                     "id": "kaid_6104902828627300552146889",
