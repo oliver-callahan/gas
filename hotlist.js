@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 38,
     "created": "a day ago",
-    "updated": "22 minutes ago",
+    "updated": "27 minutes ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -30,7 +30,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 1,
-                "votes": 12,
+                "votes": 9,
                 "date": "17 hours ago",
                 "author": {
                     "name": "wealR",
@@ -53,8 +53,22 @@ var json = {
                 ]
             },
             {
+                "replyCount": 0,
+                "votes": 7,
+                "date": "13 hours ago",
+                "author": {
+                    "name": "SquiirelBoyMO",
+                    "id": "kaid_773398490746126089688872",
+                    "avatar": "/images/avatars/svg/leaf-grey.svg"
+                },
+                "text": "You know what, Im not scared of a strike. I am just practicing freedom of speech. \"Give me liberty or give me death!!\"<br><br>#MakeAmericaGreatAgain!!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
                 "replyCount": 4,
-                "votes": 8,
+                "votes": 6,
                 "date": "20 hours ago",
                 "author": {
                     "name": "Shifter -ON-",
@@ -105,7 +119,7 @@ var json = {
             },
             {
                 "replyCount": 3,
-                "votes": 7,
+                "votes": 5,
                 "date": "a day ago",
                 "author": {
                     "name": "honeyghost",
@@ -144,190 +158,6 @@ var json = {
                         "text": "Derpachu made a quote that made no sense.<br><br>\"Somedays Your happy, and somedays you dressed up as a president\" - Derpachu 2024"
                     }
                 ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 4,
-                "date": "10 hours ago",
-                "author": {
-                    "name": "NL",
-                    "id": "kaid_101904269317089495055459",
-                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
-                },
-                "text": "i am nl. 👍",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "9 hours ago",
-                        "author": {
-                            "name": "Ezra",
-                            "id": "kaid_1112279572017452692208390",
-                            "avatar": "/images/avatars/svg/leaf-red.svg"
-                        },
-                        "text": "<em>Gasp??</em><br>mind blowing 😱"
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 4,
-                "date": "17 hours ago",
-                "author": {
-                    "name": "Firebrand (offline)",
-                    "id": "kaid_423049852746380987692804",
-                    "avatar": "/images/avatars/svg/stelly-orange.svg"
-                },
-                "text": "lol lol lol lol<br><br>...<br><br>I seriously could not stop laughing for about three minutes straight.<br>It's so cute.<br><br>Great job! Vote++",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 13,
-                "votes": 4,
-                "date": "10 hours ago",
-                "author": {
-                    "name": "Pineapples",
-                    "id": "kaid_6104902828627300552146889",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "I have a feeling that the guardians are closely watching the comments of this program...<br>This is on the verge of breaking the guidelines...<br>I am scared for you...",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "7 hours ago",
-                        "author": {
-                            "name": "CodeNinja",
-                            "id": "kaid_6247985199070618801670730",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I second this...."
-                    },
-                    {
-                        "date": "25 minutes ago",
-                        "author": {
-                            "name": "LJ",
-                            "id": "kaid_1144628223469068678737336",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "I third this... my comment was locked because people argued in the reply"
-                    },
-                    {
-                        "date": "23 minutes ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Most likely Hopefully they are watching this and will not take this whole project down because this is crazy"
-                    },
-                    {
-                        "date": "17 minutes ago",
-                        "author": {
-                            "name": "LJ",
-                            "id": "kaid_1144628223469068678737336",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "I don't think guardians are going to take down the whole thing, but they might lock and/or remove some comments deemed not suitable for an educational website like KA"
-                    },
-                    {
-                        "date": "17 minutes ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Yes I know its even worse that this is 1st on the hotlist"
-                    },
-                    {
-                        "date": "16 minutes ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "they already locked one of the threads that you made"
-                    },
-                    {
-                        "date": "15 minutes ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "true... its kinda sad tho cause this is a WORK OF ART"
-                    },
-                    {
-                        "date": "14 minutes ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "who me??"
-                    },
-                    {
-                        "date": "14 minutes ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "the guardians are probably being paid in overtime for this project"
-                    },
-                    {
-                        "date": "13 minutes ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "no mathlete11 I'm talking about LJ"
-                    },
-                    {
-                        "date": "13 minutes ago",
-                        "author": {
-                            "name": "LJ",
-                            "id": "kaid_1144628223469068678737336",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "@Mathelete11<br>no me, scroll down<br>@HACK<br>I thought Guardians were volunteers?"
-                    },
-                    {
-                        "date": "12 minutes ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "they probably are I don't know"
-                    },
-                    {
-                        "date": "10 minutes ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "@LJ oh XD <br><br>yeah I think the guardians r volunteers"
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 4,
-                "date": "13 hours ago",
-                "author": {
-                    "name": "SquiirelBoyMO",
-                    "id": "kaid_773398490746126089688872",
-                    "avatar": "/images/avatars/svg/leaf-grey.svg"
-                },
-                "text": "You know what, Im not scared of a strike. I am just practicing freedom of speech. \"Give me liberty or give me death!!\"<br><br>#MakeAmericaGreatAgain!!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
             },
             {
                 "replyCount": 5,
@@ -392,6 +222,30 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 3,
+                "date": "10 hours ago",
+                "author": {
+                    "name": "NL",
+                    "id": "kaid_101904269317089495055459",
+                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                },
+                "text": "i am nl. 👍",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "9 hours ago",
+                        "author": {
+                            "name": "Ezra",
+                            "id": "kaid_1112279572017452692208390",
+                            "avatar": "/images/avatars/svg/leaf-red.svg"
+                        },
+                        "text": "<em>Gasp??</em><br>mind blowing 😱"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 3,
                 "date": "13 hours ago",
                 "author": {
                     "name": "Danomi42",
@@ -403,7 +257,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -426,6 +280,152 @@ var json = {
                 "locked": false,
                 "pinned": false,
                 "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 3,
+                "date": "17 hours ago",
+                "author": {
+                    "name": "Firebrand (offline)",
+                    "id": "kaid_423049852746380987692804",
+                    "avatar": "/images/avatars/svg/stelly-orange.svg"
+                },
+                "text": "lol lol lol lol<br><br>...<br><br>I seriously could not stop laughing for about three minutes straight.<br>It's so cute.<br><br>Great job! Vote++",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 13,
+                "votes": 3,
+                "date": "10 hours ago",
+                "author": {
+                    "name": "Pineapples",
+                    "id": "kaid_6104902828627300552146889",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "I have a feeling that the guardians are closely watching the comments of this program...<br>This is on the verge of breaking the guidelines...<br>I am scared for you...",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "7 hours ago",
+                        "author": {
+                            "name": "CodeNinja",
+                            "id": "kaid_6247985199070618801670730",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "I second this...."
+                    },
+                    {
+                        "date": "30 minutes ago",
+                        "author": {
+                            "name": "LJ",
+                            "id": "kaid_1144628223469068678737336",
+                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
+                        },
+                        "text": "I third this... my comment was locked because people argued in the reply"
+                    },
+                    {
+                        "date": "28 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "Most likely Hopefully they are watching this and will not take this whole project down because this is crazy"
+                    },
+                    {
+                        "date": "22 minutes ago",
+                        "author": {
+                            "name": "LJ",
+                            "id": "kaid_1144628223469068678737336",
+                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
+                        },
+                        "text": "I don't think guardians are going to take down the whole thing, but they might lock and/or remove some comments deemed not suitable for an educational website like KA"
+                    },
+                    {
+                        "date": "22 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "Yes I know its even worse that this is 1st on the hotlist"
+                    },
+                    {
+                        "date": "20 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "they already locked one of the threads that you made"
+                    },
+                    {
+                        "date": "20 minutes ago",
+                        "author": {
+                            "name": "Mathlete11",
+                            "id": "kaid_4902531429433401500771997",
+                            "avatar": "/images/avatars/svg/starky-sapling.svg"
+                        },
+                        "text": "true... its kinda sad tho cause this is a WORK OF ART"
+                    },
+                    {
+                        "date": "19 minutes ago",
+                        "author": {
+                            "name": "Mathlete11",
+                            "id": "kaid_4902531429433401500771997",
+                            "avatar": "/images/avatars/svg/starky-sapling.svg"
+                        },
+                        "text": "who me??"
+                    },
+                    {
+                        "date": "19 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "the guardians are probably being paid in overtime for this project"
+                    },
+                    {
+                        "date": "18 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "no mathlete11 I'm talking about LJ"
+                    },
+                    {
+                        "date": "17 minutes ago",
+                        "author": {
+                            "name": "LJ",
+                            "id": "kaid_1144628223469068678737336",
+                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
+                        },
+                        "text": "@Mathelete11<br>no me, scroll down<br>@HACK<br>I thought Guardians were volunteers?"
+                    },
+                    {
+                        "date": "17 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "they probably are I don't know"
+                    },
+                    {
+                        "date": "15 minutes ago",
+                        "author": {
+                            "name": "Mathlete11",
+                            "id": "kaid_4902531429433401500771997",
+                            "avatar": "/images/avatars/svg/starky-sapling.svg"
+                        },
+                        "text": "@LJ oh XD <br><br>yeah I think the guardians r volunteers"
+                    }
+                ]
             },
             {
                 "replyCount": 10,
@@ -546,7 +546,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -624,7 +624,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -633,7 +633,7 @@ var json = {
                         "text": "maybe I am making other things to"
                     },
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -684,7 +684,7 @@ var json = {
                         "text": "@HACK<br>Why not? :/ If you make fun of one, you gotta make fun of the other. It's only fair."
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -693,7 +693,7 @@ var json = {
                         "text": "because no"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -729,7 +729,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "19 minutes ago",
+                "date": "24 minutes ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -740,7 +740,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
