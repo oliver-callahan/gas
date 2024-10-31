@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 38,
     "created": "a day ago",
-    "updated": "2 minutes ago",
+    "updated": "7 minutes ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -184,7 +184,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 3,
+                "replyCount": 6,
                 "votes": 4,
                 "date": "9 hours ago",
                 "author": {
@@ -206,7 +206,7 @@ var json = {
                         "text": "I second this...."
                     },
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -215,29 +215,51 @@ var json = {
                         "text": "I third this... my comment was locked because people argued in the reply"
                     },
                     {
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
                             "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                         },
                         "text": "Most likely Hopefully they are watching this and will not take this whole project down because this is crazy"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "LJ",
+                            "id": "kaid_1144628223469068678737336",
+                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
+                        },
+                        "text": "I don't think guardians are going to take down the whole thing, but they might lock and/or remove some comments deemed not suitable for an educational website like KA"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "Yes I know its even worse that this is 1st on the hotlist"
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "they already locked one of the threads that you made"
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "Mathlete11",
+                            "id": "kaid_4902531429433401500771997",
+                            "avatar": "/images/avatars/svg/starky-sapling.svg"
+                        },
+                        "text": "true... its kinda sad tho cause this is a WORK OF ART"
                     }
                 ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 4,
-                "date": "12 hours ago",
-                "author": {
-                    "name": "SquiirelBoyMO",
-                    "id": "kaid_773398490746126089688872",
-                    "avatar": "/images/avatars/svg/leaf-grey.svg"
-                },
-                "text": "You know what, Im not scared of a strike. I am just practicing freedom of speech. \"Give me liberty or give me death!!\"<br><br>#MakeAmericaGreatAgain!!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
             },
             {
                 "replyCount": 5,
@@ -312,6 +334,44 @@ var json = {
                 "locked": false,
                 "pinned": false,
                 "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 3,
+                "date": "12 hours ago",
+                "author": {
+                    "name": "SquiirelBoyMO",
+                    "id": "kaid_773398490746126089688872",
+                    "avatar": "/images/avatars/svg/leaf-grey.svg"
+                },
+                "text": "You know what, Im not scared of a strike. I am just practicing freedom of speech. \"Give me liberty or give me death!!\"<br><br>#MakeAmericaGreatAgain!!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 2,
+                "date": "13 hours ago",
+                "author": {
+                    "name": "Danomi42",
+                    "id": "kaid_1045282636896433254069987",
+                    "avatar": "/images/avatars/svg/primosaur-sapling.svg"
+                },
+                "text": "I don't know why, but I'm just enjoying looking at this... <em>creation...</em> I guess...",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "12 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "thank you"
+                    }
+                ]
             },
             {
                 "replyCount": 7,
@@ -392,7 +452,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 2,
                 "date": "16 hours ago",
                 "author": {
@@ -412,30 +472,15 @@ var json = {
                             "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                         },
                         "text": "maybe I am making other things to"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "13 hours ago",
-                "author": {
-                    "name": "Danomi42",
-                    "id": "kaid_1045282636896433254069987",
-                    "avatar": "/images/avatars/svg/primosaur-sapling.svg"
-                },
-                "text": "I don't know why, but I'm just enjoying looking at this... <em>creation...</em> I guess...",
-                "locked": false,
-                "pinned": false,
-                "replies": [
+                    },
                     {
-                        "date": "12 hours ago",
+                        "date": "2 minutes ago",
                         "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                            "name": "Mathlete11",
+                            "id": "kaid_4902531429433401500771997",
+                            "avatar": "/images/avatars/svg/starky-sapling.svg"
                         },
-                        "text": "thank you"
+                        "text": "okie :)"
                     }
                 ]
             },
@@ -626,6 +671,30 @@ var json = {
                 "locked": false,
                 "pinned": false,
                 "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 1,
+                "date": "4 minutes ago",
+                "author": {
+                    "name": "Mathlete11",
+                    "id": "kaid_4902531429433401500771997",
+                    "avatar": "/images/avatars/svg/starky-sapling.svg"
+                },
+                "text": "I made a Harrisachu in the spinoffs XD",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "I saw I was just looking at that"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
