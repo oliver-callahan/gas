@@ -154,7 +154,7 @@ var json = {
                         "text": "Derpachu made a quote that made no sense.<br><br>\"Somedays Your happy, and somedays you dressed up as a president\" - Derpachu 2024"
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Dojo Ninja #BringBackBackgrounds",
                             "id": "kaid_9951099012656077844855",
@@ -832,7 +832,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Dojo Ninja #BringBackBackgrounds",
                             "id": "kaid_9951099012656077844855",
