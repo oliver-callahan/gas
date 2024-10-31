@@ -34,7 +34,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "SavageBunions29",
                     "id": "kaid_2311247349130436121932823",
@@ -135,7 +135,7 @@ var json = {
                         "text": "then we can agree its rushed art. thx :)"
                     },
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -172,7 +172,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "43 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "LJ",
                     "id": "kaid_1144628223469068678737336",
@@ -210,7 +210,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "44 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "𝔹𝕠𝕠𝕞𝕥𝕠𝕨𝕟2021™",
                     "id": "kaid_4342706381546273738505410",
