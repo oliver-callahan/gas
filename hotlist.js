@@ -31,7 +31,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 12,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
@@ -453,7 +453,7 @@ var json = {
                         "text": "I don't think I'm going to make a kamalachu"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -598,7 +598,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
