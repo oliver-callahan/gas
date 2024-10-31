@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 45,
     "created": "a day ago",
-    "updated": "an hour ago",
+    "updated": "2 hours ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -31,7 +31,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 9,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
@@ -420,7 +420,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -774,13 +774,27 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "14 hours ago",
+                "date": "15 hours ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
                     "avatar": "/images/avatars/svg/duskpin-sapling.svg"
                 },
                 "text": "congrats on your first 1000 kelvin :D",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 minutes ago",
+                "author": {
+                    "name": "That One Guy ME",
+                    "id": "kaid_3823720261811268848400557",
+                    "avatar": "/images/avatars/svg/duskpin-seed.svg"
+                },
+                "text": "imo his skin color is closer to raichu",
                 "locked": false,
                 "pinned": false,
                 "replies": []
