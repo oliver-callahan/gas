@@ -55,7 +55,7 @@ var json = {
             {
                 "replyCount": 4,
                 "votes": 8,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "Shifter -ON-",
                     "id": "kaid_892112752920553577482062",
@@ -160,6 +160,20 @@ var json = {
                 "replies": []
             },
             {
+                "replyCount": 0,
+                "votes": 4,
+                "date": "5 hours ago",
+                "author": {
+                    "name": "SquiirelBoyMO",
+                    "id": "kaid_773398490746126089688872",
+                    "avatar": "/images/avatars/svg/leaf-grey.svg"
+                },
+                "text": "You know what, Im not scared of a strike. I am just practicing freedom of speech. \"Give me liberty or give me death!!\"<br><br>#MakeAmericaGreatAgain!!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
                 "replyCount": 5,
                 "votes": 4,
                 "date": "5 hours ago",
@@ -182,7 +196,7 @@ var json = {
                         "text": "Why would you recommend that"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
@@ -191,7 +205,7 @@ var json = {
                         "text": "Because it's a little risky on the KA guidelines. It hasn't been taken down yet, though, so I think you're fine."
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -216,89 +230,6 @@ var json = {
                             "avatar": "/images/avatars/svg/orange-juice-squid.svg"
                         },
                         "text": "George Washington should be fine as well.<br>And, yeah, most coders post their subpage in the comments."
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 3,
-                "date": "5 hours ago",
-                "author": {
-                    "name": "SquiirelBoyMO",
-                    "id": "kaid_773398490746126089688872",
-                    "avatar": "/images/avatars/svg/leaf-grey.svg"
-                },
-                "text": "You know what, Im not scared of a strike. I am just practicing freedom of speech. \"Give me liberty or give me death!!\"<br><br>#MakeAmericaGreatAgain!!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 6,
-                "votes": 2,
-                "date": "16 hours ago",
-                "author": {
-                    "name": "LJ",
-                    "id": "kaid_1144628223469068678737336",
-                    "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                },
-                "text": "this is not me being political but where are the ears?<br><br>also how about kamalachu next",
-                "locked": true,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "15 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I had the ears when I first made it but it looked insanely weird because it was just a floating black triangle for both ears so I removed them."
-                    },
-                    {
-                        "date": "13 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I don't think I'm going to make a kamalachu"
-                    },
-                    {
-                        "date": "12 hours ago",
-                        "author": {
-                            "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
-                            "id": "kaid_693763055742960827086832",
-                            "avatar": "/images/avatars/svg/cs-winston.svg"
-                        },
-                        "text": "@HACK<br>Why not? :/ If you make fun of one, you gotta make fun of the other. It's only fair."
-                    },
-                    {
-                        "date": "12 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "because no"
-                    },
-                    {
-                        "date": "11 hours ago",
-                        "author": {
-                            "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
-                            "id": "kaid_693763055742960827086832",
-                            "avatar": "/images/avatars/svg/cs-winston.svg"
-                        },
-                        "text": "Umm... no. :/ I say no to your no. XD"
-                    },
-                    {
-                        "date": "10 hours ago",
-                        "author": {
-                            "name": "AmethystSky",
-                            "id": "kaid_784805823121542822870790",
-                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
-                        },
-                        "text": "I say yes to your no to his no."
                     }
                 ]
             },
@@ -334,7 +265,7 @@ var json = {
                         "text": "Your welcome ;)<br>I comment on what I like :)"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -453,6 +384,75 @@ var json = {
                 ]
             },
             {
+                "replyCount": 6,
+                "votes": 1,
+                "date": "16 hours ago",
+                "author": {
+                    "name": "LJ",
+                    "id": "kaid_1144628223469068678737336",
+                    "avatar": "/images/avatars/svg/leafers-sapling.svg"
+                },
+                "text": "this is not me being political but where are the ears?<br><br>also how about kamalachu next",
+                "locked": true,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "15 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "I had the ears when I first made it but it looked insanely weird because it was just a floating black triangle for both ears so I removed them."
+                    },
+                    {
+                        "date": "13 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "I don't think I'm going to make a kamalachu"
+                    },
+                    {
+                        "date": "12 hours ago",
+                        "author": {
+                            "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
+                            "id": "kaid_693763055742960827086832",
+                            "avatar": "/images/avatars/svg/cs-winston.svg"
+                        },
+                        "text": "@HACK<br>Why not? :/ If you make fun of one, you gotta make fun of the other. It's only fair."
+                    },
+                    {
+                        "date": "12 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "because no"
+                    },
+                    {
+                        "date": "11 hours ago",
+                        "author": {
+                            "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
+                            "id": "kaid_693763055742960827086832",
+                            "avatar": "/images/avatars/svg/cs-winston.svg"
+                        },
+                        "text": "Umm... no. :/ I say no to your no. XD"
+                    },
+                    {
+                        "date": "10 hours ago",
+                        "author": {
+                            "name": "AmethystSky",
+                            "id": "kaid_784805823121542822870790",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "I say yes to your no to his no."
+                    }
+                ]
+            },
+            {
                 "replyCount": 0,
                 "votes": 1,
                 "date": "3 hours ago",
@@ -534,7 +534,7 @@ var json = {
                         "text": "Ohh Actually I could make a blue Pikamin I have an idea for that"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -543,7 +543,7 @@ var json = {
                         "text": "pikamin rainbow and pikaborb (bulborb) confirmed?"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
