@@ -54,7 +54,7 @@ var json = {
                         "text": "thank you"
                     },
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "Kumpenump",
                             "id": "kaid_1065086901382358401624396",
@@ -63,7 +63,7 @@ var json = {
                         "text": "well you're so whispy and wispery"
                     },
                     {
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "cactuses.always.win.",
                             "id": "kaid_488290387935041457443716",
@@ -76,7 +76,7 @@ var json = {
             {
                 "replyCount": 7,
                 "votes": 3,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -114,7 +114,7 @@ var json = {
                         "text": "thank you again :D"
                     },
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -123,7 +123,7 @@ var json = {
                         "text": "no problem :D<br><br>also, can you code a snake graphic next..."
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -132,7 +132,7 @@ var json = {
                         "text": "yes absolutely! i may have to make it themed as a certain taylor swift album though (for certain reasons)"
                     },
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -141,7 +141,7 @@ var json = {
                         "text": "okie thanks :DD"
                     },
                     {
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -250,7 +250,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "30 minutes ago",
+                "date": "35 minutes ago",
                 "author": {
                     "name": "Dat",
                     "id": "kaid_4164356982737975081215128",
@@ -261,7 +261,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "29 minutes ago",
+                        "date": "34 minutes ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
