@@ -19,7 +19,7 @@ var json = {
             "title": "Harrisachu *spinoff of trumpachu*",
             "id": "6735659923324928",
             "forks": 0,
-            "votes": 5,
+            "votes": 6,
             "author": {
                 "name": "Mathlete11",
                 "id": "kaid_4902531429433401500771997"
@@ -65,7 +65,7 @@ var json = {
             {
                 "replyCount": 18,
                 "votes": 6,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "Pineapples",
                     "id": "kaid_6104902828627300552146889",
@@ -193,7 +193,7 @@ var json = {
                         "text": "@LJ oh XD <br><br>yeah I think the guardians r volunteers"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "ρlατγρυς ρгοgгαммιηg",
                             "id": "kaid_3625391900429892923499026",
@@ -313,7 +313,7 @@ var json = {
                         "text": "Try saying that ten times fast..."
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -322,7 +322,7 @@ var json = {
                         "text": "that's not possible"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -384,7 +384,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
