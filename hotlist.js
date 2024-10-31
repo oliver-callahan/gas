@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 38,
     "created": "a day ago",
-    "updated": "11 hours ago",
+    "updated": "12 hours ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -148,7 +148,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 4,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "Firebrand (offline)",
                     "id": "kaid_423049852746380987692804",
@@ -214,7 +214,7 @@ var json = {
                         "text": "I know I have flagged most of the \"not good\" comments and told people not to comment on the thread of them so yeah I probably wont but people want me to make a George Washington one so I might make that one"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
