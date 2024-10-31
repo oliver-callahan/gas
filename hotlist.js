@@ -64,7 +64,7 @@ var json = {
             },
             {
                 "replyCount": 4,
-                "votes": 6,
+                "votes": 5,
                 "date": "a day ago",
                 "author": {
                     "name": "honeyghost",
@@ -110,57 +110,6 @@ var json = {
                             "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
                         },
                         "text": "Obama prism"
-                    }
-                ]
-            },
-            {
-                "replyCount": 4,
-                "votes": 6,
-                "date": "a day ago",
-                "author": {
-                    "name": "Shifter -OFF-",
-                    "id": "kaid_892112752920553577482062",
-                    "avatar": "/images/avatars/svg/blobby-purple.svg"
-                },
-                "text": "Ha ha, cute. Do a George Washingchu next!",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "lol that would be hilarious"
-                    },
-                    {
-                        "date": "19 hours ago",
-                        "author": {
-                            "name": "Danomi42",
-                            "id": "kaid_1045282636896433254069987",
-                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
-                        },
-                        "text": "Try saying that ten times fast..."
-                    },
-                    {
-                        "date": "18 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "that's not possible"
-                    },
-                    {
-                        "date": "18 hours ago",
-                        "author": {
-                            "name": "Danomi42",
-                            "id": "kaid_1045282636896433254069987",
-                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
-                        },
-                        "text": "<b>Watch me</b>.<br><br>George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu.<br><br>easy"
                     }
                 ]
             },
@@ -342,8 +291,59 @@ var json = {
                 ]
             },
             {
-                "replyCount": 5,
+                "replyCount": 4,
                 "votes": 5,
+                "date": "a day ago",
+                "author": {
+                    "name": "Shifter -OFF-",
+                    "id": "kaid_892112752920553577482062",
+                    "avatar": "/images/avatars/svg/blobby-purple.svg"
+                },
+                "text": "Ha ha, cute. Do a George Washingchu next!",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "a day ago",
+                        "author": {
+                            "name": "Mathlete11",
+                            "id": "kaid_4902531429433401500771997",
+                            "avatar": "/images/avatars/svg/starky-sapling.svg"
+                        },
+                        "text": "lol that would be hilarious"
+                    },
+                    {
+                        "date": "19 hours ago",
+                        "author": {
+                            "name": "Danomi42",
+                            "id": "kaid_1045282636896433254069987",
+                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
+                        },
+                        "text": "Try saying that ten times fast..."
+                    },
+                    {
+                        "date": "18 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "that's not possible"
+                    },
+                    {
+                        "date": "18 hours ago",
+                        "author": {
+                            "name": "Danomi42",
+                            "id": "kaid_1045282636896433254069987",
+                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
+                        },
+                        "text": "<b>Watch me</b>.<br><br>George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu George Washingchu.<br><br>easy"
+                    }
+                ]
+            },
+            {
+                "replyCount": 5,
+                "votes": 4,
                 "date": "18 hours ago",
                 "author": {
                     "name": "Luke Ellis",
@@ -403,8 +403,8 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 4,
-                "date": "16 hours ago",
+                "votes": 3,
+                "date": "17 hours ago",
                 "author": {
                     "name": "Equilibrium",
                     "id": "kaid_1842852586096096865081151",
@@ -427,7 +427,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 3,
+                "votes": 2,
                 "date": "19 hours ago",
                 "author": {
                     "name": "Danomi42",
@@ -451,7 +451,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 3,
+                "votes": 2,
                 "date": "a day ago",
                 "author": {
                     "name": "Firebrand (offline)",
@@ -464,8 +464,77 @@ var json = {
                 "replies": []
             },
             {
+                "replyCount": 6,
+                "votes": 1,
+                "date": "a day ago",
+                "author": {
+                    "name": "LJ",
+                    "id": "kaid_1144628223469068678737336",
+                    "avatar": "/images/avatars/svg/leafers-sapling.svg"
+                },
+                "text": "this is not me being political but where are the ears?<br><br>also how about kamalachu next",
+                "locked": true,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "a day ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "I had the ears when I first made it but it looked insanely weird because it was just a floating black triangle for both ears so I removed them."
+                    },
+                    {
+                        "date": "a day ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "I don't think I'm going to make a kamalachu"
+                    },
+                    {
+                        "date": "a day ago",
+                        "author": {
+                            "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
+                            "id": "kaid_693763055742960827086832",
+                            "avatar": "/images/avatars/svg/cs-winston.svg"
+                        },
+                        "text": "@HACK<br>Why not? :/ If you make fun of one, you gotta make fun of the other. It's only fair."
+                    },
+                    {
+                        "date": "a day ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "because no"
+                    },
+                    {
+                        "date": "a day ago",
+                        "author": {
+                            "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
+                            "id": "kaid_693763055742960827086832",
+                            "avatar": "/images/avatars/svg/cs-winston.svg"
+                        },
+                        "text": "Umm... no. :/ I say no to your no. XD"
+                    },
+                    {
+                        "date": "a day ago",
+                        "author": {
+                            "name": "AmethystSky",
+                            "id": "kaid_784805823121542822870790",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "I say yes to your no to his no."
+                    }
+                ]
+            },
+            {
                 "replyCount": 12,
-                "votes": 2,
+                "votes": 1,
                 "date": "a day ago",
                 "author": {
                     "name": "Pro0planter",
@@ -587,8 +656,22 @@ var json = {
                 ]
             },
             {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "17 hours ago",
+                "author": {
+                    "name": "- k a t i t e -",
+                    "id": "kaid_312040000225853665820004",
+                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                },
+                "text": "congrats on your first 1000 kelvin :D",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
                 "replyCount": 7,
-                "votes": 2,
+                "votes": 1,
                 "date": "21 hours ago",
                 "author": {
                     "name": "Duke :P",
@@ -665,8 +748,22 @@ var json = {
                 ]
             },
             {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "3 hours ago",
+                "author": {
+                    "name": "That One Guy ME",
+                    "id": "kaid_3823720261811268848400557",
+                    "avatar": "/images/avatars/svg/duskpin-seed.svg"
+                },
+                "text": "imo his skin color is closer to raichu",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
                 "replyCount": 1,
-                "votes": 2,
+                "votes": 1,
                 "date": "5 hours ago",
                 "author": {
                     "name": "Zidane Medina",
@@ -690,7 +787,7 @@ var json = {
             },
             {
                 "replyCount": 2,
-                "votes": 2,
+                "votes": 1,
                 "date": "a day ago",
                 "author": {
                     "name": "Mathlete11",
@@ -720,136 +817,6 @@ var json = {
                         "text": "okie :)"
                     }
                 ]
-            },
-            {
-                "replyCount": 2,
-                "votes": 1,
-                "date": "16 hours ago",
-                "author": {
-                    "name": "NL",
-                    "id": "kaid_101904269317089495055459",
-                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
-                },
-                "text": "i am nl. 👍",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "15 hours ago",
-                        "author": {
-                            "name": "Ezra",
-                            "id": "kaid_1112279572017452692208390",
-                            "avatar": "/images/avatars/svg/leaf-red.svg"
-                        },
-                        "text": "<em>Gasp??</em><br>mind blowing 😱"
-                    },
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "//I'M BOB ;)...(FYI I'm online)",
-                            "id": "kaid_7500540694222150489044752",
-                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                        },
-                        "text": "rapp music plays"
-                    }
-                ]
-            },
-            {
-                "replyCount": 6,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "LJ",
-                    "id": "kaid_1144628223469068678737336",
-                    "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                },
-                "text": "this is not me being political but where are the ears?<br><br>also how about kamalachu next",
-                "locked": true,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I had the ears when I first made it but it looked insanely weird because it was just a floating black triangle for both ears so I removed them."
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I don't think I'm going to make a kamalachu"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
-                            "id": "kaid_693763055742960827086832",
-                            "avatar": "/images/avatars/svg/cs-winston.svg"
-                        },
-                        "text": "@HACK<br>Why not? :/ If you make fun of one, you gotta make fun of the other. It's only fair."
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "because no"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
-                            "id": "kaid_693763055742960827086832",
-                            "avatar": "/images/avatars/svg/cs-winston.svg"
-                        },
-                        "text": "Umm... no. :/ I say no to your no. XD"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "AmethystSky",
-                            "id": "kaid_784805823121542822870790",
-                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
-                        },
-                        "text": "I say yes to your no to his no."
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "17 hours ago",
-                "author": {
-                    "name": "- k a t i t e -",
-                    "id": "kaid_312040000225853665820004",
-                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
-                },
-                "text": "congrats on your first 1000 kelvin :D",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "3 hours ago",
-                "author": {
-                    "name": "That One Guy ME",
-                    "id": "kaid_3823720261811268848400557",
-                    "avatar": "/images/avatars/svg/duskpin-seed.svg"
-                },
-                "text": "imo his skin color is closer to raichu",
-                "locked": false,
-                "pinned": false,
-                "replies": []
             },
             {
                 "replyCount": 1,
@@ -888,6 +855,39 @@ var json = {
                 "locked": false,
                 "pinned": false,
                 "replies": []
+            },
+            {
+                "replyCount": 2,
+                "votes": 0,
+                "date": "16 hours ago",
+                "author": {
+                    "name": "NL",
+                    "id": "kaid_101904269317089495055459",
+                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                },
+                "text": "i am nl. 👍",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "15 hours ago",
+                        "author": {
+                            "name": "Ezra",
+                            "id": "kaid_1112279572017452692208390",
+                            "avatar": "/images/avatars/svg/leaf-red.svg"
+                        },
+                        "text": "<em>Gasp??</em><br>mind blowing 😱"
+                    },
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "//I'M BOB ;)...(FYI I'm online)",
+                            "id": "kaid_7500540694222150489044752",
+                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                        },
+                        "text": "rapp music plays"
+                    }
+                ]
             }
         ],
         "questions": []
