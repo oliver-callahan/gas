@@ -274,7 +274,7 @@ var json = {
                         "text": "@HACK<br>Why not? :/ If you make fun of one, you gotta make fun of the other. It's only fair."
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -283,7 +283,7 @@ var json = {
                         "text": "because no"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -316,7 +316,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -394,7 +394,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -442,7 +442,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
