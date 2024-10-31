@@ -76,7 +76,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "CodeNinja",
                             "id": "kaid_6247985199070618801670730",
@@ -271,7 +271,7 @@ var json = {
                         "text": "Derpachu made a quote that made no sense.<br><br>\"Somedays Your happy, and somedays you dressed up as a president\" - Derpachu 2024"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Dojo Ninja #BringBackBackgrounds",
                             "id": "kaid_9951099012656077844855",
@@ -304,7 +304,7 @@ var json = {
                         "text": "lol that would be hilarious"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -420,7 +420,7 @@ var json = {
                         "text": "Am I allowed to post a link to my subpage in the comments of my projects or would that be advertising even though its my own thing"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
@@ -457,7 +457,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "Danomi42",
                     "id": "kaid_1045282636896433254069987",
@@ -647,7 +647,7 @@ var json = {
                         "text": "also wanna participate in my competition"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -757,7 +757,7 @@ var json = {
                         "text": "You know a lot me then me am I allowed to post a link to my subpage in my comments of a project"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Duke :P",
                             "id": "kaid_351465532815782433620675",
@@ -850,7 +850,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 0,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "NL",
                     "id": "kaid_101904269317089495055459",
