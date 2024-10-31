@@ -3,7 +3,7 @@ var json = {
     "title": "クラゲキャット (khantober)",
     "votes": 30,
     "created": "5 hours ago",
-    "updated": "a minute ago",
+    "updated": "6 minutes ago",
     "type": "PJS",
     "author": {
         "name": "- k a t i t e -",
@@ -200,9 +200,9 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 1,
-                "date": "4 minutes ago",
+                "date": "9 minutes ago",
                 "author": {
                     "name": "LJ",
                     "id": "kaid_1144628223469068678737336",
@@ -213,7 +213,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -222,7 +222,7 @@ var json = {
                         "text": "lol thank you :D<br><br>yeah i should probably put it as katakana instead of romaji (are those the correct terms?)"
                     },
                     {
-                        "date": "a few seconds ago",
+                        "date": "5 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -270,7 +270,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -318,7 +318,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -362,7 +362,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 2,
+                "replyCount": 3,
                 "votes": 1,
                 "date": "4 hours ago",
                 "author": {
@@ -375,7 +375,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "RedRaven9#makegamesthenmakegraphics",
                             "id": "kaid_768975196864016071606552",
@@ -384,13 +384,22 @@ var json = {
                         "text": "Edit AMAZING! :D"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
                             "avatar": "/images/avatars/svg/duskpin-sapling.svg"
                         },
                         "text": "thank you so much :D"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "RedRaven9#makegamesthenmakegraphics",
+                            "id": "kaid_768975196864016071606552",
+                            "avatar": "/images/avatars/svg/starky-tree.svg"
+                        },
+                        "text": "Np<br><br>I wish I had more time for khantober but I didnt realize I had some many things on satreday XP"
                     }
                 ]
             },
