@@ -247,7 +247,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -318,7 +318,7 @@ var json = {
                         "text": "Thanks I never thought I would see you comment on one of my projects"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Duke :P",
                             "id": "kaid_351465532815782433620675",
@@ -336,7 +336,7 @@ var json = {
                         "text": "well I'm glad you like it"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -345,7 +345,7 @@ var json = {
                         "text": "I got a question someone on here locked a discussion. How do you do that?"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
