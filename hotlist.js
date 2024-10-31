@@ -84,7 +84,7 @@ var json = {
                         "text": "Try saying that ten times fast..."
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -93,7 +93,7 @@ var json = {
                         "text": "that's not possible"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -117,7 +117,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -162,7 +162,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 4,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "SquiirelBoyMO",
                     "id": "kaid_773398490746126089688872",
@@ -187,7 +187,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -274,7 +274,7 @@ var json = {
             {
                 "replyCount": 7,
                 "votes": 2,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "Duke :P",
                     "id": "kaid_351465532815782433620675",
@@ -376,7 +376,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "Pineapples",
                     "id": "kaid_6104902828627300552146889",
@@ -435,7 +435,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
