@@ -184,6 +184,39 @@ var json = {
                 "replies": []
             },
             {
+                "replyCount": 1,
+                "votes": 4,
+                "date": "9 hours ago",
+                "author": {
+                    "name": "Pineapples",
+                    "id": "kaid_6104902828627300552146889",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "I have a feeling that the guardians are closely watching the comments of this program...<br>This is on the verge of breaking the guidelines...<br>I am scared for you...",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "7 hours ago",
+                        "author": {
+                            "name": "CodeNinja",
+                            "id": "kaid_6247985199070618801670730",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "I second this...."
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "LJ",
+                            "id": "kaid_1144628223469068678737336",
+                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
+                        },
+                        "text": "I third this... my comment was locked because people argued in the reply"
+                    }
+                ]
+            },
+            {
                 "replyCount": 0,
                 "votes": 4,
                 "date": "12 hours ago",
@@ -260,7 +293,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "Equilibrium",
                     "id": "kaid_1842852586096096865081151",
@@ -270,30 +303,6 @@ var json = {
                 "locked": false,
                 "pinned": false,
                 "replies": []
-            },
-            {
-                "replyCount": 1,
-                "votes": 3,
-                "date": "9 hours ago",
-                "author": {
-                    "name": "Pineapples",
-                    "id": "kaid_6104902828627300552146889",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "I have a feeling that the guardians are closely watching the comments of this program...<br>This is on the verge of breaking the guidelines...<br>I am scared for you...",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "7 hours ago",
-                        "author": {
-                            "name": "CodeNinja",
-                            "id": "kaid_6247985199070618801670730",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I second this...."
-                    }
-                ]
             },
             {
                 "replyCount": 7,
@@ -480,7 +489,7 @@ var json = {
                         "text": "Umm... no. :/ I say no to your no. XD"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "AmethystSky",
                             "id": "kaid_784805823121542822870790",
@@ -531,7 +540,7 @@ var json = {
                         "text": "Like a full blue derpachu? is that what your asking."
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -540,7 +549,7 @@ var json = {
                         "text": "kinda?... a pikmin is a creature from another game franchise. i was asking if you could make a blue pikmin derpachu/ blue pikamin. please look up pikmin adn blue pikmin."
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -549,7 +558,7 @@ var json = {
                         "text": "I just searched it. I could make a blue pikimin."
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
