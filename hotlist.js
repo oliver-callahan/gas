@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 42,
     "created": "a day ago",
-    "updated": "44 minutes ago",
+    "updated": "an hour ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -242,7 +242,7 @@ var json = {
                         "text": "I second this...."
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -359,7 +359,7 @@ var json = {
                         "text": "Actually, I think the guardians are watching too busy watching something else right now: this thread lol"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "ρlατγρυς ρгοgгαммιηg",
                             "id": "kaid_3625391900429892923499026",
@@ -410,7 +410,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -619,7 +619,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -697,7 +697,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -757,7 +757,7 @@ var json = {
                         "text": "@HACK<br>Why not? :/ If you make fun of one, you gotta make fun of the other. It's only fair."
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -766,7 +766,7 @@ var json = {
                         "text": "because no"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
