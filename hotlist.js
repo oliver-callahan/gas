@@ -464,6 +464,20 @@ var json = {
                 "replies": []
             },
             {
+                "replyCount": 0,
+                "votes": 2,
+                "date": "an hour ago",
+                "author": {
+                    "name": "//I'M BOB ;)...(FYI I'm online)",
+                    "id": "kaid_7500540694222150489044752",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "How does this have #1 on the hot list?",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
                 "replyCount": 6,
                 "votes": 1,
                 "date": "a day ago",
@@ -841,20 +855,6 @@ var json = {
                         "text": "I saw I was just looking at that"
                     }
                 ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "an hour ago",
-                "author": {
-                    "name": "//I'M BOB ;)...(FYI I'm online)",
-                    "id": "kaid_7500540694222150489044752",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "How does this have #1 on the hot list?",
-                "locked": false,
-                "pinned": false,
-                "replies": []
             },
             {
                 "replyCount": 2,
