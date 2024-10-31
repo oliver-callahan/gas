@@ -42,7 +42,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -66,7 +66,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -104,7 +104,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 3,
+                "replyCount": 4,
                 "votes": 5,
                 "date": "a day ago",
                 "author": {
@@ -142,13 +142,22 @@ var json = {
                             "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                         },
                         "text": "Derpachu made a quote that made no sense.<br><br>\"Somedays Your happy, and somedays you dressed up as a president\" - Derpachu 2024"
+                    },
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "Dojo Ninja #BringBackBackgrounds",
+                            "id": "kaid_9951099012656077844855",
+                            "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
+                        },
+                        "text": "Obama prism"
                     }
                 ]
             },
             {
                 "replyCount": 5,
                 "votes": 5,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -648,7 +657,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 2,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -788,7 +797,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 minutes ago",
+                "date": "7 minutes ago",
                 "author": {
                     "name": "That One Guy ME",
                     "id": "kaid_3823720261811268848400557",
@@ -840,7 +849,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "Blocked by Taquavion",
                     "id": "kaid_568819712822552226070124",
