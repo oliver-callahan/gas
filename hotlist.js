@@ -295,7 +295,7 @@ var json = {
                 "votes": 5,
                 "date": "a day ago",
                 "author": {
-                    "name": "Shifter -OFF-",
+                    "name": "Shifter -ON-",
                     "id": "kaid_892112752920553577482062",
                     "avatar": "/images/avatars/svg/blobby-purple.svg"
                 },
@@ -344,7 +344,7 @@ var json = {
             {
                 "replyCount": 5,
                 "votes": 4,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
