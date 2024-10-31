@@ -55,7 +55,7 @@ var json = {
             {
                 "replyCount": 4,
                 "votes": 8,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "Shifter -ON-",
                     "id": "kaid_892112752920553577482062",
@@ -182,7 +182,7 @@ var json = {
                         "text": "Why would you recommend that"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
@@ -191,7 +191,7 @@ var json = {
                         "text": "Because it's a little risky on the KA guidelines. It hasn't been taken down yet, though, so I think you're fine."
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -218,6 +218,20 @@ var json = {
                         "text": "George Washington should be fine as well.<br>And, yeah, most coders post their subpage in the comments."
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 3,
+                "date": "2 hours ago",
+                "author": {
+                    "name": "SquiirelBoyMO",
+                    "id": "kaid_773398490746126089688872",
+                    "avatar": "/images/avatars/svg/leaf-grey.svg"
+                },
+                "text": "You know what, Im not scared of a strike. I am just practicing freedom of speech. \"Give me liberty or give me death!!\"<br><br>#MakeAmericaGreatAgain!!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 6,
@@ -320,7 +334,7 @@ var json = {
                         "text": "Your welcome ;)<br>I comment on what I like :)"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -338,7 +352,7 @@ var json = {
                         "text": "I got a question someone on here locked a discussion. How do you do that?"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -391,34 +405,6 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
-                "votes": 2,
-                "date": "2 hours ago",
-                "author": {
-                    "name": "Blocked by Taquavion",
-                    "id": "kaid_568819712822552226070124",
-                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                },
-                "text": "Convicted criminal pikachu noice",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 2,
-                "date": "2 hours ago",
-                "author": {
-                    "name": "SquiirelBoyMO",
-                    "id": "kaid_773398490746126089688872",
-                    "avatar": "/images/avatars/svg/leaf-grey.svg"
-                },
-                "text": "You know what, Im not scared of a strike. I am just practicing freedom of speech. \"Give me liberty or give me death!!\"<br><br>#MakeAmericaGreatAgain!!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
                 "replyCount": 1,
                 "votes": 1,
                 "date": "2 hours ago",
@@ -445,7 +431,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 minutes ago",
+                "date": "12 minutes ago",
                 "author": {
                     "name": "Equilibrium",
                     "id": "kaid_1842852586096096865081151",
@@ -524,7 +510,7 @@ var json = {
                         "text": "Ohh Actually I could make a blue Pikamin I have an idea for that"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -533,7 +519,7 @@ var json = {
                         "text": "pikamin rainbow and pikaborb (bulborb) confirmed?"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -571,6 +557,20 @@ var json = {
                     "avatar": "/images/avatars/svg/duskpin-sapling.svg"
                 },
                 "text": "congrats on your first 1000 kelvin :D",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 hours ago",
+                "author": {
+                    "name": "Blocked by Taquavion",
+                    "id": "kaid_568819712822552226070124",
+                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                },
+                "text": "Convicted criminal pikachu noice",
                 "locked": false,
                 "pinned": false,
                 "replies": []
