@@ -126,7 +126,7 @@ var json = {
                         "text": "yeah I'm not trying to be political because I only 14 and because elections coming up and because I'm not trying to get banned AGAIN"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -135,13 +135,37 @@ var json = {
                         "text": "<code>@<b>honeyghost</b></code> | Top 10 quotes of 2024: <em>\"The surest way to become a meme is to become the President of the United States.\"</em> - <code>honeyghost</code>'s brother (whoever it may be)"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
                             "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                         },
                         "text": "Derpachu made a quote that made no sense.<br><br>\"Somedays Your happy, and somedays you dressed up as a president\" - Derpachu 2024"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 4,
+                "date": "10 hours ago",
+                "author": {
+                    "name": "NL",
+                    "id": "kaid_101904269317089495055459",
+                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                },
+                "text": "i am nl. 👍",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "9 hours ago",
+                        "author": {
+                            "name": "Ezra",
+                            "id": "kaid_1112279572017452692208390",
+                            "avatar": "/images/avatars/svg/leaf-red.svg"
+                        },
+                        "text": "<em>Gasp??</em><br>mind blowing 😱"
                     }
                 ]
             },
@@ -234,28 +258,18 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 0,
                 "votes": 3,
                 "date": "10 hours ago",
                 "author": {
-                    "name": "NL",
-                    "id": "kaid_101904269317089495055459",
-                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                    "name": "Equilibrium",
+                    "id": "kaid_1842852586096096865081151",
+                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                 },
-                "text": "i am nl. 👍",
+                "text": "Make Kanto great again!",
                 "locked": false,
                 "pinned": false,
-                "replies": [
-                    {
-                        "date": "9 hours ago",
-                        "author": {
-                            "name": "Ezra",
-                            "id": "kaid_1112279572017452692208390",
-                            "avatar": "/images/avatars/svg/leaf-red.svg"
-                        },
-                        "text": "<em>Gasp??</em><br>mind blowing 😱"
-                    }
-                ]
+                "replies": []
             },
             {
                 "replyCount": 1,
@@ -280,20 +294,6 @@ var json = {
                         "text": "I second this...."
                     }
                 ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 2,
-                "date": "10 hours ago",
-                "author": {
-                    "name": "Equilibrium",
-                    "id": "kaid_1842852586096096865081151",
-                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                },
-                "text": "Make Kanto great again!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
             },
             {
                 "replyCount": 7,
@@ -363,7 +363,7 @@ var json = {
                         "text": "You have to be a guardian."
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -444,7 +444,7 @@ var json = {
                         "text": "I had the ears when I first made it but it looked insanely weird because it was just a floating black triangle for both ears so I removed them."
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -585,7 +585,7 @@ var json = {
                         "text": "Maybe :)"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
