@@ -53,6 +53,84 @@ var json = {
                 ]
             },
             {
+                "replyCount": 7,
+                "votes": 8,
+                "date": "10 hours ago",
+                "author": {
+                    "name": "Eyeinthesky",
+                    "id": "kaid_6136710333637048514584747",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "You forgot the bandage on his ear :P",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "10 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "I would get banned if I did that"
+                    },
+                    {
+                        "date": "2 hours ago",
+                        "author": {
+                            "name": "Danomi42",
+                            "id": "kaid_1045282636896433254069987",
+                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
+                        },
+                        "text": "<code>@<b>HACK</b></code> | Wait, really? Why?"
+                    },
+                    {
+                        "date": "2 hours ago",
+                        "author": {
+                            "name": "AlIEN",
+                            "id": "kaid_213001050410218690794137",
+                            "avatar": "/images/avatars/svg/marcimus-purple.svg"
+                        },
+                        "text": "@Eyeinthesky highly innapropriatte"
+                    },
+                    {
+                        "date": "2 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "yeah very"
+                    },
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "Danomi42",
+                            "id": "kaid_1045282636896433254069987",
+                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
+                        },
+                        "text": "hmmm...<br><br>I didn't say anything"
+                    },
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "AlIEN",
+                            "id": "kaid_213001050410218690794137",
+                            "avatar": "/images/avatars/svg/marcimus-purple.svg"
+                        },
+                        "text": "we know, i was referring to the comment we are well commenting on. I think it would be best to close this thread. No one else respond"
+                    },
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "<b>NO more commenting  on THIS THREAD</b>"
+                    }
+                ]
+            },
+            {
                 "replyCount": 4,
                 "votes": 8,
                 "date": "9 hours ago",
@@ -146,84 +224,6 @@ var json = {
                 ]
             },
             {
-                "replyCount": 7,
-                "votes": 7,
-                "date": "10 hours ago",
-                "author": {
-                    "name": "Eyeinthesky",
-                    "id": "kaid_6136710333637048514584747",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "You forgot the bandage on his ear :P",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "9 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I would get banned if I did that"
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "Danomi42",
-                            "id": "kaid_1045282636896433254069987",
-                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
-                        },
-                        "text": "<code>@<b>HACK</b></code> | Wait, really? Why?"
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "AlIEN",
-                            "id": "kaid_213001050410218690794137",
-                            "avatar": "/images/avatars/svg/marcimus-purple.svg"
-                        },
-                        "text": "@Eyeinthesky highly innapropriatte"
-                    },
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "yeah very"
-                    },
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "Danomi42",
-                            "id": "kaid_1045282636896433254069987",
-                            "avatar": "/images/avatars/svg/primosaur-sapling.svg"
-                        },
-                        "text": "hmmm...<br><br>I didn't say anything"
-                    },
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "AlIEN",
-                            "id": "kaid_213001050410218690794137",
-                            "avatar": "/images/avatars/svg/marcimus-purple.svg"
-                        },
-                        "text": "we know, i was referring to the comment we are well commenting on. I think it would be best to close this thread. No one else respond"
-                    },
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "<b>NO more commenting  on THIS THREAD</b>"
-                    }
-                ]
-            },
-            {
                 "replyCount": 0,
                 "votes": 4,
                 "date": "6 hours ago",
@@ -233,20 +233,6 @@ var json = {
                     "avatar": "/images/avatars/svg/stelly-orange.svg"
                 },
                 "text": "lol lol lol lol<br><br>...<br><br>I seriously could not stop laughing for about three minutes straight.<br>It's so cute.<br><br>Great job! Vote++",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 3,
-                "date": "an hour ago",
-                "author": {
-                    "name": "Blocked by Taquavion",
-                    "id": "kaid_568819712822552226070124",
-                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                },
-                "text": "Convicted criminal pikachu noice",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -315,7 +301,7 @@ var json = {
                         "text": "Am I allowed to post a link to my subpage in the comments of my projects or would that be advertising even though its my own thing"
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
@@ -326,134 +312,8 @@ var json = {
                 ]
             },
             {
-                "replyCount": 7,
-                "votes": 2,
-                "date": "4 hours ago",
-                "author": {
-                    "name": "Duke :P",
-                    "id": "kaid_351465532815782433620675",
-                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                },
-                "text": "Lol this is great",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Thanks I never thought I would see you comment on one of my projects"
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Duke :P",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Your welcome ;)<br>I comment on what I like :)"
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "well I'm glad you like it"
-                    },
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I got a question someone on here locked a discussion. How do you do that?"
-                    },
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "You know a lot me then me am I allowed to post a link to my subpage in my comments of a project"
-                    },
-                    {
-                        "date": "41 minutes ago",
-                        "author": {
-                            "name": "Duke :P",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "You have to be a guardian."
-                    },
-                    {
-                        "date": "37 minutes ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "OHH so a guardian was on my project HOW COOL"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 2,
-                "date": "5 hours ago",
-                "author": {
-                    "name": "Mathlete11",
-                    "id": "kaid_4902531429433401500771997",
-                    "avatar": "/images/avatars/svg/starky-sapling.svg"
-                },
-                "text": "This is awesome XD<br><br>can you do a dirpy Eevee next?",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "maybe I am making other things to"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "2 hours ago",
-                "author": {
-                    "name": "Danomi42",
-                    "id": "kaid_1045282636896433254069987",
-                    "avatar": "/images/avatars/svg/primosaur-sapling.svg"
-                },
-                "text": "I don't know why, but I'm just enjoying looking at this... <em>creation...</em> I guess...",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "thank you"
-                    }
-                ]
-            },
-            {
                 "replyCount": 6,
-                "votes": 1,
+                "votes": 2,
                 "date": "13 hours ago",
                 "author": {
                     "name": "LJ",
@@ -517,6 +377,146 @@ var json = {
                             "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
                         },
                         "text": "I say yes to your no to his no."
+                    }
+                ]
+            },
+            {
+                "replyCount": 7,
+                "votes": 2,
+                "date": "4 hours ago",
+                "author": {
+                    "name": "Duke :P",
+                    "id": "kaid_351465532815782433620675",
+                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                },
+                "text": "Lol this is great",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "3 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "Thanks I never thought I would see you comment on one of my projects"
+                    },
+                    {
+                        "date": "3 hours ago",
+                        "author": {
+                            "name": "Duke :P",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Your welcome ;)<br>I comment on what I like :)"
+                    },
+                    {
+                        "date": "3 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "well I'm glad you like it"
+                    },
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "I got a question someone on here locked a discussion. How do you do that?"
+                    },
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "You know a lot me then me am I allowed to post a link to my subpage in my comments of a project"
+                    },
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "Duke :P",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "You have to be a guardian."
+                    },
+                    {
+                        "date": "42 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "OHH so a guardian was on my project HOW COOL"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 2,
+                "date": "5 hours ago",
+                "author": {
+                    "name": "Mathlete11",
+                    "id": "kaid_4902531429433401500771997",
+                    "avatar": "/images/avatars/svg/starky-sapling.svg"
+                },
+                "text": "This is awesome XD<br><br>can you do a dirpy Eevee next?",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "maybe I am making other things to"
+                    }
+                ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 2,
+                "date": "an hour ago",
+                "author": {
+                    "name": "Blocked by Taquavion",
+                    "id": "kaid_568819712822552226070124",
+                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                },
+                "text": "Convicted criminal pikachu noice",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 1,
+                "date": "2 hours ago",
+                "author": {
+                    "name": "Danomi42",
+                    "id": "kaid_1045282636896433254069987",
+                    "avatar": "/images/avatars/svg/primosaur-sapling.svg"
+                },
+                "text": "I don't know why, but I'm just enjoying looking at this... <em>creation...</em> I guess...",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "thank you"
                     }
                 ]
             },
@@ -628,7 +628,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "16 minutes ago",
+                "date": "22 minutes ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
