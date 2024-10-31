@@ -1,32 +1,32 @@
 var json = {
-    "code": "// KHANTOBER AAAAAAAAAAAAAAAAAAa\n\n// i was at an event and i was early (and a little bored) and luckily i had brought my drawing notebook and a pencil. so i started drawing. then i thought \"hey wait, this would make a great final khantober program!\" so here we are. (the event was on 10/23/24)\n\n\n// also, should i start doing song recommendations for each graphic? the song recommendations for this are 'Nautilus Waltz' by Raw Lawson and '深海少女-初音ミク' by Yuuyu (yeah just because i'm a swiftie doesn't mean i don't listen to anything else)\n\n\nvar kuragekyatto = function(x, y, w, h, r, face) // translate it lol\n{\n\tpushMatrix();\n\ttranslate(x, y);\n\tscale(w, h);\n\trotate(r);\n\n\tbeginShape();\n\tvertex(105, -100);\n\tbezierVertex(175, 120, -122, 164, -110, 155);\n\tbezierVertex(-100, 155, 21, 90, -13, 63);\n\tbezierVertex(32, 85, -88, 139, -198, 138);\n\tbezierVertex(-111, 76, -82, 138, -53, 50);\n\tbezierVertex(-74, 105, -148, 112, -239, 114);\n\tbezierVertex(-94, 56, -108, 76, -63, 24);\n\tbezierVertex(-136, 94, -130, 76, -247, 52);\n\tbezierVertex(-79, 60, -124, 46, -78, 1);\n\tbezierVertex(-86, 34, -90, 46, -230, 49);\n\tbezierVertex(-114, -33, -116, 46, -75, -51);\n\tvertex(-27, -120);\n\tvertex(4, -147);\n\tvertex(9, -145);\n\tvertex(19, -120);\n\tbezierVertex(29, -125, 50, -93, 85, -137);\n\tvertex(105, -100);\n\tendShape();\n\n\tnoStroke();\n\tfill(211, 219, 224);\n\tbeginShape();\n\tvertex(-65, -61);\n\tvertex(-100, -2);\n\tvertex(-159, 11);\n\tvertex(-225, 45);\n\tvertex(-159, 22);\n\tvertex(-105, 13);\n\tvertex(-80, 0);\n\tvertex(-68, -18);\n\tvertex(-42, -43);\n\tvertex(-40, -95);\n\tendShape();\n\n\tbeginShape();\n\tvertex(-71, 20);\n\tvertex(-124, 56);\n\tvertex(-232, 58);\n\tvertex(-173, 61);\n\tvertex(-125, 65);\n\tvertex(-92, 47);\n\tendShape();\n\n\tbeginShape();\n\tvertex(-48, 24);\n\tvertex(-124, 78);\n\tvertex(-232, 116);\n\tvertex(-144, 93);\n\tvertex(-85, 67);\n\tendShape();\n\n\tbeginShape();\n\tvertex(-44, 52);\n\tvertex(-65, 92);\n\tvertex(-104, 109);\n\tvertex(-132, 107);\n\tvertex(-197, 137);\n\tvertex(-134, 119);\n\tvertex(-75, 107);\n\tvertex(-48, 79);\n\tendShape();\n\n\tbeginShape();\n\tvertex(8, 63);\n\tvertex(-6, 92);\n\tvertex(-42, 123);\n\tvertex(-95, 155);\n\tvertex(-30, 123);\n\tvertex(0, 102);\n\tendShape();\n\n\tstroke(255, 255, 255);\n\tnoFill();\n\tbezier(4, 74, -146, 123, -25, 155, -205, 166); // this is my first time using a bezier (not bezierVertex) without a tool :D\n\tbezier(-94, 25, -146, 96, -176, 60, -272, 78);\n\tbezier(-77, 93, -141, 105, -184, 71, -223, 150);\n\tbezier(21, 104, -25, 233, -175, 96, -186, 222);\n\tbezier(-113, 0, -147, -29, -175, 59, -227, 7);\n\n\n\tif (face === 'happy') {\n\t\tfill(0);\n\t\tnoStroke();\n\t\tellipse(0, -83, 10, 10);\n\t\tellipse(87, -81, 10, 10);\n\n\t\tstrokeWeight(0.6);\n\t\tstroke(0, 0, 0);\n\t\tnoFill();\n\t\tarc(43, -75, 15, 5, 0, 180);\n\n\t\tnoStroke();\n\t\tfill(255, 229, 229, 200);\n\t\tellipse(-10, -75, 25, 10);\n\t\tellipse(100, -73, 25, 10);\n\t}\n\tif (face === 'sleepy') {\n\n\t\tstrokeWeight(1);\n\t\tstroke(0, 0, 0);\n\t\tnoFill();\n\t\tarc(0, -85, 15, 10, 0, 180);\n\t\tarc(89, -83, 15, 10, 0, 180);\n\t\tstrokeWeight(0.6);\n\t\tarc(43, -75, 15, 5, 0, 180);\n\n\t\tnoStroke();\n\t\tfill(255, 229, 229, 200);\n\t\tellipse(-10, -75, 25, 10);\n\t\tellipse(100, -73, 25, 10);\n\t}\n\tif (face === 'goofy') {\n\t\tfill(0);\n\t\tnoStroke();\n\t\tellipse(0, -83, 17, 10);\n\t\tellipse(87, -81, 13, 15);\n\n\n\t\tstroke(0, 0, 0);\n\t\tnoFill();\n\t\tarc(43, -75, 15, 24, 0, 180);\n\n\t\tnoStroke();\n\t\tfill(255, 229, 229, 200);\n\t\tellipse(-10, -75, 26, 17);\n\t\tellipse(100, -73, 26, 17);\n\t}\n\n\tstrokeWeight(5);\n\tstroke(255, 255, 255);\n\tfill(235, 238, 245);\n\tpopMatrix();\n\n};\nvar bubbles = function(x, y, w, h, r) // wHy DoES iT HAvE bUbBLeS? because it's part mammal, so it partially breathes air :)\n{\n\tpushMatrix();\n\ttranslate(x, y);\n\tscale(w, h);\n\trotate(r);\n\tellipse(99, -98, 15, 15);\n\tellipse(110, -127, 20, 20);\n\tellipse(129, -160, 25, 25);\n\tellipse(100, -195, 30, 30);\n\tpopMatrix();\n};\nnoStroke();\nbackground(53, 74, 94);\n\nfor (var j = 0; j < 50; j++) { // this is better than ANY gradient\n\tfor (var i = 0; i < 40; i++) {\n\t\tfill(0 + i * 1.5, 4 + i * 2, 41 + i * 2.5);\n\t\tellipse(-108 - i * -20, 684 + i * -8, random(1, 300), random(1, 300));\n\t\tellipse(-49 - i * -7, 420 + i * -16, random(1, 300), random(1, 300));\n\t\tellipse(-404 - i * -24, 525 + i * -5, random(1, 300), random(1, 300));\n\t\tellipse(-398 - i * -19, 680 + i * -16, random(1, 300), random(1, 300));\n\t}\n}\nstrokeJoin(ROUND);\nstrokeWeight(5);\nstroke(255, 255, 255);\nfill(235, 238, 245);\nkuragekyatto(371, 285, 0.1, 0.1, 7, 'happy');\nkuragekyatto(325, 159, 0.1, 0.1, 7, 'goofy');\nkuragekyatto(70, 225, 0.1, 0.1, 7, 'happy');\nkuragekyatto(91, 78, 0.2, 0.2, -5, 'sleepy');\nkuragekyatto(359, 30, 0.2, 0.2, -5, 'happy');\nkuragekyatto(291, 399, 0.2, 0.2, -5, 'sleepy');\nkuragekyatto(91, 504, 0.2, 0.2, -5, 'goofy');\nkuragekyatto(325, 508, 0.4, 0.4, 7, 'sleepy');\nkuragekyatto(208, 102, 0.4, 0.4, 7, 'happy');\nkuragekyatto(200, 285, 0.8, 0.8, -2, 'happy');\n\nbubbles(324, 152, 0.1, 0.1, 0);\nbubbles(72, 219, 0.1, 0.1, 0);\nbubbles(372, 279, 0.1, 0.1, 0);\nbubbles(348, 21, 0.2, 0.2, 0);\nbubbles(83, 58, 0.2, 0.2, 0);\nbubbles(87, 489, 0.2, 0.2, 0);\nbubbles(284, 386, 0.2, 0.2, 0);\nbubbles(196, 81, 0.4, 0.4, 0);\nbubbles(321, 490, 0.4, 0.4, 0);\nbubbles(191, 235, 0.8, 0.8, 0);\nenableContextMenu(); // 200 lines :D\n\nvar bobacat = function(x, y, w, h) {\n\tpushMatrix();\n\ttranslate(x, y);\n\n\n\tscale(w, h);\n\n\n\t{\n\t\tfill(235, 193, 129, 150); // tan\n\t\tnoStroke();\n\t\tellipse(165, 335, 200, 45);\n\t\tellipse(220, 365, 200, 45);\n\t\tstroke(235, 193, 129, 150);\n\t\tstrokeWeight(5);\n\t\tline(110, 130, 130, 310);\n\t} // spill\n\n\t{\n\t\tfill(235, 193, 129);\n\t\tstrokeWeight(1);\n\t\tstroke(0, 0, 0);\n\t\tquad(260, 350, 140, 350, 110, 125, 290, 125); // cup\n\t\tarc(200, 345, 120, 50, 0, 180); // bottom part of cup (for 3d)\n\t} // cup\n\n\t{\n\t\tnoStroke(); // no outlines\n\t\tfill(239, 205, 154); // lighter tan\n\t\trect(135, 137, 130, 76); // cat body\n\t\tquad(240, 285, 265, 210, 135, 205, 160, 285); // cat body\n\t} // cat body\n\n\t{\n\t\tfill(0);\n\t\tstroke(201, 161, 114);\n\t\tstrokeWeight(5);\n\t\tellipse(155, 290, 20, 20);\n\t\tellipse(240, 275, 20, 20);\n\t\tellipse(185, 295, 20, 20);\n\t\tellipse(185, 335, 20, 20);\n\t\tellipse(230, 325, 20, 20);\n\t\tellipse(255, 290, 20, 20);\n\t\tellipse(155, 265, 20, 20);\n\t\tellipse(260, 255, 20, 20);\n\t\tellipse(145, 245, 20, 20);\n\t\tellipse(260, 235, 20, 20);\n\t} // boba dont look\n\n\t{\n\t\tnoFill();\n\t\tstrokeWeight(15);\n\t\tstroke(239, 205, 154);\n\t\tarc(230, 295, 50, 105, 240, 425);\n\t\tstrokeWeight(1);\n\t\tstroke(148, 148, 148); // gray\n\t\tfill(239, 205, 154);\n\t\tarc(255, 185, 30, 100, 315, 525);\n\t\tarc(145, 185, 30, 100, -710, -490);\n\n\t\tellipse(175, 300, 30, 70); // left foot\n\t\tellipse(225, 300, 30, 70); // right foot\n\t\tnoStroke();\n\n\t\tellipse(200, 255, 100, 80); // cat body\n\t} // feet\n\n\t{\n\t\tfill(255, 255, 255); // white\n\t\tarc(200, 125, 185, 170, -180, 0); // main part of cat\n\t\ttriangle(145, 0, 170, 45, 125, 75); // left ear\n\t\ttriangle(255, 0, 230, 45, 275, 75); // right ear\n\t\ttriangle(120, 80, 85, 95, 110, 120); // left fluff bottom\n\t\ttriangle(125, 75, 90, 80, 110, 105); // left fluff top\n\t\ttriangle(280, 80, 315, 95, 290, 120); // right fluff bottom\n\t\ttriangle(275, 75, 315, 80, 285, 105); // right fluff top\n\t\tnoStroke(); // no outlines\n\t\tellipse(200, 125, 185, 50); // uh\n\t\tellipse(155, 65, 50, 40); // uh\n\t\tellipse(243, 65, 50, 40); // uh\n\t\tellipse(115, 100, 30, 30); // uh\n\t\tellipse(285, 100, 30, 30); // uh\n\t} // cat's head\n\n\t{\n\t\tfill(0);\n\t\tstroke(201, 161, 114);\n\t\tstrokeWeight(5);\n\t\tellipse(200, 355, 20, 20);\n\t\tellipse(180, 350, 20, 20);\n\t\tellipse(240, 310, 20, 20);\n\t\tellipse(225, 290, 20, 20);\n\t\tellipse(160, 340, 20, 20);\n\t\tellipse(205, 320, 20, 20);\n\t\tellipse(240, 350, 20, 20);\n\t\tellipse(150, 310, 20, 20);\n\t\tellipse(175, 300, 20, 20);\n\t\tellipse(170, 320, 20, 20);\n\t\tellipse(220, 335, 20, 20);\n\t\tellipse(160, 250, 20, 20);\n\t\tellipse(225, 260, 20, 20);\n\t\tellipse(170, 270, 20, 20);\n\t\tellipse(145, 275, 20, 20);\n\t\tellipse(150, 330, 20, 20);\n\t\tellipse(250, 325, 20, 20);\n\t} // boba don't look\n\n\t{\n\t\tnoStroke(); // no outlines\n\t\tellipse(145, 110, 30, 30); // left eye\n\t\tellipse(255, 110, 30, 30); // right eye\n\t\tfill(255, 212, 212); // pink\n\t\tellipse(145, 135, 30, 15); // left blush\n\t\tellipse(255, 135, 30, 15); // right blush\n\t\tfill(255, 255, 255); // white\n\t\tstroke(0, 0, 0); // black\n\t\tstrokeWeight(1); // thinner stroke\n\t\tarc(195, 115, 10, 10, 0, 180); // left mouth arc\n\t\tarc(205, 115, 10, 10, 0, 180); // right mouth arc\n\t\tnoFill(); // no fill \n\t\tarc(200, 126, 180, 50, 0, 180); // cup rim outline\n\t} // face\n\n\tfill(255, 255, 255);\n\ttextSize(100);\n\ttext(\"katite\", 80, 460);\n\tpopMatrix();\n}; // this is the logo so it's not included in the line count :)\nbobacat(330, 530, 0.15, 0.15);",
-    "title": "kuragekyatto (khantober)",
+    "code": "/**\n    Happy Halloween :)\n    \n    very very rushed, but here y'all go :P\n    \n    subby :>\n    khanacademy.org/cs/-/582501577803366\n    \n    @ASBackup\n**/                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    \n// Graphic {\n\n// Setup {\nsmooth();\nfunction outline () {\n    beginShape();\n    curveVertex(132, 206);\n    curveVertex(140, 213);\n    curveVertex(146, 204);\n    curveVertex(142, 230);\n    curveVertex(143, 250);\n    curveVertex(144, 268);\n    curveVertex(146, 285);\n    curveVertex(146, 303);\n    curveVertex(148, 323);\n    curveVertex(152, 341);\n    curveVertex(152, 359);\n    curveVertex(157, 370);\n    curveVertex(169, 376);\n    curveVertex(183, 374);\n    curveVertex(197, 364);\n    curveVertex(204, 348);\n    curveVertex(210, 328);\n    curveVertex(199, 323);\n    curveVertex(221, 333);\n    curveVertex(229, 345);\n    curveVertex(238, 352);\n    curveVertex(249, 357);\n    curveVertex(248, 367);\n    curveVertex(259, 373);\n    curveVertex(275, 370);\n    curveVertex(286, 358);\n    curveVertex(289, 344);\n    curveVertex(282, 332);\n    curveVertex(275, 324);\n    curveVertex(275, 324);\n    curveVertex(269, 308);\n    curveVertex(264, 292);\n    curveVertex(274, 295);\n    curveVertex(286, 299);\n    curveVertex(293, 313);\n    curveVertex(300, 304);\n    curveVertex(312, 303);\n    curveVertex(312, 290);\n    curveVertex(304, 278);\n    curveVertex(289, 278);\n    curveVertex(274, 279);\n    curveVertex(263, 280);\n    curveVertex(264, 270);\n    curveVertex(267, 258);\n    curveVertex(268, 244);\n    curveVertex(270, 228);\n    curveVertex(268, 213);\n    curveVertex(259, 198);\n    curveVertex(246, 190);\n    curveVertex(226, 190);\n    curveVertex(202, 194);\n    curveVertex(226, 190);\n    curveVertex(246, 190);\n    curveVertex(268, 188);\n    curveVertex(279, 180);\n    curveVertex(298, 162);\n    curveVertex(307, 134);\n    curveVertex(308, 114);\n    curveVertex(302, 94);\n    curveVertex(294, 77);\n    curveVertex(288, 66);\n    curveVertex(279, 56);\n    curveVertex(270, 48);\n    curveVertex(251, 38);\n    curveVertex(232, 30);\n    curveVertex(204, 30);\n    curveVertex(174, 44);\n    curveVertex(148, 64);\n    curveVertex(131, 89);\n    curveVertex(126, 115);\n    curveVertex(124, 137);\n    curveVertex(138, 159);\n    curveVertex(159, 179);\n    curveVertex(186, 190);\n    curveVertex(202, 194);\n    curveVertex(178, 201);\n    curveVertex(163, 214);\n    curveVertex(153, 230);\n    curveVertex(159, 246);\n    curveVertex(173, 246);\n    curveVertex(183, 242);\n    curveVertex(204, 236);\n    curveVertex(183, 242);\n    curveVertex(173, 246);\n    curveVertex(159, 246);\n    curveVertex(153, 230);\n    curveVertex(163, 214);\n    curveVertex(178, 201);\n    curveVertex(202, 194);\n    curveVertex(186, 190);\n    curveVertex(159, 179);\n    curveVertex(126, 155);\n    endShape();\n    beginShape();\n    curveVertex(143, 214);\n    curveVertex(130, 204);\n    curveVertex(113, 196);\n    curveVertex(94, 194);\n    curveVertex(78, 192);\n    curveVertex(62, 180);\n    curveVertex(68, 163);\n    curveVertex(81, 150);\n    curveVertex(101, 149);\n    curveVertex(124, 154);\n    curveVertex(136, 162);\n    curveVertex(151, 174);\n    curveVertex(164, 180);\n    curveVertex(164, 180);\n    curveVertex(143, 214);\n    curveVertex(130, 204);\n    endShape();\n    beginShape();\n    curveVertex(142, 212);\n    curveVertex(126, 204);\n    curveVertex(106, 196);\n    curveVertex(126, 204);\n    curveVertex(142, 212);\n    curveVertex(126, 204);\n    endShape();\n    beginShape();\n    curveVertex(189, 240);\n    curveVertex(202, 235);\n    curveVertex(218, 234);\n    curveVertex(234, 236);\n    curveVertex(247, 238);\n    curveVertex(234, 236);\n    curveVertex(218, 234);\n    curveVertex(202, 235);\n    curveVertex(189, 240);\n    endShape();\n    beginShape();\n    curveVertex(92, 191);\n    curveVertex(93, 204);\n    curveVertex(91, 220);\n    curveVertex(79, 232);\n    curveVertex(76, 250);\n    curveVertex(79, 266);\n    curveVertex(93, 284);\n    curveVertex(110, 270);\n    curveVertex(96, 260);\n    curveVertex(91, 243);\n    curveVertex(99, 226);\n    curveVertex(110, 212);\n    curveVertex(110, 195);\n    curveVertex(108, 177);\n    curveVertex(92, 191);\n    curveVertex(93, 204);\n    curveVertex(91, 220);\n    endShape();\n}\nfunction relay () {\n    strokeWeight(2);\n    beginShape();\n    curveVertex(90, 231);\n    curveVertex(118, 200);\n    curveVertex(90, 195);\n    curveVertex(118, 200);\n    endShape();\n    strokeWeight(3);\n    beginShape();\n    curveVertex(134, 162);\n    curveVertex(134, 158);\n    curveVertex(147, 171);\n    curveVertex(147, 171);\n    curveVertex(164, 183);\n    curveVertex(185, 190);\n    curveVertex(204, 194);\n    curveVertex(226, 192);\n    curveVertex(258, 192);\n    curveVertex(278, 182);\n    curveVertex(288, 173);\n    curveVertex(288, 173);\n    endShape();\n    beginShape();\n    curveVertex(262, 204);\n    curveVertex(252, 192);\n    curveVertex(237, 191);\n    curveVertex(220, 192);\n    curveVertex(204, 194);\n    curveVertex(187, 198);\n    curveVertex(172, 204);\n    curveVertex(161, 216);\n    curveVertex(156, 232);\n    curveVertex(157, 245);\n    curveVertex(168, 250);\n    curveVertex(178, 243);\n    curveVertex(192, 238);\n    curveVertex(203, 236);\n    curveVertex(203, 236);\n    endShape();\n    beginShape();\n    curveVertex(224, 232);\n    curveVertex(248, 239);\n    curveVertex(224, 232);\n    curveVertex(248, 239);\n    endShape();\n}\nfunction flail () {\n    noStroke();\n    fill(255);\n    pushMatrix();\n    translate(1, 2);\n    beginShape();\n    curveVertex(181, 200);\n    curveVertex(191, 207);\n    curveVertex(199, 220);\n    curveVertex(204, 236);\n    curveVertex(208, 251);\n    curveVertex(212, 264);\n    curveVertex(218, 274);\n    curveVertex(226, 282);\n    curveVertex(236, 288);\n    curveVertex(246, 292);\n    curveVertex(262, 293);\n    curveVertex(262, 293);\n    curveVertex(262, 293);\n    curveVertex(262, 293);\n    curveVertex(262, 293);\n    curveVertex(262, 293);\n    curveVertex(262, 293);\n    curveVertex(262, 278);\n    curveVertex(250, 278);\n    curveVertex(238, 270);\n    curveVertex(231, 257);\n    curveVertex(226, 242);\n    curveVertex(220, 226);\n    curveVertex(214, 212);\n    curveVertex(199, 195);\n    curveVertex(199, 195);\n    curveVertex(199, 195);\n    curveVertex(199, 195);\n    curveVertex(199, 195);\n    curveVertex(199, 195);\n    curveVertex(181, 200);\n    curveVertex(191, 207);\n    curveVertex(199, 220);\n    endShape();\n    popMatrix();\n}\nfunction flail2 () {\n    strokeWeight(3);\n    stroke(0);\n    beginShape();\n    curveVertex(181, 200);\n    curveVertex(191, 207);\n    curveVertex(199, 220);\n    curveVertex(204, 236);\n    curveVertex(208, 251);\n    curveVertex(212, 264);\n    curveVertex(218, 274);\n    curveVertex(226, 282);\n    curveVertex(236, 288);\n    curveVertex(246, 292);\n    curveVertex(262, 293);\n    curveVertex(262, 293);\n    curveVertex(262, 293);\n    endShape();\n    beginShape();\n    curveVertex(262, 293);\n    curveVertex(262, 278);\n    curveVertex(250, 278);\n    curveVertex(238, 270);\n    curveVertex(231, 257);\n    curveVertex(226, 242);\n    curveVertex(220, 226);\n    curveVertex(214, 212);\n    curveVertex(199, 195);\n    curveVertex(199, 195);\n    curveVertex(199, 195);\n    curveVertex(199, 195);\n    curveVertex(199, 195);\n    curveVertex(199, 195);\n    curveVertex(181, 200);\n    curveVertex(191, 207);\n    curveVertex(199, 220);\n    endShape();\n}\n//}\n\n// Mummy Get {\nbackground(0);\n\nnoStroke();\nfill(255);\noutline();\n\nvar mummyGet = get();\n\nbackground(255);\n\n\nstrokeJoin(ROUND);\nstrokeWeight(6);\nstroke(230, 240, 255);\nnoFill();\n\n// Head Wrap {\nbeginShape();\ncurveVertex(161, 44);\ncurveVertex(161, 44);\ncurveVertex(173, 48);\ncurveVertex(186, 50);\ncurveVertex(203, 47);\ncurveVertex(217, 43);\ncurveVertex(230, 38);\ncurveVertex(240, 30);\ncurveVertex(230, 38);\nendShape();\nbeginShape();\ncurveVertex(277, 48);\ncurveVertex(267, 56);\ncurveVertex(254, 63);\ncurveVertex(234, 69);\ncurveVertex(218, 72);\ncurveVertex(202, 74);\ncurveVertex(181, 74);\ncurveVertex(202, 74);\ncurveVertex(218, 72);\ncurveVertex(234, 69);\ncurveVertex(254, 63);\ncurveVertex(267, 56);\ncurveVertex(277, 48);\ncurveVertex(277, 48);\nendShape();\nbeginShape();\ncurveVertex(148, 54);\ncurveVertex(148, 54);\ncurveVertex(157, 61);\ncurveVertex(157, 61);\ncurveVertex(166, 69);\ncurveVertex(178, 76);\ncurveVertex(192, 82);\ncurveVertex(205, 86);\ncurveVertex(218, 90);\ncurveVertex(233, 92);\ncurveVertex(245, 92);\ncurveVertex(257, 92);\ncurveVertex(245, 92);\nendShape();\nbeginShape();\ncurveVertex(302, 63);\ncurveVertex(292, 72);\ncurveVertex(279, 82);\ncurveVertex(259, 96);\ncurveVertex(238, 106);\ncurveVertex(218, 110);\ncurveVertex(197, 113);\ncurveVertex(182, 113);\ncurveVertex(197, 113);\nendShape();\nbeginShape();\ncurveVertex(311, 118);\ncurveVertex(297, 126);\ncurveVertex(283, 132);\ncurveVertex(268, 136);\ncurveVertex(283, 132);\ncurveVertex(297, 126);\ncurveVertex(311, 118);\ncurveVertex(297, 126);\nendShape();\nbeginShape();\ncurveVertex(128, 84);\ncurveVertex(128, 84);\ncurveVertex(136, 93);\ncurveVertex(136, 93);\ncurveVertex(148, 99);\ncurveVertex(158, 105);\ncurveVertex(171, 112);\ncurveVertex(186, 118);\ncurveVertex(196, 122);\ncurveVertex(210, 126);\ncurveVertex(224, 130);\ncurveVertex(240, 135);\ncurveVertex(256, 138);\ncurveVertex(272, 138);\ncurveVertex(285, 141);\ncurveVertex(298, 141);\ncurveVertex(312, 141);\ncurveVertex(331, 140);\nendShape();\nbeginShape();\ncurveVertex(223, 191);\ncurveVertex(223, 191);\ncurveVertex(210, 186);\ncurveVertex(210, 186);\ncurveVertex(199, 180);\ncurveVertex(188, 175);\ncurveVertex(178, 168);\ncurveVertex(167, 160);\ncurveVertex(154, 149);\ncurveVertex(144, 138);\ncurveVertex(133, 127);\ncurveVertex(121, 112);\ncurveVertex(108, 86);\nendShape();\n//}\n// Body Wrap {\nbeginShape();\ncurveVertex(74, 156);\ncurveVertex(74, 156);\ncurveVertex(81, 167);\ncurveVertex(81, 167);\ncurveVertex(86, 180);\ncurveVertex(86, 192);\ncurveVertex(86, 180);\nendShape();\nbeginShape();\ncurveVertex(90, 148);\ncurveVertex(100, 163);\ncurveVertex(108, 176);\ncurveVertex(112, 198);\ncurveVertex(108, 176);\ncurveVertex(100, 163);\ncurveVertex(90, 148);\ncurveVertex(90, 148);\nendShape();\nbeginShape();\ncurveVertex(136, 162);\ncurveVertex(136, 162);\ncurveVertex(141, 174);\ncurveVertex(141, 174);\ncurveVertex(142, 186);\ncurveVertex(141, 200);\ncurveVertex(138, 210);\ncurveVertex(141, 200);\nendShape();\nbeginShape();\ncurveVertex(140, 210);\ncurveVertex(147, 197);\ncurveVertex(160, 182);\ncurveVertex(160, 182);\ncurveVertex(165, 194);\ncurveVertex(173, 203);\ncurveVertex(165, 194);\ncurveVertex(160, 182);\ncurveVertex(147, 197);\ncurveVertex(140, 210);\ncurveVertex(140, 210);\nendShape();\nbeginShape();\ncurveVertex(142, 234);\ncurveVertex(156, 221);\ncurveVertex(142, 234);\ncurveVertex(156, 221);\nendShape();\nbeginShape();\ncurveVertex(176, 244);\ncurveVertex(169, 232);\ncurveVertex(166, 221);\ncurveVertex(164, 210);\ncurveVertex(166, 221);\ncurveVertex(169, 232);\ncurveVertex(176, 244);\ncurveVertex(176, 244);\nendShape();\nbeginShape();\ncurveVertex(188, 238);\ncurveVertex(168, 226);\ncurveVertex(188, 238);\ncurveVertex(168, 226);\nendShape();\nbeginShape();\ncurveVertex(176, 205);\ncurveVertex(185, 212);\ncurveVertex(194, 224);\ncurveVertex(199, 234);\ncurveVertex(194, 224);\ncurveVertex(185, 212);\ncurveVertex(176, 205);\ncurveVertex(185, 212);\nendShape();\nbeginShape();\ncurveVertex(214, 195);\ncurveVertex(237, 232);\ncurveVertex(229, 192);\ncurveVertex(237, 232);\ncurveVertex(214, 195);\ncurveVertex(237, 232);\nendShape();\nbeginShape();\ncurveVertex(242, 192);\ncurveVertex(256, 212);\ncurveVertex(262, 240);\ncurveVertex(256, 212);\ncurveVertex(242, 192);\ncurveVertex(242, 192);\nendShape();\nbeginShape();\ncurveVertex(242, 234);\ncurveVertex(266, 244);\ncurveVertex(242, 234);\ncurveVertex(266, 244);\nendShape();\nbeginShape();\ncurveVertex(78, 242);\ncurveVertex(90, 230);\ncurveVertex(78, 242);\ncurveVertex(90, 230);\nendShape();\nbeginShape();\ncurveVertex(182, 242);\ncurveVertex(192, 245);\ncurveVertex(202, 246);\ncurveVertex(222, 246);\ncurveVertex(241, 244);\ncurveVertex(252, 238);\ncurveVertex(241, 244);\ncurveVertex(222, 246);\ncurveVertex(192, 245);\ncurveVertex(192, 245);\ncurveVertex(182, 242);\ncurveVertex(182, 242);\nendShape();\nbeginShape();\ncurveVertex(146, 256);\ncurveVertex(165, 266);\ncurveVertex(187, 269);\ncurveVertex(211, 271);\ncurveVertex(243, 270);\ncurveVertex(264, 262);\ncurveVertex(243, 270);\ncurveVertex(211, 271);\ncurveVertex(187, 269);\ncurveVertex(165, 266);\ncurveVertex(146, 256);\ncurveVertex(146, 256);\nendShape();\nbeginShape();\ncurveVertex(148, 273);\ncurveVertex(148, 273);\ncurveVertex(160, 276);\ncurveVertex(172, 278);\ncurveVertex(183, 278);\ncurveVertex(193, 277);\ncurveVertex(207, 274);\ncurveVertex(224, 270);\ncurveVertex(244, 266);\ncurveVertex(263, 255);\ncurveVertex(244, 266);\nendShape();\nbeginShape();\ncurveVertex(148, 289);\ncurveVertex(148, 289);\ncurveVertex(164, 296);\ncurveVertex(182, 300);\ncurveVertex(201, 304);\ncurveVertex(220, 306);\ncurveVertex(239, 307);\ncurveVertex(265, 298);\ncurveVertex(265, 298);\nendShape();\nbeginShape();\ncurveVertex(148, 304);\ncurveVertex(162, 307);\ncurveVertex(176, 309);\ncurveVertex(194, 309);\ncurveVertex(213, 306);\ncurveVertex(194, 309);\ncurveVertex(162, 307);\ncurveVertex(148, 304);\ncurveVertex(162, 307);\nendShape();\nbeginShape();\ncurveVertex(150, 311);\ncurveVertex(173, 320);\ncurveVertex(198, 324);\ncurveVertex(173, 320);\ncurveVertex(150, 311);\ncurveVertex(150, 311);\nendShape();\nbeginShape();\ncurveVertex(217, 325);\ncurveVertex(233, 324);\ncurveVertex(248, 318);\ncurveVertex(265, 310);\ncurveVertex(248, 328);\ncurveVertex(224, 336);\ncurveVertex(248, 328);\ncurveVertex(265, 310);\ncurveVertex(248, 318);\ncurveVertex(233, 324);\ncurveVertex(217, 325);\ncurveVertex(217, 325);\nendShape();\nbeginShape();\ncurveVertex(233, 346);\ncurveVertex(258, 344);\ncurveVertex(280, 332);\ncurveVertex(258, 344);\ncurveVertex(233, 346);\ncurveVertex(258, 344);\nendShape();\nbeginShape();\ncurveVertex(252, 358);\ncurveVertex(265, 353);\ncurveVertex(286, 349);\ncurveVertex(265, 353);\ncurveVertex(252, 358);\ncurveVertex(265, 353);\nendShape();\nbeginShape();\ncurveVertex(288, 346);\ncurveVertex(264, 344);\ncurveVertex(248, 354);\ncurveVertex(264, 344);\ncurveVertex(288, 346);\ncurveVertex(264, 344);\nendShape();\nbeginShape();\ncurveVertex(154, 334);\ncurveVertex(176, 339);\ncurveVertex(204, 335);\ncurveVertex(176, 339);\ncurveVertex(154, 334);\ncurveVertex(176, 339);\nendShape();\nbeginShape();\ncurveVertex(180, 348);\ncurveVertex(198, 336);\ncurveVertex(180, 348);\ncurveVertex(198, 336);\nendShape();\nbeginShape();\ncurveVertex(200, 354);\ncurveVertex(180, 347);\ncurveVertex(157, 350);\ncurveVertex(180, 347);\ncurveVertex(200, 354);\ncurveVertex(180, 347);\nendShape();\nbeginShape();\ncurveVertex(157, 359);\ncurveVertex(178, 357);\ncurveVertex(198, 362);\ncurveVertex(178, 357);\ncurveVertex(157, 359);\ncurveVertex(178, 357);\nendShape();\n//}\nfilter(BLUR);\n\nvar mummyMsk = get();\n\nif(mummyMsk){\n    mummyMsk.mask(mummyGet);\n}\n\nbackground(255);\n//}\n\nbackground(255);\n\nvar graphicGet = get();\n\n/* * Background * */\nbackground(70, 0, 120);\n\n/* * Exterior Outline * */\nnoFill();\nstrokeWeight(8);\nstroke(0);\noutline();\n\n/* * Intereor Wrap * */\nimage(mummyMsk, 0, 0);\n\n/* * Overlay Outlines * */\nrelay();\nflail();\nflail2();\n\n/* * Face * */\nnoStroke();\nfill(0);\nellipse(162, 108, 22, 35);\nellipse(224, 108, 22, 35);\nfill(70, 0, 120);\nellipse(162, 116, 11, 17);\nellipse(224, 116, 11, 17);\nfill(255);\nellipse(161, 108, 11, 24);\nellipse(223, 108, 11, 24);\nstroke(0);\nstrokeWeight(1);\nnoFill();\narc(186, 144, 10, 10, 0, 180);\n\nvar graphicMsk = get();\n\nif(graphicMsk){\n    graphicMsk.mask(graphicGet);\n}\n\n//}\n\n// Particles {\nvar particlNumber = 1000;\nvar particles = {\n    x : [],\n    y : [],\n    x2 : [],\n    y2 : [],\n    s : [],\n    s2 : [],\n    xs : [],\n    ys : [],\n    ss : []\n};\nfor(var i = 0; i < particlNumber; i ++){\n    particles.x[i] = random(width);\n    particles.y[i] = random(height);\n    particles.x2[i] = random(width);\n    particles.y2[i] = random(height);\n    particles.s[i] = random(5, 10);\n    particles.s2[i] = random(5, 10);\n    particles.xs[i] = random(0.005, 0.02);\n    particles.ys[i] = random(0.005, 0.02);\n    particles.ss[i] = random(0.005, 0.02);\n}\n//}\n\nfunction draw () {\n    frameRate(0);\n    image(graphicMsk, 0, 0);\n    for(var i = 0; i < particlNumber; i ++){\n        strokeWeight(particles.s[i]);\n        stroke(255, 3);\n        point(particles.x[i], particles.y[i]);\n        \n        particles.x[i] = lerp(particles.x[i], particles.x2[i], particles.xs[i]);\n        particles.y[i] = lerp(particles.y[i], particles.y2[i], particles.ys[i]);\n        particles.s[i] = lerp(particles.s[i], particles.s2[i], particles.ss[i]);\n        \n        if(round(particles.x[i]) === round(particles.x2[i])){\n            particles.x2[i] = random(width);\n            particles.xs[i] = random(0.005, 0.02);\n        }\n        if(round(particles.y[i]) === round(particles.y2[i])){\n            particles.y2[i] = random(height);\n            particles.ys[i] = random(0.005, 0.02);\n        }\n        if(round(particles.s[i]) === round(particles.s2[i])){\n            particles.s2[i] = random(5, 10);\n            particles.ss[i] = random(0.005, 0.02);\n        }\n    }\n    if(frameCount < 120){\n        background(0);\n        textFont(createFont('Calibri Light Bold', 30));\n        textAlign(CENTER, CENTER);\n        fill(255);\n        \n        text(\"Loading...\\n(\" + (frameCount * (100 / 120)).toFixed(0) + \" / 100)\", 200, 200);\n    }\n}",
+    "title": "Happy Halloween :)",
     "votes": 24,
     "created": "3 hours ago",
     "updated": "3 hours ago",
     "type": "PJS",
     "author": {
-        "name": "- k a t i t e -",
-        "id": "kaid_312040000225853665820004",
-        "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+        "name": "ASBackup",
+        "id": "kaid_714780036830891967670231",
+        "avatar": "/images/avatars/svg/aqualine-tree.svg"
     },
     "dimensions": {
         "width": 400,
-        "height": 600
+        "height": 400
     },
     "forks": [],
     "posts": {
         "tips": [
             {
                 "replyCount": 0,
-                "votes": 10,
+                "votes": 6,
                 "date": "3 hours ago",
                 "author": {
-                    "name": "- k a t i t e -",
-                    "id": "kaid_312040000225853665820004",
-                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                    "name": "ASBackup",
+                    "id": "kaid_714780036830891967670231",
+                    "avatar": "/images/avatars/svg/aqualine-tree.svg"
                 },
-                "text": "subscribe for more graphics :D<br><br>https://www.khanacademy.org/computer-programming/katites-sub-page/6033337831440384<br><br>please keep this comment from sinking <3",
+                "text": "subby :><br>khanacademy.org/cs/-/582501577803366",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -34,48 +34,24 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "2 hours ago",
+                "date": "an hour ago",
                 "author": {
-                    "name": "cactuses.always.win.",
-                    "id": "kaid_488290387935041457443716",
-                    "avatar": "/images/avatars/svg/cacteye-green.svg"
-                },
-                "text": "this is so wispy and whispery",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "- k a t i t e -",
-                            "id": "kaid_312040000225853665820004",
-                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
-                        },
-                        "text": "thank you"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 3,
-                "date": "3 hours ago",
-                "author": {
-                    "name": "Mathlete11",
-                    "id": "kaid_4902531429433401500771997",
+                    "name": "SavageBunions29",
+                    "id": "kaid_2311247349130436121932823",
                     "avatar": "/images/avatars/svg/starky-sapling.svg"
                 },
-                "text": "noice :)  is it like a cat jellyfish? whatever it is, it's very cute ^-^<br><br>5th vote",
+                "text": "it looks a little like me",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "40 minutes ago",
                         "author": {
-                            "name": "- k a t i t e -",
-                            "id": "kaid_312040000225853665820004",
-                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                            "name": "ASBackup",
+                            "id": "kaid_714780036830891967670231",
+                            "avatar": "/images/avatars/svg/aqualine-tree.svg"
                         },
-                        "text": "thanks :D <br>yeah, 'kurage' means jellyfish and 'kyatto' is a way of saying cat"
+                        "text": "lol it does tho >:)"
                     }
                 ]
             },
@@ -84,156 +60,103 @@ var json = {
                 "votes": 2,
                 "date": "3 hours ago",
                 "author": {
-                    "name": "Luke Ellis",
-                    "id": "kaid_8535468719137003545030723",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                    "name": "Mystery Man",
+                    "id": "kaid_2820122927704002114337164",
+                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
                 },
-                "text": "This is disturbingly cute.",
+                "text": "lol love it (voted)",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
                         "date": "3 hours ago",
                         "author": {
-                            "name": "- k a t i t e -",
-                            "id": "kaid_312040000225853665820004",
-                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                            "name": "ASBackup",
+                            "id": "kaid_714780036830891967670231",
+                            "avatar": "/images/avatars/svg/aqualine-tree.svg"
                         },
-                        "text": "lol thanks..?"
+                        "text": "eyy mystery man :)<br>thanks :D"
                     }
                 ]
             },
             {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "3 hours ago",
-                "author": {
-                    "name": "Raven",
-                    "id": "kaid_1094399428577851630415346",
-                    "avatar": "/images/avatars/svg/cs-winston.svg"
-                },
-                "text": "a fellow hatsune miku lover wow<br>also kool graphic<br>happy halloween :3",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "- k a t i t e -",
-                            "id": "kaid_312040000225853665820004",
-                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
-                        },
-                        "text": "yes lol<br>thanks :D<br>you too :3"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "2 hours ago",
-                "author": {
-                    "name": "windawine",
-                    "id": "kaid_316582545582561029284805",
-                    "avatar": "/images/avatars/svg/scuttlebug-green.svg"
-                },
-                "text": "one of those things I never knew I needed",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "- k a t i t e -",
-                            "id": "kaid_312040000225853665820004",
-                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
-                        },
-                        "text": "lol thanks"
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "38 minutes ago",
+                "replyCount": 2,
+                "votes": 2,
+                "date": "41 minutes ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
                     "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
                 },
-                "text": "wow cute! I love the shading and the stuff you did for the background!!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "3 hours ago",
-                "author": {
-                    "name": "Coder2098",
-                    "id": "kaid_673573024191290348573492",
-                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
-                },
-                "text": "FIRST awww i love it :P the kitties are sooo cute!",
+                "text": "happy Halloween to you too :D<br>I love the graphic!!",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "40 minutes ago",
                         "author": {
-                            "name": "- k a t i t e -",
-                            "id": "kaid_312040000225853665820004",
-                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                            "name": "ASBackup",
+                            "id": "kaid_714780036830891967670231",
+                            "avatar": "/images/avatars/svg/aqualine-tree.svg"
                         },
-                        "text": "thank you so much :D"
+                        "text": "thanks :)"
+                    },
+                    {
+                        "date": "39 minutes ago",
+                        "author": {
+                            "name": "sugarnlight",
+                            "id": "kaid_516497598968512440616556",
+                            "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
+                        },
+                        "text": "np :)"
                     }
                 ]
             },
             {
                 "replyCount": 1,
-                "votes": 1,
+                "votes": 2,
+                "date": "an hour ago",
+                "author": {
+                    "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
+                    "id": "kaid_693763055742960827086832",
+                    "avatar": "/images/avatars/svg/cs-winston.svg"
+                },
+                "text": "You call it rushed, but I call it art. Well done! :)",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "40 minutes ago",
+                        "author": {
+                            "name": "ASBackup",
+                            "id": "kaid_714780036830891967670231",
+                            "avatar": "/images/avatars/svg/aqualine-tree.svg"
+                        },
+                        "text": "then we can agree its rushed art. thx :)"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 2,
                 "date": "2 hours ago",
                 "author": {
-                    "name": "RedRaven9#makegamesthenmakegraphics",
-                    "id": "kaid_768975196864016071606552",
-                    "avatar": "/images/avatars/svg/starky-tree.svg"
+                    "name": "DeBoss37",
+                    "id": "kaid_8829236334585399682745515",
+                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
                 },
-                "text": "This is great :D",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "RedRaven9#makegamesthenmakegraphics",
-                            "id": "kaid_768975196864016071606552",
-                            "avatar": "/images/avatars/svg/starky-tree.svg"
-                        },
-                        "text": "Edit AMAZING! :D"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "3 hours ago",
-                "author": {
-                    "name": "Shifter -OFF-",
-                    "id": "kaid_892112752920553577482062",
-                    "avatar": "/images/avatars/svg/blobby-purple.svg"
-                },
-                "text": "Aww, These are so cute!",
+                "text": "Love it. I saw u working on it the othr day.<br>voted and vote++",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
                         "date": "2 hours ago",
                         "author": {
-                            "name": "- k a t i t e -",
-                            "id": "kaid_312040000225853665820004",
-                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                            "name": "ASBackup",
+                            "id": "kaid_714780036830891967670231",
+                            "avatar": "/images/avatars/svg/aqualine-tree.svg"
                         },
-                        "text": "thank you :D"
+                        "text": "thanks :)"
                     }
                 ]
             }
