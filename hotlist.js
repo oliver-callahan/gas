@@ -3,7 +3,7 @@ var json = {
     "title": "kuragekyatto (khantober)",
     "votes": 28,
     "created": "4 hours ago",
-    "updated": "18 minutes ago",
+    "updated": "23 minutes ago",
     "type": "PJS",
     "author": {
         "name": "- k a t i t e -",
@@ -78,7 +78,7 @@ var json = {
                         "text": "thanks :D <br>yeah, 'kurage' means jellyfish and 'kyatto' is a way of saying cat"
                     },
                     {
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -87,7 +87,7 @@ var json = {
                         "text": "its rly adorable :)  nice job"
                     },
                     {
-                        "date": "14 minutes ago",
+                        "date": "19 minutes ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -172,7 +172,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "28 minutes ago",
+                "date": "33 minutes ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Online)",
                     "id": "kaid_333534297788735128142174",
@@ -183,7 +183,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 minutes ago",
+                        "date": "26 minutes ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -192,6 +192,20 @@ var json = {
                         "text": "thank you so much :D"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "a few seconds ago",
+                "author": {
+                    "name": "Dat",
+                    "id": "kaid_4164356982737975081215128",
+                    "avatar": "/images/avatars/svg/marcimus-orange.svg"
+                },
+                "text": "watashi no neko wa kawai sugiru 🗣️🗣️",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 2,
@@ -207,7 +221,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -216,7 +230,7 @@ var json = {
                         "text": "thank you :D"
                     },
                     {
-                        "date": "19 minutes ago",
+                        "date": "24 minutes ago",
                         "author": {
                             "name": "sugarnlight",
                             "id": "kaid_516497598968512440616556",
@@ -253,7 +267,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "RedRaven9#makegamesthenmakegraphics",
                     "id": "kaid_768975196864016071606552",
@@ -273,7 +287,7 @@ var json = {
                         "text": "Edit AMAZING! :D"
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
