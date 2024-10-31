@@ -364,7 +364,7 @@ var json = {
                         "text": "Actually, I think the guardians are watching too busy watching something else right now: this thread lol"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "ρlατγρυς ρгοgгαммιηg",
                             "id": "kaid_3625391900429892923499026",
@@ -415,7 +415,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -600,7 +600,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -678,7 +678,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -720,7 +720,7 @@ var json = {
                         "text": "<em>Gasp??</em><br>mind blowing 😱"
                     },
                     {
-                        "date": "21 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "//I'M BOB ;)...(FYI I'm online)",
                             "id": "kaid_7500540694222150489044752",
@@ -878,7 +878,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "21 minutes ago",
+                "date": "26 minutes ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
