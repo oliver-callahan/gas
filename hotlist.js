@@ -55,7 +55,7 @@ var json = {
             {
                 "replyCount": 4,
                 "votes": 8,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "Shifter -ON-",
                     "id": "kaid_892112752920553577482062",
@@ -196,7 +196,7 @@ var json = {
                         "text": "Why would you recommend that"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
@@ -205,7 +205,7 @@ var json = {
                         "text": "Because it's a little risky on the KA guidelines. It hasn't been taken down yet, though, so I think you're fine."
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -230,6 +230,30 @@ var json = {
                             "avatar": "/images/avatars/svg/orange-juice-squid.svg"
                         },
                         "text": "George Washington should be fine as well.<br>And, yeah, most coders post their subpage in the comments."
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 3,
+                "date": "7 hours ago",
+                "author": {
+                    "name": "Pineapples",
+                    "id": "kaid_6104902828627300552146889",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "I have a feeling that the guardians are closely watching the comments of this program...<br>This is on the verge of breaking the guidelines...<br>I am scared for you...",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "4 hours ago",
+                        "author": {
+                            "name": "CodeNinja",
+                            "id": "kaid_6247985199070618801670730",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "I second this...."
                     }
                 ]
             },
@@ -303,7 +327,7 @@ var json = {
                         "text": "Your welcome ;)<br>I comment on what I like :)"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -370,30 +394,6 @@ var json = {
                             "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                         },
                         "text": "maybe I am making other things to"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 2,
-                "date": "7 hours ago",
-                "author": {
-                    "name": "Pineapples",
-                    "id": "kaid_6104902828627300552146889",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "I have a feeling that the guardians are closely watching the comments of this program...<br>This is on the verge of breaking the guidelines...<br>I am scared for you...",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "CodeNinja",
-                            "id": "kaid_6247985199070618801670730",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I second this...."
                     }
                 ]
             },
@@ -558,7 +558,7 @@ var json = {
                         "text": "Ohh Actually I could make a blue Pikamin I have an idea for that"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -567,7 +567,7 @@ var json = {
                         "text": "pikamin rainbow and pikaborb (bulborb) confirmed?"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
