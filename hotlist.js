@@ -205,7 +205,7 @@ var json = {
                         "text": "I know I have flagged most of the \"not good\" comments and told people not to comment on the thread of them so yeah I probably wont but people want me to make a George Washington one so I might make that one"
                     },
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -301,7 +301,7 @@ var json = {
                         "text": "true... its kinda sad tho cause this is a WORK OF ART"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -310,7 +310,7 @@ var json = {
                         "text": "who me??"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -319,7 +319,7 @@ var json = {
                         "text": "the guardians are probably being paid in overtime for this project"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -328,7 +328,7 @@ var json = {
                         "text": "no mathlete11 I'm talking about LJ"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -337,7 +337,7 @@ var json = {
                         "text": "@Mathelete11<br>no me, scroll down<br>@HACK<br>I thought Guardians were volunteers?"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -346,7 +346,7 @@ var json = {
                         "text": "they probably are I don't know"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -452,7 +452,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Firebrand (offline)",
                     "id": "kaid_423049852746380987692804",
@@ -807,7 +807,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "That One Guy ME",
                     "id": "kaid_3823720261811268848400557",
