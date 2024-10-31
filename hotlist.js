@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 38,
     "created": "a day ago",
-    "updated": "7 minutes ago",
+    "updated": "12 minutes ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -19,7 +19,7 @@ var json = {
             "title": "Harrisachu *spinoff of trumpachu*",
             "id": "6735659923324928",
             "forks": 0,
-            "votes": 3,
+            "votes": 4,
             "author": {
                 "name": "Mathlete11",
                 "id": "kaid_4902531429433401500771997"
@@ -31,7 +31,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 12,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
@@ -184,7 +184,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 6,
+                "replyCount": 13,
                 "votes": 4,
                 "date": "9 hours ago",
                 "author": {
@@ -206,7 +206,7 @@ var json = {
                         "text": "I second this...."
                     },
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -215,7 +215,7 @@ var json = {
                         "text": "I third this... my comment was locked because people argued in the reply"
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -224,7 +224,7 @@ var json = {
                         "text": "Most likely Hopefully they are watching this and will not take this whole project down because this is crazy"
                     },
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -233,7 +233,7 @@ var json = {
                         "text": "I don't think guardians are going to take down the whole thing, but they might lock and/or remove some comments deemed not suitable for an educational website like KA"
                     },
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -242,7 +242,7 @@ var json = {
                         "text": "Yes I know its even worse that this is 1st on the hotlist"
                     },
                     {
-                        "date": "a few seconds ago",
+                        "date": "5 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -251,13 +251,67 @@ var json = {
                         "text": "they already locked one of the threads that you made"
                     },
                     {
-                        "date": "a few seconds ago",
+                        "date": "5 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
                             "avatar": "/images/avatars/svg/starky-sapling.svg"
                         },
                         "text": "true... its kinda sad tho cause this is a WORK OF ART"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Mathlete11",
+                            "id": "kaid_4902531429433401500771997",
+                            "avatar": "/images/avatars/svg/starky-sapling.svg"
+                        },
+                        "text": "who me??"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "the guardians are probably being paid in overtime for this project"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "no mathlete11 I'm talking about LJ"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "LJ",
+                            "id": "kaid_1144628223469068678737336",
+                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
+                        },
+                        "text": "@Mathelete11<br>no me, scroll down<br>@HACK<br>I thought Guardians were volunteers?"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "they probably are I don't know"
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "Mathlete11",
+                            "id": "kaid_4902531429433401500771997",
+                            "avatar": "/images/avatars/svg/starky-sapling.svg"
+                        },
+                        "text": "@LJ oh XD <br><br>yeah I think the guardians r volunteers"
                     }
                 ]
             },
@@ -322,6 +376,30 @@ var json = {
                 ]
             },
             {
+                "replyCount": 1,
+                "votes": 3,
+                "date": "13 hours ago",
+                "author": {
+                    "name": "Danomi42",
+                    "id": "kaid_1045282636896433254069987",
+                    "avatar": "/images/avatars/svg/primosaur-sapling.svg"
+                },
+                "text": "I don't know why, but I'm just enjoying looking at this... <em>creation...</em> I guess...",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "12 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "thank you"
+                    }
+                ]
+            },
+            {
                 "replyCount": 0,
                 "votes": 3,
                 "date": "11 hours ago",
@@ -350,26 +428,107 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 1,
+                "replyCount": 10,
                 "votes": 2,
-                "date": "13 hours ago",
+                "date": "a day ago",
                 "author": {
-                    "name": "Danomi42",
-                    "id": "kaid_1045282636896433254069987",
-                    "avatar": "/images/avatars/svg/primosaur-sapling.svg"
+                    "name": "Pro0planter",
+                    "id": "kaid_1863950377056983766116587",
+                    "avatar": "/images/avatars/svg/cs-winston.svg"
                 },
-                "text": "I don't know why, but I'm just enjoying looking at this... <em>creation...</em> I guess...",
+                "text": "blue pika-min when",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
                             "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                         },
-                        "text": "thank you"
+                        "text": "what? he's wearing a tuxedo"
+                    },
+                    {
+                        "date": "21 hours ago",
+                        "author": {
+                            "name": "Pro0planter",
+                            "id": "kaid_1863950377056983766116587",
+                            "avatar": "/images/avatars/svg/cs-winston.svg"
+                        },
+                        "text": "will you make a blue pikmin pikachu"
+                    },
+                    {
+                        "date": "21 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "Like a full blue derpachu? is that what your asking."
+                    },
+                    {
+                        "date": "21 hours ago",
+                        "author": {
+                            "name": "Pro0planter",
+                            "id": "kaid_1863950377056983766116587",
+                            "avatar": "/images/avatars/svg/cs-winston.svg"
+                        },
+                        "text": "kinda?... a pikmin is a creature from another game franchise. i was asking if you could make a blue pikmin derpachu/ blue pikamin. please look up pikmin adn blue pikmin."
+                    },
+                    {
+                        "date": "21 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "I just searched it. I could make a blue pikimin."
+                    },
+                    {
+                        "date": "21 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "Ohh Actually I could make a blue Pikamin I have an idea for that"
+                    },
+                    {
+                        "date": "20 hours ago",
+                        "author": {
+                            "name": "Pro0planter",
+                            "id": "kaid_1863950377056983766116587",
+                            "avatar": "/images/avatars/svg/cs-winston.svg"
+                        },
+                        "text": "pikamin rainbow and pikaborb (bulborb) confirmed?"
+                    },
+                    {
+                        "date": "20 hours ago",
+                        "author": {
+                            "name": "Pro0planter",
+                            "id": "kaid_1863950377056983766116587",
+                            "avatar": "/images/avatars/svg/cs-winston.svg"
+                        },
+                        "text": "also wanna participate in my competition"
+                    },
+                    {
+                        "date": "13 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "Maybe :)"
+                    },
+                    {
+                        "date": "13 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "Pikiminachu Maybe nothing else though whats the competition"
                     }
                 ]
             },
@@ -474,7 +633,7 @@ var json = {
                         "text": "maybe I am making other things to"
                     },
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -516,7 +675,7 @@ var json = {
                         "text": "I don't think I'm going to make a kamalachu"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -554,114 +713,9 @@ var json = {
                 ]
             },
             {
-                "replyCount": 10,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "Pro0planter",
-                    "id": "kaid_1863950377056983766116587",
-                    "avatar": "/images/avatars/svg/cs-winston.svg"
-                },
-                "text": "blue pika-min when",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "what? he's wearing a tuxedo"
-                    },
-                    {
-                        "date": "21 hours ago",
-                        "author": {
-                            "name": "Pro0planter",
-                            "id": "kaid_1863950377056983766116587",
-                            "avatar": "/images/avatars/svg/cs-winston.svg"
-                        },
-                        "text": "will you make a blue pikmin pikachu"
-                    },
-                    {
-                        "date": "21 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Like a full blue derpachu? is that what your asking."
-                    },
-                    {
-                        "date": "21 hours ago",
-                        "author": {
-                            "name": "Pro0planter",
-                            "id": "kaid_1863950377056983766116587",
-                            "avatar": "/images/avatars/svg/cs-winston.svg"
-                        },
-                        "text": "kinda?... a pikmin is a creature from another game franchise. i was asking if you could make a blue pikmin derpachu/ blue pikamin. please look up pikmin adn blue pikmin."
-                    },
-                    {
-                        "date": "21 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I just searched it. I could make a blue pikimin."
-                    },
-                    {
-                        "date": "21 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Ohh Actually I could make a blue Pikamin I have an idea for that"
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "Pro0planter",
-                            "id": "kaid_1863950377056983766116587",
-                            "avatar": "/images/avatars/svg/cs-winston.svg"
-                        },
-                        "text": "pikamin rainbow and pikaborb (bulborb) confirmed?"
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "Pro0planter",
-                            "id": "kaid_1863950377056983766116587",
-                            "avatar": "/images/avatars/svg/cs-winston.svg"
-                        },
-                        "text": "also wanna participate in my competition"
-                    },
-                    {
-                        "date": "13 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Maybe :)"
-                    },
-                    {
-                        "date": "13 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Pikiminachu Maybe nothing else though whats the competition"
-                    }
-                ]
-            },
-            {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
@@ -675,7 +729,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "4 minutes ago",
+                "date": "9 minutes ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -686,7 +740,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
