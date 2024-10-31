@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 37,
     "created": "17 hours ago",
-    "updated": "4 hours ago",
+    "updated": "5 hours ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -148,7 +148,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 4,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "Firebrand (offline)",
                     "id": "kaid_423049852746380987692804",
@@ -214,7 +214,7 @@ var json = {
                         "text": "I know I have flagged most of the \"not good\" comments and told people not to comment on the thread of them so yeah I probably wont but people want me to make a George Washington one so I might make that one"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -232,6 +232,20 @@ var json = {
                         "text": "George Washington should be fine as well.<br>And, yeah, most coders post their subpage in the comments."
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 2,
+                "date": "3 hours ago",
+                "author": {
+                    "name": "Equilibrium",
+                    "id": "kaid_1842852586096096865081151",
+                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                },
+                "text": "Make Kanto great again!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 7,
@@ -451,20 +465,6 @@ var json = {
                         "text": "I say yes to your no to his no."
                     }
                 ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "3 hours ago",
-                "author": {
-                    "name": "Equilibrium",
-                    "id": "kaid_1842852586096096865081151",
-                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                },
-                "text": "Make Kanto great again!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
             },
             {
                 "replyCount": 10,
