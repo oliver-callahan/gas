@@ -3,7 +3,7 @@ var json = {
     "title": "クラゲキャット (khantober)",
     "votes": 30,
     "created": "5 hours ago",
-    "updated": "6 minutes ago",
+    "updated": "11 minutes ago",
     "type": "PJS",
     "author": {
         "name": "- k a t i t e -",
@@ -96,7 +96,7 @@ var json = {
                         "text": "thanks :D <br>yeah, 'kurage' means jellyfish and 'kyatto' is a way of saying cat"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -202,7 +202,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "9 minutes ago",
+                "date": "14 minutes ago",
                 "author": {
                     "name": "LJ",
                     "id": "kaid_1144628223469068678737336",
@@ -213,7 +213,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 minutes ago",
+                        "date": "11 minutes ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -222,7 +222,7 @@ var json = {
                         "text": "lol thank you :D<br><br>yeah i should probably put it as katakana instead of romaji (are those the correct terms?)"
                     },
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -327,7 +327,7 @@ var json = {
                         "text": "thank you :D"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "sugarnlight",
                             "id": "kaid_516497598968512440616556",
@@ -393,7 +393,7 @@ var json = {
                         "text": "thank you so much :D"
                     },
                     {
-                        "date": "4 minutes ago",
+                        "date": "9 minutes ago",
                         "author": {
                             "name": "RedRaven9#makegamesthenmakegraphics",
                             "id": "kaid_768975196864016071606552",
