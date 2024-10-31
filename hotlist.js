@@ -165,92 +165,8 @@ var json = {
                 ]
             },
             {
-                "replyCount": 5,
-                "votes": 5,
-                "date": "18 hours ago",
-                "author": {
-                    "name": "Luke Ellis",
-                    "id": "kaid_8535468719137003545030723",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "To be honest, I can't believe this is #1 on the hotlist.<br>You did a great job making some people laugh, so I'll give you that. However, next time I would not recommend doing something like this.<br>lol. Great job.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "18 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Why would you recommend that"
-                    },
-                    {
-                        "date": "17 hours ago",
-                        "author": {
-                            "name": "Luke Ellis",
-                            "id": "kaid_8535468719137003545030723",
-                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                        },
-                        "text": "Because it's a little risky on the KA guidelines. It hasn't been taken down yet, though, so I think you're fine."
-                    },
-                    {
-                        "date": "17 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I know I have flagged most of the \"not good\" comments and told people not to comment on the thread of them so yeah I probably wont but people want me to make a George Washington one so I might make that one"
-                    },
-                    {
-                        "date": "17 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Am I allowed to post a link to my subpage in the comments of my projects or would that be advertising even though its my own thing"
-                    },
-                    {
-                        "date": "17 hours ago",
-                        "author": {
-                            "name": "Luke Ellis",
-                            "id": "kaid_8535468719137003545030723",
-                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                        },
-                        "text": "George Washington should be fine as well.<br>And, yeah, most coders post their subpage in the comments."
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 4,
-                "date": "16 hours ago",
-                "author": {
-                    "name": "Equilibrium",
-                    "id": "kaid_1842852586096096865081151",
-                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                },
-                "text": "Make Kanto great again!",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "Slowly but Surely"
-                    }
-                ]
-            },
-            {
                 "replyCount": 18,
-                "votes": 4,
+                "votes": 5,
                 "date": "15 hours ago",
                 "author": {
                     "name": "Pineapples",
@@ -289,7 +205,7 @@ var json = {
                         "text": "Most likely Hopefully they are watching this and will not take this whole project down because this is crazy"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -298,7 +214,7 @@ var json = {
                         "text": "I don't think guardians are going to take down the whole thing, but they might lock and/or remove some comments deemed not suitable for an educational website like KA"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -307,7 +223,7 @@ var json = {
                         "text": "Yes I know its even worse that this is 1st on the hotlist"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -316,7 +232,7 @@ var json = {
                         "text": "they already locked one of the threads that you made"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -406,7 +322,7 @@ var json = {
                         "text": "@pp can u change ur bio, this is an educational website and all the 4th graders don't need to see ur political opinions<br><br>also yeah the guardians are totally watching this thread XD"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "ρlατγρυς ρгοgгαммιηg",
                             "id": "kaid_3625391900429892923499026",
@@ -422,6 +338,90 @@ var json = {
                             "avatar": "/images/avatars/svg/starky-sapling.svg"
                         },
                         "text": "uh huh :)  I'm just trying to raise awareness. I have nothing against ppl sharing their opinions in their bio, but some 3rd graders parents might, and u could get banned or smthing"
+                    }
+                ]
+            },
+            {
+                "replyCount": 5,
+                "votes": 5,
+                "date": "18 hours ago",
+                "author": {
+                    "name": "Luke Ellis",
+                    "id": "kaid_8535468719137003545030723",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "To be honest, I can't believe this is #1 on the hotlist.<br>You did a great job making some people laugh, so I'll give you that. However, next time I would not recommend doing something like this.<br>lol. Great job.",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "18 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "Why would you recommend that"
+                    },
+                    {
+                        "date": "18 hours ago",
+                        "author": {
+                            "name": "Luke Ellis",
+                            "id": "kaid_8535468719137003545030723",
+                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                        },
+                        "text": "Because it's a little risky on the KA guidelines. It hasn't been taken down yet, though, so I think you're fine."
+                    },
+                    {
+                        "date": "18 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "I know I have flagged most of the \"not good\" comments and told people not to comment on the thread of them so yeah I probably wont but people want me to make a George Washington one so I might make that one"
+                    },
+                    {
+                        "date": "17 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "Am I allowed to post a link to my subpage in the comments of my projects or would that be advertising even though its my own thing"
+                    },
+                    {
+                        "date": "17 hours ago",
+                        "author": {
+                            "name": "Luke Ellis",
+                            "id": "kaid_8535468719137003545030723",
+                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                        },
+                        "text": "George Washington should be fine as well.<br>And, yeah, most coders post their subpage in the comments."
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 4,
+                "date": "16 hours ago",
+                "author": {
+                    "name": "Equilibrium",
+                    "id": "kaid_1842852586096096865081151",
+                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                },
+                "text": "Make Kanto great again!",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "4 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "Slowly but Surely"
                     }
                 ]
             },
@@ -618,7 +618,7 @@ var json = {
                         "text": "Your welcome ;)<br>I comment on what I like :)"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -665,6 +665,30 @@ var json = {
                 ]
             },
             {
+                "replyCount": 1,
+                "votes": 2,
+                "date": "5 hours ago",
+                "author": {
+                    "name": "Zidane Medina",
+                    "id": "kaid_4593991067080431920712749",
+                    "avatar": "/images/avatars/svg/scuttlebug-blue.svg"
+                },
+                "text": "We will make, our Pokémon, great again!",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "2 hours ago",
+                        "author": {
+                            "name": "Dojo Ninja #BringBackBackgrounds",
+                            "id": "kaid_9951099012656077844855",
+                            "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
+                        },
+                        "text": "remove the 9999999 different ways to mega evolve, we just need 1"
+                    }
+                ]
+            },
+            {
                 "replyCount": 2,
                 "votes": 2,
                 "date": "a day ago",
@@ -687,7 +711,7 @@ var json = {
                         "text": "maybe I am making other things to"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -720,7 +744,7 @@ var json = {
                         "text": "<em>Gasp??</em><br>mind blowing 😱"
                     },
                     {
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "//I'M BOB ;)...(FYI I'm online)",
                             "id": "kaid_7500540694222150489044752",
@@ -830,31 +854,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "5 hours ago",
-                "author": {
-                    "name": "Zidane Medina",
-                    "id": "kaid_4593991067080431920712749",
-                    "avatar": "/images/avatars/svg/scuttlebug-blue.svg"
-                },
-                "text": "We will make, our Pokémon, great again!",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "Dojo Ninja #BringBackBackgrounds",
-                            "id": "kaid_9951099012656077844855",
-                            "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
-                        },
-                        "text": "remove the 9999999 different ways to mega evolve, we just need 1"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -865,7 +865,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -878,7 +878,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "31 minutes ago",
+                "date": "36 minutes ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
