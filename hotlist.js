@@ -58,7 +58,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Mystery Man",
                     "id": "kaid_2820122927704002114337164",
@@ -69,7 +69,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "ASBackup",
                             "id": "kaid_714780036830891967670231",
@@ -113,7 +113,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 3,
+                "replyCount": 4,
                 "votes": 2,
                 "date": "4 hours ago",
                 "author": {
@@ -144,13 +144,22 @@ var json = {
                         "text": "Hah. XD I guess, as long as my statement still stands a compliment. :/"
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "ASBackup",
                             "id": "kaid_714780036830891967670231",
                             "avatar": "/images/avatars/svg/aqualine-tree.svg"
                         },
                         "text": "lol dont worry it is :)"
+                    },
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
+                            "id": "kaid_693763055742960827086832",
+                            "avatar": "/images/avatars/svg/cs-winston.svg"
+                        },
+                        "text": "Great. :)"
                     }
                 ]
             },
@@ -192,7 +201,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "ASBackup",
                             "id": "kaid_714780036830891967670231",
