@@ -154,7 +154,7 @@ var json = {
                         "text": "Derpachu made a quote that made no sense.<br><br>\"Somedays Your happy, and somedays you dressed up as a president\" - Derpachu 2024"
                     },
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "Dojo Ninja #BringBackBackgrounds",
                             "id": "kaid_9951099012656077844855",
@@ -428,7 +428,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "14 hours ago",
+                "date": "15 hours ago",
                 "author": {
                     "name": "Equilibrium",
                     "id": "kaid_1842852586096096865081151",
@@ -780,7 +780,7 @@ var json = {
                         "text": "Umm... no. :/ I say no to your no. XD"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "AmethystSky",
                             "id": "kaid_784805823121542822870790",
@@ -807,7 +807,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "42 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "That One Guy ME",
                     "id": "kaid_3823720261811268848400557",
@@ -832,7 +832,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "Dojo Ninja #BringBackBackgrounds",
                             "id": "kaid_9951099012656077844855",
