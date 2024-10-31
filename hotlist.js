@@ -31,7 +31,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 9,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
@@ -426,7 +426,7 @@ var json = {
                         "text": "@LJ oh XD <br><br>yeah I think the guardians r volunteers"
                     },
                     {
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "ρlατγρυς ρгοgгαммιηg",
                             "id": "kaid_3625391900429892923499026",
@@ -435,7 +435,7 @@ var json = {
                         "text": "Actually, I think the guardians are watching too busy watching something else right now: this thread lol"
                     },
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "ρlατγρυς ρгοgгαммιηg",
                             "id": "kaid_3625391900429892923499026",
@@ -444,7 +444,7 @@ var json = {
                         "text": "Btw, I had one of my posts taken down (people probably reported it because of their political ideas)"
                     },
                     {
-                        "date": "6 minutes ago",
+                        "date": "11 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -453,13 +453,13 @@ var json = {
                         "text": "@pp can u change ur bio, this is an educational website and all the 4th graders don't need to see ur political opinions<br><br>also yeah the guardians are totally watching this thread XD"
                     },
                     {
-                        "date": "a few seconds ago",
+                        "date": "5 minutes ago",
                         "author": {
                             "name": "ρlατγρυς ρгοgгαммιηg",
                             "id": "kaid_3625391900429892923499026",
                             "avatar": "/images/avatars/svg/blobby-purple.svg"
                         },
-                        "text": "@Mathlete11, I understand what you mean, but please try to understand what I mean.<br><br>This is supposed to be a free country. I am not telling anybody to vote a certain way. I’m not forcing people to agree with my opinions. I am only practicing my rights as an American citizen to practice my freedom of speech. In public schools, people can share their political and religious opinions, as long as they don’t force others to agree.<br><br>I hope you understand."
+                        "text": "@Mathlete11, I understand what you mean, but please try to understand what I mean.<br><br>This is supposed to be a free country. I am not telling anybody to vote a certain way. I’m not forcing people to agree with my opinions. I am only practicing my rights as an American citizen to practice my freedom of speech. In public schools, people can share their political and religious opinions, as long as they don’t force others to agree.<br><br>I hope you understand.<br><br>EDIT: I will try to rephrase my bio in a way that won’t offend others."
                     }
                 ]
             },
@@ -567,7 +567,7 @@ var json = {
                         "text": "Pikiminachu Maybe nothing else though whats the competition"
                     },
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -576,7 +576,7 @@ var json = {
                         "text": "its a mario and luigi (based off the rpg mario and luigis) art competition. due by november 7th. you could technichallly do a luigi pikachu with the rpg hammer or in one of the rpg areas and get first place."
                     },
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -729,7 +729,7 @@ var json = {
                         "text": "I don't think I'm going to make a kamalachu"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -769,7 +769,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
@@ -783,7 +783,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "5 minutes ago",
+                "date": "10 minutes ago",
                 "author": {
                     "name": "Zidane Medina",
                     "id": "kaid_4593991067080431920712749",
