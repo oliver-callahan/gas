@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 42,
     "created": "a day ago",
-    "updated": "9 minutes ago",
+    "updated": "14 minutes ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -140,7 +140,7 @@ var json = {
                         "text": "yeah I'm not trying to be political because I only 14 and because elections coming up and because I'm not trying to get banned AGAIN"
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "Danomi42",
                             "id": "kaid_1045282636896433254069987",
@@ -149,7 +149,7 @@ var json = {
                         "text": "<code>@<b>honeyghost</b></code> | Top 10 quotes of 2024: <em>\"The surest way to become a meme is to become the President of the United States.\"</em> - <code>honeyghost</code>'s brother (whoever it may be)"
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -377,7 +377,7 @@ var json = {
                         "text": "@pp can u change ur bio, this is an educational website and all the 4th graders don't need to see ur political opinions<br><br>also yeah the guardians are totally watching this thread XD"
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "ρlατγρυς ρгοgгαммιηg",
                             "id": "kaid_3625391900429892923499026",
@@ -386,7 +386,7 @@ var json = {
                         "text": "@Mathlete11, I understand what you mean, but please try to understand what I mean.<br><br>This is supposed to be a free country. I am not telling anybody to vote a certain way. I’m not forcing people to agree with my opinions. I am only practicing my rights as an American citizen to practice my freedom of speech. In public schools, people can share their political and religious opinions, as long as they don’t force others to agree.<br><br>I hope you understand. I will try to rephrase my bio in a way that won’t offend others.<br><br>EDIT: I just rephrased it. Thank you for telling me your thoughts, @Mathlete11. Your idea could could have just saved me from some trouble"
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -434,7 +434,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -577,7 +577,7 @@ var json = {
                         "text": "Maybe :)"
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -673,7 +673,7 @@ var json = {
                         "text": "You have to be a guardian."
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -713,30 +713,6 @@ var json = {
                             "avatar": "/images/avatars/svg/starky-sapling.svg"
                         },
                         "text": "okie :)"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 2,
-                "date": "2 hours ago",
-                "author": {
-                    "name": "Mathlete11",
-                    "id": "kaid_4902531429433401500771997",
-                    "avatar": "/images/avatars/svg/starky-sapling.svg"
-                },
-                "text": "I made a Harrisachu in the spinoffs XD",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "HACK",
-                            "id": "kaid_6815067100354522609320825",
-                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                        },
-                        "text": "I saw I was just looking at that"
                     }
                 ]
             },
@@ -836,6 +812,30 @@ var json = {
                 "locked": false,
                 "pinned": false,
                 "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 1,
+                "date": "2 hours ago",
+                "author": {
+                    "name": "Mathlete11",
+                    "id": "kaid_4902531429433401500771997",
+                    "avatar": "/images/avatars/svg/starky-sapling.svg"
+                },
+                "text": "I made a Harrisachu in the spinoffs XD",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "2 hours ago",
+                        "author": {
+                            "name": "HACK",
+                            "id": "kaid_6815067100354522609320825",
+                            "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                        },
+                        "text": "I saw I was just looking at that"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
