@@ -54,7 +54,7 @@ var json = {
                         "text": "thank you"
                     },
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "Kumpenump",
                             "id": "kaid_1065086901382358401624396",
@@ -63,7 +63,7 @@ var json = {
                         "text": "well you're so whispy and wispery"
                     },
                     {
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "cactuses.always.win.",
                             "id": "kaid_488290387935041457443716",
@@ -114,7 +114,7 @@ var json = {
                         "text": "thank you again :D"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -123,7 +123,7 @@ var json = {
                         "text": "no problem :D<br><br>also, can you code a snake graphic next..."
                     },
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -132,7 +132,7 @@ var json = {
                         "text": "yes absolutely! i may have to make it themed as a certain taylor swift album though (for certain reasons)"
                     },
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -141,7 +141,7 @@ var json = {
                         "text": "okie thanks :DD"
                     },
                     {
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -178,7 +178,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "Raven",
                     "id": "kaid_1094399428577851630415346",
@@ -228,7 +228,7 @@ var json = {
                 "votes": 1,
                 "date": "an hour ago",
                 "author": {
-                    "name": "Samurai Warrior™ ✝ (Online)",
+                    "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
                     "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                 },
@@ -261,7 +261,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "44 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
