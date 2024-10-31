@@ -3,7 +3,7 @@ var json = {
     "title": "Trumpachu *read description*",
     "votes": 42,
     "created": "a day ago",
-    "updated": "14 minutes ago",
+    "updated": "19 minutes ago",
     "type": "PJS",
     "author": {
         "name": "HACK",
@@ -386,7 +386,7 @@ var json = {
                         "text": "@Mathlete11, I understand what you mean, but please try to understand what I mean.<br><br>This is supposed to be a free country. I am not telling anybody to vote a certain way. I’m not forcing people to agree with my opinions. I am only practicing my rights as an American citizen to practice my freedom of speech. In public schools, people can share their political and religious opinions, as long as they don’t force others to agree.<br><br>I hope you understand. I will try to rephrase my bio in a way that won’t offend others.<br><br>EDIT: I just rephrased it. Thank you for telling me your thoughts, @Mathlete11. Your idea could could have just saved me from some trouble"
                     },
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -423,7 +423,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "Equilibrium",
                     "id": "kaid_1842852586096096865081151",
@@ -434,7 +434,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -775,7 +775,7 @@ var json = {
                         "text": "Umm... no. :/ I say no to your no. XD"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "AmethystSky",
                             "id": "kaid_784805823121542822870790",
