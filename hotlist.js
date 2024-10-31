@@ -42,7 +42,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -66,7 +66,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -162,7 +162,7 @@ var json = {
             {
                 "replyCount": 5,
                 "votes": 4,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -383,7 +383,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -418,7 +418,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 minutes ago",
+                        "date": "16 minutes ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -489,7 +489,7 @@ var json = {
                         "text": "what? he's wearing a tuxedo"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Pro0planter",
                             "id": "kaid_1863950377056983766116587",
@@ -588,7 +588,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Blocked by Taquavion",
                     "id": "kaid_568819712822552226070124",
@@ -602,7 +602,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "25 minutes ago",
+                "date": "30 minutes ago",
                 "author": {
                     "name": "Pineapples",
                     "id": "kaid_6104902828627300552146889",
