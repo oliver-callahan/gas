@@ -504,7 +504,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
