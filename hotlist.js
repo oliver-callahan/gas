@@ -85,7 +85,7 @@ var json = {
                         "text": "Yes, but a holiday's a holiday :P"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Duke :P",
                             "id": "kaid_351465532815782433620675",
@@ -264,7 +264,7 @@ var json = {
                         "text": "Thanks :)"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "LemonTurtle",
                             "id": "kaid_26727758302107548837304",
@@ -273,7 +273,7 @@ var json = {
                         "text": "Me: *thinks hard.<br>Me: Aha!<br><br>\"Yes, BUT I said first, FIRST! Mwahahaha!\" XD"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Duke :P",
                             "id": "kaid_351465532815782433620675",
@@ -282,7 +282,7 @@ var json = {
                         "text": "Yes you were first to say first. I was first to vote :P"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "LemonTurtle",
                             "id": "kaid_26727758302107548837304",
@@ -343,7 +343,7 @@ var json = {
                         "text": "The subpage works I guess!"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "SwankyMan™",
                             "id": "kaid_82898098000024228278987",
@@ -352,7 +352,7 @@ var json = {
                         "text": "At that point, It works too well.<br><br>ig it's what you should expect from a KA user who's been on here for more than 2 years and has extremely well made games/programs."
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -379,7 +379,7 @@ var json = {
             {
                 "replyCount": 6,
                 "votes": 1,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "The Former Wizard of Oz",
                     "id": "kaid_981854986090143486946241",
@@ -390,7 +390,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -450,7 +450,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "Jake K.",
                     "id": "kaid_103000698141866290580261",
@@ -462,7 +462,7 @@ var json = {
                     {
                         "replyCount": 0,
                         "votes": 2,
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
