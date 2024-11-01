@@ -97,7 +97,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 5,
+                "votes": 6,
                 "date": "9 hours ago",
                 "author": {
                     "name": "Radar",
@@ -230,7 +230,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -294,7 +294,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "37 minutes ago",
+                "date": "42 minutes ago",
                 "author": {
                     "name": "cb (usersniper)",
                     "id": "kaid_197781135646454512969328",
@@ -425,7 +425,7 @@ var json = {
                         "text": "@Boomtown<br>me too lol"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "𝔹𝕠𝕠𝕞𝕥𝕠𝕨𝕟2021™",
                             "id": "kaid_4342706381546273738505410",
@@ -466,7 +466,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "11 minutes ago",
+                "date": "16 minutes ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
@@ -477,7 +477,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "//I'M BOB ;)...(FYI I'm online)",
                             "id": "kaid_7500540694222150489044752",
@@ -515,7 +515,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
