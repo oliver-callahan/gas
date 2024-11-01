@@ -98,7 +98,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 4,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "Radar",
                     "id": "kaid_3902988618718040904060736",
@@ -365,7 +365,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
