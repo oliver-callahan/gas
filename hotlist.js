@@ -102,7 +102,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 2,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "𝔹𝕠𝕠𝕞𝕥𝕠𝕨𝕟2021™",
                     "id": "kaid_4342706381546273738505410",
@@ -261,6 +261,20 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
+                "date": "3 minutes ago",
+                "author": {
+                    "name": "Radar",
+                    "id": "kaid_3902988618718040904060736",
+                    "avatar": "/images/avatars/svg/leafers-seed.svg"
+                },
+                "text": "nice hope you make a fat guy next time lol",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
                 "date": "4 hours ago",
                 "author": {
                     "name": "Mathlete11",
@@ -369,7 +383,7 @@ var json = {
                         "text": "He will not listen, maybe figure out the hard way like I did 😓"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
