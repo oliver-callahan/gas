@@ -59,7 +59,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "LemonTurtle",
                     "id": "kaid_26727758302107548837304",
@@ -98,7 +98,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "24 minutes ago",
+                        "date": "29 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -107,7 +107,7 @@ var json = {
                         "text": "noice poem👍"
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "RedRaven9#makegamesthenmakegraphics",
                             "id": "kaid_768975196864016071606552",
@@ -120,7 +120,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                     "id": "kaid_693763055742960827086832",
@@ -186,7 +186,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "14 minutes ago",
+                "date": "19 minutes ago",
                 "author": {
                     "name": "VacationSquidy",
                     "id": "kaid_8597585382861928237037056",
