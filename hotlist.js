@@ -160,7 +160,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 minutes ago",
+                        "date": "26 minutes ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -169,7 +169,7 @@ var json = {
                         "text": "Oh lol, JakeK notified me of this quote, blame him."
                     },
                     {
-                        "date": "19 minutes ago",
+                        "date": "24 minutes ago",
                         "author": {
                             "name": "Jake K.",
                             "id": "kaid_103000698141866290580261",
@@ -345,7 +345,7 @@ var json = {
                         "text": "like the old barbie movies"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -378,7 +378,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 minutes ago",
+                        "date": "26 minutes ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
