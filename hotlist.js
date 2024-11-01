@@ -98,7 +98,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 5,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "Radar",
                     "id": "kaid_3902988618718040904060736",
@@ -368,7 +368,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "12 minutes ago",
+                "date": "17 minutes ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
@@ -393,7 +393,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
