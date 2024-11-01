@@ -160,7 +160,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -169,7 +169,7 @@ var json = {
                         "text": "Oh lol, JakeK notified me of this quote, blame him."
                     },
                     {
-                        "date": "24 minutes ago",
+                        "date": "29 minutes ago",
                         "author": {
                             "name": "Jake K.",
                             "id": "kaid_103000698141866290580261",
@@ -378,7 +378,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
