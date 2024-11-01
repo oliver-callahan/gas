@@ -219,7 +219,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 2,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "Equilibrium",
                     "id": "kaid_1842852586096096865081151",
@@ -416,7 +416,7 @@ var json = {
                         "text": "Oh no lol I am so out of touch with time that I could be wrong. (If it was not for the date on my computer)"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -466,7 +466,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "21 minutes ago",
+                "date": "26 minutes ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
@@ -477,7 +477,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "//I'M BOB ;)...(FYI I'm online)",
                             "id": "kaid_7500540694222150489044752",
