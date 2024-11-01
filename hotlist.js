@@ -3,7 +3,7 @@ var json = {
     "title": "melk",
     "votes": 40,
     "created": "9 hours ago",
-    "updated": "11 minutes ago",
+    "updated": "16 minutes ago",
     "type": "PJS",
     "author": {
         "name": "NL",
@@ -224,7 +224,7 @@ var json = {
                 "votes": 1,
                 "date": "2 hours ago",
                 "author": {
-                    "name": "Samurai Warrior™ ✝ (Online)",
+                    "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
                     "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                 },
@@ -260,7 +260,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "SwankyMan™",
                     "id": "kaid_82898098000024228278987",
