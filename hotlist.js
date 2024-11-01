@@ -34,7 +34,7 @@ var json = {
             {
                 "replyCount": 4,
                 "votes": 5,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "cactuses.always.win.",
                     "id": "kaid_488290387935041457443716",
