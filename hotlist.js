@@ -50,7 +50,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 0,
-                "votes": 12,
+                "votes": 13,
                 "date": "20 hours ago",
                 "author": {
                     "name": "Bearkirb314🐻‍❄️",
@@ -64,7 +64,7 @@ var json = {
             },
             {
                 "replyCount": 2,
-                "votes": 8,
+                "votes": 9,
                 "date": "20 hours ago",
                 "author": {
                     "name": "duke",
@@ -137,7 +137,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
