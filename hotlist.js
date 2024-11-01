@@ -230,7 +230,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -354,7 +354,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "23 minutes ago",
+                "date": "28 minutes ago",
                 "author": {
                     "name": "That One Guy ME",
                     "id": "kaid_3823720261811268848400557",
@@ -397,7 +397,7 @@ var json = {
                         "text": "@Boomtown<br>me too lol"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "𝔹𝕠𝕠𝕞𝕥𝕠𝕨𝕟2021™",
                             "id": "kaid_4342706381546273738505410",
@@ -406,6 +406,20 @@ var json = {
                         "text": "Lol time differences are so funny sometimes."
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "3 minutes ago",
+                "author": {
+                    "name": "Zidane Medina",
+                    "id": "kaid_4593991067080431920712749",
+                    "avatar": "/images/avatars/svg/scuttlebug-blue.svg"
+                },
+                "text": "My honest reaction to that information:",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 0,
@@ -449,7 +463,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
