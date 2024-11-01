@@ -164,7 +164,7 @@ var json = {
                         "text": "He will not listen, maybe figure out the hard way like I did 😓"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -396,7 +396,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "𝔹𝕠𝕠𝕞𝕥𝕠𝕨𝕟2021™",
                     "id": "kaid_4342706381546273738505410",
@@ -466,7 +466,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 minutes ago",
+                "date": "8 minutes ago",
                 "author": {
                     "name": "Eyeinthesky",
                     "id": "kaid_6136710333637048514584747",
