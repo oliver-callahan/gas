@@ -294,7 +294,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "27 minutes ago",
+                "date": "32 minutes ago",
                 "author": {
                     "name": "cb (usersniper)",
                     "id": "kaid_197781135646454512969328",
@@ -464,9 +464,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
-                "date": "a minute ago",
+                "date": "6 minutes ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
@@ -475,7 +475,17 @@ var json = {
                 "text": "I got 3 or 4 pounds of candy yesterday",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "//I'M BOB ;)...(FYI I'm online)",
+                            "id": "kaid_7500540694222150489044752",
+                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                        },
+                        "text": "Post how much you got here:"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
