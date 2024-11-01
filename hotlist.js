@@ -160,7 +160,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -169,7 +169,7 @@ var json = {
                         "text": "Oh lol, JakeK notified me of this quote, blame him."
                     },
                     {
-                        "date": "29 minutes ago",
+                        "date": "34 minutes ago",
                         "author": {
                             "name": "Jake K.",
                             "id": "kaid_103000698141866290580261",
@@ -354,7 +354,7 @@ var json = {
                         "text": "Fifth loves his raymarching though. <em>=D</em>"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -378,7 +378,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
