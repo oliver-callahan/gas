@@ -146,7 +146,7 @@ var json = {
                         "text": "Raymarching kills computers so you get some nice old fashioned rasterization today!"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Dat",
                             "id": "kaid_4164356982737975081215128",
@@ -155,7 +155,7 @@ var json = {
                         "text": "fifth did u hear that"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -195,7 +195,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "LJ",
                     "id": "kaid_1144628223469068678737336",
@@ -206,7 +206,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -459,6 +459,20 @@ var json = {
                     "avatar": "/images/avatars/svg/starky-sapling.svg"
                 },
                 "text": "WOAH thats cool",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "3 minutes ago",
+                "author": {
+                    "name": "Eyeinthesky",
+                    "id": "kaid_6136710333637048514584747",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "There's no such thing pal<br><br>get it right :P",
                 "locked": false,
                 "pinned": false,
                 "replies": []
