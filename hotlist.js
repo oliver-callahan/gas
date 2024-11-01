@@ -45,7 +45,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -54,7 +54,7 @@ var json = {
                         "text": "thank you"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Kumpenump",
                             "id": "kaid_1065086901382358401624396",
@@ -63,7 +63,7 @@ var json = {
                         "text": "well you're so whispy and wispery"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "cactuses.always.win.",
                             "id": "kaid_488290387935041457443716",
@@ -165,7 +165,7 @@ var json = {
                         "text": "yes absolutely! i may have to make it themed as a certain taylor swift album though (for certain reasons)"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -174,7 +174,7 @@ var json = {
                         "text": "okie thanks :DD"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -463,7 +463,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Shifter -OFF-",
                     "id": "kaid_892112752920553577482062",
