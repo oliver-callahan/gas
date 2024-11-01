@@ -182,7 +182,7 @@ var json = {
                         "text": "Fifth loves his raymarching though. <em>=D</em>"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -239,7 +239,7 @@ var json = {
                         "text": "Oh lol, JakeK notified me of this quote, blame him."
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "Jake K.",
                             "id": "kaid_103000698141866290580261",
@@ -294,7 +294,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "42 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "cb (usersniper)",
                     "id": "kaid_197781135646454512969328",
@@ -368,7 +368,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "That One Guy ME",
                     "id": "kaid_3823720261811268848400557",
@@ -466,7 +466,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "16 minutes ago",
+                "date": "21 minutes ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
@@ -477,7 +477,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "//I'M BOB ;)...(FYI I'm online)",
                             "id": "kaid_7500540694222150489044752",
