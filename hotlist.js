@@ -3,7 +3,7 @@ var json = {
     "title": "Happy Eat-Too-Much-Candy Day!",
     "votes": 35,
     "created": "14 hours ago",
-    "updated": "11 hours ago",
+    "updated": "12 hours ago",
     "type": "HTML",
     "author": {
         "name": "Bearkirb314🐻‍❄️",
@@ -76,7 +76,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -154,7 +154,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "arn5891",
                     "id": "kaid_999434791944264060074775",
@@ -246,7 +246,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Duke :P",
                             "id": "kaid_351465532815782433620675",
@@ -255,7 +255,7 @@ var json = {
                         "text": "I was definitely first ;P"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -323,7 +323,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "SwankyMan™",
                     "id": "kaid_82898098000024228278987",
@@ -334,7 +334,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -365,7 +365,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
