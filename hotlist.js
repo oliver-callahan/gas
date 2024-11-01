@@ -47,25 +47,25 @@ var json = {
                 "votes": 4,
                 "date": "4 hours ago",
                 "author": {
-                    "name": "Luke Ellis",
-                    "id": "kaid_8535468719137003545030723",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                    "name": "LemonTurtle",
+                    "id": "kaid_26727758302107548837304",
+                    "avatar": "/images/avatars/svg/primosaur-ultimate.svg"
                 },
-                "text": "My eyes are scarred for life.",
+                "text": "This is better than most of the images you make. Lol",
                 "locked": false,
                 "pinned": false,
                 "replies": []
             },
             {
                 "replyCount": 0,
-                "votes": 3,
+                "votes": 4,
                 "date": "4 hours ago",
                 "author": {
-                    "name": "LemonTurtle",
-                    "id": "kaid_26727758302107548837304",
-                    "avatar": "/images/avatars/svg/primosaur-ultimate.svg"
+                    "name": "Luke Ellis",
+                    "id": "kaid_8535468719137003545030723",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
                 },
-                "text": "This is better than most of the images you make. Lol",
+                "text": "My eyes are scarred for life.",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -116,7 +116,7 @@ var json = {
                         "text": "Yes it is a nice poem :)"
                     },
                     {
-                        "date": "34 minutes ago",
+                        "date": "39 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -125,7 +125,7 @@ var json = {
                         "text": "it sounds pretty"
                     },
                     {
-                        "date": "34 minutes ago",
+                        "date": "39 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -166,7 +166,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "19 minutes ago",
+                "date": "24 minutes ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -232,7 +232,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "p0tat0s_gUn",
                     "id": "kaid_9504700940326785358604450",
