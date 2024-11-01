@@ -3,7 +3,7 @@ var json = {
     "title": "melk",
     "votes": 40,
     "created": "10 hours ago",
-    "updated": "21 minutes ago",
+    "updated": "26 minutes ago",
     "type": "PJS",
     "author": {
         "name": "NL",
@@ -73,7 +73,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "Duke",
                     "id": "kaid_351465532815782433620675",
@@ -152,7 +152,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -166,7 +166,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 minutes ago",
+                "date": "8 minutes ago",
                 "author": {
                     "name": "Jake K.",
                     "id": "kaid_103000698141866290580261",
@@ -194,7 +194,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "LJ",
                     "id": "kaid_1144628223469068678737336",
