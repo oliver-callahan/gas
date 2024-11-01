@@ -85,9 +85,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 2,
+                "replyCount": 4,
                 "votes": 2,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "WAHOO-Allwen ",
                     "id": "kaid_1280249000611495284384187",
@@ -98,7 +98,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "39 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -107,13 +107,31 @@ var json = {
                         "text": "noice poem👍"
                     },
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "RedRaven9#makegamesthenmakegraphics",
                             "id": "kaid_768975196864016071606552",
                             "avatar": "/images/avatars/svg/starky-tree.svg"
                         },
                         "text": "Yes it is a nice poem :)"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "kitty mascot",
+                            "id": "kaid_1066778980955332043559618",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                        },
+                        "text": "it sounds pretty"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "kitty mascot",
+                            "id": "kaid_1066778980955332043559618",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                        },
+                        "text": "it's in Chinese"
                     }
                 ]
             },
@@ -186,7 +204,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "29 minutes ago",
+                "date": "34 minutes ago",
                 "author": {
                     "name": "VacationSquidy",
                     "id": "kaid_8597585382861928237037056",
