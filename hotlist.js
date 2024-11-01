@@ -173,7 +173,7 @@ var json = {
                         "text": "like the old barbie movies"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -466,7 +466,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "13 minutes ago",
+                "date": "18 minutes ago",
                 "author": {
                     "name": "Eyeinthesky",
                     "id": "kaid_6136710333637048514584747",
