@@ -3,7 +3,7 @@ var json = {
     "title": "melk",
     "votes": 37,
     "created": "8 hours ago",
-    "updated": "29 minutes ago",
+    "updated": "34 minutes ago",
     "type": "PJS",
     "author": {
         "name": "NL",
@@ -208,7 +208,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "31 minutes ago",
+                "date": "36 minutes ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Online)",
                     "id": "kaid_333534297788735128142174",
@@ -242,6 +242,20 @@ var json = {
                         "text": "PS is his shirt supsoed to be not going out of the screen?"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "4 minutes ago",
+                "author": {
+                    "name": "SwankyMan™",
+                    "id": "kaid_82898098000024228278987",
+                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                },
+                "text": "Drink your Melk kids",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 0,
