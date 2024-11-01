@@ -147,7 +147,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 1,
                 "date": "an hour ago",
                 "author": {
@@ -160,13 +160,22 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a few seconds ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
                             "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                         },
                         "text": "Oh lol, JakeK notified me of this quote, blame him."
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Jake K.",
+                            "id": "kaid_103000698141866290580261",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "I swear it’s a commonly known quote in the programming community. Just look it up. <br><br>I declare myself squirted and absolved!!<br>I wash my hands if this matter!<br><br>I meant aquitted not squirted."
                     }
                 ]
             },
@@ -300,7 +309,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -369,7 +378,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
