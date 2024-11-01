@@ -33,7 +33,7 @@ var json = {
             },
             {
                 "replyCount": 4,
-                "votes": 4,
+                "votes": 5,
                 "date": "18 hours ago",
                 "author": {
                     "name": "cactuses.always.win.",
@@ -84,7 +84,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 3,
+                "votes": 4,
                 "date": "15 hours ago",
                 "author": {
                     "name": "Dat",
@@ -129,7 +129,7 @@ var json = {
                         "text": "thanks :D <br>yeah, 'kurage' means jellyfish and 'kyatto' is a way of saying cat"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -336,7 +336,7 @@ var json = {
                         "text": "thank you :D"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "sugarnlight",
                             "id": "kaid_516497598968512440616556",
@@ -450,7 +450,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
