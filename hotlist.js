@@ -146,7 +146,7 @@ var json = {
                         "text": "Raymarching kills computers so you get some nice old fashioned rasterization today!"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Dat",
                             "id": "kaid_4164356982737975081215128",
@@ -155,7 +155,7 @@ var json = {
                         "text": "fifth did u hear that"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -195,7 +195,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "LJ",
                     "id": "kaid_1144628223469068678737336",
@@ -206,7 +206,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -294,7 +294,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "17 minutes ago",
+                "date": "22 minutes ago",
                 "author": {
                     "name": "cb (usersniper)",
                     "id": "kaid_197781135646454512969328",
@@ -382,7 +382,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "37 minutes ago",
+                "date": "42 minutes ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
