@@ -3,7 +3,7 @@ var json = {
     "title": "クラゲキャット (khantober)",
     "votes": 41,
     "created": "19 hours ago",
-    "updated": "13 hours ago",
+    "updated": "14 hours ago",
     "type": "PJS",
     "author": {
         "name": "- k a t i t e -",
@@ -292,7 +292,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
@@ -373,7 +373,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "RedRaven9#makegamesthenmakegraphics",
                     "id": "kaid_768975196864016071606552",
@@ -439,7 +439,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "SnackerDavis",
                     "id": "kaid_889584744100087037395082",
