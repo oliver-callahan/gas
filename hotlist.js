@@ -3,7 +3,7 @@ var json = {
     "title": "melk",
     "votes": 37,
     "created": "8 hours ago",
-    "updated": "14 minutes ago",
+    "updated": "19 minutes ago",
     "type": "PJS",
     "author": {
         "name": "NL",
@@ -208,7 +208,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "16 minutes ago",
+                "date": "21 minutes ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Online)",
                     "id": "kaid_333534297788735128142174",
