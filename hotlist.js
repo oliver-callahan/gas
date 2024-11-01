@@ -137,7 +137,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -350,6 +350,20 @@ var json = {
                         "text": "Oh, well. lol"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "3 minutes ago",
+                "author": {
+                    "name": "That One Guy ME",
+                    "id": "kaid_3823720261811268848400557",
+                    "avatar": "/images/avatars/svg/duskpin-seed.svg"
+                },
+                "text": "the skeletung",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 3,
