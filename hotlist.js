@@ -131,7 +131,7 @@ var json = {
                         "text": "@Boomtown<br>me too lol"
                     },
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "𝔹𝕠𝕠𝕞𝕥𝕠𝕨𝕟2021™",
                             "id": "kaid_4342706381546273738505410",
@@ -188,7 +188,7 @@ var json = {
                         "text": "Oh lol, JakeK notified me of this quote, blame him."
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Jake K.",
                             "id": "kaid_103000698141866290580261",
@@ -261,7 +261,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "14 minutes ago",
+                "date": "19 minutes ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -387,7 +387,7 @@ var json = {
                         "text": "Fifth loves his raymarching though. <em>=D</em>"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
