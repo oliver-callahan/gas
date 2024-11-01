@@ -102,7 +102,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 2,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "𝔹𝕠𝕠𝕞𝕥𝕠𝕨𝕟2021™",
                     "id": "kaid_4342706381546273738505410",
@@ -383,7 +383,7 @@ var json = {
                         "text": "He will not listen, maybe figure out the hard way like I did 😓"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
