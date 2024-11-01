@@ -3,7 +3,7 @@ var json = {
     "title": "melk",
     "votes": 30,
     "created": "5 hours ago",
-    "updated": "4 hours ago",
+    "updated": "5 hours ago",
     "type": "PJS",
     "author": {
         "name": "NL",
@@ -73,7 +73,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "duke",
                     "id": "kaid_351465532815782433620675",
@@ -116,7 +116,7 @@ var json = {
                         "text": "Yes it is a nice poem :)"
                     },
                     {
-                        "date": "19 minutes ago",
+                        "date": "24 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -125,7 +125,7 @@ var json = {
                         "text": "it sounds pretty"
                     },
                     {
-                        "date": "19 minutes ago",
+                        "date": "24 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -152,7 +152,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -166,7 +166,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 minutes ago",
+                "date": "9 minutes ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
