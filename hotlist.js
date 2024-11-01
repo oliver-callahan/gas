@@ -122,7 +122,7 @@ var json = {
                         "text": "Oh no lol I am so out of touch with time that I could be wrong. (If it was not for the date on my computer)"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -168,7 +168,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Equilibrium",
                     "id": "kaid_1842852586096096865081151",
