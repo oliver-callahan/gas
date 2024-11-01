@@ -3,7 +3,7 @@ var json = {
     "title": "melk",
     "votes": 37,
     "created": "8 hours ago",
-    "updated": "9 minutes ago",
+    "updated": "14 minutes ago",
     "type": "PJS",
     "author": {
         "name": "NL",
@@ -73,7 +73,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "duke",
                     "id": "kaid_351465532815782433620675",
@@ -152,7 +152,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -208,7 +208,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "11 minutes ago",
+                "date": "16 minutes ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Online)",
                     "id": "kaid_333534297788735128142174",
