@@ -3,7 +3,7 @@ var json = {
     "title": "Wildform [GAME]",
     "votes": 38,
     "created": "11 hours ago",
-    "updated": "14 minutes ago",
+    "updated": "19 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Quantum Cat",
@@ -227,7 +227,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "28 minutes ago",
+                        "date": "33 minutes ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -251,7 +251,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -288,7 +288,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "joe",
                     "id": "kaid_5152328204325219784298563",
@@ -302,7 +302,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "24 minutes ago",
+                "date": "29 minutes ago",
                 "author": {
                     "name": "PJ ILKclan",
                     "id": "kaid_5898539511970677449730315",
