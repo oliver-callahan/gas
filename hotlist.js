@@ -201,7 +201,7 @@ var json = {
                         "text": "Erm, actually, according to my calculations, it should be spelled <em>meeillukke</em>. :)"
                     },
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
@@ -363,7 +363,7 @@ var json = {
                         "text": "yeas i put it though google translate XD"
                     },
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "RedRaven9#makegamesthenmakegraphics",
                             "id": "kaid_768975196864016071606552",
