@@ -16,6 +16,16 @@ var json = {
     },
     "forks": [
         {
+            "title": "Spin-off of \"melk\"",
+            "id": "4667301241470976",
+            "forks": 0,
+            "votes": 1,
+            "author": {
+                "name": "Catpugg",
+                "id": "kaid_3825564883995824732387406"
+            }
+        },
+        {
             "title": "Nothing",
             "id": "5060796959604736",
             "forks": 0,
@@ -344,7 +354,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "VacationSquidy",
                     "id": "kaid_8597585382861928237037056",
