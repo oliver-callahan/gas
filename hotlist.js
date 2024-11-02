@@ -59,7 +59,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 5,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -283,7 +283,7 @@ var json = {
                         "text": "yea its in Chinese :p lol I didn't make this don't credit me"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
