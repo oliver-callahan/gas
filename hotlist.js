@@ -143,6 +143,48 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
+                "date": "12 hours ago",
+                "author": {
+                    "name": "Equilibrium",
+                    "id": "kaid_1842852586096096865081151",
+                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                },
+                "text": "\"Wake me up when I care\" - Squidward<br>You should wake up now.",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 3,
+                "date": "15 hours ago",
+                "author": {
+                    "name": "cb (usersniper)",
+                    "id": "kaid_197781135646454512969328",
+                    "avatar": "/images/avatars/svg/cs-hopper-jumping.svg"
+                },
+                "text": "was NOT expecting to see squidward on the khan academy hot list today<br><br>10/10 would view again",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 3,
+                "date": "10 hours ago",
+                "author": {
+                    "name": "Samurai Warrior™ ✝ (Offline)",
+                    "id": "kaid_333534297788735128142174",
+                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                },
+                "text": "Not melk, moulke obviously<br><br>yeah anyways nice program lol :)",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 3,
                 "date": "16 hours ago",
                 "author": {
                     "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
@@ -252,48 +294,6 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
-                "votes": 2,
-                "date": "12 hours ago",
-                "author": {
-                    "name": "Equilibrium",
-                    "id": "kaid_1842852586096096865081151",
-                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                },
-                "text": "\"Wake me up when I care\" - Squidward<br>You should wake up now.",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 2,
-                "date": "15 hours ago",
-                "author": {
-                    "name": "cb (usersniper)",
-                    "id": "kaid_197781135646454512969328",
-                    "avatar": "/images/avatars/svg/cs-hopper-jumping.svg"
-                },
-                "text": "was NOT expecting to see squidward on the khan academy hot list today<br><br>10/10 would view again",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 2,
-                "date": "9 hours ago",
-                "author": {
-                    "name": "Samurai Warrior™ ✝ (Offline)",
-                    "id": "kaid_333534297788735128142174",
-                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                },
-                "text": "Not melk, moulke obviously<br><br>yeah anyways nice program lol :)",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
                 "replyCount": 1,
                 "votes": 2,
                 "date": "14 hours ago",
@@ -348,7 +348,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "14 hours ago",
+                "date": "15 hours ago",
                 "author": {
                     "name": "p0tat0s_gUn",
                     "id": "kaid_9504700940326785358604450",
