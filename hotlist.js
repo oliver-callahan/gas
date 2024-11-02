@@ -181,7 +181,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
@@ -375,6 +375,20 @@ var json = {
                     "avatar": "/images/avatars/svg/starky-seedling.svg"
                 },
                 "text": "haha funne",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "a minute ago",
+                "author": {
+                    "name": "apex",
+                    "id": "kaid_1116211384842396834715509",
+                    "avatar": "/images/avatars/svg/sneak-peak-blue.svg"
+                },
+                "text": "My favourite graphic from you so far! Definitely showing some improvement in skills. ;)",
                 "locked": false,
                 "pinned": false,
                 "replies": []
