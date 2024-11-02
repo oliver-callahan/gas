@@ -183,7 +183,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 5,
+                "replyCount": 6,
                 "votes": 2,
                 "date": "11 hours ago",
                 "author": {
@@ -232,13 +232,22 @@ var json = {
                         "text": "it's in Chinese"
                     },
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "WAHOO-Allwen ",
                             "id": "kaid_1280249000611495284384187",
                             "avatar": "/images/avatars/svg/leafers-sapling.svg"
                         },
                         "text": "yea its in Chinese :p lol I didn't make this don't credit me"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "kitty mascot",
+                            "id": "kaid_1066778980955332043559618",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                        },
+                        "text": "ok :P"
                     }
                 ]
             },
@@ -273,7 +282,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
@@ -339,7 +348,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "p0tat0s_gUn",
                     "id": "kaid_9504700940326785358604450",
