@@ -30,7 +30,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 0,
-                "votes": 15,
+                "votes": 16,
                 "date": "21 hours ago",
                 "author": {
                     "name": "NL",
@@ -171,7 +171,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
@@ -348,7 +348,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "p0tat0s_gUn",
                     "id": "kaid_9504700940326785358604450",
