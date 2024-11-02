@@ -181,7 +181,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 3,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
@@ -201,7 +201,7 @@ var json = {
                         "text": "Erm, actually, according to my calculations, it should be spelled <em>meeillukke</em>. :)"
                     },
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
@@ -363,7 +363,7 @@ var json = {
                         "text": "yeas i put it though google translate XD"
                     },
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "RedRaven9#makegamesthenmakegraphics",
                             "id": "kaid_768975196864016071606552",
