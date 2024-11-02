@@ -73,7 +73,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 4,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "Duke",
                     "id": "kaid_351465532815782433620675",
@@ -87,7 +87,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 4,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -171,7 +171,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "LJ",
                     "id": "kaid_1144628223469068678737336",
@@ -183,7 +183,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 4,
+                "replyCount": 5,
                 "votes": 2,
                 "date": "11 hours ago",
                 "author": {
@@ -230,6 +230,15 @@ var json = {
                             "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
                         "text": "it's in Chinese"
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "WAHOO-Allwen ",
+                            "id": "kaid_1280249000611495284384187",
+                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
+                        },
+                        "text": "yea its in Chinese :p lol I didn't make this don't credit me"
                     }
                 ]
             },
