@@ -179,7 +179,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 3,
                 "date": "21 hours ago",
                 "author": {
@@ -199,6 +199,15 @@ var json = {
                             "avatar": "/images/avatars/svg/boggle-yellow.svg"
                         },
                         "text": "Erm, actually, according to my calculations, it should be spelled <em>meeillukke</em>. :)"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Luke Ellis",
+                            "id": "kaid_8535468719137003545030723",
+                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                        },
+                        "text": "Me I Luke?"
                     }
                 ]
             },
@@ -244,7 +253,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "NL",
                             "id": "kaid_101904269317089495055459",
@@ -354,7 +363,7 @@ var json = {
                         "text": "yeas i put it though google translate XD"
                     },
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "RedRaven9#makegamesthenmakegraphics",
                             "id": "kaid_768975196864016071606552",
@@ -391,7 +400,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "SwankyMan™",
                     "id": "kaid_82898098000024228278987",
