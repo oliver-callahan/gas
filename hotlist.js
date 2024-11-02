@@ -59,7 +59,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 5,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -177,7 +177,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "38 minutes ago",
+                        "date": "43 minutes ago",
                         "author": {
                             "name": "NL",
                             "id": "kaid_101904269317089495055459",
