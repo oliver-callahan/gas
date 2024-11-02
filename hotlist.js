@@ -45,7 +45,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 7,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "LemonTurtle",
                     "id": "kaid_26727758302107548837304",
@@ -101,7 +101,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 3,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Jake K.",
                     "id": "kaid_103000698141866290580261",
@@ -143,7 +143,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                     "id": "kaid_693763055742960827086832",
@@ -157,7 +157,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -232,7 +232,7 @@ var json = {
                         "text": "it's in Chinese"
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "WAHOO-Allwen ",
                             "id": "kaid_1280249000611495284384187",
@@ -241,7 +241,7 @@ var json = {
                         "text": "yea its in Chinese :p lol I didn't make this don't credit me"
                     },
                     {
-                        "date": "6 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
