@@ -3,7 +3,7 @@ var json = {
     "title": "melk",
     "votes": 46,
     "created": "a day ago",
-    "updated": "14 hours ago",
+    "updated": "15 hours ago",
     "type": "PJS",
     "author": {
         "name": "NL",
@@ -182,7 +182,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "honeyghost",
                             "id": "kaid_381818316234075133568777",
