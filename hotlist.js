@@ -89,7 +89,7 @@ var json = {
                         "text": "i think you mispled melk"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Arrow",
                             "id": "kaid_5229809678324099512179597",
@@ -229,6 +229,30 @@ var json = {
                 "locked": false,
                 "pinned": false,
                 "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 2,
+                "date": "6 minutes ago",
+                "author": {
+                    "name": "apex",
+                    "id": "kaid_1116211384842396834715509",
+                    "avatar": "/images/avatars/svg/sneak-peak-blue.svg"
+                },
+                "text": "My favourite graphic from you so far! Definitely showing some improvement in skills. ;)",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "NL",
+                            "id": "kaid_101904269317089495055459",
+                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                        },
+                        "text": "absolutely sir!"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
@@ -375,20 +399,6 @@ var json = {
                     "avatar": "/images/avatars/svg/starky-seedling.svg"
                 },
                 "text": "haha funne",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "a minute ago",
-                "author": {
-                    "name": "apex",
-                    "id": "kaid_1116211384842396834715509",
-                    "avatar": "/images/avatars/svg/sneak-peak-blue.svg"
-                },
-                "text": "My favourite graphic from you so far! Definitely showing some improvement in skills. ;)",
                 "locked": false,
                 "pinned": false,
                 "replies": []
