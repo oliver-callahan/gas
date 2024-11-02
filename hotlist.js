@@ -306,7 +306,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "RedRaven9#makegamesthenmakegraphics",
                     "id": "kaid_768975196864016071606552",
@@ -317,7 +317,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "RedRaven9#makegamesthenmakegraphics",
                             "id": "kaid_768975196864016071606552",
