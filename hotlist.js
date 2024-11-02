@@ -269,7 +269,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 8,
+                "replyCount": 9,
                 "votes": 2,
                 "date": "a day ago",
                 "author": {
@@ -352,6 +352,15 @@ var json = {
                             "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
                         "text": "yeas i put it though google translate XD"
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "RedRaven9#makegamesthenmakegraphics",
+                            "id": "kaid_768975196864016071606552",
+                            "avatar": "/images/avatars/svg/starky-tree.svg"
+                        },
+                        "text": "Same XD"
                     }
                 ]
             },
