@@ -3,7 +3,7 @@ var json = {
     "title": "melk",
     "votes": 46,
     "created": "17 hours ago",
-    "updated": "7 hours ago",
+    "updated": "8 hours ago",
     "type": "PJS",
     "author": {
         "name": "NL",
