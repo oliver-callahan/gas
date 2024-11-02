@@ -83,7 +83,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 5,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Jake K.",
                     "id": "kaid_103000698141866290580261",
@@ -192,7 +192,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "honeyghost",
                             "id": "kaid_381818316234075133568777",
@@ -201,7 +201,7 @@ var json = {
                         "text": "Erm, actually, according to my calculations, it should be spelled <em>meeillukke</em>. :)"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
@@ -363,7 +363,7 @@ var json = {
                         "text": "yeas i put it though google translate XD"
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "RedRaven9#makegamesthenmakegraphics",
                             "id": "kaid_768975196864016071606552",
