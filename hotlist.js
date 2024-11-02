@@ -85,9 +85,33 @@ var json = {
                 "replies": []
             },
             {
+                "replyCount": 1,
+                "votes": 3,
+                "date": "2 hours ago",
+                "author": {
+                    "name": "Jake K.",
+                    "id": "kaid_103000698141866290580261",
+                    "avatar": "/images/avatars/svg/leaf-blue.svg"
+                },
+                "text": "I think you misspelled milk.",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "2 hours ago",
+                        "author": {
+                            "name": "NL",
+                            "id": "kaid_101904269317089495055459",
+                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                        },
+                        "text": "i think you mispled melk"
+                    }
+                ]
+            },
+            {
                 "replyCount": 4,
                 "votes": 3,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "WAHOO-Allwen ",
                     "id": "kaid_1280249000611495284384187",
@@ -162,30 +186,6 @@ var json = {
                 "locked": false,
                 "pinned": false,
                 "replies": []
-            },
-            {
-                "replyCount": 1,
-                "votes": 2,
-                "date": "2 hours ago",
-                "author": {
-                    "name": "Jake K.",
-                    "id": "kaid_103000698141866290580261",
-                    "avatar": "/images/avatars/svg/leaf-blue.svg"
-                },
-                "text": "I think you misspelled milk.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "NL",
-                            "id": "kaid_101904269317089495055459",
-                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
-                        },
-                        "text": "i think you mispled melk"
-                    }
-                ]
             },
             {
                 "replyCount": 0,
@@ -298,7 +298,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "VacationSquidy",
                     "id": "kaid_8597585382861928237037056",
