@@ -71,36 +71,8 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
-                "votes": 4,
-                "date": "a day ago",
-                "author": {
-                    "name": "Duke",
-                    "id": "kaid_351465532815782433620675",
-                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                },
-                "text": "lol what?<br><br>first vote any way haha",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 4,
-                "date": "21 hours ago",
-                "author": {
-                    "name": "ASBackup",
-                    "id": "kaid_714780036830891967670231",
-                    "avatar": "/images/avatars/svg/aqualine-tree.svg"
-                },
-                "text": "a truly NL graphic<br>i couldn't expect any more of u<br><br>lol<br>looks great :)",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
                 "replyCount": 3,
-                "votes": 3,
+                "votes": 4,
                 "date": "13 hours ago",
                 "author": {
                     "name": "Jake K.",
@@ -139,6 +111,34 @@ var json = {
                         "text": "now now. i think there is a big misunderstanding.<br><br>milk and melk are two different words. one refering to the white drinkable liquid produced by female cows, the other refering to an imaginary state of said \"milk\". melk is the equivelant of a \"super serum\" and is created by heating \"milk\" to a positive temperature below zero. normally this would be impossible but with imagination, the impossible factor is removed. <br><br>as for the misspelled misspelled I truly am sorry for this. it was a mistake on my part.<br><br><em>likewise</em>"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 4,
+                "date": "a day ago",
+                "author": {
+                    "name": "Duke",
+                    "id": "kaid_351465532815782433620675",
+                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                },
+                "text": "lol what?<br><br>first vote any way haha",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 4,
+                "date": "a day ago",
+                "author": {
+                    "name": "ASBackup",
+                    "id": "kaid_714780036830891967670231",
+                    "avatar": "/images/avatars/svg/aqualine-tree.svg"
+                },
+                "text": "a truly NL graphic<br>i couldn't expect any more of u<br><br>lol<br>looks great :)",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 0,
@@ -213,7 +213,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "14 hours ago",
+                "date": "15 hours ago",
                 "author": {
                     "name": "LJ",
                     "id": "kaid_1144628223469068678737336",
