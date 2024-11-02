@@ -121,7 +121,7 @@ var json = {
                         "text": "i think you mispled melk"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Arrow",
                             "id": "kaid_5229809678324099512179597",
@@ -348,7 +348,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "p0tat0s_gUn",
                     "id": "kaid_9504700940326785358604450",
