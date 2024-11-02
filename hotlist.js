@@ -45,7 +45,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 7,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "LemonTurtle",
                     "id": "kaid_26727758302107548837304",
@@ -101,7 +101,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 3,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Jake K.",
                     "id": "kaid_103000698141866290580261",
@@ -121,7 +121,7 @@ var json = {
                         "text": "i think you mispled melk"
                     },
                     {
-                        "date": "34 minutes ago",
+                        "date": "39 minutes ago",
                         "author": {
                             "name": "Arrow",
                             "id": "kaid_5229809678324099512179597",
@@ -130,7 +130,7 @@ var json = {
                         "text": "On the contrary my dear friend, I beg to differ. You misspelled the word milk, Mr Jake K's spelling is an immaculate epitome of perfection. While your spelling of the word milk is quite un-elementary and absurd in such a context as this. In fact, the very idea of spelling milk with a \"e\" instead of an \"i\" is quite uncommendable and unsatisfactory, and such an example is quite unbeneficial and unbecoming to the general audience of adolescents on this website. Also, to further the charges brought before you this day, I bring to attention the second misspelling of the word misspelled, which, while you may have missed this offence. It is quite as bad as the misspelling of the word milk. <br><br>You have the right to remain silent <br><br><em>Nice to see you both around by the way ;)</em>"
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "NL",
                             "id": "kaid_101904269317089495055459",
@@ -143,7 +143,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                     "id": "kaid_693763055742960827086832",
@@ -157,7 +157,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
