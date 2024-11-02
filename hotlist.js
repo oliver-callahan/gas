@@ -130,7 +130,7 @@ var json = {
                         "text": "On the contrary my dear friend, I beg to differ. You misspelled the word milk, Mr Jake K's spelling is an immaculate epitome of perfection. While your spelling of the word milk is quite un-elementary and absurd in such a context as this. In fact, the very idea of spelling milk with a \"e\" instead of an \"i\" is quite uncommendable and unsatisfactory, and such an example is quite unbeneficial and unbecoming to the general audience of adolescents on this website. Also, to further the charges brought before you this day, I bring to attention the second misspelling of the word misspelled, which, while you may have missed this offence. It is quite as bad as the misspelling of the word milk. <br><br>You have the right to remain silent <br><br><em>Nice to see you both around by the way ;)</em>"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "NL",
                             "id": "kaid_101904269317089495055459",
@@ -196,7 +196,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -205,7 +205,7 @@ var json = {
                         "text": "noice poem👍"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "RedRaven9#makegamesthenmakegraphics",
                             "id": "kaid_768975196864016071606552",
@@ -232,7 +232,7 @@ var json = {
                         "text": "it's in Chinese"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "WAHOO-Allwen ",
                             "id": "kaid_1280249000611495284384187",
