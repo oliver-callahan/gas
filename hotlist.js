@@ -121,7 +121,7 @@ var json = {
                         "text": "i think you mispled melk"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Arrow",
                             "id": "kaid_5229809678324099512179597",
@@ -232,7 +232,7 @@ var json = {
                         "text": "it's in Chinese"
                     },
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "WAHOO-Allwen ",
                             "id": "kaid_1280249000611495284384187",
@@ -241,7 +241,7 @@ var json = {
                         "text": "yea its in Chinese :p lol I didn't make this don't credit me"
                     },
                     {
-                        "date": "2 minutes ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
