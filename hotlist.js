@@ -183,7 +183,7 @@ var json = {
                 "votes": 3,
                 "date": "a day ago",
                 "author": {
-                    "name": "Samurai Warrior™ ✝ (Offline)",
+                    "name": "Samurai Warrior™ ✝ (Online)",
                     "id": "kaid_333534297788735128142174",
                     "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                 },
@@ -456,7 +456,21 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 minutes ago",
+                "date": "a minute ago",
+                "author": {
+                    "name": "Agni Rammohan",
+                    "id": "kaid_3213311138427945097628530",
+                    "avatar": "/images/avatars/svg/blobby-green.svg"
+                },
+                "text": "did you use some sort of engine?",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "7 minutes ago",
                 "author": {
                     "name": "▪Dipper98▪",
                     "id": "kaid_3886238215093093067654746",
