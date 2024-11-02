@@ -40,7 +40,7 @@ var json = {
                         "text": "XD That's awesome, I didn't even think to make that pun.<br><br>Thanks!"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "𝐂𝐥𝐨𝐯𝐞𝐫",
                             "id": "kaid_2287805493149654773942312",
@@ -192,7 +192,7 @@ var json = {
                         "text": "lol, it does have that theme. Thanks!"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "apex",
                             "id": "kaid_1116211384842396834715509",
@@ -205,7 +205,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "30 minutes ago",
+                "date": "35 minutes ago",
                 "author": {
                     "name": "Agni Rammohan",
                     "id": "kaid_3213311138427945097628530",
@@ -219,7 +219,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "36 minutes ago",
+                "date": "41 minutes ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Online)",
                     "id": "kaid_333534297788735128142174",
@@ -257,7 +257,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "18 minutes ago",
+                "date": "23 minutes ago",
                 "author": {
                     "name": "joe",
                     "id": "kaid_5152328204325219784298563",
@@ -304,7 +304,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 minutes ago",
+                "date": "8 minutes ago",
                 "author": {
                     "name": "Mushy Avocado",
                     "id": "kaid_889538221957342292210697",
