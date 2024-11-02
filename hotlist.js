@@ -59,7 +59,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 5,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -232,7 +232,7 @@ var json = {
                         "text": "it's in Chinese"
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "WAHOO-Allwen ",
                             "id": "kaid_1280249000611495284384187",
@@ -241,7 +241,7 @@ var json = {
                         "text": "yea its in Chinese :p lol I didn't make this don't credit me"
                     },
                     {
-                        "date": "26 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
