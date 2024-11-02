@@ -169,7 +169,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 3,
                 "date": "16 hours ago",
                 "author": {
@@ -180,7 +180,17 @@ var json = {
                 "text": "Not melk, moulke obviously<br><br>yeah anyways nice program lol :)",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "honeyghost",
+                            "id": "kaid_381818316234075133568777",
+                            "avatar": "/images/avatars/svg/boggle-yellow.svg"
+                        },
+                        "text": "Erm, actually, according to my calculations, it should be spelled <em>meeillukke</em>. :)"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
@@ -296,7 +306,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "RedRaven9#makegamesthenmakegraphics",
                     "id": "kaid_768975196864016071606552",
@@ -307,7 +317,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "RedRaven9#makegamesthenmakegraphics",
                             "id": "kaid_768975196864016071606552",
