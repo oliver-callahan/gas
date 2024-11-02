@@ -253,7 +253,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "NL",
                             "id": "kaid_101904269317089495055459",
@@ -400,7 +400,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "SwankyMan™",
                     "id": "kaid_82898098000024228278987",
@@ -456,7 +456,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 minutes ago",
+                "date": "11 minutes ago",
                 "author": {
                     "name": "Agni Rammohan",
                     "id": "kaid_3213311138427945097628530",
@@ -470,7 +470,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "12 minutes ago",
+                "date": "17 minutes ago",
                 "author": {
                     "name": "▪Dipper98▪",
                     "id": "kaid_3886238215093093067654746",
