@@ -93,7 +93,7 @@ var json = {
                         "text": "i think you mispled melk"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "Arrow",
                             "id": "kaid_5229809678324099512179597",
