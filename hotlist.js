@@ -143,7 +143,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "Equilibrium",
                     "id": "kaid_1842852586096096865081151",
@@ -157,7 +157,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "cb (usersniper)",
                     "id": "kaid_197781135646454512969328",
@@ -182,7 +182,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "honeyghost",
                             "id": "kaid_381818316234075133568777",
@@ -266,7 +266,7 @@ var json = {
                         "text": "Yes it is a nice poem :)"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -275,7 +275,7 @@ var json = {
                         "text": "it sounds pretty"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
