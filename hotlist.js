@@ -73,7 +73,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 4,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -85,7 +85,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 2,
+                "replyCount": 3,
                 "votes": 3,
                 "date": "2 hours ago",
                 "author": {
@@ -107,13 +107,22 @@ var json = {
                         "text": "i think you mispled melk"
                     },
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "Arrow",
                             "id": "kaid_5229809678324099512179597",
                             "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
                         "text": "On the contrary my dear friend, I beg to differ. You misspelled the word milk, Mr Jake K's spelling is an immaculate epitome of perfection. While your spelling of the word milk is quite un-elementary and absurd in such a context as this. In fact, the very idea of spelling milk with a \"e\" instead of an \"i\" is quite uncommendable and unsatisfactory, and such an example is quite unbeneficial and unbecoming to the general audience of adolescents on this website. Also, to further the charges brought before you this day, I bring to attention the second misspelling of the word misspelled, which, while you may have missed this offence. It is quite as bad as the misspelling of the word milk. <br><br>You have the right to remain silent <br><br><em>Nice to see you both around by the way ;)</em>"
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "NL",
+                            "id": "kaid_101904269317089495055459",
+                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                        },
+                        "text": "now now. i think there is a big misunderstanding.<br><br>milk and melk are two different words. one refering to the white drinkable liquid produced by female cows, the other refering to an imaginary state of said \"milk\". melk is the equivelant of a \"super serum\" and is created by heating \"milk\" to a positive temperature below zero. normally this would be impossible but with imagination, the impossible factor is removed. <br><br>as for the misspelled misspelled I truly am sorry for this. it was a mistake on my part.<br><br><em>likewise</em>"
                     }
                 ]
             },
@@ -171,7 +180,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "Duke",
                     "id": "kaid_351465532815782433620675",
@@ -213,7 +222,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "LJ",
                     "id": "kaid_1144628223469068678737336",
