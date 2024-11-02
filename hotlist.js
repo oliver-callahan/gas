@@ -141,7 +141,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -165,7 +165,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -251,7 +251,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -302,7 +302,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "PJ ILKclan",
                     "id": "kaid_5898539511970677449730315",
@@ -316,7 +316,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "Eyeinthesky",
                     "id": "kaid_6136710333637048514584747",
@@ -327,7 +327,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -377,7 +377,7 @@ var json = {
                     {
                         "replyCount": 1,
                         "votes": 2,
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -386,7 +386,7 @@ var json = {
                         "text": "20 levels. You can see them all by pressing on the levels button",
                         "replies": [
                             {
-                                "date": "16 minutes ago",
+                                "date": "21 minutes ago",
                                 "author": {
                                     "name": "TheGimGamer",
                                     "id": "kaid_703826623747117899019912",
