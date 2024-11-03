@@ -31,7 +31,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 6,
-                "date": "14 hours ago",
+                "date": "15 hours ago",
                 "author": {
                     "name": "Liam K.",
                     "id": "kaid_160653079463992085090428",
@@ -168,7 +168,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
@@ -192,7 +192,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -429,7 +429,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "Black Pearl",
                     "id": "kaid_492646787165332150360542",
