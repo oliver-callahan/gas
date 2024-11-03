@@ -84,7 +84,7 @@ var json = {
                         "text": "Your Welcome :)"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -97,7 +97,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 3,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "apex",
                     "id": "kaid_1116211384842396834715509",
@@ -227,7 +227,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -247,6 +247,20 @@ var json = {
                     "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                 },
                 "text": "this looks amazing!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "3 minutes ago",
+                "author": {
+                    "name": "rola <3",
+                    "id": "kaid_1364059929449504255902123",
+                    "avatar": "/images/avatars/svg/stelly-green.svg"
+                },
+                "text": "this game is so cute!",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -289,7 +303,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -302,7 +316,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "dalegomango skool acc",
                     "id": "kaid_371114188602608232313934",
