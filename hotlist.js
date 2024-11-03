@@ -130,7 +130,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "Mushy Avocado",
                     "id": "kaid_889538221957342292210697",
@@ -494,7 +494,7 @@ var json = {
                         "text": "20 levels. You can see them all by pressing on the levels button",
                         "replies": [
                             {
-                                "date": "16 hours ago",
+                                "date": "17 hours ago",
                                 "author": {
                                     "name": "TheGimGamer",
                                     "id": "kaid_703826623747117899019912",
