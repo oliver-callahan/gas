@@ -75,7 +75,7 @@ var json = {
                         "text": "XD That's awesome, I didn't even think to make that pun.<br><br>Thanks!"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "𝐂𝐥𝐨𝐯𝐞𝐫",
                             "id": "kaid_2287805493149654773942312",
@@ -117,7 +117,7 @@ var json = {
                         "text": "lol, it does have that theme. Thanks!"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "apex",
                             "id": "kaid_1116211384842396834715509",
@@ -254,7 +254,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "Agni Rammohan",
                     "id": "kaid_3213311138427945097628530",
@@ -429,7 +429,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "36 minutes ago",
+                "date": "41 minutes ago",
                 "author": {
                     "name": "Black Pearl",
                     "id": "kaid_492646787165332150360542",
