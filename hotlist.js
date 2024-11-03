@@ -302,6 +302,20 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
+                "date": "3 minutes ago",
+                "author": {
+                    "name": "dalegomango skool acc",
+                    "id": "kaid_371114188602608232313934",
+                    "avatar": "/images/avatars/svg/leaf-red.svg"
+                },
+                "text": "beat it!<br>Level 16 had me confused for a very long time before I remembered that I had a bow xD",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
                 "date": "6 hours ago",
                 "author": {
                     "name": "joe",
