@@ -3,7 +3,7 @@ var json = {
     "title": "Wildform [GAME]",
     "votes": 51,
     "created": "a day ago",
-    "updated": "5 hours ago",
+    "updated": "6 hours ago",
     "type": "PJS",
     "author": {
         "name": "Quantum Cat",
@@ -301,7 +301,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Agni Rammohan",
                     "id": "kaid_3213311138427945097628530",
@@ -449,7 +449,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
