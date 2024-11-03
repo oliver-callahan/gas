@@ -292,7 +292,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "Duke",
                     "id": "kaid_351465532815782433620675",
@@ -411,7 +411,7 @@ var json = {
                         "text": "Thank you! I just added some art for the form changers. I think I meant to do it but just forgot.<br><br>I think you're the first :). Did you find it in the code or the game or both?"
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "CZS",
                             "id": "kaid_676584471536152741627316",
@@ -424,7 +424,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -438,7 +438,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "37 minutes ago",
+                "date": "42 minutes ago",
                 "author": {
                     "name": "Panda15",
                     "id": "kaid_9155426718383676698036057",
@@ -449,7 +449,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "CZS",
                             "id": "kaid_676584471536152741627316",
@@ -458,7 +458,7 @@ var json = {
                         "text": "I know I'm not Quantum Cat, but if you're looking for a quick fix you can set <code>currLevel</code> to 0 (line 42)."
                     },
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "Panda15",
                             "id": "kaid_9155426718383676698036057",
