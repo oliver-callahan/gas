@@ -87,7 +87,7 @@ var json = {
                         "text": "It all makes sense now... the pieces are coming together..."
                     },
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -171,7 +171,7 @@ var json = {
                         "text": "Your welcome :)<br><br>It's definitely healthier than candy ;)"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
