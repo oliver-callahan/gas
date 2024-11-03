@@ -3,7 +3,7 @@ var json = {
     "title": "Wildform [GAME]",
     "votes": 51,
     "created": "a day ago",
-    "updated": "13 minutes ago",
+    "updated": "4 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Quantum Cat",
@@ -130,7 +130,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Mushy Avocado",
                     "id": "kaid_889538221957342292210697",
@@ -269,7 +269,7 @@ var json = {
                         "text": "yes ik<br><br>Im telling cuantum cat because its a simple mistake probably made while testing levels, I would guess testing the pixel art for the lady bug transformer, but Quantum Cat probably dosent know about it"
                     },
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -476,7 +476,7 @@ var json = {
                         "text": "That looks great! Although the game starts at level 9 now . . . I assume you did this so you could test out the new art and then forgot to change it back?<br><br>Nice! I found it in the game first, and then spent a good while looking through the code before I found it there as well (the way you prevented people from using ctrl+F is very clever)."
                     },
                     {
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -500,7 +500,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -536,7 +536,7 @@ var json = {
                         "text": "20 levels. You can see them all by pressing on the levels button",
                         "replies": [
                             {
-                                "date": "19 hours ago",
+                                "date": "20 hours ago",
                                 "author": {
                                     "name": "TheGimGamer",
                                     "id": "kaid_703826623747117899019912",
