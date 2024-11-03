@@ -42,7 +42,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -66,7 +66,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -449,7 +449,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "CZS",
                             "id": "kaid_676584471536152741627316",
