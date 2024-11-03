@@ -3,7 +3,7 @@ var json = {
     "title": "Wildform [GAME]",
     "votes": 50,
     "created": "a day ago",
-    "updated": "a minute ago",
+    "updated": "6 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Quantum Cat",
@@ -84,7 +84,7 @@ var json = {
                         "text": "Your Welcome :)"
                     },
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -97,7 +97,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 3,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "apex",
                     "id": "kaid_1116211384842396834715509",
@@ -227,7 +227,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -303,7 +303,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -316,7 +316,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "dalegomango skool acc",
                     "id": "kaid_371114188602608232313934",
@@ -391,7 +391,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "CZS",
                     "id": "kaid_676584471536152741627316",
@@ -402,7 +402,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
