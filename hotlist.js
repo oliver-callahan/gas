@@ -3,7 +3,7 @@ var json = {
     "title": "Wildform [GAME]",
     "votes": 52,
     "created": "a day ago",
-    "updated": "39 minutes ago",
+    "updated": "44 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Quantum Cat",
@@ -296,7 +296,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "rola <3",
                     "id": "kaid_1364059929449504255902123",
