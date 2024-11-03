@@ -254,7 +254,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "28 minutes ago",
+                "date": "33 minutes ago",
                 "author": {
                     "name": "rola <3",
                     "id": "kaid_1364059929449504255902123",
@@ -387,6 +387,20 @@ var json = {
                         "text": "YW! :D<br><br>No? I didn't vote the WIP :P"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "3 minutes ago",
+                "author": {
+                    "name": "CZS",
+                    "id": "kaid_676584471536152741627316",
+                    "avatar": "/images/avatars/svg/primosaur-ultimate.svg"
+                },
+                "text": "Excellent art and animations! Making separate animations for each of the player's forms must have taken some dedication. Personally, I would have made pixel art sprites for the form changers instead of making them regular ellipses, since I think it would've helped them fit in a bit more with the overall aesthetic, but maybe that's just me. Great work, you two!<br><br>Oh, and I found the easter egg!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 0,
