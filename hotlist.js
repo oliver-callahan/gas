@@ -411,7 +411,7 @@ var json = {
                         "text": "Thank you! I just added some art for the form changers. I think I meant to do it but just forgot.<br><br>I think you're the first :). Did you find it in the code or the game or both?"
                     },
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "CZS",
                             "id": "kaid_676584471536152741627316",
@@ -436,9 +436,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 1,
-                "date": "27 minutes ago",
+                "date": "32 minutes ago",
                 "author": {
                     "name": "Panda15",
                     "id": "kaid_9155426718383676698036057",
@@ -449,13 +449,22 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "CZS",
                             "id": "kaid_676584471536152741627316",
                             "avatar": "/images/avatars/svg/primosaur-ultimate.svg"
                         },
                         "text": "I know I'm not Quantum Cat, but if you're looking for a quick fix you can set <code>currLevel</code> to 0 (line 42)."
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "Panda15",
+                            "id": "kaid_9155426718383676698036057",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "yes ik<br><br>Im telling cuantum cat because its a simple mistake probably made while testing levels, I would guess testing the pixel art for the lady bug transformer, but Quantum Cat probably dosent know about it"
                     }
                 ]
             }
