@@ -30,7 +30,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 5,
-                "votes": 12,
+                "votes": 13,
                 "date": "15 hours ago",
                 "author": {
                     "name": "wealR",
@@ -104,7 +104,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 6,
+                "votes": 7,
                 "date": "18 hours ago",
                 "author": {
                     "name": "Bearkirb314🐻‍❄️",
@@ -242,7 +242,7 @@ var json = {
                         "text": "Your welcome :)<br><br>It's definitely healthier than candy ;)"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
