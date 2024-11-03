@@ -55,7 +55,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 6,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "𝐂𝐥𝐨𝐯𝐞𝐫",
                     "id": "kaid_2287805493149654773942312",
@@ -108,7 +108,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -216,7 +216,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "SnackerDavis",
                     "id": "kaid_889584744100087037395082",
@@ -240,7 +240,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -378,7 +378,7 @@ var json = {
                         "text": "Thanks!<br><br>Ha, so you were one of the ones who voted it"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Eyeinthesky",
                             "id": "kaid_6136710333637048514584747",
@@ -449,7 +449,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "CZS",
                             "id": "kaid_676584471536152741627316",
@@ -458,7 +458,7 @@ var json = {
                         "text": "I know I'm not Quantum Cat, but if you're looking for a quick fix you can set <code>currLevel</code> to 0 (line 42)."
                     },
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "Panda15",
                             "id": "kaid_9155426718383676698036057",
