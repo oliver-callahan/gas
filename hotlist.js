@@ -3,7 +3,7 @@ var json = {
     "title": "Wildform [GAME]",
     "votes": 51,
     "created": "a day ago",
-    "updated": "8 minutes ago",
+    "updated": "13 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Quantum Cat",
@@ -240,7 +240,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 2,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "Panda15",
                     "id": "kaid_9155426718383676698036057",
@@ -269,7 +269,7 @@ var json = {
                         "text": "yes ik<br><br>Im telling cuantum cat because its a simple mistake probably made while testing levels, I would guess testing the pixel art for the lady bug transformer, but Quantum Cat probably dosent know about it"
                     },
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -467,7 +467,7 @@ var json = {
                         "text": "Thank you! I just added some art for the form changers. I think I meant to do it but just forgot.<br><br>I think you're the first :). Did you find it in the code or the game or both?"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "CZS",
                             "id": "kaid_676584471536152741627316",
@@ -476,7 +476,7 @@ var json = {
                         "text": "That looks great! Although the game starts at level 9 now . . . I assume you did this so you could test out the new art and then forgot to change it back?<br><br>Nice! I found it in the game first, and then spent a good while looking through the code before I found it there as well (the way you prevented people from using ctrl+F is very clever)."
                     },
                     {
-                        "date": "11 minutes ago",
+                        "date": "16 minutes ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -500,7 +500,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
