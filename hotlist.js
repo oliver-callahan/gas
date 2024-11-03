@@ -30,7 +30,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 5,
-                "votes": 15,
+                "votes": 16,
                 "date": "18 hours ago",
                 "author": {
                     "name": "wealR",
@@ -42,7 +42,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Falling Dragon™️",
                             "id": "kaid_922990378162047462529587",
@@ -85,6 +85,15 @@ var json = {
                             "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
                         "text": "It all makes sense now... the pieces are coming together..."
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Wow, that is so true :O<br>but also when I said \"Super cool BK!\"<br>Jake K responded ;P"
                     }
                 ]
             },
@@ -117,7 +126,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 1,
+                "replyCount": 0,
                 "votes": 2,
                 "date": "20 hours ago",
                 "author": {
@@ -128,17 +137,7 @@ var json = {
                 "text": "Super cool BK!",
                 "locked": false,
                 "pinned": false,
-                "replies": [
-                    {
-                        "date": "19 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "lol looks like you commented on the wrong account ;P<br>but yeah I just realized that you are JK and he is BK :P"
-                    }
-                ]
+                "replies": []
             },
             {
                 "replyCount": 6,
