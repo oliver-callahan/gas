@@ -55,7 +55,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 6,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "𝐂𝐥𝐨𝐯𝐞𝐫",
                     "id": "kaid_2287805493149654773942312",
@@ -108,7 +108,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -378,7 +378,7 @@ var json = {
                         "text": "Thanks!<br><br>Ha, so you were one of the ones who voted it"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Eyeinthesky",
                             "id": "kaid_6136710333637048514584747",
