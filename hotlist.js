@@ -179,7 +179,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -344,7 +344,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "PJ ILKclan",
                     "id": "kaid_5898539511970677449730315",
@@ -358,7 +358,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Eyeinthesky",
                     "id": "kaid_6136710333637048514584747",
@@ -369,7 +369,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -411,7 +411,7 @@ var json = {
                         "text": "Thank you! I just added some art for the form changers. I think I meant to do it but just forgot.<br><br>I think you're the first :). Did you find it in the code or the game or both?"
                     },
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "CZS",
                             "id": "kaid_676584471536152741627316",
@@ -436,9 +436,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
-                "date": "22 minutes ago",
+                "date": "27 minutes ago",
                 "author": {
                     "name": "Panda15",
                     "id": "kaid_9155426718383676698036057",
@@ -447,7 +447,17 @@ var json = {
                 "text": "Um it starts on. level 9 rn",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "CZS",
+                            "id": "kaid_676584471536152741627316",
+                            "avatar": "/images/avatars/svg/primosaur-ultimate.svg"
+                        },
+                        "text": "I know I'm not Quantum Cat, but if you're looking for a quick fix you can set <code>currLevel</code> to 0 (line 42)."
+                    }
+                ]
             }
         ],
         "questions": [
