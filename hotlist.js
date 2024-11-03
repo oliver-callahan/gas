@@ -42,7 +42,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -66,7 +66,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -449,7 +449,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "CZS",
                             "id": "kaid_676584471536152741627316",
@@ -458,7 +458,7 @@ var json = {
                         "text": "I know I'm not Quantum Cat, but if you're looking for a quick fix you can set <code>currLevel</code> to 0 (line 42)."
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "Panda15",
                             "id": "kaid_9155426718383676698036057",
