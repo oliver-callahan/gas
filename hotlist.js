@@ -3,7 +3,7 @@ var json = {
     "title": "Wildform [GAME]",
     "votes": 50,
     "created": "a day ago",
-    "updated": "26 minutes ago",
+    "updated": "31 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Quantum Cat",
@@ -75,7 +75,7 @@ var json = {
                         "text": "XD That's awesome, I didn't even think to make that pun.<br><br>Thanks!"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "𝐂𝐥𝐨𝐯𝐞𝐫",
                             "id": "kaid_2287805493149654773942312",
@@ -117,7 +117,7 @@ var json = {
                         "text": "lol, it does have that theme. Thanks!"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "apex",
                             "id": "kaid_1116211384842396834715509",
@@ -268,7 +268,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "Agni Rammohan",
                     "id": "kaid_3213311138427945097628530",
@@ -402,7 +402,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
