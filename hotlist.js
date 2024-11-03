@@ -3,7 +3,7 @@ var json = {
     "title": "Wildform [GAME]",
     "votes": 48,
     "created": "17 hours ago",
-    "updated": "6 hours ago",
+    "updated": "7 hours ago",
     "type": "PJS",
     "author": {
         "name": "Quantum Cat",
@@ -130,7 +130,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "Mushy Avocado",
                     "id": "kaid_889538221957342292210697",
@@ -400,7 +400,7 @@ var json = {
                         "text": "20 levels. You can see them all by pressing on the levels button",
                         "replies": [
                             {
-                                "date": "5 hours ago",
+                                "date": "6 hours ago",
                                 "author": {
                                     "name": "TheGimGamer",
                                     "id": "kaid_703826623747117899019912",
