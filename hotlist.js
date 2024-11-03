@@ -84,7 +84,7 @@ var json = {
                         "text": "Your Welcome :)"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -349,7 +349,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "14 hours ago",
+                "date": "15 hours ago",
                 "author": {
                     "name": "dalegomango skool acc",
                     "id": "kaid_371114188602608232313934",
@@ -424,7 +424,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "34 minutes ago",
+                "date": "39 minutes ago",
                 "author": {
                     "name": "vihaanpatankar32",
                     "id": "kaid_635975318362605801021168",
@@ -438,7 +438,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "CZS",
                     "id": "kaid_676584471536152741627316",
