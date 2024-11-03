@@ -254,7 +254,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "rola <3",
                     "id": "kaid_1364059929449504255902123",
@@ -458,7 +458,7 @@ var json = {
                         "text": "I know I'm not Quantum Cat, but if you're looking for a quick fix you can set <code>currLevel</code> to 0 (line 42)."
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Panda15",
                             "id": "kaid_9155426718383676698036057",
