@@ -130,7 +130,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Mushy Avocado",
                     "id": "kaid_889538221957342292210697",
@@ -234,6 +234,39 @@ var json = {
                             "avatar": "/images/avatars/svg/stelly-yellow.svg"
                         },
                         "text": "Thank you SnakerDavis!"
+                    }
+                ]
+            },
+            {
+                "replyCount": 2,
+                "votes": 2,
+                "date": "3 hours ago",
+                "author": {
+                    "name": "Panda15",
+                    "id": "kaid_9155426718383676698036057",
+                    "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                },
+                "text": "Um it starts on. level 9 rn",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "2 hours ago",
+                        "author": {
+                            "name": "CZS",
+                            "id": "kaid_676584471536152741627316",
+                            "avatar": "/images/avatars/svg/primosaur-ultimate.svg"
+                        },
+                        "text": "I know I'm not Quantum Cat, but if you're looking for a quick fix you can set <code>currLevel</code> to 0 (line 42)."
+                    },
+                    {
+                        "date": "2 hours ago",
+                        "author": {
+                            "name": "Panda15",
+                            "id": "kaid_9155426718383676698036057",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "yes ik<br><br>Im telling cuantum cat because its a simple mistake probably made while testing levels, I would guess testing the pixel art for the lady bug transformer, but Quantum Cat probably dosent know about it"
                     }
                 ]
             },
@@ -434,39 +467,6 @@ var json = {
                 "locked": false,
                 "pinned": false,
                 "replies": []
-            },
-            {
-                "replyCount": 2,
-                "votes": 1,
-                "date": "3 hours ago",
-                "author": {
-                    "name": "Panda15",
-                    "id": "kaid_9155426718383676698036057",
-                    "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
-                },
-                "text": "Um it starts on. level 9 rn",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "CZS",
-                            "id": "kaid_676584471536152741627316",
-                            "avatar": "/images/avatars/svg/primosaur-ultimate.svg"
-                        },
-                        "text": "I know I'm not Quantum Cat, but if you're looking for a quick fix you can set <code>currLevel</code> to 0 (line 42)."
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "Panda15",
-                            "id": "kaid_9155426718383676698036057",
-                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
-                        },
-                        "text": "yes ik<br><br>Im telling cuantum cat because its a simple mistake probably made while testing levels, I would guess testing the pixel art for the lady bug transformer, but Quantum Cat probably dosent know about it"
-                    }
-                ]
             }
         ],
         "questions": [
@@ -494,7 +494,7 @@ var json = {
                         "text": "20 levels. You can see them all by pressing on the levels button",
                         "replies": [
                             {
-                                "date": "17 hours ago",
+                                "date": "18 hours ago",
                                 "author": {
                                     "name": "TheGimGamer",
                                     "id": "kaid_703826623747117899019912",
