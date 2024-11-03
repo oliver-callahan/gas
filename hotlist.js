@@ -3,7 +3,7 @@ var json = {
     "title": "Wildform [GAME]",
     "votes": 51,
     "created": "a day ago",
-    "updated": "24 minutes ago",
+    "updated": "29 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Quantum Cat",
@@ -260,7 +260,7 @@ var json = {
                         "text": "I know I'm not Quantum Cat, but if you're looking for a quick fix you can set <code>currLevel</code> to 0 (line 42)."
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Panda15",
                             "id": "kaid_9155426718383676698036057",
@@ -269,7 +269,7 @@ var json = {
                         "text": "yes ik<br><br>Im telling cuantum cat because its a simple mistake probably made while testing levels, I would guess testing the pixel art for the lady bug transformer, but Quantum Cat probably dosent know about it"
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -476,7 +476,7 @@ var json = {
                         "text": "That looks great! Although the game starts at level 9 now . . . I assume you did this so you could test out the new art and then forgot to change it back?<br><br>Nice! I found it in the game first, and then spent a good while looking through the code before I found it there as well (the way you prevented people from using ctrl+F is very clever)."
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
@@ -500,7 +500,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Quantum Cat",
                             "id": "kaid_9428127706426004539463954",
