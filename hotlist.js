@@ -411,7 +411,7 @@ var json = {
                         "text": "Thank you! I just added some art for the form changers. I think I meant to do it but just forgot.<br><br>I think you're the first :). Did you find it in the code or the game or both?"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "CZS",
                             "id": "kaid_676584471536152741627316",
@@ -438,7 +438,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Panda15",
                     "id": "kaid_9155426718383676698036057",
