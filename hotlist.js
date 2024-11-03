@@ -3,7 +3,7 @@ var json = {
     "title": "Godrays on a floating shack",
     "votes": 42,
     "created": "a day ago",
-    "updated": "20 hours ago",
+    "updated": "21 hours ago",
     "type": "HTML",
     "author": {
         "name": "Bearkirb314🐻‍❄️",
@@ -96,7 +96,7 @@ var json = {
                         "text": "Wow, that is so true :O<br>but also when I said \"Super cool BK!\"<br>Jake K responded ;P"
                     },
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -198,7 +198,7 @@ var json = {
                         "text": "Ah, ok. I sort of remember my brother doing something like that a long time ago. Thanks :)"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Falling Dragon™️",
                             "id": "kaid_922990378162047462529587",
