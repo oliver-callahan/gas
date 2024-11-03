@@ -240,7 +240,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 2,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Panda15",
                     "id": "kaid_9155426718383676698036057",
@@ -424,7 +424,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "19 minutes ago",
+                "date": "24 minutes ago",
                 "author": {
                     "name": "vihaanpatankar32",
                     "id": "kaid_635975318362605801021168",
@@ -458,7 +458,7 @@ var json = {
                         "text": "Thank you! I just added some art for the form changers. I think I meant to do it but just forgot.<br><br>I think you're the first :). Did you find it in the code or the game or both?"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "CZS",
                             "id": "kaid_676584471536152741627316",
