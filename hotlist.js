@@ -3,7 +3,7 @@ var json = {
     "title": "Santa Dash",
     "votes": 44,
     "created": "17 hours ago",
-    "updated": "43 minutes ago",
+    "updated": "an hour ago",
     "type": "PJS",
     "author": {
         "name": "Radar",
@@ -52,7 +52,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "Orange Octopus",
                             "id": "kaid_961186596206068555092014",
@@ -329,7 +329,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -492,7 +492,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "TheMessenger",
                     "id": "kaid_492737111195244262916025",
@@ -618,7 +618,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "37 minutes ago",
+                "date": "42 minutes ago",
                 "author": {
                     "name": "hi bye",
                     "id": "kaid_7473218712807034408897639",
@@ -702,7 +702,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "15 minutes ago",
+                "date": "20 minutes ago",
                 "author": {
                     "name": "Orange Octopus",
                     "id": "kaid_961186596206068555092014",
@@ -730,7 +730,7 @@ var json = {
                     {
                         "replyCount": 1,
                         "votes": 2,
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Cyan Spirit",
                             "id": "kaid_1418532449612597727143882",
