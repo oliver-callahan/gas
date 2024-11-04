@@ -114,7 +114,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Peregrine",
                             "id": "kaid_10385788989900101843304",
@@ -239,7 +239,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "36 minutes ago",
+                "date": "41 minutes ago",
                 "author": {
                     "name": "Cyan Spirit",
                     "id": "kaid_1418532449612597727143882",
@@ -267,7 +267,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "15 minutes ago",
+                "date": "20 minutes ago",
                 "author": {
                     "name": "LightningV0LT",
                     "id": "kaid_3127507969097647597069711",
@@ -281,7 +281,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "Yaoguai.JP",
                     "id": "kaid_3457689799181679032369035",
@@ -431,7 +431,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "Karthikeya K #BringBackBackgrounds",
                     "id": "kaid_6258990316746013677705461",
@@ -501,7 +501,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "27 minutes ago",
+                "date": "32 minutes ago",
                 "author": {
                     "name": "KhanAcademy",
                     "id": "kaid_831984088872698719729391",
@@ -557,7 +557,7 @@ var json = {
                     {
                         "replyCount": 1,
                         "votes": 2,
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Cyan Spirit",
                             "id": "kaid_1418532449612597727143882",
@@ -566,7 +566,7 @@ var json = {
                         "text": "Top right during game, right under Santa in the workshop.",
                         "replies": [
                             {
-                                "date": "32 minutes ago",
+                                "date": "37 minutes ago",
                                 "author": {
                                     "name": "ASBackup",
                                     "id": "kaid_714780036830891967670231",
