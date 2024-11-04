@@ -154,7 +154,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -193,7 +193,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "24 minutes ago",
+                        "date": "29 minutes ago",
                         "author": {
                             "name": "Peregrine",
                             "id": "kaid_10385788989900101843304",
@@ -202,7 +202,7 @@ var json = {
                         "text": "This should work:<br><pre><code>var triggered = false;<br><br>var x = 0;<br><br>draw = function() {<br>    if (keyIsPressed && !triggered) {<br>        x += 10;<br>        <br>        // debug<br>        println(\"Triggered\");<br>        <br>        triggered = true;<br>    }<br>};<br><br>keyReleased = function () {<br>    triggered = false;<br>};</code></pre><br><br>The names don't have to be the same but you should use the keyIsPressed global variable. Whatever variable you use as 'triggered' must also start at false."
                     },
                     {
-                        "date": "13 minutes ago",
+                        "date": "18 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -215,7 +215,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 minutes ago",
+                "date": "12 minutes ago",
                 "author": {
                     "name": "83s.dsmith4",
                     "id": "kaid_1186521555862405865524152",
@@ -268,7 +268,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -295,7 +295,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "That One Guy ME",
                     "id": "kaid_3823720261811268848400557",
@@ -323,7 +323,21 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "a minute ago",
+                "author": {
+                    "name": "SirEarnest",
+                    "id": "kaid_485585696408320174630793",
+                    "avatar": "/images/avatars/svg/robot_male_2.svg"
+                },
+                "text": "i got 2252",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "4 hours ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -351,7 +365,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 minutes ago",
+                "date": "12 minutes ago",
                 "author": {
                     "name": "The No-Sock Guy",
                     "id": "kaid_533978982937476630790970",
