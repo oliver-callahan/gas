@@ -3,7 +3,7 @@ var json = {
     "title": "Santa Dash",
     "votes": 44,
     "created": "18 hours ago",
-    "updated": "an hour ago",
+    "updated": "2 hours ago",
     "type": "PJS",
     "author": {
         "name": "Radar",
@@ -47,6 +47,16 @@ var json = {
         },
         {
             "title": "Spin-off of \"Santa Dash\"",
+            "id": "6288219281735680",
+            "forks": 0,
+            "votes": 1,
+            "author": {
+                "name": "Hyrule Coder",
+                "id": "kaid_410930663650820568137353"
+            }
+        },
+        {
+            "title": "Spin-off of \"Santa Dash\"",
             "id": "6375314079793152",
             "forks": 0,
             "votes": 1,
@@ -60,7 +70,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 1,
-                "votes": 15,
+                "votes": 16,
                 "date": "18 hours ago",
                 "author": {
                     "name": "Radar",
@@ -129,7 +139,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -160,7 +170,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 2,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Norwegian Pathways",
                     "id": "kaid_1082366231138740611717261",
@@ -207,7 +217,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 2,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "TDJ",
                     "id": "kaid_682972421482671044758972",
@@ -218,7 +228,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -349,7 +359,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -428,7 +438,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "honeyghost",
                     "id": "kaid_381818316234075133568777",
@@ -456,7 +466,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
@@ -610,7 +620,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -680,7 +690,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "29 minutes ago",
+                "date": "34 minutes ago",
                 "author": {
                     "name": "«⨷Koploon⨷»",
                     "id": "kaid_804908675721812233776598",
