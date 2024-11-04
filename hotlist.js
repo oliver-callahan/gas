@@ -45,7 +45,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 6,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "CZS",
                     "id": "kaid_676584471536152741627316",
@@ -56,7 +56,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Hokeycat",
                             "id": "kaid_438466413527508491816275",
@@ -168,7 +168,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "Norwegian Pathways",
                     "id": "kaid_1082366231138740611717261",
@@ -193,7 +193,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 minutes ago",
+                        "date": "24 minutes ago",
                         "author": {
                             "name": "Peregrine",
                             "id": "kaid_10385788989900101843304",
@@ -202,7 +202,7 @@ var json = {
                         "text": "This should work:<br><pre><code>var triggered = false;<br><br>var x = 0;<br><br>draw = function() {<br>    if (keyIsPressed && !triggered) {<br>        x += 10;<br>        <br>        // debug<br>        println(\"Triggered\");<br>        <br>        triggered = true;<br>    }<br>};<br><br>keyReleased = function () {<br>    triggered = false;<br>};</code></pre><br><br>The names don't have to be the same but you should use the keyIsPressed global variable. Whatever variable you use as 'triggered' must also start at false."
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -215,7 +215,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 minutes ago",
+                "date": "7 minutes ago",
                 "author": {
                     "name": "83s.dsmith4",
                     "id": "kaid_1186521555862405865524152",
@@ -351,7 +351,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 minutes ago",
+                "date": "7 minutes ago",
                 "author": {
                     "name": "The No-Sock Guy",
                     "id": "kaid_533978982937476630790970",
@@ -449,7 +449,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "TTyper",
                     "id": "kaid_9072327922342976241122316",
