@@ -3,7 +3,7 @@ var json = {
     "title": "Santa Dash",
     "votes": 44,
     "created": "16 hours ago",
-    "updated": "18 minutes ago",
+    "updated": "23 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Radar",
@@ -40,7 +40,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 0,
-                "votes": 13,
+                "votes": 14,
                 "date": "16 hours ago",
                 "author": {
                     "name": "Radar",
@@ -75,7 +75,7 @@ var json = {
                         "text": "I agree!"
                     },
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -117,7 +117,7 @@ var json = {
                         "text": "My understanding is that you want to be able to hold down the mouse for an indeterminate amount of time, but only have x increase once. <br><br>What I would do is have a global variable that keeps track of clicks<br><br><code>var click = false;</code><br><br>and then at the bottom of your code, you can use the mouseClicked function<br><br><code>mouseClicked = function(){<br>    click = true;<br>};</code><br><br>Then make sure to reset <code>click</code> after each frame, so at the bottom of the draw function do something like:<br><br><code>click = false;</code><br><br>Then if you want to see if the mouse was clicked that frame you can simply do an if statement<br><br><code>if(click){<br>    //The mouse was clicked<br>    x ++;<br>}</code><br><br>The mouse clicked event listener only triggers once per click, so holding the mouse has no effect."
                     },
                     {
-                        "date": "28 minutes ago",
+                        "date": "33 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -319,7 +319,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -608,7 +608,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "12 minutes ago",
+                "date": "17 minutes ago",
                 "author": {
                     "name": "hi bye",
                     "id": "kaid_7473218712807034408897639",
@@ -742,7 +742,7 @@ var json = {
                     {
                         "replyCount": 0,
                         "votes": 1,
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
