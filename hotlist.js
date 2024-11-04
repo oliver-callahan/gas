@@ -240,7 +240,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a few seconds ago",
+                        "date": "5 minutes ago",
                         "author": {
                             "name": "HB_the_Pencil (semi-retired)",
                             "id": "kaid_412656070256786668848958",
@@ -369,7 +369,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "11 minutes ago",
+                "date": "16 minutes ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
