@@ -3,7 +3,7 @@ var json = {
     "title": "Santa Dash",
     "votes": 44,
     "created": "16 hours ago",
-    "updated": "13 minutes ago",
+    "updated": "18 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Radar",
@@ -75,7 +75,7 @@ var json = {
                         "text": "I agree!"
                     },
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -117,7 +117,7 @@ var json = {
                         "text": "My understanding is that you want to be able to hold down the mouse for an indeterminate amount of time, but only have x increase once. <br><br>What I would do is have a global variable that keeps track of clicks<br><br><code>var click = false;</code><br><br>and then at the bottom of your code, you can use the mouseClicked function<br><br><code>mouseClicked = function(){<br>    click = true;<br>};</code><br><br>Then make sure to reset <code>click</code> after each frame, so at the bottom of the draw function do something like:<br><br><code>click = false;</code><br><br>Then if you want to see if the mouse was clicked that frame you can simply do an if statement<br><br><code>if(click){<br>    //The mouse was clicked<br>    x ++;<br>}</code><br><br>The mouse clicked event listener only triggers once per click, so holding the mouse has no effect."
                     },
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -210,7 +210,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "Vuong Vo",
                     "id": "kaid_79869111098624859119085",
@@ -266,7 +266,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "83s.dsmith4",
                     "id": "kaid_1186521555862405865524152",
@@ -319,7 +319,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "13 minutes ago",
+                        "date": "18 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -346,7 +346,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "LightningV0LT",
                     "id": "kaid_3127507969097647597069711",
@@ -496,7 +496,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "The No-Sock Guy",
                     "id": "kaid_533978982937476630790970",
@@ -552,7 +552,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "isaacl81",
                     "id": "kaid_648563234621606262468073",
@@ -608,7 +608,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 minutes ago",
+                "date": "12 minutes ago",
                 "author": {
                     "name": "hi bye",
                     "id": "kaid_7473218712807034408897639",
@@ -664,7 +664,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "SnackerDavis",
                     "id": "kaid_889584744100087037395082",
@@ -742,7 +742,7 @@ var json = {
                     {
                         "replyCount": 0,
                         "votes": 1,
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
