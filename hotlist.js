@@ -159,7 +159,7 @@ var json = {
                         "text": "i know but it's hard to connect all this information"
                     },
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "Vuong Vo",
                             "id": "kaid_79869111098624859119085",
@@ -249,7 +249,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "HB_the_Pencil (semi-retired)",
                             "id": "kaid_412656070256786668848958",
