@@ -207,7 +207,7 @@ var json = {
                         "text": "Ah, ok. I sort of remember my brother doing something like that a long time ago. Thanks :)"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Falling Dragon™️",
                             "id": "kaid_922990378162047462529587",
