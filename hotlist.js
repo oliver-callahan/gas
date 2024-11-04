@@ -3,7 +3,7 @@ var json = {
     "title": "Santa Dash",
     "votes": 44,
     "created": "18 hours ago",
-    "updated": "14 minutes ago",
+    "updated": "19 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Radar",
@@ -92,7 +92,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Orange Octopus",
                             "id": "kaid_961186596206068555092014",
@@ -101,7 +101,7 @@ var json = {
                         "text": "The program is \"vote locked\". I'll have to remember to vote up later!"
                     },
                     {
-                        "date": "19 minutes ago",
+                        "date": "24 minutes ago",
                         "author": {
                             "name": "Samurai Warrior™ ✝ (Online)",
                             "id": "kaid_333534297788735128142174",
@@ -283,7 +283,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -419,7 +419,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "17 minutes ago",
+                "date": "22 minutes ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Online)",
                     "id": "kaid_333534297788735128142174",
@@ -430,7 +430,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -468,7 +468,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -495,7 +495,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "That One Guy ME",
                     "id": "kaid_3823720261811268848400557",
@@ -506,7 +506,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "14 minutes ago",
+                        "date": "19 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -519,7 +519,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "14 minutes ago",
+                "date": "19 minutes ago",
                 "author": {
                     "name": "Hyrule Coder",
                     "id": "kaid_410930663650820568137353",
@@ -530,7 +530,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -585,7 +585,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -739,7 +739,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
@@ -823,7 +823,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "Orange Octopus",
                     "id": "kaid_961186596206068555092014",
@@ -860,7 +860,7 @@ var json = {
                         "text": "Top right during game, right under Santa in the workshop.",
                         "replies": [
                             {
-                                "date": "4 hours ago",
+                                "date": "5 hours ago",
                                 "author": {
                                     "name": "ASBackup",
                                     "id": "kaid_714780036830891967670231",
