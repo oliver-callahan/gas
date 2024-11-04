@@ -91,6 +91,39 @@ var json = {
                 ]
             },
             {
+                "replyCount": 2,
+                "votes": 2,
+                "date": "an hour ago",
+                "author": {
+                    "name": "Norwegian Pathways",
+                    "id": "kaid_1082366231138740611717261",
+                    "avatar": "/images/avatars/svg/leaf-blue.svg"
+                },
+                "text": "I know this is unrelated, but I would like to know something. Since I don't know who to ask, I'm just asking random coders.<br><br>Inside of the draw function, how would I make a value only increase by one. I know if you do x += 10; then it increases by ten each frame, but what if I wanted x to <em>only</em> increase by 1 when a button is pressed?",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "43 minutes ago",
+                        "author": {
+                            "name": "Peregrine",
+                            "id": "kaid_10385788989900101843304",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "This should work:<br><pre><code>var triggered = false;<br><br>var x = 0;<br><br>draw = function() {<br>    if (keyIsPressed && !triggered) {<br>        x += 10;<br>        <br>        // debug<br>        println(\"Triggered\");<br>        <br>        triggered = true;<br>    }<br>};<br><br>keyReleased = function () {<br>    triggered = false;<br>};</code></pre><br><br>The names don't have to be the same but you should use the keyIsPressed global variable. Whatever variable you use as 'triggered' must also start at false."
+                    },
+                    {
+                        "date": "33 minutes ago",
+                        "author": {
+                            "name": "Norwegian Pathways",
+                            "id": "kaid_1082366231138740611717261",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Yeah, but what about certain parameters. I want to click a button with coordinates.<br><br>I had it like this:<br><br><br>if(mouseX >= 490 && mouseX <= 520 && mouseY >= 270 && mouseY <= 290 && mouseIsPressed){<br><br>THour = (THour + 1);<br><br>}<br><br><br>But that doesn't work.<br><br><br>If you go to this program: https://www.khanacademy.org/computer-programming/digital-clock/5726016837959680 you will see that if you click Timer, and the Hour Up button, I want to be able to set the time by adding one to the number if you want another hour. It's on line 466."
+                    }
+                ]
+            },
+            {
                 "replyCount": 0,
                 "votes": 2,
                 "date": "4 hours ago",
@@ -180,42 +213,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 2,
-                "votes": 1,
-                "date": "an hour ago",
-                "author": {
-                    "name": "Norwegian Pathways",
-                    "id": "kaid_1082366231138740611717261",
-                    "avatar": "/images/avatars/svg/leaf-blue.svg"
-                },
-                "text": "I know this is unrelated, but I would like to know something. Since I don't know who to ask, I'm just asking random coders.<br><br>Inside of the draw function, how would I make a value only increase by one. I know if you do x += 10; then it increases by ten each frame, but what if I wanted x to <em>only</em> increase by 1 when a button is pressed?",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "39 minutes ago",
-                        "author": {
-                            "name": "Peregrine",
-                            "id": "kaid_10385788989900101843304",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "This should work:<br><pre><code>var triggered = false;<br><br>var x = 0;<br><br>draw = function() {<br>    if (keyIsPressed && !triggered) {<br>        x += 10;<br>        <br>        // debug<br>        println(\"Triggered\");<br>        <br>        triggered = true;<br>    }<br>};<br><br>keyReleased = function () {<br>    triggered = false;<br>};</code></pre><br><br>The names don't have to be the same but you should use the keyIsPressed global variable. Whatever variable you use as 'triggered' must also start at false."
-                    },
-                    {
-                        "date": "28 minutes ago",
-                        "author": {
-                            "name": "Norwegian Pathways",
-                            "id": "kaid_1082366231138740611717261",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "Yeah, but what about certain parameters. I want to click a button with coordinates.<br><br>I had it like this:<br><br><br>if(mouseX >= 490 && mouseX <= 520 && mouseY >= 270 && mouseY <= 290 && mouseIsPressed){<br><br>THour = (THour + 1);<br><br>}<br><br><br>But that doesn't work.<br><br><br>If you go to this program: https://www.khanacademy.org/computer-programming/digital-clock/5726016837959680 you will see that if you click Timer, and the Hour Up button, I want to be able to set the time by adding one to the number if you want another hour. It's on line 466."
-                    }
-                ]
-            },
-            {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "22 minutes ago",
+                "date": "27 minutes ago",
                 "author": {
                     "name": "83s.dsmith4",
                     "id": "kaid_1186521555862405865524152",
@@ -323,7 +323,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "11 minutes ago",
+                "date": "16 minutes ago",
                 "author": {
                     "name": "SirEarnest",
                     "id": "kaid_485585696408320174630793",
@@ -365,7 +365,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "22 minutes ago",
+                "date": "27 minutes ago",
                 "author": {
                     "name": "The No-Sock Guy",
                     "id": "kaid_533978982937476630790970",
@@ -407,7 +407,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Ethan B",
                     "id": "kaid_694684426645387152782063",
@@ -449,6 +449,20 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
+                "date": "2 minutes ago",
+                "author": {
+                    "name": "Aurora",
+                    "id": "kaid_795031894733459999746829",
+                    "avatar": "/images/avatars/svg/area-52-purple.svg"
+                },
+                "text": "i got 2059 :)",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
                 "date": "4 hours ago",
                 "author": {
                     "name": "SnackerDavis",
@@ -475,6 +489,20 @@ var json = {
                 "replies": []
             }
         ],
-        "questions": []
+        "questions": [
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "4 minutes ago",
+                "author": {
+                    "name": "ASBackup",
+                    "id": "kaid_714780036830891967670231",
+                    "avatar": "/images/avatars/svg/aqualine-tree.svg"
+                },
+                "text": "where can we see how much money we have?",
+                "replies": [],
+                "answers": []
+            }
+        ]
     }
 }
