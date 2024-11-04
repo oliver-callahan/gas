@@ -53,7 +53,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 9,
                 "date": "11 hours ago",
                 "author": {
@@ -73,6 +73,15 @@ var json = {
                             "avatar": "/images/avatars/svg/blobby-green.svg"
                         },
                         "text": "I agree!"
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "Radar",
+                            "id": "kaid_3902988618718040904060736",
+                            "avatar": "/images/avatars/svg/leafers-seed.svg"
+                        },
+                        "text": "Thank you CZS!"
                     }
                 ]
             },
@@ -290,7 +299,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "34 minutes ago",
+                "date": "39 minutes ago",
                 "author": {
                     "name": "Pro0planter",
                     "id": "kaid_1863950377056983766116587",
@@ -454,7 +463,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "TheMessenger",
                     "id": "kaid_492737111195244262916025",
@@ -664,7 +673,7 @@ var json = {
                     {
                         "replyCount": 1,
                         "votes": 2,
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Cyan Spirit",
                             "id": "kaid_1418532449612597727143882",
@@ -688,7 +697,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "31 minutes ago",
+                "date": "36 minutes ago",
                 "author": {
                     "name": "⅄∩⅁ HƆ⊥I˥⅁ ƎH⊥ (KING07)",
                     "id": "kaid_41688751720207710307946",
