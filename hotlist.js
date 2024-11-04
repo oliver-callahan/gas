@@ -105,7 +105,7 @@ var json = {
                         "text": "Leo2009 - about 10 minutes.<br>Duke - yes i know right? i know jk=bk from mutiple sources<br>Everyone else - it makes a ton of sense, after all, this couldn't all be a coincidence, couldn't it?"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -248,7 +248,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "Firebrand (offline)",
                     "id": "kaid_423049852746380987692804",
@@ -259,7 +259,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -272,7 +272,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                     "id": "kaid_693763055742960827086832",
