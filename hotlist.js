@@ -133,7 +133,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "40 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -147,7 +147,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "𝐂𝐥𝐨𝐯𝐞𝐫",
                     "id": "kaid_2287805493149654773942312",
@@ -297,13 +297,27 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "a minute ago",
+                "date": "6 minutes ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
                     "avatar": "/images/avatars/svg/aqualine-tree.svg"
                 },
                 "text": "every time i see the name radar, i think we're in for another masterpiece<br><br>every time i see the name asbackup, i think darn the hl is broken again<br><br>looks great :O",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "4 minutes ago",
+                "author": {
+                    "name": "ASBackup",
+                    "id": "kaid_714780036830891967670231",
+                    "avatar": "/images/avatars/svg/aqualine-tree.svg"
+                },
+                "text": "*there are casual missles attacking a 1,753 year old man on a jetpack",
                 "locked": false,
                 "pinned": false,
                 "replies": []
