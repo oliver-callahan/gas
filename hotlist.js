@@ -114,7 +114,7 @@ var json = {
                         "text": "no it couldn't"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -123,7 +123,7 @@ var json = {
                         "text": "How long did you take?"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -216,7 +216,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -240,7 +240,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "HB_the_Pencil (semi-retired)",
                             "id": "kaid_412656070256786668848958",
@@ -341,7 +341,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "LJ",
                     "id": "kaid_1144628223469068678737336",
@@ -369,7 +369,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "16 minutes ago",
+                "date": "21 minutes ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
