@@ -114,7 +114,7 @@ var json = {
                         "text": "no it couldn't"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -123,7 +123,7 @@ var json = {
                         "text": "How long did you take?"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -159,7 +159,7 @@ var json = {
                         "text": "i know but it's hard to connect all this information"
                     },
                     {
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "Vuong Vo",
                             "id": "kaid_79869111098624859119085",
@@ -225,7 +225,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
@@ -350,7 +350,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "LJ",
                     "id": "kaid_1144628223469068678737336",
