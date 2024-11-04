@@ -31,7 +31,7 @@ var json = {
             {
                 "replyCount": 8,
                 "votes": 17,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
