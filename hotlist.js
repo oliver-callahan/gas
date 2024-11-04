@@ -51,7 +51,7 @@ var json = {
                         "text": "that is how conspiracy theories start kids"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Leo2009",
                             "id": "kaid_93723305121824615611989",
@@ -60,7 +60,7 @@ var json = {
                         "text": "Agreed how long did this take to connect?"
                     },
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
@@ -265,7 +265,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
