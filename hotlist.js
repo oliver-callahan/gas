@@ -58,7 +58,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "Liam K.",
                     "id": "kaid_160653079463992085090428",
@@ -106,7 +106,7 @@ var json = {
                         "text": "oh wow you're quick!<br>Thanks! :)"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "TDJ",
                             "id": "kaid_682972421482671044758972",
@@ -147,7 +147,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "15 minutes ago",
+                "date": "20 minutes ago",
                 "author": {
                     "name": "Norwegian Pathways",
                     "id": "kaid_1082366231138740611717261",
@@ -311,7 +311,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "36 minutes ago",
+                "date": "41 minutes ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -325,7 +325,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "34 minutes ago",
+                "date": "39 minutes ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
