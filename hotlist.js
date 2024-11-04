@@ -30,7 +30,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 0,
-                "votes": 10,
+                "votes": 11,
                 "date": "12 hours ago",
                 "author": {
                     "name": "Radar",
@@ -144,7 +144,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -158,7 +158,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "30 minutes ago",
+                "date": "35 minutes ago",
                 "author": {
                     "name": "Norwegian Pathways",
                     "id": "kaid_1082366231138740611717261",
@@ -211,7 +211,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -238,7 +238,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "That One Guy ME",
                     "id": "kaid_3823720261811268848400557",
@@ -266,7 +266,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -287,6 +287,20 @@ var json = {
                     "avatar": "/images/avatars/svg/duskpin-sapling.svg"
                 },
                 "text": "Wow, I'm speechless... this is an amazing game! :D<br>Btw, I got 4477!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 minutes ago",
+                "author": {
+                    "name": "Sadrian",
+                    "id": "kaid_5857706875402672011174364",
+                    "avatar": "/images/avatars/svg/starky-sapling.svg"
+                },
+                "text": "i got 1033",
                 "locked": false,
                 "pinned": false,
                 "replies": []
