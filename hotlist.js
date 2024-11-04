@@ -150,7 +150,7 @@ var json = {
                         "text": "i have the internet"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -240,7 +240,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "HB_the_Pencil (semi-retired)",
                             "id": "kaid_412656070256786668848958",
@@ -369,7 +369,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "31 minutes ago",
+                "date": "36 minutes ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
