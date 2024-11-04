@@ -29,7 +29,7 @@ var json = {
     "posts": {
         "tips": [
             {
-                "replyCount": 11,
+                "replyCount": 12,
                 "votes": 19,
                 "date": "a day ago",
                 "author": {
@@ -114,7 +114,7 @@ var json = {
                         "text": "no it couldn't"
                     },
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -123,7 +123,7 @@ var json = {
                         "text": "How long did you take?"
                     },
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -132,13 +132,22 @@ var json = {
                         "text": "LJ - you mean how long it took to write? about 10 minutes or less"
                     },
                     {
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
                             "avatar": "/images/avatars/svg/leafers-sapling.svg"
                         },
                         "text": "Wow you came up all this in 10 minutes?<br>You must have the entire human knowledge installed in your brain"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "wealR",
+                            "id": "kaid_831993479561352012904348",
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                        },
+                        "text": "i have the internet"
                     }
                 ]
             },
@@ -275,7 +284,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "9 minutes ago",
+                "date": "14 minutes ago",
                 "author": {
                     "name": "LJ",
                     "id": "kaid_1144628223469068678737336",
