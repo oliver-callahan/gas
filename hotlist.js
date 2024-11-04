@@ -132,7 +132,7 @@ var json = {
                         "text": "LJ - you mean how long it took to write? about 10 minutes or less"
                     },
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -141,7 +141,7 @@ var json = {
                         "text": "Wow you came up all this in 10 minutes?<br>You must have the entire human knowledge installed in your brain"
                     },
                     {
-                        "date": "38 minutes ago",
+                        "date": "43 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -150,7 +150,7 @@ var json = {
                         "text": "i have the internet"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
