@@ -29,7 +29,7 @@ var json = {
     "posts": {
         "tips": [
             {
-                "replyCount": 8,
+                "replyCount": 10,
                 "votes": 19,
                 "date": "a day ago",
                 "author": {
@@ -112,6 +112,24 @@ var json = {
                             "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
                         "text": "no it couldn't"
+                    },
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "LJ",
+                            "id": "kaid_1144628223469068678737336",
+                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
+                        },
+                        "text": "How long did you take?"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "wealR",
+                            "id": "kaid_831993479561352012904348",
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                        },
+                        "text": "LJ - you mean how long it took to write? about 10 minutes or less"
                     }
                 ]
             },
@@ -131,7 +149,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 8,
+                "votes": 9,
                 "date": "a day ago",
                 "author": {
                     "name": "Bearkirb314🐻‍❄️",
@@ -145,7 +163,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 2,
+                "votes": 3,
                 "date": "a day ago",
                 "author": {
                     "name": "Duke",
@@ -241,6 +259,20 @@ var json = {
                     "avatar": "/images/avatars/svg/cs-hopper-jumping.svg"
                 },
                 "text": "Wow! that's cool!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "4 minutes ago",
+                "author": {
+                    "name": "LJ",
+                    "id": "kaid_1144628223469068678737336",
+                    "avatar": "/images/avatars/svg/leafers-sapling.svg"
+                },
+                "text": "A Beakbirb that doesn't slow down, melt, and burn my PC into ashes? Incredible!11<br>/joke",
                 "locked": false,
                 "pinned": false,
                 "replies": []
