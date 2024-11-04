@@ -78,7 +78,7 @@ var json = {
             },
             {
                 "replyCount": 2,
-                "votes": 4,
+                "votes": 5,
                 "date": "5 hours ago",
                 "author": {
                     "name": "Liam K.",
@@ -123,7 +123,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Peregrine",
                             "id": "kaid_10385788989900101843304",
@@ -276,7 +276,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "25 minutes ago",
+                "date": "30 minutes ago",
                 "author": {
                     "name": "DexterN",
                     "id": "kaid_165198115684237425158340",
@@ -318,7 +318,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "Yaoguai.JP",
                     "id": "kaid_3457689799181679032369035",
@@ -398,7 +398,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 minutes ago",
+                "date": "8 minutes ago",
                 "author": {
                     "name": "Animator101",
                     "id": "kaid_457601383838709034574070",
@@ -496,7 +496,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "Karthikeya K #BringBackBackgrounds",
                     "id": "kaid_6258990316746013677705461",
@@ -510,7 +510,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "11 minutes ago",
+                "date": "16 minutes ago",
                 "author": {
                     "name": "isaacl81",
                     "id": "kaid_648563234621606262468073",
@@ -566,7 +566,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "34 minutes ago",
+                "date": "39 minutes ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
@@ -594,7 +594,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "KhanAcademy",
                     "id": "kaid_831984088872698719729391",
