@@ -30,7 +30,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 0,
-                "votes": 4,
+                "votes": 5,
                 "date": "5 hours ago",
                 "author": {
                     "name": "Duke",
@@ -101,13 +101,13 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "6 hours ago",
+                "date": "3 hours ago",
                 "author": {
-                    "name": "kitty mascot",
-                    "id": "kaid_1066778980955332043559618",
-                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                    "name": "TH3 ROUG3 L3G3ND™",
+                    "id": "kaid_2809101008758048501324524",
+                    "avatar": "/images/avatars/svg/boggle-blue.svg"
                 },
-                "text": "beautiful program. we will remember him!",
+                "text": "we will remeber the quality programs, the Collabs he did with a lot of people who don't have a lot of programming skills... One year later he/she turns on Khan academy sees the lil blue dot at the top left presses it, goes to the notification page, scrolls down, keeps scrolling, keeps scrolling 3 hours later, \"I'm finally done scrolling!\" Then he/she makes his first program in a while, turns it off then when he turns it back on sees the lil blue dot presses it and scrolls, keeps scrolling and they all say something like \"WHERE HAVE YOU BEEN ALL THIS TIME!\" And I'm going to be the first! Then he quietly turns his/her device off, and sits in his/her room for a minute pondering \"What in the world made me make another program after a year, not expecting A MILLION texts, saying 'WHERE HAVE YOU BEEN ALL THIS TIME!'\" he/she sighs and thinks \"I'll never do that again!\" - This is a warning Ace Rodgers! A warning that you do not want to miss!",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -129,13 +129,13 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "38 minutes ago",
+                "date": "6 hours ago",
                 "author": {
-                    "name": "",
-                    "id": "kaid_1187559179045151249642085",
-                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
+                    "name": "kitty mascot",
+                    "id": "kaid_1066778980955332043559618",
+                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                 },
-                "text": "We'll miss Ace!",
+                "text": "beautiful program. we will remember him!",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -143,13 +143,13 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "43 minutes ago",
                 "author": {
-                    "name": "TH3 ROUG3 L3G3ND™",
-                    "id": "kaid_2809101008758048501324524",
-                    "avatar": "/images/avatars/svg/boggle-blue.svg"
+                    "name": "",
+                    "id": "kaid_1187559179045151249642085",
+                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
                 },
-                "text": "we will remeber the quality programs, the Collabs he did with a lot of people who don't have a lot of programming skills... One year later he/she turns on Khan academy sees the lil blue dot at the top left presses it, goes to the notification page, scrolls down, keeps scrolling, keeps scrolling 3 hours later, \"I'm finally done scrolling!\" Then he/she makes his first program in a while, turns it off then when he turns it back on sees the lil blue dot presses it and scrolls, keeps scrolling and they all say something like \"WHERE HAVE YOU BEEN ALL THIS TIME!\" And I'm going to be the first! Then he quietly turns his/her device off, and sits in his/her room for a minute pondering \"What in the world made me make another program after a year, not expecting A MILLION texts, saying 'WHERE HAVE YOU BEEN ALL THIS TIME!'\" he/she sighs and thinks \"I'll never do that again!\" - This is a warning Ace Rodgers! A warning that you do not want to miss!",
+                "text": "We'll miss Ace!",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -171,7 +171,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "41 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "RomanStarCoder ⭐",
                     "id": "kaid_68859322444115567573661",
