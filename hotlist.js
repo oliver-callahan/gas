@@ -119,6 +119,20 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
+                "date": "4 minutes ago",
+                "author": {
+                    "name": "Liam K.",
+                    "id": "kaid_160653079463992085090428",
+                    "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                },
+                "text": "You've been able to pump out an impressive number of well thought out games recently. I love all of the graphics, upgrades, and functionality of this game.<br><br>Some thoughts to consider for the future:<br><br>It's usually bad case to store your methods inside their constructor function. By bypassing the <code>.prototype</code>, you create new methods for each new instance, rather than simply referencing the <code>prototype</code>, which is created only once. For example:<br><br><pre><code>function Player (config){<br>    this.x = config.x;<br>    this.y = config.y;<br>}<br>Player.prototype.display = function(){<br><br>};</code></pre><br><br>Is usually considered better than your current method.<br><br>Additionally, I try to avoid using so many global variables because it makes your code a little bit harder to read, and there are also some associated memory issues. You could definitely cut down on your number of global variables through some more OOP. For example, the Transition function could easily store all of its global variables in an Object, and two methods could replace your two functions.<br><br>Finally, Object inheritance is definitely something you want to look into. Rather than retyping a ton of very similar code for the obstacles, wind, and enemies, it would be easier to create one parent class and then use inheritance so each parent class could be slightly modified as needed. <br><br>Otherwise, your game is very fun and I am glad to see something of such high quality on the hotlist.",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
                 "date": "3 hours ago",
                 "author": {
                     "name": "𝐂𝐥𝐨𝐯𝐞𝐫",
@@ -158,7 +172,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "44 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -213,7 +227,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "43 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -241,7 +255,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "26 minutes ago",
+                "date": "31 minutes ago",
                 "author": {
                     "name": "Ethan B",
                     "id": "kaid_694684426645387152782063",
