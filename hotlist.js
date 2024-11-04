@@ -55,7 +55,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 9,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "CZS",
                     "id": "kaid_676584471536152741627316",
@@ -66,7 +66,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Hokeycat",
                             "id": "kaid_438466413527508491816275",
@@ -75,7 +75,7 @@ var json = {
                         "text": "I agree!"
                     },
                     {
-                        "date": "a few seconds ago",
+                        "date": "5 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -86,7 +86,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 2,
+                "replyCount": 3,
                 "votes": 5,
                 "date": "6 hours ago",
                 "author": {
@@ -115,6 +115,15 @@ var json = {
                             "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
                         },
                         "text": "My understanding is that you want to be able to hold down the mouse for an indeterminate amount of time, but only have x increase once. <br><br>What I would do is have a global variable that keeps track of clicks<br><br><code>var click = false;</code><br><br>and then at the bottom of your code, you can use the mouseClicked function<br><br><code>mouseClicked = function(){<br>    click = true;<br>};</code><br><br>Then make sure to reset <code>click</code> after each frame, so at the bottom of the draw function do something like:<br><br><code>click = false;</code><br><br>Then if you want to see if the mouse was clicked that frame you can simply do an if statement<br><br><code>if(click){<br>    //The mouse was clicked<br>    x ++;<br>}</code><br><br>The mouse clicked event listener only triggers once per click, so holding the mouse has no effect."
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Radar",
+                            "id": "kaid_3902988618718040904060736",
+                            "avatar": "/images/avatars/svg/leafers-seed.svg"
+                        },
+                        "text": "Thank you Liam K.!<br><br>Oh I didn't know that it recreates it every time! Thanks! Will keep that in mind.<br><br>Thanks for all the input!"
                     }
                 ]
             },
@@ -243,7 +252,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "Norwegian Pathways",
                     "id": "kaid_1082366231138740611717261",
@@ -271,7 +280,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Cyan Spirit",
                     "id": "kaid_1418532449612597727143882",
@@ -299,7 +308,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "39 minutes ago",
+                "date": "44 minutes ago",
                 "author": {
                     "name": "Pro0planter",
                     "id": "kaid_1863950377056983766116587",
@@ -645,7 +654,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "TTyper",
                     "id": "kaid_9072327922342976241122316",
@@ -697,7 +706,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "36 minutes ago",
+                "date": "41 minutes ago",
                 "author": {
                     "name": "⅄∩⅁ HƆ⊥I˥⅁ ƎH⊥ (KING07)",
                     "id": "kaid_41688751720207710307946",
