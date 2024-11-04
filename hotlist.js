@@ -78,7 +78,7 @@ var json = {
                         "text": "it totally makes sense! XD"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Equilibrium",
                             "id": "kaid_1842852586096096865081151",
@@ -141,7 +141,7 @@ var json = {
                         "text": "Wow you came up all this in 10 minutes?<br>You must have the entire human knowledge installed in your brain"
                     },
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -150,7 +150,7 @@ var json = {
                         "text": "i have the internet"
                     },
                     {
-                        "date": "38 minutes ago",
+                        "date": "43 minutes ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -279,7 +279,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "Peter_B. #MysteryMettle",
                     "id": "kaid_1029232876836541365226967",
