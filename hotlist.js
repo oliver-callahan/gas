@@ -246,7 +246,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "9 hours ago",
                 "author": {
@@ -257,7 +257,17 @@ var json = {
                 "text": "Hold up... hooooooooooooollllllldd uuuuppp... hang on a second...<br><br>Is this <somehow> a Bearkirb program, ultimately amazing, that has NO LAG?!? 🤯🤯🤯<br><br>AWESOME!<br>Vote++",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "Bearkirb314🐻‍❄️",
+                            "id": "kaid_375460112550893828689953",
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                        },
+                        "text": "The wild Bearkirb used rasterization: It's super effective!"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
