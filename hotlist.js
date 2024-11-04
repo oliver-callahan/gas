@@ -104,7 +104,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Peregrine",
                             "id": "kaid_10385788989900101843304",
@@ -113,7 +113,7 @@ var json = {
                         "text": "This should work:<br><pre><code>var triggered = false;<br><br>var x = 0;<br><br>draw = function() {<br>    if (keyIsPressed && !triggered) {<br>        x += 10;<br>        <br>        // debug<br>        println(\"Triggered\");<br>        <br>        triggered = true;<br>    }<br>};<br><br>keyReleased = function () {<br>    triggered = false;<br>};</code></pre><br><br>The names don't have to be the same but you should use the keyIsPressed global variable. Whatever variable you use as 'triggered' must also start at false."
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -173,7 +173,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "Vuong Vo",
                     "id": "kaid_79869111098624859119085",
@@ -215,7 +215,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "27 minutes ago",
+                "date": "32 minutes ago",
                 "author": {
                     "name": "83s.dsmith4",
                     "id": "kaid_1186521555862405865524152",
@@ -323,7 +323,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "16 minutes ago",
+                "date": "21 minutes ago",
                 "author": {
                     "name": "SirEarnest",
                     "id": "kaid_485585696408320174630793",
@@ -365,7 +365,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "27 minutes ago",
+                "date": "32 minutes ago",
                 "author": {
                     "name": "The No-Sock Guy",
                     "id": "kaid_533978982937476630790970",
@@ -449,13 +449,13 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 minutes ago",
+                "date": "7 minutes ago",
                 "author": {
                     "name": "Aurora",
                     "id": "kaid_795031894733459999746829",
                     "avatar": "/images/avatars/svg/area-52-purple.svg"
                 },
-                "text": "i got 2059 :)",
+                "text": "i got 3085 :)",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -463,7 +463,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "SnackerDavis",
                     "id": "kaid_889584744100087037395082",
@@ -493,7 +493,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 minutes ago",
+                "date": "9 minutes ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -501,7 +501,20 @@ var json = {
                 },
                 "text": "where can we see how much money we have?",
                 "replies": [],
-                "answers": []
+                "answers": [
+                    {
+                        "replyCount": 0,
+                        "votes": 1,
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "Cyan Spirit",
+                            "id": "kaid_1418532449612597727143882",
+                            "avatar": "/images/avatars/svg/cacteye-blue.svg"
+                        },
+                        "text": "Top right during game, right under Santa in the workshop.",
+                        "replies": []
+                    }
+                ]
             }
         ]
     }
