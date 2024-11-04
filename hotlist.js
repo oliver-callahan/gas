@@ -54,7 +54,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 8,
+                "votes": 9,
                 "date": "11 hours ago",
                 "author": {
                     "name": "CZS",
@@ -99,7 +99,7 @@ var json = {
                         "text": "I know this is unrelated, but I would like to know something. Since I don't know who to ask, I'm just asking random coders.<br><br>Inside of the draw function, how would I make a value only increase by one. I know if you do x += 10; then it increases by ten each frame, but what if I wanted x to <em>only</em> increase by 1 when a button is pressed?"
                     },
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -206,7 +206,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -220,7 +220,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "44 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -276,7 +276,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "20 minutes ago",
+                "date": "25 minutes ago",
                 "author": {
                     "name": "DexterN",
                     "id": "kaid_165198115684237425158340",
@@ -343,7 +343,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -370,7 +370,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "That One Guy ME",
                     "id": "kaid_3823720261811268848400557",
@@ -398,6 +398,20 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
+                "date": "3 minutes ago",
+                "author": {
+                    "name": "Animator101",
+                    "id": "kaid_457601383838709034574070",
+                    "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
+                },
+                "text": "Dang, this is a really clean game!<br>It's not often you see a game like this on KA, you clearly spent some good time on the mechanics and such :)<br>Good job! Give yourself a pat on the back",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
                 "date": "2 hours ago",
                 "author": {
                     "name": "SirEarnest",
@@ -412,7 +426,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -454,7 +468,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "42 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "IYACOOLBOI",
                     "id": "kaid_554813355149453924467463",
@@ -496,7 +510,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 minutes ago",
+                "date": "11 minutes ago",
                 "author": {
                     "name": "isaacl81",
                     "id": "kaid_648563234621606262468073",
@@ -552,7 +566,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "29 minutes ago",
+                "date": "34 minutes ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
@@ -645,7 +659,7 @@ var json = {
                         "text": "Top right during game, right under Santa in the workshop.",
                         "replies": [
                             {
-                                "date": "an hour ago",
+                                "date": "2 hours ago",
                                 "author": {
                                     "name": "ASBackup",
                                     "id": "kaid_714780036830891967670231",
