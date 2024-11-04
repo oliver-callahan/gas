@@ -3,7 +3,7 @@ var json = {
     "title": "Santa Dash",
     "votes": 44,
     "created": "16 hours ago",
-    "updated": "8 minutes ago",
+    "updated": "13 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Radar",
@@ -75,7 +75,7 @@ var json = {
                         "text": "I agree!"
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -117,7 +117,7 @@ var json = {
                         "text": "My understanding is that you want to be able to hold down the mouse for an indeterminate amount of time, but only have x increase once. <br><br>What I would do is have a global variable that keeps track of clicks<br><br><code>var click = false;</code><br><br>and then at the bottom of your code, you can use the mouseClicked function<br><br><code>mouseClicked = function(){<br>    click = true;<br>};</code><br><br>Then make sure to reset <code>click</code> after each frame, so at the bottom of the draw function do something like:<br><br><code>click = false;</code><br><br>Then if you want to see if the mouse was clicked that frame you can simply do an if statement<br><br><code>if(click){<br>    //The mouse was clicked<br>    x ++;<br>}</code><br><br>The mouse clicked event listener only triggers once per click, so holding the mouse has no effect."
                     },
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -150,7 +150,7 @@ var json = {
                         "text": "This should work:<br><pre><code>var triggered = false;<br><br>var x = 0;<br><br>draw = function() {<br>    if (keyIsPressed && !triggered) {<br>        x += 10;<br>        <br>        // debug<br>        println(\"Triggered\");<br>        <br>        triggered = true;<br>    }<br>};<br><br>keyReleased = function () {<br>    triggered = false;<br>};</code></pre><br><br>The names don't have to be the same but you should use the keyIsPressed global variable. Whatever variable you use as 'triggered' must also start at false."
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -319,7 +319,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -566,7 +566,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "Ethan B",
                     "id": "kaid_694684426645387152782063",
@@ -608,7 +608,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 minutes ago",
+                "date": "7 minutes ago",
                 "author": {
                     "name": "hi bye",
                     "id": "kaid_7473218712807034408897639",
@@ -742,7 +742,7 @@ var json = {
                     {
                         "replyCount": 0,
                         "votes": 1,
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
