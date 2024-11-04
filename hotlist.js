@@ -141,7 +141,7 @@ var json = {
                         "text": "Wow you came up all this in 10 minutes?<br>You must have the entire human knowledge installed in your brain"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -240,7 +240,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "HB_the_Pencil (semi-retired)",
                             "id": "kaid_412656070256786668848958",
@@ -355,7 +355,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "CoraL",
                     "id": "kaid_363667774724785949031034",
@@ -369,7 +369,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "26 minutes ago",
+                "date": "31 minutes ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
