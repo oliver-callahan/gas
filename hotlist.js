@@ -96,7 +96,7 @@ var json = {
                         "text": "Wow, that is so true :O<br>but also when I said \"Super cool BK!\"<br>Jake K responded ;P"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
