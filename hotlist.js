@@ -55,7 +55,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 8,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "CZS",
                     "id": "kaid_676584471536152741627316",
@@ -66,7 +66,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Hokeycat",
                             "id": "kaid_438466413527508491816275",
@@ -99,7 +99,7 @@ var json = {
                         "text": "I know this is unrelated, but I would like to know something. Since I don't know who to ask, I'm just asking random coders.<br><br>Inside of the draw function, how would I make a value only increase by one. I know if you do x += 10; then it increases by ten each frame, but what if I wanted x to <em>only</em> increase by 1 when a button is pressed?"
                     },
                     {
-                        "date": "38 minutes ago",
+                        "date": "43 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -220,7 +220,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "39 minutes ago",
+                "date": "44 minutes ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -234,7 +234,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Norwegian Pathways",
                     "id": "kaid_1082366231138740611717261",
@@ -262,7 +262,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "Cyan Spirit",
                     "id": "kaid_1418532449612597727143882",
@@ -276,7 +276,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "15 minutes ago",
+                "date": "20 minutes ago",
                 "author": {
                     "name": "DexterN",
                     "id": "kaid_165198115684237425158340",
@@ -454,7 +454,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "37 minutes ago",
+                "date": "42 minutes ago",
                 "author": {
                     "name": "IYACOOLBOI",
                     "id": "kaid_554813355149453924467463",
@@ -496,7 +496,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "a minute ago",
+                "date": "6 minutes ago",
                 "author": {
                     "name": "isaacl81",
                     "id": "kaid_648563234621606262468073",
@@ -552,7 +552,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "24 minutes ago",
+                "date": "29 minutes ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
@@ -608,7 +608,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "TTyper",
                     "id": "kaid_9072327922342976241122316",
