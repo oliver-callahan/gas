@@ -54,7 +54,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 7,
+                "votes": 8,
                 "date": "10 hours ago",
                 "author": {
                     "name": "CZS",
@@ -99,7 +99,7 @@ var json = {
                         "text": "I know this is unrelated, but I would like to know something. Since I don't know who to ask, I'm just asking random coders.<br><br>Inside of the draw function, how would I make a value only increase by one. I know if you do x += 10; then it increases by ten each frame, but what if I wanted x to <em>only</em> increase by 1 when a button is pressed?"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -220,7 +220,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "34 minutes ago",
+                "date": "39 minutes ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -276,7 +276,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 minutes ago",
+                "date": "15 minutes ago",
                 "author": {
                     "name": "DexterN",
                     "id": "kaid_165198115684237425158340",
@@ -426,7 +426,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "TheMessenger",
                     "id": "kaid_492737111195244262916025",
@@ -454,7 +454,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "32 minutes ago",
+                "date": "37 minutes ago",
                 "author": {
                     "name": "IYACOOLBOI",
                     "id": "kaid_554813355149453924467463",
@@ -489,6 +489,20 @@ var json = {
                     "avatar": "/images/avatars/svg/stelly-blue.svg"
                 },
                 "text": "10th vote! How is this even possib-<br><br>Edit: IT EVEN REPLAYS YOUR DEATH?!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "a minute ago",
+                "author": {
+                    "name": "isaacl81",
+                    "id": "kaid_648563234621606262468073",
+                    "avatar": "/images/avatars/svg/blobby-green.svg"
+                },
+                "text": "Score 598! I'm absolutely cracked",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -538,7 +552,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "19 minutes ago",
+                "date": "24 minutes ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
@@ -622,7 +636,7 @@ var json = {
                     {
                         "replyCount": 1,
                         "votes": 2,
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Cyan Spirit",
                             "id": "kaid_1418532449612597727143882",
