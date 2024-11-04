@@ -78,7 +78,7 @@ var json = {
                         "text": "it totally makes sense! XD"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Equilibrium",
                             "id": "kaid_1842852586096096865081151",
@@ -279,7 +279,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "Peter_B. #MysteryMettle",
                     "id": "kaid_1029232876836541365226967",
