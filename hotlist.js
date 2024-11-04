@@ -47,6 +47,16 @@ var json = {
         },
         {
             "title": "Spin-off of \"Santa Dash\"",
+            "id": "6273282677325824",
+            "forks": 0,
+            "votes": 1,
+            "author": {
+                "name": "Hyrule Coder",
+                "id": "kaid_410930663650820568137353"
+            }
+        },
+        {
+            "title": "Spin-off of \"Santa Dash\"",
             "id": "6288219281735680",
             "forks": 0,
             "votes": 1,
@@ -69,7 +79,7 @@ var json = {
     "posts": {
         "tips": [
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 16,
                 "date": "18 hours ago",
                 "author": {
@@ -77,7 +87,7 @@ var json = {
                     "id": "kaid_3902988618718040904060736",
                     "avatar": "/images/avatars/svg/leafers-seed.svg"
                 },
-                "text": "<b>Please considered subscribing</b><br><br>https://www.khanacademy.org/computer-programming/subpage-30/6277838601895936<br><em>it would be much appreciated</em><br><br>Also please tell if this program is vote locked<br><em>pls keep up</em>",
+                "text": "<b>Please considered subscribing</b><br><br>https://www.khanacademy.org/computer-programming/subpage-30/6277838601895936<br><em>it would be much appreciated</em><br><br>Also please tell me if this program is vote locked<br><em>pls keep up</em>",
                 "locked": false,
                 "pinned": false,
                 "replies": [
@@ -89,6 +99,15 @@ var json = {
                             "avatar": "/images/avatars/svg/orange-juice-squid.svg"
                         },
                         "text": "The program is \"vote locked\". I'll have to remember to vote up later!"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Samurai Warrior™ ✝ (Offline)",
+                            "id": "kaid_333534297788735128142174",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                        },
+                        "text": "It's still locked, unfortunately :("
                     }
                 ]
             },
@@ -400,6 +419,20 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
+                "date": "2 minutes ago",
+                "author": {
+                    "name": "Samurai Warrior™ ✝ (Offline)",
+                    "id": "kaid_333534297788735128142174",
+                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                },
+                "text": "Nice! I really like the graphics, they're so cute and detailed :) <br>Would vote, but I have to wait due to too many requests :(",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
                 "date": "10 hours ago",
                 "author": {
                     "name": "Yaoguai.JP",
@@ -414,7 +447,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "Duke",
                     "id": "kaid_351465532815782433620675",
@@ -634,7 +667,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -648,7 +681,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "hi bye",
                     "id": "kaid_7473218712807034408897639",
@@ -690,7 +723,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "34 minutes ago",
+                "date": "39 minutes ago",
                 "author": {
                     "name": "«⨷Koploon⨷»",
                     "id": "kaid_804908675721812233776598",
