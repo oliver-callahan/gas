@@ -159,7 +159,7 @@ var json = {
                         "text": "i know but it's hard to connect all this information"
                     },
                     {
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "Vuong Vo",
                             "id": "kaid_79869111098624859119085",
