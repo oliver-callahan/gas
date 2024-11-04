@@ -44,7 +44,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 5,
+                "votes": 6,
                 "date": "8 hours ago",
                 "author": {
                     "name": "CZS",
@@ -68,8 +68,8 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 3,
-                "date": "2 hours ago",
+                "votes": 4,
+                "date": "3 hours ago",
                 "author": {
                     "name": "Liam K.",
                     "id": "kaid_160653079463992085090428",
@@ -80,7 +80,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "40 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -127,7 +127,7 @@ var json = {
                         "text": "oh wow you're quick!<br>Thanks! :)"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "TDJ",
                             "id": "kaid_682972421482671044758972",
@@ -180,9 +180,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 1,
-                "date": "40 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Norwegian Pathways",
                     "id": "kaid_1082366231138740611717261",
@@ -193,13 +193,22 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "Peregrine",
                             "id": "kaid_10385788989900101843304",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "This should work:<br><pre><code>var triggered = false;<br><br>var x = 0;<br><br>draw = function() {<br>    if (keyIsPressed && !triggered) {<br>        x += 10;<br>        <br>        // debug<br>        println(\"Triggered\");<br>        <br>        triggered = true;<br>    }<br>};<br><br>keyReleased = function () {<br>    triggered = false;<br>};</code></pre><br><br>The names don't have to be the same but you should use the keyIsPressed global variable. Whatever variable you use as 'triggered' must also start at false."
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Norwegian Pathways",
+                            "id": "kaid_1082366231138740611717261",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Yeah, but what about certain parameters. I want to click a button with coordinates.<br><br>I had it like this:<br><br><br>if(mouseX >= 490 && mouseX <= 520 && mouseY >= 270 && mouseY <= 290 && mouseIsPressed){<br><br>THour = (THour + 1);<br><br>}<br><br><br>But that doesn't work.<br><br><br>If you go to this program: https://www.khanacademy.org/computer-programming/digital-clock/5726016837959680 you will see that if you click Timer, and the Hour Up button, I want to be able to set the time by adding one to the number if you want another hour. It's on line 466."
                     }
                 ]
             },
@@ -328,7 +337,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "43 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Sadrian",
                     "id": "kaid_5857706875402672011174364",
