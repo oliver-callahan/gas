@@ -105,7 +105,7 @@ var json = {
                         "text": "Leo2009 - about 10 minutes.<br>Duke - yes i know right? i know jk=bk from mutiple sources<br>Everyone else - it makes a ton of sense, after all, this couldn't all be a coincidence, couldn't it?"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -132,7 +132,7 @@ var json = {
                         "text": "LJ - you mean how long it took to write? about 10 minutes or less"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "LJ",
                             "id": "kaid_1144628223469068678737336",
@@ -321,7 +321,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "Firebrand (offline)",
                     "id": "kaid_423049852746380987692804",
