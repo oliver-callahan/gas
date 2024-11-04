@@ -78,7 +78,7 @@ var json = {
                         "text": "it totally makes sense! XD"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Equilibrium",
                             "id": "kaid_1842852586096096865081151",
@@ -240,7 +240,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "HB_the_Pencil (semi-retired)",
                             "id": "kaid_412656070256786668848958",
@@ -369,7 +369,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "41 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
