@@ -96,7 +96,7 @@ var json = {
                         "text": "Wow, that is so true :O<br>but also when I said \"Super cool BK!\"<br>Jake K responded ;P"
                     },
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -137,7 +137,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Duke",
                     "id": "kaid_351465532815782433620675",
@@ -151,7 +151,7 @@ var json = {
             {
                 "replyCount": 6,
                 "votes": 2,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
@@ -162,7 +162,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Bearkirb314🐻‍❄️",
                             "id": "kaid_375460112550893828689953",
