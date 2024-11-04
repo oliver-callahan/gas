@@ -147,7 +147,7 @@ var json = {
                         "text": "My understanding is that you want to be able to hold down the mouse for an indeterminate amount of time, but only have x increase once. <br><br>What I would do is have a global variable that keeps track of clicks<br><br><code>var click = false;</code><br><br>and then at the bottom of your code, you can use the mouseClicked function<br><br><code>mouseClicked = function(){<br>    click = true;<br>};</code><br><br>Then make sure to reset <code>click</code> after each frame, so at the bottom of the draw function do something like:<br><br><code>click = false;</code><br><br>Then if you want to see if the mouse was clicked that frame you can simply do an if statement<br><br><code>if(click){<br>    //The mouse was clicked<br>    x ++;<br>}</code><br><br>The mouse clicked event listener only triggers once per click, so holding the mouse has no effect."
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -680,7 +680,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "19 minutes ago",
+                "date": "24 minutes ago",
                 "author": {
                     "name": "«⨷Koploon⨷»",
                     "id": "kaid_804908675721812233776598",
