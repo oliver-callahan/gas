@@ -3,7 +3,7 @@ var json = {
     "title": "Santa Dash",
     "votes": 44,
     "created": "18 hours ago",
-    "updated": "4 minutes ago",
+    "updated": "9 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Radar",
@@ -101,9 +101,9 @@ var json = {
                         "text": "The program is \"vote locked\". I'll have to remember to vote up later!"
                     },
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
-                            "name": "Samurai Warrior™ ✝ (Offline)",
+                            "name": "Samurai Warrior™ ✝ (Online)",
                             "id": "kaid_333534297788735128142174",
                             "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
@@ -419,9 +419,9 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "7 minutes ago",
+                "date": "12 minutes ago",
                 "author": {
-                    "name": "Samurai Warrior™ ✝ (Offline)",
+                    "name": "Samurai Warrior™ ✝ (Online)",
                     "id": "kaid_333534297788735128142174",
                     "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                 },
@@ -430,7 +430,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -506,7 +506,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 minutes ago",
+                        "date": "9 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -517,9 +517,9 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
-                "date": "4 minutes ago",
+                "date": "9 minutes ago",
                 "author": {
                     "name": "Hyrule Coder",
                     "id": "kaid_410930663650820568137353",
@@ -528,7 +528,17 @@ var json = {
                 "text": "My final score was a whopping 1278890<br><br>bro I was LOCKED IN<br><br>if you don't believe me I have the spin-off proof it will be my most recent porgram.",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "Radar",
+                            "id": "kaid_3902988618718040904060736",
+                            "avatar": "/images/avatars/svg/leafers-seed.svg"
+                        },
+                        "text": "That would take 6 hours to get.<br><br>I looked at your spin-off and i see you changed the score. Please do NOT cheat."
+                    }
+                ]
             },
             {
                 "replyCount": 0,
@@ -589,7 +599,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "TheMessenger",
                     "id": "kaid_492737111195244262916025",
@@ -757,7 +767,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "44 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "«⨷Koploon⨷»",
                     "id": "kaid_804908675721812233776598",
@@ -841,7 +851,7 @@ var json = {
                     {
                         "replyCount": 1,
                         "votes": 2,
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Cyan Spirit",
                             "id": "kaid_1418532449612597727143882",
