@@ -80,7 +80,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -93,7 +93,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 2,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "Norwegian Pathways",
                     "id": "kaid_1082366231138740611717261",
@@ -140,7 +140,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 2,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "TDJ",
                     "id": "kaid_682972421482671044758972",
@@ -151,7 +151,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -215,7 +215,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "42 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "83s.dsmith4",
                     "id": "kaid_1186521555862405865524152",
@@ -229,7 +229,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 minutes ago",
+                "date": "11 minutes ago",
                 "author": {
                     "name": "Cyan Spirit",
                     "id": "kaid_1418532449612597727143882",
@@ -295,7 +295,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "honeyghost",
                     "id": "kaid_381818316234075133568777",
@@ -323,7 +323,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
@@ -337,7 +337,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "31 minutes ago",
+                "date": "36 minutes ago",
                 "author": {
                     "name": "SirEarnest",
                     "id": "kaid_485585696408320174630793",
@@ -379,7 +379,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "42 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "The No-Sock Guy",
                     "id": "kaid_533978982937476630790970",
@@ -435,7 +435,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -463,13 +463,27 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "17 minutes ago",
+                "date": "22 minutes ago",
                 "author": {
                     "name": "Aurora",
                     "id": "kaid_795031894733459999746829",
                     "avatar": "/images/avatars/svg/area-52-purple.svg"
                 },
                 "text": "i got 3085 :)",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 minutes ago",
+                "author": {
+                    "name": "KhanAcademy",
+                    "id": "kaid_831984088872698719729391",
+                    "avatar": "/images/avatars/svg/leaf-red.svg"
+                },
+                "text": "i got 4567",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -507,7 +521,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "19 minutes ago",
+                "date": "24 minutes ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -519,7 +533,7 @@ var json = {
                     {
                         "replyCount": 1,
                         "votes": 2,
-                        "date": "12 minutes ago",
+                        "date": "16 minutes ago",
                         "author": {
                             "name": "Cyan Spirit",
                             "id": "kaid_1418532449612597727143882",
@@ -528,7 +542,7 @@ var json = {
                         "text": "Top right during game, right under Santa in the workshop.",
                         "replies": [
                             {
-                                "date": "2 minutes ago",
+                                "date": "7 minutes ago",
                                 "author": {
                                     "name": "ASBackup",
                                     "id": "kaid_714780036830891967670231",
