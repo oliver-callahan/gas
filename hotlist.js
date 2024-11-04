@@ -96,7 +96,7 @@ var json = {
                         "text": "Wow, that is so true :O<br>but also when I said \"Super cool BK!\"<br>Jake K responded ;P"
                     },
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -105,7 +105,7 @@ var json = {
                         "text": "Leo2009 - about 10 minutes.<br>Duke - yes i know right? i know jk=bk from mutiple sources<br>Everyone else - it makes a ton of sense, after all, this couldn't all be a coincidence, couldn't it?"
                     },
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -117,7 +117,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 11,
+                "votes": 12,
                 "date": "21 hours ago",
                 "author": {
                     "name": "Jake K.",
