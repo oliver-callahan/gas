@@ -158,7 +158,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -189,7 +189,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 2,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "Norwegian Pathways",
                     "id": "kaid_1082366231138740611717261",
@@ -236,7 +236,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 2,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "TDJ",
                     "id": "kaid_682972421482671044758972",
@@ -247,7 +247,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -378,7 +378,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -481,7 +481,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "honeyghost",
                     "id": "kaid_381818316234075133568777",
@@ -543,7 +543,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
@@ -697,7 +697,21 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "a few seconds ago",
+                "author": {
+                    "name": "Washington",
+                    "id": "kaid_701855056246665520276831",
+                    "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
+                },
+                "text": "Excellent! The moving background, the nice pixel graphics, and the subtle motions of Santa. Great Job!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "8 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -767,7 +781,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "«⨷Koploon⨷»",
                     "id": "kaid_804908675721812233776598",
