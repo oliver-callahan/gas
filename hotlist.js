@@ -72,7 +72,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Orange Octopus",
                             "id": "kaid_961186596206068555092014",
@@ -180,7 +180,7 @@ var json = {
                         "text": "This should work:<br><pre><code>var triggered = false;<br><br>var x = 0;<br><br>draw = function() {<br>    if (keyIsPressed && !triggered) {<br>        x += 10;<br>        <br>        // debug<br>        println(\"Triggered\");<br>        <br>        triggered = true;<br>    }<br>};<br><br>keyReleased = function () {<br>    triggered = false;<br>};</code></pre><br><br>The names don't have to be the same but you should use the keyIsPressed global variable. Whatever variable you use as 'triggered' must also start at false."
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -596,7 +596,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "Ethan B",
                     "id": "kaid_694684426645387152782063",
@@ -680,7 +680,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "9 minutes ago",
+                "date": "14 minutes ago",
                 "author": {
                     "name": "«⨷Koploon⨷»",
                     "id": "kaid_804908675721812233776598",
@@ -736,7 +736,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "40 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Orange Octopus",
                     "id": "kaid_961186596206068555092014",
