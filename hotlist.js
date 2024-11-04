@@ -119,7 +119,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "𝐂𝐥𝐨𝐯𝐞𝐫",
                     "id": "kaid_2287805493149654773942312",
@@ -158,7 +158,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "39 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -213,7 +213,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "39 minutes ago",
+                "date": "43 minutes ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -241,7 +241,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "21 minutes ago",
+                "date": "26 minutes ago",
                 "author": {
                     "name": "Ethan B",
                     "id": "kaid_694684426645387152782063",
