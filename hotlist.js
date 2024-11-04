@@ -239,7 +239,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "21 minutes ago",
+                "date": "26 minutes ago",
                 "author": {
                     "name": "Cyan Spirit",
                     "id": "kaid_1418532449612597727143882",
@@ -260,6 +260,20 @@ var json = {
                     "avatar": "/images/avatars/svg/stelly-green.svg"
                 },
                 "text": "Amazing Game Radar! I love the replaying of your death and the funny comments <em>\"You tried to hug a missile\"</em> , Overall it just feels like a very polished game. Great Job!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "5 minutes ago",
+                "author": {
+                    "name": "LightningV0LT",
+                    "id": "kaid_3127507969097647597069711",
+                    "avatar": "/images/avatars/svg/area-52-blue.svg"
+                },
+                "text": "4887 w/ proof<br>Very nice game! I like the artwork",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -375,7 +389,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "TheMessenger",
                     "id": "kaid_492737111195244262916025",
@@ -473,7 +487,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "32 minutes ago",
+                "date": "37 minutes ago",
                 "author": {
                     "name": "Aurora",
                     "id": "kaid_795031894733459999746829",
@@ -487,7 +501,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "11 minutes ago",
+                "date": "16 minutes ago",
                 "author": {
                     "name": "KhanAcademy",
                     "id": "kaid_831984088872698719729391",
@@ -531,7 +545,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "34 minutes ago",
+                "date": "39 minutes ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -543,7 +557,7 @@ var json = {
                     {
                         "replyCount": 1,
                         "votes": 2,
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "Cyan Spirit",
                             "id": "kaid_1418532449612597727143882",
@@ -552,7 +566,7 @@ var json = {
                         "text": "Top right during game, right under Santa in the workshop.",
                         "replies": [
                             {
-                                "date": "17 minutes ago",
+                                "date": "22 minutes ago",
                                 "author": {
                                     "name": "ASBackup",
                                     "id": "kaid_714780036830891967670231",
