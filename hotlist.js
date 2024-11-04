@@ -87,7 +87,7 @@ var json = {
                         "text": "It all makes sense now... the pieces are coming together..."
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -176,7 +176,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 9,
+                "votes": 10,
                 "date": "a day ago",
                 "author": {
                     "name": "Bearkirb314🐻‍❄️",
@@ -201,6 +201,54 @@ var json = {
                 "locked": false,
                 "pinned": false,
                 "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 2,
+                "date": "19 hours ago",
+                "author": {
+                    "name": "Firebrand (offline)",
+                    "id": "kaid_423049852746380987692804",
+                    "avatar": "/images/avatars/svg/stelly-orange.svg"
+                },
+                "text": "Hold up... hooooooooooooollllllldd uuuuppp... hang on a second...<br><br>Is this <somehow> a Bearkirb program, ultimately amazing, that has NO LAG?!? 🤯🤯🤯<br><br>AWESOME!<br>Vote++",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "10 hours ago",
+                        "author": {
+                            "name": "Bearkirb314🐻‍❄️",
+                            "id": "kaid_375460112550893828689953",
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                        },
+                        "text": "The wild Bearkirb used rasterization: It's super effective!"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 2,
+                "date": "a day ago",
+                "author": {
+                    "name": "ASBackup",
+                    "id": "kaid_714780036830891967670231",
+                    "avatar": "/images/avatars/svg/aqualine-tree.svg"
+                },
+                "text": ":O<br>looks amazing :)<br>reminds me of raft",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "HB_the_Pencil (semi-retired)",
+                            "id": "kaid_412656070256786668848958",
+                            "avatar": "/images/avatars/svg/mr-pants-green.svg"
+                        },
+                        "text": "No way! I said the same thing XD"
+                    }
+                ]
             },
             {
                 "replyCount": 6,
@@ -321,7 +369,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 minutes ago",
+                "date": "11 minutes ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
@@ -333,30 +381,6 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "19 hours ago",
-                "author": {
-                    "name": "Firebrand (offline)",
-                    "id": "kaid_423049852746380987692804",
-                    "avatar": "/images/avatars/svg/stelly-orange.svg"
-                },
-                "text": "Hold up... hooooooooooooollllllldd uuuuppp... hang on a second...<br><br>Is this <somehow> a Bearkirb program, ultimately amazing, that has NO LAG?!? 🤯🤯🤯<br><br>AWESOME!<br>Vote++",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "10 hours ago",
-                        "author": {
-                            "name": "Bearkirb314🐻‍❄️",
-                            "id": "kaid_375460112550893828689953",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "The wild Bearkirb used rasterization: It's super effective!"
-                    }
-                ]
-            },
-            {
                 "replyCount": 0,
                 "votes": 1,
                 "date": "a day ago",
@@ -366,20 +390,6 @@ var json = {
                     "avatar": "/images/avatars/svg/cs-winston.svg"
                 },
                 "text": "Well done! :)",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "ASBackup",
-                    "id": "kaid_714780036830891967670231",
-                    "avatar": "/images/avatars/svg/aqualine-tree.svg"
-                },
-                "text": ":O<br>looks amazing :)<br>reminds me of raft",
                 "locked": false,
                 "pinned": false,
                 "replies": []
