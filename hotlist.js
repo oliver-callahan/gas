@@ -80,7 +80,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "44 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -193,7 +193,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "14 minutes ago",
+                        "date": "19 minutes ago",
                         "author": {
                             "name": "Peregrine",
                             "id": "kaid_10385788989900101843304",
@@ -202,7 +202,7 @@ var json = {
                         "text": "This should work:<br><pre><code>var triggered = false;<br><br>var x = 0;<br><br>draw = function() {<br>    if (keyIsPressed && !triggered) {<br>        x += 10;<br>        <br>        // debug<br>        println(\"Triggered\");<br>        <br>        triggered = true;<br>    }<br>};<br><br>keyReleased = function () {<br>    triggered = false;<br>};</code></pre><br><br>The names don't have to be the same but you should use the keyIsPressed global variable. Whatever variable you use as 'triggered' must also start at false."
                     },
                     {
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -211,6 +211,20 @@ var json = {
                         "text": "Yeah, but what about certain parameters. I want to click a button with coordinates.<br><br>I had it like this:<br><br><br>if(mouseX >= 490 && mouseX <= 520 && mouseY >= 270 && mouseY <= 290 && mouseIsPressed){<br><br>THour = (THour + 1);<br><br>}<br><br><br>But that doesn't work.<br><br><br>If you go to this program: https://www.khanacademy.org/computer-programming/digital-clock/5726016837959680 you will see that if you click Timer, and the Hour Up button, I want to be able to set the time by adding one to the number if you want another hour. It's on line 466."
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 minutes ago",
+                "author": {
+                    "name": "83s.dsmith4",
+                    "id": "kaid_1186521555862405865524152",
+                    "avatar": "/images/avatars/svg/aqualine-seed.svg"
+                },
+                "text": "i got 4082",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 0,
@@ -323,13 +337,27 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "TheMessenger",
                     "id": "kaid_492737111195244262916025",
                     "avatar": "/images/avatars/svg/duskpin-sapling.svg"
                 },
                 "text": "Wow, I'm speechless... this is an amazing game! :D<br>Btw, I got 4477!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 minutes ago",
+                "author": {
+                    "name": "The No-Sock Guy",
+                    "id": "kaid_533978982937476630790970",
+                    "avatar": "/images/avatars/svg/starky-sapling.svg"
+                },
+                "text": "It's a month early but I'll let it slide because this is a banger.",
                 "locked": false,
                 "pinned": false,
                 "replies": []
