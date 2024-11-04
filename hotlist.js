@@ -69,7 +69,7 @@ var json = {
                         "text": "This connection is a masterpiece by itself."
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -248,7 +248,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "26 minutes ago",
+                "date": "31 minutes ago",
                 "author": {
                     "name": "CoraL",
                     "id": "kaid_363667774724785949031034",
