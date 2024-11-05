@@ -86,6 +86,30 @@ var json = {
                 ]
             },
             {
+                "replyCount": 1,
+                "votes": 3,
+                "date": "4 hours ago",
+                "author": {
+                    "name": "wealR",
+                    "id": "kaid_831993479561352012904348",
+                    "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                },
+                "text": "22 lines of code - 43 votes. Hmmm...",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "~The Wolf~",
+                            "id": "kaid_6337778158362361978377342",
+                            "avatar": "/images/avatars/svg/blobby-green.svg"
+                        },
+                        "text": "11 lines hmm...<br>https://www.khanacademy.org/computer-programming/12/6241492017266688"
+                    }
+                ]
+            },
+            {
                 "replyCount": 3,
                 "votes": 2,
                 "date": "20 hours ago",
@@ -99,7 +123,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -129,22 +153,8 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 2,
-                "date": "4 hours ago",
-                "author": {
-                    "name": "wealR",
-                    "id": "kaid_831993479561352012904348",
-                    "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                },
-                "text": "22 lines of code - 43 votes. Hmmm...",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
                 "votes": 1,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
