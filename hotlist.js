@@ -1,7 +1,7 @@
 var json = {
     "code": "/**\n\n\n              \n              Thank you so much Ace Rogers!\n\n\n\n\n*/\n\n \n//Background{\n\nvar COLOR1 = color(0, 0, 0);\nvar COLOR2 = color(0, 0, 250);\n\nfor (var i = 0; i < 600; i++) {\nstroke(lerpColor(COLOR1, COLOR2, i/600));\nline(0, 0 + i, 600, 0 + i);\n}\n\n//}\n\n\n//Text{\ntextFont(createFont(\"Arial Black Italic\"),40);\n\ntextAlign(CENTER,CENTER);\ntext(\"In Memory of Ace Rogers\",300,535);\n\ntextSize(20);\ntext(\"Leaving KA for a righteous cause...\",300,30);\n\ntext(\"Fights against the laws...\",300,70);\n\ntext(\"A noble friend...\",300,110);\n\ntext(\"Causing the universe to bend...\",300,150);\n\ntext(\"Thank you for all of your time...\",300,190);\n\ntext(\"Helping me with the toss of a dime...\",300,230);\n\ntext(\"You deserve to have less stress...\",300,270);\n\ntext(\"For pulling me out of my mess...\",300,310);\n\ntext(\"You're a great friend, you are...\",300,350);\n\ntext(\"With me away; far...\",300,390);\n\ntext(\"Thank you so much...\",300,430);\n\ntext(\"For your coding touch.\",300,470);\n\n//}",
     "title": "For A Friend",
-    "votes": 51,
+    "votes": 52,
     "created": "a day ago",
     "updated": "3 hours ago",
     "type": "PJS",
@@ -138,7 +138,7 @@ var json = {
                         "text": "I accept your apology. You're right. I shouldn't make any low quality programs. Although, I did add the gradient to make a better quality. I'm sorry if you feel that way about me and think I'm a low quality coder."
                     },
                     {
-                        "date": "44 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -147,7 +147,7 @@ var json = {
                         "text": "Thank you. And thanks for trying =)<br>I try my best to give all people the benefit of the doubt :)<br>But prove all my doubts wrong ;P<br><br>I am looking forward to your high quality programs and I will most likely vote it up =D"
                     },
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -320,7 +320,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 0,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
@@ -367,7 +367,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
