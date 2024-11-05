@@ -3,7 +3,7 @@ var json = {
     "title": "For A Friend",
     "votes": 47,
     "created": "21 hours ago",
-    "updated": "21 minutes ago",
+    "updated": "26 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Norwegian Pathways",
@@ -84,7 +84,7 @@ var json = {
                         "text": "I know right... and everyone is loving it... :/"
                     },
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -93,7 +93,7 @@ var json = {
                         "text": "I don't see why they couldn't :)"
                     },
                     {
-                        "date": "11 minutes ago",
+                        "date": "16 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -130,7 +130,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "10 minutes ago",
+                "date": "15 minutes ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
@@ -144,7 +144,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 2,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "Stitch Girl💠",
                     "id": "kaid_6490115305785159643926933",
@@ -242,7 +242,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 0,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
@@ -289,7 +289,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
