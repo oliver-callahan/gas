@@ -30,7 +30,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 2,
-                "votes": 9,
+                "votes": 10,
                 "date": "10 hours ago",
                 "author": {
                     "name": "Duke",
@@ -64,7 +64,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 4,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "Stitch Girl💠",
                     "id": "kaid_6490115305785159643926933",
@@ -172,6 +172,20 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
+                "date": "2 minutes ago",
+                "author": {
+                    "name": "Ibraheem Ahmed (IA)",
+                    "id": "kaid_42165633374795610935956",
+                    "avatar": "/images/avatars/svg/spunky-sam.svg"
+                },
+                "text": "First on the HL; code: \"<code>text</code>... <code>text</code>... <code>text</code>... <code>text</code>... <code>text</code>...\"<br><br>:(",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
                 "date": "2 hours ago",
                 "author": {
                     "name": "Hokeycat",
@@ -186,13 +200,27 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
                     "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
                 },
                 "text": "very nice words for a very nice person!!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "a few seconds ago",
+                "author": {
+                    "name": "Blocked by Taquavion",
+                    "id": "kaid_568819712822552226070124",
+                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                },
+                "text": "Nobody said it would be so hard",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -256,7 +284,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 0,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
