@@ -30,7 +30,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 1,
-                "votes": 14,
+                "votes": 15,
                 "date": "a day ago",
                 "author": {
                     "name": "Duke",
@@ -53,7 +53,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 10,
+                "replyCount": 11,
                 "votes": 6,
                 "date": "18 hours ago",
                 "author": {
@@ -154,6 +154,15 @@ var json = {
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "Here is one. Don't vote it up though because it's not the real one. I just work on it. What I do, is instead of making a new program, I go off a blank one in my Profile, and when done, I release it as a new program, and delete the code from the template so I can use it again.<br><br>https://www.khanacademy.org/computer-programming/digital-clock/5726016837959680<br><br>I still am working on the Timer and Alarm, but after that, it's complete!"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Ibraheem Ahmed (IA)",
+                            "id": "kaid_42165633374795610935956",
+                            "avatar": "/images/avatars/svg/spunky-sam.svg"
+                        },
+                        "text": "Guys it's not that deep why y'all debating like there's a cash prize to be had"
                     }
                 ]
             },
@@ -259,7 +268,7 @@ var json = {
                         "text": "Yes he was."
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "YA",
                             "id": "kaid_3563621891021365862686148",
@@ -399,7 +408,7 @@ var json = {
                         "text": "@TH3 ROUG3 L3G3ND<br>1. I'm a he, just so you know.<br>2. It won't be a year until I make another program. XD It just won't be as often as I usually make them.<br>3. My name is Ace Rogers, there's no \"d\" in Rogers. :P"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
@@ -408,7 +417,7 @@ var json = {
                         "text": "It was just a joke and I didn't want people saying \"you can't assume gender\" or anything like that (sorry about misspelling your name!)"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -417,7 +426,7 @@ var json = {
                         "text": "I figured it was a joke. :P<br>Yeah, I understand that. I just wanted to let you know so you didn't have to keep writing \"he/she\". :)<br>It's fine, you're not the first to spell my name like that. XP"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
