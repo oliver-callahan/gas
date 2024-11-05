@@ -120,6 +120,30 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
+                "date": "22 minutes ago",
+                "author": {
+                    "name": "Ibraheem Ahmed (IA)",
+                    "id": "kaid_42165633374795610935956",
+                    "avatar": "/images/avatars/svg/spunky-sam.svg"
+                },
+                "text": "First on the HL; code: \"<code>text</code>... <code>text</code>... <code>text</code>... <code>text</code>... <code>text</code>...\"<br><br>:(",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "I know right... and everyone is loving it... :/"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 2,
                 "date": "11 hours ago",
                 "author": {
                     "name": "- S p a r t a - Off",
@@ -160,90 +184,6 @@ var json = {
                 "votes": 1,
                 "date": "5 hours ago",
                 "author": {
-                    "name": "",
-                    "id": "kaid_1187559179045151249642085",
-                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
-                },
-                "text": "We'll miss Ace!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "17 minutes ago",
-                "author": {
-                    "name": "Ibraheem Ahmed (IA)",
-                    "id": "kaid_42165633374795610935956",
-                    "avatar": "/images/avatars/svg/spunky-sam.svg"
-                },
-                "text": "First on the HL; code: \"<code>text</code>... <code>text</code>... <code>text</code>... <code>text</code>... <code>text</code>...\"<br><br>:(",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "2 hours ago",
-                "author": {
-                    "name": "Hokeycat",
-                    "id": "kaid_438466413527508491816275",
-                    "avatar": "/images/avatars/svg/blobby-green.svg"
-                },
-                "text": "I didn't exactly know you but have seen several of your projects.<br>Bye, anyway!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "3 hours ago",
-                "author": {
-                    "name": "sugarnlight",
-                    "id": "kaid_516497598968512440616556",
-                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
-                },
-                "text": "very nice words for a very nice person!!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "15 minutes ago",
-                "author": {
-                    "name": "Blocked by Taquavion",
-                    "id": "kaid_568819712822552226070124",
-                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                },
-                "text": "Nobody said it would be so hard",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "6 hours ago",
-                "author": {
-                    "name": "HACK",
-                    "id": "kaid_6815067100354522609320825",
-                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                },
-                "text": "Bye Bye We Will Miss you :(",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "5 hours ago",
-                "author": {
                     "name": "RomanStarCoder ⭐",
                     "id": "kaid_68859322444115567573661",
                     "avatar": "/images/avatars/svg/blobby-blue.svg"
@@ -269,14 +209,14 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 1,
-                "date": "3 hours ago",
+                "votes": 0,
+                "date": "5 hours ago",
                 "author": {
-                    "name": "Avenger(Off)",
-                    "id": "kaid_9032986298497221170369627",
-                    "avatar": "/images/avatars/svg/leaf-blue.svg"
+                    "name": "",
+                    "id": "kaid_1187559179045151249642085",
+                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
                 },
-                "text": "Goodbye Ace we'll all miss you!<br> 🫡",
+                "text": "We'll miss Ace!",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -304,7 +244,7 @@ var json = {
                         "text": "Oh, did he collab with you?"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
@@ -313,6 +253,76 @@ var json = {
                         "text": "But I know of him"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 0,
+                "date": "2 hours ago",
+                "author": {
+                    "name": "Hokeycat",
+                    "id": "kaid_438466413527508491816275",
+                    "avatar": "/images/avatars/svg/blobby-green.svg"
+                },
+                "text": "I didn't exactly know you but have seen several of your projects.<br>Bye, anyway!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 0,
+                "date": "3 hours ago",
+                "author": {
+                    "name": "sugarnlight",
+                    "id": "kaid_516497598968512440616556",
+                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
+                },
+                "text": "very nice words for a very nice person!!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 0,
+                "date": "20 minutes ago",
+                "author": {
+                    "name": "Blocked by Taquavion",
+                    "id": "kaid_568819712822552226070124",
+                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                },
+                "text": "Nobody said it would be so hard",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 0,
+                "date": "7 hours ago",
+                "author": {
+                    "name": "HACK",
+                    "id": "kaid_6815067100354522609320825",
+                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                },
+                "text": "Bye Bye We Will Miss you :(",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 0,
+                "date": "3 hours ago",
+                "author": {
+                    "name": "Avenger(Off)",
+                    "id": "kaid_9032986298497221170369627",
+                    "avatar": "/images/avatars/svg/leaf-blue.svg"
+                },
+                "text": "Goodbye Ace we'll all miss you!<br> 🫡",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             }
         ],
         "questions": []
