@@ -1,7 +1,7 @@
 var json = {
     "code": "/**\n\n\n              \n              Thank you so much Ace Rogers!\n\n\n\n\n*/\n\n \n//Background{\n\nvar COLOR1 = color(0, 0, 0);\nvar COLOR2 = color(0, 0, 250);\n\nfor (var i = 0; i < 600; i++) {\nstroke(lerpColor(COLOR1, COLOR2, i/600));\nline(0, 0 + i, 600, 0 + i);\n}\n\n//}\n\n\n//Text{\ntextFont(createFont(\"Arial Black Italic\"),40);\n\ntextAlign(CENTER,CENTER);\ntext(\"In Memory of Ace Rogers\",300,535);\n\ntextSize(20);\ntext(\"Leaving KA for a righteous cause...\",300,30);\n\ntext(\"Fights against the laws...\",300,70);\n\ntext(\"A noble friend...\",300,110);\n\ntext(\"Causing the universe to bend...\",300,150);\n\ntext(\"Thank you for all of your time...\",300,190);\n\ntext(\"Helping me with the toss of a dime...\",300,230);\n\ntext(\"You deserve to have less stress...\",300,270);\n\ntext(\"For pulling me out of my mess...\",300,310);\n\ntext(\"You're a great friend, you are...\",300,350);\n\ntext(\"With me away; far...\",300,390);\n\ntext(\"Thank you so much...\",300,430);\n\ntext(\"For your coding touch.\",300,470);\n\n//}",
     "title": "For A Friend",
-    "votes": 56,
+    "votes": 57,
     "created": "a day ago",
     "updated": "6 hours ago",
     "type": "PJS",
@@ -55,7 +55,7 @@ var json = {
             {
                 "replyCount": 10,
                 "votes": 7,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -120,7 +120,7 @@ var json = {
                         "text": "Ok. Thanks for that. <br><br>First off, I don't care about the votes. I want to raise awareness for Ace and show that every person who upvoted this approved of him and is upset he is leaving. I released it on my subpage so everyone would see it in order to let reality settle in and hopefully understand why I made it in the first place. <br><br>It's a tribute to him, and \"For A Friend\" implies that it was for him. It wasn't intended to imply that he is a recipient, but as myself releasing a program attributed to him instead.<br><br>It's a simple program, but that doesn't make me a simple coder. I am going to release complicated programs (with two in the making), and maybe even some graphics. <br><br>Moreover, I made this program to be simple; I want people to only focus on what's there. I'm not sure if you're aware, but programs aren't about votes or how many lines of code it has; it's about the message the code is meant to convey. <br><br>I don't appreciate when people criticize a perfectly good program. I want KA to be a place where coders can respect other works; even when they aren't great. I know you may think of this program as simple, but to me (and many others) it's a work of art portraying the meaning of friendship, and what happens when you lose that.<br><br>I'm sorry you feel this way about this program, but I have 50 others who would probably disagree with you. Your opinion is fine, but I am justifying my side of the case.<br><br>As Cookie said (Thanks, Cookie!), It's not my fault it got lots of votes."
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -160,7 +160,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 4,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
@@ -200,6 +200,20 @@ var json = {
                     "avatar": "/images/avatars/svg/boggle-blue.svg"
                 },
                 "text": "just words and 1st on the HL >:(",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "a few seconds ago",
+                "author": {
+                    "name": "𝓧𝓛𝓟 [On]",
+                    "id": "kaid_387597695665654041806576",
+                    "avatar": "/images/avatars/svg/piceratops-seed.svg"
+                },
+                "text": "wow... people hate poems... why i ask... why!?!?<br><br>Good job! :)",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -267,7 +281,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 minutes ago",
+                "date": "7 minutes ago",
                 "author": {
                     "name": "Ace Rogers (On)",
                     "id": "kaid_714276242204949021450419",
@@ -305,7 +319,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "Blocked by Taquavion",
                     "id": "kaid_568819712822552226070124",
