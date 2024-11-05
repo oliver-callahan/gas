@@ -111,7 +111,7 @@ var json = {
                         "text": "I see he released it for a on his subpage... so it was clearly more then for a friend... cause other wise he would've just dmed AR...<br><br>there is only one reason for you to release something on your subpage. For votes.<br><br>All I'm asking is for more effort to be put into this. Because these days programmers just aren't trying their best. Or really trying that hard at all."
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -138,7 +138,7 @@ var json = {
                         "text": "I accept your apology. You're right. I shouldn't make any low quality programs. Although, I did add the gradient to make a better quality. I'm sorry if you feel that way about me and think I'm a low quality coder."
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -147,7 +147,7 @@ var json = {
                         "text": "Thank you. And thanks for trying =)<br>I try my best to give all people the benefit of the doubt :)<br>But prove all my doubts wrong ;P<br><br>I am looking forward to your high quality programs and I will most likely vote it up =D"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -156,7 +156,7 @@ var json = {
                         "text": "Here is one. Don't vote it up though because it's not the real one. I just work on it. What I do, is instead of making a new program, I go off a blank one in my Profile, and when done, I release it as a new program, and delete the code from the template so I can use it again.<br><br>https://www.khanacademy.org/computer-programming/digital-clock/5726016837959680<br><br>I still am working on the Timer and Alarm, but after that, it's complete!"
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "Ibraheem Ahmed (IA)",
                             "id": "kaid_42165633374795610935956",
