@@ -120,7 +120,7 @@ var json = {
                         "text": "I see he released it for a on his subpage... so it was clearly more then for a friend... cause other wise he would've just dmed AR...<br><br>there is only one reason for you to release something on your subpage. For votes.<br><br>All I'm asking is for more effort to be put into this. Because these days programmers just aren't trying their best. Or really trying that hard at all."
                     },
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -144,7 +144,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "~The Wolf~",
                             "id": "kaid_6337778158362361978377342",
@@ -213,7 +213,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "a few seconds ago",
+                "date": "6 minutes ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -224,7 +224,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a few seconds ago",
+                        "date": "5 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -279,7 +279,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "",
                     "id": "kaid_1187559179045151249642085",
