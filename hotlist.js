@@ -129,7 +129,7 @@ var json = {
                         "text": "\"It's a simple program, but that doesn't make me a simple coder. I am going to release complicated programs (with two in the making), and maybe even some graphics.\" -NP<br>why make low quality programs? Won't that shine a bad picture on you?(by the beginners? no they love you because you made something about one of their favorite coders)<br>By people like Liam K? Green Ghost? Iron Programming?<br><br>I hope I have a decent name, that people respect me. that is what matters. I try my best to not make low quality programs. If I had time to make a high quality good bye program then I would've. But I didn't so I didn't make anything.<br><br>If you truly do have the skills to make great programs, do it!<br>Why waste your time making low quality ones? that is what it really come down to.<br><br>I had a huge comment typed out but I was afraid it was too mean so I got rid of a giant amount of it. Hopefully what I sent wasn't to mean... sorry if I am :("
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -171,7 +171,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "~The Wolf~",
                             "id": "kaid_6337778158362361978377342",
@@ -333,7 +333,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "",
                     "id": "kaid_1187559179045151249642085",
