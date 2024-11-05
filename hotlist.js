@@ -245,7 +245,7 @@ var json = {
                         "text": "Yes he was."
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "YA",
                             "id": "kaid_3563621891021365862686148",
@@ -446,7 +446,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "RomanStarCoder ⭐",
                     "id": "kaid_68859322444115567573661",
