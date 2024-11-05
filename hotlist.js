@@ -1,14 +1,14 @@
 var json = {
-    "code": "/**\n\n\n              \n              Thank you so much Ace Rogers!\n\n\n\n\n*/\n\n \n//Background{\n\nvar COLOR1 = color(0, 0, 0);\nvar COLOR2 = color(0, 0, 250);\n\nfor (var i = 0; i < 600; i++) {\nstroke(lerpColor(COLOR1, COLOR2, i/600));\nline(0, 0 + i, 600, 0 + i);\n}\n\n//}\n\n\n//Text{\ntextFont(createFont(\"Arial Black Italic\"),40);\n\ntextAlign(CENTER,CENTER);\ntext(\"In Memory of Ace Rogers\",300,535);\n\ntextSize(20);\ntext(\"Leaving KA for a righteous cause...\",300,30);\n\ntext(\"Fights against the laws...\",300,70);\n\ntext(\"A noble friend...\",300,110);\n\ntext(\"Causing the universe to bend...\",300,150);\n\ntext(\"Thank you for all of your time...\",300,190);\n\ntext(\"Helping me with the toss of a dime...\",300,230);\n\ntext(\"You deserve to have less stress...\",300,270);\n\ntext(\"For pulling me out of my mess...\",300,310);\n\ntext(\"You're a great friend, you are...\",300,350);\n\ntext(\"With me away; far...\",300,390);\n\ntext(\"Thank you so much...\",300,430);\n\ntext(\"For your coding touch.\",300,470);\n\n//}",
-    "title": "For A Friend",
-    "votes": 59,
+    "code": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset=\"utf-8\">\n        <title>ACT 2 (2x better)</title>\n        <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n        <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n        <link href=\"https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap\" rel=\"stylesheet\">\n        <link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap\" rel=\"stylesheet\">\n        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js\"></script>\n        \n        <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined\" />\n        <style>\n            .lightMode {\n                background-color: rgb(240, 240, 240);\n                color: rgb(59, 61, 66);\n            }\n            .darkMode {\n                background-color: rgb(59, 61, 66);\n                color: white;\n            }\n            body {\n                font-family: \"Montserrat\";\n                transition: 1s;\n            }\n            #mainDiv {\n                margin-top: 10vh;\n                height: 530px;\n                width: 98vw;\n                overflow-y: auto;\n            }\n            body::-webkit-scrollbar {\n                display: none; /* Hide the scrollbar */\n            }\n            .messagebody {\n                display: flex;\n                align-items: center;\n                margin-bottom: 10px;\n            }\n            .time {\n                opacity: 0.5;\n                font-size: 20;\n                margin-left: 1.5vw;\n            }\n            .avatar img {\n                background-color: rgba(0, 0, 0, 0);\n                width: 10vw;\n                margin-right: 3vw;\n                margin-left: 3vw;\n                margin-top: 4vh;\n            }\n            .name {\n                font-weight: bold;\n                font-size: 25px;\n            }\n            .message-text {\n                margin-left: 16vw;\n                margin-top: -5vh;\n                width: 75vw;\n            }\n            #navBar {\n                height: 10vh;\n                width: 100vw;\n                left: 0;\n                top: 0;\n                position: absolute;\n                font-family: \"Poppins\";\n                font-weight: 700;\n                font-size: 7.4vw;\n                text-align: center;\n                user-select: none;\n                transition: 1s;\n                display: table;\n            }\n            .navLightMode {\n                background-color: rgb(240, 240, 240);\n                border-bottom: solid gray 3px;\n            }\n            .navDarkMode {\n                background-color: rgb(59, 61, 66);\n                color: rgb(92, 101, 238);\n                border-bottom: solid black 3px;\n            }\n            span {\n                position: absolute;\n                right: 3vw;\n                top: 2.5vw;\n            }\n            .material-symbols-outlined {\n                font-size: 30px;\n            }\n        </style>\n    </head>\n    <body class=\"darkMode\">\n        <div class=\"navDarkMode\" id=\"navBar\">\n            KHANCORD\n            <span class=\"material-symbols-outlined\" onclick=\"changeMode()\">dark_mode</span>\n            <script>\n                var nav = document.getElementById(\"navBar\");\n                var mode = document.getElementsByClassName(\"material-symbols-outlined\")[0];\n                function changeMode(){\n                    if (mode.innerHTML === 'light_mode') {\n                        mode.innerHTML = 'dark_mode';\n                        document.body.className = \"darkMode\";\n                        nav.className = \"navDarkMode\";\n                    } else {\n                        mode.innerHTML = 'light_mode';\n                        document.body.className = \"lightMode\";\n                        nav.className = \"navLightMode\";\n                    }\n                }\n            </script>\n        </div>\n        <div id=\"mainDiv\"></div>\n        <script>\n            var people = [\n                {\n                    name: \"Weirdo\",\n                    c: \"rgb(130, 130, 250)\",\n                    avatar: \"creatures/OhNoes\"\n                },\n                {\n                    name: \"RandoDude\",\n                    c: \"rgb(255, 0, 0)\",\n                    avatar: \"avatars/marcimus\"\n                },\n                {\n                    name: \"wealR\",\n                    c: \"rgb(0, 138, 16)\",\n                    avatar: \"creatures/Hopper-Cool\"\n                },\n                {\n                    name: \"PlumpGeorge\",\n                    c: \"rgb(255, 204, 0)\",\n                    avatar: \"avatars/spunky-sam\"\n                },\n                {\n                    name: \"Crazy OJ\",\n                    c: \"rgb(255, 123, 0)\",\n                    avatar: \"avatars/orange-juice-squid\"\n                }\n            ];\n            function getCurrentTime() {\n                const now = new Date();\n                const hours = String(now.getHours()).padStart(2, '0');\n                const minutes = String(now.getMinutes()).padStart(2, '0');\n                if (hours > 12) {\n                    return (hours - 12) + \":\" + minutes + \" PM\";\n                } else {\n                    return hours + \":\" + minutes + \" AM\";\n                }\n            }\n            function capital(string) {\n                return string.charAt(0).toUpperCase() + string.slice(1);\n            }\n            //{\n            var sentenceOpeners = [\"Hey,\", \"Man,\", \"lol,\", \"bro,\", \"Dude,\", \"Yo\", \"Beg your pardon,\"];\n            var sayThinkVerbs = [\"thinks\", \"said\", \"told me\", \"joked\", \"thought\", \"argued\", \"complained\", \"whispered\", \"meowed\", \"clucked\", \"gossiped\", \"screamed\", \"commanded me to tell you guys\", \"is 100% sure\", \"believes\", \"would be crazy if they thought\", \"is so smart that they think\", \"made up the idea\"];\n            var emojis = [\"XD\", \":(\", \">:)\", \":P\", \":3\", ';)'];\n            var ingTVerbs = [\"kicking\", \"loving\", \"killing\", \"hitting\", \"smashing\", \"following\", \"breaking\", \"constructing\", \n  \"encouraging\", \"talking to\", \"yelling at\", \"whispering to\", \"alluding to\", \"helping\", \"supporting\", \n  \"ignoring\", \"observing\", \"complimenting\", \"criticizing\", \"chasing\", \"befriending\", \"confronting\", \n  \"inspiring\", \"guiding\", \"mocking\", \"protecting\", \"teasing\", \"warning\", \"inviting\", \"challenging\", \n  \"persuading\", \"motivating\", \"applauding\", \"rejecting\", \"insulting\", \"comforting\", \"lecturing\", \n  \"admiring\", \"appreciating\", \"scolding\", \"befuddling\", \"misleading\", \"provoking\", \"taunting\", \n  \"celebrating with\", \"dancing with\", \"running from\", \"learning from\", \"consulting\", \"consoling\", \n  \"apologizing to\", \"discussing with\", \"competing with\", \"sharing with\", \"arguing with\", \"complaining to\"];\n            var pronouns = [\"my mom's\", \"my dad's\", \"my\", \"my best friend's\", \"a\", \"the\"];\n            for (var i = 0; i < people.length; i++) {\n                pronouns.push(people[i].name + \"'s\");\n            }\n            var nouns = [\n              \"ball\", \"bat\", \"cat\", \"dog\", \"computer\", \"chatGPT\", \"cheese\", \"program\", \"lamp\", \"cow\",\n              \"robot\", \"alien\", \"spaceship\", \"book\", \"tree\", \"phone\", \"pencil\", \"bottle\", \"guitar\", \"shoe\",\n              \"mountain\", \"ocean\", \"car\", \"bicycle\", \"building\", \"cloud\", \"camera\", \"piano\", \"drone\", \"desk\",\n              \"headphone\", \"rocket\", \"planet\", \"sun\", \"moon\", \"keyboard\", \"mouse\", \"dragon\",\n               \"zombie\", \"wizard\", \"castle\", \"candle\", \"umbrella\", \"notebook\", \"sandwich\", \"watch\",\n              \"sword\", \"shield\", \"cup\", \"plate\", \"window\", \"door\", \"treehouse\", \"telescope\", \"whistle\", \"balloon\",\n              \"umbrella\", \"skateboard\", \"giraffe\", \"elephant\", \"lion\", \"tiger\", \"dolphin\", \"penguin\", \"octopus\", \"bear\",\n              \"furniture\", \"sofa\", \"table\", \"chair\", \"broom\", \"brush\", \"pillow\", \"blanket\", \"wallet\", \"trophy\",\n              \"paintbrush\", \"journal\", \"globe\", \"map\", \"torch\", \"flashlight\", \"cactus\", \"flower\", \"sticker\", \"rock\",\n              \"pocket\", \"key\", \"coin\", \"flag\", \"rocket\", \"kite\", \"seashell\", \"bracelet\", \"ring\", \"scarf\", \n              \"helmet\", \"scooter\", \"camera\", \"drum\", \"saxophone\", \"violin\", \"cymbal\", \"clarinet\", \"harp\", \"trumpet\"\n            ];\n\n            var subjects = [\n              'computer', 'pet chicken', 'alien', 'teacher', 'mayor', 'neighbor', \n              'friend', \"state's governor\", 'dog', 'cat', 'scientist', 'artist', 'chef', 'student', \n              'doctor', 'nurse', 'engineer', 'parent', 'child', 'sibling', 'grandparent', 'cousin', 'boss', 'employee', 'athlete', 'musician', 'writer', 'journalist', \n              'activist', 'philosopher', 'explorer', 'pilot', 'ninja', 'robot', \n              'zombie', 'wizard', 'detective', 'superhero', 'king', 'merchant', 'farmer', 'hunter', 'fisherman', 'baker', 'carpenter', 'miner', 'craftsman', \n              'librarian', 'waiter', 'barista', 'broadcaster', 'programmer', 'blogger', \"role model\"\n            ];\n\n            var noPronounSubjects = [\"everybody\", \"a random person\",];\n            var articles = ['a', 'the', 'that', 'this', \"another\", \"a different\", \"a random\"];\n            var adjectives = [\"bad\", \"dumb\", \"beautiful\", \"dull\", \"bored\", \"stupid\", \"good\", \"ugly\", \"random\", \"robotic\", \"old\", \"fat\", \"paunchy\", \"bald\", \"beautiful\", \"chubby\", \"clean\", \"dazzling\", \"drab\", \"elegant\", \"fancy\", \"fit\", \"flabby\", \"glamorous\", \"gorgeous\", \"handsome\", \"long\", \"magnificent\", \"muscular\", \"plain\", \"plump\", \"quaint\", \"scruffy\", \"short\", \"skinny\", \"stocky\", \"ugly\", \"unkempt\", \"unsightly\"];\n            var quantityOpinion = [\"too few\", \"too many\"];\n            var replies = [\"Why did you say that?\", \"You are crazy.\", \"Man that is my life!\", \"I would never say something that mean to you!\", \"Why do people like commenting about me.\", \"No, no, no, no. That's not true.\", \"Humph.\", \"Wow thanks!\", \"You are my hero!\", \"YES!\"];\n            var toBe = [\"were\", \"are\"];\n            var questions = [\"What is your favorite subject in school?\", \"What is your favorite time of day?\", \"Are you an animal?\"];\n            var subjectAnswers = [\"Math\", \"History\", \"Science\", \"Foreign Languages\", \"Social Science\", \"English\"];\n            var timeAnswers = [\"Morning\", \"Noon\", \"Afternoon\", \"Evening\", \"The middle of the night\"];\n            var animalAnswers = [\"Yes!\", \"No.\", \"Duh!!!\", \"Nope.\", \"Of course.\", \"I'm not sure.\", \"Yup.\", \"Never!\"];\n            var animals = [\"dog\", \"cat\", \"bird\", \"fish\", \"whale\", \"squirrel\", \"snake\", \"hamster\", \"seal\"];\n            var nonAnimals = [\"ChatGPT\", \"tree\", \"leaf\", \"ant\", \"bug\", \"computer\", \"AI\"];\n            var verbsOfAffection = [\"love\", \"like\", \"adore\", \"look up to\", \"value\", \"am fond of\", \"treasure\", \"cherish\"];\n            var beforeVOA = [\"just\", \"extremely\", \"respectfully\"];\n            var observingVerbs = [\n              \"looking at\", \"observing\", \"watching\", \"glancing at\", \"studying\", \n              \"gazing at\", \"noticing\", \"peeking at\", \"inspecting\", \"examining\", \n              \"monitoring\", \"surveying\", \"scrutinizing\", \"scanning\", \"spotting\", \n              \"eyeing\", \"checking out\", \"staring at\", \"focusing on\", \"viewing\", \n              \"tracking\", \"analyzing\", \"contemplating\", \"considering\", \"noting\"\n            ];\n            var timePhrases = [\"The other day,\", \"Yesterday,\", \"Today,\", \"One hour ago,\", \"45 minutes ago,\", \"Exactly 34.24 seconds ago,\", \"Precisely 100 years ago to this second,\"];\n            var prepositions = ['at', \"behind\", \"in front of\", \"inside of\", \"outside of\", \"on top of\", \"under\", \"around\", \"in\", \"on\", \"along\", \"within\"];\n            var prepNouns = [\"the beach\", \"my house\", \"my city hall\", \"Washington DC\", \"the park\", \"my dog's dog house\", \"a hamster ball\", \"the middle of the ocean\", \"a sandbox\", \"the top of a tree\", \"inside of a 10 inch box\", \"my computer\", \"the most dangerous place in the world\", \"a table\"];\n            var ifWhen = [\"if\", \"when\"];\n            var inFactType = [\"In fact\", 'Actually', 'Surprisingly', 'Extraordinarilly', 'Amazingly', 'In real life'];\n            var noType = [\"Do I look like one?\", 'What put that idea into your head?', 'I thought you knew what I am.', 'I am a little hurt.', 'I wish I was.'];\n            //}\n\n            var mainDiv = document.getElementById(\"mainDiv\");\n            var MAX_MESSAGES = 25;\n            function getWord(array) {\n                return array[Math.round(Math.random() * (array.length - 1))];\n            }\n            \n            function getOpinionOpener(currentName) {\n                var pronoun = getWord(pronouns);\n                while (pronoun.slice(0, -2) === currentName) {\n                    pronoun = getWord(pronouns);\n                }\n                return capital(pronoun) + \" \" + getWord(adjectives) + \" \" + getWord(subjects) + \" \" + getWord(sayThinkVerbs) + \" that\";\n            }\n            var talkedAboutSomeone = false;\n            var askedQuestion = false;\n            var question = 0;\n            var asker;\n            var answers = [];\n            var NUMOFANSWERS = 3;\n            function reduceRedund(current, old, array) {\n                while (old.includes(current)) {\n                    current = Math.round(Math.random() * (array.length - 1));\n                }\n                return current;\n            }\n            function addMessage() {\n                var message = \"\";\n                var person = Math.round(Math.random() * (people.length - 1));\n                var sentenceType = Math.random() * 7;\n                if (askedQuestion !== false) {\n                    person = reduceRedund(person, [asker, answers[0], answers[1]], people);\n                    if (question === 0) {\n                        var pronoun = Math.round(Math.random() * (pronouns.length - 1));\n                        while (pronouns[pronoun] === people[person].name.toString() + \"'s\") {\n                            pronoun = Math.round(Math.random() * (pronouns.length - 1));\n                        }\n                        message += getWord(subjectAnswers) + \".  I \" + getWord(beforeVOA) + \" \" + getWord(verbsOfAffection) + \" how it is \" + getWord(ingTVerbs) + \" \" + pronouns[pronoun] + \" \" + getWord(adjectives) + \" \" + getWord(nouns) + '.';\n                    }\n                    else if (question === 1) {\n                        message = getWord(timeAnswers) + '. ';\n                        message += \"At that time, I \" + getWord(beforeVOA) + \" \" + getWord(verbsOfAffection) + \" \" + getWord(observingVerbs) + \" myself \" + getWord(ingTVerbs) + \" \" + getWord(articles) + \" \" + \" \" + getWord(adjectives) + \" \" + getWord(nouns) + '.';\n                    }\n                    else if (question === 2) {\n                        answer = getWord(animalAnswers);\n                        message += answer;\n                        if (answer[0] === \"Y\" || answer[0] === \"D\" || answer[0] === \"O\") {\n                            message += \" \" + getWord(inFactType) + \", I am a very \" + getWord(adjectives) + \" \" + getWord(animals) + \".\";\n                        } else if (answer[0] === \"N\") {\n                            message += \" \" + getWord(noType) + \" \" + getWord(inFactType) + \" I am a very \" + getWord(adjectives) + \" \" + getWord(nonAnimals) + \".\"; \n                        }\n                    }\n                    answers[askedQuestion] = person;\n                    askedQuestion++;\n                    if (askedQuestion > NUMOFANSWERS - 1) {\n                        askedQuestion = false;\n                    }\n                } else if (talkedAboutSomeone !== false) {\n                    person = talkedAboutSomeone;\n                    message += getWord(replies) + \" \" + getWord(emojis);\n                    talkedAboutSomeone = false;\n                } else if (sentenceType <= 3) {\n                    message = getOpinionOpener(people[person].name);\n                    message += \" \" + getWord(quantityOpinion);\n                    message += \" \" + getWord(subjects) + \"s\";\n                    message += \" \" + getWord(toBe) + \" \" + getWord(ingTVerbs) + \" \" + getWord(articles) + \" \" + getWord(nouns) + '. ' + getWord(emojis);\n                } else if (sentenceType <= 4.5) {\n                    var talksAbout = Math.round(Math.random() * (people.length - 1));\n                    while (people[talksAbout].name === people[person].name) {\n                        talksAbout = Math.round(Math.random() * (people.length - 1));\n                    }\n                    talkedAboutSomeone = talksAbout;\n                    message += getWord(sentenceOpeners) + \" \" + \" my \" + getWord(subjects) + \" \" + getWord(sayThinkVerbs) + \" that \" + people[talksAbout].name + ' is ' + getWord(adjectives) + '.';\n                } else if (sentenceType <= 5.5) {\n                    var pronoun = getWord(pronouns);\n                    while (pronoun.toString().slice(0, -2) === people[person].name) {\n                        pronoun = getWord(pronouns);\n                    }\n                    message += getWord(timePhrases) + \" \" + getWord(prepositions) + \" \" + getWord(prepNouns) + \", \" + pronoun + \" \" + getWord(subjects) + \" was \" + getWord(observingVerbs) + \" \" + getWord(articles);\n                    message += \" \" + getWord(adjectives) + \" \" + getWord(nouns) + \" \" + getWord(ingTVerbs) + \" \" + getWord(articles) + \" \" + getWord(subjects) + '.';\n                } else { \n                    question = Math.round(Math.random() * (questions.length - 1));\n                    message = questions[question];\n                    askedQuestion = 0;\n                    asker = person;\n                    answers = [];\n                    for (var i = 0; i < NUMOFANSWERS; i++) {\n                        answers.push(asker);\n                    }\n                }\n                \n                if (mainDiv.childElementCount / 2 > MAX_MESSAGES) {\n                    mainDiv.removeChild(mainDiv.firstChild);\n                    mainDiv.removeChild(mainDiv.firstChild);\n                }\n                \n                var isAtBottom = false;\n                if (Math.abs(mainDiv.scrollTop + 530 - mainDiv.scrollHeight) < 10) {\n                    isAtBottom = true;\n                }\n                \n                \n                mainDiv.innerHTML += \"<div class='messagebody'><div class='avatar'><img style='user-select: none' src='https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/\"+ people[person].avatar + \".png'></div><div class='name' style='color:\" + people[person].c + \"'>\" + people[person].name + \"</div><div style='user-select: none' class='time'>Today at \" + getCurrentTime() + \"</div></div><div class='message-text'>\" + message + \"</div>\";\n                if (isAtBottom) {\n                    mainDiv.scrollTo({\n                        top: mainDiv.scrollHeight,\n                        behavior: 'smooth'\n                    });\n                }\n                \n                \n            }\n            addMessage();\n            setInterval(addMessage, 2000)\n        </script>\n        \n        <!-- CREDIT TO BlueBird@BirdWatcher03 FOR THE AMAZING SAVE FUNCTION -->\n        <!-- credit to leaf(https://www.khanacademy.org/computer-programming/i/4626826748018688) -->\n        <script src=\"https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.min.js\"></script>\n        <script>\n        var save = function(){\n            html2canvas(document.body,{\n                allowTaint : false,\n                useCORS: true,\n                width:579,\n                height:566,\n            })\n            .then(function(canvas){\n                b64Img = canvas.toDataURL();\n                window.top.postMessage(b64Img, \"https://www.khanacademy.org/\");\n            });\n        };\n        var handleSave = function(e) {\n            if (JSON.parse(e.data).screenshot) {\n                setTimeout(function() {\n                    console.log(\"Saving...\");\n                    save();\n                }, 1000)\n            }\n        };\n        window.parent.savers = window.parent.savers || 0;\n        window.parent.addEventListener('message', handleSave);\n        window.parent.savers += 1;\n        for (window.parent.savers; window.parent.savers > 1; window.parent.savers -= 1) {\n            window.parent.removeEventListener('message', handleSave)\n        }\n        </script>   \n        <script type=\"application/javascript\">\n            document.body.addEventListener(\"keydown\", function(e) {\n                if (e.code === \"Escape\") {\n                    document.body.innerHTML = `\n                        <div style='position:absolute;top:0;left:0;width:100vw;height:100vw; background-color:rgb(97, 112, 239);'><br><br><br><br><h1 style='font-size:80px; text-align:center;'>KHANCORD</h1><br><h2 style='padding: 0 10vw; font-size:40px; text-align:center;'>A SUPER HILARIOUS AUTOGENERATED CHAT THREAD</h2></div>\n                    `;\n                }\n                \n                if (e.code === \"Enter\") {\n                    e.preventDefault();\n                }\n            });\n        </script>\n        <!--The Thumbnail Script 2.1.0 12/18/2023 by Bluebird@kaid_157624541333313939750668--><script src=\"https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js\"></script><script type>var r=600,s=document.documentElement.clientWidth;window.parent.html2canvas=t=>{try{html2canvas(document.body,{width:s,height:s,useCORS:!0,onclone:t=>t.getAnimations().forEach((t=>{try{t.finish()}catch{}}))}).then((t=>{var e=document.createElement(\"canvas\");e.width=r,e.height=r,e.getContext(\"2d\").drawImage(t,0,0,t.width,t.height,0,0,r,r),window.top.postMessage(e.toDataURL(),\"*\")})).catch((t=>{alert(\"Thumbnail Script Error: \"+t)}))}catch{window.top.postMessage(document.createElement(\"canvas\").toDataURL(),\"*\")}};</script>\n    </body>\n</html>\n<!--\nAutogenerated Chat Thread 2.\n\nFEATURES FROM OLD VERSION:\n  - Insults or praises others.\n  - Responds when insulted or praised.\n  - Answers questions that others ask.\n  - Two questions\n  \nUPDATES FROM OLD VERSION:\n  - Does not talk about themselves\n  - Does not answer their own question\n  - Does not answer a question more than once.\n  - Added one more question\n  - Added two more sentence patterns\n  - Removed one sentence pattern\n\nI know I didn't add much but I'm done for now with this program.\n\nThe old version:\nhttps://www.khanacademy.org/computer-programming/a-chat-thread-that-is-auto-generated/5803527879442432\n\n\nAnyways, please sub:\nhttps://www.khanacademy.org/computer-programming/lame-idk-fr/5681493063155712\n\n\n-->",
+    "title": "ACT 2 (2x better)",
+    "votes": 46,
     "created": "a day ago",
-    "updated": "8 hours ago",
-    "type": "PJS",
+    "updated": "a day ago",
+    "type": "HTML",
     "author": {
-        "name": "Norwegian Pathways",
-        "id": "kaid_1082366231138740611717261",
-        "avatar": "/images/avatars/svg/leaf-blue.svg"
+        "name": "wealR",
+        "id": "kaid_831993479561352012904348",
+        "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
     },
     "dimensions": {
         "width": 600,
@@ -16,13 +16,13 @@ var json = {
     },
     "forks": [
         {
-            "title": "12",
-            "id": "6241492017266688",
-            "forks": 1,
-            "votes": 5,
+            "title": "Spin-off of \"ACT 2 (2x better)\"",
+            "id": "6651234816540672",
+            "forks": 0,
+            "votes": 1,
             "author": {
-                "name": "~The Wolf~",
-                "id": "kaid_6337778158362361978377342"
+                "name": "ihmandrew",
+                "id": "kaid_1116498955829619146975594"
             }
         }
     ],
@@ -30,516 +30,374 @@ var json = {
         "tips": [
             {
                 "replyCount": 1,
-                "votes": 15,
+                "votes": 11,
                 "date": "a day ago",
-                "author": {
-                    "name": "Duke",
-                    "id": "kaid_351465532815782433620675",
-                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                },
-                "text": "The quality 💀",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "19 hours ago",
-                        "author": {
-                            "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
-                            "id": "kaid_706406430552760652245376",
-                            "avatar": "/images/avatars/svg/cacteye-yellow.svg"
-                        },
-                        "text": "for those who know 🤫💀"
-                    }
-                ]
-            },
-            {
-                "replyCount": 11,
-                "votes": 6,
-                "date": "18 hours ago",
-                "author": {
-                    "name": "Ibraheem Ahmed (IA)",
-                    "id": "kaid_42165633374795610935956",
-                    "avatar": "/images/avatars/svg/spunky-sam.svg"
-                },
-                "text": "First on the HL; code: \"<code>text</code>... <code>text</code>... <code>text</code>... <code>text</code>... <code>text</code>...\"<br><br>:(",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "17 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I know right... and everyone is loving it... :/"
-                    },
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "Norwegian Pathways",
-                            "id": "kaid_1082366231138740611717261",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "I don't see why they couldn't :)"
-                    },
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Look man, I collabed with ace a couple times, and we talked a lot, gave feedback a lot, and were friends.(defining it the same way everyone else does)<br>Ace made quality programs, quality graphics, quality games, and helped people so they could make more quality programs.<br>And I find that it's sad to see that everyone is loving a extremely low quality program.  46 people are for just text.<br><br>Would Ace approve? He would be sad to see this on the hl but he wouldn't come out and say anything but thanks guys. Because he is nice.(nicer then me haha)<br><br>sorry if this came off hard..."
-                    },
-                    {
-                        "date": "7 hours ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "As the title implies, it's \"For a friend\" It's not NP's fault it got a lot of votes."
-                    },
-                    {
-                        "date": "7 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I see he released it for a on his subpage... so it was clearly more then for a friend... cause other wise he would've just dmed AR...<br><br>there is only one reason for you to release something on your subpage. For votes.<br><br>All I'm asking is for more effort to be put into this. Because these days programmers just aren't trying their best. Or really trying that hard at all."
-                    },
-                    {
-                        "date": "7 hours ago",
-                        "author": {
-                            "name": "Norwegian Pathways",
-                            "id": "kaid_1082366231138740611717261",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "Ok. Thanks for that. <br><br>First off, I don't care about the votes. I want to raise awareness for Ace and show that every person who upvoted this approved of him and is upset he is leaving. I released it on my subpage so everyone would see it in order to let reality settle in and hopefully understand why I made it in the first place. <br><br>It's a tribute to him, and \"For A Friend\" implies that it was for him. It wasn't intended to imply that he is a recipient, but as myself releasing a program attributed to him instead.<br><br>It's a simple program, but that doesn't make me a simple coder. I am going to release complicated programs (with two in the making), and maybe even some graphics. <br><br>Moreover, I made this program to be simple; I want people to only focus on what's there. I'm not sure if you're aware, but programs aren't about votes or how many lines of code it has; it's about the message the code is meant to convey. <br><br>I don't appreciate when people criticize a perfectly good program. I want KA to be a place where coders can respect other works; even when they aren't great. I know you may think of this program as simple, but to me (and many others) it's a work of art portraying the meaning of friendship, and what happens when you lose that.<br><br>I'm sorry you feel this way about this program, but I have 50 others who would probably disagree with you. Your opinion is fine, but I am justifying my side of the case.<br><br>As Cookie said (Thanks, Cookie!), It's not my fault it got lots of votes."
-                    },
-                    {
-                        "date": "6 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "\"It's a simple program, but that doesn't make me a simple coder. I am going to release complicated programs (with two in the making), and maybe even some graphics.\" -NP<br>why make low quality programs? Won't that shine a bad picture on you?(by the beginners? no they love you because you made something about one of their favorite coders)<br>By people like Liam K? Green Ghost? Iron Programming?<br><br>I hope I have a decent name, that people respect me. that is what matters. I try my best to not make low quality programs. If I had time to make a high quality good bye program then I would've. But I didn't so I didn't make anything.<br><br>If you truly do have the skills to make great programs, do it!<br>Why waste your time making low quality ones? that is what it really come down to.<br><br>I had a huge comment typed out but I was afraid it was too mean so I got rid of a giant amount of it. Hopefully what I sent wasn't to mean... sorry if I am :("
-                    },
-                    {
-                        "date": "6 hours ago",
-                        "author": {
-                            "name": "Norwegian Pathways",
-                            "id": "kaid_1082366231138740611717261",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "I accept your apology. You're right. I shouldn't make any low quality programs. Although, I did add the gradient to make a better quality. I'm sorry if you feel that way about me and think I'm a low quality coder."
-                    },
-                    {
-                        "date": "6 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thank you. And thanks for trying =)<br>I try my best to give all people the benefit of the doubt :)<br>But prove all my doubts wrong ;P<br><br>I am looking forward to your high quality programs and I will most likely vote it up =D"
-                    },
-                    {
-                        "date": "6 hours ago",
-                        "author": {
-                            "name": "Norwegian Pathways",
-                            "id": "kaid_1082366231138740611717261",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "Here is one. Don't vote it up though because it's not the real one. I just work on it. What I do, is instead of making a new program, I go off a blank one in my Profile, and when done, I release it as a new program, and delete the code from the template so I can use it again.<br><br>https://www.khanacademy.org/computer-programming/digital-clock/5726016837959680<br><br>I still am working on the Timer and Alarm, but after that, it's complete!"
-                    },
-                    {
-                        "date": "13 minutes ago",
-                        "author": {
-                            "name": "Ibraheem Ahmed (IA)",
-                            "id": "kaid_42165633374795610935956",
-                            "avatar": "/images/avatars/svg/spunky-sam.svg"
-                        },
-                        "text": "Guys it's not that deep why y'all debating like there's a cash prize to be had"
-                    }
-                ]
-            },
-            {
-                "replyCount": 2,
-                "votes": 4,
-                "date": "13 hours ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
                     "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                 },
-                "text": "22 lines of code - 43 votes. Hmmm...",
+                "text": "<b>Sub pls</b><br><br>https://www.khanacademy.org/computer-programming/lame-idk-fr/5681493063155712",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "6 hours ago",
                         "author": {
-                            "name": "~The Wolf~",
-                            "id": "kaid_6337778158362361978377342",
-                            "avatar": "/images/avatars/svg/blobby-green.svg"
+                            "name": "YA",
+                            "id": "kaid_3563621891021365862686148",
+                            "avatar": "/images/avatars/svg/robot_female_3.svg"
                         },
-                        "text": "11 lines hmm...<br>https://www.khanacademy.org/computer-programming/12/6241492017266688"
-                    },
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Ezra",
-                            "id": "kaid_1112279572017452692208390",
-                            "avatar": "/images/avatars/svg/leaf-red.svg"
-                        },
-                        "text": "@wealR not as lame as my stuff >:)"
+                        "text": "too late, already subbed"
                     }
                 ]
             },
             {
                 "replyCount": 0,
-                "votes": 2,
-                "date": "2 hours ago",
+                "votes": 6,
+                "date": "5 hours ago",
                 "author": {
-                    "name": "Ace Rogers (Off)",
-                    "id": "kaid_714276242204949021450419",
-                    "avatar": "/images/avatars/svg/leaf-blue.svg"
+                    "name": "AmethystSky",
+                    "id": "kaid_784805823121542822870790",
+                    "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
                 },
-                "text": "\"Fights against the law\"? When have I ever done that? XD I try not to fight against the law. XP<br><br>And I'd do this all again to help you. :)<br><br>There will come a day when I'll be more organized so I can help you again without stress. :)<br><br>I also still owe you a collaboration. XP<br><br>Thanks for making this. :)",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "8 hours ago",
-                "author": {
-                    "name": "TH3 ROUG3 L3G3ND™",
-                    "id": "kaid_2809101008758048501324524",
-                    "avatar": "/images/avatars/svg/boggle-blue.svg"
-                },
-                "text": "just words and 1st on the HL >:(",
+                "text": "<b>PlumpGeorge</b>:<br>Are you an animal?<br><b>RandoDude</b>:<br>Nope. I am a little hurt. Actually I am a very beautiful bug.<br><b>wealR</b>:<br>Yup. Actually, I am a very gorgeous fish.<br><b>Crazy OJ</b>:<br>Yup. Amazingly, I am a very handsome bird.<br><br><em>Bugs are animals.</em>",
                 "locked": false,
                 "pinned": false,
                 "replies": []
             },
             {
                 "replyCount": 5,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "Stitch Girl💠",
-                    "id": "kaid_6490115305785159643926933",
-                    "avatar": "/images/avatars/svg/aqualine-sapling.svg"
-                },
-                "text": "Ace is leaving?",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Norwegian Pathways",
-                            "id": "kaid_1082366231138740611717261",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "For now, yes he is. He was under too much stress, so he decided to step away for a little while."
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Stitch Girl💠",
-                            "id": "kaid_6490115305785159643926933",
-                            "avatar": "/images/avatars/svg/aqualine-sapling.svg"
-                        },
-                        "text": "Aww. He's such a good friend!"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Norwegian Pathways",
-                            "id": "kaid_1082366231138740611717261",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "Yes he was."
-                    },
-                    {
-                        "date": "5 hours ago",
-                        "author": {
-                            "name": "YA",
-                            "id": "kaid_3563621891021365862686148",
-                            "avatar": "/images/avatars/svg/robot_female_3.svg"
-                        },
-                        "text": "You <b>are</b> joking, right?"
-                    },
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "SurprisedBee554",
-                            "id": "kaid_488821177512154232567809",
-                            "avatar": "/images/avatars/svg/starky-seedling.svg"
-                        },
-                        "text": "No, sadly he is leaving, not forever, but for some time."
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 0,
-                "date": "18 hours ago",
-                "author": {
-                    "name": "Blocked by Taquavion",
-                    "id": "kaid_568819712822552226070124",
-                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                },
-                "text": "Nobody said it would be so hard",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 1,
-                "votes": 0,
+                "votes": 5,
                 "date": "6 hours ago",
                 "author": {
-                    "name": "cwalsh1223 BBB#",
-                    "id": "kaid_792288208072906614241148",
-                    "avatar": "/images/avatars/svg/spunky-sam-red.svg"
+                    "name": "kitty mascot",
+                    "id": "kaid_1066778980955332043559618",
+                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                 },
-                "text": "Nice poem.<br><b>BUT</b> you should consider putting <em>actual effort</em> into your programs. -_-",
+                "text": "RandoDude<br>What is your favorite subject in school?<br>wealR<br>Math. I extremely am fond of how it is persuading RandoDude's fat piano.",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
                         "date": "6 hours ago",
                         "author": {
-                            "name": "Norwegian Pathways",
-                            "id": "kaid_1082366231138740611717261",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                            "name": "kitty mascot",
+                            "id": "kaid_1066778980955332043559618",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
-                        "text": "I do."
+                        "text": "what is wrong with this chat? XD"
+                    },
+                    {
+                        "date": "3 hours ago",
+                        "author": {
+                            "name": "Mathlete11",
+                            "id": "kaid_4902531429433401500771997",
+                            "avatar": "/images/avatars/svg/starky-sapling.svg"
+                        },
+                        "text": "lol I have no idea XD"
+                    },
+                    {
+                        "date": "3 hours ago",
+                        "author": {
+                            "name": "kitty mascot",
+                            "id": "kaid_1066778980955332043559618",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                        },
+                        "text": "are we gonna start this again? XD"
+                    },
+                    {
+                        "date": "3 hours ago",
+                        "author": {
+                            "name": "kitty mascot",
+                            "id": "kaid_1066778980955332043559618",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                        },
+                        "text": "wealR<br> What is your favorite subject in school?<br> RandoDude<br> Science. I extremely like how it is befriending wealR's ugly bracelet. XD"
+                    },
+                    {
+                        "date": "3 hours ago",
+                        "author": {
+                            "name": "Mathlete11",
+                            "id": "kaid_4902531429433401500771997",
+                            "avatar": "/images/avatars/svg/starky-sapling.svg"
+                        },
+                        "text": "lol probably XD"
                     }
                 ]
             },
             {
-                "replyCount": 0,
-                "votes": 0,
-                "date": "a day ago",
+                "replyCount": 3,
+                "votes": 5,
+                "date": "8 hours ago",
                 "author": {
-                    "name": "Luke Ellis",
-                    "id": "kaid_8535468719137003545030723",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                    "name": "Ezra",
+                    "id": "kaid_1112279572017452692208390",
+                    "avatar": "/images/avatars/svg/leaf-red.svg"
                 },
-                "text": "Yes, very nice poem. He will be back, though. . .",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 0,
-                "date": "a day ago",
-                "author": {
-                    "name": "kitty mascot",
-                    "id": "kaid_1066778980955332043559618",
-                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                },
-                "text": "beautiful program. we will remember him!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 0,
-                "date": "a day ago",
-                "author": {
-                    "name": "",
-                    "id": "kaid_1187559179045151249642085",
-                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
-                },
-                "text": "We'll miss Ace!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 6,
-                "votes": 0,
-                "date": "a day ago",
-                "author": {
-                    "name": "TH3 ROUG3 L3G3ND™",
-                    "id": "kaid_2809101008758048501324524",
-                    "avatar": "/images/avatars/svg/boggle-blue.svg"
-                },
-                "text": "we will remeber the quality programs, the Collabs he did with a lot of people who don't have a lot of programming skills... One year later he/she turns on Khan academy sees the lil blue dot at the top left presses it, goes to the notification page, scrolls down, keeps scrolling, keeps scrolling 3 hours later, \"I'm finally done scrolling!\" Then he/she makes his first program in a while, turns it off then when he turns it back on sees the lil blue dot presses it and scrolls, keeps scrolling and they all say something like \"WHERE HAVE YOU BEEN ALL THIS TIME!\" And I'm going to be the first! Then he quietly turns his/her device off, and sits in his/her room for a minute pondering \"What in the world made me make another program after a year, not expecting A MILLION texts, saying 'WHERE HAVE YOU BEEN ALL THIS TIME!'\" he/she sighs and thinks \"I'll never do that again!\" - This is a warning Ace Rodgers! A warning that you do not want to miss!",
+                "text": "Dude, my co-worker gossiped that wealR was fit! - RandomDude<br>I would never say something that mean to you! >:( = wealR<br><br>yeah because if you were fit then that wouldn't be lame and your lame so being lame you don't want people to call you not lame because you are the second greatest lamer ever!",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a day ago",
+                        "date": "8 hours ago",
                         "author": {
-                            "name": "Lightning",
-                            "id": "kaid_293295321613227018876720",
-                            "avatar": "/images/avatars/svg/primosaur-tree.svg"
+                            "name": "Mathlete11",
+                            "id": "kaid_4902531429433401500771997",
+                            "avatar": "/images/avatars/svg/starky-sapling.svg"
                         },
-                        "text": "Oh, did he collab with you?"
+                        "text": "lol this chat is ridiculous XD"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "5 hours ago",
                         "author": {
-                            "name": "TH3 ROUG3 L3G3ND™",
-                            "id": "kaid_2809101008758048501324524",
-                            "avatar": "/images/avatars/svg/boggle-blue.svg"
+                            "name": "Ezra",
+                            "id": "kaid_1112279572017452692208390",
+                            "avatar": "/images/avatars/svg/leaf-red.svg"
                         },
-                        "text": "But I know of him"
+                        "text": "why you telling me?"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
-                            "name": "Ace Rogers (Off)",
-                            "id": "kaid_714276242204949021450419",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                            "name": "Mathlete11",
+                            "id": "kaid_4902531429433401500771997",
+                            "avatar": "/images/avatars/svg/starky-sapling.svg"
                         },
-                        "text": "@TH3 ROUG3 L3G3ND<br>1. I'm a he, just so you know.<br>2. It won't be a year until I make another program. XD It just won't be as often as I usually make them.<br>3. My name is Ace Rogers, there's no \"d\" in Rogers. :P"
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "TH3 ROUG3 L3G3ND™",
-                            "id": "kaid_2809101008758048501324524",
-                            "avatar": "/images/avatars/svg/boggle-blue.svg"
-                        },
-                        "text": "It was just a joke and I didn't want people saying \"you can't assume gender\" or anything like that (sorry about misspelling your name!)"
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "Ace Rogers (Off)",
-                            "id": "kaid_714276242204949021450419",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "I figured it was a joke. :P<br>Yeah, I understand that. I just wanted to let you know so you didn't have to keep writing \"he/she\". :)<br>It's fine, you're not the first to spell my name like that. XP"
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "TH3 ROUG3 L3G3ND™",
-                            "id": "kaid_2809101008758048501324524",
-                            "avatar": "/images/avatars/svg/boggle-blue.svg"
-                        },
-                        "text": "sorry I have a grandparent with his name spelled like Rodger"
+                        "text": "I dunno, why not"
                     }
                 ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 0,
-                "date": "2 hours ago",
-                "author": {
-                    "name": "𝓧𝓛𝓟 [Off]",
-                    "id": "kaid_387597695665654041806576",
-                    "avatar": "/images/avatars/svg/piceratops-seed.svg"
-                },
-                "text": "wow... people hate poems... why i ask... why!?!?<br><br>Good job! :)",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 0,
-                "date": "19 hours ago",
-                "author": {
-                    "name": "Hokeycat",
-                    "id": "kaid_438466413527508491816275",
-                    "avatar": "/images/avatars/svg/blobby-green.svg"
-                },
-                "text": "I didn't exactly know you but have seen several of your projects.<br>Bye, anyway!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 0,
-                "date": "20 hours ago",
-                "author": {
-                    "name": "sugarnlight",
-                    "id": "kaid_516497598968512440616556",
-                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
-                },
-                "text": "very nice words for a very nice person!!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
             },
             {
                 "replyCount": 1,
-                "votes": 0,
-                "date": "a day ago",
+                "votes": 4,
+                "date": "7 hours ago",
                 "author": {
-                    "name": "- S p a r t a - Off",
-                    "id": "kaid_546205135843777431062822",
-                    "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
+                    "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
+                    "id": "kaid_706406430552760652245376",
+                    "avatar": "/images/avatars/svg/cacteye-yellow.svg"
                 },
-                "text": "First. 258",
+                "text": "Very interesting name 🤔<br><br>for those who know 🤫💀💀",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a day ago",
+                        "date": "6 hours ago",
                         "author": {
-                            "name": "𝕭𝖑𝖚𝖊 𝕲𝖍𝖔𝖚𝖑",
-                            "id": "kaid_6776820901948503135214173",
-                            "avatar": "/images/avatars/svg/area-52-blue.svg"
+                            "name": "kitty mascot",
+                            "id": "kaid_1066778980955332043559618",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
-                        "text": "Nahh<br>Bro really tryna speedrun a poem💀💀💀💀"
+                        "text": "cause its Discord?"
                     }
                 ]
             },
             {
                 "replyCount": 0,
-                "votes": 0,
-                "date": "a day ago",
+                "votes": 3,
+                "date": "10 hours ago",
+                "author": {
+                    "name": "𝐂𝐥𝐨𝐯𝐞𝐫",
+                    "id": "kaid_2287805493149654773942312",
+                    "avatar": "/images/avatars/svg/stelly-green.svg"
+                },
+                "text": "Flashbang < Khancord Light Mode<br><br><br>Nice Program, It's Pretty Funny. :)<br><br>Votes++;",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 3,
+                "date": "9 hours ago",
+                "author": {
+                    "name": "Lightning",
+                    "id": "kaid_293295321613227018876720",
+                    "avatar": "/images/avatars/svg/primosaur-tree.svg"
+                },
+                "text": "That's an interesting name...",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 3,
+                "date": "6 hours ago",
+                "author": {
+                    "name": "YA",
+                    "id": "kaid_3563621891021365862686148",
+                    "avatar": "/images/avatars/svg/robot_female_3.svg"
+                },
+                "text": "Laughs in-loud",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 3,
+                "date": "9 hours ago",
                 "author": {
                     "name": "HACK",
                     "id": "kaid_6815067100354522609320825",
                     "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                 },
-                "text": "Bye Bye We Will Miss you :(",
+                "text": "wealR<br>45 minutes ago, outside of inside of a 10 inch box, my mom's librarian was inspecting that skinny flashlight following another nurse.",
                 "locked": false,
                 "pinned": false,
                 "replies": []
             },
             {
                 "replyCount": 0,
-                "votes": 0,
-                "date": "a day ago",
+                "votes": 2,
+                "date": "4 hours ago",
                 "author": {
-                    "name": "RomanStarCoder ⭐",
-                    "id": "kaid_68859322444115567573661",
-                    "avatar": "/images/avatars/svg/blobby-blue.svg"
+                    "name": "The No-Sock Guy",
+                    "id": "kaid_533978982937476630790970",
+                    "avatar": "/images/avatars/svg/starky-sapling.svg"
                 },
-                "text": "<b>not Ace</b>!  😭 😭 I do get it if it's a stress related thing or family matters but one blue-handed salute to him!",
+                "text": "khancord.  ahh yes.",
                 "locked": false,
                 "pinned": false,
                 "replies": []
             },
             {
                 "replyCount": 0,
-                "votes": 0,
+                "votes": 2,
+                "date": "6 hours ago",
+                "author": {
+                    "name": "ASBackup",
+                    "id": "kaid_714780036830891967670231",
+                    "avatar": "/images/avatars/svg/aqualine-tree.svg"
+                },
+                "text": "lol this is great :)",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "4 minutes ago",
+                "author": {
+                    "name": "goat120",
+                    "id": "kaid_1167989604939556743383715",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "how do u send things",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 hours ago",
+                "author": {
+                    "name": "AlIEN",
+                    "id": "kaid_213001050410218690794137",
+                    "avatar": "/images/avatars/svg/marcimus-purple.svg"
+                },
+                "text": "wealR<br>Are you an animal?<br>RandoDude<br>Of course. Extraordinarilly, I am a very robotic whale.<br>PlumpGeorge<br>Yup. Actually, I am a very ugly cat.<br>Crazy OJ<br>I'm not sure.<br><br>...tf...",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 hours ago",
+                "author": {
+                    "name": "AlIEN",
+                    "id": "kaid_213001050410218690794137",
+                    "avatar": "/images/avatars/svg/marcimus-purple.svg"
+                },
+                "text": "PlumpGeorge<br>Yo my child said that Crazy OJ is long.<br>Crazy OJ<br>Wow thanks! >:)<br><br>AYOOO",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "3 minutes ago",
+                "author": {
+                    "name": "Lightning",
+                    "id": "kaid_293295321613227018876720",
+                    "avatar": "/images/avatars/svg/primosaur-tree.svg"
+                },
+                "text": "That's a cool name! Did you come up with it by yourself?",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "3 hours ago",
+                "author": {
+                    "name": "Mathlete11",
+                    "id": "kaid_4902531429433401500771997",
+                    "avatar": "/images/avatars/svg/starky-sapling.svg"
+                },
+                "text": "dude, my barista gossiped that crazy oj is robotic!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "4 hours ago",
+                "author": {
+                    "name": "cwalsh1223 BBB#",
+                    "id": "kaid_792288208072906614241148",
+                    "avatar": "/images/avatars/svg/spunky-sam-red.svg"
+                },
+                "text": "This is awesome. At one point, \"you\" claimed to be a very fancy AI. I like how they use emotes sometimes. XD :( >:) :P :3 :)",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "5 hours ago",
+                "author": {
+                    "name": "OfflineSquidy",
+                    "id": "kaid_8597585382861928237037056",
+                    "avatar": "/images/avatars/svg/marcimus-red.svg"
+                },
+                "text": "cool! vote++",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "32 minutes ago",
+                "author": {
+                    "name": "Mr. X",
+                    "id": "kaid_860766137188997026711729",
+                    "avatar": "/images/avatars/svg/robot_male_1.svg"
+                },
+                "text": "Nice, you managed to capture a small essence of the brainrot that goes on in those discord threads. <em>And they said it couldn't be done</em>. bah<br><br>If they were as stupidly funny as these somehow get, though, they might be permissible, in a controlled environment.<br><br>wealR quote: \"Never! I thought you knew what I am. In real life I am a very dumb computer.\"",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
                 "date": "a day ago",
                 "author": {
-                    "name": "ZyanU",
-                    "id": "kaid_891143278848047069080086",
-                    "avatar": "/images/avatars/svg/starky-tree.svg"
+                    "name": "TTyper",
+                    "id": "kaid_9072327922342976241122316",
+                    "avatar": "/images/avatars/svg/piceratops-seed.svg"
                 },
-                "text": "I bid adieu, Ace Rogers!",
+                "text": "Cool it is better than the old one nice job",
                 "locked": false,
                 "pinned": false,
                 "replies": []
