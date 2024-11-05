@@ -64,7 +64,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 7,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -93,7 +93,7 @@ var json = {
                         "text": "I don't see why they couldn't :)"
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -106,7 +106,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 4,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
@@ -130,7 +130,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "40 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
@@ -200,7 +200,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "Blocked by Taquavion",
                     "id": "kaid_568819712822552226070124",
