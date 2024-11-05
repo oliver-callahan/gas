@@ -64,7 +64,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -257,7 +257,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Blocked by Taquavion",
                     "id": "kaid_568819712822552226070124",
