@@ -111,7 +111,7 @@ var json = {
                         "text": "I see he released it for a on his subpage... so it was clearly more then for a friend... cause other wise he would've just dmed AR...<br><br>there is only one reason for you to release something on your subpage. For votes.<br><br>All I'm asking is for more effort to be put into this. Because these days programmers just aren't trying their best. Or really trying that hard at all."
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -138,7 +138,7 @@ var json = {
                         "text": "I accept your apology. You're right. I shouldn't make any low quality programs. Although, I did add the gradient to make a better quality. I'm sorry if you feel that way about me and think I'm a low quality coder."
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -147,7 +147,7 @@ var json = {
                         "text": "Thank you. And thanks for trying =)<br>I try my best to give all people the benefit of the doubt :)<br>But prove all my doubts wrong ;P<br><br>I am looking forward to your high quality programs and I will most likely vote it up =D"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
