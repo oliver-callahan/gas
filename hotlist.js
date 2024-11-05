@@ -102,7 +102,7 @@ var json = {
                         "text": "As the title implies, it's \"For a friend\" It's not NP's fault it got a lot of votes."
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -236,7 +236,7 @@ var json = {
                         "text": "Yes he was."
                     },
                     {
-                        "date": "14 minutes ago",
+                        "date": "19 minutes ago",
                         "author": {
                             "name": "YA",
                             "id": "kaid_3563621891021365862686148",
@@ -349,7 +349,7 @@ var json = {
                         "text": "Oh, did he collab with you?"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
@@ -414,7 +414,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "HACK",
                     "id": "kaid_6815067100354522609320825",
