@@ -42,7 +42,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "39 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
                             "id": "kaid_706406430552760652245376",
@@ -51,7 +51,7 @@ var json = {
                         "text": "for those who know 🤫💀"
                     },
                     {
-                        "date": "a few seconds ago",
+                        "date": "5 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -64,7 +64,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 4,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "Stitch Girl💠",
                     "id": "kaid_6490115305785159643926933",
@@ -172,7 +172,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "32 minutes ago",
+                "date": "37 minutes ago",
                 "author": {
                     "name": "Hokeycat",
                     "id": "kaid_438466413527508491816275",
@@ -186,7 +186,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -256,7 +256,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 0,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
