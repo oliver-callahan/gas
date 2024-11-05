@@ -75,7 +75,7 @@ var json = {
                         "text": "I know right... and everyone is loving it... :/"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -93,7 +93,7 @@ var json = {
                         "text": "Look man, I collabed with ace a couple times, and we talked a lot, gave feedback a lot, and were friends.(defining it the same way everyone else does)<br>Ace made quality programs, quality graphics, quality games, and helped people so they could make more quality programs.<br>And I find that it's sad to see that everyone is loving a extremely low quality program.  46 people are for just text.<br><br>Would Ace approve? He would be sad to see this on the hl but he wouldn't come out and say anything but thanks guys. Because he is nice.(nicer then me haha)<br><br>sorry if this came off hard..."
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Cookie",
                             "id": "kaid_1826046083730180486895887",
@@ -254,7 +254,7 @@ var json = {
                         "text": "You <b>are</b> joking, right?"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "SurprisedBee554",
                             "id": "kaid_488821177512154232567809",
@@ -267,7 +267,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "42 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Ace Rogers (On)",
                     "id": "kaid_714276242204949021450419",
@@ -305,7 +305,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "36 minutes ago",
+                "date": "41 minutes ago",
                 "author": {
                     "name": "𝓧𝓛𝓟 [On]",
                     "id": "kaid_387597695665654041806576",
@@ -404,7 +404,7 @@ var json = {
                         "text": "But I know of him"
                     },
                     {
-                        "date": "13 minutes ago",
+                        "date": "18 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -413,7 +413,7 @@ var json = {
                         "text": "@TH3 ROUG3 L3G3ND<br>1. I'm a he, just so you know.<br>2. It won't be a year until I make another program. XD It just won't be as often as I usually make them.<br>3. My name is Ace Rogers, there's no \"d\" in Rogers. :P"
                     },
                     {
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
@@ -422,7 +422,7 @@ var json = {
                         "text": "It was just a joke and I didn't want people saying \"you can't assume gender\" or anything like that (sorry about misspelling your name!)"
                     },
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -431,7 +431,7 @@ var json = {
                         "text": "I figured it was a joke. :P<br>Yeah, I understand that. I just wanted to let you know so you didn't have to keep writing \"he/she\". :)<br>It's fine, you're not the first to spell my name like that. XP"
                     },
                     {
-                        "date": "a few seconds ago",
+                        "date": "5 minutes ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
