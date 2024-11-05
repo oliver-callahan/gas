@@ -120,7 +120,7 @@ var json = {
                         "text": "I see he released it for a on his subpage... so it was clearly more then for a friend... cause other wise he would've just dmed AR...<br><br>there is only one reason for you to release something on your subpage. For votes.<br><br>All I'm asking is for more effort to be put into this. Because these days programmers just aren't trying their best. Or really trying that hard at all."
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -213,7 +213,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "6 minutes ago",
+                "date": "11 minutes ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -224,7 +224,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
