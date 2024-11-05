@@ -3,7 +3,7 @@ var json = {
     "title": "For A Friend",
     "votes": 43,
     "created": "9 hours ago",
-    "updated": "39 minutes ago",
+    "updated": "44 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Norwegian Pathways",
@@ -45,7 +45,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 4,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "Stitch Girl💠",
                     "id": "kaid_6490115305785159643926933",
@@ -181,7 +181,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "27 minutes ago",
+                "date": "32 minutes ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -209,7 +209,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "37 minutes ago",
+                "date": "42 minutes ago",
                 "author": {
                     "name": "Avenger(Off)",
                     "id": "kaid_9032986298497221170369627",
@@ -223,7 +223,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 0,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
@@ -243,7 +243,7 @@ var json = {
                         "text": "Oh, did he collab with you?"
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
