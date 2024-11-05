@@ -66,7 +66,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -177,7 +177,7 @@ var json = {
                         "text": "I dunno, why not"
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -225,7 +225,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -266,7 +266,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "HACK",
                     "id": "kaid_6815067100354522609320825",
@@ -305,7 +305,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -318,7 +318,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "24 minutes ago",
+                "date": "29 minutes ago",
                 "author": {
                     "name": "goat120",
                     "id": "kaid_1167989604939556743383715",
@@ -360,7 +360,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "23 minutes ago",
+                "date": "28 minutes ago",
                 "author": {
                     "name": "Lightning",
                     "id": "kaid_293295321613227018876720",
@@ -371,7 +371,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -423,7 +423,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
