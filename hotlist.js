@@ -42,7 +42,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 minutes ago",
+                        "date": "9 minutes ago",
                         "author": {
                             "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
                             "id": "kaid_706406430552760652245376",
@@ -136,7 +136,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "𝕭𝖑𝖚𝖊 𝕲𝖍𝖔𝖚𝖑",
                             "id": "kaid_6776820901948503135214173",
@@ -184,6 +184,20 @@ var json = {
                     "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
                 },
                 "text": "We'll miss Ace!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 minutes ago",
+                "author": {
+                    "name": "Hokeycat",
+                    "id": "kaid_438466413527508491816275",
+                    "avatar": "/images/avatars/svg/blobby-green.svg"
+                },
+                "text": "I didn't exactly know you but have seen several of your projects.<br>Bye, anyway!",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -244,7 +258,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Lightning",
                             "id": "kaid_293295321613227018876720",
@@ -253,7 +267,7 @@ var json = {
                         "text": "Oh, did he collab with you?"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
