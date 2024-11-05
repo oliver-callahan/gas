@@ -2,7 +2,7 @@ var json = {
     "code": "/**\n\n\n              \n              Thank you so much Ace Rogers!\n\n\n\n\n*/\n\n\n//Background{\n\nvar COLOR1 = color(0, 0, 0);\nvar COLOR2 = color(0, 0, 250);\n\nfor (var i = 0; i < 600; i++) {\nstroke(lerpColor(COLOR1, COLOR2, i/600));\nline(0, 0 + i, 600, 0 + i);\n}\n\n//}\n\n\n//Text{\ntextFont(createFont(\"Arial Black Italic\"),40);\n\ntextAlign(CENTER,CENTER);\ntext(\"In Memory of Ace Rogers\",300,535);\n\ntextSize(20);\ntext(\"Leaving KA for a righteous cause...\",300,30);\n\ntext(\"Fights against the laws...\",300,70);\n\ntext(\"A noble friend...\",300,110);\n\ntext(\"Causing the universe to bend...\",300,150);\n\ntext(\"Thank you for all of your time...\",300,190);\n\ntext(\"Helping me with the toss of a dime...\",300,230);\n\ntext(\"You deserve to have less stress...\",300,270);\n\ntext(\"For pulling me out of my mess...\",300,310);\n\ntext(\"You're a great friend, you are...\",300,350);\n\ntext(\"With me away; far...\",300,390);\n\ntext(\"Thank you so much...\",300,430);\n\ntext(\"For your coding touch.\",300,470);\n\n//}",
     "title": "For A Friend",
     "votes": 43,
-    "created": "9 hours ago",
+    "created": "10 hours ago",
     "updated": "2 hours ago",
     "type": "PJS",
     "author": {
@@ -29,9 +29,9 @@ var json = {
     "posts": {
         "tips": [
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 8,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "Duke",
                     "id": "kaid_351465532815782433620675",
@@ -42,13 +42,22 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "34 minutes ago",
+                        "date": "39 minutes ago",
                         "author": {
                             "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
                             "id": "kaid_706406430552760652245376",
                             "avatar": "/images/avatars/svg/cacteye-yellow.svg"
                         },
                         "text": "for those who know 🤫💀"
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "the worst part is its on the top of the hl💀😭"
                     }
                 ]
             },
@@ -109,23 +118,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
-                "votes": 2,
-                "date": "9 hours ago",
-                "author": {
-                    "name": "kitty mascot",
-                    "id": "kaid_1066778980955332043559618",
-                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                },
-                "text": "beautiful program. we will remember him!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "- S p a r t a - Off",
                     "id": "kaid_546205135843777431062822",
@@ -148,28 +143,14 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 2,
-                "date": "4 hours ago",
+                "votes": 1,
+                "date": "9 hours ago",
                 "author": {
-                    "name": "RomanStarCoder ⭐",
-                    "id": "kaid_68859322444115567573661",
-                    "avatar": "/images/avatars/svg/blobby-blue.svg"
+                    "name": "kitty mascot",
+                    "id": "kaid_1066778980955332043559618",
+                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                 },
-                "text": "<b>not Ace</b>!  😭 😭 I do get it if it's a stress related thing or family matters but one blue-handed salute to him!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 2,
-                "date": "6 hours ago",
-                "author": {
-                    "name": "ZyanU",
-                    "id": "kaid_891143278848047069080086",
-                    "avatar": "/images/avatars/svg/starky-tree.svg"
-                },
-                "text": "I bid adieu, Ace Rogers!",
+                "text": "beautiful program. we will remember him!",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -191,7 +172,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "27 minutes ago",
+                "date": "32 minutes ago",
                 "author": {
                     "name": "Hokeycat",
                     "id": "kaid_438466413527508491816275",
@@ -226,6 +207,34 @@ var json = {
                     "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                 },
                 "text": "Bye Bye We Will Miss you :(",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "4 hours ago",
+                "author": {
+                    "name": "RomanStarCoder ⭐",
+                    "id": "kaid_68859322444115567573661",
+                    "avatar": "/images/avatars/svg/blobby-blue.svg"
+                },
+                "text": "<b>not Ace</b>!  😭 😭 I do get it if it's a stress related thing or family matters but one blue-handed salute to him!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "7 hours ago",
+                "author": {
+                    "name": "ZyanU",
+                    "id": "kaid_891143278848047069080086",
+                    "avatar": "/images/avatars/svg/starky-tree.svg"
+                },
+                "text": "I bid adieu, Ace Rogers!",
                 "locked": false,
                 "pinned": false,
                 "replies": []
