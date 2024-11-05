@@ -88,7 +88,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 2,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "Stitch Girl💠",
                     "id": "kaid_6490115305785159643926933",
@@ -172,7 +172,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 0,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
@@ -219,7 +219,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
