@@ -186,7 +186,7 @@ var json = {
                         "text": "don't you love how the chatbot that represents me is so accurate to my disposition towards lameness?"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -274,7 +274,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -312,7 +312,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "AlIEN",
                     "id": "kaid_213001050410218690794137",
@@ -326,7 +326,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "AlIEN",
                     "id": "kaid_213001050410218690794137",
@@ -440,7 +440,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Mr. X",
                     "id": "kaid_860766137188997026711729",
