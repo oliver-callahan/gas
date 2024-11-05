@@ -84,7 +84,7 @@ var json = {
                         "text": "I don't see why they couldn't :)"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -180,7 +180,7 @@ var json = {
                         "text": "11 lines hmm...<br>https://www.khanacademy.org/computer-programming/12/6241492017266688"
                     },
                     {
-                        "date": "38 minutes ago",
+                        "date": "43 minutes ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -193,7 +193,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
@@ -254,7 +254,7 @@ var json = {
                         "text": "You <b>are</b> joking, right?"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "SurprisedBee554",
                             "id": "kaid_488821177512154232567809",
