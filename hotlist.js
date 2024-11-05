@@ -1,7 +1,7 @@
 var json = {
     "code": "/**\n\n\n              \n              Thank you so much Ace Rogers!\n\n\n\n\n*/\n\n \n//Background{\n\nvar COLOR1 = color(0, 0, 0);\nvar COLOR2 = color(0, 0, 250);\n\nfor (var i = 0; i < 600; i++) {\nstroke(lerpColor(COLOR1, COLOR2, i/600));\nline(0, 0 + i, 600, 0 + i);\n}\n\n//}\n\n\n//Text{\ntextFont(createFont(\"Arial Black Italic\"),40);\n\ntextAlign(CENTER,CENTER);\ntext(\"In Memory of Ace Rogers\",300,535);\n\ntextSize(20);\ntext(\"Leaving KA for a righteous cause...\",300,30);\n\ntext(\"Fights against the laws...\",300,70);\n\ntext(\"A noble friend...\",300,110);\n\ntext(\"Causing the universe to bend...\",300,150);\n\ntext(\"Thank you for all of your time...\",300,190);\n\ntext(\"Helping me with the toss of a dime...\",300,230);\n\ntext(\"You deserve to have less stress...\",300,270);\n\ntext(\"For pulling me out of my mess...\",300,310);\n\ntext(\"You're a great friend, you are...\",300,350);\n\ntext(\"With me away; far...\",300,390);\n\ntext(\"Thank you so much...\",300,430);\n\ntext(\"For your coding touch.\",300,470);\n\n//}",
     "title": "For A Friend",
-    "votes": 58,
+    "votes": 59,
     "created": "a day ago",
     "updated": "7 hours ago",
     "type": "PJS",
@@ -386,7 +386,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Lightning",
                             "id": "kaid_293295321613227018876720",
@@ -404,7 +404,7 @@ var json = {
                         "text": "But I know of him"
                     },
                     {
-                        "date": "28 minutes ago",
+                        "date": "33 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -413,7 +413,7 @@ var json = {
                         "text": "@TH3 ROUG3 L3G3ND<br>1. I'm a he, just so you know.<br>2. It won't be a year until I make another program. XD It just won't be as often as I usually make them.<br>3. My name is Ace Rogers, there's no \"d\" in Rogers. :P"
                     },
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
@@ -422,7 +422,7 @@ var json = {
                         "text": "It was just a joke and I didn't want people saying \"you can't assume gender\" or anything like that (sorry about misspelling your name!)"
                     },
                     {
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -431,7 +431,7 @@ var json = {
                         "text": "I figured it was a joke. :P<br>Yeah, I understand that. I just wanted to let you know so you didn't have to keep writing \"he/she\". :)<br>It's fine, you're not the first to spell my name like that. XP"
                     },
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
@@ -483,7 +483,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "𝕭𝖑𝖚𝖊 𝕲𝖍𝖔𝖚𝖑",
                             "id": "kaid_6776820901948503135214173",
