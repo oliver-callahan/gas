@@ -130,7 +130,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "39 minutes ago",
+                "date": "44 minutes ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
@@ -172,7 +172,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "",
                     "id": "kaid_1187559179045151249642085",
