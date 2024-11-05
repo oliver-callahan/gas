@@ -54,7 +54,7 @@ var json = {
             },
             {
                 "replyCount": 10,
-                "votes": 7,
+                "votes": 6,
                 "date": "17 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
@@ -129,7 +129,7 @@ var json = {
                         "text": "\"It's a simple program, but that doesn't make me a simple coder. I am going to release complicated programs (with two in the making), and maybe even some graphics.\" -NP<br>why make low quality programs? Won't that shine a bad picture on you?(by the beginners? no they love you because you made something about one of their favorite coders)<br>By people like Liam K? Green Ghost? Iron Programming?<br><br>I hope I have a decent name, that people respect me. that is what matters. I try my best to not make low quality programs. If I had time to make a high quality good bye program then I would've. But I didn't so I didn't make anything.<br><br>If you truly do have the skills to make great programs, do it!<br>Why waste your time making low quality ones? that is what it really come down to.<br><br>I had a huge comment typed out but I was afraid it was too mean so I got rid of a giant amount of it. Hopefully what I sent wasn't to mean... sorry if I am :("
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -171,7 +171,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "~The Wolf~",
                             "id": "kaid_6337778158362361978377342",
@@ -193,6 +193,20 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
+                "date": "an hour ago",
+                "author": {
+                    "name": "Ace Rogers (Off)",
+                    "id": "kaid_714276242204949021450419",
+                    "avatar": "/images/avatars/svg/leaf-blue.svg"
+                },
+                "text": "\"Fights against the law\"? When have I ever done that? XD I try not to fight against the law. XP<br><br>And I'd do this all again to help you. :)<br><br>There will come a day when I'll be more organized so I can help you again without stress. :)<br><br>I also still owe you a collaboration. XP<br><br>Thanks for making this. :)",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
                 "date": "7 hours ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
@@ -266,21 +280,21 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 1,
-                "date": "an hour ago",
+                "votes": 0,
+                "date": "17 hours ago",
                 "author": {
-                    "name": "Ace Rogers (On)",
-                    "id": "kaid_714276242204949021450419",
-                    "avatar": "/images/avatars/svg/leaf-blue.svg"
+                    "name": "Blocked by Taquavion",
+                    "id": "kaid_568819712822552226070124",
+                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                 },
-                "text": "\"Fights against the law\"? When have I ever done that? XD I try not to fight against the law. XP<br><br>And I'd do this all again to help you. :)<br><br>There will come a day when I'll be more organized so I can help you again without stress. :)<br><br>I also still owe you a collaboration. XP<br><br>Thanks for making this. :)",
+                "text": "Nobody said it would be so hard",
                 "locked": false,
                 "pinned": false,
                 "replies": []
             },
             {
                 "replyCount": 1,
-                "votes": 1,
+                "votes": 0,
                 "date": "5 hours ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
@@ -301,34 +315,6 @@ var json = {
                         "text": "I do."
                     }
                 ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 0,
-                "date": "an hour ago",
-                "author": {
-                    "name": "𝓧𝓛𝓟 [Off]",
-                    "id": "kaid_387597695665654041806576",
-                    "avatar": "/images/avatars/svg/piceratops-seed.svg"
-                },
-                "text": "wow... people hate poems... why i ask... why!?!?<br><br>Good job! :)",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 0,
-                "date": "17 hours ago",
-                "author": {
-                    "name": "Blocked by Taquavion",
-                    "id": "kaid_568819712822552226070124",
-                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                },
-                "text": "Nobody said it would be so hard",
-                "locked": false,
-                "pinned": false,
-                "replies": []
             },
             {
                 "replyCount": 0,
@@ -361,7 +347,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "",
                     "id": "kaid_1187559179045151249642085",
@@ -404,16 +390,16 @@ var json = {
                         "text": "But I know of him"
                     },
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "@TH3 ROUG3 L3G3ND<br>1. I'm a he, just so you know.<br>2. It won't be a year until I make another program. XD It just won't be as often as I usually make them.<br>3. My name is Ace Rogers, there's no \"d\" in Rogers. :P"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
@@ -422,16 +408,16 @@ var json = {
                         "text": "It was just a joke and I didn't want people saying \"you can't assume gender\" or anything like that (sorry about misspelling your name!)"
                     },
                     {
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "I figured it was a joke. :P<br>Yeah, I understand that. I just wanted to let you know so you didn't have to keep writing \"he/she\". :)<br>It's fine, you're not the first to spell my name like that. XP"
                     },
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
@@ -440,6 +426,20 @@ var json = {
                         "text": "sorry I have a grandparent with his name spelled like Rodger"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 0,
+                "date": "an hour ago",
+                "author": {
+                    "name": "𝓧𝓛𝓟 [Off]",
+                    "id": "kaid_387597695665654041806576",
+                    "avatar": "/images/avatars/svg/piceratops-seed.svg"
+                },
+                "text": "wow... people hate poems... why i ask... why!?!?<br><br>Good job! :)",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 0,
