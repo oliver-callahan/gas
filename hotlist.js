@@ -84,7 +84,7 @@ var json = {
                         "text": "For now, yes he is. He was under too much stress, so he decided to step away for a little while."
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -93,7 +93,7 @@ var json = {
                         "text": "Aww. He's such a good friend!"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -172,7 +172,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "12 minutes ago",
+                "date": "17 minutes ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -214,7 +214,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 minutes ago",
+                "date": "15 minutes ago",
                 "author": {
                     "name": "Blocked by Taquavion",
                     "id": "kaid_568819712822552226070124",
