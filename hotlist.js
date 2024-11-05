@@ -3,7 +3,7 @@ var json = {
     "title": "For A Friend",
     "votes": 58,
     "created": "a day ago",
-    "updated": "6 hours ago",
+    "updated": "7 hours ago",
     "type": "PJS",
     "author": {
         "name": "Norwegian Pathways",
@@ -180,7 +180,7 @@ var json = {
                         "text": "11 lines hmm...<br>https://www.khanacademy.org/computer-programming/12/6241492017266688"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -200,20 +200,6 @@ var json = {
                     "avatar": "/images/avatars/svg/boggle-blue.svg"
                 },
                 "text": "just words and 1st on the HL >:(",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "31 minutes ago",
-                "author": {
-                    "name": "𝓧𝓛𝓟 [On]",
-                    "id": "kaid_387597695665654041806576",
-                    "avatar": "/images/avatars/svg/piceratops-seed.svg"
-                },
-                "text": "wow... people hate poems... why i ask... why!?!?<br><br>Good job! :)",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -281,7 +267,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "37 minutes ago",
+                "date": "42 minutes ago",
                 "author": {
                     "name": "Ace Rogers (On)",
                     "id": "kaid_714276242204949021450419",
@@ -295,7 +281,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -306,7 +292,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -315,6 +301,20 @@ var json = {
                         "text": "I do."
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 0,
+                "date": "36 minutes ago",
+                "author": {
+                    "name": "𝓧𝓛𝓟 [On]",
+                    "id": "kaid_387597695665654041806576",
+                    "avatar": "/images/avatars/svg/piceratops-seed.svg"
+                },
+                "text": "wow... people hate poems... why i ask... why!?!?<br><br>Good job! :)",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 0,
@@ -373,7 +373,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 3,
+                "replyCount": 6,
                 "votes": 0,
                 "date": "a day ago",
                 "author": {
@@ -404,13 +404,40 @@ var json = {
                         "text": "But I know of him"
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "@TH3 ROUG3 L3G3ND<br>1. I'm a he, just so you know.<br>2. It won't be a year until I make another program. XD It just won't be as often as I usually make them.<br>3. My name is Ace Rogers, there's no \"d\" in Rogers. :P"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "TH3 ROUG3 L3G3ND™",
+                            "id": "kaid_2809101008758048501324524",
+                            "avatar": "/images/avatars/svg/boggle-blue.svg"
+                        },
+                        "text": "It was just a joke and I didn't want people saying \"you can't assume gender\" or anything like that (sorry about misspelling your name!)"
+                    },
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "I figured it was a joke. :P<br>Yeah, I understand that. I just wanted to let you know so you didn't have to keep writing \"he/she\". :)<br>It's fine, you're not the first to spell my name like that. XP"
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "TH3 ROUG3 L3G3ND™",
+                            "id": "kaid_2809101008758048501324524",
+                            "avatar": "/images/avatars/svg/boggle-blue.svg"
+                        },
+                        "text": "sorry I have a grandparent with his name spelled like Rodger"
                     }
                 ]
             },
