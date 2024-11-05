@@ -62,7 +62,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 7,
+                "replyCount": 8,
                 "votes": 7,
                 "date": "12 hours ago",
                 "author": {
@@ -84,7 +84,7 @@ var json = {
                         "text": "I know right... and everyone is loving it... :/"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -102,7 +102,7 @@ var json = {
                         "text": "Look man, I collabed with ace a couple times, and we talked a lot, gave feedback a lot, and were friends.(defining it the same way everyone else does)<br>Ace made quality programs, quality graphics, quality games, and helped people so they could make more quality programs.<br>And I find that it's sad to see that everyone is loving a extremely low quality program.  46 people are for just text.<br><br>Would Ace approve? He would be sad to see this on the hl but he wouldn't come out and say anything but thanks guys. Because he is nice.(nicer then me haha)<br><br>sorry if this came off hard..."
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Cookie",
                             "id": "kaid_1826046083730180486895887",
@@ -129,13 +129,22 @@ var json = {
                         "text": "Ok. Thanks for that. <br><br>First off, I don't care about the votes. I want to raise awareness for Ace and show that every person who upvoted this approved of him and is upset he is leaving. I released it on my subpage so everyone would see it in order to let reality settle in and hopefully understand why I made it in the first place. <br><br>It's a tribute to him, and \"For A Friend\" implies that it was for him. It wasn't intended to imply that he is a recipient, but as myself releasing a program attributed to him instead.<br><br>It's a simple program, but that doesn't make me a simple coder. I am going to release complicated programs (with two in the making), and maybe even some graphics. <br><br>Moreover, I made this program to be simple; I want people to only focus on what's there. I'm not sure if you're aware, but programs aren't about votes or how many lines of code it has; it's about the message the code is meant to convey. <br><br>I don't appreciate when people criticize a perfectly good program. I want KA to be a place where coders can respect other works; even when they aren't great. I know you may think of this program as simple, but to me (and many others) it's a work of art portraying the meaning of friendship, and what happens when you lose that.<br><br>I'm sorry you feel this way about this program, but I have 50 others who would probably disagree with you. Your opinion is fine, but I am justifying my side of the case.<br><br>As Cookie said (Thanks, Cookie!), It's not my fault it got lots of votes."
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
                         "text": "\"It's a simple program, but that doesn't make me a simple coder. I am going to release complicated programs (with two in the making), and maybe even some graphics.\" -NP<br>why make low quality programs? Won't that shine a bad picture on you?(by the beginners? no they love you because you made something about one of their favorite coders)<br>By people like Liam K? Green Ghost? Iron Programming?<br><br>I hope I have a decent name, that people respect me. that is what matters. I try my best to not make low quality programs. If I had time to make a high quality good bye program then I would've. But I didn't so I didn't make anything.<br><br>If you truly do have the skills to make great programs, do it!<br>Why waste your time making low quality ones? that is what it really come down to.<br><br>I had a huge comment typed out but I was afraid it was too mean so I got rid of a giant amount of it. Hopefully what I sent wasn't to mean... sorry if I am :("
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "Norwegian Pathways",
+                            "id": "kaid_1082366231138740611717261",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "I accept your apology. You're right. I shouldn't make any low quality programs. Although, I did add the gradient to make a better quality. I'm sorry if you feel that way about me and think I'm a low quality coder."
                     }
                 ]
             },
@@ -222,7 +231,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "31 minutes ago",
+                "date": "36 minutes ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -233,7 +242,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
