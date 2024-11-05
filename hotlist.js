@@ -3,7 +3,7 @@ var json = {
     "title": "For A Friend",
     "votes": 47,
     "created": "21 hours ago",
-    "updated": "26 minutes ago",
+    "updated": "31 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Norwegian Pathways",
@@ -84,7 +84,7 @@ var json = {
                         "text": "I know right... and everyone is loving it... :/"
                     },
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -93,7 +93,7 @@ var json = {
                         "text": "I don't see why they couldn't :)"
                     },
                     {
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -130,7 +130,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "15 minutes ago",
+                "date": "20 minutes ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
