@@ -3,7 +3,7 @@ var json = {
     "title": "ACT 2 (2x better)",
     "votes": 49,
     "created": "a day ago",
-    "updated": "36 minutes ago",
+    "updated": "41 minutes ago",
     "type": "HTML",
     "author": {
         "name": "wealR",
@@ -195,7 +195,7 @@ var json = {
                         "text": "@mathlete11 maybe cause I'm not the maker of the program lol<br><br>@wealR oh yeah you did so good at it. so good that is isn't even lame >:)<br>like if you were to put me in there I would be soooo lame"
                     },
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -260,7 +260,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "HACK",
                     "id": "kaid_6815067100354522609320825",
@@ -375,7 +375,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
