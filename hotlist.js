@@ -62,8 +62,32 @@ var json = {
                 ]
             },
             {
+                "replyCount": 1,
+                "votes": 3,
+                "date": "an hour ago",
+                "author": {
+                    "name": "Ibraheem Ahmed (IA)",
+                    "id": "kaid_42165633374795610935956",
+                    "avatar": "/images/avatars/svg/spunky-sam.svg"
+                },
+                "text": "First on the HL; code: \"<code>text</code>... <code>text</code>... <code>text</code>... <code>text</code>... <code>text</code>...\"<br><br>:(",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "28 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "I know right... and everyone is loving it... :/"
+                    }
+                ]
+            },
+            {
                 "replyCount": 3,
-                "votes": 4,
+                "votes": 2,
                 "date": "11 hours ago",
                 "author": {
                     "name": "Stitch Girl💠",
@@ -105,7 +129,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 3,
+                "votes": 2,
                 "date": "11 hours ago",
                 "author": {
                     "name": "Luke Ellis",
@@ -118,56 +142,8 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 1,
-                "votes": 2,
-                "date": "42 minutes ago",
-                "author": {
-                    "name": "Ibraheem Ahmed (IA)",
-                    "id": "kaid_42165633374795610935956",
-                    "avatar": "/images/avatars/svg/spunky-sam.svg"
-                },
-                "text": "First on the HL; code: \"<code>text</code>... <code>text</code>... <code>text</code>... <code>text</code>... <code>text</code>...\"<br><br>:(",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "23 minutes ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I know right... and everyone is loving it... :/"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 2,
-                "date": "11 hours ago",
-                "author": {
-                    "name": "- S p a r t a - Off",
-                    "id": "kaid_546205135843777431062822",
-                    "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
-                },
-                "text": "First. 258",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "5 hours ago",
-                        "author": {
-                            "name": "𝕭𝖑𝖚𝖊 𝕲𝖍𝖔𝖚𝖑",
-                            "id": "kaid_6776820901948503135214173",
-                            "avatar": "/images/avatars/svg/area-52-blue.svg"
-                        },
-                        "text": "Nahh<br>Bro really tryna speedrun a poem💀💀💀💀"
-                    }
-                ]
-            },
-            {
                 "replyCount": 0,
-                "votes": 1,
+                "votes": 0,
                 "date": "11 hours ago",
                 "author": {
                     "name": "kitty mascot",
@@ -175,34 +151,6 @@ var json = {
                     "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                 },
                 "text": "beautiful program. we will remember him!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "6 hours ago",
-                "author": {
-                    "name": "RomanStarCoder ⭐",
-                    "id": "kaid_68859322444115567573661",
-                    "avatar": "/images/avatars/svg/blobby-blue.svg"
-                },
-                "text": "<b>not Ace</b>!  😭 😭 I do get it if it's a stress related thing or family matters but one blue-handed salute to him!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "8 hours ago",
-                "author": {
-                    "name": "ZyanU",
-                    "id": "kaid_891143278848047069080086",
-                    "avatar": "/images/avatars/svg/starky-tree.svg"
-                },
-                "text": "I bid adieu, Ace Rogers!",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -283,9 +231,33 @@ var json = {
                 "replies": []
             },
             {
+                "replyCount": 1,
+                "votes": 0,
+                "date": "11 hours ago",
+                "author": {
+                    "name": "- S p a r t a - Off",
+                    "id": "kaid_546205135843777431062822",
+                    "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
+                },
+                "text": "First. 258",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "5 hours ago",
+                        "author": {
+                            "name": "𝕭𝖑𝖚𝖊 𝕲𝖍𝖔𝖚𝖑",
+                            "id": "kaid_6776820901948503135214173",
+                            "avatar": "/images/avatars/svg/area-52-blue.svg"
+                        },
+                        "text": "Nahh<br>Bro really tryna speedrun a poem💀💀💀💀"
+                    }
+                ]
+            },
+            {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "40 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Blocked by Taquavion",
                     "id": "kaid_568819712822552226070124",
@@ -306,6 +278,34 @@ var json = {
                     "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                 },
                 "text": "Bye Bye We Will Miss you :(",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 0,
+                "date": "6 hours ago",
+                "author": {
+                    "name": "RomanStarCoder ⭐",
+                    "id": "kaid_68859322444115567573661",
+                    "avatar": "/images/avatars/svg/blobby-blue.svg"
+                },
+                "text": "<b>not Ace</b>!  😭 😭 I do get it if it's a stress related thing or family matters but one blue-handed salute to him!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 0,
+                "date": "8 hours ago",
+                "author": {
+                    "name": "ZyanU",
+                    "id": "kaid_891143278848047069080086",
+                    "avatar": "/images/avatars/svg/starky-tree.svg"
+                },
+                "text": "I bid adieu, Ace Rogers!",
                 "locked": false,
                 "pinned": false,
                 "replies": []
