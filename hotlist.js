@@ -265,6 +265,20 @@ var json = {
                 ]
             },
             {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 minutes ago",
+                "author": {
+                    "name": "Ace Rogers (On)",
+                    "id": "kaid_714276242204949021450419",
+                    "avatar": "/images/avatars/svg/leaf-blue.svg"
+                },
+                "text": "\"Fights against the law\"? When have I ever done that? XD I try not to fight against the law. XP<br><br>And I'd do this all again to help you. :)<br><br>There will come a day when I'll be more organized so I can help you again without stress. :)<br><br>I also still owe you a collaboration. XP<br><br>Thanks for making this. :)",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
                 "replyCount": 1,
                 "votes": 1,
                 "date": "4 hours ago",
@@ -358,7 +372,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Lightning",
                             "id": "kaid_293295321613227018876720",
@@ -419,7 +433,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "𝕭𝖑𝖚𝖊 𝕲𝖍𝖔𝖚𝖑",
                             "id": "kaid_6776820901948503135214173",
