@@ -108,7 +108,7 @@ var json = {
                         "text": "For now, yes he is. He was under too much stress, so he decided to step away for a little while."
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -117,7 +117,7 @@ var json = {
                         "text": "Aww. He's such a good friend!"
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
