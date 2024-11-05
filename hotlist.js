@@ -63,7 +63,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 5,
+                "votes": 6,
                 "date": "8 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
