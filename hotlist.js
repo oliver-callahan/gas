@@ -42,7 +42,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
                             "id": "kaid_706406430552760652245376",
@@ -62,7 +62,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 4,
+                "replyCount": 5,
                 "votes": 7,
                 "date": "11 hours ago",
                 "author": {
@@ -75,7 +75,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -102,13 +102,22 @@ var json = {
                         "text": "Look man, I collabed with ace a couple times, and we talked a lot, gave feedback a lot, and were friends.(defining it the same way everyone else does)<br>Ace made quality programs, quality graphics, quality games, and helped people so they could make more quality programs.<br>And I find that it's sad to see that everyone is loving a extremely low quality program.  46 people are for just text.<br><br>Would Ace approve? He would be sad to see this on the hl but he wouldn't come out and say anything but thanks guys. Because he is nice.(nicer then me haha)<br><br>sorry if this came off hard..."
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "Cookie",
                             "id": "kaid_1826046083730180486895887",
                             "avatar": "/images/avatars/svg/leafers-sapling.svg"
                         },
                         "text": "As the title implies, it's \"For a friend\" It's not NP's fault it got a lot of votes."
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "I see he released it for a on his subpage... so it was clearly more then for a friend... cause other wise he would've just dmed AR..."
                     }
                 ]
             },
