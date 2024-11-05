@@ -3,7 +3,7 @@ var json = {
     "title": "For A Friend",
     "votes": 42,
     "created": "8 hours ago",
-    "updated": "24 minutes ago",
+    "updated": "29 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Norwegian Pathways",
@@ -205,7 +205,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "12 minutes ago",
+                "date": "17 minutes ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -233,7 +233,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "22 minutes ago",
+                "date": "27 minutes ago",
                 "author": {
                     "name": "Avenger(On)",
                     "id": "kaid_9032986298497221170369627",
