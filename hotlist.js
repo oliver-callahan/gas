@@ -1,9 +1,9 @@
 var json = {
     "code": "/**\n\n\n              \n              Thank you so much Ace Rogers!\n\n\n\n\n*/\n\n\n//Background{\n\nvar COLOR1 = color(0, 0, 0);\nvar COLOR2 = color(0, 0, 250);\n\nfor (var i = 0; i < 600; i++) {\nstroke(lerpColor(COLOR1, COLOR2, i/600));\nline(0, 0 + i, 600, 0 + i);\n}\n\n//}\n\n\n//Text{\ntextFont(createFont(\"Arial Black Italic\"),40);\n\ntextAlign(CENTER,CENTER);\ntext(\"In Memory of Ace Rogers\",300,535);\n\ntextSize(20);\ntext(\"Leaving KA for a righteous cause...\",300,30);\n\ntext(\"Fights against the laws...\",300,70);\n\ntext(\"A noble friend...\",300,110);\n\ntext(\"Causing the universe to bend...\",300,150);\n\ntext(\"Thank you for all of your time...\",300,190);\n\ntext(\"Helping me with the toss of a dime...\",300,230);\n\ntext(\"You deserve to have less stress...\",300,270);\n\ntext(\"For pulling me out of my mess...\",300,310);\n\ntext(\"You're a great friend, you are...\",300,350);\n\ntext(\"With me away; far...\",300,390);\n\ntext(\"Thank you so much...\",300,430);\n\ntext(\"For your coding touch.\",300,470);\n\n//}",
     "title": "For A Friend",
-    "votes": 42,
+    "votes": 43,
     "created": "8 hours ago",
-    "updated": "29 minutes ago",
+    "updated": "34 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Norwegian Pathways",
@@ -179,7 +179,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 1,
                 "date": "5 hours ago",
                 "author": {
@@ -199,13 +199,22 @@ var json = {
                             "avatar": "/images/avatars/svg/primosaur-tree.svg"
                         },
                         "text": "Oh, did he collab with you?"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "TH3 ROUG3 L3G3ND™",
+                            "id": "kaid_2809101008758048501324524",
+                            "avatar": "/images/avatars/svg/boggle-blue.svg"
+                        },
+                        "text": "But I know of him"
                     }
                 ]
             },
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "17 minutes ago",
+                "date": "22 minutes ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -233,9 +242,9 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "27 minutes ago",
+                "date": "32 minutes ago",
                 "author": {
-                    "name": "Avenger(On)",
+                    "name": "Avenger(Off)",
                     "id": "kaid_9032986298497221170369627",
                     "avatar": "/images/avatars/svg/leaf-blue.svg"
                 },
