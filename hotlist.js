@@ -3,7 +3,7 @@ var json = {
     "title": "For A Friend",
     "votes": 49,
     "created": "a day ago",
-    "updated": "an hour ago",
+    "updated": "2 hours ago",
     "type": "PJS",
     "author": {
         "name": "Norwegian Pathways",
@@ -102,7 +102,7 @@ var json = {
                         "text": "Look man, I collabed with ace a couple times, and we talked a lot, gave feedback a lot, and were friends.(defining it the same way everyone else does)<br>Ace made quality programs, quality graphics, quality games, and helped people so they could make more quality programs.<br>And I find that it's sad to see that everyone is loving a extremely low quality program.  46 people are for just text.<br><br>Would Ace approve? He would be sad to see this on the hl but he wouldn't come out and say anything but thanks guys. Because he is nice.(nicer then me haha)<br><br>sorry if this came off hard..."
                     },
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "Cookie",
                             "id": "kaid_1826046083730180486895887",
@@ -111,7 +111,7 @@ var json = {
                         "text": "As the title implies, it's \"For a friend\" It's not NP's fault it got a lot of votes."
                     },
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -204,7 +204,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
