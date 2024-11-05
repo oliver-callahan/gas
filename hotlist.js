@@ -51,7 +51,7 @@ var json = {
                         "text": "for those who know 🤫💀"
                     },
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
