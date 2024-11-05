@@ -3,7 +3,7 @@ var json = {
     "title": "For A Friend",
     "votes": 54,
     "created": "a day ago",
-    "updated": "4 hours ago",
+    "updated": "5 hours ago",
     "type": "PJS",
     "author": {
         "name": "Norwegian Pathways",
@@ -180,7 +180,7 @@ var json = {
                         "text": "11 lines hmm...<br>https://www.khanacademy.org/computer-programming/12/6241492017266688"
                     },
                     {
-                        "date": "28 minutes ago",
+                        "date": "33 minutes ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -254,7 +254,7 @@ var json = {
                         "text": "You <b>are</b> joking, right?"
                     },
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "SurprisedBee554",
                             "id": "kaid_488821177512154232567809",
@@ -267,7 +267,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -278,7 +278,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
