@@ -372,7 +372,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Lightning",
                             "id": "kaid_293295321613227018876720",
@@ -390,7 +390,7 @@ var json = {
                         "text": "But I know of him"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -483,7 +483,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "𝕭𝖑𝖚𝖊 𝕲𝖍𝖔𝖚𝖑",
                             "id": "kaid_6776820901948503135214173",
