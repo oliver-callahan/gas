@@ -64,7 +64,7 @@ var json = {
             {
                 "replyCount": 6,
                 "votes": 7,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -111,7 +111,7 @@ var json = {
                         "text": "As the title implies, it's \"For a friend\" It's not NP's fault it got a lot of votes."
                     },
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -120,7 +120,7 @@ var json = {
                         "text": "I see he released it for a on his subpage... so it was clearly more then for a friend... cause other wise he would've just dmed AR...<br><br>there is only one reason for you to release something on your subpage. For votes.<br><br>All I'm asking is for more effort to be put into this. Because these days programmers just aren't trying their best. Or really trying that hard at all."
                     },
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -133,7 +133,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 4,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
@@ -227,7 +227,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "Blocked by Taquavion",
                     "id": "kaid_568819712822552226070124",
