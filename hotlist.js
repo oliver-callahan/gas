@@ -158,7 +158,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 4,
                 "date": "9 hours ago",
                 "author": {
@@ -178,6 +178,15 @@ var json = {
                             "avatar": "/images/avatars/svg/blobby-green.svg"
                         },
                         "text": "11 lines hmm...<br>https://www.khanacademy.org/computer-programming/12/6241492017266688"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Ezra",
+                            "id": "kaid_1112279572017452692208390",
+                            "avatar": "/images/avatars/svg/leaf-red.svg"
+                        },
+                        "text": "@wealR not as lame as my stuff >:)"
                     }
                 ]
             },
@@ -236,7 +245,7 @@ var json = {
                         "text": "Yes he was."
                     },
                     {
-                        "date": "29 minutes ago",
+                        "date": "34 minutes ago",
                         "author": {
                             "name": "YA",
                             "id": "kaid_3563621891021365862686148",
@@ -428,7 +437,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "RomanStarCoder ⭐",
                     "id": "kaid_68859322444115567573661",
