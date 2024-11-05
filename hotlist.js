@@ -108,7 +108,7 @@ var json = {
                         "text": "For now, yes he is. He was under too much stress, so he decided to step away for a little while."
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -117,7 +117,7 @@ var json = {
                         "text": "Aww. He's such a good friend!"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -306,20 +306,6 @@ var json = {
                     "avatar": "/images/avatars/svg/starky-tree.svg"
                 },
                 "text": "I bid adieu, Ace Rogers!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 0,
-                "date": "5 hours ago",
-                "author": {
-                    "name": "Avenger(Off)",
-                    "id": "kaid_9032986298497221170369627",
-                    "avatar": "/images/avatars/svg/leaf-blue.svg"
-                },
-                "text": "Goodbye Ace we'll all miss you!<br> 🫡",
                 "locked": false,
                 "pinned": false,
                 "replies": []
