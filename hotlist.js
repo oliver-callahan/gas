@@ -3,7 +3,7 @@ var json = {
     "title": "For A Friend",
     "votes": 52,
     "created": "a day ago",
-    "updated": "3 hours ago",
+    "updated": "4 hours ago",
     "type": "PJS",
     "author": {
         "name": "Norwegian Pathways",
@@ -196,8 +196,8 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 3,
-                "votes": 2,
+                "replyCount": 4,
+                "votes": 1,
                 "date": "a day ago",
                 "author": {
                     "name": "Stitch Girl💠",
@@ -234,13 +234,22 @@ var json = {
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "Yes he was."
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "YA",
+                            "id": "kaid_3563621891021365862686148",
+                            "avatar": "/images/avatars/svg/robot_female_3.svg"
+                        },
+                        "text": "You <b>are</b> joking, right?"
                     }
                 ]
             },
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -251,7 +260,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -263,20 +272,6 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "Luke Ellis",
-                    "id": "kaid_8535468719137003545030723",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "Yes, very nice poem. He will be back, though. . .",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
                 "votes": 0,
                 "date": "13 hours ago",
                 "author": {
@@ -285,6 +280,20 @@ var json = {
                     "avatar": "/images/avatars/svg/cs-ohnoes.svg"
                 },
                 "text": "Nobody said it would be so hard",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 0,
+                "date": "a day ago",
+                "author": {
+                    "name": "Luke Ellis",
+                    "id": "kaid_8535468719137003545030723",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "Yes, very nice poem. He will be back, though. . .",
                 "locked": false,
                 "pinned": false,
                 "replies": []
