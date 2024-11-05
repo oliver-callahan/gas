@@ -3,7 +3,7 @@ var json = {
     "title": "For A Friend",
     "votes": 39,
     "created": "8 hours ago",
-    "updated": "4 minutes ago",
+    "updated": "9 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Norwegian Pathways",
@@ -126,7 +126,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "𝕭𝖑𝖚𝖊 𝕲𝖍𝖔𝖚𝖑",
                             "id": "kaid_6776820901948503135214173",
@@ -164,7 +164,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Lightning",
                             "id": "kaid_293295321613227018876720",
@@ -219,7 +219,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 minutes ago",
+                "date": "7 minutes ago",
                 "author": {
                     "name": "Avenger(On)",
                     "id": "kaid_9032986298497221170369627",
