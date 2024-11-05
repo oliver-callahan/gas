@@ -149,7 +149,7 @@ var json = {
                         "text": "lol this chat is ridiculous XD"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -171,7 +171,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 4,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
                     "id": "kaid_706406430552760652245376",
@@ -279,7 +279,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 minutes ago",
+                "date": "9 minutes ago",
                 "author": {
                     "name": "goat120",
                     "id": "kaid_1167989604939556743383715",
@@ -321,7 +321,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 minutes ago",
+                "date": "8 minutes ago",
                 "author": {
                     "name": "Lightning",
                     "id": "kaid_293295321613227018876720",
@@ -377,7 +377,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "32 minutes ago",
+                "date": "37 minutes ago",
                 "author": {
                     "name": "Mr. X",
                     "id": "kaid_860766137188997026711729",
