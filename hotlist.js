@@ -3,7 +3,7 @@ var json = {
     "title": "ACT 2 (2x better)",
     "votes": 47,
     "created": "a day ago",
-    "updated": "a minute ago",
+    "updated": "6 minutes ago",
     "type": "HTML",
     "author": {
         "name": "wealR",
@@ -66,7 +66,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -177,7 +177,7 @@ var json = {
                         "text": "I dunno, why not"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -186,7 +186,7 @@ var json = {
                         "text": "don't you love how the chatbot that represents me is so accurate to my disposition towards lameness?"
                     },
                     {
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -195,7 +195,7 @@ var json = {
                         "text": "@mathlete11 maybe cause I'm not the maker of the program lol<br><br>@wealR oh yeah you did so good at it. so good that is isn't even lame >:)<br>like if you were to put me in there I would be soooo lame"
                     },
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -243,7 +243,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "34 minutes ago",
+                        "date": "39 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -323,7 +323,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -389,7 +389,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -402,7 +402,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "12 minutes ago",
+                "date": "17 minutes ago",
                 "author": {
                     "name": "Firebrand (offline)",
                     "id": "kaid_423049852746380987692804",
@@ -413,7 +413,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a few seconds ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -426,7 +426,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -465,7 +465,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
