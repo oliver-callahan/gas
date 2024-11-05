@@ -29,8 +29,8 @@ var json = {
     "posts": {
         "tips": [
             {
-                "replyCount": 0,
-                "votes": 7,
+                "replyCount": 1,
+                "votes": 8,
                 "date": "8 hours ago",
                 "author": {
                     "name": "Duke",
@@ -40,7 +40,17 @@ var json = {
                 "text": "The quality 💀",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
+                            "id": "kaid_706406430552760652245376",
+                            "avatar": "/images/avatars/svg/cacteye-yellow.svg"
+                        },
+                        "text": "for those who know 🤫💀"
+                    }
+                ]
             },
             {
                 "replyCount": 3,
@@ -195,7 +205,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "HACK",
                     "id": "kaid_6815067100354522609320825",
@@ -243,7 +253,7 @@ var json = {
                         "text": "Oh, did he collab with you?"
                     },
                     {
-                        "date": "28 minutes ago",
+                        "date": "33 minutes ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
