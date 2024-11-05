@@ -75,7 +75,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -106,7 +106,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -172,7 +172,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 minutes ago",
+                "date": "12 minutes ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -214,7 +214,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "5 minutes ago",
+                "date": "10 minutes ago",
                 "author": {
                     "name": "Blocked by Taquavion",
                     "id": "kaid_568819712822552226070124",
