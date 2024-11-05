@@ -1,9 +1,9 @@
 var json = {
     "code": "/**\n\n\n              \n              Thank you so much Ace Rogers!\n\n\n\n\n*/\n\n \n//Background{\n\nvar COLOR1 = color(0, 0, 0);\nvar COLOR2 = color(0, 0, 250);\n\nfor (var i = 0; i < 600; i++) {\nstroke(lerpColor(COLOR1, COLOR2, i/600));\nline(0, 0 + i, 600, 0 + i);\n}\n\n//}\n\n\n//Text{\ntextFont(createFont(\"Arial Black Italic\"),40);\n\ntextAlign(CENTER,CENTER);\ntext(\"In Memory of Ace Rogers\",300,535);\n\ntextSize(20);\ntext(\"Leaving KA for a righteous cause...\",300,30);\n\ntext(\"Fights against the laws...\",300,70);\n\ntext(\"A noble friend...\",300,110);\n\ntext(\"Causing the universe to bend...\",300,150);\n\ntext(\"Thank you for all of your time...\",300,190);\n\ntext(\"Helping me with the toss of a dime...\",300,230);\n\ntext(\"You deserve to have less stress...\",300,270);\n\ntext(\"For pulling me out of my mess...\",300,310);\n\ntext(\"You're a great friend, you are...\",300,350);\n\ntext(\"With me away; far...\",300,390);\n\ntext(\"Thank you so much...\",300,430);\n\ntext(\"For your coding touch.\",300,470);\n\n//}",
     "title": "For A Friend",
-    "votes": 46,
+    "votes": 47,
     "created": "20 hours ago",
-    "updated": "11 minutes ago",
+    "updated": "16 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Norwegian Pathways",
@@ -18,8 +18,8 @@ var json = {
         {
             "title": "12",
             "id": "6241492017266688",
-            "forks": 0,
-            "votes": 3,
+            "forks": 1,
+            "votes": 4,
             "author": {
                 "name": "~The Wolf~",
                 "id": "kaid_6337778158362361978377342"
@@ -42,7 +42,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
                             "id": "kaid_706406430552760652245376",
@@ -63,7 +63,7 @@ var json = {
             },
             {
                 "replyCount": 3,
-                "votes": 6,
+                "votes": 7,
                 "date": "10 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
@@ -75,7 +75,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -84,7 +84,7 @@ var json = {
                         "text": "I know right... and everyone is loving it... :/"
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -93,7 +93,7 @@ var json = {
                         "text": "I don't see why they couldn't :)"
                     },
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -117,7 +117,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "~The Wolf~",
                             "id": "kaid_6337778158362361978377342",
@@ -126,6 +126,20 @@ var json = {
                         "text": "11 lines hmm...<br>https://www.khanacademy.org/computer-programming/12/6241492017266688"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 2,
+                "date": "5 minutes ago",
+                "author": {
+                    "name": "TH3 ROUG3 L3G3ND™",
+                    "id": "kaid_2809101008758048501324524",
+                    "avatar": "/images/avatars/svg/boggle-blue.svg"
+                },
+                "text": "just words and 1st on the HL >:(",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 3,
@@ -168,20 +182,6 @@ var json = {
                         "text": "Yes he was."
                     }
                 ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "a few seconds ago",
-                "author": {
-                    "name": "TH3 ROUG3 L3G3ND™",
-                    "id": "kaid_2809101008758048501324524",
-                    "avatar": "/images/avatars/svg/boggle-blue.svg"
-                },
-                "text": "just words and 1st on the HL >:(",
-                "locked": false,
-                "pinned": false,
-                "replies": []
             },
             {
                 "replyCount": 0,
