@@ -120,7 +120,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "37 minutes ago",
+                "date": "42 minutes ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -131,7 +131,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -210,7 +210,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "",
                     "id": "kaid_1187559179045151249642085",
@@ -285,7 +285,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "35 minutes ago",
+                "date": "40 minutes ago",
                 "author": {
                     "name": "Blocked by Taquavion",
                     "id": "kaid_568819712822552226070124",
