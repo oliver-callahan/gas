@@ -3,7 +3,7 @@ var json = {
     "title": "For A Friend",
     "votes": 46,
     "created": "20 hours ago",
-    "updated": "a few seconds ago",
+    "updated": "6 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Norwegian Pathways",
@@ -62,7 +62,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 6,
                 "date": "10 hours ago",
                 "author": {
@@ -82,6 +82,15 @@ var json = {
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
                         "text": "I know right... and everyone is loving it... :/"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Norwegian Pathways",
+                            "id": "kaid_1082366231138740611717261",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "I don't see why they couldn't :)"
                     }
                 ]
             },
@@ -99,7 +108,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "~The Wolf~",
                             "id": "kaid_6337778158362361978377342",
@@ -196,7 +205,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "14 hours ago",
+                "date": "15 hours ago",
                 "author": {
                     "name": "",
                     "id": "kaid_1187559179045151249642085",
