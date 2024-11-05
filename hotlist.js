@@ -1,8 +1,8 @@
 var json = {
     "code": "/**\n\n\n              \n              Thank you so much Ace Rogers!\n\n\n\n\n*/\n\n\n//Background{\n\nvar COLOR1 = color(0, 0, 0);\nvar COLOR2 = color(0, 0, 250);\n\nfor (var i = 0; i < 600; i++) {\nstroke(lerpColor(COLOR1, COLOR2, i/600));\nline(0, 0 + i, 600, 0 + i);\n}\n\n//}\n\n\n//Text{\ntextFont(createFont(\"Arial Black Italic\"),40);\n\ntextAlign(CENTER,CENTER);\ntext(\"In Memory of Ace Rogers\",300,535);\n\ntextSize(20);\ntext(\"Leaving KA for a rightous cause...\",300,30);\n\ntext(\"Fights against the laws...\",300,70);\n\ntext(\"A noble friend...\",300,110);\n\ntext(\"Causing the universe to bend...\",300,150);\n\ntext(\"Thank you for all of your time...\",300,190);\n\ntext(\"Helping me with the toss of a dime...\",300,230);\n\ntext(\"You deserve to have less stress...\",300,270);\n\ntext(\"For pulling me out of my mess...\",300,310);\n\ntext(\"You're a great friend, you are...\",300,350);\n\ntext(\"With me away; far...\",300,390);\n\ntext(\"Thank you so much...\",300,430);\n\ntext(\"For your coding touch.\",300,470);\n\n//}",
     "title": "For A Friend",
-    "votes": 31,
-    "created": "6 hours ago",
+    "votes": 32,
+    "created": "7 hours ago",
     "updated": "6 hours ago",
     "type": "PJS",
     "author": {
@@ -31,7 +31,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 5,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Duke",
                     "id": "kaid_351465532815782433620675",
@@ -99,23 +99,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 2,
-                "date": "3 hours ago",
-                "author": {
-                    "name": "TH3 ROUG3 L3G3ND™",
-                    "id": "kaid_2809101008758048501324524",
-                    "avatar": "/images/avatars/svg/boggle-blue.svg"
-                },
-                "text": "we will remeber the quality programs, the Collabs he did with a lot of people who don't have a lot of programming skills... One year later he/she turns on Khan academy sees the lil blue dot at the top left presses it, goes to the notification page, scrolls down, keeps scrolling, keeps scrolling 3 hours later, \"I'm finally done scrolling!\" Then he/she makes his first program in a while, turns it off then when he turns it back on sees the lil blue dot presses it and scrolls, keeps scrolling and they all say something like \"WHERE HAVE YOU BEEN ALL THIS TIME!\" And I'm going to be the first! Then he quietly turns his/her device off, and sits in his/her room for a minute pondering \"What in the world made me make another program after a year, not expecting A MILLION texts, saying 'WHERE HAVE YOU BEEN ALL THIS TIME!'\" he/she sighs and thinks \"I'll never do that again!\" - This is a warning Ace Rodgers! A warning that you do not want to miss!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 2,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "- S p a r t a - Off",
                     "id": "kaid_546205135843777431062822",
@@ -124,7 +110,17 @@ var json = {
                 "text": "First. 258",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "𝕭𝖑𝖚𝖊 𝕲𝖍𝖔𝖚𝖑",
+                            "id": "kaid_6776820901948503135214173",
+                            "avatar": "/images/avatars/svg/area-52-blue.svg"
+                        },
+                        "text": "Nahh<br>Bro really tryna speedrun a poem💀💀💀💀"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
@@ -143,7 +139,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "43 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "",
                     "id": "kaid_1187559179045151249642085",
@@ -153,6 +149,30 @@ var json = {
                 "locked": false,
                 "pinned": false,
                 "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 1,
+                "date": "3 hours ago",
+                "author": {
+                    "name": "TH3 ROUG3 L3G3ND™",
+                    "id": "kaid_2809101008758048501324524",
+                    "avatar": "/images/avatars/svg/boggle-blue.svg"
+                },
+                "text": "we will remeber the quality programs, the Collabs he did with a lot of people who don't have a lot of programming skills... One year later he/she turns on Khan academy sees the lil blue dot at the top left presses it, goes to the notification page, scrolls down, keeps scrolling, keeps scrolling 3 hours later, \"I'm finally done scrolling!\" Then he/she makes his first program in a while, turns it off then when he turns it back on sees the lil blue dot presses it and scrolls, keeps scrolling and they all say something like \"WHERE HAVE YOU BEEN ALL THIS TIME!\" And I'm going to be the first! Then he quietly turns his/her device off, and sits in his/her room for a minute pondering \"What in the world made me make another program after a year, not expecting A MILLION texts, saying 'WHERE HAVE YOU BEEN ALL THIS TIME!'\" he/she sighs and thinks \"I'll never do that again!\" - This is a warning Ace Rodgers! A warning that you do not want to miss!",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "Lightning",
+                            "id": "kaid_293295321613227018876720",
+                            "avatar": "/images/avatars/svg/primosaur-tree.svg"
+                        },
+                        "text": "Oh, did he collab with you?"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
@@ -185,7 +205,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "ZyanU",
                     "id": "kaid_891143278848047069080086",
