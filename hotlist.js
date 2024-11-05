@@ -30,7 +30,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 2,
-                "votes": 11,
+                "votes": 12,
                 "date": "16 hours ago",
                 "author": {
                     "name": "Duke",
@@ -63,7 +63,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 4,
+                "votes": 5,
                 "date": "6 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
@@ -129,7 +129,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 1,
+                "votes": 2,
                 "date": "an hour ago",
                 "author": {
                     "name": "wealR",
@@ -151,6 +151,44 @@ var json = {
                     "avatar": "/images/avatars/svg/orange-juice-squid.svg"
                 },
                 "text": "Yes, very nice poem. He will be back, though. . .",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 0,
+                "date": "17 hours ago",
+                "author": {
+                    "name": "- S p a r t a - Off",
+                    "id": "kaid_546205135843777431062822",
+                    "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
+                },
+                "text": "First. 258",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "10 hours ago",
+                        "author": {
+                            "name": "𝕭𝖑𝖚𝖊 𝕲𝖍𝖔𝖚𝖑",
+                            "id": "kaid_6776820901948503135214173",
+                            "avatar": "/images/avatars/svg/area-52-blue.svg"
+                        },
+                        "text": "Nahh<br>Bro really tryna speedrun a poem💀💀💀💀"
+                    }
+                ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 0,
+                "date": "6 hours ago",
+                "author": {
+                    "name": "Blocked by Taquavion",
+                    "id": "kaid_568819712822552226070124",
+                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
+                },
+                "text": "Nobody said it would be so hard",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -206,7 +244,7 @@ var json = {
                         "text": "Oh, did he collab with you?"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
@@ -245,47 +283,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 1,
-                "votes": 0,
-                "date": "17 hours ago",
-                "author": {
-                    "name": "- S p a r t a - Off",
-                    "id": "kaid_546205135843777431062822",
-                    "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
-                },
-                "text": "First. 258",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "10 hours ago",
-                        "author": {
-                            "name": "𝕭𝖑𝖚𝖊 𝕲𝖍𝖔𝖚𝖑",
-                            "id": "kaid_6776820901948503135214173",
-                            "avatar": "/images/avatars/svg/area-52-blue.svg"
-                        },
-                        "text": "Nahh<br>Bro really tryna speedrun a poem💀💀💀💀"
-                    }
-                ]
-            },
-            {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "6 hours ago",
-                "author": {
-                    "name": "Blocked by Taquavion",
-                    "id": "kaid_568819712822552226070124",
-                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                },
-                "text": "Nobody said it would be so hard",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 0,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "HACK",
                     "id": "kaid_6815067100354522609320825",
