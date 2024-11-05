@@ -42,7 +42,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "YA",
                             "id": "kaid_3563621891021365862686148",
@@ -53,9 +53,9 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 6,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "AmethystSky",
                     "id": "kaid_784805823121542822870790",
@@ -64,12 +64,22 @@ var json = {
                 "text": "<b>PlumpGeorge</b>:<br>Are you an animal?<br><b>RandoDude</b>:<br>Nope. I am a little hurt. Actually I am a very beautiful bug.<br><b>wealR</b>:<br>Yup. Actually, I am a very gorgeous fish.<br><b>Crazy OJ</b>:<br>Yup. Amazingly, I am a very handsome bird.<br><br><em>Bugs are animals.</em>",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "wealR",
+                            "id": "kaid_831993479561352012904348",
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                        },
+                        "text": "I guess RandoDude has the IQ of a vain bug lol"
+                    }
+                ]
             },
             {
                 "replyCount": 5,
                 "votes": 5,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -80,7 +90,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -127,7 +137,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 3,
+                "replyCount": 4,
                 "votes": 5,
                 "date": "9 hours ago",
                 "author": {
@@ -165,6 +175,15 @@ var json = {
                             "avatar": "/images/avatars/svg/starky-sapling.svg"
                         },
                         "text": "I dunno, why not"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "wealR",
+                            "id": "kaid_831993479561352012904348",
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                        },
+                        "text": "don't you love how the chatbot that represents me is so accurate to my disposition towards lameness?"
                     }
                 ]
             },
@@ -182,7 +201,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -193,7 +212,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 3,
                 "date": "10 hours ago",
                 "author": {
@@ -204,7 +223,17 @@ var json = {
                 "text": "Flashbang < Khancord Light Mode<br><br><br>Nice Program, It's Pretty Funny. :)<br><br>Votes++;",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "wealR",
+                            "id": "kaid_831993479561352012904348",
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                        },
+                        "text": "Thanks :)"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
@@ -223,7 +252,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "YA",
                     "id": "kaid_3563621891021365862686148",
@@ -263,7 +292,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 2,
                 "date": "6 hours ago",
                 "author": {
@@ -274,12 +303,22 @@ var json = {
                 "text": "lol this is great :)",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "wealR",
+                            "id": "kaid_831993479561352012904348",
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                        },
+                        "text": "yes thanks!"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "14 minutes ago",
+                "date": "19 minutes ago",
                 "author": {
                     "name": "goat120",
                     "id": "kaid_1167989604939556743383715",
@@ -319,9 +358,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
-                "date": "13 minutes ago",
+                "date": "18 minutes ago",
                 "author": {
                     "name": "Lightning",
                     "id": "kaid_293295321613227018876720",
@@ -330,7 +369,17 @@ var json = {
                 "text": "That's a cool name! Did you come up with it by yourself?",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "wealR",
+                            "id": "kaid_831993479561352012904348",
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                        },
+                        "text": "you mean khancord? it's khan + d1sc0rd"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
@@ -349,7 +398,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -361,7 +410,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "5 hours ago",
                 "author": {
@@ -372,12 +421,22 @@ var json = {
                 "text": "cool! vote++",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "wealR",
+                            "id": "kaid_831993479561352012904348",
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                        },
+                        "text": "Thanks :)"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "42 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Mr. X",
                     "id": "kaid_860766137188997026711729",
