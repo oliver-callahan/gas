@@ -75,7 +75,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
