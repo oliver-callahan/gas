@@ -29,7 +29,7 @@ var json = {
     "posts": {
         "tips": [
             {
-                "replyCount": 2,
+                "replyCount": 1,
                 "votes": 14,
                 "date": "a day ago",
                 "author": {
@@ -49,20 +49,11 @@ var json = {
                             "avatar": "/images/avatars/svg/cacteye-yellow.svg"
                         },
                         "text": "for those who know 🤫💀"
-                    },
-                    {
-                        "date": "13 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "the worst part is its on the top of the hl💀😭"
                     }
                 ]
             },
             {
-                "replyCount": 8,
+                "replyCount": 10,
                 "votes": 7,
                 "date": "12 hours ago",
                 "author": {
@@ -93,7 +84,7 @@ var json = {
                         "text": "I don't see why they couldn't :)"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -129,7 +120,7 @@ var json = {
                         "text": "Ok. Thanks for that. <br><br>First off, I don't care about the votes. I want to raise awareness for Ace and show that every person who upvoted this approved of him and is upset he is leaving. I released it on my subpage so everyone would see it in order to let reality settle in and hopefully understand why I made it in the first place. <br><br>It's a tribute to him, and \"For A Friend\" implies that it was for him. It wasn't intended to imply that he is a recipient, but as myself releasing a program attributed to him instead.<br><br>It's a simple program, but that doesn't make me a simple coder. I am going to release complicated programs (with two in the making), and maybe even some graphics. <br><br>Moreover, I made this program to be simple; I want people to only focus on what's there. I'm not sure if you're aware, but programs aren't about votes or how many lines of code it has; it's about the message the code is meant to convey. <br><br>I don't appreciate when people criticize a perfectly good program. I want KA to be a place where coders can respect other works; even when they aren't great. I know you may think of this program as simple, but to me (and many others) it's a work of art portraying the meaning of friendship, and what happens when you lose that.<br><br>I'm sorry you feel this way about this program, but I have 50 others who would probably disagree with you. Your opinion is fine, but I am justifying my side of the case.<br><br>As Cookie said (Thanks, Cookie!), It's not my fault it got lots of votes."
                     },
                     {
-                        "date": "13 minutes ago",
+                        "date": "18 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -138,13 +129,31 @@ var json = {
                         "text": "\"It's a simple program, but that doesn't make me a simple coder. I am going to release complicated programs (with two in the making), and maybe even some graphics.\" -NP<br>why make low quality programs? Won't that shine a bad picture on you?(by the beginners? no they love you because you made something about one of their favorite coders)<br>By people like Liam K? Green Ghost? Iron Programming?<br><br>I hope I have a decent name, that people respect me. that is what matters. I try my best to not make low quality programs. If I had time to make a high quality good bye program then I would've. But I didn't so I didn't make anything.<br><br>If you truly do have the skills to make great programs, do it!<br>Why waste your time making low quality ones? that is what it really come down to.<br><br>I had a huge comment typed out but I was afraid it was too mean so I got rid of a giant amount of it. Hopefully what I sent wasn't to mean... sorry if I am :("
                     },
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "I accept your apology. You're right. I shouldn't make any low quality programs. Although, I did add the gradient to make a better quality. I'm sorry if you feel that way about me and think I'm a low quality coder."
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Thank you. And thanks for trying =)<br>I try my best to give all people the benefit of the doubt :)<br>But prove all my doubts wrong ;P<br><br>I am looking forward to your high quality programs and I will most likely vote it up =D"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "Norwegian Pathways",
+                            "id": "kaid_1082366231138740611717261",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Here is one. Don't vote it up though because it's not the real one. I just work on it. What I do, is instead of making a new program, I go off a blank one in my Profile, and when done, I release it as a new program, and delete the code from the template so I can use it again.<br><br>https://www.khanacademy.org/computer-programming/digital-clock/5726016837959680<br><br>I still am working on the Timer and Alarm, but after that, it's complete!"
                     }
                 ]
             },
@@ -175,7 +184,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
@@ -231,7 +240,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "36 minutes ago",
+                "date": "41 minutes ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -242,7 +251,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
