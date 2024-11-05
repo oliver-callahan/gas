@@ -102,7 +102,7 @@ var json = {
                         "text": "As the title implies, it's \"For a friend\" It's not NP's fault it got a lot of votes."
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -381,7 +381,7 @@ var json = {
                         "text": "Oh, did he collab with you?"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
