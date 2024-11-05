@@ -51,7 +51,7 @@ var json = {
                         "text": "for those who know 🤫💀"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -156,30 +156,6 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 1,
-                "votes": 0,
-                "date": "17 hours ago",
-                "author": {
-                    "name": "- S p a r t a - Off",
-                    "id": "kaid_546205135843777431062822",
-                    "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
-                },
-                "text": "First. 258",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "10 hours ago",
-                        "author": {
-                            "name": "𝕭𝖑𝖚𝖊 𝕲𝖍𝖔𝖚𝖑",
-                            "id": "kaid_6776820901948503135214173",
-                            "avatar": "/images/avatars/svg/area-52-blue.svg"
-                        },
-                        "text": "Nahh<br>Bro really tryna speedrun a poem💀💀💀💀"
-                    }
-                ]
-            },
-            {
                 "replyCount": 0,
                 "votes": 0,
                 "date": "6 hours ago",
@@ -235,7 +211,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Lightning",
                             "id": "kaid_293295321613227018876720",
@@ -281,6 +257,30 @@ var json = {
                 "locked": false,
                 "pinned": false,
                 "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 0,
+                "date": "17 hours ago",
+                "author": {
+                    "name": "- S p a r t a - Off",
+                    "id": "kaid_546205135843777431062822",
+                    "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
+                },
+                "text": "First. 258",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "11 hours ago",
+                        "author": {
+                            "name": "𝕭𝖑𝖚𝖊 𝕲𝖍𝖔𝖚𝖑",
+                            "id": "kaid_6776820901948503135214173",
+                            "avatar": "/images/avatars/svg/area-52-blue.svg"
+                        },
+                        "text": "Nahh<br>Bro really tryna speedrun a poem💀💀💀💀"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
