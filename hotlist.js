@@ -3,7 +3,7 @@ var json = {
     "title": "For A Friend",
     "votes": 46,
     "created": "20 hours ago",
-    "updated": "6 minutes ago",
+    "updated": "11 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Norwegian Pathways",
@@ -30,7 +30,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 2,
-                "votes": 13,
+                "votes": 14,
                 "date": "19 hours ago",
                 "author": {
                     "name": "Duke",
@@ -62,7 +62,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 2,
+                "replyCount": 3,
                 "votes": 6,
                 "date": "10 hours ago",
                 "author": {
@@ -84,13 +84,22 @@ var json = {
                         "text": "I know right... and everyone is loving it... :/"
                     },
                     {
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "I don't see why they couldn't :)"
+                    },
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Look man, I collabed with ace a couple times, and we talked a lot, gave feedback a lot, and were friends.(defining it the same way everyone else does)<br>Ace made quality programs, quality graphics, quality games, and helped people so they could make more quality programs.<br>And I find that it's sad to see that everyone is loving a extremely low quality program.  46 people are for just text.<br><br>Would Ace approve? He would be sad to see this on the hl but he wouldn't come out and say anything but thanks guys. Because he is nice.(nicer then me haha)<br><br>sorry if this came off hard..."
                     }
                 ]
             },
@@ -108,7 +117,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "~The Wolf~",
                             "id": "kaid_6337778158362361978377342",
@@ -159,6 +168,20 @@ var json = {
                         "text": "Yes he was."
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "a few seconds ago",
+                "author": {
+                    "name": "TH3 ROUG3 L3G3ND™",
+                    "id": "kaid_2809101008758048501324524",
+                    "avatar": "/images/avatars/svg/boggle-blue.svg"
+                },
+                "text": "just words and 1st on the HL >:(",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 0,
