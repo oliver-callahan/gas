@@ -207,7 +207,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "a few seconds ago",
+                "date": "6 minutes ago",
                 "author": {
                     "name": "𝓧𝓛𝓟 [On]",
                     "id": "kaid_387597695665654041806576",
@@ -259,7 +259,7 @@ var json = {
                         "text": "Yes he was."
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "YA",
                             "id": "kaid_3563621891021365862686148",
@@ -281,7 +281,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 minutes ago",
+                "date": "12 minutes ago",
                 "author": {
                     "name": "Ace Rogers (On)",
                     "id": "kaid_714276242204949021450419",
@@ -474,7 +474,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "RomanStarCoder ⭐",
                     "id": "kaid_68859322444115567573661",
