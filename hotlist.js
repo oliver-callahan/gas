@@ -99,7 +99,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "~The Wolf~",
                             "id": "kaid_6337778158362361978377342",
@@ -132,7 +132,7 @@ var json = {
                         "text": "For now, yes he is. He was under too much stress, so he decided to step away for a little while."
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -141,7 +141,7 @@ var json = {
                         "text": "Aww. He's such a good friend!"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
