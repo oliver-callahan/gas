@@ -62,7 +62,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 5,
+                "replyCount": 6,
                 "votes": 7,
                 "date": "11 hours ago",
                 "author": {
@@ -93,7 +93,7 @@ var json = {
                         "text": "I don't see why they couldn't :)"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -102,7 +102,7 @@ var json = {
                         "text": "Look man, I collabed with ace a couple times, and we talked a lot, gave feedback a lot, and were friends.(defining it the same way everyone else does)<br>Ace made quality programs, quality graphics, quality games, and helped people so they could make more quality programs.<br>And I find that it's sad to see that everyone is loving a extremely low quality program.  46 people are for just text.<br><br>Would Ace approve? He would be sad to see this on the hl but he wouldn't come out and say anything but thanks guys. Because he is nice.(nicer then me haha)<br><br>sorry if this came off hard..."
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "Cookie",
                             "id": "kaid_1826046083730180486895887",
@@ -111,13 +111,22 @@ var json = {
                         "text": "As the title implies, it's \"For a friend\" It's not NP's fault it got a lot of votes."
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
                         "text": "I see he released it for a on his subpage... so it was clearly more then for a friend... cause other wise he would've just dmed AR...<br><br>there is only one reason for you to release something on your subpage. For votes.<br><br>All I'm asking is for more effort to be put into this. Because these days programmers just aren't trying their best. Or really trying that hard at all."
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "Norwegian Pathways",
+                            "id": "kaid_1082366231138740611717261",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Ok. Thanks for that. <br><br>First off, I don't care about the votes. I want to raise awareness for Ace and show that every person who upvoted this approved of him and is upset he is leaving. I released it on my subpage so everyone would see it in order to let reality settle in and hopefully understand why I made it in the first place. <br><br>It's a tribute to him, and \"For A Friend\" implies that it was for him. It wasn't intended to imply that he is a recipient, but as myself releasing a program attributed to him instead.<br><br>It's a simple program, but that doesn't make me a simple coder. I am going to release complicated programs (with two in the making), and maybe even some graphics. <br><br>Moreover, I made this program to be simple; I want people to only focus on what's there. I'm not sure if you're aware, but programs aren't about votes or how many lines of code it has; it's about the message the code is meant to convey. <br><br>I don't appreciate when people criticize a perfectly good program. I want KA to be a place where coders can respect other works; even when they aren't great. I know you may think of this program as simple, but to me (and many others) it's a work of art portraying the meaning of friendship, and what happens when you lose that.<br><br>I'm sorry you feel this way about this program, but I have 50 others who would probably disagree with you. Your opinion is fine, but I am justifying my side of the case.<br><br>As Cookie said (Thanks, Cookie!), It's not my fault it got lots of votes."
                     }
                 ]
             },
@@ -148,7 +157,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
@@ -182,7 +191,7 @@ var json = {
                         "text": "For now, yes he is. He was under too much stress, so he decided to step away for a little while."
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -191,7 +200,7 @@ var json = {
                         "text": "Aww. He's such a good friend!"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
