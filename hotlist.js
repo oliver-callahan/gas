@@ -158,7 +158,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "",
                     "id": "kaid_1187559179045151249642085",
