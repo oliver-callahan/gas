@@ -3,7 +3,7 @@ var json = {
     "title": "ACT 2 (2x better)",
     "votes": 49,
     "created": "a day ago",
-    "updated": "41 minutes ago",
+    "updated": "an hour ago",
     "type": "HTML",
     "author": {
         "name": "wealR",
@@ -150,7 +150,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -195,7 +195,7 @@ var json = {
                         "text": "@mathlete11 maybe cause I'm not the maker of the program lol<br><br>@wealR oh yeah you did so good at it. so good that is isn't even lame >:)<br>like if you were to put me in there I would be soooo lame"
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -298,7 +298,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "goat120",
                     "id": "kaid_1167989604939556743383715",
@@ -340,7 +340,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "Lightning",
                     "id": "kaid_293295321613227018876720",
@@ -375,7 +375,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
