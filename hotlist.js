@@ -192,7 +192,7 @@ var json = {
                         "text": "Oh, did he collab with you?"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
@@ -271,7 +271,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "HACK",
                     "id": "kaid_6815067100354522609320825",
