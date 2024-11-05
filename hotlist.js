@@ -111,7 +111,7 @@ var json = {
                         "text": "As the title implies, it's \"For a friend\" It's not NP's fault it got a lot of votes."
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -120,7 +120,7 @@ var json = {
                         "text": "I see he released it for a on his subpage... so it was clearly more then for a friend... cause other wise he would've just dmed AR...<br><br>there is only one reason for you to release something on your subpage. For votes.<br><br>All I'm asking is for more effort to be put into this. Because these days programmers just aren't trying their best. Or really trying that hard at all."
                     },
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "Norwegian Pathways",
                             "id": "kaid_1082366231138740611717261",
@@ -211,6 +211,30 @@ var json = {
                 ]
             },
             {
+                "replyCount": 1,
+                "votes": 1,
+                "date": "a few seconds ago",
+                "author": {
+                    "name": "cwalsh1223 BBB#",
+                    "id": "kaid_792288208072906614241148",
+                    "avatar": "/images/avatars/svg/spunky-sam-red.svg"
+                },
+                "text": "Nice poem.<br><b>BUT</b> you should consider putting <em>actual effort</em> into your programs. -_-",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "Norwegian Pathways",
+                            "id": "kaid_1082366231138740611717261",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "I do."
+                    }
+                ]
+            },
+            {
                 "replyCount": 0,
                 "votes": 1,
                 "date": "a day ago",
@@ -241,7 +265,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -368,7 +392,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "RomanStarCoder ⭐",
                     "id": "kaid_68859322444115567573661",
