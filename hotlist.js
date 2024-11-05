@@ -88,7 +88,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 2,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "Stitch Girl💠",
                     "id": "kaid_6490115305785159643926933",
@@ -126,6 +126,20 @@ var json = {
                         "text": "Yes he was."
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "4 minutes ago",
+                "author": {
+                    "name": "wealR",
+                    "id": "kaid_831993479561352012904348",
+                    "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                },
+                "text": "22 lines of code - 43 votes. Hmmm...",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 0,
@@ -172,7 +186,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 0,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
@@ -219,7 +233,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
