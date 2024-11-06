@@ -222,7 +222,7 @@ var json = {
                         "text": "Afternoon. At that time, I extremely value inspecting myself dancing with this good bracelet.<br><br>see? :P"
                     },
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
