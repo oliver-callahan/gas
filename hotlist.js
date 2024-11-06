@@ -137,7 +137,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 6,
+                "replyCount": 8,
                 "votes": 5,
                 "date": "11 hours ago",
                 "author": {
@@ -202,6 +202,24 @@ var json = {
                             "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                         },
                         "text": "@Ezra i added you now you can see what you say lol"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Ezra",
+                            "id": "kaid_1112279572017452692208390",
+                            "avatar": "/images/avatars/svg/leaf-red.svg"
+                        },
+                        "text": "Wow I'm the lamest O.o"
+                    },
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "Ezra",
+                            "id": "kaid_1112279572017452692208390",
+                            "avatar": "/images/avatars/svg/leaf-red.svg"
+                        },
+                        "text": "Afternoon. At that time, I extremely value inspecting myself dancing with this good bracelet.<br><br>see? :P"
                     }
                 ]
             },
@@ -260,7 +278,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "HACK",
                     "id": "kaid_6815067100354522609320825",
