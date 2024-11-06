@@ -99,7 +99,7 @@ var json = {
                         "text": "what is wrong with this chat? XD"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -108,7 +108,7 @@ var json = {
                         "text": "lol I have no idea XD"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -168,7 +168,7 @@ var json = {
                         "text": "why you telling me?"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -204,7 +204,7 @@ var json = {
                         "text": "@Ezra i added you now you can see what you say lol"
                     },
                     {
-                        "date": "13 minutes ago",
+                        "date": "18 minutes ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -213,7 +213,7 @@ var json = {
                         "text": "Wow I'm the lamest O.o"
                     },
                     {
-                        "date": "11 minutes ago",
+                        "date": "16 minutes ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
