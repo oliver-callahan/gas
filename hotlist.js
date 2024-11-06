@@ -34,7 +34,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "35 minutes ago",
+                "date": "40 minutes ago",
                 "author": {
                     "name": "CZS",
                     "id": "kaid_676584471536152741627316",
@@ -45,7 +45,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -106,7 +106,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "24 minutes ago",
+                "date": "29 minutes ago",
                 "author": {
                     "name": "Chickenfarmer2009",
                     "id": "kaid_287879839213083022099587",
@@ -117,7 +117,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -172,7 +172,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "3 minutes ago",
+                "date": "8 minutes ago",
                 "author": {
                     "name": "TheMessenger",
                     "id": "kaid_492737111195244262916025",
@@ -183,7 +183,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -196,7 +196,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "12 minutes ago",
+                "date": "17 minutes ago",
                 "author": {
                     "name": "CodeNinja",
                     "id": "kaid_6247985199070618801670730",
@@ -208,7 +208,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 11,
+                "replyCount": 13,
                 "votes": 1,
                 "date": "an hour ago",
                 "author": {
@@ -248,7 +248,7 @@ var json = {
                         "text": "I know. And I don't like leaving it that way. :( I'll try. :)<br>XD"
                     },
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -257,7 +257,7 @@ var json = {
                         "text": "yeahh but as with anything it'll become whole in time :) plus you've helped so many people that they are more than ready to take up a stronger position yk?"
                     },
                     {
-                        "date": "39 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -266,7 +266,7 @@ var json = {
                         "text": "Yeah, but hopefully not too long. :P<br>Yeah, some of them. But some still have some things to learn that I could teach. :/"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -275,7 +275,7 @@ var json = {
                         "text": "eh KA is constantly evolving someone will come along!<br>lol yeah but if u look at it like that then one can never quit, there will always be a newcomer and someone in need of teaching thats where other people come in, people will come and step up in your place they won't ever quite fill it like u but they'll do it in their own way :)"
                     },
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -284,7 +284,7 @@ var json = {
                         "text": "Yeah, but there are few advanced programmers that I've seen actually go out of their way to help the newer generation (no offense to anyone). They help when they are asked a question or maybe reply to a help request. But I like actually going to the people that need help. That's also how I make a lot of new friends. :)<br>Yeah, that's why I don't want to. And I want to be there to help when they do come.<br>True. :P"
                     },
                     {
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -293,7 +293,7 @@ var json = {
                         "text": "yeah i spose thats true but i wouldn't worry about it everything comes in its own time right? <br>lol yeah thats sorta how chicken and i became friends! XD <br>its hard taking a step back ik but trust me there are better things in wait for u than KA lol"
                     },
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -302,7 +302,7 @@ var json = {
                         "text": "I guess. :P<br>XD<br>It's probably how I became friends with 1/3 of my current friends. :P 1/3 are probably friends that I met while on the same team and the other 1/3 is just by chance that we met. :)<br>Yeah, I know. It's just that I've been mostly active (sometimes I wasn't) on KA for about 4 years and I don't want to leave. :/<br>But I know if I stay, it'll just be worse."
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -311,20 +311,38 @@ var json = {
                         "text": ".<br>.<br>lol wow! thats a lot more than i was expecting tbh!<br>.<br>yeahh maybe just take a break then? come back in like a month or two that always helps. but just take it easy, maybe only work on things when u really want to yk?"
                     },
                     {
-                        "date": "4 minutes ago",
+                        "date": "9 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "XP<br>Yeah, I have over 64 friends on KA. XD<br><br>Yeah, that's what I'm planning on doing. Because I told Duke I'd try to come back for CoC. But by then I'm planning on organizing how I'm doing things so I don't get so stressed. :)<br>But that's the problem. I want to help people and to do collaborations. And that's how I overfilled my plate which led me to being stressed. So when I come back, I'm going to have a limit on things that I'm doing at once. :P"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Coder2098",
+                            "id": "kaid_673573024191290348573492",
+                            "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
+                        },
+                        "text": "holy pony!! 0-0 <br><br>mmk! yeah just don't overbook yourself if u overbook then the stress is too much.. lol yeah im the same wayyy! thats what i started to do cause otherwise i get really stressed and whatnot too. another thing that helps is having other hobbies so u can just step back easily like i do archery on the side, and art and music as my career (for lack of a better term) so it helps to have those to fall onto when i am sick of KA"
+                    },
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "Coder2098",
+                            "id": "kaid_673573024191290348573492",
+                            "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
+                        },
+                        "text": "but another thing is the hardest step is the first step, once u get past that its not too bad :)"
                     }
                 ]
             },
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "Ducky Momo",
                     "id": "kaid_803024247073237306758396",
