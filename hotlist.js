@@ -196,7 +196,7 @@ var json = {
                         "text": "don't you love how the chatbot that represents me is so accurate to my disposition towards lameness?"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -241,7 +241,7 @@ var json = {
                         "text": "O.o that's lame O.o"
                     },
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -320,7 +320,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -344,13 +344,27 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Mr. X",
                     "id": "kaid_860766137188997026711729",
                     "avatar": "/images/avatars/svg/robot_male_1.svg"
                 },
                 "text": "Nice, you managed to capture a small essence of the brainrot that goes on in those discord threads. <em>And they said it couldn't be done</em>. bah<br><br>If they were as stupidly funny as these somehow get, though, they might be permissible, in a controlled environment.<br><br>wealR quote: \"Never! I thought you knew what I am. In real life I am a very dumb computer.\"",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "3 minutes ago",
+                "author": {
+                    "name": "Jacob.S",
+                    "id": "kaid_1005855128586451892649647",
+                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
+                },
+                "text": "Ezra<br>Are you an animal?<br>RandoDude<br>I'm not sure.<br>PlumpGeorge<br>No. I wish I was. Actually I am a very scruffy leaf.",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -372,7 +386,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "AlIEN",
                     "id": "kaid_213001050410218690794137",
@@ -386,7 +400,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "AlIEN",
                     "id": "kaid_213001050410218690794137",
