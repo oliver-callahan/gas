@@ -106,7 +106,7 @@ var json = {
             {
                 "replyCount": 5,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
@@ -190,7 +190,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "32 minutes ago",
+                "date": "37 minutes ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
@@ -201,7 +201,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -276,7 +276,7 @@ var json = {
                         "text": "XD<br>Yeah, me too. But I'll be back. :) XD<br>Thanks! :)<br>Okay.<br>Btw, did you ever get my comment asking what types of features you would like to have for a pixel art drawing tool?"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "TheMessenger",
                             "id": "kaid_492737111195244262916025",
@@ -285,7 +285,7 @@ var json = {
                         "text": "Umm, no?<br><b>2 hours later</b>...<br>Okay, I found it! lol<br>Honestly, I have no idea, especially since I don't have much experience with tools, so I guess you can just surprise me. :)<br>And oh, well I'm glad you're not leaving forever! Now my little speech seems cheesy... XD"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -307,7 +307,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "44 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -375,9 +375,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 2,
+                "replyCount": 4,
                 "votes": 1,
-                "date": "18 minutes ago",
+                "date": "23 minutes ago",
                 "author": {
                     "name": "Stitch Girl💠",
                     "id": "kaid_6490115305785159643926933",
@@ -388,7 +388,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -397,13 +397,31 @@ var json = {
                         "text": "Try restarting the program and don't go down in the comments. :)"
                     },
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
                             "avatar": "/images/avatars/svg/marcimus-red.svg"
                         },
                         "text": "I think it was my laptop doing it. It got like super laggy. Were you able to see my comments on the other project?"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Oh, okay.<br>You mean the one on the CJCool MC skin? Because I replied to that. :)"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "Stitch Girl💠",
+                            "id": "kaid_6490115305785159643926933",
+                            "avatar": "/images/avatars/svg/marcimus-red.svg"
+                        },
+                        "text": "I sent a reply back? My laptop hates me and has been acting up for the pass half hour"
                     }
                 ]
             },
@@ -430,7 +448,7 @@ var json = {
                         "text": "Thanks! :D<br>Yeah, I tried getting all the shading and lighting to make it look better. :P<br>I'm still undecided which I like better. XP"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -538,7 +556,7 @@ var json = {
                         "text": "but another thing is the hardest step is the first step, once u get past that its not too bad :)"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -547,7 +565,7 @@ var json = {
                         "text": "I know. And I'm subscribed to, I think, all of them, plus some other coders that I like. :P<br><br>I know that now. I just had to learn it the hard way. XP<br>Ah.<br>I have been doing that already. My hobbies are: Programming XP, Gaming, watching some movies that I like, reading, writing books, and listening to music is nice. :)<br>Archery. I like it, but I've only done it once. :/ I would like to get better at it though. :)"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -556,7 +574,7 @@ var json = {
                         "text": "Yeah, but it's hard. XP<br>But it's something I need to do, so I will do it. :)"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -648,7 +666,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -657,7 +675,7 @@ var json = {
                         "text": "Thanks! :D<br>\"The crispy version\"? XD Which one do you count as that? o.O"
                     },
                     {
-                        "date": "39 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "cwalsh1223 BBB#",
                             "id": "kaid_792288208072906614241148",
@@ -666,7 +684,7 @@ var json = {
                         "text": "I mean the non-blurred version. The edges are crisper. ʘ͜ʘ"
                     },
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
