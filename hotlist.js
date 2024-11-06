@@ -1,373 +1,32 @@
 var json = {
-    "code": "<!DOCTYPE html>\n<html>\n    <head>\n        <meta charset=\"utf-8\">\n        <title>ACT 2 (2x better)</title>\n        <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n        <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n        <link href=\"https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap\" rel=\"stylesheet\">\n        <link href=\"https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap\" rel=\"stylesheet\">\n        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js\"></script>\n        \n        <link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined\" />\n        <style>\n            .lightMode {\n                background-color: rgb(240, 240, 240);\n                color: rgb(59, 61, 66);\n            }\n            .darkMode {\n                background-color: rgb(59, 61, 66);\n                color: white;\n            }\n            body {\n                font-family: \"Montserrat\";\n                transition: 1s;\n            }\n            #mainDiv {\n                margin-top: 10vh;\n                height: 530px;\n                width: 98vw;\n                overflow-y: auto;\n            }\n            body::-webkit-scrollbar {\n                display: none; /* Hide the scrollbar */\n            }\n            .messagebody {\n                display: flex;\n                align-items: center;\n                margin-bottom: 10px;\n            }\n            .time {\n                opacity: 0.5;\n                font-size: 20;\n                margin-left: 1.5vw;\n            }\n            .avatar img {\n                background-color: rgba(0, 0, 0, 0);\n                width: 10vw;\n                margin-right: 3vw;\n                margin-left: 3vw;\n                margin-top: 4vh;\n            }\n            .name {\n                font-weight: bold;\n                font-size: 25px;\n            }\n            .message-text {\n                margin-left: 16vw;\n                margin-top: -5vh;\n                width: 75vw;\n            }\n            #navBar {\n                height: 10vh;\n                width: 100vw;\n                left: 0;\n                top: 0;\n                position: absolute;\n                font-family: \"Poppins\";\n                font-weight: 700;\n                font-size: 7.4vw;\n                text-align: center;\n                user-select: none;\n                transition: 1s;\n                display: table;\n            }\n            .navLightMode {\n                background-color: rgb(240, 240, 240);\n                border-bottom: solid gray 3px;\n            }\n            .navDarkMode {\n                background-color: rgb(59, 61, 66);\n                color: rgb(92, 101, 238);\n                border-bottom: solid black 3px;\n            }\n            span {\n                position: absolute;\n                right: 3vw;\n                top: 2.5vw;\n            }\n            .material-symbols-outlined {\n                font-size: 30px;\n            }\n        </style>\n    </head>\n    <body class=\"darkMode\">\n        <div class=\"navDarkMode\" id=\"navBar\">\n            KHANCORD\n            <span class=\"material-symbols-outlined\" onclick=\"changeMode()\">dark_mode</span>\n            <script>\n                var nav = document.getElementById(\"navBar\");\n                var mode = document.getElementsByClassName(\"material-symbols-outlined\")[0];\n                function changeMode(){\n                    if (mode.innerHTML === 'light_mode') {\n                        mode.innerHTML = 'dark_mode';\n                        document.body.className = \"darkMode\";\n                        nav.className = \"navDarkMode\";\n                    } else {\n                        mode.innerHTML = 'light_mode';\n                        document.body.className = \"lightMode\";\n                        nav.className = \"navLightMode\";\n                    }\n                }\n            </script>\n        </div>\n        <div id=\"mainDiv\"></div>\n        <script>\n            var people = [\n                {\n                    name: \"Weirdo\",\n                    c: \"rgb(130, 130, 250)\",\n                    avatar: \"creatures/OhNoes\"\n                },\n                {\n                    name: \"RandoDude\",\n                    c: \"rgb(255, 0, 0)\",\n                    avatar: \"avatars/marcimus\"\n                },\n                {\n                    name: \"wealR\",\n                    c: \"rgb(0, 138, 16)\",\n                    avatar: \"creatures/Hopper-Cool\"\n                },\n                {\n                    name: \"PlumpGeorge\",\n                    c: \"rgb(255, 204, 0)\",\n                    avatar: \"avatars/spunky-sam\"\n                },\n                {\n                    name: \"Crazy OJ\",\n                    c: \"rgb(255, 123, 0)\",\n                    avatar: \"avatars/orange-juice-squid\"\n                },\n                {\n                    name: \"Ezra\",\n                    c: \"rgb(199, 0, 46)\",\n                    avatar: \"avatars/leaf-red\"\n                }\n            ];\n            function getCurrentTime() {\n                const now = new Date();\n                const hours = String(now.getHours()).padStart(2, '0');\n                const minutes = String(now.getMinutes()).padStart(2, '0');\n                if (hours > 12) {\n                    return (hours - 12) + \":\" + minutes + \" PM\";\n                } else {\n                    return hours + \":\" + minutes + \" AM\";\n                }\n            }\n            function capital(string) {\n                return string.charAt(0).toUpperCase() + string.slice(1);\n            }\n            //{\n            var sentenceOpeners = [\"Hey,\", \"Man,\", \"lol,\", \"bro,\", \"Dude,\", \"Yo\", \"Beg your pardon,\"];\n            var sayThinkVerbs = [\"thinks\", \"said\", \"told me\", \"joked\", \"thought\", \"argued\", \"complained\", \"whispered\", \"meowed\", \"clucked\", \"gossiped\", \"screamed\", \"commanded me to tell you guys\", \"is 100% sure\", \"believes\", \"would be crazy if they thought\", \"is so smart that they think\", \"made up the idea\"];\n            var emojis = [\"XD\", \":(\", \">:)\", \":P\", \":3\", ';)'];\n            var ingTVerbs = [\"kicking\", \"loving\", \"killing\", \"hitting\", \"smashing\", \"following\", \"breaking\", \"constructing\", \n  \"encouraging\", \"talking to\", \"yelling at\", \"whispering to\", \"alluding to\", \"helping\", \"supporting\", \n  \"ignoring\", \"observing\", \"complimenting\", \"criticizing\", \"chasing\", \"befriending\", \"confronting\", \n  \"inspiring\", \"guiding\", \"mocking\", \"protecting\", \"teasing\", \"warning\", \"inviting\", \"challenging\", \n  \"persuading\", \"motivating\", \"applauding\", \"rejecting\", \"insulting\", \"comforting\", \"lecturing\", \n  \"admiring\", \"appreciating\", \"scolding\", \"befuddling\", \"misleading\", \"provoking\", \"taunting\", \n  \"celebrating with\", \"dancing with\", \"running from\", \"learning from\", \"consulting\", \"consoling\", \n  \"apologizing to\", \"discussing with\", \"competing with\", \"sharing with\", \"arguing with\", \"complaining to\"];\n            var pronouns = [\"my mom's\", \"my dad's\", \"my\", \"my best friend's\", \"a\", \"the\"];\n            for (var i = 0; i < people.length; i++) {\n                pronouns.push(people[i].name + \"'s\");\n            }\n            var nouns = [\n              \"ball\", \"bat\", \"cat\", \"dog\", \"computer\", \"chatGPT\", \"cheese\", \"program\", \"lamp\", \"cow\",\n              \"robot\", \"alien\", \"spaceship\", \"book\", \"tree\", \"phone\", \"pencil\", \"bottle\", \"guitar\", \"shoe\",\n              \"mountain\", \"ocean\", \"car\", \"bicycle\", \"building\", \"cloud\", \"camera\", \"piano\", \"drone\", \"desk\",\n              \"headphone\", \"rocket\", \"planet\", \"sun\", \"moon\", \"keyboard\", \"mouse\", \"dragon\",\n               \"zombie\", \"wizard\", \"castle\", \"candle\", \"umbrella\", \"notebook\", \"sandwich\", \"watch\",\n              \"sword\", \"shield\", \"cup\", \"plate\", \"window\", \"door\", \"treehouse\", \"telescope\", \"whistle\", \"balloon\",\n              \"umbrella\", \"skateboard\", \"giraffe\", \"elephant\", \"lion\", \"tiger\", \"dolphin\", \"penguin\", \"octopus\", \"bear\",\n              \"furniture\", \"sofa\", \"table\", \"chair\", \"broom\", \"brush\", \"pillow\", \"blanket\", \"wallet\", \"trophy\",\n              \"paintbrush\", \"journal\", \"globe\", \"map\", \"torch\", \"flashlight\", \"cactus\", \"flower\", \"sticker\", \"rock\",\n              \"pocket\", \"key\", \"coin\", \"flag\", \"rocket\", \"kite\", \"seashell\", \"bracelet\", \"ring\", \"scarf\", \n              \"helmet\", \"scooter\", \"camera\", \"drum\", \"saxophone\", \"violin\", \"cymbal\", \"clarinet\", \"harp\", \"trumpet\"\n            ];\n\n            var subjects = [\n              'computer', 'pet chicken', 'alien', 'teacher', 'mayor', 'neighbor', \n              'friend', \"state's governor\", 'dog', 'cat', 'scientist', 'artist', 'chef', 'student', \n              'doctor', 'nurse', 'engineer', 'parent', 'child', 'sibling', 'grandparent', 'cousin', 'boss', 'employee', 'athlete', 'musician', 'writer', 'journalist', \n              'activist', 'philosopher', 'explorer', 'pilot', 'ninja', 'robot', \n              'zombie', 'wizard', 'detective', 'superhero', 'king', 'merchant', 'farmer', 'hunter', 'fisherman', 'baker', 'carpenter', 'miner', 'craftsman', \n              'librarian', 'waiter', 'barista', 'broadcaster', 'programmer', 'blogger', \"role model\"\n            ];\n\n            var noPronounSubjects = [\"everybody\", \"a random person\",];\n            var articles = ['a', 'the', 'that', 'this', \"another\", \"a different\", \"a random\"];\n            var adjectives = [\"bad\", \"dumb\", \"beautiful\", \"dull\", \"bored\", \"stupid\", \"good\", \"ugly\", \"random\", \"robotic\", \"old\", \"fat\", \"paunchy\", \"bald\", \"beautiful\", \"chubby\", \"clean\", \"dazzling\", \"drab\", \"elegant\", \"fancy\", \"fit\", \"flabby\", \"glamorous\", \"gorgeous\", \"handsome\", \"long\", \"magnificent\", \"muscular\", \"plain\", \"plump\", \"quaint\", \"scruffy\", \"short\", \"skinny\", \"stocky\", \"ugly\", \"unkempt\", \"unsightly\"];\n            var quantityOpinion = [\"too few\", \"too many\"];\n            var replies = [\"Why did you say that?\", \"You are crazy.\", \"Man that is my life!\", \"I would never say something that mean to you!\", \"Why do people like commenting about me.\", \"No, no, no, no. That's not true.\", \"Humph.\", \"Wow thanks!\", \"You are my hero!\", \"YES!\"];\n            var toBe = [\"were\", \"are\"];\n            var questions = [\"What is your favorite subject in school?\", \"What is your favorite time of day?\", \"Are you an animal?\"];\n            var subjectAnswers = [\"Math\", \"History\", \"Science\", \"Foreign Languages\", \"Social Science\", \"English\"];\n            var timeAnswers = [\"Morning\", \"Noon\", \"Afternoon\", \"Evening\", \"The middle of the night\"];\n            var animalAnswers = [\"Yes!\", \"No.\", \"Duh!!!\", \"Nope.\", \"Of course.\", \"I'm not sure.\", \"Yup.\", \"Never!\"];\n            var animals = [\"dog\", \"cat\", \"bird\", \"fish\", \"whale\", \"squirrel\", \"snake\", \"hamster\", \"seal\"];\n            var nonAnimals = [\"ChatGPT\", \"tree\", \"leaf\", \"ant\", \"bug\", \"computer\", \"AI\"];\n            var verbsOfAffection = [\"love\", \"like\", \"adore\", \"look up to\", \"value\", \"am fond of\", \"treasure\", \"cherish\"];\n            var beforeVOA = [\"just\", \"extremely\", \"respectfully\"];\n            var observingVerbs = [\n              \"looking at\", \"observing\", \"watching\", \"glancing at\", \"studying\", \n              \"gazing at\", \"noticing\", \"peeking at\", \"inspecting\", \"examining\", \n              \"monitoring\", \"surveying\", \"scrutinizing\", \"scanning\", \"spotting\", \n              \"eyeing\", \"checking out\", \"staring at\", \"focusing on\", \"viewing\", \n              \"tracking\", \"analyzing\", \"contemplating\", \"considering\", \"noting\"\n            ];\n            var timePhrases = [\"The other day,\", \"Yesterday,\", \"Today,\", \"One hour ago,\", \"45 minutes ago,\", \"Exactly 34.24 seconds ago,\", \"Precisely 100 years ago to this second,\"];\n            var prepositions = ['at', \"behind\", \"in front of\", \"inside of\", \"outside of\", \"on top of\", \"under\", \"around\", \"in\", \"on\", \"along\", \"within\"];\n            var prepNouns = [\"the beach\", \"my house\", \"my city hall\", \"Washington DC\", \"the park\", \"my dog's dog house\", \"a hamster ball\", \"the middle of the ocean\", \"a sandbox\", \"the top of a tree\", \"inside of a 10 inch box\", \"my computer\", \"the most dangerous place in the world\", \"a table\"];\n            var ifWhen = [\"if\", \"when\"];\n            var inFactType = [\"In fact\", 'Actually', 'Surprisingly', 'Extraordinarilly', 'Amazingly', 'In real life'];\n            var noType = [\"Do I look like one?\", 'What put that idea into your head?', 'I thought you knew what I am.', 'I am a little hurt.', 'I wish I was.'];\n            //}\n\n            var mainDiv = document.getElementById(\"mainDiv\");\n            var MAX_MESSAGES = 25;\n            function getWord(array) {\n                return array[Math.round(Math.random() * (array.length - 1))];\n            }\n            \n            function getOpinionOpener(currentName) {\n                var pronoun = getWord(pronouns);\n                while (pronoun.slice(0, -2) === currentName) {\n                    pronoun = getWord(pronouns);\n                }\n                return capital(pronoun) + \" \" + getWord(adjectives) + \" \" + getWord(subjects) + \" \" + getWord(sayThinkVerbs) + \" that\";\n            }\n            var talkedAboutSomeone = false;\n            var askedQuestion = false;\n            var question = 0;\n            var asker;\n            var answers = [];\n            var NUMOFANSWERS = 3;\n            function reduceRedund(current, old, array) {\n                while (old.includes(current)) {\n                    current = Math.round(Math.random() * (array.length - 1));\n                }\n                return current;\n            }\n            function addMessage() {\n                var message = \"\";\n                var person = Math.round(Math.random() * (people.length - 1));\n                var sentenceType = Math.random() * 7;\n                if (askedQuestion !== false) {\n                    person = reduceRedund(person, [asker, answers[0], answers[1]], people);\n                    if (question === 0) {\n                        var pronoun = Math.round(Math.random() * (pronouns.length - 1));\n                        while (pronouns[pronoun] === people[person].name.toString() + \"'s\") {\n                            pronoun = Math.round(Math.random() * (pronouns.length - 1));\n                        }\n                        message += getWord(subjectAnswers) + \".  I \" + getWord(beforeVOA) + \" \" + getWord(verbsOfAffection) + \" how it is \" + getWord(ingTVerbs) + \" \" + pronouns[pronoun] + \" \" + getWord(adjectives) + \" \" + getWord(nouns) + '.';\n                    }\n                    else if (question === 1) {\n                        message = getWord(timeAnswers) + '. ';\n                        message += \"At that time, I \" + getWord(beforeVOA) + \" \" + getWord(verbsOfAffection) + \" \" + getWord(observingVerbs) + \" myself \" + getWord(ingTVerbs) + \" \" + getWord(articles) + \" \" + \" \" + getWord(adjectives) + \" \" + getWord(nouns) + '.';\n                    }\n                    else if (question === 2) {\n                        answer = getWord(animalAnswers);\n                        message += answer;\n                        if (answer[0] === \"Y\" || answer[0] === \"D\" || answer[0] === \"O\") {\n                            message += \" \" + getWord(inFactType) + \", I am a very \" + getWord(adjectives) + \" \" + getWord(animals) + \".\";\n                        } else if (answer[0] === \"N\") {\n                            message += \" \" + getWord(noType) + \" \" + getWord(inFactType) + \" I am a very \" + getWord(adjectives) + \" \" + getWord(nonAnimals) + \".\"; \n                        }\n                    }\n                    answers[askedQuestion] = person;\n                    askedQuestion++;\n                    if (askedQuestion > NUMOFANSWERS - 1) {\n                        askedQuestion = false;\n                    }\n                } else if (talkedAboutSomeone !== false) {\n                    person = talkedAboutSomeone;\n                    message += getWord(replies) + \" \" + getWord(emojis);\n                    talkedAboutSomeone = false;\n                } else if (sentenceType <= 3) {\n                    message = getOpinionOpener(people[person].name);\n                    message += \" \" + getWord(quantityOpinion);\n                    message += \" \" + getWord(subjects) + \"s\";\n                    message += \" \" + getWord(toBe) + \" \" + getWord(ingTVerbs) + \" \" + getWord(articles) + \" \" + getWord(nouns) + '. ' + getWord(emojis);\n                } else if (sentenceType <= 4.5) {\n                    var talksAbout = Math.round(Math.random() * (people.length - 1));\n                    while (people[talksAbout].name === people[person].name) {\n                        talksAbout = Math.round(Math.random() * (people.length - 1));\n                    }\n                    talkedAboutSomeone = talksAbout;\n                    message += getWord(sentenceOpeners) + \" \" + \" my \" + getWord(subjects) + \" \" + getWord(sayThinkVerbs) + \" that \" + people[talksAbout].name + ' is ' + getWord(adjectives) + '.';\n                } else if (sentenceType <= 5.5) {\n                    var pronoun = getWord(pronouns);\n                    while (pronoun.toString().slice(0, -2) === people[person].name) {\n                        pronoun = getWord(pronouns);\n                    }\n                    message += getWord(timePhrases) + \" \" + getWord(prepositions) + \" \" + getWord(prepNouns) + \", \" + pronoun + \" \" + getWord(subjects) + \" was \" + getWord(observingVerbs) + \" \" + getWord(articles);\n                    message += \" \" + getWord(adjectives) + \" \" + getWord(nouns) + \" \" + getWord(ingTVerbs) + \" \" + getWord(articles) + \" \" + getWord(subjects) + '.';\n                } else { \n                    question = Math.round(Math.random() * (questions.length - 1));\n                    message = questions[question];\n                    askedQuestion = 0;\n                    asker = person;\n                    answers = [];\n                    for (var i = 0; i < NUMOFANSWERS; i++) {\n                        answers.push(asker);\n                    }\n                }\n                \n                if (mainDiv.childElementCount / 2 > MAX_MESSAGES) {\n                    mainDiv.removeChild(mainDiv.firstChild);\n                    mainDiv.removeChild(mainDiv.firstChild);\n                }\n                \n                var isAtBottom = false;\n                if (Math.abs(mainDiv.scrollTop + 530 - mainDiv.scrollHeight) < 10) {\n                    isAtBottom = true;\n                }\n                \n                \n                mainDiv.innerHTML += \"<div class='messagebody'><div class='avatar'><img style='user-select: none' src='https://cdn.kastatic.org/third_party/javascript-khansrc/live-editor/build/images/\"+ people[person].avatar + \".png'></div><div class='name' style='color:\" + people[person].c + \"'>\" + people[person].name + \"</div><div style='user-select: none' class='time'>Today at \" + getCurrentTime() + \"</div></div><div class='message-text'>\" + message + \"</div>\";\n                if (isAtBottom) {\n                    mainDiv.scrollTo({\n                        top: mainDiv.scrollHeight,\n                        behavior: 'smooth'\n                    });\n                }\n                \n                \n            }\n            addMessage();\n            setInterval(addMessage, 2000)\n        </script>\n        \n        <!-- CREDIT TO BlueBird@BirdWatcher03 FOR THE AMAZING SAVE FUNCTION -->\n        <!-- credit to leaf(https://www.khanacademy.org/computer-programming/i/4626826748018688) -->\n        <script src=\"https://cdn.jsdelivr.net/npm/html2canvas@1.0.0-rc.3/dist/html2canvas.min.js\"></script>\n        <script>\n        var save = function(){\n            html2canvas(document.body,{\n                allowTaint : false,\n                useCORS: true,\n                width:579,\n                height:566,\n            })\n            .then(function(canvas){\n                b64Img = canvas.toDataURL();\n                window.top.postMessage(b64Img, \"https://www.khanacademy.org/\");\n            });\n        };\n        var handleSave = function(e) {\n            if (JSON.parse(e.data).screenshot) {\n                setTimeout(function() {\n                    console.log(\"Saving...\");\n                    save();\n                }, 1000)\n            }\n        };\n        window.parent.savers = window.parent.savers || 0;\n        window.parent.addEventListener('message', handleSave);\n        window.parent.savers += 1;\n        for (window.parent.savers; window.parent.savers > 1; window.parent.savers -= 1) {\n            window.parent.removeEventListener('message', handleSave)\n        }\n        </script>   \n        <script type=\"application/javascript\">\n            document.body.addEventListener(\"keydown\", function(e) {\n                if (e.code === \"Escape\") {\n                    document.body.innerHTML = `\n                        <div style='position:absolute;top:0;left:0;width:100vw;height:100vw; background-color:rgb(97, 112, 239);'><br><br><br><br><h1 style='font-size:80px; text-align:center;'>KHANCORD</h1><br><h2 style='padding: 0 10vw; font-size:40px; text-align:center;'>A SUPER HILARIOUS AUTOGENERATED CHAT THREAD</h2></div>\n                    `;\n                }\n                \n                if (e.code === \"Enter\") {\n                    e.preventDefault();\n                }\n            });\n        </script>\n        <!--The Thumbnail Script 2.1.0 12/18/2023 by Bluebird@kaid_157624541333313939750668--><script src=\"https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js\"></script><script type>var r=600,s=document.documentElement.clientWidth;window.parent.html2canvas=t=>{try{html2canvas(document.body,{width:s,height:s,useCORS:!0,onclone:t=>t.getAnimations().forEach((t=>{try{t.finish()}catch{}}))}).then((t=>{var e=document.createElement(\"canvas\");e.width=r,e.height=r,e.getContext(\"2d\").drawImage(t,0,0,t.width,t.height,0,0,r,r),window.top.postMessage(e.toDataURL(),\"*\")})).catch((t=>{alert(\"Thumbnail Script Error: \"+t)}))}catch{window.top.postMessage(document.createElement(\"canvas\").toDataURL(),\"*\")}};</script>\n    </body>\n</html>\n<!--\nAutogenerated Chat Thread 2.\n\nFEATURES FROM OLD VERSION:\n  - Insults or praises others.\n  - Responds when insulted or praised.\n  - Answers questions that others ask.\n  - Two questions\n  \nUPDATES FROM OLD VERSION:\n  - Does not talk about themselves\n  - Does not answer their own question\n  - Does not answer a question more than once.\n  - Added one more question\n  - Added two more sentence patterns\n  - Removed one sentence pattern\n\nI know I didn't add much but I'm done for now with this program.\n\nThe old version:\nhttps://www.khanacademy.org/computer-programming/a-chat-thread-that-is-auto-generated/5803527879442432\n\n\nAnyways, please sub:\nhttps://www.khanacademy.org/computer-programming/lame-idk-fr/5681493063155712\n\n\n-->",
-    "title": "ACT 2 (2x better)",
-    "votes": 55,
-    "created": "2 days ago",
-    "updated": "16 hours ago",
-    "type": "HTML",
+    "code": "/**\n    \n    Star-Lord!\n    \n    I wanted to make a cooler and more higher quality program before I basically stop programming. So here's my highest quality pixel art that I've made so far!\n    \n    This took me about 7 hours of on and off work over the past few days. Not including the pixel art function. I hope you guys like it!\n    \n    @Note\n    If you click the canvas, it'll blur the image some. Please tell me which you like better: The blurred or not blurred image.\n    \n    I used a reference image for everything but the name.\n    I took a screen shot of it to make it easier to put the image next to my canvas and when I went back to get the reference image link, I couldn't find it. And some colors may be off from the image that I used.\n    \n**/\n\n// If the image is blurred or not\nvar blur = false;\n\n// Canvas size\nsize(600, 600, P2D);\n\n// Pixel art function\nvar PixelArt = (function () {\n    /** This pixel art function was made **/\n    /** by Ace Rogers (@AmericanGuard) **/\n    function PixelArt (art, x, y, size, clr, animate, speed) {\n        \n        // For your art\n        this.art = art;\n        \n        // The position\n        this.x = x;\n        this.y = y;\n        \n        // The size of the pixel art\n        this.size = size;\n        \n        // The colors you're using\n        this.clr = clr;\n        \n        // If it's animated or not\n        this.animate = animate;\n        \n        // The speed of the animation\n        this.speed = speed;\n        \n        // For picking which art for the animation\n        this.artNum = floor(frameCount / this.speed) % this.art.length;\n        \n    }\n    PixelArt.prototype = {\n        display: function (pixImg, x, y, pixSize) {\n            // Displays the pixels in their right order\n            for (var i = 0; i < pixImg.length; i++) {\n                for (var j = 0; j < pixImg[i].length; j++) {\n                    // If not \"-\" then use the color character you picked\n                    if (pixImg[i][j] !== \"-\") {\n                        noStroke();\n                        fill(this.clr[pixImg[i][j]]);\n                        rect(x + (j * pixSize), y + (i * pixSize), pixSize, pixSize);\n                    }\n                }\n            }\n        },\n        run: function () {\n            // If animated\n            if (this.animate) {\n                // This displays the animated pixel art\n                this.display(this.art[this.artNum], this.x, this.y, this.size);\n            } else {\n                // Else display just a normal pixel art\n                this.display(this.art, this.x, this.y, this.size);\n            }\n        }\n    };\n    return PixelArt;\n    // Version 2.0.0\n})();\n\n// Creating the arts\nvar StarLord = new PixelArt([\n\"aaaaaaaaamaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakkkk11111111111111n111111n11111111111111a\",\n\"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaakaak11111111111n1n11n11n1n1n1n111111111111\",\n\"aaaaaanaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaak1nnnn1n1nn1n1n1111nn1n1n1n1111111111111\",\n\"aaaaaaaalaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa11nnnnnn1n111111n111n1n1111n1n11111111111\",\n\"aaaaaaaamaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa1nmnnnnnnn1nn1n1n1n11n1111111n111nnn111111\",\n\"kaaaaaaaaakaaaaaaaaaaaaaaakaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa1nnnmnnnnnnnnn11n1n11nnn11111n1n1nn11111111\",\n\"aaaaaaamaaaaamalaamaaaaaaaaaaaaaaaaaaaaaaaaaaakaaaaaaaaaahhaaaaaaaaaaaaaaaaaaaaaaaaa1nmnmnmnnmnnnnnn11n1n11n1n11111n1n1nn1111n11\",\n\"aaaaaaaaaamaakalaaaaaaaaaaaaaaaaaaaaaagggggggggggggggaahhhhhaaaaaataaaaaaaaaaaaaaaaa1mnmnmnmnnmnnnnn11n11n1nn1nnn111n11n1n1111n1\",\n\"aaaaaaaaanlaallaaaaaaaaaaggggghhhhhhhhhgffffffhjjjjhhhhhhhhhhaaaaahhtaaaaaaaaaaaaaa1mnmnmnmnmmnmnnnn1n1n11nn111nn11111n1n111nn11\",\n\"aaaaaaaaakaaaaaaaaaaaahiggggfhhhhggjjffffffffhjjjjjjjjjjhhffhhhaaahjhhtaaaaaaaaaaa1mmmnmnnnmnnmnnnnnn1n1n11n11n1nn1n1111111n1111\",\n\"aaaaaaaaaaaakaaaaaaahiggggffffffffffffffgghhjjjjjgggggfffffhjhhggghjjjhhtaaaaaaaa1mmmmmnmnnnmmmmnnnnn11n1n11n11n1n11n111111nn111\",\n\"aaaaaaaaaaaaaaaaaaahiffffffffffffffffffffffjjjjfffffffffffhjjjfffhhjjjjhhtaaaaaaa1mmmmmmnmnnmmmnmnnnnn11n1nn1111n11n111111n11n11\",\n\"aaaaaaaaakaamaaakahjfffffffffffhhhhhffffjjjjjjjjjjjjhhhhhhffffffhhjjjjjfjtaaaaaa1mmlmlmnmnnnmmnmnmmnnn1n1n11n1n111n1n11111n1n1nn\",\n\"aaaaaaaaaaaaaaahgfffffffhhhhhhhjjjjjjjfffjjjhhhhhjjjjjjjffffhhhhjjjjjjjfftaaaaaa1mlmlmmmnmnnmnnmmnnmn1nnn1nnnnnnnnnnnnnnn11n1n1n\",\n\"aaaaaaaaaaaaaahgffffjjjjjjjjjjjjjjjffjjffffjjjjjjjjjjjjjjjjjjjjjjjjjfjjfgtaaaaallkmlmmmnmnmnmnmmnmnnmmm11nnnmmnn11n1111111n1n1n1\",\n\"aaaaaaaaaaakagffffjjjjjjjjffffffjjffffffffffffffffffjjjjjjjjjjjgfjjffjfgtaaaaaalklkllmmnmmmnmmnmnnnnnmmmn1nmn11nn11n1111111n1n1n\",\n\"aaaaakaaaaaagfffjjjfffffffffffffffffffffffffffffffffffffffjihhhffjjfffggtaaaaalkkklkmmmmnmmnmmmmmmmmmn1n1nnm111n1nn1n1n111n1n1nn\",\n\"aaaaaaaaaccgffffjffffffffffffffffffffffjjjjhhffffffffffffffffffffjfffggtaaaaaalkklkllmlmmmnnnmnmmmmmn1n1m1nnnnnnnn1n1n111n1n1n11\",\n\"aaaaaaaacbfffffffffffffpprrrrrppofffffffffffjjffffffffffffffffffffffztaaaaaaaalkkklllmmmmmnnmnnmmmmmnn1n1n1nm111nnn1111nn1n1n111\",\n\"aaaaaaaccfffffffffaaooooooooooooopprrrpprffffffffffffjuuuuuuffffffxxzrtaaaaaalkkklllmmmmmnmnnnmnmnnmnnn1nnnm111n1n1111n11nn11nnn\",\n\"aaaaaaccbfffffaaaaaooooooooooooooooooooooaoffffffjjuuuuvvvvvvvvfrrxxxrrtaaaaalkkkkllmlllmmnnnnmnnmnmnnnnnnmnnnn11111nn111n1nn11n\",\n\"aaaaaccb7fffaaaaaaooooooooooooooooooooopaoorroouuuuvvvvvwwwwwwxyrzxxxzrtaaaaalkllllmlmlmllmnnnnmnnmmnnnnnmm1nn1n111nn111n1111n11\",\n\"aaaaacb77faaaaaaaoooooooooooooooooooooopaoopoppoouvvvwwwwwwwxyyyxzyxxxzttaaaalkkklllllmlmmlnnmmnnnnnnnnnnnmmm1n1nnnn11111n1111nn\",\n\"aaaacb77aaaaaaaooooooooooooooooooooooooaooppoooppooowwwwwwpppxxxxztxxxzytaaalkklklllmmlmmmmnnmnmnnnnnmmnnnnnnnnn111n1111n111nn11\",\n\"aaaab7aaaaaaaooooooooooooooooooooooooopaooppoooooppooowwoxpppxxxxxytxxxyytaalklkkklllmmlmmmmnmmmnnnnmmnnnnnnn1mn1nn111111n1n11nn\",\n\"aaabbaaaaaaaooooooooopprsrrsrqpppppooopaoppooooooooqqooaoxppppyxxxztxxxzytaalkkkllkmlllmmmmmnmmmmnnmmmnmmnn1nmmmn1111111n1nnn1n1\",\n\"aaabaaaaaaoooooooooppaaaaaaaaaaaaaaqqpaooppooooooooooqoaopxpppyxxxxytxxzytaalkkkkkkklmmlmlmmnmmmnmnmmmmmmmmnnnnnn11111n11n11nn1n\",\n\"aabaaaaaaooooooooqaaaooooooooooooooaaaooqppoooooooooopoaopyppppyxxxzyxxxzrtalklklllmlllmlmmmnnmnmnnmmmnmnnn11nn1n11n11n111nnn1n1\",\n\"aabaaaaaoooooooqaaooooooooooooooooooooooqppoooooooooopooaopypppyxxxxzzxxzrtalkkllkllmmmlmmmmnmnmnnnmmnmnnnn1nzttttnn1n11n1nn1n1n\",\n\"aaaaaaaooooooqaaoooooooooooooooooooooooosrppoooooooooopoaopypppqyxxxzzxxxzrtlklklllllmmmmmmlmmmnnnnmnnnnnttnxxyyytnn1n1n1n1n11nn\",\n\"abaaaaoooooopaooooooooooooooooooooooooooosrqpooooooooopooaopypppyxxxxzzxxzrtlkkkkkllkmlmmmlmnmnmnnnmmnnnootaaaxxatn111n1n1n11nnn\",\n\"abaaaaooooopcaoooooooooooooooooooooooooooooqppooooooooopoaopypppqpqqtttttaattklkkkllklllllnnmmmnmmmmmnnooxztaaaaaann111n11n11n1n\",\n\"aaaaaooooopbbaoooooooooooooooooooooooooooooopppoooooooopoaoppqpooppppppppttptkklklkklllllllmnmnmmmnmnnooxxxttaaaaytmnn11111nn1nn\",\n\"baaaooooopbbbbaoooooooooooooooooooooooooooooopppooooooopoaoopoozpppppppppxpxttkklllkllmlmlmnmnmmnnmnnooxxxxzzttyy2tnnn11111n1nn1\",\n\"baaaoooopbbbd7aoooooooooooooooooooooooooooooooopoooooooqoaoooooyyppppppppxxxttkkkklkllmmlmlmnmnmnmnmnooxxxzxxx22t2t1n1n1n1n1n1nn\",\n\"aaaaooopbbbd7bbaoooooooooooooooooooooooooooooooopooooooqoaooooooyyp222ppppxpttkkkklklllmmlmlmnmnnnmnooxxxxzxxzzzy2t1nn1n1n11nn1n\",\n\"aaaoooopbbd7bbbaoooooooooooooooooooooooooooooooooooooooooaoooooooo2pppppp222tlkkkkllllmmmmmmmmmmnmnooxxxx2xxxzzyzt1n11n11111n1n1\",\n\"aaaooopbbd7bbbd7aoooooooooooooooooooooooooooooooopqooooaaaoopppp2cddddddppppaalkklklklllmlmmmnmnnnooxxxxz2xxzzzyytn1n1111111nn11\",\n\"aaaooopbbd7bbd7baooooooooooooooooooooooooooooooooopoooaaaoop2dddddyyyttdddddttlkkklkkllllmmmnmnmnooxxxxx2xxxzz2yytnn1n1n1111n1n1\",\n\"aaooopbbe7bbd7bbbaooaaaaaaaaappooooooooooooooooooooooaaaaop2dddddappqqqtddddoptkklklklllmlllmnmnmoxxxxxz2xxzzy2xytmmm1111111nn11\",\n\"aaooopbbd7bbd7bbbaaaaaaaaaaaaaaqoooooooooooooooooooooaaaoopdddddappq655qtdddoptlkklllllmlmlmmmnmooxaaax2xxxzz2xytmnn1n11n11nn111\",\n\"aaooopbbd7bd7bbbbaaaappppppaaapqqooooooooooooooooooooaaooppdddbcaqq65556qtddaptlkkklkklllmllllmnoxxxxxx2xxzzy2xytn11n11nnnn111n1\",\n\"aaoopbbb7bbd7bbbappppppppppprsqppooooooooooooooooooooaaooppdddbapqq54444qtddaptalkkkllklmllmmmmooxaaaxztaaaaaaxytn1111n11111111n\",\n\"aaoopbbd7bd7bbbbpppppppppppppspppooooooooooooooooooooaaooptddbbaqq6544456ptdapptlkklkklllmlmmmmoxxxxxxtaaoppqt1nn1nnnn11ytt1nnn1\",\n\"aaoopbbd7bd7bbbpppppppppppppppqpppoooooooooooooooooooaaooptddbbaqq6544445qtdapptallklkklmlmlmmooxaaaxztaaopzzt1n1nnn111xxy2n111n\",\n\"aaoopbbd7bd7bbbpppqaaaaaaaaappprppoooooooooooooooooooaaooptddbbaqq6544445qtddaptalklklkllmlmlmoxxxxxx2taoopzqt11n1nnn1axxaa211n1\",\n\"aaoopbbd7bd7bbpppqaqrrqppppqapprqppooooooooooooooooooaaoopqddbbapqq544456qtddaptaalklklklmlmmooxaaaxztaaooqqqt1n1n1ntt2aa2tyt1nn\",\n\"aaoopbbd7bb7bbpppappppppppppqapprppooooooooooooooooooaaooppdddbaaqq654445qtddaptaaalklklkmllmoxxxxxztooyyoppptn1n1n1qqyttyyxytt1\",\n\"kaooopbb7bbd7bpppapppppppppppapprppooooooooooooooooooaaoopp2ddbbapqq54456q3ddaptaaaalklklmlmooxaaxzybbbcyzzyyt111n12ppxyyxxxy2t1\",\n\"kaooopbbd7bd7bpppapppppppppppqaprqpoooooooooooooooooqaaaoopydddbaapp6555qtdddaptaaaalkkkllmloxxxxzybbbbe7bbbbt1nn11pppxxxxxxy2t1\",\n\"kaoooopbb7bd7bbppapppppppppppqappqpoooooooooooooooooqyaaoopy3ddbbappqqqqtdddd33aaaaaalkkklmooxxxxzyb7bbe7bbcetn11n1ppxxxxxxxz2t1\",\n\"kaoooopbbd7bd7bppqapppppppppprarrrpoooooooooooooooooqyaaooopydddbbapppqtddddzztaaaaaaalkkkloxxxxxzbbbbcb7bbeet1n1nnnaopaxxxxy2t1\",\n\"kapoooopbb7bd7bppqappppppppprapaaarrpppppooooooooqqqqyaaoooppydddbbayytbdddzztttaaaaaaalllooxxxxzyaabbc7bbee3tn11n1naozaxaxxy2t1\",\n\"kaapoooobbe7d7bbppqappppppppaapppqaaaaaaapqqqqqqqqqqq2aaoooopqpqdddbbbbdddz22xytaamlaaaaaloxxxxxztaaoooaabcd3t1nn1nnaoxasxaxyt11\",\n\"kkapoooopbd7bd7bppqappppppppaapppqooooooaaaaaaaaaaqyyyxaaooooopptddddddddpztxxytaamaaakaaooxxxxxztooooaaaooo3tnnnnnnaoxasaxayt11\",\n\"kkapooooobb7bd7bbppqappppppqaappppqoooaaaaaaaoooooooooooaaaooooopttdddddppzxxxytaaaanaaaaooxxxxx2t7bbe7aooopt1nnnnn7booxaxaxyt1a\",\n\"kkaaooooopbe7bd7bppqappppppqaappppqooaappoooaaaaaaaaoooooaabbboooopttdxxppxxxootaanaaaaaaoxxxxxzt777be7bbccpt11n1117be7xsaxaytaa\",\n\"kkaaoooooobd7bd7bbpppapppppqoaappppqoaaaaaaoooopppooaaaaaaadbbbbooooottxxpxxoy2taaaaaaalooxxxxxzt7bbb37b77c3t1n11117be7saxaxztaa\",\n\"kkaapooooopbd7bd7bpppappppppsaappppqooaaaaaaaaaaaaaaooqqqaaddbbbbbbboootttpoxxytaamaaaaaooxxxxx2t77ac37bbec3tn111117bc7sxaxxztaa\",\n\"kkkaaoooooobd7bd7bbpppappppppoaapppqooooooooooaaaaaaaaaoqaaddddddbbbbppoootpxxootaaaaaaaoxxxxxzt77bbd77b773t1111111aopasaxaxztaa\",\n\"kkkaaoooooopbd7bd7bzzppapppppsoappppqoooooaaaaooooooooaaaoabdddddddbbppppotpxoy2taaaaaaaoxxxxxztoozyy7bbcc3t111111aaopaxxaxxytaa\",\n\"kkkkaaooooopbd7bd7bboyyapppppqoappppqooooaappoaaaaaaaaoooooaddddddddbpqqpootpxy2taaakaaooxxxxxztooqqyzzyccdtaaaaaa7boppaxxaxytaa\",\n\"kkkkaaooooopbbd7bd7bbozoapppppqoappppqoooaaaaaopppqqoooaaaoabdddddddbppqppotpxootanmkaaooxxxxx2tooqoqqqqyzytaaaaaa7bbec77xxzytaa\",\n\"kakakaaooooppbd7bbd7fozoapppppqoappppqooooaaaaaaaaaaaaaoppaabdddddddbppqqpotpox2taaaaaaoxxxxxx2zoqqqqqqoqqtaaaaaa7bbbec77xxytaaa\",\n\"akakaaaooooppbd7bbbfffozoapppppzappppqoooooooooaaaaaaaaaooaabbdddddddppqqpotpxxytaaaaaooxxxxxytaaaazzzyooqtaaaaaa7bb77777xx2taaa\",\n\"kkkkkaaaoooppbbd7bffffozoapppppyapppppqooooaaaappooooooaaaoabbbdddddddpqqpotpxootaaaaaooxxxxxytaoqoaaaazyytaaaaaa7bbb3b7xxx2taaa\",\n\"kkkkkaaaoooppbbd7fff?ffozzazzyyoooppppqoooaaqqpaaaaaaaaoooooabbbddddddppqpotpozytaaaaaoxxxxxx2taooqoqootaaaaaaaaaxbb7777yxx2taaa\",\n\"kkkkakaaooppbbbbfff???fopzzpppppppoooopqooaaaaaoooopppooaaaoabbbbdddddppqpotpxxxtaaaaooxxxxxx2taoooqrotaaaaaaaaaaqbbb3b7yxx2taaa\",\n\"kkkkkakaooppbbbffff???ffoooopzz222qqppoooooaaaaaaaaaaaaaoppaabbbbbddddppqqotpxootaaaaooxxxxxx2aaqoooqrtaalaaaaaaaoxxxyxayxx2tkaa\",\n\"kkakakaaaopbbbffff?????fffaaaopppq2zzzqpppppooooaaaaooaaaopaabbbbbbdddppqpotpoxztamkaooxxxxxx2aaaqoooqtaaaaaaaaaaooqxqqayxx2taka\",\n\"kakakakaaopbbffff?????????????fffppppp2zzzzzpppppooozooraaaoabbbbbbbddppppotpzxxtmnmaoxxxxxxy2aaaaaoootaaaaaaaaaaooqxqayxxx2tkak\",\n\"kkakaaakaobbbfff??????????????????ffaaoooooozyzzzppozzqrsrooabbbbppxx22pppotpxxztamaooxxxxxyy2aaaaaaoootaaaaaaaaoooxqqayxxx2takk\",\n\"kkkakaaaaobbfff???????wwwwwww???????ppaaaaaaoooppzooyppqrrssabbbppxppxxttppotxzzytaaooxxxxxy2aaaaaaaaoooqtaaaaaaooqxqqayxxztaaak\",\n\"kkkkakaaabbbff???????wwwwwwwwww??????pppppzoaaaoppooyzpppqqroozypppppppxzttttxzzytaaoxxxxxyooaaaww##aqooooqtaaaaoqxqqqayxx2takak\",\n\"kkkaaaaaebbof????????wwwwwwwwwwww??????ppppzoooaoooyppzypppqqoz2xzzpppppppzztyzzxtaooxxxxxo##aauw..##oqaaoorqtaaqxxqqayxxz2tkkkk\",\n\"akkaaaaaeboff????????wwwwwwwwwwwwww??????ppzoooaoozyppppzqpppox2xxzzzpppppppztzxxtaooxxxxowww#a?wwwwooaaaaoqooooaaxxxayxxz2tkkkk\",\n\"kakkkaak$899?????????wwwwwwwwwwwwwww????????/ooozzooyyppppqqoxx2pppxxxxxpppxptxxxxtoxxxxxow.ww#a?uu?ooaaaaaoqooooqaaaayxxztkkkkk\",\n\"akakakka$88899???????wwwwwwwwwwwwwwwww???????//////ooozzppppoxxzpppppxxz22ppptxxxxtoxxxxxow,.w#ao??qqaaaaaaaaaqoooqqoaxxx2takaak\",\n\"kakkkaaa$888899??????wwwwwwwwwwwwwwwwwww??????//////oooozqpoxxyxppppppppx22zxytxxxxttxxxx/w,.w#aqoooauuvaaaaaaaqooooqaxxx2tkakkk\",\n\"kkakakaa$88888899???wwwwwwwwwwwwwwwwwwwwww?????//////ooooozozyyxypppppppppxxxzt2xxxtytxxx/w,.wwaoqoowwwwvvaaaaaaqoooaxxxx2takakk\",\n\"kkkakaaa$8888888899?wwwwwwwwwwwwwwwwwwwwwww?????////////ooopzyooz2zppppppppppxtx2xx2zytxowwwwwwaoqoowwwwwwaaaaaaaoooaxxxz2taakkk\",\n\"kkakaaaa$8888888888900wwwwwwwwwwwwwwwwwwwwwww????////////pppppoooo22zppppppppxtx2xx2xytxowwwwwaoooqowwww..?vvaaaaqooaxxxztakakkk\",\n\"kkkaaaaa$888888888889900wwwwwwwwwwwwwwwwwwwwwww???//////pppppoooooop2xxxppppxxtx2xx2xytxow.wufaoooow....,?ww#vaaaoqqxaxx2tkaakak\",\n\"kkakaaaa$8888888888889990000wwwwwwwwwwwwwwwwwwww???//////ppp//oooooooooxzzppxxtx2xx2xytxow.w.wwaqooww.,,,?.www#aaoooxaax2taaaakk\",\n\"kkkaaaaa$8888888888888999999000wwwwwwwwwwwwwwwwww????////////////oooooooozzxxtox222xxytxow...wwaoqowwwu.?,,www?iaoooxaaa2tkakaak\",\n\"kkkakaaa$8888888888888899999999900wwwwwwwwwwwwwwww?????////////////oooooooozztxxttzzztxo/w,,wwwaoqoww.uu?.,ww?wwiaooxaaaatkkkakk\",\n\"kkkkakak$88888888888888889999999999@@@@wwwwwwwwwwww???ii,a///////////ooooopztoxttzzyyxxo/w,.wwwaooqu..u?.wwww?wwwvooqaaatkakakak\",\n\"akaakaka$888888888899988888999999999990@@00wwwwwwwww.##,aaaaa///////////oopptztyyyyxxxxo/w,wwufaaooquuu?wuww?w.ww#qqaaaatakakakk\",\n\"kaaakkk$$888888888889999988889999999999990@@000wwwww.##,aakaa////////////pqtzytooxxxxxxo/w.wuwwfaaoooqouw.ww?w...#oqaaaatkaaaakk\",\n\"aaakak$$8888888888888999999888999999999999$$$$$900www##,aaaaaa///////////qqtttaooxxxxxxo/w.wwwwuuaooooqu..u?www.,ooxaaaataaaakkk\",\n\"aakaka$$888888898888888999999999999998888999999999900#,aaaaaaaa////////aaaaaaaaooxxxxxxoow...wwwwaaoooqouuu?w.wuvooxaaataaakkkkk\",\n\"akkka$$8888888899999999998889999999999988888899999999$,aaaaaaaaaaaaaaaaaaaaaaaoooxxxxxxoow,wwwwwwuaooooqoooou..voqxxaaataakaakkk\",\n\"kkkkk$$8888889988999999999988899999999998888880999999$$@taaaaaaaaaaaaaaaaaaaaaooxxxxxxxpow,wwwwwwuaaqoooqqoouw.vooaaxaataaakakkk\",\n\"kkkk$$888888999998889999999999999999999999998880999999$$@taaaaaaaaaaaaaaaaaaaaooxxxxxxypouwwuwwwwwuaoqooooqoouuqooaaaaatkakaaakk\",\n\"kkkk$$8888899999999988999999999999999999900998880999999$$$ttaaaaaaaaaaaaaaaanaooxxxxxxyptauuuwwwwwuaaoqooooqooooqaaaaaatakakakak\",\n\"kkk$$$88888988888899988888999999999999999900998880999999$$$$ttaaaaaaaaaaaaaaaoooxxxxxy2taauuwwwwwwwuaaqooooqooooqaaaaatakakakakk\",\n\"kka$$88888888888999988999988889999999999999909988099999999$8$tttaaaaaaaaaaaaaooxxxxxxy2taaauuwwwwwwuaaaqooooqooooaaaaataakakkkkk\",\n\"kk$88888888888999999899999999988889999999999009888999999990088$$ttaaaaaaaaaaaooxxxxxx2taaaaauwww#wwuoaaaqqoooqqooaaaaataaakkkkak\",\n\"kk$888888888999999998999999999999988899999999999999999998888888$$$taaaaaanaaakoxxxxxy2tkaaaaawww#wwuooaaaaqooooqaaaaaatkakakkakk\",\n\"ka$8888888999999999899999999999999999888899999999999999999888888<<$taaaaaaaaaaanxxxx2taaka222uwwwwwuoooaaaaqooooaaaaaatakakakkak\",\n\"k$$8888899999999999899999999999999999999988889999999999999998888888$taaaaaanaaaaxxxxttaaa9808uuuwwwuooqoaaaoaoooaaaaqtaaakakkakk\",\n\"k$$88888999999999998999999999999000099999999988889999999999990888888$taaaaaakaaaxxx2aaaa99880uuuuwwwuooqooaaoaaoaaqqrtaakakkakkk\",\n\"k$$8888999999999998899999999990000@@00009999999998888999999998888888$@taaaaaaaaaax2aaaaa988889uuuuuuuuooqqooaooxxqqaatkaakaakakk\",\n\"k$888889999999988888888888999000000@@@0000099999999998888999$@088!!8$@talaankkaaaaaaaaa99888889uuuuuuuuuuo.oooaxqaaaatakaaaaakkk\",\n\"$$888889999998889999999998889909999900@@@099999999999999988<$$@08!!8@@taaakaakaanamlaaa9888888899uuuuuuuuuu##,aqaaaataaakaaakkkk\",\n\"$8888899999888999999999999988999999990@0099000009999999998@ta$<@8888@taaaaaaaaakaaamaan888899988999uuuuuuuu#,aaqaaaataaaakkkkkkk\",\n\"$8888899998899988888999999998899999990@9000000@@0999999998@taa<<<88$talkaaakaaaaaaaaaa888889999899999uuuuu##,aaaaaaatkaaaakkkkkk\",\n\"$888888998898888899999999999988999999909900@000@@9999999988@taa<<<$taakaaaaaalmaaaaaaa98888889999999990000@t8taaataakakaakakkkkk\",\n\"$888888988988899999999999999998899999909900@0900@@999999988@taaa<$taaaakmaaknkaaaaaaaa98888888889999999999$t88tttaaaakakaakakkkk\",\n\"$888888889888999999999999000999889999990990@099900999999988@@taaaaaaaaaaankaaaaakaaaaa98888899999999999999$$tt888ttaaakakaaaakkk\",\n\"$888888898889999888899999990000988999999990@0099900999999888@taaaaaaaaalaaaaankaaaaaaa888988899999999009999$$$tttt8taaakakkakkkk\",\n\"$888888888889988889999999900000098899999990@00999009999999880@taakaaaaaaaamakaakkaaaa98889988889999999000009@@@@@$ttaakakkkkkkkk\",\n\"$888888888898888899999999999000009889999990@099990999999998800@tmaaaamaaaaammlaaaaaaa98889998888999999990000000@@@@takakakakkkkk\",\n\"$8888888888888888999999999999900@0988999990@099999999999998880@@taaaaaaaaaaaaaaaaaaaa98889999988999999999000000@@@@tkakakaaakkkk\",\n\"$8888888888888889999999999999990@@098899990@009999999999998880@@taaaaaaaaaaaakmmaakaa9888999999988999009900000@!!@@taakakkakakkk\",\n\"$8888888888888889999999999999990@@0098899990009999909999998880@@@tlaaanaaaaaaaaaaaaaa9888999999999889990000000@!!@taakakkkkkkakk\",\n\"$88888888888888899999999999999000@00098899900099999099999988888@@taaaaaaaaaaaaaaaaaa98888899999999998899999000@0@@taaakkakkkakkk\",\n\"$88888888888888889999999999990000@@@0998899000999900999999988880@@taaaaaaaaaaaaaaaaa98888899999999999988899990@@@@taakaaakaakakk\",\n\"$8888888888888888889999999990000@@@@@0998990999999000999999888800@taaaaaaaaaaaaaaaaa988888999999999999999888900@@taakaaaaaaaakkk\",\n\"$888888888888888888889999900000@@@00@099889999999900@999999988880@@taaaaaaaaaaaaaka98888888999999999999999998880@taaakakkaaaakkk\",\n\"$88888888888888888888999990000@@@@00@$99989999999900@999999988880@@taaaaaaaaaaaaaaa988888888899999999999999999988taaaakkakaakkkk\",\n\"$8888888888888888888899999000@@@@@00009998999999900@@999999998880@@taaaaaaaaaaaaaa98888888888888899999999999990@taaaaaaaaakkkkkk\",\n\"$8888888888888888888899990000@@@@@$$000998899999900@0999999998888@@taaaaaaaaaaaaaa98888889888889999999999999900@taaaaaaaaakakkkk\",\n\"$888888888888888888889999000@@@0000880099989999990@00999999999888@@taaaaaaaaaaaaa9889988899999999990999000000@@taaaaaaaaaaaaakkk\",\n\"$88888888888888888888899900@@@@000008800998899990@@099999999998880@taaaaaaaaaaaaa9889988999999999990099990@@@@@taaaaaaakakakakkk\",\n\"$8888888888888888888889990@0@@000008880099989990000099999999999888@taaaaaaaaaaaa98899988999999999990099999900@taaaaaaaakkakakakk\",\n\"$888888888888888888888990@@0@@000088880099988990099999999999999988@taaaaaaaaaaaa9889998999999999999000999900@@taaakakakkakakkkkk\",\n\"$888888888888888888888990000@@0008888800099989999999999999999999988taaaaaaaaaaa988999999999999999999000@@@@@@@taaaakaaaakakkkkkk\",\n],\n0, 0, 4.68, {\n    \"a\": color(0), // Black\n    \"b\": color(92, 86, 3), // Dark gold\n    \"c\": color(115, 109, 0), // Gold\n    \"d\": color(161, 129, 13), // Light gold\n    \"e\": color(150, 143, 18), // Shiny gold\n    \"f\": color(59, 36, 4), // Main brown\n    \"g\": color(92, 54, 4), // Light brown\n    \"h\": color(212, 118, 87), // Lighting brown\n    \"i\": color(168, 91, 65), // Light shade brown\n    \"j\": color(89, 53, 35), // Hair shading?\n    \"k\": color(0, 33, 21), // Dark teal\n    \"l\": color(105, 22, 64), // Purple\n    \"m\": color(181, 56, 77), // Light purple\n    \"n\": color(255, 110, 110), // Pink\n    \"o\": color(40), // Dark gray\n    \"p\": color(60), // Dark-ish gray\n    \"q\": color(80), // Semi dark gray\n    \"r\": color(100), // Gray\n    \"s\": color(150), // Light gray\n    \"t\": color(230), // Really light gray\n    \"u\": color(99, 70, 56), // Skin shadow\n    \"v\": color(143, 89, 76), // Skin shading\n    \"w\": color(163, 101, 88), // Skin color\n    \"x\": color(90, 73, 92), // Purple gray\n    \"y\": color(158, 129, 158), // Light purple gray\n    \"z\": color(115, 100, 115), // Shiny purple gray\n    \"1\": color(255, 212, 166), // Light pink\n    \"2\": color(207, 180, 207), // Super light (puray)\n    \"3\": color(255, 230, 0), // Yellow\n    \"4\": color(255, 120, 0), // Orange\n    \"5\": color(255, 157, 59), // Light orange\n    \"6\": color(255, 199, 143), // Super light orange\n    \"7\": color(69, 62, 0), // Super dark gold\n    \"8\": color(41, 4, 4), // Dark red\n    \"9\": color(105, 15, 15), // Red\n    \"0\": color(201, 32, 46), // Lighting red\n    \"@\": color(255, 51, 70), // Lighter red\n    \"#\": color(224, 160, 148), // Skin lighting\n    \"$\": color(97, 7, 7), // Light shade red\n    \"?\": color(99, 54, 28), // Shade skin\n    \"/\": color(10), // Light black\n    \".\": color(191, 123, 111), // Light skin color\n    \",\": color(247, 196, 188), // Lighting skin color\n    \"<\": color(69, 6, 6), // Light dark red\n    \"!\": color(20, 4, 4), // Super dark red\n}, false, 0);\nvar Name = new PixelArt([\n    \"----aaaaaaaa--------aaaaaaaaaaaa----------aaaa----------aaaaaaaaaa----------------------aaaa----------------aaaaaaaa--------aaaaaaaaaa--------aaaaaaaa------\",\n    \"---aaaaaaaaaa------aaaaaaaaaaaaaa--------aaaaaa--------aaaaaaaaaaaa--------------------aaaaaa--------------aaaaaaaaaa------aaaaaaaaaaaa------aaaaaaaaaa-----\",\n    \"--aaxxxxxxxxaa----aaxxxxxxxxxxxxaa------aaxxxxaa------aaxxxxxxxxxxaa------------------aaxxxxaa------------aaxxxxxxxxaa----aaxxxxxxxxxxaa----aaxxxxxxxxaa----\",\n    \"-aaaxxxxxxxxaaa---aaxxxxxxxxxxxxaa-----aaaxxxxaaa-----aaxxxxxxxxxxaaa-----------------aaxxxxaa-----------aaaxxxxxxxxaaa---aaxxxxxxxxxxaaa---aaxxxxxxxxaaa---\",\n    \"aaxxxxxxxxxxxxaa--aaxxxxxxxxxxxxaa----aaxxxxxxxxaa----aaxxxxxxxxxxxxaa----------------aaxxxxaa----------aaxxxxxxxxxxxxaa--aaxxxxxxxxxxxxaa--aaxxxxxxxxxxaa--\",\n    \"aaxxxxxxxxxxxxaa--aaxxxxxxxxxxxxaa---aaaxxxxxxxxaaa---aaxxxxxxxxxxxxaa----------------aaxxxxaa----------aaxxxxxxxxxxxxaa--aaxxxxxxxxxxxxaa--aaxxxxxxxxxxaaa-\",\n    \"aaxxxxaaaaxxxxaa---aaaaaxxxxaaaaa---aaxxxxxxxxxxxxaa--aaxxxxaaaaxxxxaa----------------aaxxxxaa----------aaxxxxaaaaxxxxaa--aaxxxxaaaaxxxxaa--aaxxxxaaaaxxxxaa\",\n    \"aaxxxxaaaaxxxxaa----aaaaxxxxaaaa----aaxxxxxxxxxxxxaa--aaxxxxaaaaxxxxaa----------------aaxxxxaa----------aaxxxxaaaaxxxxaa--aaxxxxaaaaxxxxaa--aaxxxxaaaaxxxxaa\",\n    \"aaxxxxaaaaaaaaa-------aaxxxxaa------aaxxxxaaaaxxxxaa--aaxxxxaaaaxxxxaa----aaaaaaaa----aaxxxxaa----------aaxxxxaaaaxxxxaa--aaxxxxaaaaxxxxaa--aaxxxxaaaaxxxxaa\",\n    \"aaxxxxaaaaaaaa--------aaxxxxaa------aaxxxxaaaaxxxxaa--aaxxxxaaaaxxxxaa---aaaaaaaaaa---aaxxxxaa----------aaxxxxaaaaxxxxaa--aaxxxxaaaaxxxxaa--aaxxxxaaaaxxxxaa\",\n    \"-aaaxoxxoxxxaa--------aaxxxoaa------aaxxoxaaaaxxxoaa--aaxoxxaaaaoxxxaa--aaxxxxxxxxaa--aaxxxoaa----------aaoxoxaaaaxxxxaa--aaxxoxaaaaxxxxaa--aaxxxxaaaaxxxxaa\",\n    \"--aaxxxoxxoxaaa-------aaoxoxaa------aaoxxoaaaaxooxaa--aaxxxoaaaaxoxoaa--aaoxxoxxoxaa--aaoxoxaa----------aaxxxoaaaaxoxoaa--aaxoxoaaaaoxoxaa--aaoxoxaaaaxxoxaa\",\n    \"---aaaooxoooxoaa------aaoxooaa------aaoxxooooxoxoxaa--aaooxoxooxxoaaa---aaooxooxooaa--aaoxooaa----------aaoxooaaaaoxooaa--aaoxooooooxoaaa---aaxxooaaaaoxooaa\",\n    \"---aaaxoooxoooaa------aaxooxaa------aaooxoooooxoooaa--aaxoooooooooaa----aaooooooooaa--aaooxxaa----------aaooxoaaaaooooaa--aaooxooooooxaa----aaooxoaaaaoooxaa\",\n    \"--aaaaaaaaooooaa------aaooooaa------aaooooooooooooaa--aaooooooooooaa-----aaaaaaaaaa---aaooooaa----------aaooooaaaaooxoaa--aaooooooooooaa----aaooooaaaaooooaa\",\n    \"-aaaaaaaaaooooaa------aaooooaa------aaooooooooooooaa--aaooooooooooaaa-----aaaaaaaa----aaooooaa----------aaooooaaaaooooaa--aaooooooooooaaa---aaooooaaaaooooaa\",\n    \"aaooooaaaaooooaa------aaooooaa------aaooooaaaaooooaa--aaooooaaooooooaa----------------aaooooaaaaaaaa----aaooooaaaaooooaa--aaooooaaooooooaa--aaooooaaaaooooaa\",\n    \"aaooooaaaaooooaa------aaooooaa------aaooooaaaaooooaa--aaooooaaooooooaa----------------aaooooaaaaaaaaa---aaooooaaaaooooaa--aaooooaaooooooaa--aaooooaaaaooooaa\",\n    \"aaooooooooooooaa------aaooooaa------aaooooaaaaooooaa--aaooooaaaaooooaa----------------aaooooooooooooaa--aaooooooooooooaa--aaooooaaaaooooaa--aaooooooooooaaa-\",\n    \"aaooooooooooooaa------aaooooaa------aaooooaaaaooooaa--aaooooaaaaooooaa----------------aaooooooooooooaa--aaooooooooooooaa--aaooooaaaaooooaa--aaooooooooooaa--\",\n    \"-aaaooooooooaaa-------aaooooaa------aaooooaaaaooooaa--aaooooaaaaooooaa----------------aaooooooooooooaa---aaaooooooooaaa---aaooooaaaaooooaa--aaooooooooaaa---\",\n    \"--aaooooooooaa--------aaooooaa------aaooooaaaaooooaa--aaooooa-aaooooaa----------------aaooooooooooooaa----aaooooooooaa----aaooooa-aaooooaa--aaooooooooaa----\",\n    \"---aaaaaaaaaa----------aaaaaa--------aaaaaa--aaaaaa----aaaaaa--aaaaaa------------------aaaaaaaaaaaaaa------aaaaaaaaaa------aaaaaa--aaaaaa----aaaaaaaaaa-----\",\n    \"----aaaaaaaa------------aaaa----------aaaa----aaaa------aaaa----aaaa--------------------aaaaaaaaaaaa--------aaaaaaaa--------aaaa----aaaa------aaaaaaaa------\",\n],\n4, 505, 3.8, {\n    \"a\": color(50), // Gray\n    \"x\": color(255, 200, 0), // Yellow\n    \"o\": color(255, 150, 0) // Orange\n}, false, 0);\n\n// Making the blurred art into a image {\n\n// Black background for the edge\nbackground(0);\n\n// Runs the art\nStarLord.run();\n\n// Blur and erode\nfilter(BLUR, 1.5);\n\n// His name\nName.run();\n\n// Blur\nfilter(BLUR, 1.5);\n\n// Makes it into an image\nvar blurred = get(0, 0, 600, 600);\n\n// }\n\n// Makes it so you can right click the canvas to save the image\nenableContextMenu();\n\n// Switches between blurred and not when clicked\nmouseClicked = function () {\n    blur = !blur;\n};\n\n// Draws everything\ndraw = function () {\n    background(0); // Black background\n    if (blur) {\n        image(blurred, 2, 2); // Blurred pixel art\n    } else {\n        \n        // Runs the art\n        StarLord.run();\n        \n        // His name\n        Name.run();\n        \n    }\n};\n\n",
+    "title": "Star-Lord (Pixel Art)",
+    "votes": 16,
+    "created": "an hour ago",
+    "updated": "42 minutes ago",
+    "type": "PJS",
     "author": {
-        "name": "wealR",
-        "id": "kaid_831993479561352012904348",
-        "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+        "name": "Ace Rogers (On)",
+        "id": "kaid_714276242204949021450419",
+        "avatar": "/images/avatars/svg/leaf-blue.svg"
     },
     "dimensions": {
         "width": 600,
         "height": 600
     },
-    "forks": [
-        {
-            "title": "Spin-off of \"ACT 2 (2x better)\"",
-            "id": "5460220705685504",
-            "forks": 0,
-            "votes": 1,
-            "author": {
-                "name": "DebidattaM",
-                "id": "kaid_1196497146108329414558461"
-            }
-        },
-        {
-            "title": "Added some people",
-            "id": "5847886752301056",
-            "forks": 0,
-            "votes": 1,
-            "author": {
-                "name": "Hokeycat",
-                "id": "kaid_438466413527508491816275"
-            }
-        },
-        {
-            "title": "Spin-off of \"ACT 2 (2x better)\"",
-            "id": "6651234816540672",
-            "forks": 0,
-            "votes": 1,
-            "author": {
-                "name": "ihmandrew",
-                "id": "kaid_1116498955829619146975594"
-            }
-        }
-    ],
+    "forks": [],
     "posts": {
         "tips": [
             {
-                "replyCount": 1,
-                "votes": 12,
-                "date": "2 days ago",
-                "author": {
-                    "name": "wealR",
-                    "id": "kaid_831993479561352012904348",
-                    "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                },
-                "text": "<b>Sub pls</b><br><br>https://www.khanacademy.org/computer-programming/lame-idk-fr/5681493063155712",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "YA",
-                            "id": "kaid_3563621891021365862686148",
-                            "avatar": "/images/avatars/svg/robot_female_3.svg"
-                        },
-                        "text": "too late, already subbed"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
+                "replyCount": 0,
                 "votes": 7,
-                "date": "a day ago",
+                "date": "an hour ago",
                 "author": {
-                    "name": "AmethystSky",
-                    "id": "kaid_784805823121542822870790",
-                    "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                    "name": "Ace Rogers (On)",
+                    "id": "kaid_714276242204949021450419",
+                    "avatar": "/images/avatars/svg/leaf-blue.svg"
                 },
-                "text": "<b>PlumpGeorge</b>:<br>Are you an animal?<br><b>RandoDude</b>:<br>Nope. I am a little hurt. Actually I am a very beautiful bug.<br><b>wealR</b>:<br>Yup. Actually, I am a very gorgeous fish.<br><b>Crazy OJ</b>:<br>Yup. Amazingly, I am a very handsome bird.<br><br><em>Bugs are animals.</em>",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "17 hours ago",
-                        "author": {
-                            "name": "wealR",
-                            "id": "kaid_831993479561352012904348",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "I guess RandoDude has the IQ of a vain bug lol"
-                    }
-                ]
-            },
-            {
-                "replyCount": 5,
-                "votes": 5,
-                "date": "a day ago",
-                "author": {
-                    "name": "kitty mascot",
-                    "id": "kaid_1066778980955332043559618",
-                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                },
-                "text": "RandoDude<br>What is your favorite subject in school?<br>wealR<br>Math. I extremely am fond of how it is persuading RandoDude's fat piano.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "kitty mascot",
-                            "id": "kaid_1066778980955332043559618",
-                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                        },
-                        "text": "what is wrong with this chat? XD"
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "lol I have no idea XD"
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "kitty mascot",
-                            "id": "kaid_1066778980955332043559618",
-                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                        },
-                        "text": "are we gonna start this again? XD"
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "kitty mascot",
-                            "id": "kaid_1066778980955332043559618",
-                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                        },
-                        "text": "wealR<br> What is your favorite subject in school?<br> RandoDude<br> Science. I extremely like how it is befriending wealR's ugly bracelet. XD"
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "lol probably XD"
-                    }
-                ]
-            },
-            {
-                "replyCount": 15,
-                "votes": 5,
-                "date": "a day ago",
-                "author": {
-                    "name": "Ezra",
-                    "id": "kaid_1112279572017452692208390",
-                    "avatar": "/images/avatars/svg/leaf-red.svg"
-                },
-                "text": "Dude, my co-worker gossiped that wealR was fit! - RandomDude<br>I would never say something that mean to you! >:( = wealR<br><br>yeah because if you were fit then that wouldn't be lame and your lame so being lame you don't want people to call you not lame because you are the second greatest lamer ever!",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "lol this chat is ridiculous XD"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Ezra",
-                            "id": "kaid_1112279572017452692208390",
-                            "avatar": "/images/avatars/svg/leaf-red.svg"
-                        },
-                        "text": "why you telling me?"
-                    },
-                    {
-                        "date": "20 hours ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "I dunno, why not"
-                    },
-                    {
-                        "date": "17 hours ago",
-                        "author": {
-                            "name": "wealR",
-                            "id": "kaid_831993479561352012904348",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "don't you love how the chatbot that represents me is so accurate to my disposition towards lameness?"
-                    },
-                    {
-                        "date": "17 hours ago",
-                        "author": {
-                            "name": "Ezra",
-                            "id": "kaid_1112279572017452692208390",
-                            "avatar": "/images/avatars/svg/leaf-red.svg"
-                        },
-                        "text": "@mathlete11 maybe cause I'm not the maker of the program lol<br><br>@wealR oh yeah you did so good at it. so good that is isn't even lame >:)<br>like if you were to put me in there I would be soooo lame"
-                    },
-                    {
-                        "date": "16 hours ago",
-                        "author": {
-                            "name": "wealR",
-                            "id": "kaid_831993479561352012904348",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "@Ezra i added you now you can see what you say lol"
-                    },
-                    {
-                        "date": "15 hours ago",
-                        "author": {
-                            "name": "Ezra",
-                            "id": "kaid_1112279572017452692208390",
-                            "avatar": "/images/avatars/svg/leaf-red.svg"
-                        },
-                        "text": "Wow I'm the lamest O.o"
-                    },
-                    {
-                        "date": "15 hours ago",
-                        "author": {
-                            "name": "Ezra",
-                            "id": "kaid_1112279572017452692208390",
-                            "avatar": "/images/avatars/svg/leaf-red.svg"
-                        },
-                        "text": "Afternoon. At that time, I extremely value inspecting myself dancing with this good bracelet.<br><br>see? :P"
-                    },
-                    {
-                        "date": "14 hours ago",
-                        "author": {
-                            "name": "wealR",
-                            "id": "kaid_831993479561352012904348",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "O.o that's lame O.o"
-                    },
-                    {
-                        "date": "13 hours ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "@weal can u add me XD"
-                    },
-                    {
-                        "date": "11 hours ago",
-                        "author": {
-                            "name": "Ezra",
-                            "id": "kaid_1112279572017452692208390",
-                            "avatar": "/images/avatars/svg/leaf-red.svg"
-                        },
-                        "text": "only lame people can be added. hence, only me and wealR"
-                    },
-                    {
-                        "date": "11 hours ago",
-                        "author": {
-                            "name": "wealR",
-                            "id": "kaid_831993479561352012904348",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "sorry Mathlete Ezra was just such an icon of lameneess that i coulnd't pass up that"
-                    },
-                    {
-                        "date": "11 hours ago",
-                        "author": {
-                            "name": "wealR",
-                            "id": "kaid_831993479561352012904348",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "haha i love that.<br><br>yeah i agree so muc... wait a minute did you say second greatest?"
-                    },
-                    {
-                        "date": "11 hours ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "phooey, I'm pretty lame, but whatever XD"
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "Ezra",
-                            "id": "kaid_1112279572017452692208390",
-                            "avatar": "/images/avatars/svg/leaf-red.svg"
-                        },
-                        "text": "@wealR what did I miss. Also another lame comment  by me.<br>No. I thought you new what I am. Extraordinarily I am a very muscular ChatGPT."
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 3,
-                "date": "a day ago",
-                "author": {
-                    "name": "𝐂𝐥𝐨𝐯𝐞𝐫",
-                    "id": "kaid_2287805493149654773942312",
-                    "avatar": "/images/avatars/svg/stelly-green.svg"
-                },
-                "text": "Flashbang < Khancord Light Mode<br><br><br>Nice Program, It's Pretty Funny. :)<br><br>Votes++;",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "17 hours ago",
-                        "author": {
-                            "name": "wealR",
-                            "id": "kaid_831993479561352012904348",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "Thanks :)"
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 3,
-                "date": "a day ago",
-                "author": {
-                    "name": "Lightning",
-                    "id": "kaid_293295321613227018876720",
-                    "avatar": "/images/avatars/svg/primosaur-tree.svg"
-                },
-                "text": "That's an interesting name...",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 3,
-                "date": "a day ago",
-                "author": {
-                    "name": "YA",
-                    "id": "kaid_3563621891021365862686148",
-                    "avatar": "/images/avatars/svg/robot_female_3.svg"
-                },
-                "text": "Laughs in-loud",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 3,
-                "date": "a day ago",
-                "author": {
-                    "name": "HACK",
-                    "id": "kaid_6815067100354522609320825",
-                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                },
-                "text": "wealR<br>45 minutes ago, outside of inside of a 10 inch box, my mom's librarian was inspecting that skinny flashlight following another nurse.",
+                "text": "<b>Subscribe to get notified whenever I make a new program</b>!<br><br>https://www.khanacademy.org/computer-programming/my-subpage/5880949017985024",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -375,265 +34,283 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "a day ago",
+                "date": "20 minutes ago",
                 "author": {
-                    "name": "ASBackup",
-                    "id": "kaid_714780036830891967670231",
-                    "avatar": "/images/avatars/svg/aqualine-tree.svg"
+                    "name": "CZS",
+                    "id": "kaid_676584471536152741627316",
+                    "avatar": "/images/avatars/svg/primosaur-ultimate.svg"
                 },
-                "text": "lol this is great :)",
+                "text": "Looks amazing! I seem to be in the minority here, but I like the blurred version slightly more.<br><br>I also think it's more authentic—I'm not old enough to remember this, but I'm told that pixel art looked more blurry back when games were played on CRT monitors, whereas the crisp-edged pixel art you usually see these days is more of a modern phenomenon.",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "15 minutes ago",
                         "author": {
-                            "name": "wealR",
-                            "id": "kaid_831993479561352012904348",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
-                        "text": "yes thanks!"
+                        "text": "Thanks! :D<br>I haven't decided which I like better yet. :P<br><br>Someone else said something about pixel art used to be blurred, so I think you're right. :)"
                     }
                 ]
             },
             {
-                "replyCount": 0,
-                "votes": 2,
-                "date": "18 hours ago",
-                "author": {
-                    "name": "Mr. X",
-                    "id": "kaid_860766137188997026711729",
-                    "avatar": "/images/avatars/svg/robot_male_1.svg"
-                },
-                "text": "Nice, you managed to capture a small essence of the brainrot that goes on in those discord threads. <em>And they said it couldn't be done</em>. bah<br><br>If they were as stupidly funny as these somehow get, though, they might be permissible, in a controlled environment.<br><br>wealR quote: \"Never! I thought you knew what I am. In real life I am a very dumb computer.\"",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
-                "date": "12 hours ago",
+                "date": "44 minutes ago",
                 "author": {
-                    "name": "Jacob.S",
-                    "id": "kaid_1005855128586451892649647",
+                    "name": "NL",
+                    "id": "kaid_101904269317089495055459",
+                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                },
+                "text": "man simply cannot leave xD<br><br>nice squares!<br><br>blurred for thumbnail but regular for graphic :)",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "42 minutes ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Yeah, you're right. XD<br><br>Thanks! :)<br><br>Okay, I'll change the thumbnail. :)"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 1,
+                "date": "an hour ago",
+                "author": {
+                    "name": "Cookie",
+                    "id": "kaid_1826046083730180486895887",
+                    "avatar": "/images/avatars/svg/leafers-sapling.svg"
+                },
+                "text": "Wow, this looks amazing! I can't imagine making a pixel art this huge! It must have been very tedious.<br><br>Hmm, they both look cool, but I would say the not blurred one :)",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Thanks! :D Yeah, it took a while. XD No, not really. :P<br><br>Okay. :)"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 1,
+                "date": "9 minutes ago",
+                "author": {
+                    "name": "Chickenfarmer2009",
+                    "id": "kaid_287879839213083022099587",
+                    "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
+                },
+                "text": "This is spectacular! Better than any pixel art I could make XD<br><br>Glad your not gonna go down without leaving a message.<br><br>Can't decide on the blur or not blur... Um... I might actually have to go with the blurred one.",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Thanks! :D<br>XD I'm sure you could make something better if you put in at least 7 hours of work. XP<br><br>Yeah. XD<br><br>Okay. :)"
+                    }
+                ]
+            },
+            {
+                "replyCount": 3,
+                "votes": 1,
+                "date": "an hour ago",
+                "author": {
+                    "name": "Duke",
+                    "id": "kaid_351465532815782433620675",
+                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                },
+                "text": "lol new you had something else up your sleaves :P",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Yeah, I was just keeping the wip secret for more of a surprise when I released it. :P"
+                    },
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Ok so personally I prefer the normal pixel art but the blur is what most pixel art game would do so it definitely looks good that way too."
+                    },
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Yeah, the blur makes it look less jaggy, but not blurred is more clearer and you can see more of the different shading. :)"
+                    }
+                ]
+            },
+            {
+                "replyCount": 9,
+                "votes": 1,
+                "date": "an hour ago",
+                "author": {
+                    "name": "Coder2098",
+                    "id": "kaid_673573024191290348573492",
                     "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
                 },
-                "text": "Ezra<br>Are you an animal?<br>RandoDude<br>I'm not sure.<br>PlumpGeorge<br>No. I wish I was. Actually I am a very scruffy leaf.",
+                "text": "wow this is amazing Ace! the shading is amazing!! i prefer the unblurred one personally :P",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Thanks! :D<br>Yeah, I tried getting all the shading and lighting to make it look better. :P<br>I'm still undecided which I like better. XP"
+                    },
+                    {
+                        "date": "37 minutes ago",
+                        "author": {
+                            "name": "Coder2098",
+                            "id": "kaid_673573024191290348573492",
+                            "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
+                        },
+                        "text": "ofc!<br>lol it looks awesome KA's really gonna be different without u :[ but i hope u enjoy your well deserved break!!<br>XD i get the feeling"
+                    },
+                    {
+                        "date": "30 minutes ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "I know. And I don't like leaving it that way. :( I'll try. :)<br>XD"
+                    },
+                    {
+                        "date": "27 minutes ago",
+                        "author": {
+                            "name": "Coder2098",
+                            "id": "kaid_673573024191290348573492",
+                            "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
+                        },
+                        "text": "yeahh but as with anything it'll become whole in time :) plus you've helped so many people that they are more than ready to take up a stronger position yk?"
+                    },
+                    {
+                        "date": "24 minutes ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Yeah, but hopefully not too long. :P<br>Yeah, some of them. But some still have some things to learn that I could teach. :/"
+                    },
+                    {
+                        "date": "22 minutes ago",
+                        "author": {
+                            "name": "Coder2098",
+                            "id": "kaid_673573024191290348573492",
+                            "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
+                        },
+                        "text": "eh KA is constantly evolving someone will come along!<br>lol yeah but if u look at it like that then one can never quit, there will always be a newcomer and someone in need of teaching thats where other people come in, people will come and step up in your place they won't ever quite fill it like u but they'll do it in their own way :)"
+                    },
+                    {
+                        "date": "17 minutes ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Yeah, but there are few advanced programmers that I've seen actually go out of their way to help the newer generation (no offense to anyone). They help when they are asked a question or maybe reply to a help request. But I like actually going to the people that need help. That's also how I make a lot of new friends. :)<br>Yeah, that's why I don't want to. And I want to be there to help when they do come.<br>True. :P"
+                    },
+                    {
+                        "date": "11 minutes ago",
+                        "author": {
+                            "name": "Coder2098",
+                            "id": "kaid_673573024191290348573492",
+                            "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
+                        },
+                        "text": "yeah i spose thats true but i wouldn't worry about it everything comes in its own time right? <br>lol yeah thats sorta how chicken and i became friends! XD <br>its hard taking a step back ik but trust me there are better things in wait for u than KA lol"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "I guess. :P<br>XD<br>It's probably how I became friends with 1/3 of my current friends. :P 1/3 are probably friends that I met while on the same team and the other 1/3 is just by chance that we met. :)<br>Yeah, I know. It's just that I've been mostly active (sometimes I wasn't) on KA for about 4 years and I don't want to leave. :/<br>But I know if I stay, it'll just be worse."
+                    }
+                ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "an hour ago",
+                "author": {
+                    "name": "Ducky Momo",
+                    "id": "kaid_803024247073237306758396",
+                    "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                },
+                "text": "This is epic!",
                 "locked": false,
                 "pinned": false,
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 2,
                 "votes": 1,
-                "date": "17 hours ago",
+                "date": "an hour ago",
                 "author": {
-                    "name": "goat120",
-                    "id": "kaid_1167989604939556743383715",
+                    "name": "Luke Ellis",
+                    "id": "kaid_8535468719137003545030723",
                     "avatar": "/images/avatars/svg/orange-juice-squid.svg"
                 },
-                "text": "how do u send things",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "19 hours ago",
-                "author": {
-                    "name": "ALIEN",
-                    "id": "kaid_213001050410218690794137",
-                    "avatar": "/images/avatars/svg/marcimus-purple.svg"
-                },
-                "text": "wealR<br>Are you an animal?<br>RandoDude<br>Of course. Extraordinarilly, I am a very robotic whale.<br>PlumpGeorge<br>Yup. Actually, I am a very ugly cat.<br>Crazy OJ<br>I'm not sure.<br><br>...tf...",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "19 hours ago",
-                "author": {
-                    "name": "ALIEN",
-                    "id": "kaid_213001050410218690794137",
-                    "avatar": "/images/avatars/svg/marcimus-purple.svg"
-                },
-                "text": "PlumpGeorge<br>Yo my child said that Crazy OJ is long.<br>Crazy OJ<br>Wow thanks! >:)<br><br>AYOOO",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 4,
-                "votes": 1,
-                "date": "17 hours ago",
-                "author": {
-                    "name": "Lightning",
-                    "id": "kaid_293295321613227018876720",
-                    "avatar": "/images/avatars/svg/primosaur-tree.svg"
-                },
-                "text": "That's a cool name! Did you come up with it by yourself?",
+                "text": "This is the best pixel art that I've ever seen on KA. Great job, Ace.",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "an hour ago",
                         "author": {
-                            "name": "wealR",
-                            "id": "kaid_831993479561352012904348",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
-                        "text": "you mean khancord? it's khan + d1sc0rd"
+                        "text": "Thanks, but other programmers (like Green Ghost and Lazerwolf) have made better ones. :P<br>Thanks! :D"
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "an hour ago",
                         "author": {
-                            "name": "Lightning",
-                            "id": "kaid_293295321613227018876720",
-                            "avatar": "/images/avatars/svg/primosaur-tree.svg"
+                            "name": "Luke Ellis",
+                            "id": "kaid_8535468719137003545030723",
+                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
                         },
-                        "text": "Cool! Did you come up with it all by yourself?"
-                    },
-                    {
-                        "date": "14 hours ago",
-                        "author": {
-                            "name": "wealR",
-                            "id": "kaid_831993479561352012904348",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "Yes. Its funny because concord means <code>agreement or harmony</code> while discord means  <code>lack of agreement or harmony</code>. So its a nice pun."
-                    },
-                    {
-                        "date": "12 hours ago",
-                        "author": {
-                            "name": "Clark Kent (occasionally active)",
-                            "id": "kaid_714855751210369848518614",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "concord is a grape type as well<br>also used to be a super-sonic passenger jet line<br>(spellings may differ, IDK)"
+                        "text": "Yeah, I know. I just don't think I've viewed them yet."
                     }
                 ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "12 hours ago",
-                "author": {
-                    "name": "Ibraheem Ahmed (IA)",
-                    "id": "kaid_42165633374795610935956",
-                    "avatar": "/images/avatars/svg/spunky-sam.svg"
-                },
-                "text": "\"<em>I just like staring at myself misleading another quaint dolphin.</em>\"",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "17 hours ago",
-                "author": {
-                    "name": "Firebrand (offline)",
-                    "id": "kaid_423049852746380987692804",
-                    "avatar": "/images/avatars/svg/stelly-orange.svg"
-                },
-                "text": "lol too funny<br><br>still don't know how you found 'baby froggy'",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "16 hours ago",
-                        "author": {
-                            "name": "wealR",
-                            "id": "kaid_831993479561352012904348",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "lol thanks :)<br><br>i just scrolled down"
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "20 hours ago",
-                "author": {
-                    "name": "Mathlete11",
-                    "id": "kaid_4902531429433401500771997",
-                    "avatar": "/images/avatars/svg/starky-sapling.svg"
-                },
-                "text": "dude, my barista gossiped that crazy oj is robotic!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "21 hours ago",
-                "author": {
-                    "name": "cwalsh1223 BBB#",
-                    "id": "kaid_792288208072906614241148",
-                    "avatar": "/images/avatars/svg/spunky-sam-red.svg"
-                },
-                "text": "This is awesome. At one point, \"you\" claimed to be a very fancy AI. I like how they use emotes sometimes. XD :( >:) :P :3 :)",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "OfflineSquidy",
-                    "id": "kaid_8597585382861928237037056",
-                    "avatar": "/images/avatars/svg/marcimus-red.svg"
-                },
-                "text": "cool! vote++",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "17 hours ago",
-                        "author": {
-                            "name": "wealR",
-                            "id": "kaid_831993479561352012904348",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "Thanks :)"
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "2 days ago",
-                "author": {
-                    "name": "TTyper",
-                    "id": "kaid_9072327922342976241122316",
-                    "avatar": "/images/avatars/svg/piceratops-seed.svg"
-                },
-                "text": "Cool it is better than the old one nice job",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "2 hours ago",
-                "author": {
-                    "name": "Lead82",
-                    "id": "kaid_9246954782313388936545916",
-                    "avatar": "/images/avatars/svg/scuttlebug-purple.svg"
-                },
-                "text": "I made a chatbot but its in python<br>https://www.khanacademy.org/python-program/chatbot/5679894408118272",
-                "locked": false,
-                "pinned": false,
-                "replies": []
             }
         ],
         "questions": []
