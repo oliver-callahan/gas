@@ -99,7 +99,7 @@ var json = {
                         "text": "what is wrong with this chat? XD"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -108,7 +108,7 @@ var json = {
                         "text": "lol I have no idea XD"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -168,7 +168,7 @@ var json = {
                         "text": "why you telling me?"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -365,7 +365,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 2,
+                "replyCount": 3,
                 "votes": 1,
                 "date": "4 hours ago",
                 "author": {
@@ -387,13 +387,22 @@ var json = {
                         "text": "you mean khancord? it's khan + d1sc0rd"
                     },
                     {
-                        "date": "4 minutes ago",
+                        "date": "9 minutes ago",
                         "author": {
                             "name": "Lightning",
                             "id": "kaid_293295321613227018876720",
                             "avatar": "/images/avatars/svg/primosaur-tree.svg"
                         },
                         "text": "Cool! Did you come up with it all by yourself?"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "wealR",
+                            "id": "kaid_831993479561352012904348",
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                        },
+                        "text": "Yes. Its funny because concord means <code>agreement or harmony</code> while discord means  <code>lack of agreement or harmony</code>. So its a nice pun."
                     }
                 ]
             },
