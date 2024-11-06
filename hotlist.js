@@ -123,7 +123,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "theBTG15",
                     "id": "kaid_1184047636356324637542824",
@@ -325,7 +325,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "𝓧𝓛𝓟 [Off]",
                     "id": "kaid_387597695665654041806576",
@@ -390,7 +390,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -520,7 +520,7 @@ var json = {
             {
                 "replyCount": 22,
                 "votes": 1,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "Coder2098",
                     "id": "kaid_673573024191290348573492",
@@ -531,7 +531,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -612,7 +612,7 @@ var json = {
                         "text": "I guess. :P<br>XD<br>It's probably how I became friends with 1/3 of my current friends. :P 1/3 are probably friends that I met while on the same team and the other 1/3 is just by chance that we met. :)<br>Yeah, I know. It's just that I've been mostly active (sometimes I wasn't) on KA for about 4 years and I don't want to leave. :/<br>But I know if I stay, it'll just be worse."
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -761,7 +761,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -772,7 +772,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
