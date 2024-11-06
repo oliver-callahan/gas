@@ -365,7 +365,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 1,
                 "date": "4 hours ago",
                 "author": {
@@ -385,6 +385,15 @@ var json = {
                             "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                         },
                         "text": "you mean khancord? it's khan + d1sc0rd"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Lightning",
+                            "id": "kaid_293295321613227018876720",
+                            "avatar": "/images/avatars/svg/primosaur-tree.svg"
+                        },
+                        "text": "Cool! Did you come up with it all by yourself?"
                     }
                 ]
             },
@@ -443,7 +452,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "OfflineSquidy",
                     "id": "kaid_8597585382861928237037056",
