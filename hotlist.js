@@ -257,6 +257,20 @@ var json = {
                 ]
             },
             {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "a few seconds ago",
+                "author": {
+                    "name": "JLE",
+                    "id": "kaid_344949764307318233637518",
+                    "avatar": "/images/avatars/svg/aqualine-sapling.svg"
+                },
+                "text": "Ace !! good 2 c that u had time to make one more graphic =)<br><br>I'ma miss these graphics when u gone =(",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
                 "replyCount": 3,
                 "votes": 1,
                 "date": "5 hours ago",
@@ -339,7 +353,7 @@ var json = {
                         "text": "XD<br>Okay. :)<br>It was still nice though. :)"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "TheMessenger",
                             "id": "kaid_492737111195244262916025",
@@ -637,7 +651,7 @@ var json = {
                         "text": "jeez the spam must be real! XD<br><br>lol hey i had to learn it the hard way too :P like rn im SUPER booked irl and coding wise but i am lessing the coding one and working on my organizational skills so while i would have liked to learn it from someone ELSES experience i learned it all the same!<br>XDD well that ones gonna take a backseat, yeah ig thats a hobby of mine too :P, same, same (u have GOT to read 1984 its an amazing book for this day in age), my grandpa does that and i sorta do it but i mostly do comic books :P, fair!<br>haha its hard! oh and make SURE u have proper safety gear cause it can hurt if u dont XD ask me how i know 🫥 just start by trying to hit a tree then get more accurate from there :P<br><br>yeah it is what it is!"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -695,7 +709,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
