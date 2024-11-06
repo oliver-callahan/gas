@@ -139,7 +139,7 @@ var json = {
             {
                 "replyCount": 9,
                 "votes": 5,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "Ezra",
                     "id": "kaid_1112279572017452692208390",
@@ -204,7 +204,7 @@ var json = {
                         "text": "@Ezra i added you now you can see what you say lol"
                     },
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -213,7 +213,7 @@ var json = {
                         "text": "Wow I'm the lamest O.o"
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -222,7 +222,7 @@ var json = {
                         "text": "Afternoon. At that time, I extremely value inspecting myself dancing with this good bracelet.<br><br>see? :P"
                     },
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
