@@ -3,7 +3,7 @@ var json = {
     "title": "ACT 2 (2x better)",
     "votes": 52,
     "created": "a day ago",
-    "updated": "4 hours ago",
+    "updated": "5 hours ago",
     "type": "HTML",
     "author": {
         "name": "wealR",
@@ -52,7 +52,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "YA",
                             "id": "kaid_3563621891021365862686148",
@@ -65,7 +65,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 7,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "AmethystSky",
                     "id": "kaid_784805823121542822870790",
@@ -89,7 +89,7 @@ var json = {
             {
                 "replyCount": 5,
                 "votes": 5,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -100,7 +100,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -205,7 +205,7 @@ var json = {
                         "text": "@mathlete11 maybe cause I'm not the maker of the program lol<br><br>@wealR oh yeah you did so good at it. so good that is isn't even lame >:)<br>like if you were to put me in there I would be soooo lame"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -232,7 +232,7 @@ var json = {
                         "text": "Afternoon. At that time, I extremely value inspecting myself dancing with this good bracelet.<br><br>see? :P"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -292,7 +292,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "YA",
                     "id": "kaid_3563621891021365862686148",
@@ -358,7 +358,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "13 minutes ago",
+                "date": "18 minutes ago",
                 "author": {
                     "name": "Jacob.S",
                     "id": "kaid_1005855128586451892649647",
@@ -467,7 +467,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -494,7 +494,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
