@@ -104,9 +104,9 @@ var json = {
                 ]
             },
             {
-                "replyCount": 3,
+                "replyCount": 5,
                 "votes": 1,
-                "date": "12 minutes ago",
+                "date": "17 minutes ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
@@ -117,7 +117,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -126,7 +126,7 @@ var json = {
                         "text": "I am. I just couldn't without one final quality program. XD"
                     },
                     {
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -135,20 +135,38 @@ var json = {
                         "text": "Plus, I'm not totally leaving. I'm still staying to comment to some of my closest friends (and some others when I need to reply to someone) and to work on a project when I get time, but I'm mostly trying to leave to recover from my stress. :)"
                     },
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
                             "avatar": "/images/avatars/svg/boggle-blue.svg"
                         },
                         "text": "Oh, hmmm, just tell me when you make a new project when you get back(So that I can yell at you ;)"
+                    },
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "...Okay. XD<br>I'll probably come back for CoC (I told Duke I would) and then I might go inactive again. But once I'm back, I'll probably try and finish Frontline and Monopoly that I was programming but never finished. :) So you can yell at me when I release one of those. XP"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "TH3 ROUG3 L3G3ND™",
+                            "id": "kaid_2809101008758048501324524",
+                            "avatar": "/images/avatars/svg/boggle-blue.svg"
+                        },
+                        "text": "Lol, I will"
                     }
                 ]
             },
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "44 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Chickenfarmer2009",
                     "id": "kaid_287879839213083022099587",
@@ -159,7 +177,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -214,7 +232,7 @@ var json = {
             {
                 "replyCount": 4,
                 "votes": 1,
-                "date": "23 minutes ago",
+                "date": "28 minutes ago",
                 "author": {
                     "name": "TheMessenger",
                     "id": "kaid_492737111195244262916025",
@@ -225,7 +243,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 minutes ago",
+                        "date": "26 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -234,7 +252,7 @@ var json = {
                         "text": "XD<br>Yeah, me too. But I'll be back. :) XD<br>Thanks! :)<br>Okay.<br>Btw, did you ever get my comment asking what types of features you would like to have for a pixel art drawing tool?"
                     },
                     {
-                        "date": "14 minutes ago",
+                        "date": "19 minutes ago",
                         "author": {
                             "name": "TheMessenger",
                             "id": "kaid_492737111195244262916025",
@@ -243,7 +261,7 @@ var json = {
                         "text": "Umm, no?<br><b>2 hours later</b>...<br>Okay, I found it! lol<br>Honestly, I have no idea, especially since I don't have much experience with tools, so I guess you can just surprise me. :)<br>And oh, well I'm glad you're not leaving forever! Now my little speech seems cheesy... XD"
                     },
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -252,7 +270,7 @@ var json = {
                         "text": "XD<br>Okay. :)<br>It was still nice though. :)"
                     },
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "TheMessenger",
                             "id": "kaid_492737111195244262916025",
@@ -265,7 +283,21 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "32 minutes ago",
+                "date": "2 minutes ago",
+                "author": {
+                    "name": "Eyeinthesky",
+                    "id": "kaid_6136710333637048514584747",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "I can't wait 'til CoC then :D<br><br>Until then...<br><br>Farewell!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "37 minutes ago",
                 "author": {
                     "name": "CodeNinja",
                     "id": "kaid_6247985199070618801670730",
@@ -279,7 +311,7 @@ var json = {
             {
                 "replyCount": 18,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "Coder2098",
                     "id": "kaid_673573024191290348573492",
@@ -290,7 +322,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -362,7 +394,7 @@ var json = {
                         "text": "yeah i spose thats true but i wouldn't worry about it everything comes in its own time right? <br>lol yeah thats sorta how chicken and i became friends! XD <br>its hard taking a step back ik but trust me there are better things in wait for u than KA lol"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -371,7 +403,7 @@ var json = {
                         "text": "I guess. :P<br>XD<br>It's probably how I became friends with 1/3 of my current friends. :P 1/3 are probably friends that I met while on the same team and the other 1/3 is just by chance that we met. :)<br>Yeah, I know. It's just that I've been mostly active (sometimes I wasn't) on KA for about 4 years and I don't want to leave. :/<br>But I know if I stay, it'll just be worse."
                     },
                     {
-                        "date": "28 minutes ago",
+                        "date": "33 minutes ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -380,7 +412,7 @@ var json = {
                         "text": ".<br>.<br>lol wow! thats a lot more than i was expecting tbh!<br>.<br>yeahh maybe just take a break then? come back in like a month or two that always helps. but just take it easy, maybe only work on things when u really want to yk?"
                     },
                     {
-                        "date": "24 minutes ago",
+                        "date": "29 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -389,7 +421,7 @@ var json = {
                         "text": "XP<br>Yeah, I have over 64 friends on KA. XD<br><br>Yeah, that's what I'm planning on doing. Because I told Duke I'd try to come back for CoC. But by then I'm planning on organizing how I'm doing things so I don't get so stressed. :)<br>But that's the problem. I want to help people and to do collaborations. And that's how I overfilled my plate which led me to being stressed. So when I come back, I'm going to have a limit on things that I'm doing at once. :P"
                     },
                     {
-                        "date": "19 minutes ago",
+                        "date": "24 minutes ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -398,7 +430,7 @@ var json = {
                         "text": "holy pony!! 0-0 <br><br>mmk! yeah just don't overbook yourself if u overbook then the stress is too much.. lol yeah im the same wayyy! thats what i started to do cause otherwise i get really stressed and whatnot too. another thing that helps is having other hobbies so u can just step back easily like i do archery on the side, and art and music as my career (for lack of a better term) so it helps to have those to fall onto when i am sick of KA"
                     },
                     {
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -407,7 +439,7 @@ var json = {
                         "text": "but another thing is the hardest step is the first step, once u get past that its not too bad :)"
                     },
                     {
-                        "date": "14 minutes ago",
+                        "date": "19 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -416,7 +448,7 @@ var json = {
                         "text": "I know. And I'm subscribed to, I think, all of them, plus some other coders that I like. :P<br><br>I know that now. I just had to learn it the hard way. XP<br>Ah.<br>I have been doing that already. My hobbies are: Programming XP, Gaming, watching some movies that I like, reading, writing books, and listening to music is nice. :)<br>Archery. I like it, but I've only done it once. :/ I would like to get better at it though. :)"
                     },
                     {
-                        "date": "13 minutes ago",
+                        "date": "18 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -425,7 +457,7 @@ var json = {
                         "text": "Yeah, but it's hard. XP<br>But it's something I need to do, so I will do it. :)"
                     },
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -434,7 +466,7 @@ var json = {
                         "text": "jeez the spam must be real! XD<br><br>lol hey i had to learn it the hard way too :P like rn im SUPER booked irl and coding wise but i am lessing the coding one and working on my organizational skills so while i would have liked to learn it from someone ELSES experience i learned it all the same!<br>XDD well that ones gonna take a backseat, yeah ig thats a hobby of mine too :P, same, same (u have GOT to read 1984 its an amazing book for this day in age), my grandpa does that and i sorta do it but i mostly do comic books :P, fair!<br>haha its hard! oh and make SURE u have proper safety gear cause it can hurt if u dont XD ask me how i know 🫥 just start by trying to hit a tree then get more accurate from there :P<br><br>yeah it is what it is!"
                     },
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -443,7 +475,7 @@ var json = {
                         "text": "XD<br><br>XD<br>Wait, it's just called \"1984\"?<br>I do mostly fantasy and some other books that I won't mention because of the rules. :P<br>Um, is it bad that I didn't. O.O I was using a training bow (I think that's what it was called) and the tip wasn't too sharp. XP<br>Um, I was using targets. :P<br><br>Yep."
                     },
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -456,7 +488,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 minutes ago",
+                "date": "11 minutes ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
