@@ -358,7 +358,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "33 minutes ago",
+                "date": "38 minutes ago",
                 "author": {
                     "name": "Jacob.S",
                     "id": "kaid_1005855128586451892649647",
@@ -412,7 +412,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 3,
+                "replyCount": 4,
                 "votes": 1,
                 "date": "6 hours ago",
                 "author": {
@@ -450,13 +450,22 @@ var json = {
                             "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                         },
                         "text": "Yes. Its funny because concord means <code>agreement or harmony</code> while discord means  <code>lack of agreement or harmony</code>. So its a nice pun."
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Clark Kent (occasionally active)",
+                            "id": "kaid_714855751210369848518614",
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                        },
+                        "text": "concord is a grape type as well<br>also used to be a super-sonic passenger jet line<br>(spellings may differ, IDK)"
                     }
                 ]
             },
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "15 minutes ago",
+                "date": "20 minutes ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -522,7 +531,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "OfflineSquidy",
                     "id": "kaid_8597585382861928237037056",
