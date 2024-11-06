@@ -190,7 +190,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "37 minutes ago",
+                "date": "42 minutes ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
@@ -201,7 +201,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -294,7 +294,7 @@ var json = {
                         "text": "XD<br>Okay. :)<br>It was still nice though. :)"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "TheMessenger",
                             "id": "kaid_492737111195244262916025",
@@ -375,9 +375,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 4,
+                "replyCount": 5,
                 "votes": 1,
-                "date": "23 minutes ago",
+                "date": "28 minutes ago",
                 "author": {
                     "name": "Stitch Girl💠",
                     "id": "kaid_6490115305785159643926933",
@@ -388,7 +388,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -397,7 +397,7 @@ var json = {
                         "text": "Try restarting the program and don't go down in the comments. :)"
                     },
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -406,7 +406,7 @@ var json = {
                         "text": "I think it was my laptop doing it. It got like super laggy. Were you able to see my comments on the other project?"
                     },
                     {
-                        "date": "4 minutes ago",
+                        "date": "9 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -415,13 +415,22 @@ var json = {
                         "text": "Oh, okay.<br>You mean the one on the CJCool MC skin? Because I replied to that. :)"
                     },
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
                             "avatar": "/images/avatars/svg/marcimus-red.svg"
                         },
                         "text": "I sent a reply back? My laptop hates me and has been acting up for the pass half hour"
+                    },
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Oh, well I didn't get your reply back."
                     }
                 ]
             },
@@ -583,7 +592,7 @@ var json = {
                         "text": "jeez the spam must be real! XD<br><br>lol hey i had to learn it the hard way too :P like rn im SUPER booked irl and coding wise but i am lessing the coding one and working on my organizational skills so while i would have liked to learn it from someone ELSES experience i learned it all the same!<br>XDD well that ones gonna take a backseat, yeah ig thats a hobby of mine too :P, same, same (u have GOT to read 1984 its an amazing book for this day in age), my grandpa does that and i sorta do it but i mostly do comic books :P, fair!<br>haha its hard! oh and make SURE u have proper safety gear cause it can hurt if u dont XD ask me how i know 🫥 just start by trying to hit a tree then get more accurate from there :P<br><br>yeah it is what it is!"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -641,7 +650,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -675,7 +684,7 @@ var json = {
                         "text": "Thanks! :D<br>\"The crispy version\"? XD Which one do you count as that? o.O"
                     },
                     {
-                        "date": "44 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "cwalsh1223 BBB#",
                             "id": "kaid_792288208072906614241148",
@@ -684,7 +693,7 @@ var json = {
                         "text": "I mean the non-blurred version. The edges are crisper. ʘ͜ʘ"
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
