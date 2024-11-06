@@ -147,7 +147,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 9,
+                "replyCount": 10,
                 "votes": 5,
                 "date": "13 hours ago",
                 "author": {
@@ -239,6 +239,15 @@ var json = {
                             "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                         },
                         "text": "O.o that's lame O.o"
+                    },
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "Mathlete11",
+                            "id": "kaid_4902531429433401500771997",
+                            "avatar": "/images/avatars/svg/starky-sapling.svg"
+                        },
+                        "text": "@weal can u add me XD"
                     }
                 ]
             },
@@ -397,7 +406,7 @@ var json = {
                         "text": "you mean khancord? it's khan + d1sc0rd"
                     },
                     {
-                        "date": "44 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Lightning",
                             "id": "kaid_293295321613227018876720",
@@ -406,7 +415,7 @@ var json = {
                         "text": "Cool! Did you come up with it all by yourself?"
                     },
                     {
-                        "date": "39 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
