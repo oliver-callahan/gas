@@ -296,7 +296,7 @@ var json = {
                         "text": "phooey, I'm pretty lame, but whatever XD"
                     },
                     {
-                        "date": "34 minutes ago",
+                        "date": "39 minutes ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -498,7 +498,7 @@ var json = {
                         "text": "Cool! Did you come up with it all by yourself?"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -624,7 +624,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "43 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Lead82",
                     "id": "kaid_9246954782313388936545916",
