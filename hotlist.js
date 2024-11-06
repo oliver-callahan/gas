@@ -241,7 +241,7 @@ var json = {
                         "text": "O.o that's lame O.o"
                     },
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -306,7 +306,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "HACK",
                     "id": "kaid_6815067100354522609320825",
@@ -340,6 +340,20 @@ var json = {
                         "text": "yes thanks!"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 2,
+                "date": "5 hours ago",
+                "author": {
+                    "name": "Mr. X",
+                    "id": "kaid_860766137188997026711729",
+                    "avatar": "/images/avatars/svg/robot_male_1.svg"
+                },
+                "text": "Nice, you managed to capture a small essence of the brainrot that goes on in those discord threads. <em>And they said it couldn't be done</em>. bah<br><br>If they were as stupidly funny as these somehow get, though, they might be permissible, in a controlled environment.<br><br>wealR quote: \"Never! I thought you knew what I am. In real life I am a very dumb computer.\"",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 0,
@@ -415,7 +429,7 @@ var json = {
                         "text": "Cool! Did you come up with it all by yourself?"
                     },
                     {
-                        "date": "44 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -500,20 +514,6 @@ var json = {
                         "text": "Thanks :)"
                     }
                 ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "5 hours ago",
-                "author": {
-                    "name": "Mr. X",
-                    "id": "kaid_860766137188997026711729",
-                    "avatar": "/images/avatars/svg/robot_male_1.svg"
-                },
-                "text": "Nice, you managed to capture a small essence of the brainrot that goes on in those discord threads. <em>And they said it couldn't be done</em>. bah<br><br>If they were as stupidly funny as these somehow get, though, they might be permissible, in a controlled environment.<br><br>wealR quote: \"Never! I thought you knew what I am. In real life I am a very dumb computer.\"",
-                "locked": false,
-                "pinned": false,
-                "replies": []
             },
             {
                 "replyCount": 0,
