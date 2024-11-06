@@ -113,7 +113,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "15 minutes ago",
+                "date": "20 minutes ago",
                 "author": {
                     "name": "theBTG15",
                     "id": "kaid_1184047636356324637542824",
@@ -211,7 +211,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Chickenfarmer2009",
                     "id": "kaid_287879839213083022099587",
@@ -279,7 +279,7 @@ var json = {
                         "text": "Yeah, I was just keeping the wip secret for more of a surprise when I released it. :P"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -288,7 +288,7 @@ var json = {
                         "text": "Ok so personally I prefer the normal pixel art but the blur is what most pixel art game would do so it definitely looks good that way too."
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -451,7 +451,7 @@ var json = {
                         "text": "I think it was my laptop doing it. It got like super laggy. Were you able to see my comments on the other project?"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -460,7 +460,7 @@ var json = {
                         "text": "Oh, okay.<br>You mean the one on the CJCool MC skin? Because I replied to that. :)"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
