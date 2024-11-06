@@ -93,7 +93,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -190,7 +190,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "12 minutes ago",
+                "date": "17 minutes ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
@@ -201,7 +201,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 minutes ago",
+                        "date": "16 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -307,7 +307,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "24 minutes ago",
+                "date": "29 minutes ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -363,7 +363,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "CodeNinja",
                     "id": "kaid_6247985199070618801670730",
@@ -377,13 +377,13 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "35 minutes ago",
+                "date": "3 minutes ago",
                 "author": {
                     "name": "Stitch Girl💠",
                     "id": "kaid_6490115305785159643926933",
                     "avatar": "/images/avatars/svg/marcimus-red.svg"
                 },
-                "text": "pretty cool",
+                "text": "I see nothing but black for some reason",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -591,7 +591,7 @@ var json = {
                         "text": "Hey, can we move here so we aren't talking about something that isn't related to the program. :P<br>https://www.khanacademy.org/computer-programming/archery/6078710659596288<br>This was to be an archery game, before I was too busy to finish it. XP"
                     },
                     {
-                        "date": "44 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -618,7 +618,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "25 minutes ago",
+                "date": "30 minutes ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -629,7 +629,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "23 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -638,7 +638,7 @@ var json = {
                         "text": "Thanks! :D<br>\"The crispy version\"? XD Which one do you count as that? o.O"
                     },
                     {
-                        "date": "19 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "cwalsh1223 BBB#",
                             "id": "kaid_792288208072906614241148",
@@ -647,7 +647,7 @@ var json = {
                         "text": "I mean the non-blurred version. The edges are crisper. ʘ͜ʘ"
                     },
                     {
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -685,7 +685,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -694,7 +694,7 @@ var json = {
                         "text": "Thanks, but other programmers (like Green Ghost and Lazerwolf) have made better ones. :P<br>Thanks! :D"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
