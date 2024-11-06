@@ -250,7 +250,7 @@ var json = {
                         "text": "@weal can u add me XD"
                     },
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -259,7 +259,7 @@ var json = {
                         "text": "only lame people can be added. hence, only me and wealR"
                     },
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -268,7 +268,7 @@ var json = {
                         "text": "sorry Mathlete Ezra was just such an icon of lameneess that i coulnd't pass up that"
                     },
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -277,7 +277,7 @@ var json = {
                         "text": "haha i love that.<br><br>yeah i agree so muc... wait a minute did you say second greatest?"
                     },
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -488,7 +488,7 @@ var json = {
                         "text": "Yes. Its funny because concord means <code>agreement or harmony</code> while discord means  <code>lack of agreement or harmony</code>. So its a nice pun."
                     },
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Clark Kent (occasionally active)",
                             "id": "kaid_714855751210369848518614",
