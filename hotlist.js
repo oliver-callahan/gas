@@ -296,7 +296,7 @@ var json = {
                         "text": "phooey, I'm pretty lame, but whatever XD"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -489,7 +489,7 @@ var json = {
                         "text": "you mean khancord? it's khan + d1sc0rd"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Lightning",
                             "id": "kaid_293295321613227018876720",
@@ -507,7 +507,7 @@ var json = {
                         "text": "Yes. Its funny because concord means <code>agreement or harmony</code> while discord means  <code>lack of agreement or harmony</code>. So its a nice pun."
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "Clark Kent (occasionally active)",
                             "id": "kaid_714855751210369848518614",
@@ -534,7 +534,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "Firebrand (offline)",
                     "id": "kaid_423049852746380987692804",
