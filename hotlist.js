@@ -241,7 +241,7 @@ var json = {
                         "text": "O.o that's lame O.o"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -286,7 +286,7 @@ var json = {
                         "text": "phooey, I'm pretty lame, but whatever XD"
                     },
                     {
-                        "date": "14 minutes ago",
+                        "date": "19 minutes ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -510,7 +510,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -548,7 +548,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "Mathlete11",
                     "id": "kaid_4902531429433401500771997",
@@ -614,7 +614,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "22 minutes ago",
+                "date": "27 minutes ago",
                 "author": {
                     "name": "Lead82",
                     "id": "kaid_9246954782313388936545916",
