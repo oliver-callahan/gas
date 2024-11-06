@@ -147,7 +147,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 14,
+                "replyCount": 15,
                 "votes": 5,
                 "date": "a day ago",
                 "author": {
@@ -284,6 +284,15 @@ var json = {
                             "avatar": "/images/avatars/svg/starky-sapling.svg"
                         },
                         "text": "phooey, I'm pretty lame, but whatever XD"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Ezra",
+                            "id": "kaid_1112279572017452692208390",
+                            "avatar": "/images/avatars/svg/leaf-red.svg"
+                        },
+                        "text": "@wealR what did I miss. Also another lame comment  by me.<br>No. I thought you new what I am. Extraordinarily I am a very muscular ChatGPT."
                     }
                 ]
             },
@@ -567,7 +576,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "OfflineSquidy",
                     "id": "kaid_8597585382861928237037056",
@@ -605,7 +614,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "8 minutes ago",
+                "date": "12 minutes ago",
                 "author": {
                     "name": "Lead82",
                     "id": "kaid_9246954782313388936545916",
