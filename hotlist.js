@@ -161,7 +161,7 @@ var json = {
             {
                 "replyCount": 5,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
@@ -359,7 +359,7 @@ var json = {
                         "text": "XD<br>Yeah, me too. But I'll be back. :) XD<br>Thanks! :)<br>Okay.<br>Btw, did you ever get my comment asking what types of features you would like to have for a pixel art drawing tool?"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "TheMessenger",
                             "id": "kaid_492737111195244262916025",
@@ -368,7 +368,7 @@ var json = {
                         "text": "Umm, no?<br><b>2 hours later</b>...<br>Okay, I found it! lol<br>Honestly, I have no idea, especially since I don't have much experience with tools, so I guess you can just surprise me. :)<br>And oh, well I'm glad you're not leaving forever! Now my little speech seems cheesy... XD"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -540,7 +540,7 @@ var json = {
                         "text": "Thanks! :D<br>Yeah, I tried getting all the shading and lighting to make it look better. :P<br>I'm still undecided which I like better. XP"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -648,7 +648,7 @@ var json = {
                         "text": "but another thing is the hardest step is the first step, once u get past that its not too bad :)"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -657,7 +657,7 @@ var json = {
                         "text": "I know. And I'm subscribed to, I think, all of them, plus some other coders that I like. :P<br><br>I know that now. I just had to learn it the hard way. XP<br>Ah.<br>I have been doing that already. My hobbies are: Programming XP, Gaming, watching some movies that I like, reading, writing books, and listening to music is nice. :)<br>Archery. I like it, but I've only done it once. :/ I would like to get better at it though. :)"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -666,7 +666,7 @@ var json = {
                         "text": "Yeah, but it's hard. XP<br>But it's something I need to do, so I will do it. :)"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
