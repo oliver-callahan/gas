@@ -147,7 +147,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 11,
+                "replyCount": 13,
                 "votes": 5,
                 "date": "14 hours ago",
                 "author": {
@@ -214,7 +214,7 @@ var json = {
                         "text": "@Ezra i added you now you can see what you say lol"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -223,7 +223,7 @@ var json = {
                         "text": "Wow I'm the lamest O.o"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -250,20 +250,38 @@ var json = {
                         "text": "@weal can u add me XD"
                     },
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
                             "avatar": "/images/avatars/svg/leaf-red.svg"
                         },
                         "text": "only lame people can be added. hence, only me and wealR"
+                    },
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "wealR",
+                            "id": "kaid_831993479561352012904348",
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                        },
+                        "text": "sorry Mathlete Ezra was just such an icon of lameneess that i coulnd't pass up that"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "wealR",
+                            "id": "kaid_831993479561352012904348",
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                        },
+                        "text": "haha i love that.<br><br>yeah i agree so muc... wait a minute did you say second greatest?"
                     }
                 ]
             },
             {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "𝐂𝐥𝐨𝐯𝐞𝐫",
                     "id": "kaid_2287805493149654773942312",
@@ -461,7 +479,7 @@ var json = {
                         "text": "Yes. Its funny because concord means <code>agreement or harmony</code> while discord means  <code>lack of agreement or harmony</code>. So its a nice pun."
                     },
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "Clark Kent (occasionally active)",
                             "id": "kaid_714855751210369848518614",
@@ -474,7 +492,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "35 minutes ago",
+                "date": "40 minutes ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
