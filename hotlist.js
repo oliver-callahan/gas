@@ -259,7 +259,7 @@ var json = {
                         "text": "only lame people can be added. hence, only me and wealR"
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -268,7 +268,7 @@ var json = {
                         "text": "sorry Mathlete Ezra was just such an icon of lameneess that i coulnd't pass up that"
                     },
                     {
-                        "date": "38 minutes ago",
+                        "date": "43 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -277,7 +277,7 @@ var json = {
                         "text": "haha i love that.<br><br>yeah i agree so muc... wait a minute did you say second greatest?"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -567,7 +567,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "OfflineSquidy",
                     "id": "kaid_8597585382861928237037056",
