@@ -3,7 +3,7 @@ var json = {
     "title": "ACT 2 (2x better)",
     "votes": 52,
     "created": "a day ago",
-    "updated": "5 hours ago",
+    "updated": "6 hours ago",
     "type": "HTML",
     "author": {
         "name": "wealR",
@@ -52,7 +52,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "YA",
                             "id": "kaid_3563621891021365862686148",
@@ -65,7 +65,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 7,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "AmethystSky",
                     "id": "kaid_784805823121542822870790",
@@ -89,7 +89,7 @@ var json = {
             {
                 "replyCount": 5,
                 "votes": 5,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -100,7 +100,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -205,7 +205,7 @@ var json = {
                         "text": "@mathlete11 maybe cause I'm not the maker of the program lol<br><br>@wealR oh yeah you did so good at it. so good that is isn't even lame >:)<br>like if you were to put me in there I would be soooo lame"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -232,7 +232,7 @@ var json = {
                         "text": "Afternoon. At that time, I extremely value inspecting myself dancing with this good bracelet.<br><br>see? :P"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -250,7 +250,7 @@ var json = {
                         "text": "@weal can u add me XD"
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "Ezra",
                             "id": "kaid_1112279572017452692208390",
@@ -259,7 +259,7 @@ var json = {
                         "text": "only lame people can be added. hence, only me and wealR"
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -268,7 +268,7 @@ var json = {
                         "text": "sorry Mathlete Ezra was just such an icon of lameneess that i coulnd't pass up that"
                     },
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -277,7 +277,7 @@ var json = {
                         "text": "haha i love that.<br><br>yeah i agree so muc... wait a minute did you say second greatest?"
                     },
                     {
-                        "date": "13 minutes ago",
+                        "date": "18 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -328,7 +328,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "YA",
                     "id": "kaid_3563621891021365862686148",
@@ -488,7 +488,7 @@ var json = {
                         "text": "Yes. Its funny because concord means <code>agreement or harmony</code> while discord means  <code>lack of agreement or harmony</code>. So its a nice pun."
                     },
                     {
-                        "date": "38 minutes ago",
+                        "date": "43 minutes ago",
                         "author": {
                             "name": "Clark Kent (occasionally active)",
                             "id": "kaid_714855751210369848518614",
@@ -526,7 +526,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -553,7 +553,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
