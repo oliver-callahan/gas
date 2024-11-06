@@ -3,7 +3,7 @@ var json = {
     "title": "Star-Lord (Pixel Art)",
     "votes": 47,
     "created": "6 hours ago",
-    "updated": "5 hours ago",
+    "updated": "6 hours ago",
     "type": "PJS",
     "author": {
         "name": "Ace Rogers (Off)",
@@ -75,7 +75,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "NL",
                     "id": "kaid_101904269317089495055459",
@@ -86,7 +86,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -245,7 +245,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
@@ -256,7 +256,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -325,7 +325,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "37 minutes ago",
+                "date": "42 minutes ago",
                 "author": {
                     "name": "𝓧𝓛𝓟 [On]",
                     "id": "kaid_387597695665654041806576",
@@ -630,7 +630,7 @@ var json = {
                         "text": "XP<br>Yeah, I have over 64 friends on KA. XD<br><br>Yeah, that's what I'm planning on doing. Because I told Duke I'd try to come back for CoC. But by then I'm planning on organizing how I'm doing things so I don't get so stressed. :)<br>But that's the problem. I want to help people and to do collaborations. And that's how I overfilled my plate which led me to being stressed. So when I come back, I'm going to have a limit on things that I'm doing at once. :P"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -639,7 +639,7 @@ var json = {
                         "text": "holy pony!! 0-0 <br><br>mmk! yeah just don't overbook yourself if u overbook then the stress is too much.. lol yeah im the same wayyy! thats what i started to do cause otherwise i get really stressed and whatnot too. another thing that helps is having other hobbies so u can just step back easily like i do archery on the side, and art and music as my career (for lack of a better term) so it helps to have those to fall onto when i am sick of KA"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
