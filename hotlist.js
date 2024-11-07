@@ -417,7 +417,7 @@ var json = {
                         "text": ":)<br>i hope it is soon ;)<br><br>also idk if I like the blurred one or the unblurred one better lol<br>I think they are both cool =)"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -435,7 +435,7 @@ var json = {
                         "text": "yeah wish I could join, I'll prolly be to busy =( but i'lll be cheering u on 📣🥳👏 XD<br><br>lol we'll just say both then XD"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -482,7 +482,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -506,7 +506,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1165,7 +1165,7 @@ var json = {
                         "text": "Thank you lol.<br>I heard Radar made a request and they agreed to raise the vote limit. Maybe that went to effect yesterday :)"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
