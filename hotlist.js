@@ -6,7 +6,7 @@ var json = {
     "updated": "5 hours ago",
     "type": "PJS",
     "author": {
-        "name": "Ace Rogers (On)",
+        "name": "Ace Rogers (Off)",
         "id": "kaid_714276242204949021450419",
         "avatar": "/images/avatars/svg/leaf-blue.svg"
     },
@@ -63,7 +63,7 @@ var json = {
                 "votes": 14,
                 "date": "17 hours ago",
                 "author": {
-                    "name": "Ace Rogers (On)",
+                    "name": "Ace Rogers (Off)",
                     "id": "kaid_714276242204949021450419",
                     "avatar": "/images/avatars/svg/leaf-blue.svg"
                 },
@@ -88,7 +88,7 @@ var json = {
                     {
                         "date": "16 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -112,7 +112,7 @@ var json = {
                     {
                         "date": "16 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -162,9 +162,9 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -188,7 +188,7 @@ var json = {
                     {
                         "date": "15 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -197,7 +197,7 @@ var json = {
                     {
                         "date": "15 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -215,7 +215,7 @@ var json = {
                     {
                         "date": "15 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -248,7 +248,7 @@ var json = {
                     {
                         "date": "16 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -272,7 +272,7 @@ var json = {
                     {
                         "date": "14 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -296,7 +296,7 @@ var json = {
                     {
                         "date": "5 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -320,7 +320,7 @@ var json = {
                     {
                         "date": "5 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -338,7 +338,7 @@ var json = {
                     {
                         "date": "3 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -362,7 +362,7 @@ var json = {
                     {
                         "date": "17 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -380,7 +380,7 @@ var json = {
                     {
                         "date": "17 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -427,7 +427,7 @@ var json = {
                     {
                         "date": "3 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -451,7 +451,7 @@ var json = {
                     {
                         "date": "15 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -469,7 +469,7 @@ var json = {
                     {
                         "date": "15 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -516,7 +516,7 @@ var json = {
                     {
                         "date": "15 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -534,7 +534,7 @@ var json = {
                     {
                         "date": "15 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -545,7 +545,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "CodeNinja",
                     "id": "kaid_6247985199070618801670730",
@@ -572,7 +572,7 @@ var json = {
                     {
                         "date": "14 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -590,7 +590,7 @@ var json = {
                     {
                         "date": "14 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -608,7 +608,7 @@ var json = {
                     {
                         "date": "14 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -619,7 +619,7 @@ var json = {
             {
                 "replyCount": 22,
                 "votes": 1,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "Coder2098",
                     "id": "kaid_673573024191290348573492",
@@ -632,7 +632,7 @@ var json = {
                     {
                         "date": "16 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -650,7 +650,7 @@ var json = {
                     {
                         "date": "16 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -668,7 +668,7 @@ var json = {
                     {
                         "date": "16 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -686,7 +686,7 @@ var json = {
                     {
                         "date": "16 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -704,7 +704,7 @@ var json = {
                     {
                         "date": "16 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -722,7 +722,7 @@ var json = {
                     {
                         "date": "15 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -749,7 +749,7 @@ var json = {
                     {
                         "date": "15 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -758,7 +758,7 @@ var json = {
                     {
                         "date": "15 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -776,7 +776,7 @@ var json = {
                     {
                         "date": "15 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -794,7 +794,7 @@ var json = {
                     {
                         "date": "15 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -812,7 +812,7 @@ var json = {
                     {
                         "date": "15 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -832,7 +832,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                     "id": "kaid_693763055742960827086832",
@@ -845,7 +845,7 @@ var json = {
                     {
                         "date": "5 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -861,9 +861,9 @@ var json = {
                         "text": "Yes, it's the song he listened to when on Morag, where he found the Power Stone. It's also the song during which he picks up the lizard creatures, holds them like microphones, and kicks some of them. XD<br><br>Yep. You heard right. XD<br><br>You're welcome! :)"
                     },
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -888,7 +888,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "14 hours ago",
+                "date": "15 hours ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -901,7 +901,7 @@ var json = {
                     {
                         "date": "14 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -919,7 +919,7 @@ var json = {
                     {
                         "date": "14 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -957,7 +957,7 @@ var json = {
                     {
                         "date": "3 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -981,7 +981,7 @@ var json = {
                     {
                         "date": "3 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -997,9 +997,9 @@ var json = {
                         "text": "Your welcome :)<br>Oh yeah, and nice job on Bookshelf :)<br>Yeah I'm surprised it isn't vote locked XD"
                     },
                     {
-                        "date": "14 minutes ago",
+                        "date": "19 minutes ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -1021,16 +1021,16 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
-                            "name": "Ace Rogers (On)",
+                            "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "Thanks, but other programmers (like Green Ghost and Lazerwolf) have made better ones. :P<br>Thanks! :D"
                     },
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
