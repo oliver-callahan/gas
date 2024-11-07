@@ -384,7 +384,7 @@ var json = {
                         "text": "Thanks! :D<br>That's a good idea. I'll change it. :)<br><br><b>Edit</b> How's that?"
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "Samurai Warrior™ ✝ (Online)",
                             "id": "kaid_333534297788735128142174",
@@ -1002,7 +1002,7 @@ var json = {
                         "text": "Yes, it's the song he listened to when on Morag, where he found the Power Stone. It's also the song during which he picks up the lizard creatures, holds them like microphones, and kicks some of them. XD<br><br>Yep. You heard right. XD<br><br>You're welcome! :)"
                     },
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1011,7 +1011,7 @@ var json = {
                         "text": "Cool! :) I've never watched the Guardians of the Galaxy yet. But I'm planning on watching them within the next few weeks. :)<br>XD<br><br>XD<br><br>:)"
                     },
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -1165,7 +1165,7 @@ var json = {
                         "text": "Your welcome :)<br>Oh yeah, and nice job on Bookshelf :)<br>Yeah I'm surprised it isn't vote locked XD"
                     },
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
