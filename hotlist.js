@@ -293,7 +293,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
