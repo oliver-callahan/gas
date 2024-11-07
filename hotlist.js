@@ -213,7 +213,7 @@ var json = {
                         "text": "Oh, hmmm, just tell me when you make a new project when you get back(So that I can yell at you ;)"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -222,7 +222,7 @@ var json = {
                         "text": "...Okay. XD<br>I'll probably come back for CoC (I told Duke I would) and then I might go inactive again. But once I'm back, I'll probably try and finish Frontline and Monopoly that I was programming but never finished. :) So you can yell at me when I release one of those. XP"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
@@ -336,7 +336,7 @@ var json = {
                         "text": ":)<br>i hope it is soon ;)<br><br>also idk if I like the blurred one or the unblurred one better lol<br>I think they are both cool =)"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -425,7 +425,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -503,7 +503,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "Eyeinthesky",
                     "id": "kaid_6136710333637048514584747",
@@ -570,7 +570,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -666,7 +666,7 @@ var json = {
                         "text": "yeahh but as with anything it'll become whole in time :) plus you've helped so many people that they are more than ready to take up a stronger position yk?"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -675,7 +675,7 @@ var json = {
                         "text": "Yeah, but hopefully not too long. :P<br>Yeah, some of them. But some still have some things to learn that I could teach. :/"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
