@@ -337,7 +337,7 @@ var json = {
                         "text": "Yeah. :)<br><br>Yay, I'll miss making them. But I'll be back as soon as I can. :)"
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "JLE",
                             "id": "kaid_344949764307318233637518",
@@ -424,7 +424,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "33 minutes ago",
+                "date": "38 minutes ago",
                 "author": {
                     "name": "Firebrand (offline)",
                     "id": "kaid_423049852746380987692804",
@@ -988,7 +988,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -1012,7 +1012,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
