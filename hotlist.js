@@ -256,7 +256,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "11 minutes ago",
+                "date": "21 minutes ago",
                 "author": {
                     "name": "Equilibrium",
                     "id": "kaid_1842852586096096865081151",
@@ -549,6 +549,20 @@ var json = {
                 ]
             },
             {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "6 minutes ago",
+                "author": {
+                    "name": "3DA Games {Unlocked Develop Studios)",
+                    "id": "kaid_46113533788750322324717",
+                    "avatar": "/images/avatars/svg/boggle-blue.svg"
+                },
+                "text": "I love this! I do have a few minor questios and things I want to see about this program.<br><br>I know that pixel art used to be blurry, which adds a 80s effect to it. Most computers monitor and hardware for pixel games had (CRT...) a hardrive and hardware which were only compatible to the level of Super Mario's Beta Test for mods back in 2002. Now, Pixel Art is sleeker and better because of hardware and certain things with hardrive. Also, I do know that it takes a while for coding this, but, why can't you use base64 or the Beta-Release base65 for you making pixel art with multiple programs, then -copying that work and use base64(5) for it.<br><br>Questions: How come pixel art's background takes longer than the actual thing?",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
                 "replyCount": 4,
                 "votes": 1,
                 "date": "a day ago",
@@ -728,7 +742,7 @@ var json = {
                         "text": "Oh, well I didn't get your reply back."
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -954,7 +968,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "Wingfeather",
                     "id": "kaid_691541327914532427755189",
