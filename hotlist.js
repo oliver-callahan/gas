@@ -3,7 +3,7 @@ var json = {
     "title": "Star-Lord (Pixel Art)",
     "votes": 87,
     "created": "a day ago",
-    "updated": "21 hours ago",
+    "updated": "a day ago",
     "type": "PJS",
     "author": {
         "name": "Ace Rogers (On)",
@@ -375,7 +375,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -408,7 +408,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -951,7 +951,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -984,7 +984,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -993,7 +993,7 @@ var json = {
                         "text": "Ha ha ha! XD I'm assuming that's one of the songs that Star-Lord listened to. :P<br>Wait, what? XD<br><br>Thanks! :D"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -1011,7 +1011,7 @@ var json = {
                         "text": "Cool! :) I've never watched the Guardians of the Galaxy yet. But I'm planning on watching them within the next few weeks. :)<br>XD<br><br>XD<br><br>:)"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -1123,7 +1123,7 @@ var json = {
                         "text": "Yeah, ofc!<br>That’s good, you’re really talented with it too. Are you going to do more when you leave? <br>:P<br><br>Thanks! :D Super inactive, doing more schoolwork too XD"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
