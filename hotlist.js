@@ -444,7 +444,7 @@ var json = {
                         "text": "Aw. :(<br>Thanks. :)<br><br>That works for me. XD"
                     },
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "JLE",
                             "id": "kaid_344949764307318233637518",
@@ -942,7 +942,7 @@ var json = {
                         "text": "Thanks! :D<br>That makes sense. :)<br>I don't know too much about the Guardians of the Galaxy (he's Star-Lord which he is one of them) since I haven't watched the movies of them yet. But I believe that it's a space mask so he can breathe while there's no oxygen. :) But again, I've never seen the movies so I could be wrong. :P"
                     },
                     {
-                        "date": "14 minutes ago",
+                        "date": "19 minutes ago",
                         "author": {
                             "name": "Wingfeather",
                             "id": "kaid_691541327914532427755189",
