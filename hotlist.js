@@ -123,7 +123,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "Norwegian Pathways",
                     "id": "kaid_1082366231138740611717261",
@@ -235,7 +235,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "Chickenfarmer2009",
                     "id": "kaid_287879839213083022099587",
@@ -369,7 +369,7 @@ var json = {
                         "text": "Yeah, I was just keeping the wip secret for more of a surprise when I released it. :P"
                     },
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -378,7 +378,7 @@ var json = {
                         "text": "Ok so personally I prefer the normal pixel art but the blur is what most pixel art game would do so it definitely looks good that way too."
                     },
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -588,7 +588,7 @@ var json = {
                         "text": "I think it was my laptop doing it. It got like super laggy. Were you able to see my comments on the other project?"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -597,7 +597,7 @@ var json = {
                         "text": "Oh, okay.<br>You mean the one on the CJCool MC skin? Because I replied to that. :)"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -852,7 +852,7 @@ var json = {
                         "text": "Ha ha ha! XD I'm assuming that's one of the songs that Star-Lord listened to. :P<br>Wait, what? XD<br><br>Thanks! :D"
                     },
                     {
-                        "date": "39 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -861,7 +861,7 @@ var json = {
                         "text": "Yes, it's the song he listened to when on Morag, where he found the Power Stone. It's also the song during which he picks up the lizard creatures, holds them like microphones, and kicks some of them. XD<br><br>Yep. You heard right. XD<br><br>You're welcome! :)"
                     },
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -988,7 +988,7 @@ var json = {
                         "text": "Thanks! :D<br>Yeah, you are the one Duke, Cookie and I were against in ICC and I've seen some of your pixel art on the hotlist. :)<br>Yeah, it's crazy. This is probably the most votes I've got in a day. XD"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -997,7 +997,7 @@ var json = {
                         "text": "Your welcome :)<br>Oh yeah, and nice job on Bookshelf :)<br>Yeah I'm surprised it isn't vote locked XD"
                     },
                     {
-                        "date": "4 minutes ago",
+                        "date": "9 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1043,7 +1043,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "OfflineSquidy",
                     "id": "kaid_8597585382861928237037056",
