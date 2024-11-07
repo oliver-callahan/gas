@@ -417,7 +417,7 @@ var json = {
                         "text": ":)<br>i hope it is soon ;)<br><br>also idk if I like the blurred one or the unblurred one better lol<br>I think they are both cool =)"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -435,7 +435,7 @@ var json = {
                         "text": "yeah wish I could join, I'll prolly be to busy =( but i'lll be cheering u on 📣🥳👏 XD<br><br>lol we'll just say both then XD"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -444,7 +444,7 @@ var json = {
                         "text": "Aw. :(<br>Thanks. :)<br><br>That works for me. XD"
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "JLE",
                             "id": "kaid_344949764307318233637518",
@@ -482,7 +482,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -506,7 +506,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -942,7 +942,7 @@ var json = {
                         "text": "Thanks! :D<br>That makes sense. :)<br>I don't know too much about the Guardians of the Galaxy (he's Star-Lord which he is one of them) since I haven't watched the movies of them yet. But I believe that it's a space mask so he can breathe while there's no oxygen. :) But again, I've never seen the movies so I could be wrong. :P"
                     },
                     {
-                        "date": "44 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Wingfeather",
                             "id": "kaid_691541327914532427755189",
@@ -1156,7 +1156,7 @@ var json = {
                         "text": "Thank you lol.<br>I heard Radar made a request and they agreed to raise the vote limit. Maybe that went to effect yesterday :)"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
