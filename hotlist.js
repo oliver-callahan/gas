@@ -3,7 +3,7 @@ var json = {
     "title": "Star-Lord (Pixel Art)",
     "votes": 74,
     "created": "a day ago",
-    "updated": "12 hours ago",
+    "updated": "13 hours ago",
     "type": "PJS",
     "author": {
         "name": "Ace Rogers (Off)",
@@ -294,7 +294,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -318,7 +318,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -615,7 +615,7 @@ var json = {
                         "text": "Oh, well I didn't get your reply back."
                     },
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -852,7 +852,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -861,7 +861,7 @@ var json = {
                         "text": "Ha ha ha! XD I'm assuming that's one of the songs that Star-Lord listened to. :P<br>Wait, what? XD<br><br>Thanks! :D"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
