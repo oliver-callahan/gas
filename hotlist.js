@@ -327,7 +327,7 @@ var json = {
                         "text": "Yeah. :)<br><br>Yay, I'll miss making them. But I'll be back as soon as I can. :)"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "JLE",
                             "id": "kaid_344949764307318233637518",
@@ -557,9 +557,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 5,
+                "replyCount": 6,
                 "votes": 1,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Stitch Girl💠",
                     "id": "kaid_6490115305785159643926933",
@@ -613,6 +613,15 @@ var json = {
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "Oh, well I didn't get your reply back."
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "Stitch Girl💠",
+                            "id": "kaid_6490115305785159643926933",
+                            "avatar": "/images/avatars/svg/marcimus-red.svg"
+                        },
+                        "text": "Good morning!"
                     }
                 ]
             },
@@ -955,7 +964,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -979,7 +988,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
