@@ -908,7 +908,7 @@ var json = {
                         "text": "Thanks! :D<br>\"The crispy version\"? XD Which one do you count as that? o.O"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "cwalsh1223 BBB#",
                             "id": "kaid_792288208072906614241148",
@@ -917,7 +917,7 @@ var json = {
                         "text": "I mean the non-blurred version. The edges are crisper. ʘ͜ʘ"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -944,7 +944,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "𝒏𝒐𝒗𝒂 [off]",
                     "id": "kaid_813381521096073568944791",
