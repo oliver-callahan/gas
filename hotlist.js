@@ -3,7 +3,7 @@ var json = {
     "title": "Star-Lord (Pixel Art)",
     "votes": 64,
     "created": "12 hours ago",
-    "updated": "11 minutes ago",
+    "updated": "16 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Ace Rogers (Off)",
@@ -123,7 +123,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 minutes ago",
+                "date": "7 minutes ago",
                 "author": {
                     "name": "Norwegian Pathways",
                     "id": "kaid_1082366231138740611717261",
@@ -294,7 +294,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -318,7 +318,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "14 minutes ago",
+                        "date": "19 minutes ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -369,7 +369,7 @@ var json = {
                         "text": "Yeah, the blur makes it look less jaggy, but not blurred is more clearer and you can see more of the different shading. :)"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -389,6 +389,20 @@ var json = {
                     "avatar": "/images/avatars/svg/piceratops-seed.svg"
                 },
                 "text": "42nd. :O<br>Ima miss being that late on your projects. <:(<br><br>Honestly I like both images. Great job! :)",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "4 minutes ago",
+                "author": {
+                    "name": "Boomtown2021™",
+                    "id": "kaid_4342706381546273738505410",
+                    "avatar": "/images/avatars/svg/piceratops-seedling.svg"
+                },
+                "text": "Non blurred! Looks great!<br><br>Also thank you thank you thank you. You have no idea how much I've struggled trying to find code that lets me save my coded images in Khan.<br><br><code>enableContextMenu();</code> just saved me lol, you have inadvertently given me the best gift ever.<br><br>Thank you for your commenting in your programs!",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -434,7 +448,7 @@ var json = {
                         "text": "XD<br>Okay. :)<br>It was still nice though. :)"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "TheMessenger",
                             "id": "kaid_492737111195244262916025",
@@ -732,7 +746,7 @@ var json = {
                         "text": "jeez the spam must be real! XD<br><br>lol hey i had to learn it the hard way too :P like rn im SUPER booked irl and coding wise but i am lessing the coding one and working on my organizational skills so while i would have liked to learn it from someone ELSES experience i learned it all the same!<br>XDD well that ones gonna take a backseat, yeah ig thats a hobby of mine too :P, same, same (u have GOT to read 1984 its an amazing book for this day in age), my grandpa does that and i sorta do it but i mostly do comic books :P, fair!<br>haha its hard! oh and make SURE u have proper safety gear cause it can hurt if u dont XD ask me how i know 🫥 just start by trying to hit a tree then get more accurate from there :P<br><br>yeah it is what it is!"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -801,7 +815,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "13 minutes ago",
+                        "date": "18 minutes ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -814,7 +828,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
