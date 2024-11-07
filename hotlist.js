@@ -3,7 +3,7 @@ var json = {
     "title": "Star-Lord (Pixel Art)",
     "votes": 64,
     "created": "13 hours ago",
-    "updated": "36 minutes ago",
+    "updated": "41 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Ace Rogers (Off)",
@@ -123,7 +123,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "27 minutes ago",
+                "date": "32 minutes ago",
                 "author": {
                     "name": "Norwegian Pathways",
                     "id": "kaid_1082366231138740611717261",
@@ -235,7 +235,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "Chickenfarmer2009",
                     "id": "kaid_287879839213083022099587",
@@ -294,7 +294,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -318,7 +318,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "39 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -351,7 +351,7 @@ var json = {
                         "text": "Yeah, I was just keeping the wip secret for more of a surprise when I released it. :P"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -360,7 +360,7 @@ var json = {
                         "text": "Ok so personally I prefer the normal pixel art but the blur is what most pixel art game would do so it definitely looks good that way too."
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -396,7 +396,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "24 minutes ago",
+                "date": "29 minutes ago",
                 "author": {
                     "name": "Boomtown2021™",
                     "id": "kaid_4342706381546273738505410",
@@ -560,7 +560,7 @@ var json = {
                         "text": "I think it was my laptop doing it. It got like super laggy. Were you able to see my comments on the other project?"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -569,7 +569,7 @@ var json = {
                         "text": "Oh, okay.<br>You mean the one on the CJCool MC skin? Because I replied to that. :)"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -815,7 +815,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "38 minutes ago",
+                        "date": "43 minutes ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -931,7 +931,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "OfflineSquidy",
                     "id": "kaid_8597585382861928237037056",
