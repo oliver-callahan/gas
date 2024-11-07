@@ -137,7 +137,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "theBTG15",
                     "id": "kaid_1184047636356324637542824",
@@ -305,7 +305,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 2,
+                "replyCount": 3,
                 "votes": 1,
                 "date": "9 hours ago",
                 "author": {
@@ -334,6 +334,15 @@ var json = {
                             "avatar": "/images/avatars/svg/aqualine-sapling.svg"
                         },
                         "text": ":)<br>i hope it is soon ;)<br><br>also idk if I like the blurred one or the unblurred one better lol<br>I think they are both cool =)"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "I told Duke I would try to be back for CoC 2025, so I'll be back in 2 months, but after CoC, I'll probably go inactive again.<br><br>Yeah, I don't know which I like better, either. XD"
                     }
                 ]
             },
@@ -391,7 +400,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "𝓧𝓛𝓟 [Off]",
                     "id": "kaid_387597695665654041806576",
@@ -403,7 +412,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "2 hours ago",
                 "author": {
@@ -414,7 +423,17 @@ var json = {
                 "text": "Non blurred! Looks great!<br><br>Also thank you thank you thank you. You have no idea how much I've struggled trying to find code that lets me save my coded images in Khan.<br><br><code>enableContextMenu();</code> just saved me lol, you have inadvertently given me the best gift ever.<br><br>Thank you for your commenting in your programs!",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Thanks! :D<br><br>You're welcome! XD<br>I'm glad I was able to help someone again. :)<br><br>You're welcome! If there's any parts that aren't commented well and you want to know what it does, you can always ask me. :)"
+                    }
+                ]
             },
             {
                 "replyCount": 4,
@@ -470,7 +489,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -600,7 +619,7 @@ var json = {
             {
                 "replyCount": 22,
                 "votes": 1,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "Coder2098",
                     "id": "kaid_673573024191290348573492",
@@ -611,7 +630,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -692,7 +711,7 @@ var json = {
                         "text": "I guess. :P<br>XD<br>It's probably how I became friends with 1/3 of my current friends. :P 1/3 are probably friends that I met while on the same team and the other 1/3 is just by chance that we met. :)<br>Yeah, I know. It's just that I've been mostly active (sometimes I wasn't) on KA for about 4 years and I don't want to leave. :/<br>But I know if I stay, it'll just be worse."
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -862,7 +881,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -907,7 +926,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "21 minutes ago",
+                "date": "26 minutes ago",
                 "author": {
                     "name": "𝒏𝒐𝒗𝒂 [off]",
                     "id": "kaid_813381521096073568944791",
@@ -918,7 +937,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -931,7 +950,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "6 minutes ago",
+                "date": "11 minutes ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
@@ -942,7 +961,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
