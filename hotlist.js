@@ -3,7 +3,7 @@ var json = {
     "title": "Star-Lord (Pixel Art)",
     "votes": 86,
     "created": "a day ago",
-    "updated": "19 hours ago",
+    "updated": "20 hours ago",
     "type": "PJS",
     "author": {
         "name": "Ace Rogers (Off)",
@@ -375,7 +375,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -399,7 +399,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -493,7 +493,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 1,
                 "date": "19 hours ago",
                 "author": {
@@ -513,6 +513,15 @@ var json = {
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "Thanks! :D<br><br>You're welcome! XD<br>I'm glad I was able to help someone again. :)<br><br>You're welcome! If there's any parts that aren't commented well and you want to know what it does, you can always ask me. :)"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Boomtown2021™",
+                            "id": "kaid_4342706381546273738505410",
+                            "avatar": "/images/avatars/svg/piceratops-seedling.svg"
+                        },
+                        "text": "Thank you so much!!"
                     }
                 ]
             },
@@ -933,7 +942,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -966,7 +975,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -975,7 +984,7 @@ var json = {
                         "text": "Ha ha ha! XD I'm assuming that's one of the songs that Star-Lord listened to. :P<br>Wait, what? XD<br><br>Thanks! :D"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -1096,7 +1105,7 @@ var json = {
                         "text": "Yeah, ofc!<br>That’s good, you’re really talented with it too. Are you going to do more when you leave? <br>:P<br><br>Thanks! :D Super inactive, doing more schoolwork too XD"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
