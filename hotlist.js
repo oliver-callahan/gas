@@ -384,7 +384,7 @@ var json = {
                         "text": "Thanks! :D<br>That's a good idea. I'll change it. :)<br><br><b>Edit</b> How's that?"
                     },
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "Samurai Warrior™ ✝ (Online)",
                             "id": "kaid_333534297788735128142174",
@@ -504,7 +504,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "Boomtown2021™",
                     "id": "kaid_4342706381546273738505410",
