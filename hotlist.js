@@ -151,7 +151,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "14 hours ago",
+                "date": "15 hours ago",
                 "author": {
                     "name": "Cookie",
                     "id": "kaid_1826046083730180486895887",
@@ -246,7 +246,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -307,7 +307,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "JLE",
                     "id": "kaid_344949764307318233637518",
@@ -414,7 +414,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Boomtown2021™",
                     "id": "kaid_4342706381546273738505410",
@@ -606,7 +606,7 @@ var json = {
                         "text": "I sent a reply back? My laptop hates me and has been acting up for the pass half hour"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -702,7 +702,7 @@ var json = {
                         "text": "yeah i spose thats true but i wouldn't worry about it everything comes in its own time right? <br>lol yeah thats sorta how chicken and i became friends! XD <br>its hard taking a step back ik but trust me there are better things in wait for u than KA lol"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -970,7 +970,7 @@ var json = {
                         "text": "Thanks! :D<br>Yeah, you are the one Duke, Cookie and I were against in ICC and I've seen some of your pixel art on the hotlist. :)<br>Yeah, it's crazy. This is probably the most votes I've got in a day. XD"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -983,7 +983,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "14 hours ago",
+                "date": "15 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
