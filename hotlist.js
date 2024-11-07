@@ -362,7 +362,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 1,
                 "date": "a day ago",
                 "author": {
@@ -382,6 +382,15 @@ var json = {
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "Thanks! :D<br>That's a good idea. I'll change it. :)<br><br><b>Edit</b> How's that?"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "Samurai Warrior™ ✝ (Offline)",
+                            "id": "kaid_333534297788735128142174",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                        },
+                        "text": "Of course! :)<br>It's cool -- I like it!"
                     }
                 ]
             },
@@ -1174,7 +1183,7 @@ var json = {
                         "text": "You're welcome! :)<br>Cool! :D I'm so happy that they did that, because it's annoying when I can't vote for something right now and I need to remember to go back to it later or tomorrow. :/"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
