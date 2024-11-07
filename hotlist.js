@@ -137,7 +137,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "Cookie",
                     "id": "kaid_1826046083730180486895887",
@@ -232,7 +232,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -283,7 +283,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "JLE",
                     "id": "kaid_344949764307318233637518",
@@ -295,7 +295,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 3,
+                "replyCount": 4,
                 "votes": 1,
                 "date": "11 hours ago",
                 "author": {
@@ -333,6 +333,15 @@ var json = {
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "Yeah, the blur makes it look less jaggy, but not blurred is more clearer and you can see more of the different shading. :)"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "ha I see one of the comments say that you will come back for CoC :P"
                     }
                 ]
             },
@@ -521,7 +530,7 @@ var json = {
                         "text": "I sent a reply back? My laptop hates me and has been acting up for the pass half hour"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -617,7 +626,7 @@ var json = {
                         "text": "yeah i spose thats true but i wouldn't worry about it everything comes in its own time right? <br>lol yeah thats sorta how chicken and i became friends! XD <br>its hard taking a step back ik but trust me there are better things in wait for u than KA lol"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -831,7 +840,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -864,7 +873,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "31 minutes ago",
+                "date": "36 minutes ago",
                 "author": {
                     "name": "OfflineSquidy",
                     "id": "kaid_8597585382861928237037056",
