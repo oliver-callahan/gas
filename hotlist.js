@@ -256,7 +256,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "21 minutes ago",
+                "date": "26 minutes ago",
                 "author": {
                     "name": "Equilibrium",
                     "id": "kaid_1842852586096096865081151",
@@ -380,7 +380,7 @@ var json = {
                 "votes": 1,
                 "date": "a day ago",
                 "author": {
-                    "name": "Samurai Warrior™ ✝ (Online)",
+                    "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
                     "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                 },
@@ -400,7 +400,7 @@ var json = {
                     {
                         "date": "an hour ago",
                         "author": {
-                            "name": "Samurai Warrior™ ✝ (Online)",
+                            "name": "Samurai Warrior™ ✝ (Offline)",
                             "id": "kaid_333534297788735128142174",
                             "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
@@ -538,7 +538,7 @@ var json = {
                         "text": "Thanks! :D<br><br>You're welcome! XD<br>I'm glad I was able to help someone again. :)<br><br>You're welcome! If there's any parts that aren't commented well and you want to know what it does, you can always ask me. :)"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Boomtown2021™",
                             "id": "kaid_4342706381546273738505410",
@@ -551,7 +551,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 minutes ago",
+                "date": "11 minutes ago",
                 "author": {
                     "name": "3DA Games {Unlocked Develop Studios)",
                     "id": "kaid_46113533788750322324717",
@@ -1122,7 +1122,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "𝒏𝒐𝒗𝒂 [off]",
                     "id": "kaid_813381521096073568944791",
