@@ -137,7 +137,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "theBTG15",
                     "id": "kaid_1184047636356324637542824",
@@ -400,7 +400,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "𝓧𝓛𝓟 [Off]",
                     "id": "kaid_387597695665654041806576",
@@ -615,7 +615,7 @@ var json = {
                         "text": "Oh, well I didn't get your reply back."
                     },
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
