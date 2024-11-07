@@ -515,7 +515,7 @@ var json = {
                         "text": "Thanks! :D<br><br>You're welcome! XD<br>I'm glad I was able to help someone again. :)<br><br>You're welcome! If there's any parts that aren't commented well and you want to know what it does, you can always ask me. :)"
                     },
                     {
-                        "date": "24 minutes ago",
+                        "date": "29 minutes ago",
                         "author": {
                             "name": "Boomtown2021™",
                             "id": "kaid_4342706381546273738505410",
