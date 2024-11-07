@@ -6,7 +6,7 @@ var json = {
     "updated": "18 hours ago",
     "type": "PJS",
     "author": {
-        "name": "Ace Rogers (Off)",
+        "name": "Ace Rogers (On)",
         "id": "kaid_714276242204949021450419",
         "avatar": "/images/avatars/svg/leaf-blue.svg"
     },
@@ -93,7 +93,7 @@ var json = {
                 "votes": 15,
                 "date": "a day ago",
                 "author": {
-                    "name": "Ace Rogers (Off)",
+                    "name": "Ace Rogers (On)",
                     "id": "kaid_714276242204949021450419",
                     "avatar": "/images/avatars/svg/leaf-blue.svg"
                 },
@@ -118,7 +118,7 @@ var json = {
                     {
                         "date": "a day ago",
                         "author": {
-                            "name": "Ace Rogers (Off)",
+                            "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -142,7 +142,7 @@ var json = {
                     {
                         "date": "a day ago",
                         "author": {
-                            "name": "Ace Rogers (Off)",
+                            "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -166,7 +166,7 @@ var json = {
                     {
                         "date": "a day ago",
                         "author": {
-                            "name": "Ace Rogers (Off)",
+                            "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -184,7 +184,7 @@ var json = {
                     {
                         "date": "a day ago",
                         "author": {
-                            "name": "Ace Rogers (Off)",
+                            "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -245,7 +245,7 @@ var json = {
                     {
                         "date": "a day ago",
                         "author": {
-                            "name": "Ace Rogers (Off)",
+                            "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -269,7 +269,7 @@ var json = {
                     {
                         "date": "a day ago",
                         "author": {
-                            "name": "Ace Rogers (Off)",
+                            "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -278,7 +278,7 @@ var json = {
                     {
                         "date": "a day ago",
                         "author": {
-                            "name": "Ace Rogers (Off)",
+                            "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -296,7 +296,7 @@ var json = {
                     {
                         "date": "a day ago",
                         "author": {
-                            "name": "Ace Rogers (Off)",
+                            "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
@@ -386,7 +386,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 4,
+                "replyCount": 5,
                 "votes": 1,
                 "date": "a day ago",
                 "author": {
@@ -426,13 +426,22 @@ var json = {
                         "text": "I told Duke I would try to be back for CoC 2025, so I'll be back in 2 months, but after CoC, I'll probably go inactive again.<br><br>Yeah, I don't know which I like better, either. XD"
                     },
                     {
-                        "date": "44 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "JLE",
                             "id": "kaid_344949764307318233637518",
                             "avatar": "/images/avatars/svg/aqualine-sapling.svg"
                         },
                         "text": "yeah wish I could join, I'll prolly be to busy =( but i'lll be cheering u on 📣🥳👏 XD<br><br>lol we'll just say both then XD"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Aw. :(<br>Thanks. :)<br><br>That works for me. XD"
                     }
                 ]
             },
@@ -451,7 +460,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "3 hours ago",
                 "author": {
@@ -462,7 +471,17 @@ var json = {
                 "text": "WOOOOOOOAAAAAHH!<br><br>Was my immediate reaction. lol<br>Absolutely amazing!<br>Vote++<br><br>btw I like it unblurred",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "XD<br>Thanks! :D"
+                    }
+                ]
             },
             {
                 "replyCount": 1,
@@ -894,7 +913,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "33 minutes ago",
+                "date": "38 minutes ago",
                 "author": {
                     "name": "Wingfeather",
                     "id": "kaid_691541327914532427755189",
@@ -1040,7 +1059,7 @@ var json = {
                         "text": "Thanks! :D<br>Hopefully. Because coding is one of my top favorite hobbies. XP<br><br>It's nice to see you again. :)"
                     },
                     {
-                        "date": "11 minutes ago",
+                        "date": "16 minutes ago",
                         "author": {
                             "name": "𝒏𝒐𝒗𝒂 [off]",
                             "id": "kaid_813381521096073568944791",
@@ -1051,7 +1070,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 4,
+                "replyCount": 5,
                 "votes": 1,
                 "date": "16 hours ago",
                 "author": {
@@ -1091,13 +1110,22 @@ var json = {
                         "text": "Thanks! :) You did good on your remake of Snowball.io. :)<br>In some ways I like it better than the original. Just don't tell Corin Fist. XP<br>Yeah, I was wondering about that. It usually gets vote locked around 40. This is weird. Maybe KA took that feature away. o.O"
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
                             "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                         },
                         "text": "Thank you lol.<br>I heard Radar made a request and they agreed to raise the vote limit. Maybe that went to effect yesterday :)"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "You're welcome! :)<br>Cool! :D I'm so happy that they did that, because it's annoying when I can't vote for something right now and I need to remember to go back to it later or tomorrow. :/"
                     }
                 ]
             },
@@ -1151,7 +1179,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "8 minutes ago",
+                "date": "13 minutes ago",
                 "author": {
                     "name": "AGnawKneeMouse Coder",
                     "id": "kaid_9033829293805621369025816",
