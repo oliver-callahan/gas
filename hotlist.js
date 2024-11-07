@@ -172,7 +172,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -181,7 +181,7 @@ var json = {
                         "text": "I am. I just couldn't without one final quality program. XD"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -190,7 +190,7 @@ var json = {
                         "text": "Plus, I'm not totally leaving. I'm still staying to comment to some of my closest friends (and some others when I need to reply to someone) and to work on a project when I get time, but I'm mostly trying to leave to recover from my stress. :)"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
@@ -474,7 +474,7 @@ var json = {
             {
                 "replyCount": 5,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "Stitch Girl💠",
                     "id": "kaid_6490115305785159643926933",
@@ -563,7 +563,7 @@ var json = {
                         "text": "ofc!<br>lol it looks awesome KA's really gonna be different without u :[ but i hope u enjoy your well deserved break!!<br>XD i get the feeling"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -572,7 +572,7 @@ var json = {
                         "text": "I know. And I don't like leaving it that way. :( I'll try. :)<br>XD"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -698,7 +698,7 @@ var json = {
                         "text": "XD<br><br>XD<br>Wait, it's just called \"1984\"?<br>I do mostly fantasy and some other books that I won't mention because of the rules. :P<br>Um, is it bad that I didn't. O.O I was using a training bow (I think that's what it was called) and the tip wasn't too sharp. XP<br>Um, I was using targets. :P<br><br>Yep."
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -864,7 +864,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 minutes ago",
+                "date": "11 minutes ago",
                 "author": {
                     "name": "OfflineSquidy",
                     "id": "kaid_8597585382861928237037056",
