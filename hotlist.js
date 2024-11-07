@@ -545,7 +545,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "CodeNinja",
                     "id": "kaid_6247985199070618801670730",
@@ -832,7 +832,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                     "id": "kaid_693763055742960827086832",
@@ -888,7 +888,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
