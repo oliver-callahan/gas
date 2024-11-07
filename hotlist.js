@@ -364,7 +364,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
@@ -435,7 +435,7 @@ var json = {
                         "text": "yeah wish I could join, I'll prolly be to busy =( but i'lll be cheering u on 📣🥳👏 XD<br><br>lol we'll just say both then XD"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -473,7 +473,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -924,7 +924,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "34 minutes ago",
+                        "date": "39 minutes ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -1078,7 +1078,7 @@ var json = {
                         "text": "Yeah, ofc!<br>That’s good, you’re really talented with it too. Are you going to do more when you leave? <br>:P<br><br>Thanks! :D Super inactive, doing more schoolwork too XD"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -1138,7 +1138,7 @@ var json = {
                         "text": "Thank you lol.<br>I heard Radar made a request and they agreed to raise the vote limit. Maybe that went to effect yesterday :)"
                     },
                     {
-                        "date": "39 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -1147,7 +1147,7 @@ var json = {
                         "text": "You're welcome! :)<br>Cool! :D I'm so happy that they did that, because it's annoying when I can't vote for something right now and I need to remember to go back to it later or tomorrow. :/"
                     },
                     {
-                        "date": "28 minutes ago",
+                        "date": "33 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
