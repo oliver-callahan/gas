@@ -26,6 +26,16 @@ var json = {
             }
         },
         {
+            "title": "Spin-off of \"Star-Lord (Pixel Art)\"",
+            "id": "4853308054224896",
+            "forks": 0,
+            "votes": 1,
+            "author": {
+                "name": "ltedesco29",
+                "id": "kaid_701657779956840093821997"
+            }
+        },
+        {
             "title": "temporily",
             "id": "5247638782787584",
             "forks": 0,
@@ -127,6 +137,57 @@ var json = {
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "Thanks! :D<br>I haven't decided which I like better yet. :P<br><br>Someone else said something about pixel art used to be blurred, so I think you're right. :)"
+                    }
+                ]
+            },
+            {
+                "replyCount": 4,
+                "votes": 2,
+                "date": "a day ago",
+                "author": {
+                    "name": "Duke",
+                    "id": "kaid_351465532815782433620675",
+                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                },
+                "text": "lol new you had something else up your sleaves :P",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "a day ago",
+                        "author": {
+                            "name": "Ace Rogers (Off)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Yeah, I was just keeping the wip secret for more of a surprise when I released it. :P"
+                    },
+                    {
+                        "date": "a day ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Ok so personally I prefer the normal pixel art but the blur is what most pixel art game would do so it definitely looks good that way too."
+                    },
+                    {
+                        "date": "a day ago",
+                        "author": {
+                            "name": "Ace Rogers (Off)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Yeah, the blur makes it look less jaggy, but not blurred is more clearer and you can see more of the different shading. :)"
+                    },
+                    {
+                        "date": "18 hours ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "ha I see one of the comments say that you will come back for CoC :P"
                     }
                 ]
             },
@@ -315,7 +376,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 3,
+                "replyCount": 4,
                 "votes": 1,
                 "date": "a day ago",
                 "author": {
@@ -353,57 +414,15 @@ var json = {
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "I told Duke I would try to be back for CoC 2025, so I'll be back in 2 months, but after CoC, I'll probably go inactive again.<br><br>Yeah, I don't know which I like better, either. XD"
-                    }
-                ]
-            },
-            {
-                "replyCount": 4,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "Duke",
-                    "id": "kaid_351465532815782433620675",
-                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                },
-                "text": "lol new you had something else up your sleaves :P",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Ace Rogers (Off)",
-                            "id": "kaid_714276242204949021450419",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "Yeah, I was just keeping the wip secret for more of a surprise when I released it. :P"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "4 minutes ago",
                         "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                            "name": "JLE",
+                            "id": "kaid_344949764307318233637518",
+                            "avatar": "/images/avatars/svg/aqualine-sapling.svg"
                         },
-                        "text": "Ok so personally I prefer the normal pixel art but the blur is what most pixel art game would do so it definitely looks good that way too."
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Ace Rogers (Off)",
-                            "id": "kaid_714276242204949021450419",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "Yeah, the blur makes it look less jaggy, but not blurred is more clearer and you can see more of the different shading. :)"
-                    },
-                    {
-                        "date": "18 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "ha I see one of the comments say that you will come back for CoC :P"
+                        "text": "yeah wish I could join, I'll prolly be to busy =( but i'lll be cheering u on 📣🥳👏 XD<br><br>lol we'll just say both then XD"
                     }
                 ]
             },
