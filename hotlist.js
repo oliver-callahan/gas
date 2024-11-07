@@ -104,7 +104,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 7,
+                "votes": 8,
                 "date": "a day ago",
                 "author": {
                     "name": "NL",
@@ -256,7 +256,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 minutes ago",
+                "date": "11 minutes ago",
                 "author": {
                     "name": "Equilibrium",
                     "id": "kaid_1842852586096096865081151",
@@ -518,7 +518,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Boomtown2021™",
                     "id": "kaid_4342706381546273738505410",
