@@ -110,7 +110,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -283,7 +283,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
@@ -579,7 +579,7 @@ var json = {
                         "text": "Try restarting the program and don't go down in the comments. :)"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -693,7 +693,7 @@ var json = {
                         "text": "Yeah, but there are few advanced programmers that I've seen actually go out of their way to help the newer generation (no offense to anyone). They help when they are asked a question or maybe reply to a help request. But I like actually going to the people that need help. That's also how I make a lot of new friends. :)<br>Yeah, that's why I don't want to. And I want to be there to help when they do come.<br>True. :P"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -810,7 +810,7 @@ var json = {
                         "text": "XDD fair! <br><br>LOLLL <br>XDD the best archery range is a free one!<br>yeahh its best if u get an arm guard and a hand guard then u will likely not get hit by the string anymore :P<br>yeah just wait XD<br>.<br>yeah same here :) oo i have a friend who does blacksmithing! its pretty cool the kinda things he can make! yess fencing! i live out in the country so we just do fencing with no protection and random sticks in the yard XD but normal fencing is always fun!"
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -819,7 +819,7 @@ var json = {
                         "text": "Hey, can we move here so we aren't talking about something that isn't related to the program. :P<br>https://www.khanacademy.org/computer-programming/archery/6078710659596288<br>This was to be an archery game, before I was too busy to finish it. XP"
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -830,7 +830,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 2,
+                "replyCount": 3,
                 "votes": 1,
                 "date": "10 hours ago",
                 "author": {
@@ -852,13 +852,22 @@ var json = {
                         "text": "Ha ha ha! XD I'm assuming that's one of the songs that Star-Lord listened to. :P<br>Wait, what? XD<br><br>Thanks! :D"
                     },
                     {
-                        "date": "34 minutes ago",
+                        "date": "39 minutes ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
                             "avatar": "/images/avatars/svg/cs-winston.svg"
                         },
                         "text": "Yes, it's the song he listened to when on Morag, where he found the Power Stone. It's also the song during which he picks up the lizard creatures, holds them like microphones, and kicks some of them. XD<br><br>Yep. You heard right. XD<br><br>You're welcome! :)"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Cool! :) I've never watched the Guardians of the Galaxy yet. But I'm planning on watching them within the next few weeks. :)<br>XD<br><br>XD<br><br>:)"
                     }
                 ]
             },
@@ -921,7 +930,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "Ducky Momo",
                     "id": "kaid_803024247073237306758396",
@@ -957,7 +966,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 2,
+                "replyCount": 3,
                 "votes": 1,
                 "date": "3 hours ago",
                 "author": {
@@ -986,6 +995,15 @@ var json = {
                             "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                         },
                         "text": "Your welcome :)<br>Oh yeah, and nice job on Bookshelf :)<br>Yeah I'm surprised it isn't vote locked XD"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Thanks! :) You did good on your remake of Snowball.io. :)<br>In some ways I like it better than the original. Just don't tell Corin Fist. XP<br>Yeah, I was wondering about that. It usually gets vote locked around 40. This is weird. Maybe KA took that feature away. o.O"
                     }
                 ]
             },
