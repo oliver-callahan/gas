@@ -133,7 +133,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "14 hours ago",
+                "date": "15 hours ago",
                 "author": {
                     "name": "Norwegian Pathways",
                     "id": "kaid_1082366231138740611717261",
@@ -1007,7 +1007,7 @@ var json = {
                         "text": "Thanks! :D<br>Yeah, you are the one Duke, Cookie and I were against in ICC and I've seen some of your pixel art on the hotlist. :)<br>Yeah, it's crazy. This is probably the most votes I've got in a day. XD"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -1062,7 +1062,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "OfflineSquidy",
                     "id": "kaid_8597585382861928237037056",
