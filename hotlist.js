@@ -384,7 +384,7 @@ var json = {
                         "text": "Thanks! :D<br>That's a good idea. I'll change it. :)<br><br><b>Edit</b> How's that?"
                     },
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "Samurai Warrior™ ✝ (Online)",
                             "id": "kaid_333534297788735128142174",
@@ -714,7 +714,7 @@ var json = {
                         "text": "Oh, well I didn't get your reply back."
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -940,7 +940,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Wingfeather",
                     "id": "kaid_691541327914532427755189",
@@ -971,7 +971,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 3,
+                "replyCount": 4,
                 "votes": 1,
                 "date": "a day ago",
                 "author": {
@@ -1009,6 +1009,15 @@ var json = {
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "Cool! :) I've never watched the Guardians of the Galaxy yet. But I'm planning on watching them within the next few weeks. :)<br>XD<br><br>XD<br><br>:)"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
+                            "id": "kaid_693763055742960827086832",
+                            "avatar": "/images/avatars/svg/cs-winston.svg"
+                        },
+                        "text": "Well, if that's the case, let me tell you something. The first Guardians of the Galaxy is pretty good, I haven't seen the second 'cause I heard it's super crass, and the third is really great but also a tearjerker at one point. :/<br><br>Call PETA. XD<br><br>XD<br><br>:)"
                     }
                 ]
             },
