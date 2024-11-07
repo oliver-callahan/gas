@@ -307,7 +307,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "JLE",
                     "id": "kaid_344949764307318233637518",
@@ -414,7 +414,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "Boomtown2021™",
                     "id": "kaid_4342706381546273738505410",
@@ -606,7 +606,7 @@ var json = {
                         "text": "I sent a reply back? My laptop hates me and has been acting up for the pass half hour"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -615,7 +615,7 @@ var json = {
                         "text": "Oh, well I didn't get your reply back."
                     },
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
