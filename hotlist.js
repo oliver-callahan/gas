@@ -246,7 +246,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -307,7 +307,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "JLE",
                     "id": "kaid_344949764307318233637518",
@@ -414,7 +414,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "Boomtown2021™",
                     "id": "kaid_4342706381546273738505410",
@@ -606,7 +606,7 @@ var json = {
                         "text": "I sent a reply back? My laptop hates me and has been acting up for the pass half hour"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -702,7 +702,7 @@ var json = {
                         "text": "yeah i spose thats true but i wouldn't worry about it everything comes in its own time right? <br>lol yeah thats sorta how chicken and i became friends! XD <br>its hard taking a step back ik but trust me there are better things in wait for u than KA lol"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
