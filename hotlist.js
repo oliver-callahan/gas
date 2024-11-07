@@ -99,7 +99,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "CZS",
                     "id": "kaid_676584471536152741627316",
@@ -297,7 +297,7 @@ var json = {
             {
                 "replyCount": 4,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "Duke",
                     "id": "kaid_351465532815782433620675",
@@ -308,7 +308,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -335,7 +335,7 @@ var json = {
                         "text": "Yeah, the blur makes it look less jaggy, but not blurred is more clearer and you can see more of the different shading. :)"
                     },
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -438,7 +438,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -447,7 +447,7 @@ var json = {
                         "text": "Thread stalker! XP<br><br>Farewell!"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Eyeinthesky",
                             "id": "kaid_6136710333637048514584747",
@@ -456,7 +456,7 @@ var json = {
                         "text": "Yep! XD<br><br>come back soon! :'("
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -608,7 +608,7 @@ var json = {
                         "text": "eh KA is constantly evolving someone will come along!<br>lol yeah but if u look at it like that then one can never quit, there will always be a newcomer and someone in need of teaching thats where other people come in, people will come and step up in your place they won't ever quite fill it like u but they'll do it in their own way :)"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -716,7 +716,7 @@ var json = {
                         "text": ".<br><br>yup! its written by George Orwell. it does have some inappropriate themes but once u look past that its an incredible book!<br>ah okay! XD fair<br>HAHHA well at least u didn't get lashed :P was it just a small recurve then i spose?  ah dull points okay!  that works too but price wise the trees are free! XDD i started on dull points but now i use hunting points. but really its not the arrows that will hurt u, its the BOW more specifically the string of the bow 0-0 if that sucker decides to go a lil out of line and lash ur arm it will and it WILL hurt XD i have a scar from that :P and once u get good enough u can do bow hunting but thats not really my thing tbh im a lil bit too soft hearted :P"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -725,7 +725,7 @@ var json = {
                         "text": "Okay, I'll add that to my list of books that people want me to read that I'll try to read after I finish a tall stack of books that I want to read. XD<br>XD<br>Um, maybe. I did get a little bit of my skin peeled up. :P<br>They weren't mine. And I didn't have to pay. >:P<br>Cool! I know. That's why I tried to stay away from getting hit by the string. XP<br>XD Luckily that hasn't happened to me. XP<br>Oh.<br>Yeah, I don't plan on hunting. I just kinda want to do it because it's fun and I want to get good at it. I also want to get good at blacksmithing and sword fighting. :)"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
