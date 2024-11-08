@@ -281,7 +281,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -491,7 +491,7 @@ var json = {
                         "text": "Aw. :(<br>Thanks. :)<br><br>That works for me. XD"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "JLE",
                             "id": "kaid_344949764307318233637518",
@@ -586,7 +586,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 minutes ago",
+                        "date": "16 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1022,7 +1022,7 @@ var json = {
                         "text": "Thanks! :D<br>That makes sense. :)<br>I don't know too much about the Guardians of the Galaxy (he's Star-Lord which he is one of them) since I haven't watched the movies of them yet. But I believe that it's a space mask so he can breathe while there's no oxygen. :) But again, I've never seen the movies so I could be wrong. :P"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Wingfeather",
                             "id": "kaid_691541327914532427755189",
@@ -1082,7 +1082,7 @@ var json = {
                         "text": "Well, if that's the case, let me tell you something. The first Guardians of the Galaxy is pretty good, I haven't seen the second 'cause I heard it's super crass, and the third is really great but also a tearjerker at one point. :/<br><br>Call PETA. XD<br><br>XD<br><br>:)"
                     },
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1149,9 +1149,9 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
-                "date": "a few seconds ago",
+                "date": "5 minutes ago",
                 "author": {
                     "name": "alyanna",
                     "id": "kaid_794864070338193862176253",
@@ -1160,7 +1160,17 @@ var json = {
                 "text": "that is cool man",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Wow, thanks! :D<br>I didn't know you were still around. :)"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
@@ -1199,7 +1209,7 @@ var json = {
                         "text": "Thanks! :D<br>Hopefully. Because coding is one of my top favorite hobbies. XP<br><br>It's nice to see you again. :)"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "𝒏𝒐𝒗𝒂 [off]",
                             "id": "kaid_813381521096073568944791",
