@@ -153,7 +153,7 @@ var json = {
             {
                 "replyCount": 4,
                 "votes": 3,
-                "date": "a day ago",
+                "date": "2 days ago",
                 "author": {
                     "name": "Duke",
                     "id": "kaid_351465532815782433620675",
@@ -164,7 +164,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -538,7 +538,7 @@ var json = {
                         "text": "Thanks! :D<br><br>You're welcome! XD<br>I'm glad I was able to help someone again. :)<br><br>You're welcome! If there's any parts that aren't commented well and you want to know what it does, you can always ask me. :)"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Boomtown2021™",
                             "id": "kaid_4342706381546273738505410",
