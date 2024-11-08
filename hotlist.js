@@ -31,7 +31,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -73,7 +73,7 @@ var json = {
                         "text": "ikr lol<br><br>your too!<br><br>aw thanks.<br><br>and I TRIED to send the link but the stupid mouse clicked the send button right before I could press Ctrl V and then the stupid internet went out RIGHT after. lol that was kinda upsetting..."
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -193,7 +193,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -231,7 +231,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -240,7 +240,7 @@ var json = {
                         "text": "In which part? home screen? Level map? Or the game?"
                     },
                     {
-                        "date": "38 minutes ago",
+                        "date": "43 minutes ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -249,7 +249,7 @@ var json = {
                         "text": "the game"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -258,7 +258,7 @@ var json = {
                         "text": "Have you read how?"
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -267,7 +267,7 @@ var json = {
                         "text": "🫥 no....."
                     },
                     {
-                        "date": "21 minutes ago",
+                        "date": "26 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -276,7 +276,7 @@ var json = {
                         "text": "you should do that lol<br>also annoy the part that says throwing knives. Cause in the demo there will be none."
                     },
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -346,7 +346,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "OfflineSquidy",
                     "id": "kaid_8597585382861928237037056",
