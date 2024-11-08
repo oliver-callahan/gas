@@ -993,7 +993,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1100,7 +1100,7 @@ var json = {
                         "text": "Thanks! :D<br>\"The crispy version\"? XD Which one do you count as that? o.O"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "cwalsh1223 BBB#",
                             "id": "kaid_792288208072906614241148",
@@ -1109,7 +1109,7 @@ var json = {
                         "text": "I mean the non-blurred version. The edges are crisper. ʘ͜ʘ"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1165,7 +1165,7 @@ var json = {
                         "text": "Yeah, ofc!<br>That’s good, you’re really talented with it too. Are you going to do more when you leave? <br>:P<br><br>Thanks! :D Super inactive, doing more schoolwork too XD"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
