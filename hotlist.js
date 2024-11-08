@@ -993,7 +993,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1165,7 +1165,7 @@ var json = {
                         "text": "Yeah, ofc!<br>That’s good, you’re really talented with it too. Are you going to do more when you leave? <br>:P<br><br>Thanks! :D Super inactive, doing more schoolwork too XD"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
