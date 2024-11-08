@@ -81,7 +81,7 @@ var json = {
                         "text": "I have the How thing at the top of the code already.<br><br>That's the update thread you posted in. (you probably didn't know that though, but it does say that)<br><br>I will change that.<br><br>Yay. <em>:)</em>"
                     },
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -90,7 +90,7 @@ var json = {
                         "text": "oops mb.<br>oooh oops mb O.O"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -175,7 +175,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "agodwin01(online)",
                     "id": "kaid_8826452778567227618964185",
