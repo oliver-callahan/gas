@@ -281,7 +281,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -586,7 +586,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1082,7 +1082,7 @@ var json = {
                         "text": "Well, if that's the case, let me tell you something. The first Guardians of the Galaxy is pretty good, I haven't seen the second 'cause I heard it's super crass, and the third is really great but also a tearjerker at one point. :/<br><br>Call PETA. XD<br><br>XD<br><br>:)"
                     },
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1151,7 +1151,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "25 minutes ago",
+                "date": "30 minutes ago",
                 "author": {
                     "name": "alyanna",
                     "id": "kaid_794864070338193862176253",
@@ -1162,7 +1162,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "24 minutes ago",
+                        "date": "29 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1171,7 +1171,7 @@ var json = {
                         "text": "Wow, thanks! :D<br>I didn't know you were still around. :)"
                     },
                     {
-                        "date": "17 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "alyanna",
                             "id": "kaid_794864070338193862176253",
@@ -1180,7 +1180,7 @@ var json = {
                         "text": "np!<br>i'm not really HAHA, just decided to check KA today lol"
                     },
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1305,7 +1305,7 @@ var json = {
                         "text": "You're welcome! :)<br>Cool! :D I'm so happy that they did that, because it's annoying when I can't vote for something right now and I need to remember to go back to it later or tomorrow. :/"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
