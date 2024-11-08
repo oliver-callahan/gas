@@ -378,7 +378,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 minutes ago",
+                "date": "12 minutes ago",
                 "author": {
                     "name": "Kaze Haibara 🔛",
                     "id": "kaid_307253494732113319906984",
@@ -505,7 +505,7 @@ var json = {
                         "text": "Aw. :(<br>Thanks. :)<br><br>That works for me. XD"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "JLE",
                             "id": "kaid_344949764307318233637518",
@@ -1036,7 +1036,7 @@ var json = {
                         "text": "Thanks! :D<br>That makes sense. :)<br>I don't know too much about the Guardians of the Galaxy (he's Star-Lord which he is one of them) since I haven't watched the movies of them yet. But I believe that it's a space mask so he can breathe while there's no oxygen. :) But again, I've never seen the movies so I could be wrong. :P"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Wingfeather",
                             "id": "kaid_691541327914532427755189",
@@ -1105,7 +1105,7 @@ var json = {
                         "text": "Okay. I'll keep this in mind. :)"
                     },
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -1203,7 +1203,7 @@ var json = {
                         "text": "np!<br>i'm not really HAHA, just decided to check KA today lol"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1250,7 +1250,7 @@ var json = {
                         "text": "Thanks! :D<br>Hopefully. Because coding is one of my top favorite hobbies. XP<br><br>It's nice to see you again. :)"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "𝒏𝒐𝒗𝒂 [off]",
                             "id": "kaid_813381521096073568944791",
