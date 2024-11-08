@@ -458,7 +458,7 @@ var json = {
                         "text": "yeah wish I could join, I'll prolly be to busy =( but i'lll be cheering u on 📣🥳👏 XD<br><br>lol we'll just say both then XD"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -505,7 +505,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -755,7 +755,7 @@ var json = {
             {
                 "replyCount": 22,
                 "votes": 1,
-                "date": "a day ago",
+                "date": "2 days ago",
                 "author": {
                     "name": "Coder2098",
                     "id": "kaid_673573024191290348573492",
@@ -766,7 +766,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1211,7 +1211,7 @@ var json = {
                         "text": "Thank you lol.<br>I heard Radar made a request and they agreed to raise the vote limit. Maybe that went to effect yesterday :)"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
