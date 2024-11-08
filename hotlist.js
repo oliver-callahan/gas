@@ -191,7 +191,7 @@ var json = {
                         "text": "Yeah, the blur makes it look less jaggy, but not blurred is more clearer and you can see more of the different shading. :)"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1194,7 +1194,7 @@ var json = {
                         "text": "Wow, thanks! :D<br>I didn't know you were still around. :)"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "alyanna",
                             "id": "kaid_794864070338193862176253",
