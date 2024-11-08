@@ -3,7 +3,7 @@ var json = {
     "title": "For Freedom's Cause II v.0.6 (ft. Duke)",
     "votes": 54,
     "created": "a day ago",
-    "updated": "21 minutes ago",
+    "updated": "26 minutes ago",
     "type": "PJS",
     "author": {
         "name": "VVhiteTiger",
@@ -18,7 +18,7 @@ var json = {
     "posts": {
         "tips": [
             {
-                "replyCount": 1,
+                "replyCount": 0,
                 "votes": 9,
                 "date": "a day ago",
                 "author": {
@@ -29,20 +29,10 @@ var json = {
                 "text": "<b>This is also the update thread</b>!<br><br>Sub to VVhiteTiger:<br>https://www.khanacademy.org/computer-programming/vvhitetiger/4616119737696256<br><br>Sub to Duke:<br>https://www.khanacademy.org/computer-programming/moi-subby-page/6690459761688576<br><br><b>Post a period in this thread to be notified when this is updated</b>.",
                 "locked": false,
                 "pinned": false,
-                "replies": [
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Btw make sure to add this to the first line or something at the top<br><br>Instructions {<br>Use the up and down arrow key to move the sword. Use the right to go the that scene.<br>}<br><br>oh and btw it is num 1 on the hl! =D<br><br>EDIT: last thing, change the how text to<br><pre><code>text(\"Arrow Keys to move\\nCollect weapon items(sword and bow)\\nthen press 1/2 to select\\nSword/bow. Space to use each thing.\", 10, 38);</code></pre>"
-                    }
-                ]
+                "replies": []
             },
             {
-                "replyCount": 4,
+                "replyCount": 5,
                 "votes": 3,
                 "date": "a day ago",
                 "author": {
@@ -55,7 +45,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -82,13 +72,22 @@ var json = {
                         "text": "lol it happens sometimes. <em>XD</em>"
                     },
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
                             "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
                         "text": "I have the How thing at the top of the code already.<br><br>That's the update thread you posted in. (you probably didn't know that though, but it does say that)<br><br>I will change that.<br><br>Yay. <em>:)</em>"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "oops mb.<br>oooh oops mb O.O"
                     }
                 ]
             },
@@ -249,7 +248,7 @@ var json = {
                         "text": "In which part? home screen? Level map? Or the game?"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -258,7 +257,7 @@ var json = {
                         "text": "the game"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -331,7 +330,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "SwankyMan™",
                     "id": "kaid_82898098000024228278987",
@@ -342,7 +341,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -355,7 +354,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -407,7 +406,7 @@ var json = {
                     {
                         "replyCount": 0,
                         "votes": 1,
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
