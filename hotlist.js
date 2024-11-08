@@ -204,7 +204,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "9 minutes ago",
+                "date": "14 minutes ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -463,7 +463,7 @@ var json = {
                         "text": "I told Duke I would try to be back for CoC 2025, so I'll be back in 2 months, but after CoC, I'll probably go inactive again.<br><br>Yeah, I don't know which I like better, either. XD"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "JLE",
                             "id": "kaid_344949764307318233637518",
@@ -789,7 +789,7 @@ var json = {
                         "text": "Thanks! :D<br>Yeah, I tried getting all the shading and lighting to make it look better. :P<br>I'm still undecided which I like better. XP"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
