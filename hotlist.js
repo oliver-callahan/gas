@@ -257,7 +257,7 @@ var json = {
                         "text": "In which part? home screen? Level map? Or the game?"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -266,7 +266,7 @@ var json = {
                         "text": "the game"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -339,7 +339,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "SwankyMan™",
                     "id": "kaid_82898098000024228278987",
@@ -363,7 +363,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -415,7 +415,7 @@ var json = {
                     {
                         "replyCount": 0,
                         "votes": 1,
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
