@@ -104,7 +104,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 8,
+                "votes": 9,
                 "date": "2 days ago",
                 "author": {
                     "name": "NL",
@@ -204,7 +204,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -374,6 +374,20 @@ var json = {
                         "text": "Thanks! :D<br>XD I'm sure you could make something better if you put in at least 7 hours of work. XP<br><br>Yeah. XD<br><br>Okay. :)"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 minutes ago",
+                "author": {
+                    "name": "Kaze Haibara 🔛",
+                    "id": "kaid_307253494732113319906984",
+                    "avatar": "/images/avatars/svg/scuttlebug-blue.svg"
+                },
+                "text": "Looks so freakin cool :D<br>I like the unblurred version better lol",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 1,
@@ -562,7 +576,7 @@ var json = {
                         "text": "Thanks! :D<br><br>You're welcome! XD<br>I'm glad I was able to help someone again. :)<br><br>You're welcome! If there's any parts that aren't commented well and you want to know what it does, you can always ask me. :)"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Boomtown2021™",
                             "id": "kaid_4342706381546273738505410",
@@ -1091,7 +1105,7 @@ var json = {
                         "text": "Okay. I'll keep this in mind. :)"
                     },
                     {
-                        "date": "13 minutes ago",
+                        "date": "18 minutes ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -1180,7 +1194,7 @@ var json = {
                         "text": "Wow, thanks! :D<br>I didn't know you were still around. :)"
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "alyanna",
                             "id": "kaid_794864070338193862176253",
@@ -1189,7 +1203,7 @@ var json = {
                         "text": "np!<br>i'm not really HAHA, just decided to check KA today lol"
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
