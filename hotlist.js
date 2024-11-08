@@ -565,7 +565,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "3DA Games {Unlocked Develop Studios)",
                     "id": "kaid_46113533788750322324717",
@@ -1053,7 +1053,7 @@ var json = {
                         "text": "Cool! :) I've never watched the Guardians of the Galaxy yet. But I'm planning on watching them within the next few weeks. :)<br>XD<br><br>XD<br><br>:)"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -1080,7 +1080,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "a day ago",
+                "date": "2 days ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
