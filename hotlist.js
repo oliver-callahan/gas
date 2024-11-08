@@ -1220,7 +1220,7 @@ var json = {
                         "text": "You're welcome! :)<br>Cool! :D I'm so happy that they did that, because it's annoying when I can't vote for something right now and I need to remember to go back to it later or tomorrow. :/"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
