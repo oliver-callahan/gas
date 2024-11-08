@@ -276,7 +276,7 @@ var json = {
                         "text": "you should do that lol<br>also annoy the part that says throwing knives. Cause in the demo there will be none."
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -362,7 +362,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 minutes ago",
+                "date": "12 minutes ago",
                 "author": {
                     "name": "$c@∫∑∑$",
                     "id": "kaid_579183804717579680253074",
