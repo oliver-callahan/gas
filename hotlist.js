@@ -220,7 +220,7 @@ var json = {
             {
                 "replyCount": 6,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Stitch Girl💠",
                     "id": "kaid_6490115305785159643926933",
@@ -258,7 +258,7 @@ var json = {
                         "text": "Have you read how?"
                     },
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -267,7 +267,7 @@ var json = {
                         "text": "🫥 no....."
                     },
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -276,7 +276,7 @@ var json = {
                         "text": "you should do that lol<br>also annoy the part that says throwing knives. Cause in the demo there will be none."
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -333,7 +333,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
