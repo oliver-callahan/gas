@@ -776,7 +776,7 @@ var json = {
                         "text": "Oh, well I didn't get your reply back."
                     },
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -1002,7 +1002,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "Wingfeather",
                     "id": "kaid_691541327914532427755189",
@@ -1091,7 +1091,7 @@ var json = {
                         "text": "Okay. I'll keep this in mind. :)"
                     },
                     {
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -1160,7 +1160,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "40 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "alyanna",
                     "id": "kaid_794864070338193862176253",
@@ -1171,7 +1171,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "39 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1180,7 +1180,7 @@ var json = {
                         "text": "Wow, thanks! :D<br>I didn't know you were still around. :)"
                     },
                     {
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "alyanna",
                             "id": "kaid_794864070338193862176253",
@@ -1189,7 +1189,7 @@ var json = {
                         "text": "np!<br>i'm not really HAHA, just decided to check KA today lol"
                     },
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
