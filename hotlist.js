@@ -3,7 +3,7 @@ var json = {
     "title": "For Freedom's Cause II v.0.6 (ft. Duke)",
     "votes": 54,
     "created": "a day ago",
-    "updated": "an hour ago",
+    "updated": "2 hours ago",
     "type": "PJS",
     "author": {
         "name": "VVhiteTiger",
@@ -72,7 +72,7 @@ var json = {
                         "text": "lol it happens sometimes. <em>XD</em>"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -223,7 +223,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "Chickenfarmer2009",
                     "id": "kaid_287879839213083022099587",
