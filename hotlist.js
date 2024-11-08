@@ -73,7 +73,7 @@ var json = {
                         "text": "ikr lol<br><br>your too!<br><br>aw thanks.<br><br>and I TRIED to send the link but the stupid mouse clicked the send button right before I could press Ctrl V and then the stupid internet went out RIGHT after. lol that was kinda upsetting..."
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -258,7 +258,7 @@ var json = {
                         "text": "Have you read how?"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -346,7 +346,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "OfflineSquidy",
                     "id": "kaid_8597585382861928237037056",
@@ -358,6 +358,20 @@ var json = {
                 "replies": []
             }
         ],
-        "questions": []
+        "questions": [
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 minutes ago",
+                "author": {
+                    "name": "$c@∫∑∑$",
+                    "id": "kaid_579183804717579680253074",
+                    "avatar": "/images/avatars/svg/blobby-blue.svg"
+                },
+                "text": "how do I click the buttens? none of them work!",
+                "replies": [],
+                "answers": []
+            }
+        ]
     }
 }
