@@ -3,7 +3,7 @@ var json = {
     "title": "For Freedom's Cause II v.0.6 (ft. Duke)",
     "votes": 57,
     "created": "a day ago",
-    "updated": "11 minutes ago",
+    "updated": "16 minutes ago",
     "type": "PJS",
     "author": {
         "name": "VVhiteTiger",
@@ -81,7 +81,7 @@ var json = {
                         "text": "I have the How thing at the top of the code already.<br><br>That's the update thread you posted in. (you probably didn't know that though, but it does say that)<br><br>I will change that.<br><br>Yay. <em>:)</em>"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -237,7 +237,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "22 minutes ago",
+                "date": "27 minutes ago",
                 "author": {
                     "name": "ezekiel.carter2009",
                     "id": "kaid_4345125146474084185234199",
