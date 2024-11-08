@@ -3,7 +3,7 @@ var json = {
     "title": "For Freedom's Cause II v.0.6 (ft. Duke)",
     "votes": 54,
     "created": "a day ago",
-    "updated": "26 minutes ago",
+    "updated": "31 minutes ago",
     "type": "PJS",
     "author": {
         "name": "VVhiteTiger",
@@ -32,7 +32,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 5,
+                "replyCount": 6,
                 "votes": 3,
                 "date": "a day ago",
                 "author": {
@@ -54,7 +54,7 @@ var json = {
                         "text": "No way, you were first?! lol<br><br>Always fun working with you, pal. <em>=)</em><br>Thanks, great job to you too!<br><br>Nah, you did great."
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -72,7 +72,7 @@ var json = {
                         "text": "lol it happens sometimes. <em>XD</em>"
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -81,20 +81,29 @@ var json = {
                         "text": "I have the How thing at the top of the code already.<br><br>That's the update thread you posted in. (you probably didn't know that though, but it does say that)<br><br>I will change that.<br><br>Yay. <em>:)</em>"
                     },
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
                         "text": "oops mb.<br>oooh oops mb O.O"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "VVhiteTiger",
+                            "id": "kaid_154605635905555420140323",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                        },
+                        "text": "You're good, man. <em>:)</em>"
                     }
                 ]
             },
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Karthikeya K #BringBackBackgrounds",
                     "id": "kaid_6258990316746013677705461",
@@ -105,7 +114,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -142,7 +151,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -153,7 +162,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -214,7 +223,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Chickenfarmer2009",
                     "id": "kaid_287879839213083022099587",
@@ -341,7 +350,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -406,7 +415,7 @@ var json = {
                     {
                         "replyCount": 0,
                         "votes": 1,
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
