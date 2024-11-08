@@ -31,7 +31,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -64,7 +64,7 @@ var json = {
                         "text": "No way, you were first?! lol<br><br>Always fun working with you, pal. <em>=)</em><br>Thanks, great job to you too!<br><br>Nah, you did great."
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -86,7 +86,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "Karthikeya K #BringBackBackgrounds",
                     "id": "kaid_6258990316746013677705461",
@@ -97,7 +97,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -134,7 +134,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -145,7 +145,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -193,7 +193,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -206,7 +206,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "Chickenfarmer2009",
                     "id": "kaid_287879839213083022099587",
@@ -231,7 +231,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -240,7 +240,7 @@ var json = {
                         "text": "In which part? home screen? Level map? Or the game?"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -249,7 +249,7 @@ var json = {
                         "text": "the game"
                     },
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -258,7 +258,7 @@ var json = {
                         "text": "Have you read how?"
                     },
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -267,7 +267,7 @@ var json = {
                         "text": "🫥 no....."
                     },
                     {
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -276,7 +276,7 @@ var json = {
                         "text": "you should do that lol<br>also annoy the part that says throwing knives. Cause in the demo there will be none."
                     },
                     {
-                        "date": "13 minutes ago",
+                        "date": "18 minutes ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
