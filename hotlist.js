@@ -129,7 +129,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 4,
-                "date": "a day ago",
+                "date": "2 days ago",
                 "author": {
                     "name": "CZS",
                     "id": "kaid_676584471536152741627316",
@@ -204,7 +204,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "29 minutes ago",
+                "date": "34 minutes ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -552,7 +552,7 @@ var json = {
                         "text": "Thanks! :D<br><br>You're welcome! XD<br>I'm glad I was able to help someone again. :)<br><br>You're welcome! If there's any parts that aren't commented well and you want to know what it does, you can always ask me. :)"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Boomtown2021™",
                             "id": "kaid_4342706381546273738505410",
@@ -834,7 +834,7 @@ var json = {
                         "text": "eh KA is constantly evolving someone will come along!<br>lol yeah but if u look at it like that then one can never quit, there will always be a newcomer and someone in need of teaching thats where other people come in, people will come and step up in your place they won't ever quite fill it like u but they'll do it in their own way :)"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
