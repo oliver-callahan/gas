@@ -790,7 +790,7 @@ var json = {
                         "text": "Oh, well I didn't get your reply back."
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
@@ -1016,7 +1016,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "Wingfeather",
                     "id": "kaid_691541327914532427755189",
