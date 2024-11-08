@@ -3,7 +3,7 @@ var json = {
     "title": "For Freedom's Cause II v.0.6 (ft. Duke)",
     "votes": 57,
     "created": "a day ago",
-    "updated": "31 minutes ago",
+    "updated": "36 minutes ago",
     "type": "PJS",
     "author": {
         "name": "VVhiteTiger",
@@ -237,7 +237,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "42 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "ezekiel.carter2009",
                     "id": "kaid_4345125146474084185234199",
@@ -331,7 +331,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
