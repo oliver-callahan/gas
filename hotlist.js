@@ -243,7 +243,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -551,7 +551,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "3DA Games {Unlocked Develop Studios)",
                     "id": "kaid_46113533788750322324717",
@@ -1039,7 +1039,7 @@ var json = {
                         "text": "Cool! :) I've never watched the Guardians of the Galaxy yet. But I'm planning on watching them within the next few weeks. :)<br>XD<br><br>XD<br><br>:)"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -1244,7 +1244,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1253,7 +1253,7 @@ var json = {
                         "text": "Thanks, but other programmers (like Green Ghost and Lazerwolf) have made better ones. :P<br>Thanks! :D"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Luke Ellis",
                             "id": "kaid_8535468719137003545030723",
