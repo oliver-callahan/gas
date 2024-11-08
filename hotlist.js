@@ -368,7 +368,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "a day ago",
+                "date": "2 days ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
@@ -379,7 +379,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1234,7 +1234,7 @@ var json = {
                         "text": "You're welcome! :)<br>Cool! :D I'm so happy that they did that, because it's annoying when I can't vote for something right now and I need to remember to go back to it later or tomorrow. :/"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
