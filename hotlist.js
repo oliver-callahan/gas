@@ -281,7 +281,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 minutes ago",
+                        "date": "26 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -518,7 +518,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "Firebrand (offline)",
                     "id": "kaid_423049852746380987692804",
@@ -586,7 +586,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1082,7 +1082,7 @@ var json = {
                         "text": "Well, if that's the case, let me tell you something. The first Guardians of the Galaxy is pretty good, I haven't seen the second 'cause I heard it's super crass, and the third is really great but also a tearjerker at one point. :/<br><br>Call PETA. XD<br><br>XD<br><br>:)"
                     },
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1149,9 +1149,9 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 1,
-                "date": "5 minutes ago",
+                "date": "10 minutes ago",
                 "author": {
                     "name": "alyanna",
                     "id": "kaid_794864070338193862176253",
@@ -1162,13 +1162,22 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 minutes ago",
+                        "date": "9 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
                         "text": "Wow, thanks! :D<br>I didn't know you were still around. :)"
+                    },
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "alyanna",
+                            "id": "kaid_794864070338193862176253",
+                            "avatar": "/images/avatars/svg/purple-pi-teal.svg"
+                        },
+                        "text": "np!<br>i'm not really HAHA, just decided to check KA today lol"
                     }
                 ]
             },
@@ -1269,7 +1278,7 @@ var json = {
                         "text": "Thanks! :) You did good on your remake of Snowball.io. :)<br>In some ways I like it better than the original. Just don't tell Corin Fist. XP<br>Yeah, I was wondering about that. It usually gets vote locked around 40. This is weird. Maybe KA took that feature away. o.O"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -1347,7 +1356,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "AGnawKneeMouse Coder",
                     "id": "kaid_9033829293805621369025816",
