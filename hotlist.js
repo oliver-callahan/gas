@@ -204,7 +204,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -281,7 +281,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 minutes ago",
+                        "date": "11 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -562,7 +562,7 @@ var json = {
                         "text": "Thanks! :D<br><br>You're welcome! XD<br>I'm glad I was able to help someone again. :)<br><br>You're welcome! If there's any parts that aren't commented well and you want to know what it does, you can always ask me. :)"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Boomtown2021™",
                             "id": "kaid_4342706381546273738505410",
@@ -586,7 +586,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1082,7 +1082,7 @@ var json = {
                         "text": "Well, if that's the case, let me tell you something. The first Guardians of the Galaxy is pretty good, I haven't seen the second 'cause I heard it's super crass, and the third is really great but also a tearjerker at one point. :/<br><br>Call PETA. XD<br><br>XD<br><br>:)"
                     },
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
