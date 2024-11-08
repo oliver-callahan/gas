@@ -281,7 +281,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -573,7 +573,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "6 hours ago",
                 "author": {
@@ -584,7 +584,17 @@ var json = {
                 "text": "I love this! I do have a few minor questios and things I want to see about this program.<br><br>I know that pixel art used to be blurry, which adds a 80s effect to it. Most computers monitor and hardware for pixel games had (CRT...) a hardrive and hardware which were only compatible to the level of Super Mario's Beta Test for mods back in 2002. Now, Pixel Art is sleeker and better because of hardware and certain things with hardrive. Also, I do know that it takes a while for coding this, but, why can't you use base64 or the Beta-Release base65 for you making pixel art with multiple programs, then -copying that work and use base64(5) for it.<br><br>Questions: How come pixel art's background takes longer than the actual thing?",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "Thanks! :D<br><br>Because I don't know how to do/use base64 or base65. :)<br><br>Um, well, I did the background with Star-Lord. What I did was broke the image into smaller rectangles and made each part of the graphic, then I put them all together. So I made the background while doing Star-Lord. :)<br><br>But if I wasn't doing that, then the reason backgrounds take longer is because you're trying to fill the whole canvas, so it'll take a long time especially if you're making it really detailed and with different shades of colors. :)"
+                    }
+                ]
             },
             {
                 "replyCount": 4,
@@ -1072,7 +1082,7 @@ var json = {
                         "text": "Well, if that's the case, let me tell you something. The first Guardians of the Galaxy is pretty good, I haven't seen the second 'cause I heard it's super crass, and the third is really great but also a tearjerker at one point. :/<br><br>Call PETA. XD<br><br>XD<br><br>:)"
                     },
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
