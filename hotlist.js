@@ -63,7 +63,7 @@ var json = {
                         "text": "ikr lol<br><br>your too!<br><br>aw thanks.<br><br>and I TRIED to send the link but the stupid mouse clicked the send button right before I could press Ctrl V and then the stupid internet went out RIGHT after. lol that was kinda upsetting..."
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -206,7 +206,7 @@ var json = {
                         "text": "Use the up and down arrow key to move the sword. Use the right to go the that scene."
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Godly",
                             "id": "kaid_737917006988765551791317",
@@ -243,7 +243,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "14 hours ago",
+                "date": "15 hours ago",
                 "author": {
                     "name": "OfflineSquidy",
                     "id": "kaid_8597585382861928237037056",
