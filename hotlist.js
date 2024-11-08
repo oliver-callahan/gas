@@ -270,7 +270,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Equilibrium",
                     "id": "kaid_1842852586096096865081151",
@@ -412,7 +412,7 @@ var json = {
                         "text": "Thanks! :D<br>That's a good idea. I'll change it. :)<br><br><b>Edit</b> How's that?"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Samurai Warrior™ ✝ (Offline)",
                             "id": "kaid_333534297788735128142174",
@@ -720,7 +720,7 @@ var json = {
                         "text": "Try restarting the program and don't go down in the comments. :)"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Stitch Girl💠",
                             "id": "kaid_6490115305785159643926933",
