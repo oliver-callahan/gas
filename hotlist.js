@@ -320,6 +320,20 @@ var json = {
                 ]
             },
             {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "3 minutes ago",
+                "author": {
+                    "name": "SwankyMan™",
+                    "id": "kaid_82898098000024228278987",
+                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                },
+                "text": "Nice! Great game! <br><br>Good VVhiteTiger and Duke!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
                 "replyCount": 1,
                 "votes": 1,
                 "date": "19 hours ago",
@@ -362,7 +376,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "17 minutes ago",
+                "date": "22 minutes ago",
                 "author": {
                     "name": "$c@∫∑∑$",
                     "id": "kaid_579183804717579680253074",
