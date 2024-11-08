@@ -508,7 +508,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "Firebrand (offline)",
                     "id": "kaid_423049852746380987692804",
@@ -747,7 +747,7 @@ var json = {
                         "text": "I sent a reply back? My laptop hates me and has been acting up for the pass half hour"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1216,7 +1216,7 @@ var json = {
                         "text": "Thanks! :) You did good on your remake of Snowball.io. :)<br>In some ways I like it better than the original. Just don't tell Corin Fist. XP<br>Yeah, I was wondering about that. It usually gets vote locked around 40. This is weird. Maybe KA took that feature away. o.O"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -1294,7 +1294,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "AGnawKneeMouse Coder",
                     "id": "kaid_9033829293805621369025816",
