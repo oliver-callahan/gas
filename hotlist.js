@@ -322,7 +322,7 @@ var json = {
                         "text": "Oh, hmmm, just tell me when you make a new project when you get back(So that I can yell at you ;)"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -331,7 +331,7 @@ var json = {
                         "text": "...Okay. XD<br>I'll probably come back for CoC (I told Duke I would) and then I might go inactive again. But once I'm back, I'll probably try and finish Frontline and Monopoly that I was programming but never finished. :) So you can yell at me when I release one of those. XP"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
@@ -644,7 +644,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "a day ago",
+                "date": "2 days ago",
                 "author": {
                     "name": "Eyeinthesky",
                     "id": "kaid_6136710333637048514584747",
