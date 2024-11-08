@@ -1091,7 +1091,7 @@ var json = {
                         "text": "Okay. I'll keep this in mind. :)"
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                             "id": "kaid_693763055742960827086832",
@@ -1171,7 +1171,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "44 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1180,7 +1180,7 @@ var json = {
                         "text": "Wow, thanks! :D<br>I didn't know you were still around. :)"
                     },
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "alyanna",
                             "id": "kaid_794864070338193862176253",
@@ -1189,7 +1189,7 @@ var json = {
                         "text": "np!<br>i'm not really HAHA, just decided to check KA today lol"
                     },
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
