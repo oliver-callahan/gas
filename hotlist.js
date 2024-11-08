@@ -3,7 +3,7 @@ var json = {
     "title": "For Freedom's Cause II v.0.6 (ft. Duke)",
     "votes": 54,
     "created": "21 hours ago",
-    "updated": "11 minutes ago",
+    "updated": "16 minutes ago",
     "type": "PJS",
     "author": {
         "name": "VVhiteTiger",
@@ -82,7 +82,7 @@ var json = {
                         "text": "lol it happens sometimes. <em>XD</em>"
                     },
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -130,7 +130,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -178,7 +178,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -309,7 +309,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -342,7 +342,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
@@ -407,7 +407,7 @@ var json = {
                     {
                         "replyCount": 0,
                         "votes": 1,
-                        "date": "16 minutes ago",
+                        "date": "21 minutes ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
