@@ -384,7 +384,20 @@ var json = {
                 },
                 "text": "how do I click the buttens? none of them work!",
                 "replies": [],
-                "answers": []
+                "answers": [
+                    {
+                        "replyCount": 0,
+                        "votes": 1,
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "VVhiteTiger",
+                            "id": "kaid_154605635905555420140323",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                        },
+                        "text": "Line 11 says this:<br><br>up/down to move the sword<br>   right to select<br>   The rest is in the 'HOW' scene",
+                        "replies": []
+                    }
+                ]
             }
         ]
     }
