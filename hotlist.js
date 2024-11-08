@@ -204,7 +204,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "24 minutes ago",
+                "date": "29 minutes ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -816,7 +816,7 @@ var json = {
                         "text": "yeahh but as with anything it'll become whole in time :) plus you've helped so many people that they are more than ready to take up a stronger position yk?"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -825,7 +825,7 @@ var json = {
                         "text": "Yeah, but hopefully not too long. :P<br>Yeah, some of them. But some still have some things to learn that I could teach. :/"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
