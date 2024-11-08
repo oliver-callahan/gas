@@ -270,7 +270,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "Equilibrium",
                     "id": "kaid_1842852586096096865081151",
@@ -281,7 +281,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 minutes ago",
+                        "date": "16 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -422,7 +422,7 @@ var json = {
                         "text": "Thanks! :D<br>That's a good idea. I'll change it. :)<br><br><b>Edit</b> How's that?"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Samurai Warrior™ ✝ (Offline)",
                             "id": "kaid_333534297788735128142174",
@@ -586,7 +586,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 minutes ago",
+                        "date": "11 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1082,7 +1082,7 @@ var json = {
                         "text": "Well, if that's the case, let me tell you something. The first Guardians of the Galaxy is pretty good, I haven't seen the second 'cause I heard it's super crass, and the third is really great but also a tearjerker at one point. :/<br><br>Call PETA. XD<br><br>XD<br><br>:)"
                     },
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -1147,6 +1147,20 @@ var json = {
                         "text": "Okay. That's what I thought, I just wanted to make sure. :)"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "a few seconds ago",
+                "author": {
+                    "name": "alyanna",
+                    "id": "kaid_794864070338193862176253",
+                    "avatar": "/images/avatars/svg/purple-pi-teal.svg"
+                },
+                "text": "that is cool man",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 0,
