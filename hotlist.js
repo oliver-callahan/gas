@@ -472,7 +472,7 @@ var json = {
                         "text": "yeah wish I could join, I'll prolly be to busy =( but i'lll be cheering u on 📣🥳👏 XD<br><br>lol we'll just say both then XD"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -519,7 +519,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
@@ -861,7 +861,7 @@ var json = {
                         "text": "I guess. :P<br>XD<br>It's probably how I became friends with 1/3 of my current friends. :P 1/3 are probably friends that I met while on the same team and the other 1/3 is just by chance that we met. :)<br>Yeah, I know. It's just that I've been mostly active (sometimes I wasn't) on KA for about 4 years and I don't want to leave. :/<br>But I know if I stay, it'll just be worse."
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Coder2098",
                             "id": "kaid_673573024191290348573492",
@@ -1225,7 +1225,7 @@ var json = {
                         "text": "Thank you lol.<br>I heard Radar made a request and they agreed to raise the vote limit. Maybe that went to effect yesterday :)"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Ace Rogers (On)",
                             "id": "kaid_714276242204949021450419",
