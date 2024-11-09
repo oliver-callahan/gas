@@ -330,7 +330,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Cookie",
                             "id": "kaid_1826046083730180486895887",
@@ -475,7 +475,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Sonic The Hedgehog",
                     "id": "kaid_851292644445276989632262",
@@ -495,7 +495,7 @@ var json = {
                         "text": "Thank you :)<br>I'm glad you will be sticking around at least to finish your wips :)"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Sonic The Hedgehog",
                             "id": "kaid_851292644445276989632262",
@@ -532,7 +532,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "22 minutes ago",
+                "date": "27 minutes ago",
                 "author": {
                     "name": "AGnawKneeMouse Coder",
                     "id": "kaid_9033829293805621369025816",
