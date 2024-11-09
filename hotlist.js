@@ -68,7 +68,7 @@ var json = {
                         "text": "Nice new name. Rhymes with \"Rover\"<br><br>You're in there. Everyone who's made a program with 68+ upvotes (that isn't hidden) is in the list."
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "agodwin01(inactive - family emergency)",
                             "id": "kaid_8826452778567227618964185",
@@ -196,7 +196,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Hokeycat",
                             "id": "kaid_438466413527508491816275",
@@ -345,7 +345,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "35 minutes ago",
+                "date": "40 minutes ago",
                 "author": {
                     "name": "sugar",
                     "id": "kaid_706936468208143963519267",
@@ -509,7 +509,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "WinWinKhan",
                     "id": "kaid_936941229910200376858712",
@@ -520,7 +520,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "WinWinKhan",
                             "id": "kaid_936941229910200376858712",
