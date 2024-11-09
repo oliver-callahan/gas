@@ -83,7 +83,7 @@ var json = {
                         "text": "lol it happens sometimes. <em>XD</em>"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "VVhiteTiger",
                             "id": "kaid_154605635905555420140323",
