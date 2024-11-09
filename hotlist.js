@@ -3,7 +3,7 @@ var json = {
     "title": "For Freedom's Cause II v.0.6 (ft. Duke)",
     "votes": 57,
     "created": "a day ago",
-    "updated": "an hour ago",
+    "updated": "2 hours ago",
     "type": "PJS",
     "author": {
         "name": "VVhiteTiger",
@@ -14,7 +14,18 @@ var json = {
         "width": 600,
         "height": 600
     },
-    "forks": [],
+    "forks": [
+        {
+            "title": "For Freedom's Cause II.1 v.0.6 ",
+            "id": "5621072142450688",
+            "forks": 0,
+            "votes": 1,
+            "author": {
+                "name": "Benjamin Haley",
+                "id": "kaid_316201456002701067407909"
+            }
+        }
+    ],
     "posts": {
         "tips": [
             {
