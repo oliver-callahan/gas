@@ -68,7 +68,7 @@ var json = {
                         "text": "Nice new name. Rhymes with \"Rover\"<br><br>You're in there. Everyone who's made a program with 68+ upvotes (that isn't hidden) is in the list."
                     },
                     {
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "agodwin01(inactive - family emergency)",
                             "id": "kaid_8826452778567227618964185",
@@ -147,7 +147,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "LJ",
                     "id": "kaid_1144628223469068678737336",
@@ -209,7 +209,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "24 minutes ago",
+                "date": "29 minutes ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
@@ -223,7 +223,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Giraffey",
                     "id": "kaid_2821783303823271275104336",
@@ -454,7 +454,7 @@ var json = {
                         "text": "Wait, you got a Keeper of the Lost Cities character as your name?"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Shifter -OFF-",
                             "id": "kaid_892112752920553577482062",
@@ -467,7 +467,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "Avenger",
                     "id": "kaid_9032986298497221170369627",
