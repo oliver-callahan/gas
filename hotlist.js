@@ -473,9 +473,9 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
-                "date": "43 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Sonic The Hedgehog",
                     "id": "kaid_851292644445276989632262",
@@ -484,7 +484,17 @@ var json = {
                 "text": "perfect as always!",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "Cookie",
+                            "id": "kaid_1826046083730180486895887",
+                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
+                        },
+                        "text": "Thank you :)<br>I'm glad you will be sticking around at least to finish your wips :)"
+                    }
+                ]
             },
             {
                 "replyCount": 1,
