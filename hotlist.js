@@ -188,7 +188,7 @@ var json = {
                 "votes": 2,
                 "date": "2 days ago",
                 "author": {
-                    "name": "agodwin01(online)",
+                    "name": "agodwin01(inactive - family emergency)",
                     "id": "kaid_8826452778567227618964185",
                     "avatar": "/images/avatars/svg/starky-tree.svg"
                 },
