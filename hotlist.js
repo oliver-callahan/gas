@@ -3,7 +3,7 @@ var json = {
     "title": "Stitch",
     "votes": 38,
     "created": "a day ago",
-    "updated": "25 minutes ago",
+    "updated": "30 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Cookie",
@@ -486,7 +486,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "Cookie",
                             "id": "kaid_1826046083730180486895887",
@@ -495,7 +495,7 @@ var json = {
                         "text": "Thank you :)<br>I'm glad you will be sticking around at least to finish your wips :)"
                     },
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "Sonic The Hedgehog",
                             "id": "kaid_851292644445276989632262",
