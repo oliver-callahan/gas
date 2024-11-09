@@ -210,7 +210,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "Jerry=Jeremiah",
                     "id": "kaid_1034852520151133295547825",
@@ -221,7 +221,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -273,7 +273,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -351,7 +351,7 @@ var json = {
                         "text": "Use the up and down arrow key to move the sword. Use the right to go the that scene."
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "Godly",
                             "id": "kaid_737917006988765551791317",
