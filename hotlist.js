@@ -3,7 +3,7 @@ var json = {
     "title": "Stitch",
     "votes": 41,
     "created": "a day ago",
-    "updated": "2 hours ago",
+    "updated": "3 hours ago",
     "type": "PJS",
     "author": {
         "name": "Cookie",
@@ -271,7 +271,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "LJ",
                     "id": "kaid_1144628223469068678737336",
@@ -532,7 +532,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "12 minutes ago",
+                "date": "17 minutes ago",
                 "author": {
                     "name": "AGnawKneeMouse Coder",
                     "id": "kaid_9033829293805621369025816",
