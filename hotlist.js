@@ -19,7 +19,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 0,
-                "votes": 9,
+                "votes": 10,
                 "date": "a day ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
@@ -209,7 +209,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "44 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
@@ -338,6 +338,20 @@ var json = {
                     "avatar": "/images/avatars/svg/cacteye-yellow.svg"
                 },
                 "text": "Great work, and nice database",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "5 minutes ago",
+                "author": {
+                    "name": "sugar",
+                    "id": "kaid_706936468208143963519267",
+                    "avatar": "/images/avatars/svg/scuttlebug-green.svg"
+                },
+                "text": "hi im wiliphantom lindeira cru ilative programming account",
                 "locked": false,
                 "pinned": false,
                 "replies": []
