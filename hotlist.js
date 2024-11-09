@@ -262,7 +262,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "5 minutes ago",
+                "date": "10 minutes ago",
                 "author": {
                     "name": "Meme Master",
                     "id": "kaid_4485099837495375089379616",
@@ -276,7 +276,7 @@ var json = {
             {
                 "replyCount": 6,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "Stitch Girl💠",
                     "id": "kaid_6490115305785159643926933",
