@@ -68,7 +68,7 @@ var json = {
                         "text": "Nice new name. Rhymes with \"Rover\"<br><br>You're in there. Everyone who's made a program with 68+ upvotes (that isn't hidden) is in the list."
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "agodwin01(inactive - family emergency)",
                             "id": "kaid_8826452778567227618964185",
@@ -81,7 +81,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Dat",
                     "id": "kaid_4164356982737975081215128",
@@ -209,7 +209,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "34 minutes ago",
+                "date": "39 minutes ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
