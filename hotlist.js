@@ -3,7 +3,7 @@ var json = {
     "title": "Mirror Mission",
     "votes": 26,
     "created": "6 hours ago",
-    "updated": "5 hours ago",
+    "updated": "6 hours ago",
     "type": "PJS",
     "author": {
         "name": "Dat",
