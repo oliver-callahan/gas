@@ -1,544 +1,112 @@
 var json = {
-    "code": "/**\n * \n Stitch Girl💠 requested that I make this, so here it is!\n \n This is also my homework for Spark Tutoring. \n https://www.khanacademy.org/computer-programming/spark-tutoring-new/5223254299426816\n \n Top of the HL!!!!!!!!!!!!!!\n \n**/\n\n//background\nvar color1 = color(156, 176, 255);\nvar color2 = color(255, 255, 255);\n\nfor (var i = 0; i < height; i++) {\n    noStroke(); \n    fill(lerpColor(color2, color1, i / height)); \n    rect(0, i, width, -33); \n}\n\ntranslate(-147, -18);\nscale(1.6);\n\n//body outline, left side\nstrokeWeight(1.5);\nstroke(0, 0, 0);\nfill(73, 123, 180);\nbeginShape();\nvertex(194, 148);\nvertex(182, 191);\n\n//left leg outline\nbezierVertex(174, 187, 159, 191, 160, 194);\nbezierVertex(158, 206, 147, 199, 159, 210);\nbezierVertex(180, 215, 184, 211, 197, 208);\nvertex(232, 208);\n\n//right leg outline\nbezierVertex(250, 212, 264, 213, 266, 209);\nbezierVertex(270, 211, 284, 201, 273, 194);\nbezierVertex(267, 189, 258, 188, 249, 191);\n\n//body outline, right side\nvertex(239, 145);\nendShape();\n\n//left foot\nellipse(164, 202, 21, 21);\n\n//right foot\nellipse(266, 201, 21, 21);\n\n//left toes\nfill(0, 0, 0);\nellipse(171, 194, 3, 3);\nellipse(163, 191, 3, 3);\nellipse(156, 195, 3, 3);\nellipse(154, 202, 3, 3);\n\n//right toes\nellipse(257, 195, 3, 3);\nellipse(264, 191, 3, 3);\nellipse(272, 193, 3, 3);\nellipse(276, 199, 3, 3);\n\n//chest\nfill(82, 214, 255);\nbeginShape();\ncurveVertex(184,  291);\ncurveVertex(232,  147);\ncurveVertex(236,  198);\ncurveVertex(200,  200);\ncurveVertex(197, 148);\ncurveVertex(217, 200);\nendShape();\n\n//chest floof\nbeginShape();\nvertex(215, 155);\nbezierVertex(212, 154, 210, 161, 216, 159);\nbezierVertex(210, 161, 210, 166, 217, 164);\nbezierVertex(214, 168, 217, 176, 221, 168);\nendShape();\n\n//left foot pad\nnoStroke();\nfill(0, 66, 132);\nellipse(163, 201, 10, 10);\n\n//right foot pad\nnoStroke();\nfill(0, 66, 132);\nellipse(266, 201, 10, 10);\n\n//left ear\nstroke(0, 0, 0);\nfill(173, 132, 173);\nbeginShape();\nvertex(175, 113);\nbezierVertex(170, 109, 153, 91, 167, 54);\nbezierVertex(150, 47, 143, 81, 144, 80);\nvertex(149, 86);\nvertex(145, 89);\nbezierVertex(144, 86, 143, 125, 174, 134);\nendShape();\n\n//right ear\nbeginShape();\nvertex(259, 112);\nbezierVertex(284, 91, 274, 66, 275, 55);\nbezierVertex(291, 47, 301, 81, 287, 110);\nvertex(279, 112);\nvertex(284, 118);\nbezierVertex(283, 125, 267, 135, 261, 135);\nendShape();\n\n//head\nfill(73, 123, 180);\nbeginShape();\nvertex(203, 85);\nbezierVertex(173, 93, 162, 137, 180, 147);\nbezierVertex(210, 157, 247, 153, 259, 138);\nbezierVertex(264, 131, 268, 94, 228, 84);\nbezierVertex(218, 84, 220, 76, 220, 77);\nbezierVertex(214, 91, 217, 75, 211, 76);\nbezierVertex(211, 91, 212, 77, 204, 80);\nbezierVertex(207, 88, 206, 83, 203, 85);\nendShape();\n\n//left hand claws\nfill(0, 0, 0);\nbeginShape();\nvertex(196, 210);\nbezierVertex(190, 219, 212, 200, 198, 206);\nendShape();\nbeginShape();\nvertex(202, 210);\nbezierVertex(202, 222, 208, 200, 198, 206);\nendShape();\nbeginShape();\nvertex(205, 210);\nbezierVertex(217, 222, 200, 193, 198, 206);\nendShape();\n\n//right hand claws\nbeginShape();\nvertex(232, 207);\nbezierVertex(214, 219, 249, 203, 229, 206);\nendShape();\nbeginShape();\nvertex(233, 207);\nbezierVertex(233, 225, 242, 200, 229, 206);\nendShape();\nbeginShape();\nvertex(234, 207);\nbezierVertex(250, 222, 235, 198, 229, 206);\nendShape();\n\n//left arm\nfill(73, 123, 180);\nbeginShape();\nvertex(191, 164);\nbezierVertex(190, 151, 202, 149, 204, 159);\nbezierVertex(202, 151, 217, 213, 201, 210);\nbezierVertex(190, 212, 190, 181, 191, 164);\nendShape();\n\n//right arm\nbeginShape();\nvertex(229, 164);\nbezierVertex(228, 149, 242, 149, 241, 159);\nbezierVertex(245, 188, 242, 217, 231, 209);\nbezierVertex(223, 208, 228, 179, 229, 164);\nendShape();\n\n//left eye patch\nfill(82, 214, 255);\nbeginShape();\nvertex(190, 97);\nbezierVertex(171, 102, 164, 138, 186, 136);\nbezierVertex(206, 136, 193, 92, 188, 98);\nendShape();\n\n//right eye patch\nbeginShape();\nvertex(247, 98);\nbezierVertex(268, 111, 265, 142, 242, 134);\nbezierVertex(228, 126, 243, 94, 248, 99);\nendShape();\n\n//mouth\nbeginShape();\nvertex(183, 148);\nbezierVertex(209, 156, 246, 150, 250, 145);\nbezierVertex(248, 133, 241, 143, 226, 143);\nbezierVertex(204, 148, 179, 134, 181, 146);\nendShape();\n\n//left eye\nnoStroke();\nfill(0, 0, 0);\nbeginShape();\nvertex(178, 118);\nbezierVertex(177, 121, 174, 132, 188, 132);\nbezierVertex(200, 130, 193, 95, 180, 114);\nendShape();\n\n//right eye\nbeginShape();\nvertex(242, 110);\nbezierVertex(250, 95, 268, 135, 243, 130);\nbezierVertex(238, 128, 238, 115, 242, 110);\nendShape();\n\n//left eye shine\nfill(255, 255, 255);\nellipse(187, 118, 5, 5);\n\n//right eye shine\nellipse(248, 117, 5, 5);\n\n//nose\nstroke(0, 0, 0);\nfill(0, 66, 132);\nbeginShape();\nvertex(230, 126);\nbezierVertex(238, 109, 196, 118, 205, 118);\nbezierVertex(192, 116, 213, 160, 230, 126);\nendShape();\nline(216, 142, 216, 139);",
-    "title": "Stitch",
-    "votes": 41,
-    "created": "a day ago",
-    "updated": "4 hours ago",
+    "code": "//i made a cringe pjs platformer\n\n// WARNING this game is very hard\n\n\n\nvar timeMultiplier=1;\nvar playerRadius=12;\nvar wallThickness=5;\nvar gravity=500;\nvar jumpPower=275;\nvar walkSpeed=950;\nvar friction=5;\nvar mirrorReach=18;\nvar mirrorWidth=25;\nvar healthDeplete=3;\nvar controlMirrorWithArrowKeys=false;\n\nvar level=0;\n\n\nvar s=599;\nvar levels=[\n    \n    {\n        spawn:[50,550],\n        end:[56,327],\n        walls:[\n            [0,0,s,0],\n            [0,s,s,s],\n            [0,0,0,s],\n            [s,0,s,s],\n            [129,530,212,530],\n            [277,481,334,481],\n            [533,383,404,454],\n            [0,355,417,355],\n        ],\n        pointers:[\n            [107,6,-9],\n            [415,6,18],\n        ],\n        texts:[\n            ['A basic platformer\\nbut with a twist.',114,430],\n            ['Use your mirror to\\nreflect the deadly lazers.',470,215],\n        ]\n    },\n    {\n        spawn:[50,170],\n        end:[565,569],\n        walls:[\n            [0,0,s,0],\n            [0,s,s,s],\n            [0,0,0,s],\n            [s,0,s,s],\n            [0,200,465,200],\n            [118,358,602,289],\n            [118,358,102,432],\n        ],\n        pointers:[\n            [587,359,53.0,9],\n        ],\n        texts:[\n            ['Lazers bounce off walls.',254,123],\n        ]\n    },\n    {\n        spawn:[209,100],\n        end:[276,575],\n        walls:[\n            [200,30,400,30],\n            [350,120,400,120],\n            [150,120,250,120],\n            [150,120,200,30],\n            [400,120,400,30],\n            [250,80,250,600],\n            [350,120,350,600],\n            [250,s,350,s],\n        ],\n        pointers:[\n            [398,71,function(t){return Math.sin(t)*13+64;},10],\n        ],\n        \n    },\n    {\n        spawn:[570,580],\n        end:[25,20],\n        walls:[\n            [0,0,s,0],\n            [0,s,s,s],\n            [0,0,0,s],\n            [s,0,s,s],\n            [379,534,450,534],\n            [270,484,350,484],\n            [270,414,350,414],\n            [270,344,350,344],\n            [290,274,330,274],\n            [330,274,497,159],\n            [380,132,438,146],\n            [357,132,291,146],\n            [190,132,291,146],\n            [44,85,142,106],\n        ],\n        pointers:[\n            [574,9,16,4],\n            [9,364,-75,4],\n            [209,9,68,3],\n            [13,591,218],\n        ],\n        \n    },\n    {\n        spawn:[300,583],\n        end:[149,70],\n        walls:(function(){\n            \n            var arr=[\n                [100,147,100,440],\n                [100,147,245,40],\n                [400,441,492,452],\n                [400,441,268,371],\n                [475,311,301,336],\n                [175,235,399,264],\n                [175,235,184,575],\n                [100,398,70,412],\n                [9,374,28,375],\n                [100,338,62,338],\n                [100,278,62,278],\n                [100,208,62,208],\n            ];\n            \n            for(var i=0;i<360;i+=5){\n                arr.push([cos(i)*300+300,sin(i)*300+300,cos(i+5)*300+300,sin(i+5)*300+300]);\n            }\n            \n            return arr;\n        })(),\n        pointers:[\n            [516,101,25,7],\n            [404,27,92,10],\n        ],\n        \n    },\n    {\n        spawn:[47,33],\n        end:[568,319],\n        walls:[\n            [0,0,s,0],\n            [0,0,0,s],\n            [s,0,s,s],\n            [0,70,514,70],\n            [100,68,100,39],\n            [597,153,500,159],\n            [385,217,499,159],\n            [368,217,282,211],\n            [53,217,185,246],\n            [425,349,475,200],\n            [277,349,475,408],\n            [277,300,111,314],\n            [276,349,18,369],\n        ],\n        pointers:[\n            [593,54,90],\n            [591,591,99,12],\n            [591,165,100,10],\n            [111,6,function(t){return Math.sin(t*2)*36-45;}],\n        ],\n        \n    },\n    {\n        spawn:[47,583],\n        end:[568,32],\n        walls:[\n            [0,0,s,0],\n            [0,s,s,s],\n            [0,0,0,s],\n            [s,0,s,s],\n            [100,600,100,531],\n            [163,531,100,531],\n            [488,531,375,531],\n            [488,531,604,425],\n            [488,421,425,421],\n            [473-100,421,425-100,421],\n            [473-200,421,425-200,421],\n            [473-300,421,425-300,421],\n            [473-400,421-50,425-400,421-50],\n            [473-100,321,425-100,321],\n            [473-200,321,425-200,321],\n            [473-300,321,425-300,321],\n            [473,321-50,425,321-50],\n            [473-100,221,425-100,221],\n            [473-200,221,425-200,221],\n            [473-300,221,425-300,221],\n            [473-400,221-50,425-400,221-50],\n            [473-100,121,425-100,121],\n            [473-200,121,425-200,121],\n            [473-300,121,425-300,121],\n            [609,121-50,425,121-50],\n        ],\n        pointers:[\n            [593,588,90,1],\n            [104,582,-90,1],\n            [593,588-14,90,1],\n            [104,582-14,-90,1],\n            [593,588-28,90,1],\n            [104,582-28,-90,1],\n            [300,6,function(t){return Math.sin(t*0.4)*80;},1],\n            [6,6,function(t){return Math.sin(t*0.3)*36-45;},1],\n            [594,300,function(t){return Math.sin(t*0.5)*30+90;},1],\n        ],\n        \n    },\n    {\n        spawn:[47,580],\n        end:[568,574],\n        walls:[\n            [0,0,s,0],\n            [0,0,0,s],\n            [s,0,s,s],\n            [0,s,s,s],\n            [500,540,600,540],\n        ],\n        pointers:[\n            [250,9,0],\n            [150,9,0],\n            [350,9,0],\n            [592,9,76,5],\n        ],\n        alarms:[\n            [467,540,348],\n        ],\n        texts:[\n            \n            ['Find a way to\\ndestroy the sensor.',465,427]\n        ]\n    },\n    {\n        spawn:[30,580],\n        end:[570,575],\n        walls:[\n            [0,0,s,0],\n            [0,s,s,s],\n            [0,0,0,s],\n            [s,0,s,s],\n            [243,534,329,544],\n        ],\n        pointers:[\n            [294,9,16],\n            [360,9,-10],\n            [444,9,51,6],\n            [593,12,81.4,6],\n            [7,12,function(t){return Math.sin(t*0.4)*20+330;}],\n        ],\n        alarms:[\n            [269,464,240],\n            [536,493,196],\n            [464,423,606],\n            [285,558,251],\n        ],\n        \n    },\n    {\n        spawn:[50,409],\n        end:[170,53],\n        walls:[\n            [0,0,s,0],\n            [0,s,s,s],\n            [0,0,0,s],\n            [s,0,s,s],\n            [0,430,68,430],\n            [130,392,130,193],\n            [180,193,130,193],\n            [496,70,130,104],\n            [130,103,130,3],\n            [496,70,521,407],\n            [550,462,550,545],\n            [605,462,550,462],\n        ],\n        pointers:[\n            [593,588,90,1],\n            [8,582,-90,1],\n            [593,588-14,90,1],\n            [8,582-14,-90,1],\n            [593,588-28,90,1],\n            [8,582-28,-90,1],\n            [310,7,0],\n        ],\n        alarms:[\n            [228,47,94],\n        ],\n        texts:[['Press F to use your\\nultimate bank robbing tool.',300,495]],\n        plunger:1\n    },\n    {\n        spawn:[40,580],\n        end:[571,527],\n        walls:[\n            [0,0,s,0],\n            [0,s,s,s],\n            [0,0,0,s],\n            [s,0,s,s],\n        ],\n        pointers:[\n            [573,594,180],\n            [573-10,594,180],\n            [573+10,594,180]\n        ],\n        alarms:[\n            [300,300,500],\n            [300,400,500],\n            [300,400,500],\n        ],\n        plunger:1\n    },\n    {\n        spawn:[25,495],\n        end:[578,319],\n        walls:[\n            [0,250,s,250],\n            [s,250,s,350],\n            [50,350,100,350],\n            [150,350,200,350],\n            [250,350,300,350],\n            [350,350,400,350],\n            [450,350,500,350],\n            [550,350,s,350],\n            [50,350,50,519],\n            [0,250,0,519],\n            [0,519,50,519],\n            [150,350,150,519],\n            [250,350,250,519],\n            [350,350,350,519],\n            [450,350,450,519],\n            [550,350,550,519],\n            [100,350,100,519],\n            [200,350,200,519],\n            [300,350,300,519],\n            [400,350,400,519],\n            [500,350,500,519],\n        ],\n        pointers:[\n            [3,300,function(t){return -90-(1-Math.abs(Math.sin(t*2)))*8;}],\n            [596,300,function(t){return 90+(1-Math.abs(Math.sin(t*2)))*8;}]\n        ],\n        alarms:[\n        ],\n        plunger:1\n    },\n    {\n        spawn:[25,30],\n        end:[300,324],\n        walls:[\n            [0,0,s,0],\n            [0,0,0,s],\n            [s,0,s,s],\n            [0,s,s,s],\n            [100,500,100,0],\n            [100,500,500,500],\n            [500,500,500,100],\n            [200,100,500,100],\n            [200,100,200,400],\n            [200,400,400,400],\n            [400,400,400,200],\n            [300,200,440,200],\n            \n            [0,50,50,50],\n            [600,550,547,550],\n            [500,550-70,547,550-70],\n            [600,550-140,547,550-140],\n        ],\n        pointers:[\n            [75,591,180],\n            [175,509,330,7],\n            [107,437,279,1],\n            [595,80,90],\n            [368,106,0],\n            [368-30,106,0],\n            [368-60,106,0],\n            [394,223,90],\n        ],\n        alarms:[\n            [32,540,210],\n            [577,503,237],\n            [244,150,150],\n        ],\n        plunger:1\n    },\n    {\n        spawn:[300,580],\n        end:[300,44],\n        walls:[\n            [0,0,s,0],\n            [0,0,0,s],\n            [s,0,s,s],\n            [0,s,s,s],\n            [275,550,325,550],\n            [60,80,540,80],\n        ],\n        pointers:[\n            [300,300,function(t){return t*80;}],\n            [300,300,function(t){return t*80+60;}],\n            [300,300,function(t){return t*80+60*2;}],\n            [300,300,function(t){return t*80+60*3;}],\n            [300,300,function(t){return t*80+60*4;}],\n            [300,300,function(t){return t*80+60*5;}],\n        ],\n        plunger:1\n    },\n    {\n        spawn:[300,580],\n        end:[0,999],\n        walls:[\n            [0,0,s,0],\n            [0,0,0,s],\n            [s,0,s,s],\n            [0,s,s,s],\n        ],\n        pointers:[],\n        texts:(function(){\n            var arr=[];\n            \n            for(var x=0;x<600;x+=150){\n                \n                for(var y=0;y<600;y+=50){\n                    \n                    arr.push(['YOU WIN!!!',x+sin(y*10)*40+77,y+24]);\n                }\n            }\n            \n            return arr;\n        })(),\n        plunger:1\n    },\n];\n\nfor(var l in levels){\n    \n    var lvl=levels[l];\n    \n    for(var i=lvl.pointers.length;i--;){\n        \n        var t=lvl.pointers[i];\n        \n        t[4]=[-sin(t[2]),cos(t[2])];\n        t[5]=t[2];\n    }\n    for(var i=lvl.walls.length;i--;){\n        \n        var t=lvl.walls[i];\n        \n        var nx=t[0]-t[2],ny=t[1]-t[3],\n            m=1/Math.sqrt(nx*nx+ny*ny);\n        \n        t[4]=[ny*m,-nx*m];\n    }\n}\n\n\nvar mirrorDrawWidth=mirrorWidth-3;\nvar mirrorShineDrawWidth=mirrorDrawWidth*0.9;\nvar mirrorShineOffset=mirrorReach+2;\n\nvar epsilon=0.01;\nvar collisionRad=wallThickness*0.5+playerRadius;\nvar sq_collisionRad=collisionRad*collisionRad;\nvar sq_playerRadius=playerRadius*playerRadius;\nfunction lineLine(x1,y1,x2,y2,x3,y3,x4,y4){\n    \n    var denom=(x1-x2)*(y3-y4)-(y1-y2)*(x3-x4);\n    var t=((x1-x3)*(y3-y4)-(y1-y3)*(x3-x4))/denom;\n    var u=((x2-x1)*(y1-y3)-(y2-y1)*(x1-x3))/denom;\n    \n    if(t>=0&&t<=1&&u>=0&&u<=1){\n        \n        return [x1+t*(x2-x1),y1+t*(y2-y1)];\n    }\n}\nfunction reflect(dx,dy,nx,ny){\n    \n    var neg2dotDN=(nx*dx+ny*dy)*-2;\n    return [dx+neg2dotDN*nx,dy+neg2dotDN*ny];\n}\nfunction closestPointOnLine(px,py,x1,y1,x2,y2){\n    \n    var delX=x2-x1,delY=y2-y1,\n        t=constrain(((px-x1)*delX+(py-y1)*delY)/(delX*delX+delY*delY),0,1);\n    \n    delX*=t;\n    delY*=t;\n    delX+=x1;\n    delY+=y1;\n    \n    return [delX,delY];\n}\n\n\n\nvar player={\n    \n    x:0,y:0,\n    vx:0,vy:0,\n    rad:playerRadius,drawDiam:playerRadius*2,\n    theta:0,\n    mirrorDir:[0,0],\n    health:1,\n    item:'mirror'\n},\n    keys={};\n    \nvar then=Date.now(),dt=0,time=0,theta=0;\nvar theLevel;\nvar sMouseX=0,sMouseY=0;\n\n\nfunction rotateItem(){\n    \n    if(!theLevel.plunger){return;}\n    \n    player.item={\n        mirror:'plunger',\n        plunger:'mirror'\n    }[player.item];\n}\nkeyPressed=function(){\n    \n    if(keyCode===70){\n        rotateItem();\n    }\n    keys[keyCode]=1;\n};\nkeyReleased=function(){\n    \n    keys[keyCode]=0;\n};\nmousePressed=function(){\n    if(mouseButton===39){\n        rotateItem();\n    }\n};\n\nfunction setLevel(lvl){\n    \n    level=lvl;\n    player.item='mirror';\n    theLevel=levels[lvl];\n    player.vx=0;\n    player.vy=0;\n    player.x=theLevel.spawn[0];\n    player.y=theLevel.spawn[1];\n    player.health=1;\n    \n    theLevel.texts=theLevel.texts||[];\n    theLevel.alarms=theLevel.alarms||[];\n    for(var i=theLevel.alarms.length;i--;){\n        \n        var t=theLevel.alarms[i];\n        \n        t[3]=1;\n        t[4]=t[2]*0.5+playerRadius;\n        t[4]*=t[4];\n    }\n}\n\nsetLevel(level);\n\nfunction updateLazer(l){\n    \n    //i did NOT prune with AABBs figHT ME\n    \n    var ox=l[0],oy=l[1],\n        fade=1/(l[3]||1),\n        dx=l[4][0],dy=l[4][1],\n        lim=1;\n    \n    while(lim>0.001){\n        \n        var cPoint,cWall=0,minSqD=Infinity;\n        \n        for(var i=theLevel.walls.length+(player.item==='mirror'?1:0);i--;){\n            \n            var t=theLevel.walls[i];\n            \n            if(!t){\n                \n                t=[player.mirrorAx,player.mirrorAy,player.mirrorBx,player.mirrorBy,player.mirrorDir,1];\n            }\n            \n            var ex=ox+dx*999,ey=oy+dy*999,\n                col=lineLine(ox,oy,ex,ey,t[0],t[1],t[2],t[3]);\n            \n            if(col){\n                \n                var sqD=(ox-col[0])*(ox-col[0])+(oy-col[1])*(oy-col[1]);\n                if(sqD<minSqD){\n                    \n                    minSqD=sqD;\n                    cPoint=col;\n                    cWall=t;\n                }\n            }\n        }\n        \n        for(var i=theLevel.alarms.length;i--;){\n            \n            var t=theLevel.alarms[i];\n            \n            var ex=ox+dx*999,ey=oy+dy*999,\n                col=lineLine(ox,oy,ex,ey,t[0],t[1],t[2],t[3]);\n                \n            var cp=closestPointOnLine(t[0],t[1],ox,oy,ex,ey),\n                delX=t[0]-cp[0],delY=t[1]-cp[1],\n                m=delX*delX+delY*delY;\n            \n            if(m<100){\n                \n                m=(cp[0]-ox)*(cp[0]-ox)+(cp[1]-oy)*(cp[1]-oy);\n                if(m<minSqD){\n                    \n                    minSqD=m;\n                    cPoint=cp;\n                    cWall='alarm';\n                    t[3]-=dt;\n                }\n            }\n            \n        }\n        \n        stroke(255,0,0,Math.sqrt(lim)*255*0.5);\n        \n        if(cWall){\n            \n            stroke(255, 0, 0,lim*255);\n            strokeWeight(3);\n            line(ox,oy,cPoint[0],cPoint[1]);\n            stroke(255,255,255,lim*255);\n            strokeWeight(1);\n            line(ox,oy,cPoint[0],cPoint[1]);\n            \n            if(cWall==='alarm'){\n                break;\n            }\n            \n            var cp=closestPointOnLine(player.x,player.y,ox,oy,cPoint[0],cPoint[1]),\n                delX=player.x-cp[0],delY=player.y-cp[1],\n                m=delX*delX+delY*delY;\n        \n            if(m<sq_playerRadius){\n                player.health-=dt*healthDeplete;\n            }\n            \n            var nx=cWall[4][0],ny=cWall[4][1];\n            \n            if(nx*dx+ny*dy>0){\n                nx=-nx;\n                ny=-ny;\n            }\n            \n            var ref=reflect(dx,dy,nx,ny);\n            \n            dx=ref[0];\n            dy=ref[1];\n            \n            ox=cPoint[0]+dx*epsilon;\n            oy=cPoint[1]+dy*epsilon;\n            \n            if(cWall[5]){\n                lim=fade;\n                if(dx*player.mirrorDir[0]+dy*player.mirrorDir[1]<0){\n                    break;\n                }\n            }else{\n                \n                lim-=fade;\n            }\n            \n        }else{\n            \n            stroke(255, 0, 0,lim*255);\n            strokeWeight(3);\n            line(ox,oy,ox+dx*999,oy+dy*999);\n            stroke(255);\n            strokeWeight(1);\n            line(ox,oy,ox+dx*999,oy+dy*999);\n            break;\n        }\n    }\n}\n\ntextFont(createFont('monospace'));\ntextAlign(CENTER,CENTER);\n\ndraw= function() {\n    \n    var now=Date.now();\n    dt=Math.min((now-then)*0.001,0.05)*timeMultiplier;\n    then=now;\n    time+=dt;\n    \n    background(200);\n    \n    \n    player.vy+=gravity*dt;\n    \n    //a bit of coyote time\n    if(keys[87]&&time-player.grounded<0.15){\n        \n        if(player.item==='plunger'&&player.plungerSticking){\n            \n            player.vx=player.plungerSticking[0]*300;\n            player.vy=player.plungerSticking[1]*300-200;\n            player.plungerSticking=0;\n        }else{\n            player.vy=-jumpPower;\n        }\n        player.grounded=0;\n    }\n    \n    if(keys[68]){\n        player.vx+=walkSpeed*dt;\n    }\n    if(keys[65]){\n        player.vx-=walkSpeed*dt;\n    }\n    \n    player.vx/=dt*friction+1;\n    \n    player.x+=player.vx*dt;\n    player.y+=player.vy*dt;\n    \n    \n    var dmx,dmy;\n    \n    //a very not delta-time accurate smoothen \n    // sMouseX+=(mouseX-sMouseX)*20*dt;\n    // sMouseY+=(mouseY-sMouseY)*20*dt;\n    \n    sMouseX=mouseX;\n    sMouseY=mouseY;\n    \n    dmx=sMouseX-player.x;\n    dmy=sMouseY-player.y;\n        m=1/Math.sqrt(dmx*dmx+dmy*dmy);\n    dmx*=m;\n    dmy*=m;\n    \n    if(controlMirrorWithArrowKeys){\n        dmx=Math.sin(player.theta);\n        dmy=Math.cos(player.theta);\n        \n        if(keys[37]){\n            player.theta+=dt*4;\n        }\n        if(keys[39]){\n            player.theta-=dt*4;\n        }\n    }\n    \n    \n    player.mirrorDir[0]=dmx;\n    player.mirrorDir[1]=dmy;\n    \n    //hardcoded radian conversion\n    if(player.item==='mirror'){\n        theta=Math.atan2(-dmx,dmy)*57.295779513;\n        var perpX=-dmy*mirrorWidth,perpY=dmx*mirrorWidth,\n            mirrorX=player.x+dmx*mirrorReach,\n            mirrorY=player.y+dmy*mirrorReach;\n            \n        player.mirrorAx=mirrorX+perpX;\n        player.mirrorAy=mirrorY+perpY;\n        player.mirrorBx=mirrorX-perpX;\n        player.mirrorBy=mirrorY-perpY;\n    }\n    \n    \n    textSize(15);\n    fill(0,0,0);\n    for(var i=theLevel.texts.length;i--;){\n        var t=theLevel.texts[i];\n        text(t[0],t[1],t[2]);\n    }\n    textSize(35);\n    text('💸',theLevel.end[0],theLevel.end[1]);\n    \n    stroke(90,90,90);\n    strokeWeight(wallThickness);\n    for(var i=theLevel.walls.length;i--;){\n        \n        var t=theLevel.walls[i];\n        \n        line(t[0],t[1],t[2],t[3]);\n        \n        var cp=closestPointOnLine(player.x,player.y,t[0],t[1],t[2],t[3]),\n            delX=player.x-cp[0],delY=player.y-cp[1],\n            m=delX*delX+delY*delY;\n        \n        if(m<sq_collisionRad){\n            \n            m=Math.sqrt(m);\n            \n            delX/=m;\n            delY/=m;\n            \n            var pen=(collisionRad-m);\n            \n            player.x+=delX*pen;\n            player.y+=delY*pen;\n            \n            var t=delX*player.vx+delY*player.vy;\n            \n            if(player.item==='plunger'){theta=Math.atan2(-delX,delY)*57.295779513;}\n            \n            if(player.item==='plunger'&&(delY>0.9||Math.abs(delX)>0.9)){\n                player.vx/=dt*friction*4+1;\n                player.vy=0;\n                player.x-=delX;\n                player.y-=delY;\n                player.grounded=time;\n                player.plungerSticking=[delX,delY];\n                \n            }else{\n                \n                player.vx-=t*delX;\n                player.vy-=t*delY;\n                \n                if(delY<-0.5){\n                    player.grounded=time;\n                }\n                player.plungerSticking=0;\n            }\n        }\n    }\n    \n    strokeCap(SQUARE);\n    for(var i=theLevel.pointers.length;i--;){\n        \n        var t=theLevel.pointers[i];\n        \n        if(typeof t[2]==='function'){\n            \n            var a=t[2](time);\n            t[4]=[-sin(a),cos(a)];\n            t[5]=a;\n        }\n        \n        stroke(255, 0, 0);\n        strokeWeight(2);\n        updateLazer(t);\n        \n        translate(t[0],t[1]);\n        rotate(t[5]);\n        fill(255,255,255);\n        stroke(0,0,0);\n        strokeWeight(2);\n        ellipse(0,0,25,10);\n        noStroke();\n        fill(150,0,0);\n        ellipse(0,3,15,5);\n        resetMatrix();\n    }\n    strokeCap(ROUND);\n    \n    var flash=Math.sin(time*5)*20;\n    noStroke();\n    for(var i=theLevel.alarms.length;i--;){\n        \n        var t=theLevel.alarms[i];\n        \n        var dx=player.x-t[0],dy=player.y-t[1];\n        if(dx*dx+dy*dy<t[4]&&t[3]>0){\n            player.health-=dt*healthDeplete*t[3];\n        }\n        \n        fill(100,100,255,t[3]*50+flash);\n        ellipse(t[0],t[1],t[2],t[2]);\n        fill(0);\n        ellipse(t[0],t[1],20,20);\n        fill(255-t[3]*t[3]*255,0,t[3]*255);\n        ellipse(t[0],t[1],10,10);\n    }\n    \n    var rh=Math.sqrt(player.health)*255;\n    \n    fill(255,rh,rh);\n    stroke(0);\n    strokeWeight(1);\n    ellipse(player.x,player.y,player.drawDiam,player.drawDiam);\n    \n    translate(player.x,player.y);\n    rotate(theta);\n    \n    switch(player.item){\n        \n        case 'mirror':\n            strokeWeight(3);\n            line(-mirrorDrawWidth,mirrorReach,mirrorDrawWidth,mirrorReach);\n            stroke(150,200,255);\n            line(-mirrorShineDrawWidth,mirrorShineOffset,mirrorShineDrawWidth,mirrorShineOffset);\n            break;\n            \n        case 'plunger':\n            rotate(135);\n            text('🪠',10,mirrorReach-10);\n            break;\n    }\n    \n    resetMatrix();\n    \n    if(player.health<=0||player.y>700){\n        setLevel(level);\n        return;\n    }\n    \n    if(Math.abs(player.x-theLevel.end[0])+Math.abs(player.y-theLevel.end[1])<50){\n        setLevel(level+1);\n    }\n    \n    if(keys[84]){\n        \n        pushStyle();\n        noStroke();\n        fill(0,0,0,60);\n        rect(0,0,600,600);\n        textFont(createFont('fantasy'));\n        textSize(122);\n        fill(255, 0, 0);\n        text('MIRROR\\nMISSION',300,300);\n        \n        for(var i=123;i<141;i++){\n            textSize(i);\n            text('MIRROR\\nMISSION',300,300);\n        }\n        fill(255);\n        textSize(141);\n        text('MIRROR\\nMISSION',300,300);\n        popStyle();\n    }\n};\n\nif(abs(width-600)>3||abs(height-600)>3){\n    println('your screen size is not 600x600 the game wont work');\n}\n\n\n// its spelled laser but idc lazer is cooler\n\n//kiaan wanted me to credit him but hes not cool or awesome",
+    "title": "Mirror Mission",
+    "votes": 16,
+    "created": "2 hours ago",
+    "updated": "an hour ago",
     "type": "PJS",
     "author": {
-        "name": "Cookie",
-        "id": "kaid_1826046083730180486895887",
-        "avatar": "/images/avatars/svg/leafers-sapling.svg"
+        "name": "Dat",
+        "id": "kaid_4164356982737975081215128",
+        "avatar": "/images/avatars/svg/marcimus-orange.svg"
     },
     "dimensions": {
-        "width": 400,
-        "height": 400
+        "width": 600,
+        "height": 600
     },
-    "forks": [
-        {
-            "title": "Stich boy",
-            "id": "6036822262988800",
-            "forks": 0,
-            "votes": 1,
-            "author": {
-                "name": "Shadow The Hedgehog",
-                "id": "kaid_179480720235305693450224"
-            }
-        }
-    ],
+    "forks": [],
     "posts": {
         "tips": [
             {
-                "replyCount": 7,
+                "replyCount": 0,
                 "votes": 7,
-                "date": "a day ago",
+                "date": "2 hours ago",
                 "author": {
-                    "name": "Cookie",
-                    "id": "kaid_1826046083730180486895887",
-                    "avatar": "/images/avatars/svg/leafers-sapling.svg"
+                    "name": "Dat",
+                    "id": "kaid_4164356982737975081215128",
+                    "avatar": "/images/avatars/svg/marcimus-orange.svg"
                 },
-                "text": "Sub for a cookie:<br><br>https://www.khanacademy.org/computer-programming/cookies-subpage/6436205453819904",
+                "text": "sub to me (but i dont make platformers)<br><br>https://www.khanacademy.org/computer-programming/dats-epic-subpage/5796103944454144",
                 "locked": false,
                 "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Norwegian Pathways",
-                            "id": "kaid_1082366231138740611717261",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "How will you send me a cookie? Via mail?"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Nope, It's a virtual cookie :)"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Norwegian Pathways",
-                            "id": "kaid_1082366231138740611717261",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "One of these: 🍪"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Yup :)"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "i got ripped off =C<br><br>I subbed a long time ago and NO COOKIE!?!?"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Oh no! I'm so sorry!<br><br>Here, you get 12 cookies: 🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪🍪"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "SWEET!! thanks, all is forgiven XD"
-                    }
-                ]
+                "replies": []
             },
             {
-                "replyCount": 6,
-                "votes": 3,
-                "date": "a day ago",
+                "replyCount": 0,
+                "votes": 2,
+                "date": "2 hours ago",
                 "author": {
-                    "name": "Stitch Girl💠",
-                    "id": "kaid_6490115305785159643926933",
-                    "avatar": "/images/avatars/svg/marcimus-red.svg"
-                },
-                "text": "I LOVE IT!😍 Thank you so much!",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Thank you! :D<br>No problem!"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Stitch Girl💠",
-                            "id": "kaid_6490115305785159643926933",
-                            "avatar": "/images/avatars/svg/marcimus-red.svg"
-                        },
-                        "text": "I just screenshotted it so I can show my mum"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Nice! :)"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Stitch Girl💠",
-                            "id": "kaid_6490115305785159643926933",
-                            "avatar": "/images/avatars/svg/marcimus-red.svg"
-                        },
-                        "text": "hru btw"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Good, How bout' you?"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Stitch Girl💠",
-                            "id": "kaid_6490115305785159643926933",
-                            "avatar": "/images/avatars/svg/marcimus-red.svg"
-                        },
-                        "text": "very very tired. other than that good"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "LJE",
-                    "id": "kaid_1034761647362147362261181",
+                    "name": "- k a t i t e -",
+                    "id": "kaid_312040000225853665820004",
                     "avatar": "/images/avatars/svg/duskpin-sapling.svg"
                 },
-                "text": "aww he's so cute!!",
+                "text": "first on a dat program, no way!<br><br>this is awesome :D",
                 "locked": false,
                 "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Thank you! :D"
-                    }
-                ]
-            },
-            {
-                "replyCount": 6,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "Norwegian Pathways",
-                    "id": "kaid_1082366231138740611717261",
-                    "avatar": "/images/avatars/svg/leaf-blue.svg"
-                },
-                "text": "Nice.<br><br>He/she is so cute!<br><br>I forgot what gender stitch goes by.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Thank you :D<br><br>Idk, I haven't watched that movie in forever."
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Norwegian Pathways",
-                            "id": "kaid_1082366231138740611717261",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "Probably since I was like 7 (8 years ago)"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "For me I was probably 10 (5 years ago)"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Norwegian Pathways",
-                            "id": "kaid_1082366231138740611717261",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "I forgot you were my age."
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Same here XD"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cataclysmic Code 🌩",
-                            "id": "kaid_820167475461480890635740",
-                            "avatar": "/images/avatars/svg/boggle-green.svg"
-                        },
-                        "text": "Stitch is a boy. I know mainly because there is a different, female stitch that is pink in some short film or something :)"
-                    }
-                ]
+                "replies": []
             },
             {
                 "replyCount": 1,
-                "votes": 1,
-                "date": "a day ago",
+                "votes": 2,
+                "date": "2 hours ago",
                 "author": {
-                    "name": "LJ",
-                    "id": "kaid_1144628223469068678737336",
-                    "avatar": "/images/avatars/svg/leafers-sapling.svg"
+                    "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
+                    "id": "kaid_706406430552760652245376",
+                    "avatar": "/images/avatars/svg/cacteye-yellow.svg"
                 },
-                "text": "This is just perfect.",
+                "text": "\"No words. Except maybe those 2. and those 4. those 3 are in there too. Whatever I have words I guess\" - cwalsh1223",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a day ago",
+                        "date": "2 hours ago",
                         "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
+                            "name": "sugar",
+                            "id": "kaid_706936468208143963519267",
+                            "avatar": "/images/avatars/svg/scuttlebug-green.svg"
                         },
-                        "text": "Thank you!"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "★lavenstarr★",
-                    "id": "kaid_194784400832238400103191",
-                    "avatar": "/images/avatars/svg/blobby-green.svg"
-                },
-                "text": "luv it.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Thanks :)"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "20 hours ago",
-                "author": {
-                    "name": "Firebrand (offline)",
-                    "id": "kaid_423049852746380987692804",
-                    "avatar": "/images/avatars/svg/stelly-orange.svg"
-                },
-                "text": "OOOOOOOOOHHHH MY GOOOOOOOSHHH<br><br>I thought the budgie was too cute lol.<br>I was wrong XD<br><br>Vote++",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "10 hours ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Glad you like it! XD<br>Thanks! :D"
-                    }
-                ]
-            },
-            {
-                "replyCount": 4,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "Mathlete11",
-                    "id": "kaid_4902531429433401500771997",
-                    "avatar": "/images/avatars/svg/starky-sapling.svg"
-                },
-                "text": "if ur taking project requests, can u make a snake...?",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Okay, do you want it to be a cute snake, or a creepy snake?"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "something like orochimaru, from naruto<br><br>THANK YOU!!"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Okay, It might take a while because I'm a little busy right now, but I'll let you know!"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "thank you :D"
-                    }
-                ]
-            },
-            {
-                "replyCount": 2,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "sugarnlight",
-                    "id": "kaid_516497598968512440616556",
-                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
-                },
-                "text": "aaaa it's so cute!!<br>amazing job :)",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Thanks! :D"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "sugarnlight",
-                            "id": "kaid_516497598968512440616556",
-                            "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
-                        },
-                        "text": "yw! :D"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "Coder2098",
-                    "id": "kaid_673573024191290348573492",
-                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
-                },
-                "text": "aww nice job! its so cute!",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Thank you! :)"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "ASBackup",
-                    "id": "kaid_714780036830891967670231",
-                    "avatar": "/images/avatars/svg/aqualine-tree.svg"
-                },
-                "text": "aww this is honestly so cute :>",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Thank you! :)"
-                    }
-                ]
-            },
-            {
-                "replyCount": 2,
-                "votes": 1,
-                "date": "5 hours ago",
-                "author": {
-                    "name": "Sonic The Hedgehog",
-                    "id": "kaid_851292644445276989632262",
-                    "avatar": "/images/avatars/svg/leaf-blue.svg"
-                },
-                "text": "perfect as always!",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Thank you :)<br>I'm glad you will be sticking around at least to finish your wips :)"
-                    },
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Sonic The Hedgehog",
-                            "id": "kaid_851292644445276989632262",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "kk ty"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "Luke Ellis",
-                    "id": "kaid_8535468719137003545030723",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "Nice job. The eyes are perfect.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cookie",
-                            "id": "kaid_1826046083730180486895887",
-                            "avatar": "/images/avatars/svg/leafers-sapling.svg"
-                        },
-                        "text": "Thank you! :D"
+                        "text": "ur late 💀"
                     }
                 ]
             },
             {
                 "replyCount": 0,
                 "votes": 1,
+                "date": "42 minutes ago",
+                "author": {
+                    "name": "Chickenfarmer2009",
+                    "id": "kaid_287879839213083022099587",
+                    "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
+                },
+                "text": "Dat made a PJS program. The Hot List really is gone.<br><br>Pretty cool, though!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
                 "date": "2 hours ago",
                 "author": {
-                    "name": "AGnawKneeMouse Coder",
-                    "id": "kaid_9033829293805621369025816",
-                    "avatar": "/images/avatars/svg/leaf-red.svg"
+                    "name": "honeyghost",
+                    "id": "kaid_381818316234075133568777",
+                    "avatar": "/images/avatars/svg/boggle-yellow.svg"
                 },
-                "text": "Nice work :)",
+                "text": "Cringe? I don't know about that...",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 hours ago",
+                "author": {
+                    "name": "cwalsh1223 BBB#",
+                    "id": "kaid_792288208072906614241148",
+                    "avatar": "/images/avatars/svg/spunky-sam-red.svg"
+                },
+                "text": "Nice game. it's very hard!<br><br>In case you were wondering, kiaan's quote from me was not regarding this game. 😤",
                 "locked": false,
                 "pinned": false,
                 "replies": []
