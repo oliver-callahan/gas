@@ -71,8 +71,22 @@ var json = {
             },
             {
                 "replyCount": 0,
+                "votes": 2,
+                "date": "2 hours ago",
+                "author": {
+                    "name": "cwalsh1223 BBB#",
+                    "id": "kaid_792288208072906614241148",
+                    "avatar": "/images/avatars/svg/spunky-sam-red.svg"
+                },
+                "text": "Nice game. it's very hard!<br><br>In case you were wondering, kiaan's quote from me was not regarding this game. 😤",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
                 "votes": 1,
-                "date": "15 minutes ago",
+                "date": "20 minutes ago",
                 "author": {
                     "name": "Jake K.",
                     "id": "kaid_103000698141866290580261",
@@ -100,13 +114,13 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "4 minutes ago",
                 "author": {
-                    "name": "honeyghost",
-                    "id": "kaid_381818316234075133568777",
-                    "avatar": "/images/avatars/svg/boggle-yellow.svg"
+                    "name": "Samurai Warrior™ ✝ (Online)",
+                    "id": "kaid_333534297788735128142174",
+                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                 },
-                "text": "Cringe? I don't know about that...",
+                "text": "Nice! <br>Didn't expect to see a PJS platformer from you lol but it's actually quite good. <br>19th",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -116,11 +130,11 @@ var json = {
                 "votes": 1,
                 "date": "2 hours ago",
                 "author": {
-                    "name": "cwalsh1223 BBB#",
-                    "id": "kaid_792288208072906614241148",
-                    "avatar": "/images/avatars/svg/spunky-sam-red.svg"
+                    "name": "honeyghost",
+                    "id": "kaid_381818316234075133568777",
+                    "avatar": "/images/avatars/svg/boggle-yellow.svg"
                 },
-                "text": "Nice game. it's very hard!<br><br>In case you were wondering, kiaan's quote from me was not regarding this game. 😤",
+                "text": "Cringe? I don't know about that...",
                 "locked": false,
                 "pinned": false,
                 "replies": []
