@@ -46,6 +46,34 @@ var json = {
                 "replies": []
             },
             {
+                "replyCount": 0,
+                "votes": 2,
+                "date": "17 hours ago",
+                "author": {
+                    "name": "- k a t i t e -",
+                    "id": "kaid_312040000225853665820004",
+                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                },
+                "text": "first on a dat program, no way!<br><br>this is awesome :D",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 2,
+                "date": "17 hours ago",
+                "author": {
+                    "name": "honeyghost",
+                    "id": "kaid_381818316234075133568777",
+                    "avatar": "/images/avatars/svg/boggle-yellow.svg"
+                },
+                "text": "Cringe? I don't know about that...",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
                 "replyCount": 1,
                 "votes": 2,
                 "date": "17 hours ago",
@@ -110,20 +138,6 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "17 hours ago",
-                "author": {
-                    "name": "- k a t i t e -",
-                    "id": "kaid_312040000225853665820004",
-                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
-                },
-                "text": "first on a dat program, no way!<br><br>this is awesome :D",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
                 "date": "15 hours ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Online)",
@@ -166,20 +180,6 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "17 hours ago",
-                "author": {
-                    "name": "honeyghost",
-                    "id": "kaid_381818316234075133568777",
-                    "avatar": "/images/avatars/svg/boggle-yellow.svg"
-                },
-                "text": "Cringe? I don't know about that...",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
                 "date": "14 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
@@ -193,7 +193,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 1,
+                "votes": 0,
                 "date": "4 hours ago",
                 "author": {
                     "name": "Vuong Vo",
