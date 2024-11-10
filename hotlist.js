@@ -34,20 +34,6 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "15 hours ago",
-                "author": {
-                    "name": "cwalsh1223 BBB#",
-                    "id": "kaid_792288208072906614241148",
-                    "avatar": "/images/avatars/svg/spunky-sam-red.svg"
-                },
-                "text": "Nice game. it's very hard!<br><br>In case you were wondering, kiaan's quote from me was not regarding this game. 😤",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 2,
                 "date": "13 hours ago",
                 "author": {
                     "name": "Jake K.",
@@ -82,6 +68,20 @@ var json = {
                         "text": "ur late 💀"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 2,
+                "date": "15 hours ago",
+                "author": {
+                    "name": "cwalsh1223 BBB#",
+                    "id": "kaid_792288208072906614241148",
+                    "avatar": "/images/avatars/svg/spunky-sam-red.svg"
+                },
+                "text": "Nice game. it's very hard!<br><br>In case you were wondering, kiaan's quote from me was not regarding this game. 😤",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 1,
