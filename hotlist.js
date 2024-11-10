@@ -3,7 +3,7 @@ var json = {
     "title": "Mirror Mission",
     "votes": 43,
     "created": "21 hours ago",
-    "updated": "20 hours ago",
+    "updated": "21 hours ago",
     "type": "PJS",
     "author": {
         "name": "Dat",
@@ -205,7 +205,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "40 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -219,7 +219,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "Vuong Vo",
                     "id": "kaid_79869111098624859119085",
