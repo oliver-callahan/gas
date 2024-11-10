@@ -3,7 +3,7 @@ var json = {
     "title": "Mirror Mission",
     "votes": 19,
     "created": "3 hours ago",
-    "updated": "2 hours ago",
+    "updated": "3 hours ago",
     "type": "PJS",
     "author": {
         "name": "Dat",
@@ -98,7 +98,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "2 hours ago",
                 "author": {
@@ -109,12 +109,22 @@ var json = {
                 "text": "Dat made a PJS program. The Hot List really is gone.<br><br>Pretty cool, though!",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Equilibrium",
+                            "id": "kaid_1842852586096096865081151",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                        },
+                        "text": "Hey, what can you say? Dat is a well rounded programmer."
+                    }
+                ]
             },
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "44 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Online)",
                     "id": "kaid_333534297788735128142174",
