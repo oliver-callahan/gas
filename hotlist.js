@@ -166,7 +166,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "Bearkirb314🐻‍❄️",
                     "id": "kaid_375460112550893828689953",
@@ -194,6 +194,20 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
+                "date": "5 minutes ago",
+                "author": {
+                    "name": "ASBackup",
+                    "id": "kaid_714780036830891967670231",
+                    "avatar": "/images/avatars/svg/aqualine-tree.svg"
+                },
+                "text": "eyy a dat game<br>its been too long :(<br>amazing game :D",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
                 "date": "8 hours ago",
                 "author": {
                     "name": "Vuong Vo",
@@ -210,7 +224,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "ezekiel.carter2009",
                     "id": "kaid_4345125146474084185234199",
