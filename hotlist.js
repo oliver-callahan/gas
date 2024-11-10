@@ -32,8 +32,36 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 1,
+                "replyCount": 0,
                 "votes": 3,
+                "date": "6 hours ago",
+                "author": {
+                    "name": "cwalsh1223 BBB#",
+                    "id": "kaid_792288208072906614241148",
+                    "avatar": "/images/avatars/svg/spunky-sam-red.svg"
+                },
+                "text": "Nice game. it's very hard!<br><br>In case you were wondering, kiaan's quote from me was not regarding this game. 😤",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 2,
+                "date": "4 hours ago",
+                "author": {
+                    "name": "Jake K.",
+                    "id": "kaid_103000698141866290580261",
+                    "avatar": "/images/avatars/svg/leaf-blue.svg"
+                },
+                "text": "Yeah lazer with a z is cooler I know it is wrong but I spell it that way anyway. Now I just have to say Ztimulated.<br><br>This is pretty awesome. Reminds me of the possibly apocryphal story of archemides using mirrors to set the enemies on fire during the siege of Syracuse.",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 2,
                 "date": "6 hours ago",
                 "author": {
                     "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
@@ -54,34 +82,6 @@ var json = {
                         "text": "ur late 💀"
                     }
                 ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 2,
-                "date": "4 hours ago",
-                "author": {
-                    "name": "Jake K.",
-                    "id": "kaid_103000698141866290580261",
-                    "avatar": "/images/avatars/svg/leaf-blue.svg"
-                },
-                "text": "Yeah lazer with a z is cooler I know it is wrong but I spell it that way anyway. Now I just have to say Ztimulated.<br><br>This is pretty awesome. Reminds me of the possibly apocryphal story of archemides using mirrors to set the enemies on fire during the siege of Syracuse.",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 2,
-                "date": "6 hours ago",
-                "author": {
-                    "name": "cwalsh1223 BBB#",
-                    "id": "kaid_792288208072906614241148",
-                    "avatar": "/images/avatars/svg/spunky-sam-red.svg"
-                },
-                "text": "Nice game. it's very hard!<br><br>In case you were wondering, kiaan's quote from me was not regarding this game. 😤",
-                "locked": false,
-                "pinned": false,
-                "replies": []
             },
             {
                 "replyCount": 1,
@@ -138,7 +138,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "honeyghost",
                     "id": "kaid_381818316234075133568777",
