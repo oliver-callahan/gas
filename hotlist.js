@@ -72,7 +72,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 3,
+                "votes": 4,
                 "date": "a day ago",
                 "author": {
                     "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
@@ -254,6 +254,20 @@ var json = {
                     "avatar": "/images/avatars/svg/starky-ultimate.svg"
                 },
                 "text": "I can't get past four or three or something. The one where there are many platforms to jump up, I can't turn the mirror quick enough",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "a minute ago",
+                "author": {
+                    "name": "JJP",
+                    "id": "kaid_874785892689340729331212",
+                    "avatar": "/images/avatars/svg/aqualine-seedling.svg"
+                },
+                "text": "Fun fact! Did you know that laser stands for Light Amplification by Stimulated Emission of Radiation",
                 "locked": false,
                 "pinned": false,
                 "replies": []
