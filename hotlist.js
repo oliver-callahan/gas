@@ -59,7 +59,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -97,7 +97,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -135,7 +135,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "22 minutes ago",
+                "date": "27 minutes ago",
                 "author": {
                     "name": "Doctor137",
                     "id": "kaid_1166193792198469906754627",
@@ -163,7 +163,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Online)",
                     "id": "kaid_333534297788735128142174",
