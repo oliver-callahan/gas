@@ -191,7 +191,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "Bearkirb314🐻‍❄️",
                     "id": "kaid_375460112550893828689953",
@@ -219,7 +219,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "26 minutes ago",
+                "date": "31 minutes ago",
                 "author": {
                     "name": "Wingfeather",
                     "id": "kaid_691541327914532427755189",
@@ -257,13 +257,27 @@ var json = {
                 "locked": false,
                 "pinned": false,
                 "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "4 minutes ago",
+                "author": {
+                    "name": "brighamshirley2024",
+                    "id": "kaid_934995906866304096076656",
+                    "avatar": "/images/avatars/svg/blobby-green.svg"
+                },
+                "text": "nice game, I just one you should make a second game.",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             }
         ],
         "questions": [
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "ezekiel.carter2009",
                     "id": "kaid_4345125146474084185234199",
