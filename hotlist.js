@@ -138,7 +138,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "honeyghost",
                     "id": "kaid_381818316234075133568777",
@@ -164,6 +164,20 @@ var json = {
                 "replies": []
             }
         ],
-        "questions": []
+        "questions": [
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "3 minutes ago",
+                "author": {
+                    "name": "ezekiel.carter2009",
+                    "id": "kaid_4345125146474084185234199",
+                    "avatar": "/images/avatars/svg/blobby-green.svg"
+                },
+                "text": "Do it for arrow keys too.",
+                "replies": [],
+                "answers": []
+            }
+        ]
     }
 }
