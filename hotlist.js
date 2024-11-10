@@ -152,7 +152,21 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "15 hours ago",
+                "date": "a minute ago",
+                "author": {
+                    "name": "Bearkirb314🐻‍❄️",
+                    "id": "kaid_375460112550893828689953",
+                    "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                },
+                "text": "The vector knowledge coming in clutch.",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "16 hours ago",
                 "author": {
                     "name": "honeyghost",
                     "id": "kaid_381818316234075133568777",
