@@ -58,7 +58,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Jake K.",
                     "id": "kaid_103000698141866290580261",
@@ -97,7 +97,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Equilibrium",
                             "id": "kaid_1842852586096096865081151",
@@ -168,7 +168,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "38 minutes ago",
+                "date": "43 minutes ago",
                 "author": {
                     "name": "ezekiel.carter2009",
                     "id": "kaid_4345125146474084185234199",
