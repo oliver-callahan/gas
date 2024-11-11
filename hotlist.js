@@ -91,7 +91,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 5,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "AGnawKneeMouse Coder",
                     "id": "kaid_9033829293805621369025816",
@@ -309,7 +309,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "42 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Bearkirb314🐻‍❄️",
                     "id": "kaid_375460112550893828689953",
@@ -347,7 +347,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "8 minutes ago",
+                "date": "13 minutes ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
