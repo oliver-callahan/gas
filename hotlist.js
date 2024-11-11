@@ -163,7 +163,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "a day ago",
+                "date": "2 days ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Online)",
                     "id": "kaid_333534297788735128142174",
@@ -331,7 +331,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "JJP",
                     "id": "kaid_874785892689340729331212",
