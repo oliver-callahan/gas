@@ -20,7 +20,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 11,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "Liam K.",
                     "id": "kaid_160653079463992085090428",
@@ -45,7 +45,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -105,7 +105,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -155,7 +155,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "YokieBob",
                     "id": "kaid_681887786554114354822051",
@@ -337,7 +337,7 @@ var json = {
                         "text": "Duke you should take some courses on modern js, it'll help you out in a lot of ways. try freecodecamp or codeacademy"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -370,7 +370,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -383,7 +383,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "14 minutes ago",
+                "date": "19 minutes ago",
                 "author": {
                     "name": "The Multiverse Hero",
                     "id": "kaid_523988888981336150053758",
