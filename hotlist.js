@@ -212,7 +212,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
