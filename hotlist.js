@@ -97,7 +97,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 4,
-                "date": "a day ago",
+                "date": "2 days ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -317,7 +317,21 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "4 minutes ago",
+                "author": {
+                    "name": "Vuong Vo",
+                    "id": "kaid_79869111098624859119085",
+                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                },
+                "text": "Ah, guys, this game is a throwback to the weapon simulator game Dat made a few years ago.",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "11 hours ago",
                 "author": {
                     "name": "JJP",
                     "id": "kaid_874785892689340729331212",
