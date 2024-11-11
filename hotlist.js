@@ -191,7 +191,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "Clifford_Coder",
                     "id": "kaid_361770645178088560937108",
@@ -226,6 +226,20 @@ var json = {
                     "avatar": "/images/avatars/svg/boggle-yellow.svg"
                 },
                 "text": "Cringe? I don't know about that...",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "4 minutes ago",
+                "author": {
+                    "name": "Thorn Seaclaw",
+                    "id": "kaid_388945265474133862728997",
+                    "avatar": "/images/avatars/svg/leaf-grey.svg"
+                },
+                "text": "tHis sewms many VIOLEnT. HoPe they TaKe IT dOEWN jusT LIKE the Other One",
                 "locked": false,
                 "pinned": false,
                 "replies": []
