@@ -136,7 +136,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Equilibrium",
                             "id": "kaid_1842852586096096865081151",
