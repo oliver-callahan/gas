@@ -106,7 +106,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "44 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "AGnawKneeMouse Coder",
                     "id": "kaid_9033829293805621369025816",
@@ -153,7 +153,7 @@ var json = {
             {
                 "replyCount": 10,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Duke",
                     "id": "kaid_351465532815782433620675",
@@ -278,6 +278,20 @@ var json = {
                         "text": "Thank you HB! Hopefully this program will be helpful to you"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "3 minutes ago",
+                "author": {
+                    "name": "JJP",
+                    "id": "kaid_874785892689340729331212",
+                    "avatar": "/images/avatars/svg/aqualine-seedling.svg"
+                },
+                "text": "All thumbnails use clickbait. The definition of clickbait is basically any type of thumbnail or title that is supposed to lure people into clicking your program. Hopefully this modified your understanding of clickbait!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             }
         ],
         "questions": []
