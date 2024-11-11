@@ -225,7 +225,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "Clifford_Coder",
                     "id": "kaid_361770645178088560937108",
@@ -284,6 +284,20 @@ var json = {
                     "avatar": "/images/avatars/svg/leafers-seed.svg"
                 },
                 "text": "Nice Dat! Yay they did increase the vote limit!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "a minute ago",
+                "author": {
+                    "name": "Spooderman Spooderman",
+                    "id": "kaid_481502226850506771685891",
+                    "avatar": "/images/avatars/svg/piceratops-sapling.svg"
+                },
+                "text": "I beat it nice game",
                 "locked": false,
                 "pinned": false,
                 "replies": []
