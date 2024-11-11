@@ -189,7 +189,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "13 hours ago",
                 "author": {
@@ -200,12 +200,22 @@ var json = {
                 "text": "Good job! this is my first comment ever",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "The Former Wizard of Oz",
+                            "id": "kaid_981854986090143486946241",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "<em>Welcome to a whole world of danger.</em> - someone I forgot"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "dalegomango skool acc",
                     "id": "kaid_371114188602608232313934",
