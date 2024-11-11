@@ -59,7 +59,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 4,
-                "date": "a day ago",
+                "date": "2 days ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -202,7 +202,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "The Former Wizard of Oz",
                             "id": "kaid_981854986090143486946241",
@@ -341,7 +341,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "JJP",
                     "id": "kaid_874785892689340729331212",
