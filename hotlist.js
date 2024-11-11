@@ -106,7 +106,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "39 minutes ago",
+                "date": "44 minutes ago",
                 "author": {
                     "name": "AGnawKneeMouse Coder",
                     "id": "kaid_9033829293805621369025816",
@@ -131,7 +131,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -140,7 +140,7 @@ var json = {
                         "text": "You only end up coding ~450 lines of code. This tutorial is mostly just super bulky because I had to recopy/paste lots of the same code every time I wanted to add new code. <br><br>This tutorial is super doable even for beginners, so I'd recommend that you take a stab at it."
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
