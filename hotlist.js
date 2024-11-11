@@ -32,7 +32,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 2,
+                "replyCount": 3,
                 "votes": 7,
                 "date": "5 hours ago",
                 "author": {
@@ -61,6 +61,15 @@ var json = {
                             "avatar": "/images/avatars/svg/spunky-sam.svg"
                         },
                         "text": "Yes, \"left collisions\" (idk who coined this term but it's what I use) can be fixed! I just sort the array of blocks by type upon the level loading; this fixes the issue."
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Mushy Avocado",
+                            "id": "kaid_889538221957342292210697",
+                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                        },
+                        "text": "That doesn't work in Liam's case. The blocks are stored in a 2D array based on their position, so you can't sort them. The bonus of using a 2D array is that it essentially lets you have infinite blocks and the game won't slow down"
                     }
                 ]
             },
@@ -98,6 +107,20 @@ var json = {
                     "avatar": "/images/avatars/svg/leaf-red.svg"
                 },
                 "text": "That thumbnail goes hard",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 3,
+                "date": "2 hours ago",
+                "author": {
+                    "name": "Ibraheem Ahmed (IA)",
+                    "id": "kaid_42165633374795610935956",
+                    "avatar": "/images/avatars/svg/spunky-sam.svg"
+                },
+                "text": "Reading through it currently, but I found a big error I wanted to point out asap. The following example code is actually incorrect.<pre><code>var Scenes = (function(){<br><br>})();<br><br>//Is the same as <br>var Scenes = function(){<br><br>};<br>Scenes();</code></pre>The second block of code in the above example (after the comment) does not behave like the IIFE; it's actually much different. Instead of <code>Scenes</code> being assigned the result of a function, it is an actual function. To fix this, change the code to something like the below:<pre><code>var Scenes = (function(){<br><br>})();<br><br>//Is the same as <br>var callback = function(){<br><br>};<br>var Scenes = callback();</code></pre>Really like how much more object oriented this tutorial is, as opposed to the previous. Hopefully it will make it more difficult for people to just copy-paste all of your code and create their \"own\" platformers ;-;<br><br>Great tutorial :D",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -142,22 +165,8 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 2,
-                "date": "an hour ago",
-                "author": {
-                    "name": "Ibraheem Ahmed (IA)",
-                    "id": "kaid_42165633374795610935956",
-                    "avatar": "/images/avatars/svg/spunky-sam.svg"
-                },
-                "text": "Reading through it currently, but I found a big error I wanted to point out asap. The following example code is actually incorrect.<pre><code>var Scenes = (function(){<br><br>})();<br><br>//Is the same as <br>var Scenes = function(){<br><br>};<br>Scenes();</code></pre>The second block of code in the above example (after the comment) does not behave like the IIFE; it's actually much different. Instead of <code>Scenes</code> being assigned the result of a function, it is an actual function. To fix this, change the code to something like the below:<pre><code>var Scenes = (function(){<br><br>})();<br><br>//Is the same as <br>var callback = function(){<br><br>};<br>var Scenes = callback();</code></pre>Really like how much more object oriented this tutorial is, as opposed to the previous. Hopefully it will make it more difficult for people to just copy-paste all of your code and create their \"own\" platformers ;-;<br><br>Great tutorial :D",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -238,7 +247,7 @@ var json = {
                         "text": "I wouldn't use that method of assigning prototypes because it breaks object inheritance.<br><br>This won't work<br><pre><code>function Foo() {<br><br>}<br><br>Foo.prototype.print = function() {<br>    println(true);<br>};<br><br>function Name() {<br>    Foo.call(this);<br>}<br><br>Name.prototype = Object.create(Foo.prototype);<br>Name.prototype = {<br>    // Code goes here<br>};<br><br>var name = new Name();<br>name.print(); // Error because Name.prototype was overridden to be an object instead.</code></pre>"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -310,7 +319,7 @@ var json = {
                         "text": "Looks like Mushy pretty much summed it up. While this tutorial was designed to be run solely in the PJS environment, I would highly recommend transferring your code over to an HTML environment to rid yourself of most of the flaws of PJS."
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -323,7 +332,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
@@ -347,7 +356,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "38 minutes ago",
+                "date": "43 minutes ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
