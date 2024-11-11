@@ -63,7 +63,7 @@ var json = {
                         "text": "Yes, \"left collisions\" (idk who coined this term but it's what I use) can be fixed! I just sort the array of blocks by type upon the level loading; this fixes the issue."
                     },
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -96,7 +96,7 @@ var json = {
                         "text": "Hey that's actually a really smart idea. I will look into that and similar methods to see if I can implement that on this program. <br><br>I think we're basically the same person at this point lol. I'm ~95% sure we have the same hometowns too."
                     },
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -283,7 +283,7 @@ var json = {
                         "text": "Honestly I never used inheritance much either until I got into ES6 javascript, where inheritance is much cleaner and less unwieldy.<br><br>Example:<br><pre><code>class Foo {<br>    print() {<br>        println(true);<br>    }<br>}<br><br>class Bar extends Foo {<br>    <br>}<br><br>var bar = new Bar();<br>bar.print(); // Logs true</code></pre>"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "bravo bravo",
                             "id": "kaid_3550040499775075061747637",
@@ -292,7 +292,7 @@ var json = {
                         "text": "even better typescript where you can make abstract classes and methods, even private methods, etc. (syntactically)"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
