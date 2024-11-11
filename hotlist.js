@@ -179,7 +179,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Bearkirb314🐻‍❄️",
                     "id": "kaid_375460112550893828689953",
@@ -193,7 +193,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "11 minutes ago",
+                "date": "16 minutes ago",
                 "author": {
                     "name": "Falling Dragon™️",
                     "id": "kaid_922990378162047462529587",
@@ -207,7 +207,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "32 minutes ago",
+                "date": "37 minutes ago",
                 "author": {
                     "name": "LJE",
                     "id": "kaid_1034761647362147362261181",
@@ -347,7 +347,7 @@ var json = {
                         "text": "@Bravo Bravo I have heard about class's. But while on ka I try to make the best of what I have :P<br>haha having never <em>really</em> used inheritance I wouldn't know but ig your right :P<br><br>@Mush yeah ES6 looks sweet. I just haven't had much access to any other coding sight(that uses ES6)"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -356,7 +356,7 @@ var json = {
                         "text": "If you use my Khan Academy exporter you can use ES6 syntax while at the same time writing normal PJS code. ES6 works in the HTML environment :)"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "bravo bravo",
                             "id": "kaid_3550040499775075061747637",
@@ -439,7 +439,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "JJP",
                     "id": "kaid_874785892689340729331212",
