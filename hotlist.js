@@ -154,8 +154,22 @@ var json = {
             },
             {
                 "replyCount": 0,
+                "votes": 2,
+                "date": "17 hours ago",
+                "author": {
+                    "name": "JJP",
+                    "id": "kaid_874785892689340729331212",
+                    "avatar": "/images/avatars/svg/aqualine-seedling.svg"
+                },
+                "text": "Fun fact! Did you know that laser stands for Light Amplification by Stimulated Emission of Radiation",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
                 "votes": 1,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Doctor137",
                     "id": "kaid_1166193792198469906754627",
@@ -319,21 +333,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "17 hours ago",
-                "author": {
-                    "name": "JJP",
-                    "id": "kaid_874785892689340729331212",
-                    "avatar": "/images/avatars/svg/aqualine-seedling.svg"
-                },
-                "text": "Fun fact! Did you know that laser stands for Light Amplification by Stimulated Emission of Radiation",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "brighamshirley2024",
                     "id": "kaid_934995906866304096076656",
