@@ -19,7 +19,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 0,
-                "votes": 6,
+                "votes": 7,
                 "date": "2 hours ago",
                 "author": {
                     "name": "Liam K.",
@@ -57,7 +57,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 2,
+                "votes": 3,
                 "date": "an hour ago",
                 "author": {
                     "name": "YokieBob",
@@ -81,7 +81,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 2,
+                "votes": 3,
                 "date": "2 hours ago",
                 "author": {
                     "name": "Mushy Avocado",
@@ -102,6 +102,20 @@ var json = {
                         "text": "Hey that's actually a really smart idea. I will look into that and similar methods to see if I can implement that on this program. <br><br>I think we're basically the same person at this point lol. I'm ~95% sure we have the same hometowns too."
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 2,
+                "date": "4 minutes ago",
+                "author": {
+                    "name": "AGnawKneeMouse Coder",
+                    "id": "kaid_9033829293805621369025816",
+                    "avatar": "/images/avatars/svg/leaf-red.svg"
+                },
+                "text": "That thumbnail goes hard",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 2,
@@ -159,7 +173,7 @@ var json = {
                         "text": "I wouldn't use that method of assigning prototypes because it breaks object inheritance.<br><br>This won't work<br><pre><code>function Foo() {<br><br>}<br><br>Foo.prototype.print = function() {<br>    println(true);<br>};<br><br>function Name() {<br>    Foo.call(this);<br>}<br><br>Name.prototype = Object.create(Foo.prototype);<br>Name.prototype = {<br>    // Code goes here<br>};<br><br>var name = new Name();<br>name.print(); // Error because Name.prototype was overridden to be an object instead.</code></pre>"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -231,7 +245,7 @@ var json = {
                         "text": "Looks like Mushy pretty much summed it up. While this tutorial was designed to be run solely in the PJS environment, I would highly recommend transferring your code over to an HTML environment to rid yourself of most of the flaws of PJS."
                     },
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -244,7 +258,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
