@@ -205,7 +205,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "16 minutes ago",
+                "date": "21 minutes ago",
                 "author": {
                     "name": "dalegomango skool acc",
                     "id": "kaid_371114188602608232313934",
@@ -261,7 +261,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "44 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Radar",
                     "id": "kaid_3902988618718040904060736",
@@ -303,7 +303,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "Vuong Vo",
                     "id": "kaid_79869111098624859119085",
