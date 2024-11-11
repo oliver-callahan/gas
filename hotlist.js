@@ -72,7 +72,7 @@ var json = {
                         "text": "That doesn't work in Liam's case. The blocks are stored in a 2D array based on their position, so you can't sort them. The bonus of using a 2D array is that it essentially lets you have infinite blocks and the game won't slow down"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "Ibraheem Ahmed (IA)",
                             "id": "kaid_42165633374795610935956",
@@ -81,7 +81,7 @@ var json = {
                         "text": "Oh. Hmmmmm... fixing this problem without creating a 1D array of blocks is an interesting challenge. I'll think on it and come back to this later.<br><br><b>edit</b>: nvm you proposed a nice solution, using a <code>.priority</code> property for the individual blocks would probably work. I don't see any better way to do it.<br><br><b>edit2</b>: @below already saw it :)"
                     },
                     {
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -265,7 +265,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
