@@ -20,7 +20,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 10,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Liam K.",
                     "id": "kaid_160653079463992085090428",
@@ -32,7 +32,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 3,
+                "replyCount": 5,
                 "votes": 7,
                 "date": "5 hours ago",
                 "author": {
@@ -45,7 +45,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -63,13 +63,31 @@ var json = {
                         "text": "Yes, \"left collisions\" (idk who coined this term but it's what I use) can be fixed! I just sort the array of blocks by type upon the level loading; this fixes the issue."
                     },
                     {
-                        "date": "19 minutes ago",
+                        "date": "24 minutes ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
                             "avatar": "/images/avatars/svg/orange-juice-squid.svg"
                         },
                         "text": "That doesn't work in Liam's case. The blocks are stored in a 2D array based on their position, so you can't sort them. The bonus of using a 2D array is that it essentially lets you have infinite blocks and the game won't slow down"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Ibraheem Ahmed (IA)",
+                            "id": "kaid_42165633374795610935956",
+                            "avatar": "/images/avatars/svg/spunky-sam.svg"
+                        },
+                        "text": "Oh. Hmmmmm... fixing this problem without creating a 1D array of blocks is an interesting challenge. I'll think on it and come back to this later.<br><br><b>edit</b>: nvm you proposed a nice solution, using a <code>.priority</code> property for the individual blocks would probably work. I don't see any better way to do it."
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "Mushy Avocado",
+                            "id": "kaid_889538221957342292210697",
+                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                        },
+                        "text": "See my solution in the T&T. If you iterate over the nearby blocks you can select the one with the highest collision priority that the player happens to be touching"
                     }
                 ]
             },
@@ -87,7 +105,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -96,7 +114,7 @@ var json = {
                         "text": "Hey that's actually a really smart idea. I will look into that and similar methods to see if I can implement that on this program. <br><br>I think we're basically the same person at this point lol. I'm ~95% sure we have the same hometowns too."
                     },
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -122,7 +140,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 3,
+                "votes": 4,
                 "date": "2 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
@@ -137,7 +155,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "YokieBob",
                     "id": "kaid_681887786554114354822051",
@@ -319,7 +337,7 @@ var json = {
                         "text": "Duke you should take some courses on modern js, it'll help you out in a lot of ways. try freecodecamp or codeacademy"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -352,7 +370,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
