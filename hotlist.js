@@ -34,7 +34,7 @@ var json = {
             {
                 "replyCount": 5,
                 "votes": 7,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "LemonTurtle",
                     "id": "kaid_26727758302107548837304",
@@ -63,7 +63,7 @@ var json = {
                         "text": "Yes, \"left collisions\" (idk who coined this term but it's what I use) can be fixed! I just sort the array of blocks by type upon the level loading; this fixes the issue."
                     },
                     {
-                        "date": "24 minutes ago",
+                        "date": "29 minutes ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -72,7 +72,7 @@ var json = {
                         "text": "That doesn't work in Liam's case. The blocks are stored in a 2D array based on their position, so you can't sort them. The bonus of using a 2D array is that it essentially lets you have infinite blocks and the game won't slow down"
                     },
                     {
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "Ibraheem Ahmed (IA)",
                             "id": "kaid_42165633374795610935956",
@@ -81,7 +81,7 @@ var json = {
                         "text": "Oh. Hmmmmm... fixing this problem without creating a 1D array of blocks is an interesting challenge. I'll think on it and come back to this later.<br><br><b>edit</b>: nvm you proposed a nice solution, using a <code>.priority</code> property for the individual blocks would probably work. I don't see any better way to do it."
                     },
                     {
-                        "date": "a few seconds ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -114,7 +114,7 @@ var json = {
                         "text": "Hey that's actually a really smart idea. I will look into that and similar methods to see if I can implement that on this program. <br><br>I think we're basically the same person at this point lol. I'm ~95% sure we have the same hometowns too."
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
