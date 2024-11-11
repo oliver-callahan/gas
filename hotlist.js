@@ -3,7 +3,7 @@ var json = {
     "title": "The Code Wars 2024",
     "votes": 25,
     "created": "9 hours ago",
-    "updated": "5 hours ago",
+    "updated": "6 hours ago",
     "type": "HTML",
     "author": {
         "name": "TDJ",
@@ -56,7 +56,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "YokieBob",
                             "id": "kaid_681887786554114354822051",
@@ -158,7 +158,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "YokieBob",
                             "id": "kaid_681887786554114354822051",
@@ -167,7 +167,7 @@ var json = {
                         "text": "Hello team!"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Xatnys",
                             "id": "kaid_3144599174897393521218325",
@@ -203,7 +203,7 @@ var json = {
                         "text": "Ok, I can post it for you. What's your skill level?<br><br>EDT: I posted it. I am going to delete my other comments to reduce the scrolling for later."
                     },
                     {
-                        "date": "44 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Xatnys",
                             "id": "kaid_3144599174897393521218325",
@@ -212,7 +212,7 @@ var json = {
                         "text": "Thanks, I put 3."
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "Karthikeya K #BringBackBackgrounds",
                             "id": "kaid_6258990316746013677705461",
@@ -221,7 +221,7 @@ var json = {
                         "text": "Hello team! I started on a draft for Challenge 0: <br><br>https://www.khanacademy.org/computer-programming/team-echolite-homepage-wip/5292946371821568"
                     },
                     {
-                        "date": "14 minutes ago",
+                        "date": "19 minutes ago",
                         "author": {
                             "name": "Hokeycat",
                             "id": "kaid_438466413527508491816275",
@@ -269,7 +269,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -302,7 +302,7 @@ var json = {
                         "text": "You can just join. Go to the join section on the webpage above, and then choose the team you want to be on. I believe the rest is explained in the webpage."
                     },
                     {
-                        "date": "21 minutes ago",
+                        "date": "26 minutes ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
