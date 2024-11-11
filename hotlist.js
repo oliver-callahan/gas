@@ -1,14 +1,14 @@
 var json = {
-    "code": "<!DOCTYPE html>\n<!--\n\n            WELCOME TO TCW 2024!\n\nHost: TDJ\nJudges: TDJ, HM Wogglebug TE, Quantum Cat, TBD, TBD, TBD.\n\nTCW is an annual team competition that runs in November-December.\nIt consists of 4 challenges & 2 mini challenges, lasting for 5 weeks in total.\n\nHave any questions? Post them in the questions section of the comments & I'll get back to you as soon as I can! =]\n\nTEAM HOMEPAGES:\n    Delfin: TBD\n    Echolite: TBD\n    Foxin: TBD\n\nCREDITS:\n    Bluebird - thumbnail script\n    Gray Wolf - sorting by name\n    w3schools - search function on participants page, prevent default function thing\n    Iron Programming - copy string function\n\n-->\n<html lang=\"en\">\n    <head>\n        <meta charset=\"utf-8\">\n        <title>The Code Wars 2024</title>\n        \n        <link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n        <link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n        <link href=\"https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&family=Black+Ops+One&family=Material+Icons&display=swap\" rel=\"stylesheet\">\n        \n        <!-- Setup styling -->\n        <style>\n            * {\n                overflow-x: hidden;\n                scroll-behavior: smooth;\n            }\n            html {\n                margin: -10px -10px;\n            }\n            body {\n                font-family: \"Roboto\", sans-serif;\n            }\n            \n            ::-webkit-scrollbar {\n                background: white;\n                width: 8px;\n            }\n            ::-webkit-scrollbar-thumb {\n                background: #DB1733;\n                border-radius: 4px;\n            }\n            \n            .page {\n                padding: 50px 20px 10px 20px;\n            }\n            \n            h1, h2, h3 {\n                font-family: \"Roboto\", sans-serif;\n                font-weight: 400;\n                text-shadow: 0px 0px 4px #AAA;\n            }\n            h1 {\n                margin-bottom: -10px;\n            }\n            h2 {\n                margin-bottom: -8px;\n            }\n            \n            a {\n                color: #DB1744;\n                font-weight: 500;\n            }\n            a:hover {\n                color: #BA1744;\n            }\n        </style>\n        <!-- Header styling -->\n        <style>\n            header {\n                position: fixed;\n                top: 0px;\n                left: 0px;\n                width: 100%;\n                z-index: 1;\n            }\n            \n            nav {\n                display: flex;\n                background: #EA1744;\n                color: white;\n            }\n            nav a {\n                padding: 20px;\n                color: white;\n                text-decoration: none;\n            }\n            nav a:hover {\n                cursor: pointer;\n                background: #DB1744;\n                color: white;\n            }\n            \n            #news-banner {\n                background: #EDB230;\n                display: block;\n                padding: 10px;\n                color: #444;\n                font-weight: 700;\n            }\n            #close-news-banner {\n                padding-top: 0px;\n                text-decoration: none;\n                color: darkslategray;\n                float: right;\n                font-size: 20px;\n                transition: 0.3s all;\n            }\n            #close-news-banner:hover {\n                transform: scale(1.2);\n            }\n        </style>\n        <!-- Home page styling -->\n        <style>\n            #i-need-a-herooo {\n                margin: 15px -20px 0px -20px;\n                background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Programming.jpg/800px-Programming.jpg');\n                background-size: cover;\n                background-repeat: no-repeat;\n                border-bottom: 40px solid #EA1744;\n            }\n            #i-need-a-herooo h1 {\n                margin: 0px;\n                background: linear-gradient(#0004, #0008);\n                text-align: center;\n                -webkit-text-stroke: 4px white;\n                text-stroke: 4px solid white;\n                text-shadow: 0px 0px 20px white;\n                font-family: \"Black Ops One\";\n                font-size: 88px;\n                font-weight: 500;\n                padding: 145px 20px 135px 20px;\n                color: #EA1744;\n            }\n            \n            #comp-stats {\n                background: #DB1744;\n                display: flex;\n                text-align: center;\n                padding: 30px 30px 30px 100px;\n                border-radius: 30px;\n                color: white;\n                font-size: 20px;\n                font-weight: 600;\n                box-shadow: 0px 0px 10px black;\n                transition: 0.5s all;\n            }\n            #comp-stats:hover {\n                transform: scale(1.02);\n                cursor: pointer;\n            }\n            #comp-stats div {\n                padding-right: 50px;\n            }\n            \n            #joinup {\n                background: #DB1744;\n                display: flex;\n                height: 28px;\n                padding: 30px;\n                text-align: center;\n                border-radius: 30px;\n                color: white;\n                font-size: 20px;\n                font-weight: 600;\n                box-shadow: 0px 0px 10px black;\n                transition: 0.5s all;\n            }\n            #joinup h2 {\n                margin-top: -5px;\n                padding-right: 400px;\n            }\n            #joinup:hover {\n                transform: scale(1.02);\n                cursor: pointer;\n            }\n        </style>\n        <!-- Teams page styling -->\n        <style>\n            .avatar-lineup {\n                display: inline;\n            }\n            .avatar-lineup img {\n                width: 100px;\n            }\n        </style>\n        <!-- Join page styling -->\n        <style>\n            label {\n                font-weight: bold;\n            }\n            select, input {\n                background: #EA1744;\n                color: white;\n                margin-bottom: 5px;\n                padding: 2px;\n                border: none;\n            }\n            input {\n                border: 1px solid slategray;\n            }\n            input:focus {\n                outline: 0;\n            }\n            ::placeholder {\n                color: white;\n            }\n            \n            #submit-joinform {\n                margin-left: 220px;\n                margin-bottom: 20px;\n                background: #EA1744;\n                color: white;\n                font-weight: bold;\n                font-size: 20px;\n                padding: 10px 30px;\n                border: none;\n                border-radius: 6px;\n                transition: 0.5s;\n            }\n            #submit-joinform:hover {\n                cursor: pointer;\n                box-shadow: 0px 2px 8px darkslategray;\n            }\n        </style>\n        <!-- Challenges page styling -->\n        <style>\n            .challenge {\n                margin-top: -10px;\n            }\n            .challenge h2 {\n                background: #EA1744;\n                color: white;\n                font-weight: 500;\n                padding: 5px 8px;\n                margin-left: 20px;\n                margin-bottom: -25px;\n            }\n            .challenge p {\n                width: 90%;\n                border: dashed #EA1744;\n                padding: 15px;\n            }\n        </style>\n        <!-- Participants page styling -->\n        <style>\n            table {\n                margin-bottom: 5px;\n            }\n            th {\n                text-align: left;\n            }\n            \n            .participant {\n                overflow: hidden;\n                width: 540px;\n                height: 50px;\n                border: 1px dashed;\n                border-radius: 10px;\n                margin-bottom: 10px;\n                transition: 1s all;\n            }\n            .participant:hover {\n                background: #EEE;\n            }\n            \n            .participant-link {\n                position: absolute;\n                margin-left: 10px;\n                margin-top: 16px;\n            }\n            .participant-img {\n                width: 50px;\n                margin-left: 5px;\n            }\n            .participant-level {\n                position: absolute;\n                margin-top: 16px;\n                left: 300px;\n            }\n            .participant-points {\n                position: absolute;\n                margin-top: 16px;\n                right: 60px;\n            }\n            \n            #show-score {\n                background: #0006;\n                position: fixed;\n                left: 0px;\n                top: 0px;\n                z-index: 1;\n                padding-top: 100px;\n                padding-left: 100px;\n                width: 700px;\n                height: 700px;\n            }\n            #show-score-box {\n                background: white;\n                width: 400px;\n                height: 400px;\n            }\n            #show-score-info {\n                margin-top: -20px;\n                padding: 20px;\n            }\n            #show-score-close {\n                position: absolute;\n                top: 100px;\n                left: 460px;\n                font-size: 40px;\n            }\n        </style>\n        <!-- Judging page styling -->\n        <style>\n            #judges {\n                display: grid;\n                grid-template-columns: auto auto;\n                padding: 10px 10%;\n            }\n            \n            .judge {\n                margin: 10% 10%;\n                overflow: hidden;\n                width: 170px;\n                height: 240px;\n                background: #555;\n                border: 2px solid #EA1744;\n                box-shadow: 0px 0px 10px #EA1744;\n                border-radius: 10px;\n                color: white;\n                text-decoration: none;\n                text-align: center;\n                transition: 0.5s all;\n            }\n            .judge:hover {\n                color: white;\n                transform: scale(1.05);\n            }\n            .judge img {\n                max-width: 130px;\n                margin-top: 0px;\n                margin-bottom: -30px;\n            }\n            .judge-info {\n                padding: 5px;\n            }\n            .judge h3 {\n                text-shadow: 0px 0px 5px white;\n                margin-bottom: -5px;\n            }\n        </style>\n    </head>\n    \n    <body>\n        <!-- Header -->\n        <header>\n            <div id=\"news-banner\">\n                <span id=\"news-message\"></span>\n                <a href=\"javascript: closeBanner()\" id=\"close-news-banner\" class=\"material-icons\">close</a>\n            </div>\n            \n            <nav>\n                <a href=\"javascript: changePage(0)\" class=\"material-icons\" title=\"Home\">home</a>\n                <a href=\"javascript: changePage(1)\" class=\"material-icons\" title=\"Teams\">bug_report</a>\n                <a href=\"javascript: changePage(2)\" class=\"material-icons\" title=\"Join\">group_add</a>\n                <a href=\"javascript: changePage(3)\" class=\"material-icons\" title=\"Challenges\">playlist_add_check</a>\n                <a href=\"javascript: changePage(4)\" class=\"material-icons\" title=\"Participants\">groups</a>\n                <a href=\"javascript: changePage(5)\" class=\"material-icons\" title=\"Scores\">leaderboard</a>\n                <a href=\"javascript: changePage(6)\" class=\"material-icons\" title=\"Judging\">gavel</a>\n            </nav>\n        </header>\n        \n        <!-- Home page -->\n        <div class=\"page\">\n            <div id=\"i-need-a-herooo\">\n                <h1>THE CODE WARS 2024</h1>\n            </div>\n            \n            <h1>Welcome to TCW 2024!</h1>\n            \n            <h2>What is TCW?</h2>\n            <p>The Code Wars (TCW) is an annual team coding competition is hosted by <a href=\"https://www.khanacademy.org/profile/kaid_682972421482671044758972/projects\" target=\"_blank\">TDJ</a>.<br></p>\n            \n            <h2>TCW Stats</h2><br>\n            <div id=\"comp-stats\">\n                <div><span class=\"material-icons\">people</span><br>175+ participants</div><!--178 participants-->\n                <div><span class=\"material-icons\">terminal</span><br>190+ entries</div><!--191 entries-->\n            </div>\n            \n            <h2>How does it work?</h2>\n            <p>Each participant creates an entry for their team & submits it in the entry thread for the challenge. These entries are scored & the points added to the team's total. The team with the most points at the end wins!</p>\n            \n            <div id=\"joinup\" onclick=\"javascript: changePage(1)\">\n                <h2>JOIN</h2>\n                <span class=\"material-icons\">keyboard_double_arrow_right</span>\n            </div>\n        </div>\n        \n        <!-- Teams page -->\n        <div class=\"page\">\n            <h1>Teams</h1>\n            \n            <h2><a href=\"https://www.khanacademy.org/computer-programming/avatar-for-shatter/6274676578107392\" target=\"_blank\">Delfin</a></h2><br>\n            <div class=\"avatar-lineup\">\n                <img src=\"https://www.khanacademy.org/computer-programming/spin-off-of-delfin-redo-seed/6147299433431040/latest.png\">\n                <img src=\"https://www.khanacademy.org/computer-programming/spin-off-of-delfin-redo-seedling/6411448403017728/latest.png\">\n                <img src=\"https://www.khanacademy.org/computer-programming/spin-off-of-delfin-redo-sapling/6504553093447680/latest.png\">\n                <img src=\"https://www.khanacademy.org/computer-programming/spin-off-of-delfin-redo-tree/4906544341630976/latest.png\">\n                <img src=\"https://www.khanacademy.org/computer-programming/spin-off-of-delfin-redo-ultimate/4569475014639616/latest.png\">\n            </div><br>\n            <strong>Creator: <a href=\"https://www.khanacademy.org/profile/kaid_714276242204949021450419/projects\" target=\"_blank\">Ace Rogers</a></strong>\n            <p>The Delfin is a new species of Dolphin. The Delfin leaves deep down in the sea, preferring to keep to themselves. They live in packs and if danger or a challange appears, they work together to defeat it.<br><br>Being built mostly like a Dolphin, Delfin has spikes that grow out of their backs when they are fully grown. They also have designs on their scales.<br><br>Some of their favorite things to do are to play around with other Delfins, hunting for their food and defending their friends and homes.</p>\n            \n            <h2><a href=\"https://www.khanacademy.org/computer-programming/i/4974893918109696\" target=\"_blank\">Echolite</a></h2><br>\n            <div class=\"avatar-lineup\">\n                <img src=\"https://www.khanacademy.org/computer-programming/echolite-seed/5109190787514368/latest.png\">\n                <img src=\"https://www.khanacademy.org/computer-programming/echolite-seedling/6518104578768896/latest.png\">\n                <img src=\"https://www.khanacademy.org/computer-programming/echolite-sapling/6576545661108224/latest.png\">\n                <img src=\"https://www.khanacademy.org/computer-programming/echolite-tree/6435808172752896/latest.png\">\n                <img src=\"https://www.khanacademy.org/computer-programming/echolite-ultimate/6581001958113280/latest.png\">\n            </div><br>\n            <strong>Creator: <a href=\"https://www.khanacademy.org/profile/kaid_659800661397715681487277/projects\" target=\"_blank\">Samwise</a></strong>\n            <p>Echolites are reasonably small, feathered Avatars. They live in the rainforest canopy, eating small insects and drinking nectar. You have to be lucky to ever spot them, as they're very elusive and well camouflaged. They love to hover in place like hummingbirds. Echolites are allies to many other avatars. They prefer to remain peaceful at all times. They take good care of their young, and are fiercely loyal. They aways have each other's back. All for one, and one for all!</p>\n            \n            <h2><a href=\"https://www.khanacademy.org/computer-programming/foxin/6499781393170432\" target=\"_blank\">Foxin</a></h2><br>\n            <div class=\"avatar-lineup\">\n                <img src=\"https://www.khanacademy.org/computer-programming/spin-off-of-foxin-seed/4774518598844416/latest.png\">\n                <img src=\"https://www.khanacademy.org/computer-programming/spin-off-of-foxin-seedling/4925415563902976/latest.png\">\n                <img src=\"https://www.khanacademy.org/computer-programming/spin-off-of-foxin-sapling/5667073033158656/latest.png\">\n                <img src=\"https://www.khanacademy.org/computer-programming/spin-off-of-foxin-tree/6572573035773952/latest.png\">\n                <img src=\"https://www.khanacademy.org/computer-programming/spin-off-of-foxin-ultimate/6155493056626688/latest.png\">\n            </div><br>\n            <strong>Creator: <a href=\"https://www.khanacademy.org/profile/kaid_714276242204949021450419/projects\" target=\"_blank\">Ace Rogers</a></strong>\n            <p>The Foxins are sneaky and smart. They lurk in the shadows then attack their foes by surprise, coming at them in huge numbers. They do whatever they can to have the upper hand.<br><br>Being a special breed of Fox, they have big ears that allow them to hear very well. Their fur comes in orange, brown and white. Their eyes are keen on details.<br><br>Some of their favorite things to do is to tackle other of their kind, hunting, confusing their enemies.</p>\n        </div>\n        \n        <!-- Join page -->\n        <div class=\"page\">\n            <h1>Join</h1>\n            \n            <p>Please note that not all teams will be available at times. Sometimes options will be restricted, in order to even teams out.</p>\n            \n            <form id=\"join-form\" style=\"margin-top: 10px\">\n                <label for=\"join-level\">Level:</label>\n                <select id=\"join-level\" required>\n                    <option value=\"0\">Beginner</option>\n                    <option value=\"1\">Familiar</option>\n                    <option value=\"2\">Intermediate</option>\n                    <option value=\"3\">Advanced</option>\n                    <option value=\"4\">Expert</option>\n                </select><br>\n                \n                <label for=\"join-team\">Team:</label>\n                <select id=\"join-team\" required>\n                    <option value=\"Delfin\">Delfin</option>\n                    <option value=\"Echolite\">Echolite</option>\n                    <option value=\"Foxin\">Foxin</option>\n                </select>\n                <p style=\"display: inline; margin-left: 10px\">View the teams <a href=\"javascript: changePage(1)\">here</a>.</p><br>\n                \n                <label for=\"join-name\">Name:</label>\n                <input id=\"join-name\" placeholder=\"Name\" required><br>\n                \n                <label for=\"join-kaid\">KA ID:</label>\n                <input id=\"join-kaid\" placeholder=\"KA ID\" required><p style=\"display: inline; margin-left: 10px\">You can find your KA ID <a href=\"https://www.khanacademy.org/support\" target=\"_blank\">here</a>.</p><br>\n                \n                <br>\n\n                <strong style=\"color: #EA1744\">Your join code will be automatically copied to your clipboard. Please paste this (control + v / command + v) in a comment in the join thread in the Tips & Thanks tab of the comments.</strong>\n\n                <br><br>\n                \n                <button type=\"submit\" id=\"submit-joinform\" onclick=\"javascript: copyJoinCode()\">Submit</button><br>\n\n                <p>Note: You will not be added to the participants list immediately. Please be patient & I will add you within a day or two. =]</p>\n            </form>\n            \n            <!--Join Code-->\n            <script>\n                // don't do stupid stuff =P (credit to w3schools)\n                document.getElementById(\"submit-joinform\").addEventListener(\"click\", function(event){\n                    event.preventDefault();\n                });\n                \n                // create join code\n                function copyJoinCode() {\n                    var teamName = document.getElementById(\"join-team\").value;;\n                    var Level = document.getElementById(\"join-level\").value;\n                    var Name = document.getElementById(\"join-name\").value;\n                    var Kaid = document.getElementById(\"join-kaid\").value;\n                    var joinCode = \"{name: '\" + Name + \"', kaid: '\" + Kaid + \"',team: '\" + teamName + \"',level: \" + Level + \",points: [0,0,0,0,0,0],},\";\n                    copyStringToClipboard(joinCode);\n                    changePage(0);\n                }\n        \n                //Credit to Iron Programming\n                function copyStringToClipboard(str) {\n                    // Create new element\n                    var el = document.createElement('textarea');\n                    // Set value (string to be copied)\n                    el.value = str;\n                    // Set non-editable to avoid focus and move outside of view\n                    el.setAttribute('readonly', '');\n                    el.style = {\n                        position: 'absolute',\n                        left: '-9999px'\n                    };\n                    document.body.appendChild(el);\n                    // Select text inside element\n                    el.select();\n                    // Copy text to clipboard\n                    document.execCommand('copy');\n                    // Remove temporary element\n                    document.body.removeChild(el);\n                }\n            </script>\n        </div>\n        \n        <!-- Challenges page -->\n        <div class=\"page\">\n            <h1>Challenges</h1>\n            <p>Challenges are scored out of 10 points, mini challenges out of 5.<br>Entries can be webages, PJS, SQL or Python, unless otherwise specified.<br>Challenges are due at 11:59pm EST.</p>\n            \n            <div class=\"challenge\">\n                <h2>Homepage Challenge (Challenge 0)</h2>\n                <p>Create a homepage for your team.<br><em>11-18 November</em></p>\n            </div>\n            \n            <div class=\"challenge\">\n                <h2>Challenge 1 - Team Avatar</h2>\n                <p>Use your team avatar in a program.<br><em>18-25 November</em></p>\n            </div>\n            \n            <div class=\"challenge\">\n                <h2>Challenge 2 - Python</h2>\n                <p>Create a <a href=\"https://www.khanacademy.org/computing/intro-to-python-fundamentals\" target=\"_blank\">Python program</a>!<br><em>25 November - 2 December</em></p>\n            </div>\n            \n            <div class=\"challenge\">\n                <h2>Challenge 3 - Collaboration</h2>\n                <p>Your team will split into groups, and each group will work on an entry together. There must be at least 2 people in each group, & each user can only be in one group.<br><em>2-16 December</em></p>\n            </div>\n            \n            <div class=\"challenge\">\n                <h2>Mini Challenge 1 - CSS Challenge</h2>\n                <p>Using the <a href=\"https://www.khanacademy.org/computer-programming/css-challenge-tcw-2024/5827215561244672\" target=\"_blank\">template</a>, add CSS to the webpage to bring it to life! You can only modify the CSS.<br><em>2-9 December</em></p>\n            </div>\n            \n            <div class=\"challenge\">\n                <h2>Mini Challenge 2 - 100 Lines</h2>\n                <p>Create a program in just 100 lines of code.<br><em>9-16 December</em></p>\n            </div>\n        </div>\n        \n        <!-- Participants page -->\n        <div class=\"page\">\n            <h1>Participants</h1>\n            \n            <h3>Search participants:</h3>\n            <input id=\"search\" type=\"text\" placeholder=\"Search...\">\n            \n            <br><br>\n            \n            <table>\n                <thead>\n                    <th><a href=\"javascript: sortByTeam()\">Team</a></th>\n                    <th><a href=\"javascript: sortByName()\" style=\"margin-left: 18px\">Name</a></th>\n                    <th><a href=\"javascript: sortByLevel()\" style=\"margin-left: 170px\">Level</a></th>\n                    <th><a href=\"javascript: sortByPoints()\" style=\"margin-left: 150px\">Points</a></th>\n                </thead>\n            </table>\n            \n            <!-- list of participants -->\n            <div id=\"participants-table\"></div>\n            \n            <!-- detailed view of participant scores -->\n            <div id=\"show-score\">\n                <div id=\"show-score-box\">\n                    <div id=\"show-score-info\"></div>\n                </div>\n                <a href=\"javascript: closeScoreBox()\" id=\"show-score-close\" class=\"material-icons\">close</a>\n            </div>\n        </div>\n        \n        <!-- Scores page -->\n        <div class=\"page\">\n            <h1>Scores</h1>\n            \n            <br>\n            \n            <canvas id=\"myChart\" style=\"width: 100%\"></canvas>\n            \n            <script src=\"https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js\"></script>\n            <script>\n                var xValues = [\"Delfin\", \"Echolite\", \"Foxin\"];\n                var yValues = [0, 0, 0, 0, 50];\n                var barColors = [\"skyblue\", \"#0A2\", \"darkorange\"];\n                \n                new Chart(\"myChart\", {\n                    type: \"bar\",\n                    data: {\n                        labels: xValues,\n                        datasets: [{\n                            backgroundColor: barColors,\n                            data: yValues\n                        }]\n                    },\n                    options: {\n                        legend: {\n                            display: false,\n                        },\n                    },\n                });\n            </script>\n        </div>\n        \n        <!-- Judging page -->\n        <div class=\"page\">\n            <h1>Judging</h1>\n            \n            <h2>Criteria</h2>\n            <ul>\n                <li>Complexity</li>\n                <li>Readability</li>\n                <li>Graphics</li>\n                <li>Interactivity</li>\n                <li>Efficiency</li>\n            </ul>\n            \n            <h2>Judges</h2>\n            <div id=\"judges\">\n                <a class=\"judge\" href=\"https://www.khanacademy.org/profile/kaid_682972421482671044758972/projects\" target=\"_blank\">\n                    <img src=\"https://cdn.kastatic.org/images/avatars/svg/boggle-green.svg\">\n                    <div class=\"judge-info\">\n                        <h3>TDJ</h3>\n                        <p>The host.</p>\n                    </div>\n                </a>\n                \n                <a class=\"judge\" href=\"https://www.khanacademy.org/profile/kaid_9428127706426004539463954/projects\" target=\"_blank\">\n                    <img src=\"https://cdn.kastatic.org/images/avatars/svg/stelly-yellow.svg\">\n                    <div class=\"judge-info\">\n                        <h3>Quantum Cat</h3>\n                        <p>Creator of cool games and graphics in both JS and Python.</p>\n                    </div>\n                </a>\n                \n                <a class=\"judge\" href=\"https://www.khanacademy.org/profile/kaid_2128909595278771717919649/projects\" target=\"_blank\">\n                    <img src=\"https://cdn.kastatic.org/images/avatars/svg/boggle-green.svg\">\n                    <div class=\"judge-info\">\n                        <h3>HM Wogglebug TE</h3>\n                        <p>Math enthusiast & programming guru.</p>\n                    </div>\n                </a>\n                \n                <!--<a class=\"judge\" href=\"https://www.khanacademy.org/profile/kaid_682972421482671044758972/projects\" target=\"_blank\">\n                    <img src=\"https://cdn.kastatic.org/images/avatars/svg/boggle-green.svg\">\n                    <div class=\"judge-info\">\n                        <h3>TDJ</h3>\n                        <p>The host.</p>\n                    </div>\n                </a>\n                \n                <a class=\"judge\" href=\"https://www.khanacademy.org/profile/kaid_682972421482671044758972/projects\" target=\"_blank\">\n                    <img src=\"https://cdn.kastatic.org/images/avatars/svg/boggle-green.svg\">\n                    <div class=\"judge-info\">\n                        <h3>TDJ</h3>\n                        <p>The host.</p>\n                    </div>\n                </a>-->\n            </div>\n        </div>\n        \n        <!-- Participants script -->\n        <script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js\"></script>\n        <script>\n            var Participants = [\n                \n            ];\n            \n            var table = document.getElementById('participants-table');\n            \n            function createTable() {\n                table.innerHTML = \"\";\n                \n                for (var i = 0; i < Participants.length; i++) {\n                    var p = Participants[i];\n                    var img;\n                    var level;\n                    var total = Math.round(100 * (p.points[0] + p.points[1] + p.points[2] + p.points[3] + p.points[4] + p.points[5])) / 100;\n                    \n                    switch (p.team) {\n                        case \"Delfin\":\n                            switch (p.level) {\n                                case 0:\n                                    img = \"https://www.khanacademy.org/computer-programming/spin-off-of-delfin-redo-seed/6147299433431040/latest.png\";\n                                break;\n                                case 1:\n                                    img = \"https://www.khanacademy.org/computer-programming/spin-off-of-delfin-redo-seedling/6411448403017728/latest.png\";\n                                break;\n                                case 2:\n                                    img = \"https://www.khanacademy.org/computer-programming/spin-off-of-delfin-redo-sapling/6504553093447680/latest.png\";\n                                break;\n                                case 3:\n                                    img = \"https://www.khanacademy.org/computer-programming/spin-off-of-delfin-redo-tree/4906544341630976/latest.png\";\n                                break;\n                                case 4:\n                                    img = \"https://www.khanacademy.org/computer-programming/spin-off-of-delfin-redo-ultimate/4569475014639616/latest.png\";\n                                break;\n                            }\n                        break;\n                        \n                        case \"Echolite\":\n                            switch (p.level) {\n                                case 0:\n                                    img = \"https://www.khanacademy.org/computer-programming/echolite-seed/5109190787514368/latest.png\";\n                                break;\n                                case 1:\n                                    img = \"https://www.khanacademy.org/computer-programming/echolite-seedling/6518104578768896/latest.png\";\n                                break;\n                                case 2:\n                                    img = \"https://www.khanacademy.org/computer-programming/echolite-sapling/6576545661108224/latest.png\";\n                                break;\n                                case 3:\n                                    img = \"https://www.khanacademy.org/computer-programming/echolite-tree/6435808172752896/latest.png\";\n                                break;\n                                case 4:\n                                    img = \"https://www.khanacademy.org/computer-programming/echolite-ultimate/6581001958113280/latest.png\";\n                                break;\n                            }\n                        break;\n                        \n                        case \"Foxin\":\n                            switch (p.level) {\n                                case 0:\n                                    img = \"https://www.khanacademy.org/computer-programming/spin-off-of-foxin-seed/4774518598844416/latest.png\";\n                                break;\n                                case 1:\n                                    img = \"https://www.khanacademy.org/computer-programming/spin-off-of-foxin-seedling/4925415563902976/latest.png\";\n                                break;\n                                case 2:\n                                    img = \"https://www.khanacademy.org/computer-programming/spin-off-of-foxin-sapling/5667073033158656/latest.png\";\n                                break;\n                                case 3:\n                                    img = \"https://www.khanacademy.org/computer-programming/spin-off-of-foxin-tree/6572573035773952/latest.png\";\n                                break;\n                                case 4:\n                                    img = \"https://www.khanacademy.org/computer-programming/spin-off-of-foxin-ultimate/6155493056626688/latest.png\";\n                                break;\n                            }\n                        break;\n                    }\n                    \n                    switch(p.level) {\n                        case 0:\n                            level = \"Beginner\";\n                        break;\n                        case 1:\n                            level = \"Familiar\";\n                        break;\n                        case 2:\n                            level = \"Intermediate\";\n                        break;\n                        case 3:\n                            level = \"Advanced\";\n                        break;\n                        case 4:\n                            level = \"Expert\";\n                        break;\n                    }\n                    \n                    table.innerHTML += \"<div class='participant'><img src='\" + img + \"' class='participant-img'><a href='https://www.khanacademy.org/profile/\" + p.kaid + \"/projects' class='participant-link' target='_blank'>\" + p.name + \"</a><span class='participant-level'>\" + level + \"</span><a href='javascript:showScore(\" + i + \")' class='participant-points'>\" + total + \"</a></div>\";\n                }\n                \n                // when no participants 😭\n                if (Participants.length === 0) {\n                    table.innerHTML = \"<h3 style='margin-top: 0px'>No participants yet.</h3><br>\";\n                }\n            }\n            createTable();\n            \n            // sorting participants\n            var sortTeamMode = \"ascending\";\n            var sortNameMode = \"a-z\";\n            var sortLevelMode = \"ascending\";\n            var sortPointsMode = \"ascending\";\n            function sortByTeam() {\n                if (sortTeamMode === \"descending\") {\n                    sortTeamMode = \"ascending\";\n                } else {\n                    sortTeamMode = \"descending\";\n                }\n                \n                if (sortTeamMode === \"ascending\") {\n                    Participants.sort(function(a, b) {\n                        return a.team.toUpperCase() < b.team.toUpperCase() ? 1 : -1;\n                    });\n                } else {\n                    Participants.sort(function(a, b) {\n                        return a.team.toUpperCase() < b.team.toUpperCase() ? -1 : 1;\n                    });\n                }\n                \n                createTable();\n            }\n            function sortByName() {\n                if (sortNameMode === \"z-a\") {\n                    sortNameMode = \"a-z\";\n                } else {\n                    sortNameMode = \"z-a\";\n                }\n                \n                // credit to Gray Wolf for name sorting\n                if (sortNameMode === \"z-a\") {\n                    Participants.sort(function(a, b) {\n                        return a.name.toUpperCase() < b.name.toUpperCase() ? -1 : 1;\n                    });\n                } else {\n                    Participants.sort(function(a, b) {\n                        return a.name.toUpperCase() < b.name.toUpperCase() ? 1 : -1;\n                    });\n                }\n                \n                createTable();\n            }\n            function sortByLevel() {\n                if (sortLevelMode === \"descending\") {\n                    sortLevelMode = \"ascending\";\n                } else {\n                    sortLevelMode = \"descending\";\n                }\n                \n                if (sortLevelMode === \"ascending\") {\n                    Participants.sort(function(a, b) {\n                        return a.level - b.level;\n                    });\n                } else {\n                    Participants.sort(function(a, b) {\n                        return b.level - a.level;\n                    });\n                }\n                \n                createTable();\n            }\n            function sortByPoints() {\n                if (sortPointsMode === \"descending\") {\n                    sortPointsMode = \"ascending\";\n                } else {\n                    sortPointsMode = \"descending\";\n                }\n                \n                if (sortPointsMode === \"ascending\") {\n                    Participants.sort(function(a, b) {\n                        return (a.points[0] + a.points[1] + a.points[2] + a.points[3] + a.points[4] + a.points[5]) - (b.points[0] + b.points[1] + b.points[2] + b.points[3] + b.points[4] + b.points[5]);\n                    });\n                } else {\n                    Participants.sort(function(a, b) {\n                        return (b.points[0] + b.points[1] + b.points[2] + b.points[3] + b.points[4] + b.points[5]) - (a.points[0] + a.points[1] + a.points[2] + a.points[3] + a.points[4] + a.points[5]);\n                    });\n                }\n                \n                createTable();\n            }\n            \n            // showing detailed score view for participants\n            var scoreBox = document.getElementById('show-score');\n            var scoreBoxInfo = document.getElementById('show-score-info');\n            function showScore(user) {\n                var p = Participants[user];\n                var points = [];\n                for (var i = 0; i < p.points.length; i++) {\n                    points[i] = Math.round(100 * p.points[i])/100;\n                }\n                \n                // update stats/info\n                scoreBoxInfo.innerHTML = \"<h2>\" + p.name + \"</h2><br><strong>Homepage Challenge: </strong><span>\" + points[0] + \"</span><br><strong>Challenge 1: </strong><span>\" + points[1] + \"</span><br><strong>Challenge 2: </strong><span>\" + points[2] + \"</span><br><strong>Challenge 3: </strong><span>\" + points[3] + \"</span><br><strong>Mini Challenge 1: </strong><span>\" + points[4] + \"</span><br><strong>Mini Challenge 2: </strong><span>\" + points[5] + \"</span>\";\n                \n                scoreBox.style.display = \"block\";// show box\n            }\n            function closeScoreBox() {\n                scoreBox.style.display = \"none\";// hide box\n            }\n            closeScoreBox();\n            \n            // searching table\n            $(document).ready(function(){\n                $(\"#search\").on(\"keyup\", function() {\n                    var value = $(this).val().toLowerCase();\n                    $(\".participant\").filter(function() {\n                        $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)\n                    });\n                });\n            });\n        </script>\n        \n        <!-- News banner & page changing script -->\n        <script>\n            var pages = document.getElementsByClassName('page');\n            \n            var message = 0;\n            var news = [\n                \"Joining is open! <a href='javascript:changePage(2)'>Sign up</a> now!\",\n                \"🏠 The Homepage Challenge has begun!\",\n                \"Challenge 1 has begun!\",\n                \"Challenge 2 has begun!\",\n                \"Challenge 3 & Mini Challenge 1 has begun!\",\n                \"Mini Challenge 2 has begun!\",\n                \"⏲ Challenge 3 is due!\",\n                \"The <a href='' target='_blank'>results</a> have been posted! 🥳\",\n                \"TCW is over. Post a period (.) in the news thread to be notified of TCW 2025!\",\n            ];\n            var banner = document.getElementById('news-banner');\n            var newsMessage = document.getElementById('news-message');\n            \n            function addMessage() {\n                for (var i = 0; i < pages.length; i++) {\n                    pages[i].style.paddingTop = \"90px\";\n                }\n                newsMessage.innerHTML = news[message];\n            }\n            addMessage();\n            function closeBanner() {\n                for (var i = 0; i < pages.length; i++) {\n                    pages[i].style.paddingTop = \"50px\";\n                }\n                banner.style.display = \"none\";\n            }\n            \n            function changePage(index) {\n                for (var i = 0; i < pages.length; i++) {\n                    pages[i].style.display = 'none';\n                }\n                pages[index].style.display = 'block';\n                window.scroll(0, 0);\n            }\n            changePage(0);\n        </script>\n        \n        <!--The Thumbnail Script 2.1.0 12/18/2023 by Bluebird@kaid_157624541333313939750668--><script src=\"https://cdn.jsdelivr.net/npm/html2canvas@1.4.1/dist/html2canvas.min.js\"></script><script type>var r=600,s=document.documentElement.clientWidth;window.parent.html2canvas=t=>{try{html2canvas(document.body,{width:s,height:s,useCORS:!0,onclone:t=>t.getAnimations().forEach((t=>{try{t.finish()}catch{}}))}).then((t=>{var e=document.createElement(\"canvas\");e.width=r,e.height=r,e.getContext(\"2d\").drawImage(t,0,0,t.width,t.height,0,0,r,r),window.top.postMessage(e.toDataURL(),\"*\")})).catch((t=>{alert(\"Thumbnail Script Error: \"+t)}))}catch{window.top.postMessage(document.createElement(\"canvas\").toDataURL(),\"*\")}};</script>\n    </body>\n</html>\n",
-    "title": "The Code Wars 2024",
-    "votes": 25,
-    "created": "10 hours ago",
-    "updated": "6 hours ago",
-    "type": "HTML",
+    "code": "//i made a cringe pjs platformer\n\n// WARNING this game is very hard\n\n\n\nvar timeMultiplier=1;\nvar playerRadius=12;\nvar wallThickness=5;\nvar gravity=500;\nvar jumpPower=275;\nvar walkSpeed=950;\nvar friction=5;\nvar mirrorReach=18;\nvar mirrorWidth=25;\nvar healthDeplete=3;\nvar controlMirrorWithArrowKeys=false;\n\nvar level=0;\n\n\nvar s=599;\nvar levels=[\n    \n    {\n        spawn:[50,550],\n        end:[56,327],\n        walls:[\n            [0,0,s,0],\n            [0,s,s,s],\n            [0,0,0,s],\n            [s,0,s,s],\n            [129,530,212,530],\n            [277,481,334,481],\n            [533,383,404,454],\n            [0,355,417,355],\n        ],\n        pointers:[\n            [107,6,-9],\n            [415,6,18],\n        ],\n        texts:[\n            ['A basic platformer\\nbut with a twist.',114,430],\n            ['Use your mirror to\\nreflect the deadly lazers.',470,215],\n        ]\n    },\n    {\n        spawn:[50,170],\n        end:[565,569],\n        walls:[\n            [0,0,s,0],\n            [0,s,s,s],\n            [0,0,0,s],\n            [s,0,s,s],\n            [0,200,465,200],\n            [118,358,602,289],\n            [118,358,102,432],\n        ],\n        pointers:[\n            [587,359,53.0,9],\n        ],\n        texts:[\n            ['Lazers bounce off walls.',254,123],\n        ]\n    },\n    {\n        spawn:[209,100],\n        end:[276,575],\n        walls:[\n            [200,30,400,30],\n            [350,120,400,120],\n            [150,120,250,120],\n            [150,120,200,30],\n            [400,120,400,30],\n            [250,80,250,600],\n            [350,120,350,600],\n            [250,s,350,s],\n        ],\n        pointers:[\n            [398,71,function(t){return Math.sin(t)*13+64;},10],\n        ],\n        \n    },\n    {\n        spawn:[570,580],\n        end:[25,20],\n        walls:[\n            [0,0,s,0],\n            [0,s,s,s],\n            [0,0,0,s],\n            [s,0,s,s],\n            [379,534,450,534],\n            [270,484,350,484],\n            [270,414,350,414],\n            [270,344,350,344],\n            [290,274,330,274],\n            [330,274,497,159],\n            [380,132,438,146],\n            [357,132,291,146],\n            [190,132,291,146],\n            [44,85,142,106],\n        ],\n        pointers:[\n            [574,9,16,4],\n            [9,364,-75,4],\n            [209,9,68,3],\n            [13,591,218],\n        ],\n        \n    },\n    {\n        spawn:[300,583],\n        end:[149,70],\n        walls:(function(){\n            \n            var arr=[\n                [100,147,100,440],\n                [100,147,245,40],\n                [400,441,492,452],\n                [400,441,268,371],\n                [475,311,301,336],\n                [175,235,399,264],\n                [175,235,184,575],\n                [100,398,70,412],\n                [9,374,28,375],\n                [100,338,62,338],\n                [100,278,62,278],\n                [100,208,62,208],\n            ];\n            \n            for(var i=0;i<360;i+=5){\n                arr.push([cos(i)*300+300,sin(i)*300+300,cos(i+5)*300+300,sin(i+5)*300+300]);\n            }\n            \n            return arr;\n        })(),\n        pointers:[\n            [516,101,25,7],\n            [404,27,92,10],\n        ],\n        \n    },\n    {\n        spawn:[47,33],\n        end:[568,319],\n        walls:[\n            [0,0,s,0],\n            [0,0,0,s],\n            [s,0,s,s],\n            [0,70,514,70],\n            [100,68,100,39],\n            [597,153,500,159],\n            [385,217,499,159],\n            [368,217,282,211],\n            [53,217,185,246],\n            [425,349,475,200],\n            [277,349,475,408],\n            [277,300,111,314],\n            [276,349,18,369],\n        ],\n        pointers:[\n            [593,54,90],\n            [591,591,99,12],\n            [591,165,100,10],\n            [111,6,function(t){return Math.sin(t*2)*36-45;}],\n        ],\n        \n    },\n    {\n        spawn:[47,583],\n        end:[568,32],\n        walls:[\n            [0,0,s,0],\n            [0,s,s,s],\n            [0,0,0,s],\n            [s,0,s,s],\n            [100,600,100,531],\n            [163,531,100,531],\n            [488,531,375,531],\n            [488,531,604,425],\n            [488,421,425,421],\n            [473-100,421,425-100,421],\n            [473-200,421,425-200,421],\n            [473-300,421,425-300,421],\n            [473-400,421-50,425-400,421-50],\n            [473-100,321,425-100,321],\n            [473-200,321,425-200,321],\n            [473-300,321,425-300,321],\n            [473,321-50,425,321-50],\n            [473-100,221,425-100,221],\n            [473-200,221,425-200,221],\n            [473-300,221,425-300,221],\n            [473-400,221-50,425-400,221-50],\n            [473-100,121,425-100,121],\n            [473-200,121,425-200,121],\n            [473-300,121,425-300,121],\n            [609,121-50,425,121-50],\n        ],\n        pointers:[\n            [593,588,90,1],\n            [104,582,-90,1],\n            [593,588-14,90,1],\n            [104,582-14,-90,1],\n            [593,588-28,90,1],\n            [104,582-28,-90,1],\n            [300,6,function(t){return Math.sin(t*0.4)*80;},1],\n            [6,6,function(t){return Math.sin(t*0.3)*36-45;},1],\n            [594,300,function(t){return Math.sin(t*0.5)*30+90;},1],\n        ],\n        \n    },\n    {\n        spawn:[47,580],\n        end:[568,574],\n        walls:[\n            [0,0,s,0],\n            [0,0,0,s],\n            [s,0,s,s],\n            [0,s,s,s],\n            [500,540,600,540],\n        ],\n        pointers:[\n            [250,9,0],\n            [150,9,0],\n            [350,9,0],\n            [592,9,76,5],\n        ],\n        alarms:[\n            [467,540,348],\n        ],\n        texts:[\n            \n            ['Find a way to\\ndestroy the sensor.',465,427]\n        ]\n    },\n    {\n        spawn:[30,580],\n        end:[570,575],\n        walls:[\n            [0,0,s,0],\n            [0,s,s,s],\n            [0,0,0,s],\n            [s,0,s,s],\n            [243,534,329,544],\n        ],\n        pointers:[\n            [294,9,16],\n            [360,9,-10],\n            [444,9,51,6],\n            [593,12,81.4,6],\n            [7,12,function(t){return Math.sin(t*0.4)*20+330;}],\n        ],\n        alarms:[\n            [269,464,240],\n            [536,493,196],\n            [464,423,606],\n            [285,558,251],\n        ],\n        \n    },\n    {\n        spawn:[50,409],\n        end:[170,53],\n        walls:[\n            [0,0,s,0],\n            [0,s,s,s],\n            [0,0,0,s],\n            [s,0,s,s],\n            [0,430,68,430],\n            [130,392,130,193],\n            [180,193,130,193],\n            [496,70,130,104],\n            [130,103,130,3],\n            [496,70,521,407],\n            [550,462,550,545],\n            [605,462,550,462],\n        ],\n        pointers:[\n            [593,588,90,1],\n            [8,582,-90,1],\n            [593,588-14,90,1],\n            [8,582-14,-90,1],\n            [593,588-28,90,1],\n            [8,582-28,-90,1],\n            [310,7,0],\n        ],\n        alarms:[\n            [228,47,94],\n        ],\n        texts:[['Press F to use your\\nultimate bank robbing tool.',300,495]],\n        plunger:1\n    },\n    {\n        spawn:[40,580],\n        end:[571,527],\n        walls:[\n            [0,0,s,0],\n            [0,s,s,s],\n            [0,0,0,s],\n            [s,0,s,s],\n        ],\n        pointers:[\n            [573,594,180],\n            [573-10,594,180],\n            [573+10,594,180]\n        ],\n        alarms:[\n            [300,300,500],\n            [300,400,500],\n            [300,400,500],\n        ],\n        plunger:1\n    },\n    {\n        spawn:[25,495],\n        end:[578,319],\n        walls:[\n            [0,250,s,250],\n            [s,250,s,350],\n            [50,350,100,350],\n            [150,350,200,350],\n            [250,350,300,350],\n            [350,350,400,350],\n            [450,350,500,350],\n            [550,350,s,350],\n            [50,350,50,519],\n            [0,250,0,519],\n            [0,519,50,519],\n            [150,350,150,519],\n            [250,350,250,519],\n            [350,350,350,519],\n            [450,350,450,519],\n            [550,350,550,519],\n            [100,350,100,519],\n            [200,350,200,519],\n            [300,350,300,519],\n            [400,350,400,519],\n            [500,350,500,519],\n        ],\n        pointers:[\n            [3,300,function(t){return -90-(1-Math.abs(Math.sin(t*2)))*8;}],\n            [596,300,function(t){return 90+(1-Math.abs(Math.sin(t*2)))*8;}]\n        ],\n        alarms:[\n        ],\n        plunger:1\n    },\n    {\n        spawn:[25,30],\n        end:[300,324],\n        walls:[\n            [0,0,s,0],\n            [0,0,0,s],\n            [s,0,s,s],\n            [0,s,s,s],\n            [100,500,100,0],\n            [100,500,500,500],\n            [500,500,500,100],\n            [200,100,500,100],\n            [200,100,200,400],\n            [200,400,400,400],\n            [400,400,400,200],\n            [300,200,440,200],\n            \n            [0,50,50,50],\n            [600,550,547,550],\n            [500,550-70,547,550-70],\n            [600,550-140,547,550-140],\n        ],\n        pointers:[\n            [75,591,180],\n            [175,509,330,7],\n            [107,437,279,1],\n            [595,80,90],\n            [368,106,0],\n            [368-30,106,0],\n            [368-60,106,0],\n            [394,223,90],\n        ],\n        alarms:[\n            [32,540,210],\n            [577,503,237],\n            [244,150,150],\n        ],\n        plunger:1\n    },\n    {\n        spawn:[300,580],\n        end:[300,44],\n        walls:[\n            [0,0,s,0],\n            [0,0,0,s],\n            [s,0,s,s],\n            [0,s,s,s],\n            [275,550,325,550],\n            [60,80,540,80],\n        ],\n        pointers:[\n            [300,300,function(t){return t*80;}],\n            [300,300,function(t){return t*80+60;}],\n            [300,300,function(t){return t*80+60*2;}],\n            [300,300,function(t){return t*80+60*3;}],\n            [300,300,function(t){return t*80+60*4;}],\n            [300,300,function(t){return t*80+60*5;}],\n        ],\n        plunger:1\n    },\n    {\n        spawn:[300,580],\n        end:[0,999],\n        walls:[\n            [0,0,s,0],\n            [0,0,0,s],\n            [s,0,s,s],\n            [0,s,s,s],\n        ],\n        pointers:[],\n        texts:(function(){\n            var arr=[];\n            \n            for(var x=0;x<600;x+=150){\n                \n                for(var y=0;y<600;y+=50){\n                    \n                    arr.push(['YOU WIN!!!',x+sin(y*10)*40+77,y+24]);\n                }\n            }\n            \n            return arr;\n        })(),\n        plunger:1\n    },\n];\n\nfor(var l in levels){\n    \n    var lvl=levels[l];\n    \n    for(var i=lvl.pointers.length;i--;){\n        \n        var t=lvl.pointers[i];\n        \n        t[4]=[-sin(t[2]),cos(t[2])];\n        t[5]=t[2];\n    }\n    for(var i=lvl.walls.length;i--;){\n        \n        var t=lvl.walls[i];\n        \n        var nx=t[0]-t[2],ny=t[1]-t[3],\n            m=1/Math.sqrt(nx*nx+ny*ny);\n        \n        t[4]=[ny*m,-nx*m];\n    }\n}\n\n\nvar mirrorDrawWidth=mirrorWidth-3;\nvar mirrorShineDrawWidth=mirrorDrawWidth*0.9;\nvar mirrorShineOffset=mirrorReach+2;\n\nvar epsilon=0.01;\nvar collisionRad=wallThickness*0.5+playerRadius;\nvar sq_collisionRad=collisionRad*collisionRad;\nvar sq_playerRadius=playerRadius*playerRadius;\nfunction lineLine(x1,y1,x2,y2,x3,y3,x4,y4){\n    \n    var denom=(x1-x2)*(y3-y4)-(y1-y2)*(x3-x4);\n    var t=((x1-x3)*(y3-y4)-(y1-y3)*(x3-x4))/denom;\n    var u=((x2-x1)*(y1-y3)-(y2-y1)*(x1-x3))/denom;\n    \n    if(t>=0&&t<=1&&u>=0&&u<=1){\n        \n        return [x1+t*(x2-x1),y1+t*(y2-y1)];\n    }\n}\nfunction reflect(dx,dy,nx,ny){\n    \n    var neg2dotDN=(nx*dx+ny*dy)*-2;\n    return [dx+neg2dotDN*nx,dy+neg2dotDN*ny];\n}\nfunction closestPointOnLine(px,py,x1,y1,x2,y2){\n    \n    var delX=x2-x1,delY=y2-y1,\n        t=constrain(((px-x1)*delX+(py-y1)*delY)/(delX*delX+delY*delY),0,1);\n    \n    delX*=t;\n    delY*=t;\n    delX+=x1;\n    delY+=y1;\n    \n    return [delX,delY];\n}\n\n\n\nvar player={\n    \n    x:0,y:0,\n    vx:0,vy:0,\n    rad:playerRadius,drawDiam:playerRadius*2,\n    theta:0,\n    mirrorDir:[0,0],\n    health:1,\n    item:'mirror'\n},\n    keys={};\n    \nvar then=Date.now(),dt=0,time=0,theta=0;\nvar theLevel;\nvar sMouseX=0,sMouseY=0;\n\n\nfunction rotateItem(){\n    \n    if(!theLevel.plunger){return;}\n    \n    player.item={\n        mirror:'plunger',\n        plunger:'mirror'\n    }[player.item];\n}\nkeyPressed=function(){\n    \n    if(keyCode===70){\n        rotateItem();\n    }\n    keys[keyCode]=1;\n};\nkeyReleased=function(){\n    \n    keys[keyCode]=0;\n};\nmousePressed=function(){\n    if(mouseButton===39){\n        rotateItem();\n    }\n};\n\nfunction setLevel(lvl){\n    \n    level=lvl;\n    player.item='mirror';\n    theLevel=levels[lvl];\n    player.vx=0;\n    player.vy=0;\n    player.x=theLevel.spawn[0];\n    player.y=theLevel.spawn[1];\n    player.health=1;\n    \n    theLevel.texts=theLevel.texts||[];\n    theLevel.alarms=theLevel.alarms||[];\n    for(var i=theLevel.alarms.length;i--;){\n        \n        var t=theLevel.alarms[i];\n        \n        t[3]=1;\n        t[4]=t[2]*0.5+playerRadius;\n        t[4]*=t[4];\n    }\n}\n\nsetLevel(level);\n\nfunction updateLazer(l){\n    \n    //i did NOT prune with AABBs figHT ME\n    \n    var ox=l[0],oy=l[1],\n        fade=1/(l[3]||1),\n        dx=l[4][0],dy=l[4][1],\n        lim=1;\n    \n    while(lim>0.001){\n        \n        var cPoint,cWall=0,minSqD=Infinity;\n        \n        for(var i=theLevel.walls.length+(player.item==='mirror'?1:0);i--;){\n            \n            var t=theLevel.walls[i];\n            \n            if(!t){\n                \n                t=[player.mirrorAx,player.mirrorAy,player.mirrorBx,player.mirrorBy,player.mirrorDir,1];\n            }\n            \n            var ex=ox+dx*999,ey=oy+dy*999,\n                col=lineLine(ox,oy,ex,ey,t[0],t[1],t[2],t[3]);\n            \n            if(col){\n                \n                var sqD=(ox-col[0])*(ox-col[0])+(oy-col[1])*(oy-col[1]);\n                if(sqD<minSqD){\n                    \n                    minSqD=sqD;\n                    cPoint=col;\n                    cWall=t;\n                }\n            }\n        }\n        \n        for(var i=theLevel.alarms.length;i--;){\n            \n            var t=theLevel.alarms[i];\n            \n            var ex=ox+dx*999,ey=oy+dy*999,\n                col=lineLine(ox,oy,ex,ey,t[0],t[1],t[2],t[3]);\n                \n            var cp=closestPointOnLine(t[0],t[1],ox,oy,ex,ey),\n                delX=t[0]-cp[0],delY=t[1]-cp[1],\n                m=delX*delX+delY*delY;\n            \n            if(m<100){\n                \n                m=(cp[0]-ox)*(cp[0]-ox)+(cp[1]-oy)*(cp[1]-oy);\n                if(m<minSqD){\n                    \n                    minSqD=m;\n                    cPoint=cp;\n                    cWall='alarm';\n                    t[3]-=dt;\n                }\n            }\n            \n        }\n        \n        stroke(255,0,0,Math.sqrt(lim)*255*0.5);\n        \n        if(cWall){\n            \n            stroke(255, 0, 0,lim*255);\n            strokeWeight(3);\n            line(ox,oy,cPoint[0],cPoint[1]);\n            stroke(255,255,255,lim*255);\n            strokeWeight(1);\n            line(ox,oy,cPoint[0],cPoint[1]);\n            \n            if(cWall==='alarm'){\n                break;\n            }\n            \n            var cp=closestPointOnLine(player.x,player.y,ox,oy,cPoint[0],cPoint[1]),\n                delX=player.x-cp[0],delY=player.y-cp[1],\n                m=delX*delX+delY*delY;\n        \n            if(m<sq_playerRadius){\n                player.health-=dt*healthDeplete;\n            }\n            \n            var nx=cWall[4][0],ny=cWall[4][1];\n            \n            if(nx*dx+ny*dy>0){\n                nx=-nx;\n                ny=-ny;\n            }\n            \n            var ref=reflect(dx,dy,nx,ny);\n            \n            dx=ref[0];\n            dy=ref[1];\n            \n            ox=cPoint[0]+dx*epsilon;\n            oy=cPoint[1]+dy*epsilon;\n            \n            if(cWall[5]){\n                lim=fade;\n                if(dx*player.mirrorDir[0]+dy*player.mirrorDir[1]<0){\n                    break;\n                }\n            }else{\n                \n                lim-=fade;\n            }\n            \n        }else{\n            \n            stroke(255, 0, 0,lim*255);\n            strokeWeight(3);\n            line(ox,oy,ox+dx*999,oy+dy*999);\n            stroke(255);\n            strokeWeight(1);\n            line(ox,oy,ox+dx*999,oy+dy*999);\n            break;\n        }\n    }\n}\n\ntextFont(createFont('monospace'));\ntextAlign(CENTER,CENTER);\n\ndraw= function() {\n    \n    var now=Date.now();\n    dt=Math.min((now-then)*0.001,0.05)*timeMultiplier;\n    then=now;\n    time+=dt;\n    \n    background(200);\n    \n    \n    player.vy+=gravity*dt;\n    \n    //a bit of coyote time\n    if(keys[87]&&time-player.grounded<0.15){\n        \n        if(player.item==='plunger'&&player.plungerSticking){\n            \n            player.vx=player.plungerSticking[0]*300;\n            player.vy=player.plungerSticking[1]*300-200;\n            player.plungerSticking=0;\n        }else{\n            player.vy=-jumpPower;\n        }\n        player.grounded=0;\n    }\n    \n    if(keys[68]){\n        player.vx+=walkSpeed*dt;\n    }\n    if(keys[65]){\n        player.vx-=walkSpeed*dt;\n    }\n    \n    player.vx/=dt*friction+1;\n    \n    player.x+=player.vx*dt;\n    player.y+=player.vy*dt;\n    \n    \n    var dmx,dmy;\n    \n    //a very not delta-time accurate smoothen \n    // sMouseX+=(mouseX-sMouseX)*20*dt;\n    // sMouseY+=(mouseY-sMouseY)*20*dt;\n    \n    sMouseX=mouseX;\n    sMouseY=mouseY;\n    \n    dmx=sMouseX-player.x;\n    dmy=sMouseY-player.y;\n        m=1/Math.sqrt(dmx*dmx+dmy*dmy);\n    dmx*=m;\n    dmy*=m;\n    \n    if(controlMirrorWithArrowKeys){\n        dmx=Math.sin(player.theta);\n        dmy=Math.cos(player.theta);\n        \n        if(keys[37]){\n            player.theta+=dt*4;\n        }\n        if(keys[39]){\n            player.theta-=dt*4;\n        }\n    }\n    \n    \n    player.mirrorDir[0]=dmx;\n    player.mirrorDir[1]=dmy;\n    \n    //hardcoded radian conversion\n    if(player.item==='mirror'){\n        theta=Math.atan2(-dmx,dmy)*57.295779513;\n        var perpX=-dmy*mirrorWidth,perpY=dmx*mirrorWidth,\n            mirrorX=player.x+dmx*mirrorReach,\n            mirrorY=player.y+dmy*mirrorReach;\n            \n        player.mirrorAx=mirrorX+perpX;\n        player.mirrorAy=mirrorY+perpY;\n        player.mirrorBx=mirrorX-perpX;\n        player.mirrorBy=mirrorY-perpY;\n    }\n    \n    \n    textSize(15);\n    fill(0,0,0);\n    for(var i=theLevel.texts.length;i--;){\n        var t=theLevel.texts[i];\n        text(t[0],t[1],t[2]);\n    }\n    textSize(35);\n    text('💸',theLevel.end[0],theLevel.end[1]);\n    \n    stroke(90,90,90);\n    strokeWeight(wallThickness);\n    for(var i=theLevel.walls.length;i--;){\n        \n        var t=theLevel.walls[i];\n        \n        line(t[0],t[1],t[2],t[3]);\n        \n        var cp=closestPointOnLine(player.x,player.y,t[0],t[1],t[2],t[3]),\n            delX=player.x-cp[0],delY=player.y-cp[1],\n            m=delX*delX+delY*delY;\n        \n        if(m<sq_collisionRad){\n            \n            m=Math.sqrt(m);\n            \n            delX/=m;\n            delY/=m;\n            \n            var pen=(collisionRad-m);\n            \n            player.x+=delX*pen;\n            player.y+=delY*pen;\n            \n            var t=delX*player.vx+delY*player.vy;\n            \n            if(player.item==='plunger'){theta=Math.atan2(-delX,delY)*57.295779513;}\n            \n            if(player.item==='plunger'&&(delY>0.9||Math.abs(delX)>0.9)){\n                player.vx/=dt*friction*4+1;\n                player.vy=0;\n                player.x-=delX;\n                player.y-=delY;\n                player.grounded=time;\n                player.plungerSticking=[delX,delY];\n                \n            }else{\n                \n                player.vx-=t*delX;\n                player.vy-=t*delY;\n                \n                if(delY<-0.5){\n                    player.grounded=time;\n                }\n                player.plungerSticking=0;\n            }\n        }\n    }\n    \n    strokeCap(SQUARE);\n    for(var i=theLevel.pointers.length;i--;){\n        \n        var t=theLevel.pointers[i];\n        \n        if(typeof t[2]==='function'){\n            \n            var a=t[2](time);\n            t[4]=[-sin(a),cos(a)];\n            t[5]=a;\n        }\n        \n        stroke(255, 0, 0);\n        strokeWeight(2);\n        updateLazer(t);\n        \n        translate(t[0],t[1]);\n        rotate(t[5]);\n        fill(255,255,255);\n        stroke(0,0,0);\n        strokeWeight(2);\n        ellipse(0,0,25,10);\n        noStroke();\n        fill(150,0,0);\n        ellipse(0,3,15,5);\n        resetMatrix();\n    }\n    strokeCap(ROUND);\n    \n    var flash=Math.sin(time*5)*20;\n    noStroke();\n    for(var i=theLevel.alarms.length;i--;){\n        \n        var t=theLevel.alarms[i];\n        \n        var dx=player.x-t[0],dy=player.y-t[1];\n        if(dx*dx+dy*dy<t[4]&&t[3]>0){\n            player.health-=dt*healthDeplete*t[3];\n        }\n        \n        fill(100,100,255,t[3]*50+flash);\n        ellipse(t[0],t[1],t[2],t[2]);\n        fill(0);\n        ellipse(t[0],t[1],20,20);\n        fill(255-t[3]*t[3]*255,0,t[3]*255);\n        ellipse(t[0],t[1],10,10);\n    }\n    \n    var rh=Math.sqrt(player.health)*255;\n    \n    fill(255,rh,rh);\n    stroke(0);\n    strokeWeight(1);\n    ellipse(player.x,player.y,player.drawDiam,player.drawDiam);\n    \n    translate(player.x,player.y);\n    rotate(theta);\n    \n    switch(player.item){\n        \n        case 'mirror':\n            strokeWeight(3);\n            line(-mirrorDrawWidth,mirrorReach,mirrorDrawWidth,mirrorReach);\n            stroke(150,200,255);\n            line(-mirrorShineDrawWidth,mirrorShineOffset,mirrorShineDrawWidth,mirrorShineOffset);\n            break;\n            \n        case 'plunger':\n            rotate(135);\n            text('🪠',10,mirrorReach-10);\n            break;\n    }\n    \n    resetMatrix();\n    \n    if(player.health<=0||player.y>700){\n        setLevel(level);\n        return;\n    }\n    \n    if(Math.abs(player.x-theLevel.end[0])+Math.abs(player.y-theLevel.end[1])<50){\n        setLevel(level+1);\n    }\n    \n    if(keys[84]){\n        \n        pushStyle();\n        noStroke();\n        fill(0,0,0,60);\n        rect(0,0,600,600);\n        textFont(createFont('fantasy'));\n        textSize(122);\n        fill(255, 0, 0);\n        text('MIRROR\\nMISSION',300,300);\n        \n        for(var i=123;i<141;i++){\n            textSize(i);\n            text('MIRROR\\nMISSION',300,300);\n        }\n        fill(255);\n        textSize(141);\n        text('MIRROR\\nMISSION',300,300);\n        popStyle();\n    }\n};\n\nif(abs(width-600)>3||abs(height-600)>3){\n    println('your screen size is not 600x600 the game wont work');\n}\n\n\n// its spelled laser but idc lazer is cooler\n\n//kiaan wanted me to credit him but hes not cool or awesome",
+    "title": "Mirror Mission",
+    "votes": 73,
+    "created": "2 days ago",
+    "updated": "2 days ago",
+    "type": "PJS",
     "author": {
-        "name": "TDJ",
-        "id": "kaid_682972421482671044758972",
-        "avatar": "/images/avatars/svg/boggle-green.svg"
+        "name": "Dat",
+        "id": "kaid_4164356982737975081215128",
+        "avatar": "/images/avatars/svg/marcimus-orange.svg"
     },
     "dimensions": {
         "width": 600,
@@ -16,13 +16,43 @@ var json = {
     },
     "forks": [
         {
-            "title": "My join code",
-            "id": "6652300132007936",
+            "title": "Projet dérivé de \"Mirror Mission\"",
+            "id": "4584388638457856",
             "forks": 0,
             "votes": 1,
             "author": {
-                "name": "~The Wolf~",
-                "id": "kaid_6337778158362361978377342"
+                "name": "Momo master",
+                "id": "kaid_781856588822748745217720"
+            }
+        },
+        {
+            "title": "Spin-off of \"Mirror Mission\"",
+            "id": "4688420094787584",
+            "forks": 0,
+            "votes": 1,
+            "author": {
+                "name": "LiboLibe",
+                "id": "kaid_9955045690982926599418382"
+            }
+        },
+        {
+            "title": "Spin-off of \"Mirror Mission\"",
+            "id": "4867416346509312",
+            "forks": 0,
+            "votes": 1,
+            "author": {
+                "name": "noah.marshall",
+                "id": "kaid_965849561864525631326503"
+            }
+        },
+        {
+            "title": "Derivado de \"Mirror Mission\"",
+            "id": "5976354051768320",
+            "forks": 0,
+            "votes": 1,
+            "author": {
+                "name": "Raimon Hernández",
+                "id": "kaid_9512753849116130450438803"
             }
         }
     ],
@@ -31,39 +61,166 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 12,
-                "date": "9 hours ago",
+                "date": "2 days ago",
                 "author": {
-                    "name": "TDJ",
-                    "id": "kaid_682972421482671044758972",
-                    "avatar": "/images/avatars/svg/boggle-green.svg"
+                    "name": "Dat",
+                    "id": "kaid_4164356982737975081215128",
+                    "avatar": "/images/avatars/svg/marcimus-orange.svg"
                 },
-                "text": "<b>NEWS THREAD</b><br><br><em>Subscribe for the latest contest news & announcements by posting a single period (.) as a reply to this thread.<br><br>Please do not post here otherwise.<br><br>Please keep this thread at the top.</em>",
+                "text": "sub to me (but i dont make platformers)<br><br>https://www.khanacademy.org/computer-programming/dats-epic-subpage/5796103944454144",
                 "locked": false,
                 "pinned": false,
                 "replies": []
             },
             {
-                "replyCount": 6,
-                "votes": 11,
-                "date": "9 hours ago",
+                "replyCount": 0,
+                "votes": 4,
+                "date": "2 days ago",
                 "author": {
-                    "name": "TDJ",
-                    "id": "kaid_682972421482671044758972",
-                    "avatar": "/images/avatars/svg/boggle-green.svg"
+                    "name": "Jake K.",
+                    "id": "kaid_103000698141866290580261",
+                    "avatar": "/images/avatars/svg/leaf-blue.svg"
                 },
-                "text": "<b>JOIN THREAD</b><br><br><em>Post your join code here. Please do not modify it in any way. To ensure that your join code is not hidden, you may need to add some extra filler text after it.<br><br><b>*Note: you may be asked to switch teams</b>.<br><br>Please keep this thread at the top.</em>",
+                "text": "Yeah lazer with a z is cooler I know it is wrong but I spell it that way anyway. Now I just have to say Ztimulated.<br><br>This is pretty awesome. Reminds me of the possibly apocryphal story of archemides using mirrors to set the enemies on fire during the siege of Syracuse.",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 4,
+                "date": "2 days ago",
+                "author": {
+                    "name": "Ibraheem Ahmed (IA)",
+                    "id": "kaid_42165633374795610935956",
+                    "avatar": "/images/avatars/svg/spunky-sam.svg"
+                },
+                "text": "Very fun concept! Graphics leave a bit to be desired though :p<br>That aside, I like the fade of the lasers and the mechanics in generals. Maybe clean up your code a bit? Reminds me vaguely of Brian French's code (this is a positive comment in some aspects and a negative one in others, you decide which).",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 4,
+                "date": "2 days ago",
+                "author": {
+                    "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
+                    "id": "kaid_706406430552760652245376",
+                    "avatar": "/images/avatars/svg/cacteye-yellow.svg"
+                },
+                "text": "\"No words. Except maybe those 2. and those 4. those 3 are in there too. Whatever I have words I guess\" - cwalsh1223",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "2 days ago",
                         "author": {
-                            "name": "YokieBob",
-                            "id": "kaid_681887786554114354822051",
-                            "avatar": "/images/avatars/svg/marcimus-red.svg"
+                            "name": "sugar",
+                            "id": "kaid_706936468208143963519267",
+                            "avatar": "/images/avatars/svg/scuttlebug-green.svg"
                         },
-                        "text": "{name: 'Yokiebob', kaid: 'kaid_681887786554114354822051',team: 'Echolite',level: 3,points: [0,0,0,0,0,0],},<br>Am I the first joiner?"
-                    },
+                        "text": "ur late 💀"
+                    }
+                ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 4,
+                "date": "2 days ago",
+                "author": {
+                    "name": "cwalsh1223 BBB#",
+                    "id": "kaid_792288208072906614241148",
+                    "avatar": "/images/avatars/svg/spunky-sam-red.svg"
+                },
+                "text": "Nice game. it's very hard!<br><br>In case you were wondering, kiaan's quote from me was not regarding this game. 😤",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 2,
+                "date": "a day ago",
+                "author": {
+                    "name": "Bearkirb314🐻‍❄️",
+                    "id": "kaid_375460112550893828689953",
+                    "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                },
+                "text": "The vector knowledge coming in clutch.",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "21 hours ago",
+                "author": {
+                    "name": "Doctor137",
+                    "id": "kaid_1166193792198469906754627",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "Wow... This is a really neat twist on a platformer. :D<br><br>I can vouch for it being possible, just very hard... :)",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 days ago",
+                "author": {
+                    "name": "- k a t i t e -",
+                    "id": "kaid_312040000225853665820004",
+                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                },
+                "text": "first on a dat program, no way!<br><br>this is awesome :D",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 days ago",
+                "author": {
+                    "name": "Samurai Warrior™ ✝ (Online)",
+                    "id": "kaid_333534297788735128142174",
+                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                },
+                "text": "Nice! <br>Didn't expect to see a PJS platformer from you lol but it's actually quite good. <br>19th",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 days ago",
+                "author": {
+                    "name": "Duke",
+                    "id": "kaid_351465532815782433620675",
+                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                },
+                "text": "Epicly fun game dat.",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 1,
+                "date": "16 hours ago",
+                "author": {
+                    "name": "Clifford_Coder",
+                    "id": "kaid_361770645178088560937108",
+                    "avatar": "/images/avatars/svg/leafers-ultimate.svg"
+                },
+                "text": "Good job! this is my first comment ever",
+                "locked": false,
+                "pinned": false,
+                "replies": [
                     {
                         "date": "4 hours ago",
                         "author": {
@@ -71,244 +228,171 @@ var json = {
                             "id": "kaid_981854986090143486946241",
                             "avatar": "/images/avatars/svg/leaf-blue.svg"
                         },
-                        "text": "{name: 'The Former Wizard of Oz', kaid: 'kaid_981854986090143486946241',team: 'Echolite',level: 2,points: [0,0,0,0,0,0],},<br>Never joined before."
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Hokeycat",
-                            "id": "kaid_438466413527508491816275",
-                            "avatar": "/images/avatars/svg/blobby-green.svg"
-                        },
-                        "text": "{name: 'Hokeycat', kaid: 'kaid_438466413527508491816275',team: 'Echolite',level: 3,points: [0,0,0,0,0,0],},<br>3rd joiner, also I feel that I need to add the last punctiation that hasn't been done... (!)"
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "cwalsh1223 BBB#",
-                            "id": "kaid_792288208072906614241148",
-                            "avatar": "/images/avatars/svg/spunky-sam-red.svg"
-                        },
-                        "text": "{name: 'cwalsh1223', kaid: 'kaid_792288208072906614241148',team: 'Foxin',level: 2,points: [0,0,0,0,0,0],},"
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "SnackerDavis",
-                            "id": "kaid_889584744100087037395082",
-                            "avatar": "/images/avatars/svg/robot_female_2.svg"
-                        },
-                        "text": "{name: 'Snacker Davis', kaid: ' kaid_889584744100087037395082',team: 'Delfin',level: 2,points: [0,0,0,0,0,0],},"
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "Animator101",
-                            "id": "kaid_457601383838709034574070",
-                            "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
-                        },
-                        "text": "{name: 'Animator101', kaid: 'kaid_457601383838709034574070',team: 'Delfin',level: 3,points: [0,0,0,0,0,0],},<br><br>This looks like it could be fun :D<br>If I don't get to be a judge then use this application, but imma also apply to be a judge :)"
+                        "text": "<em>Welcome to a whole world of danger.</em> - someone I forgot"
                     }
                 ]
             },
             {
-                "replyCount": 2,
-                "votes": 7,
+                "replyCount": 0,
+                "votes": 1,
+                "date": "14 hours ago",
+                "author": {
+                    "name": "dalegomango skool acc",
+                    "id": "kaid_371114188602608232313934",
+                    "avatar": "/images/avatars/svg/leaf-red.svg"
+                },
+                "text": "I1!<br>fun game",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "2 days ago",
+                "author": {
+                    "name": "honeyghost",
+                    "id": "kaid_381818316234075133568777",
+                    "avatar": "/images/avatars/svg/boggle-yellow.svg"
+                },
+                "text": "Cringe? I don't know about that...",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "15 hours ago",
+                "author": {
+                    "name": "Thorn Seaclaw",
+                    "id": "kaid_388945265474133862728997",
+                    "avatar": "/images/avatars/svg/leaf-grey.svg"
+                },
+                "text": "tHis sewms many VIOLEnT. HoPe they TaKe IT dOEWN jusT LIKE the Other One",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "14 hours ago",
+                "author": {
+                    "name": "Radar",
+                    "id": "kaid_3902988618718040904060736",
+                    "avatar": "/images/avatars/svg/leafers-seed.svg"
+                },
+                "text": "Nice Dat! Yay they did increase the vote limit!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "20 hours ago",
+                "author": {
+                    "name": "Wingfeather",
+                    "id": "kaid_691541327914532427755189",
+                    "avatar": "/images/avatars/svg/leafers-ultimate.svg"
+                },
+                "text": "Nice! Amazing game, just the right level of difficulty to be fun but not frustrating.<br>vote ++",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "a day ago",
+                "author": {
+                    "name": "ASBackup",
+                    "id": "kaid_714780036830891967670231",
+                    "avatar": "/images/avatars/svg/aqualine-tree.svg"
+                },
+                "text": "eyy a dat game<br>its been too long :(<br>amazing game :D",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "a day ago",
+                "author": {
+                    "name": "Vuong Vo",
+                    "id": "kaid_79869111098624859119085",
+                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                },
+                "text": "I can't get past four or three or something. The one where there are many platforms to jump up, I can't turn the mirror quick enough",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
                 "date": "6 hours ago",
                 "author": {
-                    "name": "TDJ",
-                    "id": "kaid_682972421482671044758972",
-                    "avatar": "/images/avatars/svg/boggle-green.svg"
+                    "name": "Vuong Vo",
+                    "id": "kaid_79869111098624859119085",
+                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
                 },
-                "text": "<b>JUDGE APPLICATION THREAD</b><br><br><em>To apply to be a judge, post the links to 2 programs that you have created that best showcase your ability.</em>",
+                "text": "Ah, guys, this game is a throwback to the weapon simulator game Dat made a few years ago.",
                 "locked": false,
                 "pinned": false,
-                "replies": [
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Well my best current program is Collab haha :P<br><br>Here is probably my best: https://www.khanacademy.org/computer-programming/for-freedoms-cause-ft-vvhitetiger/6060441058590720<br><br>Here is probably my favorite to make but not sure if it would count as my best: https://www.khanacademy.org/computer-programming/french-cultureka-contest-submission/6665298894045184<br><br>I know JS well, webpages pretty good, and python well."
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "Animator101",
-                            "id": "kaid_457601383838709034574070",
-                            "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
-                        },
-                        "text": "My best...<br>Hmm<br><br>Here's a physics engine I wrote ~6 months ago<br>https://www.khanacademy.org/computer-programming/physics-engine/5450620616884224<br><br>Here's a really cool but also currently unrealistic fluid motion simulator(it's unrealistic because fluids, at least liquids, are generally incompressible).<br>https://www.khanacademy.org/computer-programming/fluid-motion/5797975958405120<br><br>I'm rather good at PJS(not as good as YokieBob and such, but I'd say I'm fairly good at it), I know how to do CSS, HTML, and JS for webpages, I am somewhat familiar with SQL, I know python, and in addition to that(languages outside of KA), I know C++, C, C#, a bit of Ruby, a bit of Rust, and a few others :)"
-                    }
-                ]
+                "replies": []
             },
             {
-                "replyCount": 8,
-                "votes": 7,
-                "date": "9 hours ago",
-                "author": {
-                    "name": "TDJ",
-                    "id": "kaid_682972421482671044758972",
-                    "avatar": "/images/avatars/svg/boggle-green.svg"
-                },
-                "text": "<b>TEAM ECHOLITE DISCUSSION THREAD</b><br><br><em>This is a temporary discussion thread for Team Echolite members, until their team homepage has been decided.<br><br>Only post here if you have joined Team Echolite.</em>",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "YokieBob",
-                            "id": "kaid_681887786554114354822051",
-                            "avatar": "/images/avatars/svg/marcimus-red.svg"
-                        },
-                        "text": "Hello team!"
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Xatnys",
-                            "id": "kaid_3144599174897393521218325",
-                            "avatar": "/images/avatars/svg/boggle-yellow.svg"
-                        },
-                        "text": "I am here."
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "Xatnys",
-                            "id": "kaid_3144599174897393521218325",
-                            "avatar": "/images/avatars/svg/boggle-yellow.svg"
-                        },
-                        "text": "@Oz<br><br>That's wacky.  I did comment in the join thread and have been recieving notifications when other people join.  I looked at the thread in another browser and it did not have my comment.  I'm guessing someone flagged it or something.  idk"
-                    },
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "Xatnys",
-                            "id": "kaid_3144599174897393521218325",
-                            "avatar": "/images/avatars/svg/boggle-yellow.svg"
-                        },
-                        "text": "@Oz<br><br>I've tried four times and it isn't showing up.  I even tried copying Animator101 's filler text, but it still didn't go through."
-                    },
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "The Former Wizard of Oz",
-                            "id": "kaid_981854986090143486946241",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "Ok, I can post it for you. What's your skill level?<br><br>EDT: I posted it. I am going to delete my other comments to reduce the scrolling for later."
-                    },
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "Xatnys",
-                            "id": "kaid_3144599174897393521218325",
-                            "avatar": "/images/avatars/svg/boggle-yellow.svg"
-                        },
-                        "text": "Thanks, I put 3."
-                    },
-                    {
-                        "date": "37 minutes ago",
-                        "author": {
-                            "name": "Karthikeya K #BringBackBackgrounds",
-                            "id": "kaid_6258990316746013677705461",
-                            "avatar": "/images/avatars/svg/stelly-blue.svg"
-                        },
-                        "text": "Hello team! I started on a draft for Challenge 0: <br><br>https://www.khanacademy.org/computer-programming/team-echolite-homepage-wip/5292946371821568"
-                    },
-                    {
-                        "date": "24 minutes ago",
-                        "author": {
-                            "name": "Hokeycat",
-                            "id": "kaid_438466413527508491816275",
-                            "avatar": "/images/avatars/svg/blobby-green.svg"
-                        },
-                        "text": "Nice job so far Karthikeya K!"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 7,
-                "date": "9 hours ago",
-                "author": {
-                    "name": "TDJ",
-                    "id": "kaid_682972421482671044758972",
-                    "avatar": "/images/avatars/svg/boggle-green.svg"
-                },
-                "text": "<b>TEAM DELFIN DISCUSSION THREAD</b><br><br><em>This is a temporary discussion thread for Team Delfin members, until their team homepage has been decided.<br><br>Only post here if you have joined Team Delfin.</em>",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "SnackerDavis",
-                            "id": "kaid_889584744100087037395082",
-                            "avatar": "/images/avatars/svg/robot_female_2.svg"
-                        },
-                        "text": "im I the only one :("
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 7,
-                "date": "9 hours ago",
-                "author": {
-                    "name": "TDJ",
-                    "id": "kaid_682972421482671044758972",
-                    "avatar": "/images/avatars/svg/boggle-green.svg"
-                },
-                "text": "<b>TEAM FOXIN DISCUSSION THREAD</b><br><br><em>This is a temporary discussion thread for Team Foxin members, until their team homepage has been decided.<br><br>Only post here if you have joined Team Foxin.</em>",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "15 minutes ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "umm I joined? I don't really know how this whole thing works, so yeah..."
-                    }
-                ]
-            },
-            {
-                "replyCount": 2,
+                "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "17 hours ago",
                 "author": {
-                    "name": "Mathlete11",
-                    "id": "kaid_4902531429433401500771997",
-                    "avatar": "/images/avatars/svg/starky-sapling.svg"
+                    "name": "JJP",
+                    "id": "kaid_874785892689340729331212",
+                    "avatar": "/images/avatars/svg/aqualine-seedling.svg"
                 },
-                "text": "how exactly does this work? do you have to be accepted onto a team, or can you just join?",
+                "text": "Fun fact! Did you know that laser stands for Light Amplification by Stimulated Emission of Radiation",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "19 hours ago",
+                "author": {
+                    "name": "brighamshirley2024",
+                    "id": "kaid_934995906866304096076656",
+                    "avatar": "/images/avatars/svg/blobby-green.svg"
+                },
+                "text": "nice game, I just one you should make a second game.",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 0,
+                "date": "2 days ago",
+                "author": {
+                    "name": "Chickenfarmer2009",
+                    "id": "kaid_287879839213083022099587",
+                    "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
+                },
+                "text": "Dat made a PJS program. The Hot List really is gone.<br><br>Pretty cool, though!",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "2 days ago",
                         "author": {
-                            "name": "The Former Wizard of Oz",
-                            "id": "kaid_981854986090143486946241",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                            "name": "Equilibrium",
+                            "id": "kaid_1842852586096096865081151",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
-                        "text": "You can just join. Go to the join section on the webpage above, and then choose the team you want to be on. I believe the rest is explained in the webpage."
-                    },
-                    {
-                        "date": "31 minutes ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "ok. thank you"
+                        "text": "Hey, what can you say? Dat is a well rounded programmer."
                     }
                 ]
             }
@@ -316,27 +400,14 @@ var json = {
         "questions": [
             {
                 "replyCount": 0,
-                "votes": 1,
-                "date": "2 hours ago",
+                "votes": 3,
+                "date": "2 days ago",
                 "author": {
-                    "name": "SnackerDavis",
-                    "id": "kaid_889584744100087037395082",
-                    "avatar": "/images/avatars/svg/robot_female_2.svg"
+                    "name": "ezekiel.carter2009",
+                    "id": "kaid_4345125146474084185234199",
+                    "avatar": "/images/avatars/svg/blobby-green.svg"
                 },
-                "text": "Do we post our entry's in our team chat thread or is there a thread that made for posting entry's?",
-                "replies": [],
-                "answers": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "2 hours ago",
-                "author": {
-                    "name": "SnackerDavis",
-                    "id": "kaid_889584744100087037395082",
-                    "avatar": "/images/avatars/svg/robot_female_2.svg"
-                },
-                "text": "Does the first challenge start today?",
+                "text": "Do it for arrow keys too.",
                 "replies": [],
                 "answers": []
             }
