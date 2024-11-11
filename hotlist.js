@@ -19,7 +19,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 0,
-                "votes": 7,
+                "votes": 8,
                 "date": "2 hours ago",
                 "author": {
                     "name": "Liam K.",
@@ -57,6 +57,30 @@ var json = {
             },
             {
                 "replyCount": 1,
+                "votes": 4,
+                "date": "2 hours ago",
+                "author": {
+                    "name": "Mushy Avocado",
+                    "id": "kaid_889538221957342292210697",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "YES finally someone who uses a 2D array to efficiently iterate over the blocks. <br><br>Cool tutorial, you've improved it a lot since your last one.<br><br>As for LemonTurtle's suggestion, the solution would be to assign a \"priority\" to each block. When the player checks for collisions, simply iterate over each block the player might be able to collide with, selecting the one that the player is touching and has the highest priority.<br><br>Edit: You also call it a PhysicsBody! lol what a coincidence. I use the same vocab. I even like calling what controls everything a \"world\"",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "Liam K.",
+                            "id": "kaid_160653079463992085090428",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "Hey that's actually a really smart idea. I will look into that and similar methods to see if I can implement that on this program. <br><br>I think we're basically the same person at this point lol. I'm ~95% sure we have the same hometowns too."
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
                 "votes": 3,
                 "date": "an hour ago",
                 "author": {
@@ -80,33 +104,9 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
-                "votes": 3,
-                "date": "2 hours ago",
-                "author": {
-                    "name": "Mushy Avocado",
-                    "id": "kaid_889538221957342292210697",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "YES finally someone who uses a 2D array to efficiently iterate over the blocks. <br><br>Cool tutorial, you've improved it a lot since your last one.<br><br>As for LemonTurtle's suggestion, the solution would be to assign a \"priority\" to each block. When the player checks for collisions, simply iterate over each block the player might be able to collide with, selecting the one that the player is touching and has the highest priority.<br><br>Edit: You also call it a PhysicsBody! lol what a coincidence. I use the same vocab. I even like calling what controls everything a \"world\"",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "Liam K.",
-                            "id": "kaid_160653079463992085090428",
-                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
-                        },
-                        "text": "Hey that's actually a really smart idea. I will look into that and similar methods to see if I can implement that on this program. <br><br>I think we're basically the same person at this point lol. I'm ~95% sure we have the same hometowns too."
-                    }
-                ]
-            },
-            {
                 "replyCount": 0,
-                "votes": 2,
-                "date": "4 minutes ago",
+                "votes": 3,
+                "date": "9 minutes ago",
                 "author": {
                     "name": "AGnawKneeMouse Coder",
                     "id": "kaid_9033829293805621369025816",
@@ -182,7 +182,7 @@ var json = {
                         "text": "oh yessir I forgot about that. I haven't used inheritance in a while(I need to get back into that habit)<br>Thanks for the reminder =D"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "bravo bravo",
                             "id": "kaid_3550040499775075061747637",
@@ -191,7 +191,7 @@ var json = {
                         "text": "This would probably work:<br><br><pre><code>Name.prototype = Object.assign(<br>  {},<br>  Object.create(Foo.prototype),<br>  {<br>     // additional methods<br>  }<br>);</code></pre><br><br>es5 sucks and classes are so much cleaner"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -245,7 +245,7 @@ var json = {
                         "text": "Looks like Mushy pretty much summed it up. While this tutorial was designed to be run solely in the PJS environment, I would highly recommend transferring your code over to an HTML environment to rid yourself of most of the flaws of PJS."
                     },
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
