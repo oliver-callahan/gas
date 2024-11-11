@@ -54,7 +54,7 @@ var json = {
                         "text": "Yeah definitely a bug that I noticed. Mushy proposed a good solution, so I will be looking into that over the next week or so and determining the best path forward.<br><br>Thank you for all your feedback!"
                     },
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "Ibraheem Ahmed (IA)",
                             "id": "kaid_42165633374795610935956",
@@ -129,7 +129,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "43 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -143,7 +143,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "41 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -157,7 +157,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "39 minutes ago",
+                "date": "44 minutes ago",
                 "author": {
                     "name": "theBTG15",
                     "id": "kaid_1184047636356324637542824",
@@ -269,7 +269,7 @@ var json = {
                         "text": "@Bravo Bravo I have heard about class's. But while on ka I try to make the best of what I have :P<br>haha having never <em>really</em> used inheritance I wouldn't know but ig your right :P<br><br>@Mush yeah ES6 looks sweet. I just haven't had much access to any other coding sight(that uses ES6)"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -278,7 +278,7 @@ var json = {
                         "text": "If you use my Khan Academy exporter you can use ES6 syntax while at the same time writing normal PJS code. ES6 works in the HTML environment :)"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "bravo bravo",
                             "id": "kaid_3550040499775075061747637",
@@ -309,7 +309,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "28 minutes ago",
+                "date": "32 minutes ago",
                 "author": {
                     "name": "Bearkirb314🐻‍❄️",
                     "id": "kaid_375460112550893828689953",
@@ -347,7 +347,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "JJP",
                     "id": "kaid_874785892689340729331212",
