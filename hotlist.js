@@ -131,6 +131,20 @@ var json = {
                 "votes": 2,
                 "date": "an hour ago",
                 "author": {
+                    "name": "Bearkirb314🐻‍❄️",
+                    "id": "kaid_375460112550893828689953",
+                    "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                },
+                "text": "I like the self portrait on the thumbnail LiamK!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 2,
+                "date": "an hour ago",
+                "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
                     "avatar": "/images/avatars/svg/spunky-sam.svg"
@@ -182,7 +196,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -191,7 +205,7 @@ var json = {
                         "text": "You only end up coding ~450 lines of code. This tutorial is mostly just super bulky because I had to recopy/paste lots of the same code every time I wanted to add new code. <br><br>This tutorial is super doable even for beginners, so I'd recommend that you take a stab at it."
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
@@ -307,20 +321,6 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "an hour ago",
-                "author": {
-                    "name": "Bearkirb314🐻‍❄️",
-                    "id": "kaid_375460112550893828689953",
-                    "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                },
-                "text": "I like the self portrait on the thumbnail LiamK!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
                 "replyCount": 1,
                 "votes": 1,
                 "date": "4 hours ago",
@@ -347,7 +347,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "18 minutes ago",
+                "date": "23 minutes ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
