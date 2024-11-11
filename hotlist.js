@@ -205,6 +205,20 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
+                "date": "a minute ago",
+                "author": {
+                    "name": "dalegomango skool acc",
+                    "id": "kaid_371114188602608232313934",
+                    "avatar": "/images/avatars/svg/leaf-red.svg"
+                },
+                "text": "I1!<br>fun game",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
                 "date": "13 hours ago",
                 "author": {
                     "name": "Bearkirb314🐻‍❄️",
@@ -233,7 +247,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "44 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Thorn Seaclaw",
                     "id": "kaid_388945265474133862728997",
@@ -247,7 +261,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "24 minutes ago",
+                "date": "29 minutes ago",
                 "author": {
                     "name": "Radar",
                     "id": "kaid_3902988618718040904060736",
