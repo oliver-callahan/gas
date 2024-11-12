@@ -34,7 +34,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 9,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Mushy Avocado",
                     "id": "kaid_889538221957342292210697",
@@ -105,7 +105,7 @@ var json = {
                         "text": "That doesn't work in Liam's case. The blocks are stored in a 2D array based on their position, so you can't sort them. The bonus of using a 2D array is that it essentially lets you have infinite blocks and the game won't slow down"
                     },
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Ibraheem Ahmed (IA)",
                             "id": "kaid_42165633374795610935956",
@@ -114,7 +114,7 @@ var json = {
                         "text": "Oh. Hmmmmm... fixing this problem without creating a 1D array of blocks is an interesting challenge. I'll think on it and come back to this later.<br><br><b>edit</b>: nvm you proposed a nice solution, using a <code>.priority</code> property for the individual blocks would probably work. I don't see any better way to do it.<br><br><b>edit2</b>: @below already saw it :)"
                     },
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -260,6 +260,20 @@ var json = {
                         "text": "No problem. I hope to see you create something great!"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 2,
+                "date": "10 hours ago",
+                "author": {
+                    "name": "ÐoɠIovɛɼ",
+                    "id": "kaid_174620599098233073374167",
+                    "avatar": "/images/avatars/svg/leaf-red.svg"
+                },
+                "text": "dropping a comment to save this for later :)<br>hope life's been good, amazing that you have time to do this in college!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 10,
@@ -471,20 +485,6 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "9 hours ago",
-                "author": {
-                    "name": "ÐoɠIovɛɼ",
-                    "id": "kaid_174620599098233073374167",
-                    "avatar": "/images/avatars/svg/leaf-red.svg"
-                },
-                "text": "dropping a comment to save this for later :)<br>hope life's been good, amazing that you have time to do this in college!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
                 "replyCount": 2,
                 "votes": 1,
                 "date": "21 hours ago",
@@ -558,7 +558,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
