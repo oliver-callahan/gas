@@ -393,7 +393,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "xG4B3s",
                             "id": "kaid_6735654591475171038278310",
@@ -511,7 +511,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Timothy",
                     "id": "kaid_580436051254509721948310",
@@ -672,7 +672,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "The Multiverse Hero",
                     "id": "kaid_523988888981336150053758",
