@@ -247,7 +247,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -355,7 +355,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -364,6 +364,20 @@ var json = {
                         "text": "No problem. I hope to see you create something great!"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 3,
+                "date": "a day ago",
+                "author": {
+                    "name": "Falling Dragon™️",
+                    "id": "kaid_922990378162047462529587",
+                    "avatar": "/images/avatars/svg/leaf-blue.svg"
+                },
+                "text": "esc for chad",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 0,
@@ -533,20 +547,6 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
-                "votes": 2,
-                "date": "a day ago",
-                "author": {
-                    "name": "Falling Dragon™️",
-                    "id": "kaid_922990378162047462529587",
-                    "avatar": "/images/avatars/svg/leaf-blue.svg"
-                },
-                "text": "esc for chad",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
                 "replyCount": 1,
                 "votes": 1,
                 "date": "a day ago",
@@ -560,7 +560,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -620,7 +620,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "That One Guy ME",
                     "id": "kaid_3823720261811268848400557",
