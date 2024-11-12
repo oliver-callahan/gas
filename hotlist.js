@@ -3,7 +3,7 @@ var json = {
     "title": "Platformer Tutorial 2.0",
     "votes": 50,
     "created": "10 hours ago",
-    "updated": "40 minutes ago",
+    "updated": "an hour ago",
     "type": "HTML",
     "author": {
         "name": "Liam K.",
@@ -63,7 +63,7 @@ var json = {
                         "text": "Yes, \"left collisions\" (idk who coined this term but it's what I use) can be fixed! I just sort the array of blocks by type upon the level loading; this fixes the issue."
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -90,7 +90,7 @@ var json = {
                         "text": "See my solution in the T&T. If you iterate over the nearby blocks you can select the one with the highest collision priority that the player happens to be touching"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -136,7 +136,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 6,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "AGnawKneeMouse Coder",
                     "id": "kaid_9033829293805621369025816",
@@ -185,7 +185,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -222,7 +222,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Falling Dragon™️",
                     "id": "kaid_922990378162047462529587",
