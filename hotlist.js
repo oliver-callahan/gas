@@ -185,7 +185,7 @@ var json = {
                         "text": "oh my gosh XD"
                     },
                     {
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "JSCoder",
                             "id": "kaid_3032679493880386290676439",
@@ -194,7 +194,7 @@ var json = {
                         "text": "I guess I was no the only one who though self portrait"
                     },
                     {
-                        "date": "a few seconds ago",
+                        "date": "5 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -207,7 +207,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 8,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -316,7 +316,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -575,6 +575,20 @@ var json = {
                     "avatar": "/images/avatars/svg/starky-ultimate.svg"
                 },
                 "text": "Bro this is so fire for a tutorial. The background has an electric vibe, which makes it feel like it is from Geometry Dash, one of my most favorite video games. The tutorial is neat and also easy to understand, at a beginner's perspective. I'll probably use this to finish up the intro to JavaScript so I can have fun creating my own crazy projects. I love how you create your projects, and I hope you make another tutorial like this soon. See you when I become a master!<br>         -Imtabest41, a fellow coder",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "4 minutes ago",
+                "author": {
+                    "name": "▪Dipper98▪",
+                    "id": "kaid_3886238215093093067654746",
+                    "avatar": "/images/avatars/svg/cs-hopper-jumping.svg"
+                },
+                "text": "Interesting update. I actually kinda prefer the original, just because it was super easy to understand. This one has a lot of extra code for basically the same outcome. I think most coders that will be looking for a platformer tutorial are beginners, and this tutorial confused me lol. <br>Plus, I just don't like Objects in general lol<br>normal functions ftw!<br><br>I broke all of the rules at the end xD<br>No gray backgrounds... (half of my platformers)<br>Keep a consistent art style... (regions broke this so bad)<br>Don't use too bright or too dark colors... (literally like all my platformers)<br><br>Anyway, I still must thank you for making your first tutorial, I've used it waaaay to much lol",
                 "locked": false,
                 "pinned": false,
                 "replies": []
