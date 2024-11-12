@@ -107,7 +107,7 @@ var json = {
                         "text": "Yes, \"left collisions\" (idk who coined this term but it's what I use) can be fixed! I just sort the array of blocks by type upon the level loading; this fixes the issue."
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -134,7 +134,7 @@ var json = {
                         "text": "See my solution in the T&T. If you iterate over the nearby blocks you can select the one with the highest collision priority that the player happens to be touching"
                     },
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -337,7 +337,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "xG4B3s",
                             "id": "kaid_6735654591475171038278310",
@@ -479,7 +479,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "Falling Dragon™️",
                     "id": "kaid_922990378162047462529587",
