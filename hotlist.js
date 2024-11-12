@@ -3,7 +3,7 @@ var json = {
     "title": "Platformer Tutorial 2.0",
     "votes": 59,
     "created": "a day ago",
-    "updated": "14 hours ago",
+    "updated": "15 hours ago",
     "type": "HTML",
     "author": {
         "name": "Liam K.",
@@ -65,7 +65,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 6,
+                "replyCount": 7,
                 "votes": 8,
                 "date": "a day ago",
                 "author": {
@@ -130,6 +130,15 @@ var json = {
                             "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
                         },
                         "text": "I think the answer is even simpler than your method. You can simply use a sort function for each row of the 2D array to fix the problem. I successfully implemented it in a new program, and I will try to add it to this program soon<br><br>Edit: looks like this problem has been resolved and I have posted a full solution to this tutorial"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Liam K.",
+                            "id": "kaid_160653079463992085090428",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "@Mushy - I did try to implement your method, but there kept being bugs where the highest priority block did not always end up being the most helpful one. For example, if the Player had a block above and a block below them, they would end up colliding with the block above"
                     }
                 ]
             },
@@ -147,7 +156,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -156,7 +165,7 @@ var json = {
                         "text": "I can't believe they turned my face into a meme. You have no idea how annoying it is to have dozens of people ask for your signature everywhere you go."
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -189,7 +198,7 @@ var json = {
                         "text": "Hey thank you for pointing this out to me IA! I will implement your code shortly."
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -520,7 +529,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "25 minutes ago",
+                "date": "30 minutes ago",
                 "author": {
                     "name": "Imtabest41",
                     "id": "kaid_335094101544484503242017",
