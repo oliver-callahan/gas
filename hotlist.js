@@ -275,7 +275,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -459,7 +459,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "32 minutes ago",
+                "date": "37 minutes ago",
                 "author": {
                     "name": "ÐoɠIovɛɼ",
                     "id": "kaid_174620599098233073374167",
