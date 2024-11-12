@@ -3,7 +3,7 @@ var json = {
     "title": "Platformer Tutorial 2.0",
     "votes": 50,
     "created": "10 hours ago",
-    "updated": "25 minutes ago",
+    "updated": "30 minutes ago",
     "type": "HTML",
     "author": {
         "name": "Liam K.",
@@ -32,7 +32,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 7,
+                "replyCount": 6,
                 "votes": 8,
                 "date": "9 hours ago",
                 "author": {
@@ -97,15 +97,6 @@ var json = {
                             "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
                         },
                         "text": "I think the answer is even simpler than your method. You can simply use a sort function for each row of the 2D array to fix the problem. I successfully implemented it in a new program, and I will try to add it to this program soon<br><br>Edit: looks like this problem has been resolved and I have posted a full solution to this tutorial"
-                    },
-                    {
-                        "date": "10 minutes ago",
-                        "author": {
-                            "name": "Mushy Avocado",
-                            "id": "kaid_889538221957342292210697",
-                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                        },
-                        "text": "I think that's close, but the only problem is you face the same issue when dealing with vertical collisions. So the collision priority is only applied to horizontal collisions. For instance, if you hit the lava on the bottom right, while still touching another block, the lower priority is ignored in favor of hitting the lava, causing the player to die.<br><br>My solution causes less overhead as well, because sort is expensive (although you're using it with pretty small arrays, so the performance impact is fairly negligible). You only need to iterate over the 2d array once to find the block that fits the 2 pieces of criteria, that (a) the player is touching the block and (b) the blocks priority is higher than the other block that's being touched.<br><br>All in all though, your solution does work and it's just a different approach to the same problem, so I understand if you don't want to change it."
                     }
                 ]
             },
@@ -183,7 +174,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 4,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Bearkirb314🐻‍❄️",
                     "id": "kaid_375460112550893828689953",
@@ -194,7 +185,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -405,7 +396,7 @@ var json = {
                         "text": "@Bravo Bravo I have heard about class's. But while on ka I try to make the best of what I have :P<br>haha having never <em>really</em> used inheritance I wouldn't know but ig your right :P<br><br>@Mush yeah ES6 looks sweet. I just haven't had much access to any other coding sight(that uses ES6)"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -414,7 +405,7 @@ var json = {
                         "text": "If you use my Khan Academy exporter you can use ES6 syntax while at the same time writing normal PJS code. ES6 works in the HTML environment :)"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "bravo bravo",
                             "id": "kaid_3550040499775075061747637",
@@ -535,7 +526,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "JJP",
                     "id": "kaid_874785892689340729331212",
