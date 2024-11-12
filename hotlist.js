@@ -518,6 +518,20 @@ var json = {
                 ]
             },
             {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "5 minutes ago",
+                "author": {
+                    "name": "Imtabest41",
+                    "id": "kaid_335094101544484503242017",
+                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                },
+                "text": "Bro this is so fire for a tutorial. The background has an electric vibe, which makes it feel like it is from Geometry Dash, one of my most favorite video games. The tutorial is neat and also easy to understand, at a beginner's perspective. I'll probably use this to finish up the intro to JavaScript so I can have fun creating my own crazy projects. I love how you create your projects, and I hope you make another tutorial like this soon. See you when I become a master!<br>         -Imtabest41, a fellow coder",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
                 "replyCount": 1,
                 "votes": 1,
                 "date": "a day ago",
