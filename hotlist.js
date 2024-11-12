@@ -3,7 +3,7 @@ var json = {
     "title": "Platformer Tutorial 2.0",
     "votes": 67,
     "created": "a day ago",
-    "updated": "16 hours ago",
+    "updated": "17 hours ago",
     "type": "HTML",
     "author": {
         "name": "Liam K.",
@@ -167,7 +167,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -176,7 +176,7 @@ var json = {
                         "text": "I can't believe they turned my face into a meme. You have no idea how annoying it is to have dozens of people ask for your signature everywhere you go."
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -185,7 +185,7 @@ var json = {
                         "text": "oh my gosh XD"
                     },
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "JSCoder",
                             "id": "kaid_3032679493880386290676439",
@@ -194,7 +194,7 @@ var json = {
                         "text": "I guess I was no the only one who though self portrait"
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -227,7 +227,7 @@ var json = {
                         "text": "Hey thank you for pointing this out to me IA! I will implement your code shortly."
                     },
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -582,7 +582,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "19 minutes ago",
+                "date": "24 minutes ago",
                 "author": {
                     "name": "▪Dipper98▪",
                     "id": "kaid_3886238215093093067654746",
