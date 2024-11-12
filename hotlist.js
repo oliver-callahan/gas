@@ -114,7 +114,7 @@ var json = {
                         "text": "Hey that's actually a really smart idea. I will look into that and similar methods to see if I can implement that on this program. <br><br>I think we're basically the same person at this point lol. I'm ~95% sure we have the same hometowns too."
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -166,7 +166,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -193,7 +193,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "31 minutes ago",
+                "date": "36 minutes ago",
                 "author": {
                     "name": "Falling Dragon™️",
                     "id": "kaid_922990378162047462529587",
@@ -249,7 +249,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "TH3 ROUG3 L3G3ND™",
                     "id": "kaid_2809101008758048501324524",
@@ -411,7 +411,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "The Multiverse Hero",
                     "id": "kaid_523988888981336150053758",
