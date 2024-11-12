@@ -264,7 +264,7 @@ var json = {
             {
                 "replyCount": 10,
                 "votes": 2,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "Duke",
                     "id": "kaid_351465532815782433620675",
@@ -367,6 +367,30 @@ var json = {
                 ]
             },
             {
+                "replyCount": 1,
+                "votes": 2,
+                "date": "4 hours ago",
+                "author": {
+                    "name": "Timothy",
+                    "id": "kaid_580436051254509721948310",
+                    "avatar": "/images/avatars/svg/cs-hopper-jumping.svg"
+                },
+                "text": "Insane! Insane that you manage to do this as a college student! Good luck with Statics or whatever they are throwing at you right now :D",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "4 hours ago",
+                        "author": {
+                            "name": "Liam K.",
+                            "id": "kaid_160653079463992085090428",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "My schedule is actually way too easy as it currently is. My one 'engineering' class is a you breath you get an A type course. My hardest classes in terms of workload are probably Physics and Math. Considering that I already took physics in high school with a 90% overlap between my current class and my high school class, it hasn't been super difficult.<br><br>I'm thinking about joining a game jam for the Video Design club here, so I might have something else to release in a week or so."
+                    }
+                ]
+            },
+            {
                 "replyCount": 0,
                 "votes": 2,
                 "date": "4 hours ago",
@@ -390,6 +414,44 @@ var json = {
                     "avatar": "/images/avatars/svg/leaf-blue.svg"
                 },
                 "text": "esc for chad",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 1,
+                "date": "5 hours ago",
+                "author": {
+                    "name": "LJE",
+                    "id": "kaid_1034761647362147362261181",
+                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                },
+                "text": "thumbnail cilckbait... -_- it gets me everytime XD<br>glad to see u still around! :)",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "4 hours ago",
+                        "author": {
+                            "name": "Liam K.",
+                            "id": "kaid_160653079463992085090428",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "Thanks LJE! I am glad to see that you're still on this site too."
+                    }
+                ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "8 hours ago",
+                "author": {
+                    "name": "kitty mascot",
+                    "id": "kaid_1066778980955332043559618",
+                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                },
+                "text": "bro... that thumb nail XD",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -452,70 +514,8 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
-                "author": {
-                    "name": "Timothy",
-                    "id": "kaid_580436051254509721948310",
-                    "avatar": "/images/avatars/svg/cs-hopper-jumping.svg"
-                },
-                "text": "Insane! Insane that you manage to do this as a college student! Good luck with Statics or whatever they are throwing at you right now :D",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Liam K.",
-                            "id": "kaid_160653079463992085090428",
-                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
-                        },
-                        "text": "My schedule is actually way too easy as it currently is. My one 'engineering' class is a you breath you get an A type course. My hardest classes in terms of workload are probably Physics and Math. Considering that I already took physics in high school with a 90% overlap between my current class and my high school class, it hasn't been super difficult.<br><br>I'm thinking about joining a game jam for the Video Design club here, so I might have something else to release in a week or so."
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 0,
-                "date": "5 hours ago",
-                "author": {
-                    "name": "LJE",
-                    "id": "kaid_1034761647362147362261181",
-                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
-                },
-                "text": "thumbnail cilckbait... -_- it gets me everytime XD<br>glad to see u still around! :)",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Liam K.",
-                            "id": "kaid_160653079463992085090428",
-                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
-                        },
-                        "text": "Thanks LJE! I am glad to see that you're still on this site too."
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 0,
-                "date": "8 hours ago",
-                "author": {
-                    "name": "kitty mascot",
-                    "id": "kaid_1066778980955332043559618",
-                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                },
-                "text": "bro... that thumb nail XD",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 0,
                 "date": "6 hours ago",
                 "author": {
                     "name": "The Multiverse Hero",
@@ -529,7 +529,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 0,
+                "votes": 1,
                 "date": "7 hours ago",
                 "author": {
                     "name": "ASBackup",
