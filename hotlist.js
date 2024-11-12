@@ -290,7 +290,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 6,
                 "date": "a day ago",
                 "author": {
@@ -301,7 +301,17 @@ var json = {
                 "text": "I love how u credit urself",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "Radar",
+                            "id": "kaid_3902988618718040904060736",
+                            "avatar": "/images/avatars/svg/leafers-seed.svg"
+                        },
+                        "text": "no he's saying if you use my tutorial say that. if you mean lines 6-7"
+                    }
+                ]
             },
             {
                 "replyCount": 1,
@@ -379,7 +389,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
