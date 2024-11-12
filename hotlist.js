@@ -154,7 +154,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 2,
+                "replyCount": 4,
                 "votes": 8,
                 "date": "21 hours ago",
                 "author": {
@@ -183,6 +183,24 @@ var json = {
                             "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
                         "text": "oh my gosh XD"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "JSCoder",
+                            "id": "kaid_3032679493880386290676439",
+                            "avatar": "/images/avatars/svg/leaf-orange.svg"
+                        },
+                        "text": "I guess I was no the only one who though self portrait"
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "kitty mascot",
+                            "id": "kaid_1066778980955332043559618",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                        },
+                        "text": "i guess not XD"
                     }
                 ]
             },
