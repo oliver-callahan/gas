@@ -205,7 +205,7 @@ var json = {
                         "text": "See my solution in the T&T. If you iterate over the nearby blocks you can select the one with the highest collision priority that the player happens to be touching"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -223,7 +223,7 @@ var json = {
                         "text": "@Mushy - I did try to implement your method, but there kept being bugs where the highest priority block did not always end up being the most helpful one. For example, if the Player had a block above and a block below them, they would end up colliding with the block above"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -535,7 +535,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Falling Dragon™️",
                     "id": "kaid_922990378162047462529587",
@@ -634,7 +634,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "▪Dipper98▪",
                     "id": "kaid_3886238215093093067654746",
