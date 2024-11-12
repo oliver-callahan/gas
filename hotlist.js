@@ -156,7 +156,7 @@ var json = {
                         "text": "Hey thank you for pointing this out to me IA! I will implement your code shortly."
                     },
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -169,7 +169,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 5,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "Bearkirb314🐻‍❄️",
                     "id": "kaid_375460112550893828689953",
@@ -189,7 +189,7 @@ var json = {
                         "text": "I can't believe they turned my face into a meme. You have no idea how annoying it is to have dozens of people ask for your signature everywhere you go."
                     },
                     {
-                        "date": "24 minutes ago",
+                        "date": "29 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -329,7 +329,7 @@ var json = {
                         "text": "@Bravo Bravo I have heard about class's. But while on ka I try to make the best of what I have :P<br>haha having never <em>really</em> used inheritance I wouldn't know but ig your right :P<br><br>@Mush yeah ES6 looks sweet. I just haven't had much access to any other coding sight(that uses ES6)"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -338,7 +338,7 @@ var json = {
                         "text": "If you use my Khan Academy exporter you can use ES6 syntax while at the same time writing normal PJS code. ES6 works in the HTML environment :)"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "bravo bravo",
                             "id": "kaid_3550040499775075061747637",
@@ -544,7 +544,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "JJP",
                     "id": "kaid_874785892689340729331212",
