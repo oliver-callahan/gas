@@ -94,7 +94,7 @@ var json = {
                         "text": "oh my gosh XD"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "JSCoder",
                             "id": "kaid_3032679493880386290676439",
@@ -103,7 +103,7 @@ var json = {
                         "text": "I guess I was no the only one who though self portrait"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -223,7 +223,7 @@ var json = {
                         "text": "@Mushy - I did try to implement your method, but there kept being bugs where the highest priority block did not always end up being the most helpful one. For example, if the Player had a block above and a block below them, they would end up colliding with the block above"
                     },
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -307,7 +307,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 5,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "WESTY METZY",
                     "id": "kaid_7615172111979300259760122",
@@ -597,7 +597,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Imtabest41",
                     "id": "kaid_335094101544484503242017",
