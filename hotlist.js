@@ -87,7 +87,7 @@ var json = {
                         "text": "Yeah definitely a bug that I noticed. Mushy proposed a good solution, so I will be looking into that over the next week or so and determining the best path forward.<br><br>Thank you for all your feedback!"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Ibraheem Ahmed (IA)",
                             "id": "kaid_42165633374795610935956",
@@ -240,7 +240,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "theBTG15",
                     "id": "kaid_1184047636356324637542824",
@@ -293,7 +293,7 @@ var json = {
                         "text": "oh yessir I forgot about that. I haven't used inheritance in a while(I need to get back into that habit)<br>Thanks for the reminder =D"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "bravo bravo",
                             "id": "kaid_3550040499775075061747637",
@@ -302,7 +302,7 @@ var json = {
                         "text": "This would probably work:<br><br><pre><code>Name.prototype = Object.assign(<br>  {},<br>  Object.create(Foo.prototype),<br>  {<br>     // additional methods<br>  }<br>);</code></pre><br><br>es5 sucks and classes are so much cleaner"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -459,7 +459,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "42 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "ÐoɠIovɛɼ",
                     "id": "kaid_174620599098233073374167",
