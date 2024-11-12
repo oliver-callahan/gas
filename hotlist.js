@@ -256,7 +256,7 @@ var json = {
                         "text": "I think the answer is even simpler than your method. You can simply use a sort function for each row of the 2D array to fix the problem. I successfully implemented it in a new program, and I will try to add it to this program soon<br><br>Edit: looks like this problem has been resolved and I have posted a full solution to this tutorial"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -303,7 +303,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 minutes ago",
+                        "date": "11 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -430,7 +430,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "ÐoɠIovɛɼ",
                     "id": "kaid_174620599098233073374167",
