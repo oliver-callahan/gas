@@ -3,7 +3,7 @@ var json = {
     "title": "Platformer Tutorial 2.0",
     "votes": 47,
     "created": "9 hours ago",
-    "updated": "26 minutes ago",
+    "updated": "31 minutes ago",
     "type": "HTML",
     "author": {
         "name": "Liam K.",
@@ -90,7 +90,7 @@ var json = {
                         "text": "See my solution in the T&T. If you iterate over the nearby blocks you can select the one with the highest collision priority that the player happens to be touching"
                     },
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -147,7 +147,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "28 minutes ago",
+                        "date": "33 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -226,7 +226,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "LJE",
                     "id": "kaid_1034761647362147362261181",
@@ -237,7 +237,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -275,7 +275,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -368,7 +368,7 @@ var json = {
                         "text": "Honestly I never used inheritance much either until I got into ES6 javascript, where inheritance is much cleaner and less unwieldy.<br><br>Example:<br><pre><code>class Foo {<br>    print() {<br>        println(true);<br>    }<br>}<br><br>class Bar extends Foo {<br>    <br>}<br><br>var bar = new Bar();<br>bar.print(); // Logs true</code></pre>"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "bravo bravo",
                             "id": "kaid_3550040499775075061747637",
@@ -377,7 +377,7 @@ var json = {
                         "text": "even better typescript where you can make abstract classes and methods, even private methods, etc. (syntactically)"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -462,9 +462,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
-                "date": "2 minutes ago",
+                "date": "7 minutes ago",
                 "author": {
                     "name": "Timothy",
                     "id": "kaid_580436051254509721948310",
@@ -473,7 +473,17 @@ var json = {
                 "text": "Insane! Insane that you manage to do this as a college student! Good luck with Statics or whatever they are throwing at you right now :D",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "Liam K.",
+                            "id": "kaid_160653079463992085090428",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "My schedule is actually way too easy as it currently is. My one 'engineering' class is a you breath you get an A type course. My hardest classes in terms of workload are probably Physics and Math. Considering that I already took physics in high school with a 90% overlap between my current class and my high school class, it hasn't been super difficult.<br><br>I'm thinking about joining a game jam for the Video Design club here, so I might have something else to release in a week or so."
+                    }
+                ]
             },
             {
                 "replyCount": 0,
@@ -492,7 +502,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 minutes ago",
+                "date": "15 minutes ago",
                 "author": {
                     "name": "WESTY METZY",
                     "id": "kaid_7615172111979300259760122",
