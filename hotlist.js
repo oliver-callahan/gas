@@ -87,7 +87,7 @@ var json = {
                         "text": "Yeah definitely a bug that I noticed. Mushy proposed a good solution, so I will be looking into that over the next week or so and determining the best path forward.<br><br>Thank you for all your feedback!"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Ibraheem Ahmed (IA)",
                             "id": "kaid_42165633374795610935956",
@@ -136,39 +136,6 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 6,
-                "date": "9 hours ago",
-                "author": {
-                    "name": "Ibraheem Ahmed (IA)",
-                    "id": "kaid_42165633374795610935956",
-                    "avatar": "/images/avatars/svg/spunky-sam.svg"
-                },
-                "text": "Reading through it currently, but I found a big error I wanted to point out asap. The following example code is actually incorrect.<pre><code>var Scenes = (function(){<br><br>})();<br><br>//Is the same as <br>var Scenes = function(){<br><br>};<br>Scenes();</code></pre>The second block of code in the above example (after the comment) does not behave like the IIFE; it's actually much different. Instead of <code>Scenes</code> being assigned the result of a function, it is an actual function. To fix this, change the code to something like the below:<pre><code>var Scenes = (function(){<br><br>})();<br><br>//Is the same as <br>var callback = function(){<br><br>};<br>var Scenes = callback();</code></pre>Really like how much more object oriented this tutorial is, as opposed to the previous. Hopefully it will make it more difficult for people to just copy-paste all of your code and create their \"own\" platformers ;-;<br><br>Great tutorial :D",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Liam K.",
-                            "id": "kaid_160653079463992085090428",
-                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
-                        },
-                        "text": "Hey thank you for pointing this out to me IA! I will implement your code shortly."
-                    },
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "kitty mascot",
-                            "id": "kaid_1066778980955332043559618",
-                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                        },
-                        "text": "@ IA i read your bio... and i can now say i am thoroughly terrified"
-                    }
-                ]
-            },
-            {
-                "replyCount": 2,
-                "votes": 5,
                 "date": "8 hours ago",
                 "author": {
                     "name": "Bearkirb314🐻‍❄️",
@@ -196,6 +163,39 @@ var json = {
                             "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
                         "text": "oh my gosh XD"
+                    }
+                ]
+            },
+            {
+                "replyCount": 2,
+                "votes": 6,
+                "date": "9 hours ago",
+                "author": {
+                    "name": "Ibraheem Ahmed (IA)",
+                    "id": "kaid_42165633374795610935956",
+                    "avatar": "/images/avatars/svg/spunky-sam.svg"
+                },
+                "text": "Reading through it currently, but I found a big error I wanted to point out asap. The following example code is actually incorrect.<pre><code>var Scenes = (function(){<br><br>})();<br><br>//Is the same as <br>var Scenes = function(){<br><br>};<br>Scenes();</code></pre>The second block of code in the above example (after the comment) does not behave like the IIFE; it's actually much different. Instead of <code>Scenes</code> being assigned the result of a function, it is an actual function. To fix this, change the code to something like the below:<pre><code>var Scenes = (function(){<br><br>})();<br><br>//Is the same as <br>var callback = function(){<br><br>};<br>var Scenes = callback();</code></pre>Really like how much more object oriented this tutorial is, as opposed to the previous. Hopefully it will make it more difficult for people to just copy-paste all of your code and create their \"own\" platformers ;-;<br><br>Great tutorial :D",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "4 hours ago",
+                        "author": {
+                            "name": "Liam K.",
+                            "id": "kaid_160653079463992085090428",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "Hey thank you for pointing this out to me IA! I will implement your code shortly."
+                    },
+                    {
+                        "date": "an hour ago",
+                        "author": {
+                            "name": "kitty mascot",
+                            "id": "kaid_1066778980955332043559618",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                        },
+                        "text": "@ IA i read your bio... and i can now say i am thoroughly terrified"
                     }
                 ]
             },
@@ -240,7 +240,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "theBTG15",
                     "id": "kaid_1184047636356324637542824",
@@ -293,7 +293,7 @@ var json = {
                         "text": "oh yessir I forgot about that. I haven't used inheritance in a while(I need to get back into that habit)<br>Thanks for the reminder =D"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "bravo bravo",
                             "id": "kaid_3550040499775075061747637",
@@ -302,7 +302,7 @@ var json = {
                         "text": "This would probably work:<br><br><pre><code>Name.prototype = Object.assign(<br>  {},<br>  Object.create(Foo.prototype),<br>  {<br>     // additional methods<br>  }<br>);</code></pre><br><br>es5 sucks and classes are so much cleaner"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
