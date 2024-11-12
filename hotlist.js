@@ -32,6 +32,39 @@ var json = {
                 "replies": []
             },
             {
+                "replyCount": 2,
+                "votes": 9,
+                "date": "10 hours ago",
+                "author": {
+                    "name": "Mushy Avocado",
+                    "id": "kaid_889538221957342292210697",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "YES finally someone who uses a 2D array to efficiently iterate over the blocks. <br><br>Cool tutorial, you've improved it a lot since your last one.<br><br>As for LemonTurtle's suggestion, the solution would be to assign a \"priority\" to each block. When the player checks for collisions, simply iterate over each block the player might be able to collide with, selecting the one that the player is touching and has the highest priority.<br><br>Edit: You also call it a PhysicsBody! lol what a coincidence. I use the same vocab. I even like calling what controls everything a \"world\"",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "10 hours ago",
+                        "author": {
+                            "name": "Liam K.",
+                            "id": "kaid_160653079463992085090428",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "Hey that's actually a really smart idea. I will look into that and similar methods to see if I can implement that on this program. <br><br>I think we're basically the same person at this point lol. I'm ~95% sure we have the same hometowns too."
+                    },
+                    {
+                        "date": "6 hours ago",
+                        "author": {
+                            "name": "Mushy Avocado",
+                            "id": "kaid_889538221957342292210697",
+                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                        },
+                        "text": "Oh you're going to OSU! Oh cool! Yep, I used to live in Salem. It's not my hometown though, and I don't live there anymore. I live in [REDACTED]<br><br>I actually went to Chemeketa while in high school to study architectural drafting :)"
+                    }
+                ]
+            },
+            {
                 "replyCount": 6,
                 "votes": 8,
                 "date": "11 hours ago",
@@ -101,55 +134,8 @@ var json = {
                 ]
             },
             {
-                "replyCount": 2,
-                "votes": 8,
-                "date": "10 hours ago",
-                "author": {
-                    "name": "Mushy Avocado",
-                    "id": "kaid_889538221957342292210697",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "YES finally someone who uses a 2D array to efficiently iterate over the blocks. <br><br>Cool tutorial, you've improved it a lot since your last one.<br><br>As for LemonTurtle's suggestion, the solution would be to assign a \"priority\" to each block. When the player checks for collisions, simply iterate over each block the player might be able to collide with, selecting the one that the player is touching and has the highest priority.<br><br>Edit: You also call it a PhysicsBody! lol what a coincidence. I use the same vocab. I even like calling what controls everything a \"world\"",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "10 hours ago",
-                        "author": {
-                            "name": "Liam K.",
-                            "id": "kaid_160653079463992085090428",
-                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
-                        },
-                        "text": "Hey that's actually a really smart idea. I will look into that and similar methods to see if I can implement that on this program. <br><br>I think we're basically the same person at this point lol. I'm ~95% sure we have the same hometowns too."
-                    },
-                    {
-                        "date": "5 hours ago",
-                        "author": {
-                            "name": "Mushy Avocado",
-                            "id": "kaid_889538221957342292210697",
-                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                        },
-                        "text": "Oh you're going to OSU! Oh cool! Yep, I used to live in Salem. It's not my hometown though, and I don't live there anymore. I live in [REDACTED]<br><br>I actually went to Chemeketa while in high school to study architectural drafting :)"
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 6,
-                "date": "9 hours ago",
-                "author": {
-                    "name": "AGnawKneeMouse Coder",
-                    "id": "kaid_9033829293805621369025816",
-                    "avatar": "/images/avatars/svg/leaf-red.svg"
-                },
-                "text": "That thumbnail goes hard",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
                 "replyCount": 1,
-                "votes": 5,
+                "votes": 6,
                 "date": "7 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
@@ -173,7 +159,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 4,
+                "votes": 5,
                 "date": "7 hours ago",
                 "author": {
                     "name": "Bearkirb314🐻‍❄️",
@@ -196,8 +182,22 @@ var json = {
                 ]
             },
             {
+                "replyCount": 0,
+                "votes": 5,
+                "date": "9 hours ago",
+                "author": {
+                    "name": "AGnawKneeMouse Coder",
+                    "id": "kaid_9033829293805621369025816",
+                    "avatar": "/images/avatars/svg/leaf-red.svg"
+                },
+                "text": "That thumbnail goes hard",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
                 "replyCount": 1,
-                "votes": 4,
+                "votes": 3,
                 "date": "10 hours ago",
                 "author": {
                     "name": "YokieBob",
@@ -209,7 +209,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -220,60 +220,8 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 2,
-                "date": "4 hours ago",
-                "author": {
-                    "name": "Falling Dragon™️",
-                    "id": "kaid_922990378162047462529587",
-                    "avatar": "/images/avatars/svg/leaf-blue.svg"
-                },
-                "text": "esc for chad",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "4 hours ago",
-                "author": {
-                    "name": "LJE",
-                    "id": "kaid_1034761647362147362261181",
-                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
-                },
-                "text": "thumbnail cilckbait... -_- it gets me everytime XD<br>glad to see u still around! :)",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Liam K.",
-                            "id": "kaid_160653079463992085090428",
-                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
-                        },
-                        "text": "Thanks LJE! I am glad to see that you're still on this site too."
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "7 hours ago",
-                "author": {
-                    "name": "kitty mascot",
-                    "id": "kaid_1066778980955332043559618",
-                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                },
-                "text": "bro... that thumb nail XD",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
                 "date": "7 hours ago",
                 "author": {
                     "name": "theBTG15",
@@ -296,41 +244,8 @@ var json = {
                 ]
             },
             {
-                "replyCount": 2,
-                "votes": 1,
-                "date": "9 hours ago",
-                "author": {
-                    "name": "TH3 ROUG3 L3G3ND™",
-                    "id": "kaid_2809101008758048501324524",
-                    "avatar": "/images/avatars/svg/boggle-blue.svg"
-                },
-                "text": "4,600 lines of code(I don't have the patience)",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "9 hours ago",
-                        "author": {
-                            "name": "Liam K.",
-                            "id": "kaid_160653079463992085090428",
-                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
-                        },
-                        "text": "You only end up coding ~450 lines of code. This tutorial is mostly just super bulky because I had to recopy/paste lots of the same code every time I wanted to add new code. <br><br>This tutorial is super doable even for beginners, so I'd recommend that you take a stab at it."
-                    },
-                    {
-                        "date": "9 hours ago",
-                        "author": {
-                            "name": "TH3 ROUG3 L3G3ND™",
-                            "id": "kaid_2809101008758048501324524",
-                            "avatar": "/images/avatars/svg/boggle-blue.svg"
-                        },
-                        "text": "no I was talking about this platformer tutorial program you did a great job coding 4,600 lines of code!"
-                    }
-                ]
-            },
-            {
                 "replyCount": 10,
-                "votes": 1,
+                "votes": 2,
                 "date": "10 hours ago",
                 "author": {
                     "name": "Duke",
@@ -434,8 +349,131 @@ var json = {
                 ]
             },
             {
+                "replyCount": 0,
+                "votes": 2,
+                "date": "3 hours ago",
+                "author": {
+                    "name": "WESTY METZY",
+                    "id": "kaid_7615172111979300259760122",
+                    "avatar": "/images/avatars/svg/mr-pink.svg"
+                },
+                "text": "I love how u credit urself",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 2,
+                "date": "4 hours ago",
+                "author": {
+                    "name": "Falling Dragon™️",
+                    "id": "kaid_922990378162047462529587",
+                    "avatar": "/images/avatars/svg/leaf-blue.svg"
+                },
+                "text": "esc for chad",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 2,
+                "votes": 1,
+                "date": "10 hours ago",
+                "author": {
+                    "name": "TH3 ROUG3 L3G3ND™",
+                    "id": "kaid_2809101008758048501324524",
+                    "avatar": "/images/avatars/svg/boggle-blue.svg"
+                },
+                "text": "4,600 lines of code(I don't have the patience)",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "9 hours ago",
+                        "author": {
+                            "name": "Liam K.",
+                            "id": "kaid_160653079463992085090428",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "You only end up coding ~450 lines of code. This tutorial is mostly just super bulky because I had to recopy/paste lots of the same code every time I wanted to add new code. <br><br>This tutorial is super doable even for beginners, so I'd recommend that you take a stab at it."
+                    },
+                    {
+                        "date": "9 hours ago",
+                        "author": {
+                            "name": "TH3 ROUG3 L3G3ND™",
+                            "id": "kaid_2809101008758048501324524",
+                            "avatar": "/images/avatars/svg/boggle-blue.svg"
+                        },
+                        "text": "no I was talking about this platformer tutorial program you did a great job coding 4,600 lines of code!"
+                    }
+                ]
+            },
+            {
                 "replyCount": 1,
                 "votes": 1,
+                "date": "3 hours ago",
+                "author": {
+                    "name": "Timothy",
+                    "id": "kaid_580436051254509721948310",
+                    "avatar": "/images/avatars/svg/cs-hopper-jumping.svg"
+                },
+                "text": "Insane! Insane that you manage to do this as a college student! Good luck with Statics or whatever they are throwing at you right now :D",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "2 hours ago",
+                        "author": {
+                            "name": "Liam K.",
+                            "id": "kaid_160653079463992085090428",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "My schedule is actually way too easy as it currently is. My one 'engineering' class is a you breath you get an A type course. My hardest classes in terms of workload are probably Physics and Math. Considering that I already took physics in high school with a 90% overlap between my current class and my high school class, it hasn't been super difficult.<br><br>I'm thinking about joining a game jam for the Video Design club here, so I might have something else to release in a week or so."
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 0,
+                "date": "4 hours ago",
+                "author": {
+                    "name": "LJE",
+                    "id": "kaid_1034761647362147362261181",
+                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                },
+                "text": "thumbnail cilckbait... -_- it gets me everytime XD<br>glad to see u still around! :)",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "3 hours ago",
+                        "author": {
+                            "name": "Liam K.",
+                            "id": "kaid_160653079463992085090428",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "Thanks LJE! I am glad to see that you're still on this site too."
+                    }
+                ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 0,
+                "date": "7 hours ago",
+                "author": {
+                    "name": "kitty mascot",
+                    "id": "kaid_1066778980955332043559618",
+                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                },
+                "text": "bro... that thumb nail XD",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 0,
                 "date": "10 hours ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
@@ -459,8 +497,8 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 1,
-                "date": "4 hours ago",
+                "votes": 0,
+                "date": "5 hours ago",
                 "author": {
                     "name": "The Multiverse Hero",
                     "id": "kaid_523988888981336150053758",
@@ -472,32 +510,8 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "2 hours ago",
-                "author": {
-                    "name": "Timothy",
-                    "id": "kaid_580436051254509721948310",
-                    "avatar": "/images/avatars/svg/cs-hopper-jumping.svg"
-                },
-                "text": "Insane! Insane that you manage to do this as a college student! Good luck with Statics or whatever they are throwing at you right now :D",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "Liam K.",
-                            "id": "kaid_160653079463992085090428",
-                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
-                        },
-                        "text": "My schedule is actually way too easy as it currently is. My one 'engineering' class is a you breath you get an A type course. My hardest classes in terms of workload are probably Physics and Math. Considering that I already took physics in high school with a 90% overlap between my current class and my high school class, it hasn't been super difficult.<br><br>I'm thinking about joining a game jam for the Video Design club here, so I might have something else to release in a week or so."
-                    }
-                ]
-            },
-            {
                 "replyCount": 0,
-                "votes": 1,
+                "votes": 0,
                 "date": "6 hours ago",
                 "author": {
                     "name": "ASBackup",
@@ -505,20 +519,6 @@ var json = {
                     "avatar": "/images/avatars/svg/aqualine-tree.svg"
                 },
                 "text": "eyy liam :)<br>looks great!<br>amazing thumbnail lol",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "3 hours ago",
-                "author": {
-                    "name": "WESTY METZY",
-                    "id": "kaid_7615172111979300259760122",
-                    "avatar": "/images/avatars/svg/mr-pink.svg"
-                },
-                "text": "I love how u credit urself",
                 "locked": false,
                 "pinned": false,
                 "replies": []
