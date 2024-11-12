@@ -67,7 +67,7 @@ var json = {
             {
                 "replyCount": 6,
                 "votes": 8,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "LemonTurtle",
                     "id": "kaid_26727758302107548837304",
@@ -156,7 +156,7 @@ var json = {
                         "text": "Hey thank you for pointing this out to me IA! I will implement your code shortly."
                     },
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -189,7 +189,7 @@ var json = {
                         "text": "I can't believe they turned my face into a meme. You have no idea how annoying it is to have dozens of people ask for your signature everywhere you go."
                     },
                     {
-                        "date": "34 minutes ago",
+                        "date": "39 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -369,7 +369,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "WESTY METZY",
                     "id": "kaid_7615172111979300259760122",
