@@ -64,7 +64,7 @@ var json = {
             },
             {
                 "replyCount": 4,
-                "votes": 10,
+                "votes": 11,
                 "date": "a day ago",
                 "author": {
                     "name": "Bearkirb314🐻‍❄️",
@@ -110,6 +110,48 @@ var json = {
                             "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
                         "text": "i guess not XD"
+                    }
+                ]
+            },
+            {
+                "replyCount": 2,
+                "votes": 9,
+                "date": "a day ago",
+                "author": {
+                    "name": "Ibraheem Ahmed (IA)",
+                    "id": "kaid_42165633374795610935956",
+                    "avatar": "/images/avatars/svg/spunky-sam.svg"
+                },
+                "text": "Reading through it currently, but I found a big error I wanted to point out asap. The following example code is actually incorrect.<pre><code>var Scenes = (function(){<br><br>})();<br><br>//Is the same as <br>var Scenes = function(){<br><br>};<br>Scenes();</code></pre>The second block of code in the above example (after the comment) does not behave like the IIFE; it's actually much different. Instead of <code>Scenes</code> being assigned the result of a function, it is an actual function. To fix this, change the code to something like the below:<pre><code>var Scenes = (function(){<br><br>})();<br><br>//Is the same as <br>var callback = function(){<br><br>};<br>var Scenes = callback();</code></pre>Really like how much more object oriented this tutorial is, as opposed to the previous. Hopefully it will make it more difficult for people to just copy-paste all of your code and create their \"own\" platformers ;-;<br><br>Great tutorial :D",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "a day ago",
+                        "author": {
+                            "name": "Liam K.",
+                            "id": "kaid_160653079463992085090428",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "Hey thank you for pointing this out to me IA! I will implement your code shortly."
+                    },
+                    {
+                        "date": "19 hours ago",
+                        "author": {
+                            "name": "kitty mascot",
+                            "id": "kaid_1066778980955332043559618",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                        },
+                        "text": "@ IA i read your bio... and i can now say i am thoroughly terrified"
+                    },
+                    {
+                        "date": "18 hours ago",
+                        "author": {
+                            "name": "Ibraheem Ahmed (IA)",
+                            "id": "kaid_42165633374795610935956",
+                            "avatar": "/images/avatars/svg/spunky-sam.svg"
+                        },
+                        "text": "@LiamK<br>No problem :)<br><br>@kittymascot<br>O.o"
                     }
                 ]
             },
@@ -234,48 +276,6 @@ var json = {
                 ]
             },
             {
-                "replyCount": 2,
-                "votes": 8,
-                "date": "a day ago",
-                "author": {
-                    "name": "Ibraheem Ahmed (IA)",
-                    "id": "kaid_42165633374795610935956",
-                    "avatar": "/images/avatars/svg/spunky-sam.svg"
-                },
-                "text": "Reading through it currently, but I found a big error I wanted to point out asap. The following example code is actually incorrect.<pre><code>var Scenes = (function(){<br><br>})();<br><br>//Is the same as <br>var Scenes = function(){<br><br>};<br>Scenes();</code></pre>The second block of code in the above example (after the comment) does not behave like the IIFE; it's actually much different. Instead of <code>Scenes</code> being assigned the result of a function, it is an actual function. To fix this, change the code to something like the below:<pre><code>var Scenes = (function(){<br><br>})();<br><br>//Is the same as <br>var callback = function(){<br><br>};<br>var Scenes = callback();</code></pre>Really like how much more object oriented this tutorial is, as opposed to the previous. Hopefully it will make it more difficult for people to just copy-paste all of your code and create their \"own\" platformers ;-;<br><br>Great tutorial :D",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Liam K.",
-                            "id": "kaid_160653079463992085090428",
-                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
-                        },
-                        "text": "Hey thank you for pointing this out to me IA! I will implement your code shortly."
-                    },
-                    {
-                        "date": "19 hours ago",
-                        "author": {
-                            "name": "kitty mascot",
-                            "id": "kaid_1066778980955332043559618",
-                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                        },
-                        "text": "@ IA i read your bio... and i can now say i am thoroughly terrified"
-                    },
-                    {
-                        "date": "18 hours ago",
-                        "author": {
-                            "name": "Ibraheem Ahmed (IA)",
-                            "id": "kaid_42165633374795610935956",
-                            "avatar": "/images/avatars/svg/spunky-sam.svg"
-                        },
-                        "text": "@LiamK<br>No problem :)<br><br>@kittymascot<br>O.o"
-                    }
-                ]
-            },
-            {
                 "replyCount": 0,
                 "votes": 7,
                 "date": "a day ago",
@@ -285,6 +285,20 @@ var json = {
                     "avatar": "/images/avatars/svg/leaf-red.svg"
                 },
                 "text": "That thumbnail goes hard",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 6,
+                "date": "a day ago",
+                "author": {
+                    "name": "WESTY METZY",
+                    "id": "kaid_7615172111979300259760122",
+                    "avatar": "/images/avatars/svg/mr-pink.svg"
+                },
+                "text": "I love how u credit urself",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -312,20 +326,6 @@ var json = {
                         "text": "1) Thanks for the tip about Math.sign. I didn't know that existed so I will definitely be implementing that.<br><br>2) There isn't really a hard and fast physics rule for <code>this.acc * 2.</code> Basically the frictional force is always opposing the direction of motion in the x direction with an acceleration of 0.1. Because the player's driving acceleration is 0.3, the gravitational acceleration is 0.2 so the player accelerates at 0.2 in both the x and y directions.<br><br>3) The array cull algorithm is a holdover from another program, so I didn't code it specifically for this tutorial like most of the other code. That is just an integration issue. I would recommend using ~~ in most cases. <br><br>4) In most of my other programs, I don't actually use an array cull algorithm, but simply loop through the levels array without the use of an intermediary array. While the second method is definitely faster, the array cull algorithm ends up looking cleaner, is more reusable, and is easier to  implement. Both ways allow you to ignore any unnecessary blocks. I don't think that the speed difference is significant enough to have any adverse effect unless you are attempting something crazy with other parts of your code, which is beyond the scope of this tutorial"
                     }
                 ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 5,
-                "date": "a day ago",
-                "author": {
-                    "name": "WESTY METZY",
-                    "id": "kaid_7615172111979300259760122",
-                    "avatar": "/images/avatars/svg/mr-pink.svg"
-                },
-                "text": "I love how u credit urself",
-                "locked": false,
-                "pinned": false,
-                "replies": []
             },
             {
                 "replyCount": 0,
@@ -362,6 +362,30 @@ var json = {
                             "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
                         },
                         "text": "No problem. I hope to see you create something great!"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 3,
+                "date": "a day ago",
+                "author": {
+                    "name": "Timothy",
+                    "id": "kaid_580436051254509721948310",
+                    "avatar": "/images/avatars/svg/cs-hopper-jumping.svg"
+                },
+                "text": "Insane! Insane that you manage to do this as a college student! Good luck with Statics or whatever they are throwing at you right now :D",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "21 hours ago",
+                        "author": {
+                            "name": "Liam K.",
+                            "id": "kaid_160653079463992085090428",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "My schedule is actually way too easy as it currently is. My one 'engineering' class is a you breath you get an A type course. My hardest classes in terms of workload are probably Physics and Math. Considering that I already took physics in high school with a 90% overlap between my current class and my high school class, it hasn't been super difficult.<br><br>I'm thinking about joining a game jam for the Video Design club here, so I might have something else to release in a week or so."
                     }
                 ]
             },
@@ -407,7 +431,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "xG4B3s",
                             "id": "kaid_6735654591475171038278310",
@@ -523,28 +547,18 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 0,
                 "votes": 2,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
-                    "name": "Timothy",
-                    "id": "kaid_580436051254509721948310",
-                    "avatar": "/images/avatars/svg/cs-hopper-jumping.svg"
+                    "name": "ASBackup",
+                    "id": "kaid_714780036830891967670231",
+                    "avatar": "/images/avatars/svg/aqualine-tree.svg"
                 },
-                "text": "Insane! Insane that you manage to do this as a college student! Good luck with Statics or whatever they are throwing at you right now :D",
+                "text": "eyy liam :)<br>looks great!<br>amazing thumbnail lol",
                 "locked": false,
                 "pinned": false,
-                "replies": [
-                    {
-                        "date": "21 hours ago",
-                        "author": {
-                            "name": "Liam K.",
-                            "id": "kaid_160653079463992085090428",
-                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
-                        },
-                        "text": "My schedule is actually way too easy as it currently is. My one 'engineering' class is a you breath you get an A type course. My hardest classes in terms of workload are probably Physics and Math. Considering that I already took physics in high school with a 90% overlap between my current class and my high school class, it hasn't been super difficult.<br><br>I'm thinking about joining a game jam for the Video Design club here, so I might have something else to release in a week or so."
-                    }
-                ]
+                "replies": []
             },
             {
                 "replyCount": 1,
@@ -679,20 +693,6 @@ var json = {
                     "avatar": "/images/avatars/svg/starky-sapling.svg"
                 },
                 "text": "Now this is some Gigachadian coding! Thanks so much for this Mr. K.",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "ASBackup",
-                    "id": "kaid_714780036830891967670231",
-                    "avatar": "/images/avatars/svg/aqualine-tree.svg"
-                },
-                "text": "eyy liam :)<br>looks great!<br>amazing thumbnail lol",
                 "locked": false,
                 "pinned": false,
                 "replies": []
