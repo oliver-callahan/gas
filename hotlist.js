@@ -3,7 +3,7 @@ var json = {
     "title": "Platformer Tutorial 2.0",
     "votes": 48,
     "created": "10 hours ago",
-    "updated": "10 minutes ago",
+    "updated": "15 minutes ago",
     "type": "HTML",
     "author": {
         "name": "Liam K.",
@@ -32,7 +32,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 6,
+                "replyCount": 7,
                 "votes": 8,
                 "date": "9 hours ago",
                 "author": {
@@ -97,6 +97,15 @@ var json = {
                             "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
                         },
                         "text": "I think the answer is even simpler than your method. You can simply use a sort function for each row of the 2D array to fix the problem. I successfully implemented it in a new program, and I will try to add it to this program soon<br><br>Edit: looks like this problem has been resolved and I have posted a full solution to this tutorial"
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "Mushy Avocado",
+                            "id": "kaid_889538221957342292210697",
+                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                        },
+                        "text": "I think that's close, but the only problem is you face the same issue when dealing with vertical collisions. So the collision priority is only applied to horizontal collisions. For instance, if you hit the lava on the bottom right, while still touching another block, the lower priority is ignored in favor of hitting the lava, causing the player to die.<br><br>My solution causes less overhead as well, because sort is expensive (although you're using it with pretty small arrays, so the performance impact isn't super severe). You only need to iterate over the 2d array once to find the block that fits the 2 pieces of criteria, that (a) the player is touching the block and (b) the blocks priority is higher than the other block that's being touched.<br><br>All in all though, your solution does work and it's just a different approach to the same problem, so I understand if you don't want to change it."
                     }
                 ]
             },
@@ -150,7 +159,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 5,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -185,7 +194,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -260,7 +269,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -351,7 +360,7 @@ var json = {
                         "text": "I wouldn't use that method of assigning prototypes because it breaks object inheritance.<br><br>This won't work<br><pre><code>function Foo() {<br><br>}<br><br>Foo.prototype.print = function() {<br>    println(true);<br>};<br><br>function Name() {<br>    Foo.call(this);<br>}<br><br>Name.prototype = Object.create(Foo.prototype);<br>Name.prototype = {<br>    // Code goes here<br>};<br><br>var name = new Name();<br>name.print(); // Error because Name.prototype was overridden to be an object instead.</code></pre>"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -423,7 +432,7 @@ var json = {
                         "text": "Looks like Mushy pretty much summed it up. While this tutorial was designed to be run solely in the PJS environment, I would highly recommend transferring your code over to an HTML environment to rid yourself of most of the flaws of PJS."
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -436,7 +445,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
