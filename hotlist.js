@@ -3,7 +3,7 @@ var json = {
     "title": "Bread Apocalypse - ft. wealR",
     "votes": 50,
     "created": "19 hours ago",
-    "updated": "17 minutes ago",
+    "updated": "22 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Radar",
@@ -92,7 +92,7 @@ var json = {
                         "text": "wow you're quick!<br>Thanks!<br>lol"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -101,7 +101,7 @@ var json = {
                         "text": "I waited like 3 minutes to post it lol<br>Your welcome!<br>Make sure wealR sees this ;P"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -110,7 +110,7 @@ var json = {
                         "text": "dont you just love the graphics. i dink theyre masterpieces"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -195,7 +195,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "34 minutes ago",
+                "date": "39 minutes ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -206,7 +206,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -230,7 +230,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "EZezmath9",
                             "id": "kaid_1144531708437896578699873",
@@ -239,7 +239,7 @@ var json = {
                         "text": "Ha! I got 3382!"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "EZezmath9",
                             "id": "kaid_1144531708437896578699873",
@@ -296,7 +296,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -309,7 +309,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "CassiaSight",
                     "id": "kaid_27486925028137101487234",
@@ -392,7 +392,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -414,7 +414,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "Hokeycat",
                     "id": "kaid_438466413527508491816275",
@@ -482,7 +482,7 @@ var json = {
                         "text": "lol i wouldn't let him do that<br><br>thanks :)"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -519,7 +519,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "Pineapples",
                     "id": "kaid_6104902828627300552146889",
@@ -634,7 +634,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -643,7 +643,7 @@ var json = {
                         "text": "thanks just it isn't a cow. its a bison"
                     },
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "🐢🥓 TurtleBacon",
                             "id": "kaid_717955606160046848792382",
@@ -680,7 +680,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "39 minutes ago",
+                "date": "44 minutes ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
@@ -694,7 +694,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "AmethystSky",
                     "id": "kaid_784805823121542822870790",
@@ -729,7 +729,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -753,7 +753,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
