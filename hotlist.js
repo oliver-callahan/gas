@@ -147,7 +147,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -156,7 +156,7 @@ var json = {
                         "text": "Hey thank you for pointing this out to me IA! I will implement your code shortly."
                     },
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -189,7 +189,7 @@ var json = {
                         "text": "I can't believe they turned my face into a meme. You have no idea how annoying it is to have dozens of people ask for your signature everywhere you go."
                     },
                     {
-                        "date": "19 minutes ago",
+                        "date": "24 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -251,7 +251,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -311,7 +311,7 @@ var json = {
                         "text": "Honestly I never used inheritance much either until I got into ES6 javascript, where inheritance is much cleaner and less unwieldy.<br><br>Example:<br><pre><code>class Foo {<br>    print() {<br>        println(true);<br>    }<br>}<br><br>class Bar extends Foo {<br>    <br>}<br><br>var bar = new Bar();<br>bar.print(); // Logs true</code></pre>"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "bravo bravo",
                             "id": "kaid_3550040499775075061747637",
@@ -320,7 +320,7 @@ var json = {
                         "text": "even better typescript where you can make abstract classes and methods, even private methods, etc. (syntactically)"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -454,7 +454,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 0,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "LJE",
                     "id": "kaid_1034761647362147362261181",
@@ -465,7 +465,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
