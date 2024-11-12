@@ -223,7 +223,7 @@ var json = {
                         "text": "@Mushy - I did try to implement your method, but there kept being bugs where the highest priority block did not always end up being the most helpful one. For example, if the Player had a block above and a block below them, they would end up colliding with the block above"
                     },
                     {
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -306,7 +306,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 4,
+                "votes": 5,
                 "date": "18 hours ago",
                 "author": {
                     "name": "WESTY METZY",
