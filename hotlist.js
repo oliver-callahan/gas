@@ -3,7 +3,7 @@ var json = {
     "title": "Bread Apocalypse - ft. wealR",
     "votes": 52,
     "created": "20 hours ago",
-    "updated": "15 minutes ago",
+    "updated": "20 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Radar",
@@ -20,7 +20,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 12,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
@@ -34,7 +34,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 5,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
@@ -72,7 +72,7 @@ var json = {
             {
                 "replyCount": 12,
                 "votes": 2,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Duke",
                     "id": "kaid_351465532815782433620675",
@@ -83,7 +83,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -195,7 +195,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -381,7 +381,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "Firebrand (offline)",
                     "id": "kaid_423049852746380987692804",
@@ -623,7 +623,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "🐢🥓 TurtleBacon",
                     "id": "kaid_717955606160046848792382",
