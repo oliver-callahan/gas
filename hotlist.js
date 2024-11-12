@@ -3,7 +3,7 @@ var json = {
     "title": "Platformer Tutorial 2.0",
     "votes": 50,
     "created": "10 hours ago",
-    "updated": "35 minutes ago",
+    "updated": "40 minutes ago",
     "type": "HTML",
     "author": {
         "name": "Liam K.",
@@ -34,7 +34,7 @@ var json = {
             {
                 "replyCount": 6,
                 "votes": 8,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "LemonTurtle",
                     "id": "kaid_26727758302107548837304",
@@ -185,7 +185,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -512,7 +512,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "WESTY METZY",
                     "id": "kaid_7615172111979300259760122",
