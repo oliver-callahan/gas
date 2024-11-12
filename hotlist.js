@@ -3,7 +3,7 @@ var json = {
     "title": "Platformer Tutorial 2.0",
     "votes": 50,
     "created": "11 hours ago",
-    "updated": "an hour ago",
+    "updated": "2 hours ago",
     "type": "HTML",
     "author": {
         "name": "Liam K.",
@@ -20,7 +20,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 12,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "Liam K.",
                     "id": "kaid_160653079463992085090428",
@@ -45,7 +45,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -114,7 +114,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -185,7 +185,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -198,7 +198,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 4,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "YokieBob",
                     "id": "kaid_681887786554114354822051",
@@ -414,7 +414,7 @@ var json = {
                         "text": "Duke you should take some courses on modern js, it'll help you out in a lot of ways. try freecodecamp or codeacademy"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -447,7 +447,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
