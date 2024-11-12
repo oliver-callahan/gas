@@ -3,7 +3,7 @@ var json = {
     "title": "Platformer Tutorial 2.0",
     "votes": 44,
     "created": "8 hours ago",
-    "updated": "a minute ago",
+    "updated": "6 minutes ago",
     "type": "HTML",
     "author": {
         "name": "Liam K.",
@@ -138,7 +138,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -203,7 +203,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "41 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Falling Dragon™️",
                     "id": "kaid_922990378162047462529587",
@@ -228,7 +228,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a few seconds ago",
+                        "date": "5 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -253,7 +253,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "4 hours ago",
                 "author": {
@@ -264,7 +264,17 @@ var json = {
                 "text": "This is exactly what I've been looking for lately! (I'm working on a platformer) I'm glad that you decided to make a version 2.0 of the original. Vote++! BTW I love the clickbait thumbnail. Keep it up!",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "Liam K.",
+                            "id": "kaid_160653079463992085090428",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "No problem. I hope to see you create something great!"
+                    }
+                ]
             },
             {
                 "replyCount": 2,
@@ -302,7 +312,7 @@ var json = {
             {
                 "replyCount": 10,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "Duke",
                     "id": "kaid_351465532815782433620675",
