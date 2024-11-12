@@ -169,7 +169,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 7,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -370,7 +370,7 @@ var json = {
                         "text": "Looks like Mushy pretty much summed it up. While this tutorial was designed to be run solely in the PJS environment, I would highly recommend transferring your code over to an HTML environment to rid yourself of most of the flaws of PJS."
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -459,7 +459,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -520,7 +520,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "5 minutes ago",
+                "date": "10 minutes ago",
                 "author": {
                     "name": "Imtabest41",
                     "id": "kaid_335094101544484503242017",
