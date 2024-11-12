@@ -136,7 +136,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 6,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -156,7 +156,7 @@ var json = {
                         "text": "Hey thank you for pointing this out to me IA! I will implement your code shortly."
                     },
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -189,7 +189,7 @@ var json = {
                         "text": "I can't believe they turned my face into a meme. You have no idea how annoying it is to have dozens of people ask for your signature everywhere you go."
                     },
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -284,7 +284,7 @@ var json = {
                         "text": "I wouldn't use that method of assigning prototypes because it breaks object inheritance.<br><br>This won't work<br><pre><code>function Foo() {<br><br>}<br><br>Foo.prototype.print = function() {<br>    println(true);<br>};<br><br>function Name() {<br>    Foo.call(this);<br>}<br><br>Name.prototype = Object.create(Foo.prototype);<br>Name.prototype = {<br>    // Code goes here<br>};<br><br>var name = new Name();<br>name.print(); // Error because Name.prototype was overridden to be an object instead.</code></pre>"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -356,7 +356,7 @@ var json = {
                         "text": "Looks like Mushy pretty much summed it up. While this tutorial was designed to be run solely in the PJS environment, I would highly recommend transferring your code over to an HTML environment to rid yourself of most of the flaws of PJS."
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -478,7 +478,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -492,7 +492,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 0,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
