@@ -122,7 +122,7 @@ var json = {
                     "id": "kaid_889538221957342292210697",
                     "avatar": "/images/avatars/svg/orange-juice-squid.svg"
                 },
-                "text": "YES finally someone who uses a 2D array to efficiently iterate over the blocks. <br><br>Cool tutorial, you've improved it a lot since your last one.<br><br>As for LemonTurtle's suggestion, the solution would be to assign a \"priority\" to each block. When the player checks for collisions, simply iterate over each block the player might be able to collide with, selecting the one that the player is touching and has the highest priority.<br><br>Edit: You also call it a PhysicsBody! lol what a coincidence. I use the same vocab. I even like calling what controls everything a \"world\"",
+                "text": "YES finally someone who uses a 2D array to efficiently iterate over the blocks. <br><br>Cool tutorial, you've improved it a lot since your last one.<br><br>As for LemonTurtle's suggestion, the solution would be to assign a \"priority\" to each block. When the player checks for collisions, simply iterate over each block the player might be able to collide with, selecting the one that the player is touching and has the highest priority. You would have to iterate over the array twice, once for each block the player might be touching.<br><br>Edit: You also call it a PhysicsBody! lol what a coincidence. I use the same vocab. I even like calling what controls everything a \"world\"",
                 "locked": false,
                 "pinned": false,
                 "replies": [
@@ -147,7 +147,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 7,
+                "replyCount": 8,
                 "votes": 8,
                 "date": "a day ago",
                 "author": {
@@ -221,6 +221,15 @@ var json = {
                             "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
                         },
                         "text": "@Mushy - I did try to implement your method, but there kept being bugs where the highest priority block did not always end up being the most helpful one. For example, if the Player had a block above and a block below them, they would end up colliding with the block above"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Mushy Avocado",
+                            "id": "kaid_889538221957342292210697",
+                            "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                        },
+                        "text": "Oops. I forgot to mention that my method would mean you have to iterate over the array of culled blocks twice. Once to collide normally, and if the player collides with a block, again to check for collisions with a possible second block. My bad.<br><br>Your solution is probably better, although it doesn't work for vertical collisions (if you touch the bottom left of lava, even though you're touching another block, you still die)<br><br>Here's a slightly more optimized version of your <code>World.cullArray</code> method:<br><pre><code>        _World.cullArray = function(array, x, y, w, h) {<br><br>\t\t//Find the top left x and y index of the array subset<br>\t\tvar startX = max(~~(x / _World.blockSize), 0);<br>\t\tvar startY = max(~~(y / _World.blockSize), 0);<br><br>\t\t//Convert the width/height in pixels into indices in width<br>\t\tvar indexWidth = floor((w / this.blockSize));<br>\t\tvar indexHeight = floor((h / this.blockSize));<br><br>\t\t//bottom right corner index values<br>\t\tvar endX = min(startX + indexWidth, array[0].length);<br>\t\tvar endY = min(startY + indexHeight, array.length);<br><br>\t\t//Create a new array<br>\t\tvar newArray = [];<br><br>\t\t//Start looping<br>\t\tfor (var i = startY; i < endY; i++) {<br><br>\t\t\t//Create a temporary row array<br>\t\t\tvar column = [];<br><br>\t\t\t//fill the row array with the blocks from the old array<br>\t\t\tfor (var j = startX; j < endX; j++) {<br>\t\t\t\tcolumn.push(array[i][j]);<br>\t\t\t}<br><br>\t\t\t//add the row to the new array<br>\t\t\tnewArray.push(column);<br>\t\t}<br><br>\t\treturn (newArray);<br><br>\t};</code></pre><br><br>Note that I changed the <code>ceil</code> to a <code>floor</code>, because before you were iterating over unnecessary blocks.<br><br>Finally, I noticed that when pasting the completed code in the PJS editor, I get the error \"Mixed spaces and tabs\". When you click \"show me where\" make sure to delete the tabs on that line of code and replace it with normal tabs."
                     }
                 ]
             },
