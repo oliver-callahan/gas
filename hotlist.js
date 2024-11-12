@@ -107,7 +107,7 @@ var json = {
                         "text": "Yes, \"left collisions\" (idk who coined this term but it's what I use) can be fixed! I just sort the array of blocks by type upon the level loading; this fixes the issue."
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
@@ -134,7 +134,7 @@ var json = {
                         "text": "See my solution in the T&T. If you iterate over the nearby blocks you can select the one with the highest collision priority that the player happens to be touching"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -185,7 +185,7 @@ var json = {
                         "text": "oh my gosh XD"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "JSCoder",
                             "id": "kaid_3032679493880386290676439",
@@ -194,7 +194,7 @@ var json = {
                         "text": "I guess I was no the only one who though self portrait"
                     },
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -497,7 +497,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "Falling Dragon™️",
                     "id": "kaid_922990378162047462529587",
@@ -582,7 +582,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "29 minutes ago",
+                "date": "34 minutes ago",
                 "author": {
                     "name": "▪Dipper98▪",
                     "id": "kaid_3886238215093093067654746",
