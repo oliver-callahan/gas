@@ -3,7 +3,7 @@ var json = {
     "title": "Platformer Tutorial 2.0",
     "votes": 48,
     "created": "10 hours ago",
-    "updated": "15 minutes ago",
+    "updated": "20 minutes ago",
     "type": "HTML",
     "author": {
         "name": "Liam K.",
@@ -54,7 +54,7 @@ var json = {
                         "text": "Yeah definitely a bug that I noticed. Mushy proposed a good solution, so I will be looking into that over the next week or so and determining the best path forward.<br><br>Thank you for all your feedback!"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Ibraheem Ahmed (IA)",
                             "id": "kaid_42165633374795610935956",
@@ -99,13 +99,13 @@ var json = {
                         "text": "I think the answer is even simpler than your method. You can simply use a sort function for each row of the 2D array to fix the problem. I successfully implemented it in a new program, and I will try to add it to this program soon<br><br>Edit: looks like this problem has been resolved and I have posted a full solution to this tutorial"
                     },
                     {
-                        "date": "a few seconds ago",
+                        "date": "5 minutes ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
                             "avatar": "/images/avatars/svg/orange-juice-squid.svg"
                         },
-                        "text": "I think that's close, but the only problem is you face the same issue when dealing with vertical collisions. So the collision priority is only applied to horizontal collisions. For instance, if you hit the lava on the bottom right, while still touching another block, the lower priority is ignored in favor of hitting the lava, causing the player to die.<br><br>My solution causes less overhead as well, because sort is expensive (although you're using it with pretty small arrays, so the performance impact isn't super severe). You only need to iterate over the 2d array once to find the block that fits the 2 pieces of criteria, that (a) the player is touching the block and (b) the blocks priority is higher than the other block that's being touched.<br><br>All in all though, your solution does work and it's just a different approach to the same problem, so I understand if you don't want to change it."
+                        "text": "I think that's close, but the only problem is you face the same issue when dealing with vertical collisions. So the collision priority is only applied to horizontal collisions. For instance, if you hit the lava on the bottom right, while still touching another block, the lower priority is ignored in favor of hitting the lava, causing the player to die.<br><br>My solution causes less overhead as well, because sort is expensive (although you're using it with pretty small arrays, so the performance impact is fairly negligible). You only need to iterate over the 2d array once to find the block that fits the 2 pieces of criteria, that (a) the player is touching the block and (b) the blocks priority is higher than the other block that's being touched.<br><br>All in all though, your solution does work and it's just a different approach to the same problem, so I understand if you don't want to change it."
                     }
                 ]
             },
@@ -194,7 +194,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -283,7 +283,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "theBTG15",
                     "id": "kaid_1184047636356324637542824",
@@ -369,7 +369,7 @@ var json = {
                         "text": "oh yessir I forgot about that. I haven't used inheritance in a while(I need to get back into that habit)<br>Thanks for the reminder =D"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "bravo bravo",
                             "id": "kaid_3550040499775075061747637",
@@ -378,7 +378,7 @@ var json = {
                         "text": "This would probably work:<br><br><pre><code>Name.prototype = Object.assign(<br>  {},<br>  Object.create(Foo.prototype),<br>  {<br>     // additional methods<br>  }<br>);</code></pre><br><br>es5 sucks and classes are so much cleaner"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Mushy Avocado",
                             "id": "kaid_889538221957342292210697",
