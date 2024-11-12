@@ -3,7 +3,7 @@ var json = {
     "title": "Platformer Tutorial 2.0",
     "votes": 45,
     "created": "9 hours ago",
-    "updated": "16 minutes ago",
+    "updated": "21 minutes ago",
     "type": "HTML",
     "author": {
         "name": "Liam K.",
@@ -32,7 +32,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 5,
+                "replyCount": 6,
                 "votes": 8,
                 "date": "8 hours ago",
                 "author": {
@@ -88,6 +88,15 @@ var json = {
                             "avatar": "/images/avatars/svg/orange-juice-squid.svg"
                         },
                         "text": "See my solution in the T&T. If you iterate over the nearby blocks you can select the one with the highest collision priority that the player happens to be touching"
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "Liam K.",
+                            "id": "kaid_160653079463992085090428",
+                            "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                        },
+                        "text": "I think the answer is even simpler than your method. You can simply use a sort function for each row of the 2D array to fix the problem. I successfully implemented it in a new program, and I will try to add it to this program soon"
                     }
                 ]
             },
@@ -127,7 +136,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 5,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -138,7 +147,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -228,7 +237,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -241,7 +250,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "kitty mascot",
                     "id": "kaid_1066778980955332043559618",
@@ -266,7 +275,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -332,7 +341,7 @@ var json = {
                         "text": "I wouldn't use that method of assigning prototypes because it breaks object inheritance.<br><br>This won't work<br><pre><code>function Foo() {<br><br>}<br><br>Foo.prototype.print = function() {<br>    println(true);<br>};<br><br>function Name() {<br>    Foo.call(this);<br>}<br><br>Name.prototype = Object.create(Foo.prototype);<br>Name.prototype = {<br>    // Code goes here<br>};<br><br>var name = new Name();<br>name.print(); // Error because Name.prototype was overridden to be an object instead.</code></pre>"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -404,7 +413,7 @@ var json = {
                         "text": "Looks like Mushy pretty much summed it up. While this tutorial was designed to be run solely in the PJS environment, I would highly recommend transferring your code over to an HTML environment to rid yourself of most of the flaws of PJS."
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -417,7 +426,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
@@ -469,7 +478,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "a few seconds ago",
+                "date": "5 minutes ago",
                 "author": {
                     "name": "WESTY METZY",
                     "id": "kaid_7615172111979300259760122",
