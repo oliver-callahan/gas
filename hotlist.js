@@ -3,7 +3,7 @@ var json = {
     "title": "Platformer Tutorial 2.0",
     "votes": 47,
     "created": "9 hours ago",
-    "updated": "25 minutes ago",
+    "updated": "30 minutes ago",
     "type": "HTML",
     "author": {
         "name": "Liam K.",
@@ -90,7 +90,7 @@ var json = {
                         "text": "See my solution in the T&T. If you iterate over the nearby blocks you can select the one with the highest collision priority that the player happens to be touching"
                     },
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -134,6 +134,20 @@ var json = {
                 ]
             },
             {
+                "replyCount": 0,
+                "votes": 6,
+                "date": "7 hours ago",
+                "author": {
+                    "name": "AGnawKneeMouse Coder",
+                    "id": "kaid_9033829293805621369025816",
+                    "avatar": "/images/avatars/svg/leaf-red.svg"
+                },
+                "text": "That thumbnail goes hard",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
                 "replyCount": 1,
                 "votes": 5,
                 "date": "5 hours ago",
@@ -156,20 +170,6 @@ var json = {
                         "text": "Hey thank you for pointing this out to me IA! I will implement your code shortly."
                     }
                 ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 5,
-                "date": "7 hours ago",
-                "author": {
-                    "name": "AGnawKneeMouse Coder",
-                    "id": "kaid_9033829293805621369025816",
-                    "avatar": "/images/avatars/svg/leaf-red.svg"
-                },
-                "text": "That thumbnail goes hard",
-                "locked": false,
-                "pinned": false,
-                "replies": []
             },
             {
                 "replyCount": 1,
@@ -299,7 +299,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -308,7 +308,7 @@ var json = {
                         "text": "You only end up coding ~450 lines of code. This tutorial is mostly just super bulky because I had to recopy/paste lots of the same code every time I wanted to add new code. <br><br>This tutorial is super doable even for beginners, so I'd recommend that you take a stab at it."
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "TH3 ROUG3 L3G3ND™",
                             "id": "kaid_2809101008758048501324524",
@@ -464,7 +464,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "32 minutes ago",
+                "date": "37 minutes ago",
                 "author": {
                     "name": "Timothy",
                     "id": "kaid_580436051254509721948310",
@@ -475,7 +475,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -502,7 +502,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "40 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "WESTY METZY",
                     "id": "kaid_7615172111979300259760122",
