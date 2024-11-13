@@ -3,7 +3,7 @@ var json = {
     "title": "Bread Apocalypse - ft. wealR",
     "votes": 57,
     "created": "a day ago",
-    "updated": "9 hours ago",
+    "updated": "10 hours ago",
     "type": "PJS",
     "author": {
         "name": "Radar",
@@ -193,7 +193,7 @@ var json = {
                         "text": "what does it mean!"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -508,7 +508,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -717,7 +717,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
