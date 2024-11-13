@@ -56,7 +56,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -286,7 +286,7 @@ var json = {
                 "author": {
                     "name": "vipervenom",
                     "id": "kaid_1171817670913346256866174",
-                    "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
+                    "avatar": "/images/avatars/svg/area-52-green.svg"
                 },
                 "text": "can i be on the board?<br><br>1336",
                 "locked": false,
@@ -317,7 +317,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -670,7 +670,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -775,7 +775,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -799,7 +799,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
