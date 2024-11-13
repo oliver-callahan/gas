@@ -20,7 +20,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 13,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
@@ -34,7 +34,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 6,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "wealR",
                     "id": "kaid_831993479561352012904348",
@@ -72,7 +72,7 @@ var json = {
             {
                 "replyCount": 12,
                 "votes": 2,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "Duke",
                     "id": "kaid_351465532815782433620675",
@@ -83,7 +83,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -195,7 +195,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -462,7 +462,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "20 minutes ago",
+                "date": "24 minutes ago",
                 "author": {
                     "name": "A+10333",
                     "id": "kaid_539345742584903189251569",
@@ -473,7 +473,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -614,7 +614,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "🐢🥓 TurtleBacon",
                     "id": "kaid_717955606160046848792382",
@@ -682,7 +682,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -767,7 +767,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 0,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Firebrand (offline)",
                     "id": "kaid_423049852746380987692804",
