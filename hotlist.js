@@ -44,7 +44,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 7,
+                "votes": 8,
                 "date": "a day ago",
                 "author": {
                     "name": "wealR",
@@ -56,7 +56,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "44 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -68,7 +68,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 5,
+                "votes": 6,
                 "date": "a day ago",
                 "author": {
                     "name": "Xatnys",
@@ -87,6 +87,54 @@ var json = {
                             "avatar": "/images/avatars/svg/leafers-seed.svg"
                         },
                         "text": "Thank you! I thought that would be cool. :)"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 3,
+                "date": "17 hours ago",
+                "author": {
+                    "name": "Ibraheem Ahmed (IA)",
+                    "id": "kaid_42165633374795610935956",
+                    "avatar": "/images/avatars/svg/spunky-sam.svg"
+                },
+                "text": "This is peak comedy",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "17 hours ago",
+                        "author": {
+                            "name": "wealR",
+                            "id": "kaid_831993479561352012904348",
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                        },
+                        "text": "thanks, it was my idea lol"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 2,
+                "date": "19 hours ago",
+                "author": {
+                    "name": "LemonTurtle",
+                    "id": "kaid_26727758302107548837304",
+                    "avatar": "/images/avatars/svg/primosaur-ultimate.svg"
+                },
+                "text": "My low-score: 114!<br><br>Beat that!!<br><br>XD High qwality game!",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "17 hours ago",
+                        "author": {
+                            "name": "Radar",
+                            "id": "kaid_3902988618718040904060736",
+                            "avatar": "/images/avatars/svg/leafers-seed.svg"
+                        },
+                        "text": "lol nice you got the lowest possible score!<br>thanks :)"
                     }
                 ]
             },
@@ -216,24 +264,48 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "17 hours ago",
+                "date": "14 hours ago",
                 "author": {
-                    "name": "Ibraheem Ahmed (IA)",
-                    "id": "kaid_42165633374795610935956",
-                    "avatar": "/images/avatars/svg/spunky-sam.svg"
+                    "name": "HAMBURGER RiDER",
+                    "id": "kaid_410991944085535280495507",
+                    "avatar": "/images/avatars/svg/starky-sapling.svg"
                 },
-                "text": "This is peak comedy",
+                "text": "Never seen a better dodge game story in my entire life XD<br><br>Vote ++;",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "11 hours ago",
                         "author": {
-                            "name": "wealR",
-                            "id": "kaid_831993479561352012904348",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                            "name": "Radar",
+                            "id": "kaid_3902988618718040904060736",
+                            "avatar": "/images/avatars/svg/leafers-seed.svg"
                         },
-                        "text": "thanks, it was my idea lol"
+                        "text": "haha that was wealR lol<br><br>Thanks!"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 2,
+                "date": "a day ago",
+                "author": {
+                    "name": "Pineapples",
+                    "id": "kaid_6104902828627300552146889",
+                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                },
+                "text": "I got 2034!<br>Nice game!<br>The particle effects are awesome, and the bread in the background adds to the engagement of the graphics. The bread movement is pretty smooth as well.",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "20 hours ago",
+                        "author": {
+                            "name": "Radar",
+                            "id": "kaid_3902988618718040904060736",
+                            "avatar": "/images/avatars/svg/leafers-seed.svg"
+                        },
+                        "text": "Thanks Pineapples!"
                     }
                 ]
             },
@@ -306,30 +378,6 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "19 hours ago",
-                "author": {
-                    "name": "LemonTurtle",
-                    "id": "kaid_26727758302107548837304",
-                    "avatar": "/images/avatars/svg/primosaur-ultimate.svg"
-                },
-                "text": "My low-score: 114!<br><br>Beat that!!<br><br>XD High qwality game!",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "17 hours ago",
-                        "author": {
-                            "name": "Radar",
-                            "id": "kaid_3902988618718040904060736",
-                            "avatar": "/images/avatars/svg/leafers-seed.svg"
-                        },
-                        "text": "lol nice you got the lowest possible score!<br>thanks :)"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
                 "date": "a day ago",
                 "author": {
                     "name": "CassiaSight",
@@ -365,37 +413,13 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
                             "avatar": "/images/avatars/svg/leafers-seed.svg"
                         },
                         "text": "Added you.<br>Thanks :)"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "14 hours ago",
-                "author": {
-                    "name": "HAMBURGER RiDER",
-                    "id": "kaid_410991944085535280495507",
-                    "avatar": "/images/avatars/svg/starky-sapling.svg"
-                },
-                "text": "Never seen a better dodge game story in my entire life XD<br><br>Vote ++;",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "11 hours ago",
-                        "author": {
-                            "name": "Radar",
-                            "id": "kaid_3902988618718040904060736",
-                            "avatar": "/images/avatars/svg/leafers-seed.svg"
-                        },
-                        "text": "haha that was wealR lol<br><br>Thanks!"
                     }
                 ]
             },
@@ -413,7 +437,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -437,7 +461,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -461,7 +485,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -485,7 +509,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -542,37 +566,13 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
                             "avatar": "/images/avatars/svg/leafers-seed.svg"
                         },
                         "text": "nice added your score :)"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "Pineapples",
-                    "id": "kaid_6104902828627300552146889",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "I got 2034!<br>Nice game!<br>The particle effects are awesome, and the bread in the background adds to the engagement of the graphics. The bread movement is pretty smooth as well.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "19 hours ago",
-                        "author": {
-                            "name": "Radar",
-                            "id": "kaid_3902988618718040904060736",
-                            "avatar": "/images/avatars/svg/leafers-seed.svg"
-                        },
-                        "text": "Thanks Pineapples!"
                     }
                 ]
             },
@@ -590,7 +590,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -614,7 +614,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -623,7 +623,7 @@ var json = {
                         "text": "Added your score :)"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "HACK",
                             "id": "kaid_6815067100354522609320825",
@@ -632,7 +632,7 @@ var json = {
                         "text": "i don't see it"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -679,7 +679,7 @@ var json = {
                         "text": "thanks just it isn't a cow. its a bison"
                     },
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "🐢🥓 TurtleBacon",
                             "id": "kaid_717955606160046848792382",
@@ -703,7 +703,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -751,7 +751,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
