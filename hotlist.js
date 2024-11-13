@@ -190,7 +190,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "theBTG15",
                     "id": "kaid_1184047636356324637542824",
@@ -336,7 +336,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -382,7 +382,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "40 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
@@ -524,7 +524,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "18 minutes ago",
+                "date": "23 minutes ago",
                 "author": {
                     "name": "HACK",
                     "id": "kaid_6815067100354522609320825",
@@ -589,7 +589,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "17 minutes ago",
+                "date": "22 minutes ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -632,7 +632,7 @@ var json = {
                         "text": "haha i just won with 0 deaths!"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -701,7 +701,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Shifter -OFF-",
                             "id": "kaid_892112752920553577482062",
