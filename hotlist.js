@@ -3,7 +3,7 @@ var json = {
     "title": "Just 5 levels[GAME]",
     "votes": 44,
     "created": "20 hours ago",
-    "updated": "17 minutes ago",
+    "updated": "22 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Duke",
@@ -303,7 +303,7 @@ var json = {
                         "text": "Yeah, it comes down to 25 fps on chromebook. I looked at the amount of lines on this and I was surprised! Nice job!"
                     },
                     {
-                        "date": "17 minutes ago",
+                        "date": "22 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -453,7 +453,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "29 minutes ago",
+                        "date": "34 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -466,7 +466,7 @@ var json = {
             {
                 "replyCount": 11,
                 "votes": 1,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "3DA Games",
                     "id": "kaid_46113533788750322324717",
@@ -522,7 +522,7 @@ var json = {
                         "text": "Its not hard, I was just doing the laws of physics then remembering this is a platformer lol. It wasnt hard after thinking that."
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -531,7 +531,7 @@ var json = {
                         "text": "lol maybe your just better then me cause I only make it a fourth of the times lol"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -540,7 +540,7 @@ var json = {
                         "text": "I do have one request, a double jump powerup. I accidentally got one and that it was cool. Reccomended ;)"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -549,7 +549,7 @@ var json = {
                         "text": "I dont know if im better than you. I do Geometry Dash but still."
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -558,7 +558,7 @@ var json = {
                         "text": "Not in this game sir but in my future games I will :P<br>(A Gray World game that I made has one)"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -567,7 +567,7 @@ var json = {
                         "text": "oh didn't see your second comment woops.<br>yeah idk."
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -605,7 +605,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -618,7 +618,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "19 minutes ago",
+                "date": "24 minutes ago",
                 "author": {
                     "name": "AmethystSky",
                     "id": "kaid_784805823121542822870790",
@@ -643,7 +643,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "14 minutes ago",
+                        "date": "19 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -676,7 +676,7 @@ var json = {
                         "text": "that's lame lol(inside joke y'all)"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
