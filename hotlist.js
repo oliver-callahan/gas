@@ -93,7 +93,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 3,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -312,7 +312,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 minutes ago",
+                "date": "8 minutes ago",
                 "author": {
                     "name": "Raven",
                     "id": "kaid_1094399428577851630415346",
@@ -673,7 +673,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "🐢🥓 TurtleBacon",
                     "id": "kaid_717955606160046848792382",
