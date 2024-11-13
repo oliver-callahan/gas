@@ -86,6 +86,71 @@ var json = {
                 ]
             },
             {
+                "replyCount": 0,
+                "votes": 2,
+                "date": "an hour ago",
+                "author": {
+                    "name": "S 🇳 🇴 🇴 🇵 🇾",
+                    "id": "kaid_117061054145957092515447",
+                    "avatar": "/images/avatars/svg/mr-pants-orange.svg"
+                },
+                "text": "The last level is super cool.",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 4,
+                "votes": 2,
+                "date": "17 hours ago",
+                "author": {
+                    "name": "theBTG15",
+                    "id": "kaid_1184047636356324637542824",
+                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                },
+                "text": "This is nice! I like the final level.",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "8 hours ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Thank you! Yep that's the biggest thing that sets this aside form other platformers.<br><br>Btw I fixed the color scheme and added particles, how does it look and does it lag?"
+                    },
+                    {
+                        "date": "5 hours ago",
+                        "author": {
+                            "name": "theBTG15",
+                            "id": "kaid_1184047636356324637542824",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "I think it looks a lot better ngl. The previous one hurt my eyes. It does kind of lag but I think that's because I use a potato for a computer."
+                    },
+                    {
+                        "date": "5 hours ago",
+                        "author": {
+                            "name": "theBTG15",
+                            "id": "kaid_1184047636356324637542824",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Yeah, it comes down to 25 fps on chromebook. I looked at the amount of lines on this and I was surprised! Nice job!"
+                    },
+                    {
+                        "date": "3 hours ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "yeah it hurt my eye too haha<br><br>I added a button that allows you to remove lag(and particles but that is the only way)"
+                    }
+                ]
+            },
+            {
                 "replyCount": 1,
                 "votes": 2,
                 "date": "6 hours ago",
@@ -106,6 +171,30 @@ var json = {
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
                         "text": "Thanks!<br>Oh yeah I meant to do that! thanks!"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 2,
+                "date": "4 hours ago",
+                "author": {
+                    "name": "HB_the_Pencil (semi-retired)",
+                    "id": "kaid_412656070256786668848958",
+                    "avatar": "/images/avatars/svg/mr-pants-green.svg"
+                },
+                "text": "Dang, that last level... I couldn't beat it :P",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "3 hours ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "yeah it's rough lol(try getting both things on the right lined up)"
                     }
                 ]
             },
@@ -296,71 +385,6 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "an hour ago",
-                "author": {
-                    "name": "S 🇳 🇴 🇴 🇵 🇾",
-                    "id": "kaid_117061054145957092515447",
-                    "avatar": "/images/avatars/svg/mr-pants-orange.svg"
-                },
-                "text": "The last level is super cool.",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 4,
-                "votes": 1,
-                "date": "17 hours ago",
-                "author": {
-                    "name": "theBTG15",
-                    "id": "kaid_1184047636356324637542824",
-                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                },
-                "text": "This is nice! I like the final level.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thank you! Yep that's the biggest thing that sets this aside form other platformers.<br><br>Btw I fixed the color scheme and added particles, how does it look and does it lag?"
-                    },
-                    {
-                        "date": "5 hours ago",
-                        "author": {
-                            "name": "theBTG15",
-                            "id": "kaid_1184047636356324637542824",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I think it looks a lot better ngl. The previous one hurt my eyes. It does kind of lag but I think that's because I use a potato for a computer."
-                    },
-                    {
-                        "date": "5 hours ago",
-                        "author": {
-                            "name": "theBTG15",
-                            "id": "kaid_1184047636356324637542824",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Yeah, it comes down to 25 fps on chromebook. I looked at the amount of lines on this and I was surprised! Nice job!"
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "yeah it hurt my eye too haha<br><br>I added a button that allows you to remove lag(and particles but that is the only way)"
-                    }
-                ]
-            },
-            {
                 "replyCount": 4,
                 "votes": 1,
                 "date": "a day ago",
@@ -483,30 +507,6 @@ var json = {
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "4 hours ago",
-                "author": {
-                    "name": "HB_the_Pencil (semi-retired)",
-                    "id": "kaid_412656070256786668848958",
-                    "avatar": "/images/avatars/svg/mr-pants-green.svg"
-                },
-                "text": "Dang, that last level... I couldn't beat it :P",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "yeah it's rough lol(try getting both things on the right lined up)"
                     }
                 ]
             },
@@ -883,7 +883,7 @@ var json = {
                     {
                         "replyCount": 1,
                         "votes": 1,
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -892,7 +892,7 @@ var json = {
                         "text": "try to jump after you fall off the block. it's hard but possible.",
                         "replies": [
                             {
-                                "date": "40 minutes ago",
+                                "date": "an hour ago",
                                 "author": {
                                     "name": "Oreo",
                                     "id": "kaid_726551157454425501696621",
