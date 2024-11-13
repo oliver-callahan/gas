@@ -149,7 +149,7 @@ var json = {
                         "text": "yeah it hurt my eye too haha<br><br>I added a button that allows you to remove lag(and particles but that is the only way)"
                     },
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "theBTG15",
                             "id": "kaid_1184047636356324637542824",
@@ -290,7 +290,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "SwankyMan™",
                             "id": "kaid_82898098000024228278987",
@@ -494,7 +494,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "43 minutes ago",
                         "author": {
                             "name": "Cyan Spirit",
                             "id": "kaid_1418532449612597727143882",
@@ -853,7 +853,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "an hour ago",
                 "author": {
@@ -864,7 +864,17 @@ var json = {
                 "text": "Man, I haven't seen a platformer with a level like that last one before. Nice job, Duke and [Ezra].",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Thank you!"
+                    }
+                ]
             },
             {
                 "replyCount": 1,
