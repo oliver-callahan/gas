@@ -175,7 +175,7 @@ var json = {
                         "text": "wealR mind letting me in on what it stands for?"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Firebrand (offline)",
                             "id": "kaid_423049852746380987692804",
@@ -230,7 +230,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "EZezmath9",
                     "id": "kaid_1144531708437896578699873",
@@ -696,7 +696,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
