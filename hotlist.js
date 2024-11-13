@@ -3,7 +3,7 @@ var json = {
     "title": "Just 5 levels[GAME]",
     "votes": 54,
     "created": "a day ago",
-    "updated": "4 hours ago",
+    "updated": "5 hours ago",
     "type": "PJS",
     "author": {
         "name": "Duke",
@@ -140,7 +140,7 @@ var json = {
                         "text": "Yeah, it comes down to 25 fps on chromebook. I looked at the amount of lines on this and I was impressed! Nice job!"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -149,7 +149,7 @@ var json = {
                         "text": "yeah it hurt my eye too haha<br><br>I added a button that allows you to remove lag(and particles but that is the only way)"
                     },
                     {
-                        "date": "14 minutes ago",
+                        "date": "18 minutes ago",
                         "author": {
                             "name": "theBTG15",
                             "id": "kaid_1184047636356324637542824",
@@ -392,7 +392,7 @@ var json = {
                         "text": "I'm trying to get as little deaths as I can. EDIT: I just got a new record: 3 deaths!"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -494,7 +494,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "Cyan Spirit",
                             "id": "kaid_1418532449612597727143882",
@@ -518,7 +518,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -817,7 +817,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "AmethystSky",
                     "id": "kaid_784805823121542822870790",
@@ -855,7 +855,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "30 minutes ago",
+                "date": "35 minutes ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -957,7 +957,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "36 minutes ago",
+                "date": "41 minutes ago",
                 "author": {
                     "name": "Mushy Avocado",
                     "id": "kaid_889538221957342292210697",
