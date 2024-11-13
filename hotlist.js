@@ -3,7 +3,7 @@ var json = {
     "title": "Just 5 levels[GAME]",
     "votes": 44,
     "created": "20 hours ago",
-    "updated": "37 minutes ago",
+    "updated": "42 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Duke",
@@ -198,7 +198,7 @@ var json = {
                             "id": "kaid_82898098000024228278987",
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
-                        "text": "Yw!<br><br>Yes (...With 32 deaths)<br><br>It looks good! No lag that I notice."
+                        "text": "Yw!<br><br>Yes (...With 32 deaths)<br><br>It looks good! No lag that I notice.<br><br><b>EDIT</b> 3 deaths :)"
                     },
                     {
                         "date": "3 hours ago",
@@ -234,7 +234,7 @@ var json = {
                         "text": "Thank you! Yep that's the biggest thing that sets this aside form other platformers.<br><br>Btw I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "theBTG15",
                             "id": "kaid_1184047636356324637542824",
@@ -243,7 +243,7 @@ var json = {
                         "text": "I think it looks a lot better ngl. The previous one hurt my eyes. It does kind of lag but I think that's because I use a potato for a computer."
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "theBTG15",
                             "id": "kaid_1184047636356324637542824",
@@ -252,7 +252,7 @@ var json = {
                         "text": "Yeah, it comes down to 25 fps on chromebook. I looked at the amount of lines on this and I was surprised! Nice job!"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -618,7 +618,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "39 minutes ago",
+                "date": "44 minutes ago",
                 "author": {
                     "name": "AmethystSky",
                     "id": "kaid_784805823121542822870790",
@@ -643,7 +643,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "34 minutes ago",
+                        "date": "39 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
