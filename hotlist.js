@@ -3,7 +3,7 @@ var json = {
     "title": "Just 5 levels[GAME]",
     "votes": 44,
     "created": "20 hours ago",
-    "updated": "27 minutes ago",
+    "updated": "32 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Duke",
@@ -303,7 +303,7 @@ var json = {
                         "text": "Yeah, it comes down to 25 fps on chromebook. I looked at the amount of lines on this and I was surprised! Nice job!"
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -378,7 +378,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -453,7 +453,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "39 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -605,7 +605,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -618,7 +618,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "29 minutes ago",
+                "date": "34 minutes ago",
                 "author": {
                     "name": "AmethystSky",
                     "id": "kaid_784805823121542822870790",
@@ -643,7 +643,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "24 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -736,7 +736,7 @@ var json = {
                         "text": "I'm trying to get as little deaths as I can. EDIT: I just got a new record: 3 deaths!"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
