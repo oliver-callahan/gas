@@ -184,7 +184,7 @@ var json = {
                         "text": "yEaH wEaLr WhAt DoEs YoUr BiO sTaNd FoR?"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -430,7 +430,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "Spooderman Spooderman",
                     "id": "kaid_481502226850506771685891",
