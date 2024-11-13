@@ -149,7 +149,7 @@ var json = {
                         "text": "yeah it hurt my eye too haha<br><br>I added a button that allows you to remove lag(and particles but that is the only way)"
                     },
                     {
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "theBTG15",
                             "id": "kaid_1184047636356324637542824",
@@ -197,7 +197,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -445,7 +445,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 4,
+                "replyCount": 5,
                 "votes": 1,
                 "date": "a day ago",
                 "author": {
@@ -492,6 +492,15 @@ var json = {
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
+                    },
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Cyan Spirit",
+                            "id": "kaid_1418532449612597727143882",
+                            "avatar": "/images/avatars/svg/cacteye-blue.svg"
+                        },
+                        "text": "I do like it! And it doesn't seem to lag for me.<br>But now that the lava has particles it makes me want to see way more particles and detailed graphics! :P<br><br>Also, lol.<br>I still can't beat those bottom two..."
                     }
                 ]
             },
@@ -587,7 +596,7 @@ var json = {
             {
                 "replyCount": 11,
                 "votes": 1,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "3DA Games",
                     "id": "kaid_46113533788750322324717",
@@ -643,7 +652,7 @@ var json = {
                         "text": "Its not hard, I was just doing the laws of physics then remembering this is a platformer lol. It wasnt hard after thinking that."
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -652,7 +661,7 @@ var json = {
                         "text": "lol maybe your just better then me cause I only make it a fourth of the times lol"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -661,7 +670,7 @@ var json = {
                         "text": "I do have one request, a double jump powerup. I accidentally got one and that it was cool. Reccomended ;)"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -670,7 +679,7 @@ var json = {
                         "text": "I dont know if im better than you. I do Geometry Dash but still."
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -679,7 +688,7 @@ var json = {
                         "text": "Not in this game sir but in my future games I will :P<br>(A Gray World game that I made has one)"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -688,7 +697,7 @@ var json = {
                         "text": "oh didn't see your second comment woops.<br>yeah idk."
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -726,7 +735,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -846,7 +855,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "20 minutes ago",
+                "date": "25 minutes ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -912,7 +921,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Oreo",
                     "id": "kaid_726551157454425501696621",
@@ -948,7 +957,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "26 minutes ago",
+                "date": "31 minutes ago",
                 "author": {
                     "name": "Mushy Avocado",
                     "id": "kaid_889538221957342292210697",
