@@ -88,7 +88,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Electric Dolphin ⚡️🐬",
                     "id": "kaid_1188776231699286995947997",
@@ -99,7 +99,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -123,7 +123,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -298,7 +298,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "33 minutes ago",
+                "date": "38 minutes ago",
                 "author": {
                     "name": "S 🇳 🇴 🇴 🇵 🇾",
                     "id": "kaid_117061054145957092515447",
@@ -538,7 +538,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -830,7 +830,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -883,7 +883,7 @@ var json = {
                     {
                         "replyCount": 1,
                         "votes": 1,
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -892,7 +892,7 @@ var json = {
                         "text": "try to jump after you fall off the block. it's hard but possible.",
                         "replies": [
                             {
-                                "date": "20 minutes ago",
+                                "date": "25 minutes ago",
                                 "author": {
                                     "name": "Oreo",
                                     "id": "kaid_726551157454425501696621",
