@@ -261,7 +261,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Shifter -OFF-",
                             "id": "kaid_892112752920553577482062",
@@ -298,7 +298,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "13 minutes ago",
+                "date": "18 minutes ago",
                 "author": {
                     "name": "S 🇳 🇴 🇴 🇵 🇾",
                     "id": "kaid_117061054145957092515447",
@@ -312,7 +312,7 @@ var json = {
             {
                 "replyCount": 4,
                 "votes": 1,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "theBTG15",
                     "id": "kaid_1184047636356324637542824",
@@ -513,7 +513,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "29 minutes ago",
+                "date": "34 minutes ago",
                 "author": {
                     "name": "ezekiel.carter2009",
                     "id": "kaid_4345125146474084185234199",
@@ -797,7 +797,7 @@ var json = {
                         "text": "haha i just won with 0 deaths!"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -871,7 +871,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "32 minutes ago",
+                "date": "37 minutes ago",
                 "author": {
                     "name": "Oreo",
                     "id": "kaid_726551157454425501696621",
@@ -881,16 +881,26 @@ var json = {
                 "replies": [],
                 "answers": [
                     {
-                        "replyCount": 0,
+                        "replyCount": 1,
                         "votes": 1,
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
                         "text": "try to jump after you fall off the block. it's hard but possible.",
-                        "replies": []
+                        "replies": [
+                            {
+                                "date": "5 minutes ago",
+                                "author": {
+                                    "name": "Oreo",
+                                    "id": "kaid_726551157454425501696621",
+                                    "avatar": "/images/avatars/svg/starky-seedling.svg"
+                                },
+                                "text": "i got it"
+                            }
+                        ]
                     }
                 ]
             }
