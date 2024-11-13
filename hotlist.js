@@ -155,7 +155,7 @@ var json = {
                         "text": ">:) ezra guess what my bio stands for"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -248,7 +248,7 @@ var json = {
                         "text": "3997 :( I just wanted 4K, how much is that to ask? BTW, I love the bread."
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -261,7 +261,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "vipervenom",
                     "id": "kaid_1171817670913346256866174",
@@ -272,7 +272,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -320,7 +320,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -357,7 +357,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "11 minutes ago",
+                "date": "16 minutes ago",
                 "author": {
                     "name": "HAMBURGER RiDER",
                     "id": "kaid_410991944085535280495507",
@@ -476,7 +476,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "40 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "A+10333",
                     "id": "kaid_539345742584903189251569",
@@ -487,7 +487,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -500,7 +500,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "Brennus",
                     "id": "kaid_59416422576375230984529",
@@ -696,7 +696,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -801,7 +801,7 @@ var json = {
                         "text": "tank u vry weerd an laem. an also my bio stands for did you know i'm lamer than ezra"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Firebrand (offline)",
                             "id": "kaid_423049852746380987692804",
