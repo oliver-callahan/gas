@@ -3,7 +3,7 @@ var json = {
     "title": "Bread Apocalypse - ft. wealR",
     "votes": 52,
     "created": "20 hours ago",
-    "updated": "25 minutes ago",
+    "updated": "30 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Radar",
@@ -19,7 +19,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 0,
-                "votes": 12,
+                "votes": 13,
                 "date": "20 hours ago",
                 "author": {
                     "name": "wealR",
@@ -33,7 +33,7 @@ var json = {
             },
             {
                 "replyCount": 0,
-                "votes": 5,
+                "votes": 6,
                 "date": "20 hours ago",
                 "author": {
                     "name": "wealR",
@@ -47,7 +47,7 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 4,
+                "votes": 5,
                 "date": "16 hours ago",
                 "author": {
                     "name": "Xatnys",
@@ -119,7 +119,7 @@ var json = {
                         "text": "of lameness i mean"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -128,7 +128,7 @@ var json = {
                         "text": "Yeah I think the graphics are really good!"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -182,7 +182,7 @@ var json = {
                         "text": "what does it mean!"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -333,7 +333,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "That One Guy ME",
                     "id": "kaid_3823720261811268848400557",
@@ -375,39 +375,6 @@ var json = {
                             "avatar": "/images/avatars/svg/leafers-seed.svg"
                         },
                         "text": "Thank you! :)"
-                    }
-                ]
-            },
-            {
-                "replyCount": 2,
-                "votes": 1,
-                "date": "19 hours ago",
-                "author": {
-                    "name": "Firebrand (offline)",
-                    "id": "kaid_423049852746380987692804",
-                    "avatar": "/images/avatars/svg/stelly-orange.svg"
-                },
-                "text": "vewy stwange.. mee wikee.. fun gaym wif bisin and bwehd.. mee gett sevin dowzand too hunded fifdee wun.. pwetee deesent,, huh?? gwate job wadar.. meh job weelr.. huh huh huh i say meh.. dat funee.. wudeveer, dood.. vowt pwus pwus  :I",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "19 hours ago",
-                        "author": {
-                            "name": "wealR",
-                            "id": "kaid_831993479561352012904348",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "tank u vry weerd an laem. an also my bio stands for did you know i'm lamer than ezra"
-                    },
-                    {
-                        "date": "7 hours ago",
-                        "author": {
-                            "name": "Firebrand (offline)",
-                            "id": "kaid_423049852746380987692804",
-                            "avatar": "/images/avatars/svg/stelly-orange.svg"
-                        },
-                        "text": "aaah,, i seee.. dat mayk sens too mi too bwaynsells.."
                     }
                 ]
             },
@@ -760,6 +727,39 @@ var json = {
                             "avatar": "/images/avatars/svg/leafers-seed.svg"
                         },
                         "text": "Added your score :)"
+                    }
+                ]
+            },
+            {
+                "replyCount": 2,
+                "votes": 0,
+                "date": "19 hours ago",
+                "author": {
+                    "name": "Firebrand (offline)",
+                    "id": "kaid_423049852746380987692804",
+                    "avatar": "/images/avatars/svg/stelly-orange.svg"
+                },
+                "text": "vewy stwange.. mee wikee.. fun gaym wif bisin and bwehd.. mee gett sevin dowzand too hunded fifdee wun.. pwetee deesent,, huh?? gwate job wadar.. meh job weelr.. huh huh huh i say meh.. dat funee.. wudeveer, dood.. vowt pwus pwus  :I",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "19 hours ago",
+                        "author": {
+                            "name": "wealR",
+                            "id": "kaid_831993479561352012904348",
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                        },
+                        "text": "tank u vry weerd an laem. an also my bio stands for did you know i'm lamer than ezra"
+                    },
+                    {
+                        "date": "7 hours ago",
+                        "author": {
+                            "name": "Firebrand (offline)",
+                            "id": "kaid_423049852746380987692804",
+                            "avatar": "/images/avatars/svg/stelly-orange.svg"
+                        },
+                        "text": "aaah,, i seee.. dat mayk sens too mi too bwaynsells.."
                     }
                 ]
             }
