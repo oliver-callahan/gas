@@ -184,7 +184,7 @@ var json = {
                         "text": "yEaH wEaLr WhAt DoEs YoUr BiO sTaNd FoR?"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "kitty mascot",
                             "id": "kaid_1066778980955332043559618",
@@ -379,7 +379,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "38 minutes ago",
+                        "date": "43 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -440,7 +440,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "Spooderman Spooderman",
                     "id": "kaid_481502226850506771685891",
