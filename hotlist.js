@@ -188,7 +188,7 @@ var json = {
                         "text": "of lameness i mean"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -197,7 +197,7 @@ var json = {
                         "text": "Yeah I think the graphics are really good!"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -312,7 +312,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "43 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Raven",
                     "id": "kaid_1094399428577851630415346",
