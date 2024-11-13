@@ -256,7 +256,7 @@ var json = {
                         "text": "I think the answer is even simpler than your method. You can simply use a sort function for each row of the 2D array to fix the problem. I successfully implemented it in a new program, and I will try to add it to this program soon<br><br>Edit: looks like this problem has been resolved and I have posted a full solution to this tutorial"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Liam K.",
                             "id": "kaid_160653079463992085090428",
@@ -430,7 +430,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "ÐoɠIovɛɼ",
                     "id": "kaid_174620599098233073374167",
@@ -696,6 +696,20 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
+                "date": "3 minutes ago",
+                "author": {
+                    "name": "Firebrand (offline)",
+                    "id": "kaid_423049852746380987692804",
+                    "avatar": "/images/avatars/svg/stelly-orange.svg"
+                },
+                "text": "Amazing tutorial!<br>A bit complicated for my two braincells, tho.<br>I kinda prefer the previous one 'cause it was a bit simpler.<br><br>Vote++<br><br>PS That Gigachad thumbnail is... the anti-equilibrium of an atomic generalized discombobulation of reflection...",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
                 "date": "a day ago",
                 "author": {
                     "name": "The Multiverse Hero",
@@ -710,7 +724,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "12 minutes ago",
+                "date": "17 minutes ago",
                 "author": {
                     "name": "A+10333",
                     "id": "kaid_539345742584903189251569",
