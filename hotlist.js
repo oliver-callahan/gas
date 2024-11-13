@@ -214,7 +214,7 @@ var json = {
             {
                 "replyCount": 4,
                 "votes": 1,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "theBTG15",
                     "id": "kaid_1184047636356324637542824",
@@ -685,7 +685,7 @@ var json = {
                         "text": "haha i just won with 0 deaths!"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -754,7 +754,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Shifter -OFF-",
                             "id": "kaid_892112752920553577482062",
