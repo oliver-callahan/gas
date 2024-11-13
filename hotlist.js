@@ -3,7 +3,7 @@ var json = {
     "title": "Just 5 levels[GAME]",
     "votes": 44,
     "created": "20 hours ago",
-    "updated": "11 minutes ago",
+    "updated": "17 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Duke",
@@ -303,7 +303,7 @@ var json = {
                         "text": "Yeah, it comes down to 25 fps on chromebook. I looked at the amount of lines on this and I was surprised! Nice job!"
                     },
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -453,7 +453,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "24 minutes ago",
+                        "date": "29 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -495,7 +495,7 @@ var json = {
                         "text": "It does'nt lag at all and looks good! Maybe make those blocks black and not gray"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -504,7 +504,7 @@ var json = {
                         "text": "I did never mind cuz i made it over."
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -513,7 +513,7 @@ var json = {
                         "text": "Great! I might add another thing and ask you if it lags.<br><br>yeah I saw that I was just agreeing that it is hard."
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -580,7 +580,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "jedimaster09",
                     "id": "kaid_4940962515427875209226",
@@ -605,7 +605,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -618,7 +618,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "14 minutes ago",
+                "date": "19 minutes ago",
                 "author": {
                     "name": "AmethystSky",
                     "id": "kaid_784805823121542822870790",
@@ -643,7 +643,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -667,7 +667,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
