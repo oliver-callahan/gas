@@ -161,7 +161,7 @@ var json = {
                         "text": "wow you're quick!<br>Thanks!<br>lol"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -170,7 +170,7 @@ var json = {
                         "text": "I waited like 3 minutes to post it lol<br>Your welcome!<br>Make sure wealR sees this ;P"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -179,7 +179,7 @@ var json = {
                         "text": "dont you just love the graphics. i dink theyre masterpieces"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -264,7 +264,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "HAMBURGER RiDER",
                     "id": "kaid_410991944085535280495507",
@@ -275,7 +275,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -312,7 +312,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "38 minutes ago",
+                "date": "43 minutes ago",
                 "author": {
                     "name": "Raven",
                     "id": "kaid_1094399428577851630415346",
@@ -778,7 +778,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "YoshiDude",
                     "id": "kaid_8691532869042265101128670",
@@ -802,7 +802,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "cg048",
                     "id": "kaid_956853891251979880724349",
