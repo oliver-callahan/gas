@@ -108,7 +108,7 @@ var json = {
                         "text": "Thank you, yes I made it hard on purpose ;P<br><br>haha. Tip, win by the top right level. Get the right sides guys lined up. And remember to air jump ;P"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
                             "id": "kaid_706406430552760652245376",
@@ -524,7 +524,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "28 minutes ago",
+                "date": "33 minutes ago",
                 "author": {
                     "name": "HACK",
                     "id": "kaid_6815067100354522609320825",
@@ -589,7 +589,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "27 minutes ago",
+                "date": "32 minutes ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -641,7 +641,7 @@ var json = {
                         "text": "yeah it's not that hard"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -654,7 +654,7 @@ var json = {
             {
                 "replyCount": 5,
                 "votes": 1,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "Shifter -OFF-",
                     "id": "kaid_892112752920553577482062",
@@ -665,7 +665,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
