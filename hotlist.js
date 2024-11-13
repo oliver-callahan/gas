@@ -607,7 +607,7 @@ var json = {
                         "text": "It does'nt lag at all and looks good! Maybe make those blocks black and not gray"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -616,7 +616,7 @@ var json = {
                         "text": "I did never mind cuz i made it over."
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -625,7 +625,7 @@ var json = {
                         "text": "Great! I might add another thing and ask you if it lags.<br><br>yeah I saw that I was just agreeing that it is hard."
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -692,7 +692,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "jedimaster09",
                     "id": "kaid_4940962515427875209226",
@@ -728,7 +728,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 4,
+                "replyCount": 5,
                 "votes": 1,
                 "date": "a day ago",
                 "author": {
@@ -775,6 +775,15 @@ var json = {
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
+                            "id": "kaid_706406430552760652245376",
+                            "avatar": "/images/avatars/svg/cacteye-yellow.svg"
+                        },
+                        "text": "I won by the top left level :P<br><br>It looks pretty good, I would mess around with colors. Also its pretty laggy with lava 😢"
                     }
                 ]
             },
