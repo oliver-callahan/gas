@@ -41,7 +41,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 8,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Ezra",
                     "id": "kaid_1112279572017452692208390",
@@ -75,13 +75,37 @@ var json = {
                         "text": "lol we totally didn't copy anything ;P"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
+                    }
+                ]
+            },
+            {
+                "replyCount": 1,
+                "votes": 2,
+                "date": "3 hours ago",
+                "author": {
+                    "name": "Electric Dolphin ⚡️🐬",
+                    "id": "kaid_1188776231699286995947997",
+                    "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
+                },
+                "text": "This is really creative!<br>You can do <code>translate(round(cam.x), round(cam.y));</code> to stop the seams in between blocks when the camera moves.<br>I eventually got 0 deaths.",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "3 hours ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Thanks!<br>Oh yeah I meant to do that! thanks!"
                     }
                 ]
             },
@@ -126,13 +150,64 @@ var json = {
                         "text": "yay =D"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
+                    }
+                ]
+            },
+            {
+                "replyCount": 4,
+                "votes": 2,
+                "date": "13 hours ago",
+                "author": {
+                    "name": "Ace Rogers (On)",
+                    "id": "kaid_714276242204949021450419",
+                    "avatar": "/images/avatars/svg/leaf-blue.svg"
+                },
+                "text": "Nice game! I won with 0 deaths. :)",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "5 hours ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Thank you and nice!(I have too haha it's pretty easy)<br>Btw I fixed the color scheme and added lava particles, how does it look and does it lag?"
+                    },
+                    {
+                        "date": "5 hours ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "You're welcome! :)<br>It looks great! :D<br>Um, let to check. Nope. No lag. Not even the the last level. :)"
+                    },
+                    {
+                        "date": "5 hours ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Thanks!<br>Great I was afraid that it might =D<br>I might add particles for when the player moves and jumps. I'll let you know if I add that."
+                    },
+                    {
+                        "date": "5 hours ago",
+                        "author": {
+                            "name": "Ace Rogers (On)",
+                            "id": "kaid_714276242204949021450419",
+                            "avatar": "/images/avatars/svg/leaf-blue.svg"
+                        },
+                        "text": "You're welcome! :)<br>That would be neat. Okay. :)"
                     }
                 ]
             },
@@ -150,7 +225,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -159,7 +234,7 @@ var json = {
                         "text": "Thanks!<br>Have you played all of it?"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -201,7 +276,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -230,30 +305,6 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "3 hours ago",
-                "author": {
-                    "name": "Electric Dolphin ⚡️🐬",
-                    "id": "kaid_1188776231699286995947997",
-                    "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                },
-                "text": "This is really creative!<br>You can do <code>translate(round(cam.x), round(cam.y));</code> to stop the seams in between blocks when the camera moves.<br>I eventually got 0 deaths.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thanks!<br>Oh yeah I meant to do that! thanks!"
-                    }
-                ]
-            },
-            {
                 "replyCount": 4,
                 "votes": 1,
                 "date": "19 hours ago",
@@ -276,7 +327,7 @@ var json = {
                         "text": "Thank you!<br><br>Yeah the last level :P<br>It's possible just very hard ;P"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Cyan Spirit",
                             "id": "kaid_1418532449612597727143882",
@@ -294,7 +345,7 @@ var json = {
                         "text": "the only one that I knew you could beat was the top right one lol(when they are all four at once)"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -327,7 +378,7 @@ var json = {
                         "text": "try to air jump.<br><br>it really gets cool at the last level :P"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -349,7 +400,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "HAMBURGER RiDER",
                     "id": "kaid_410991944085535280495507",
@@ -369,7 +420,7 @@ var json = {
                         "text": "haha thank you!<br>yeah the graphics was definitely the lacking part. yeah I'm too lazy to change them idk why but it takes me wayyy to long lol<br><br>oooh that would be a great idea... I may add that tomorrow haha!<br><br>I already have a idea that I think will make your head spin :P<br>thanks again!"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -380,7 +431,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "an hour ago",
                 "author": {
@@ -391,7 +442,17 @@ var json = {
                 "text": "Dang, that last level... I couldn't beat it :P",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "yeah it's rough lol(try getting both things on the right lined up)"
+                    }
+                ]
             },
             {
                 "replyCount": 11,
@@ -522,9 +583,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
-                "date": "43 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "HACK",
                     "id": "kaid_6815067100354522609320825",
@@ -533,63 +594,22 @@ var json = {
                 "text": "How do you beat level 1",
                 "locked": false,
                 "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 4,
-                "votes": 1,
-                "date": "12 hours ago",
-                "author": {
-                    "name": "Ace Rogers (On)",
-                    "id": "kaid_714276242204949021450419",
-                    "avatar": "/images/avatars/svg/leaf-blue.svg"
-                },
-                "text": "Nice game! I won with 0 deaths. :)",
-                "locked": false,
-                "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "5 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
-                        "text": "Thank you and nice!(I have too haha it's pretty easy)<br>Btw I fixed the color scheme and added lava particles, how does it look and does it lag?"
-                    },
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Ace Rogers (On)",
-                            "id": "kaid_714276242204949021450419",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "You're welcome! :)<br>It looks great! :D<br>Um, let to check. Nope. No lag. Not even the the last level. :)"
-                    },
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thanks!<br>Great I was afraid that it might =D<br>I might add particles for when the player moves and jumps. I'll let you know if I add that."
-                    },
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Ace Rogers (On)",
-                            "id": "kaid_714276242204949021450419",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "You're welcome! :)<br>That would be neat. Okay. :)"
+                        "text": "try air jumping"
                     }
                 ]
             },
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "42 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "cwalsh1223 BBB#",
                     "id": "kaid_792288208072906614241148",
@@ -692,7 +712,7 @@ var json = {
                         "text": "sweet job!"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -714,7 +734,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "ReggieCool2013",
                     "id": "kaid_9144584103432744361214001",
@@ -749,7 +769,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
