@@ -217,7 +217,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -241,7 +241,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "EZezmath9",
                             "id": "kaid_1144531708437896578699873",
@@ -250,7 +250,7 @@ var json = {
                         "text": "Ha! I got 3382!"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "EZezmath9",
                             "id": "kaid_1144531708437896578699873",
@@ -320,7 +320,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "CassiaSight",
                     "id": "kaid_27486925028137101487234",
@@ -416,7 +416,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "Hokeycat",
                     "id": "kaid_438466413527508491816275",
@@ -545,7 +545,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "Pineapples",
                     "id": "kaid_6104902828627300552146889",
