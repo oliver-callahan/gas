@@ -105,7 +105,7 @@ var json = {
                         "text": "Yw!<br><br>Yes (...With 32 deaths)<br><br>It looks good! No lag that I notice."
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -138,7 +138,7 @@ var json = {
                         "text": "Thank you! Yep that's the biggest thing that sets this aside form other platformers.<br><br>Btw I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "8 minutes ago",
+                        "date": "13 minutes ago",
                         "author": {
                             "name": "theBTG15",
                             "id": "kaid_1184047636356324637542824",
@@ -147,7 +147,7 @@ var json = {
                         "text": "I think it looks a lot better ngl. The previous one hurt my eyes. It does kind of lag but I think that's because I use a potato for a computer."
                     },
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "theBTG15",
                             "id": "kaid_1184047636356324637542824",
@@ -301,7 +301,7 @@ var json = {
             {
                 "replyCount": 11,
                 "votes": 1,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "3DA Games",
                     "id": "kaid_46113533788750322324717",
@@ -357,7 +357,7 @@ var json = {
                         "text": "Its not hard, I was just doing the laws of physics then remembering this is a platformer lol. It wasnt hard after thinking that."
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -366,7 +366,7 @@ var json = {
                         "text": "lol maybe your just better then me cause I only make it a fourth of the times lol"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -375,7 +375,7 @@ var json = {
                         "text": "I do have one request, a double jump powerup. I accidentally got one and that it was cool. Reccomended ;)"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -384,7 +384,7 @@ var json = {
                         "text": "I dont know if im better than you. I do Geometry Dash but still."
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -393,7 +393,7 @@ var json = {
                         "text": "Not in this game sir but in my future games I will :P<br>(A Gray World game that I made has one)"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -402,7 +402,7 @@ var json = {
                         "text": "oh didn't see your second comment woops.<br>yeah idk."
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -551,7 +551,7 @@ var json = {
                         "text": "that's lame lol(inside joke y'all)"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -629,7 +629,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "24 minutes ago",
+                        "date": "29 minutes ago",
                         "author": {
                             "name": "Shifter -ON-",
                             "id": "kaid_892112752920553577482062",
