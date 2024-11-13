@@ -3,7 +3,7 @@ var json = {
     "title": "Bread Apocalypse - ft. wealR",
     "votes": 55,
     "created": "a day ago",
-    "updated": "2 hours ago",
+    "updated": "3 hours ago",
     "type": "PJS",
     "author": {
         "name": "Radar",
@@ -130,7 +130,7 @@ var json = {
                         "text": "of lameness i mean"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -139,7 +139,7 @@ var json = {
                         "text": "Yeah I think the graphics are really good!"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "wealR",
                             "id": "kaid_831993479561352012904348",
@@ -193,7 +193,7 @@ var json = {
                         "text": "what does it mean!"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -344,7 +344,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "That One Guy ME",
                     "id": "kaid_3823720261811268848400557",
@@ -487,7 +487,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "A+10333",
                     "id": "kaid_539345742584903189251569",
@@ -498,7 +498,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -707,7 +707,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
