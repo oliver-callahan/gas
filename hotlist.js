@@ -206,7 +206,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "Ibraheem Ahmed (IA)",
                     "id": "kaid_42165633374795610935956",
@@ -230,7 +230,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "EZezmath9",
                     "id": "kaid_1144531708437896578699873",
@@ -484,7 +484,7 @@ var json = {
                         "text": "lol i wouldn't let him do that<br><br>thanks :)"
                     },
                     {
-                        "date": "12 hours ago",
+                        "date": "13 hours ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -649,7 +649,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "🐢🥓 TurtleBacon",
                     "id": "kaid_717955606160046848792382",
@@ -706,7 +706,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "//I'M BOB ;)...(FYI I'm online)",
                     "id": "kaid_7500540694222150489044752",
@@ -730,7 +730,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "AmethystSky",
                     "id": "kaid_784805823121542822870790",
