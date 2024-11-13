@@ -43,7 +43,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 7,
                 "date": "a day ago",
                 "author": {
@@ -54,7 +54,17 @@ var json = {
                 "text": "i luv the final product. hope we can do this again! it was fun!",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "wait did you do the transition? Cause I have a feeling you kinda copied me lol(not the code but the idea)"
+                    }
+                ]
             },
             {
                 "replyCount": 1,
@@ -754,7 +764,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "YoshiDude",
                     "id": "kaid_8691532869042265101128670",
