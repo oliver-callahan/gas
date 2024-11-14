@@ -103,7 +103,7 @@ var json = {
                         "text": "Yes, it looks better. No, it doesn't lag for me. Also its super easy to win with zero deaths now for me lol"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -459,7 +459,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 2,
                 "date": "a day ago",
                 "author": {
@@ -479,6 +479,15 @@ var json = {
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
                         "text": "Nicely done!<br><br>I fixed the color scheme and added particles, how does it look and does it lag?"
+                    },
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "WinWinKhan",
+                            "id": "kaid_936941229910200376858712",
+                            "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
+                        },
+                        "text": "Not at all for me, maybe it would lag a lot in older devices though."
                     }
                 ]
             },
@@ -648,7 +657,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "30 minutes ago",
+                "date": "35 minutes ago",
                 "author": {
                     "name": "Green falcon",
                     "id": "kaid_455614962916004540799706",
@@ -870,7 +879,7 @@ var json = {
                         "text": "I won by the top left level :P<br><br>It looks pretty good, I would mess around with colors. Also its pretty laggy with lava 😢"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -971,7 +980,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "math manual",
                     "id": "kaid_1132758746388014174224664",
@@ -1018,7 +1027,7 @@ var json = {
                         "text": "try to jump after you fall off the block. it's hard but possible.",
                         "replies": [
                             {
-                                "date": "6 hours ago",
+                                "date": "7 hours ago",
                                 "author": {
                                     "name": "Oreo",
                                     "id": "kaid_726551157454425501696621",
