@@ -1036,7 +1036,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1363,7 +1363,7 @@ var json = {
                         "text": "How would you do it?",
                         "replies": [
                             {
-                                "date": "21 hours ago",
+                                "date": "a day ago",
                                 "author": {
                                     "name": "Mushy Avocado",
                                     "id": "kaid_889538221957342292210697",
@@ -1390,7 +1390,7 @@ var json = {
                                 "text": "Nah you don't need to wrap the whole thing in an IIFE. That wouldn't really do anything. I would just divide related parts of the code in an IIFE. <br><br>Here's a little example for a logo intro wrapped in an IIFE so it doesn't affect other code:<br><pre><code>var Logo = (function() {<br>    // Notice the generic variables \"x\" and \"y\"? Since it's in an IIFE,<br>    // you don't have to worry about overwriting these <br>    // somewhere else.<br>    var frame = 0;<br>    var x = 0;<br>    var y = 0;<br>    function drawLogo() {<br>       // Code goes here<br>    }<br>    return {<br>        isDone: false,<br>        draw: drawLogo,<br>    };<br>})();<br><br>draw = function() {<br>    if (!Logo.isDone) {<br>        Logo.draw();<br>    }<br>};</code></pre>"
                             },
                             {
-                                "date": "an hour ago",
+                                "date": "2 hours ago",
                                 "author": {
                                     "name": "Duke",
                                     "id": "kaid_351465532815782433620675",
