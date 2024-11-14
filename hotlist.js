@@ -783,7 +783,7 @@ var json = {
                         "text": "Oh thanks Green falcon! ;P"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Green falcon",
                             "id": "kaid_455614962916004540799706",
@@ -792,7 +792,7 @@ var json = {
                         "text": "ur welcome the duke ;p"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -846,7 +846,7 @@ var json = {
                         "text": "oh no :d<br><br>the thumbnail is legendary =0<br><br>its ok :)"
                     },
                     {
-                        "date": "25 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -998,7 +998,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1022,7 +1022,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1283,7 +1283,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "Zpikemaster24",
                     "id": "kaid_753888317123473340091614",
@@ -1358,7 +1358,7 @@ var json = {
                                 "text": "You mean just put all the game code into a iife? I tried that but failed to get it to work so I switched to this.<br><br>I think I know how to do it now(I was trying something weird)<br><br>The reason I put them into there own iifes is because it helps me sort through it easier.(in a smaller case like this it wouldn't matter that much but when it gets to like 6k it's rough.)<br><br>I'll try something like that next time, and I'll make sure to ask you for help if I need to ;P<br><br>And thanks =D"
                             },
                             {
-                                "date": "31 minutes ago",
+                                "date": "36 minutes ago",
                                 "author": {
                                     "name": "Mushy Avocado",
                                     "id": "kaid_889538221957342292210697",
@@ -1367,7 +1367,7 @@ var json = {
                                 "text": "Nah you don't need to wrap the whole thing in an IIFE. That wouldn't really do anything. I would just divide related parts of the code in an IIFE. <br><br>Here's a little example for a logo intro wrapped in an IIFE so it doesn't affect other code:<br><pre><code>var Logo = (function() {<br>    // Notice the generic variables \"x\" and \"y\"? Since it's in an IIFE,<br>    // you don't have to worry about overwriting these <br>    // somewhere else.<br>    var frame = 0;<br>    var x = 0;<br>    var y = 0;<br>    function drawLogo() {<br>       // Code goes here<br>    }<br>    return {<br>        isDone: false,<br>        draw: drawLogo,<br>    };<br>})();<br><br>draw = function() {<br>    if (!Logo.isDone) {<br>        Logo.draw();<br>    }<br>};</code></pre>"
                             },
                             {
-                                "date": "17 minutes ago",
+                                "date": "22 minutes ago",
                                 "author": {
                                     "name": "Duke",
                                     "id": "kaid_351465532815782433620675",
@@ -1376,7 +1376,7 @@ var json = {
                                 "text": "Alright I see. I plan to start making most of my games in html and using class, so I most likely won't be using iifes much after that but I'll keep that in mind =D"
                             },
                             {
-                                "date": "2 minutes ago",
+                                "date": "7 minutes ago",
                                 "author": {
                                     "name": "Mushy Avocado",
                                     "id": "kaid_889538221957342292210697",
