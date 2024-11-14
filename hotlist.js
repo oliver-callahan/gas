@@ -237,7 +237,7 @@ var json = {
                         "text": "yeah it hurt my eye too haha<br><br>I added a button that allows you to remove lag(and particles but that is the only way)"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "theBTG15",
                             "id": "kaid_1184047636356324637542824",
@@ -837,7 +837,7 @@ var json = {
                         "text": "Well I just found out that the first part was deleted -_-<br>so you should probably just follow Liam K's.<br><br>sorry about that :/"
                     },
                     {
-                        "date": "14 minutes ago",
+                        "date": "19 minutes ago",
                         "author": {
                             "name": "Green falcon",
                             "id": "kaid_455614962916004540799706",
@@ -1160,6 +1160,20 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
+                "date": "4 minutes ago",
+                "author": {
+                    "name": "Zpikemaster24",
+                    "id": "kaid_753888317123473340091614",
+                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                },
+                "text": "Here's my version so far, https://www.khanacademy.org/computer-programming/basic-platformer-credit-to-duke-for-letting-me-use-his-platformer-engine/6374504046444544",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
                 "date": "a day ago",
                 "author": {
                     "name": "AmethystSky",
@@ -1307,7 +1321,7 @@ var json = {
                         "text": "How would you do it?",
                         "replies": [
                             {
-                                "date": "19 hours ago",
+                                "date": "20 hours ago",
                                 "author": {
                                     "name": "Mushy Avocado",
                                     "id": "kaid_889538221957342292210697",
