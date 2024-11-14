@@ -338,7 +338,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "SwankyMan™",
                             "id": "kaid_82898098000024228278987",
@@ -1097,7 +1097,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "20 minutes ago",
+                "date": "25 minutes ago",
                 "author": {
                     "name": "ReggieCool2013",
                     "id": "kaid_9144584103432744361214001",
