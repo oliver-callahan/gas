@@ -3,7 +3,7 @@ var json = {
     "title": "Just 5 levels[GAME]",
     "votes": 70,
     "created": "2 days ago",
-    "updated": "36 minutes ago",
+    "updated": "41 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Duke",
@@ -617,7 +617,7 @@ var json = {
                         "text": "yeah, but that is suspicious in and of itself =]"
                     },
                     {
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -798,7 +798,7 @@ var json = {
                         "text": "I would love to see it :)"
                     },
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -973,7 +973,7 @@ var json = {
                         "text": "Thank you, DR! Then your be disappointed to hear that I am actually drawing a new level every single time lol<br>I only had one day to make this and tried the other way but ran into a couple glitches...<br><br>Yeah I don't know how to fix this... how would you do it?"
                     },
                     {
-                        "date": "4 minutes ago",
+                        "date": "9 minutes ago",
                         "author": {
                             "name": "BΣYӨПD",
                             "id": "kaid_5370656553883782878121797",
@@ -1174,7 +1174,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "ReggieCool2013",
                     "id": "kaid_9144584103432744361214001",
@@ -1306,7 +1306,7 @@ var json = {
                                 "text": "Maybe just make the classes global? I prefer to use IIFEs when I have a bunch of related classes that I don't want polluting the global scope, so I return an object from the IIFE containing those classes. Or when I have variables that I want to keep from being in the global scope, so I enclose it in an IIFE. Of course, it's just a preference though. How you write your code is up to you<br><br>Here's an example:<br><br><pre><code>var Platformer = (function() {<br><br>    var internalVariable = true;<br><br>    return {<br>        Block: Block,<br>        Level: Level,<br>        <br>    };<br>})();<br><br>// Example use:<br>var block = new Platformer.Block();</code></pre><br><br>Cool game btw. I like idea"
                             },
                             {
-                                "date": "17 hours ago",
+                                "date": "18 hours ago",
                                 "author": {
                                     "name": "Duke",
                                     "id": "kaid_351465532815782433620675",
@@ -1321,7 +1321,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "10 hours ago",
                 "author": {
                     "name": "ReggieCool2013",
                     "id": "kaid_9144584103432744361214001",
