@@ -70,7 +70,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 0,
-                "votes": 12,
+                "votes": 13,
                 "date": "2 days ago",
                 "author": {
                     "name": "Ezra",
@@ -408,7 +408,7 @@ var json = {
                         "text": "yeah it's not that hard"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Mathlete11",
                             "id": "kaid_4902531429433401500771997",
@@ -588,7 +588,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "43 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "JSCoder",
                     "id": "kaid_3032679493880386290676439",
@@ -599,7 +599,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -841,7 +841,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "3 hours ago",
                 "author": {
@@ -852,7 +852,17 @@ var json = {
                 "text": "Very creative structure, and I love the translation between the levels as opposed to just erasing it and drawing a new one.<br><br>Keep in mind that the program crashes when you scroll to the T&T, which is annoying because I was on the last level but now I have to restart. UI is an important part of projects too 😔",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Thank you, DR! Then your be disappointed to hear that I am actually drawing a new level every single time lol<br>I only had one day to make this and tried the other way but ran into a couple glitches...<br><br>Yeah I don't know how to fix this... how would you do it?"
+                    }
+                ]
             },
             {
                 "replyCount": 1,
@@ -1012,7 +1022,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "ReggieCool2013",
                     "id": "kaid_9144584103432744361214001",
@@ -1126,7 +1136,7 @@ var json = {
                     {
                         "replyCount": 0,
                         "votes": 1,
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1170,7 +1180,7 @@ var json = {
                                 "text": "Maybe just make the classes global? I prefer to use IIFEs when I have a bunch of related classes that I don't want polluting the global scope, so I return an object from the IIFE containing those classes. Or when I have variables that I want to keep from being in the global scope, so I enclose it in an IIFE. Of course, it's just a preference though. How you write your code is up to you<br><br>Here's an example:<br><br><pre><code>var Platformer = (function() {<br><br>    var internalVariable = true;<br><br>    return {<br>        Block: Block,<br>        Level: Level,<br>        <br>    };<br>})();<br><br>// Example use:<br>var block = new Platformer.Block();</code></pre><br><br>Cool game btw. I like idea"
                             },
                             {
-                                "date": "13 hours ago",
+                                "date": "14 hours ago",
                                 "author": {
                                     "name": "Duke",
                                     "id": "kaid_351465532815782433620675",
@@ -1194,7 +1204,7 @@ var json = {
                 "text": "pls vote me<br> i beg pls",
                 "replies": [
                     {
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
