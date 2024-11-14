@@ -94,7 +94,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -103,7 +103,7 @@ var json = {
                         "text": "Yes, it looks better. No, it doesn't lag for me. Also its super easy to win with zero deaths now for me lol"
                     },
                     {
-                        "date": "34 minutes ago",
+                        "date": "39 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -318,7 +318,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "SwankyMan™",
                             "id": "kaid_82898098000024228278987",
@@ -1007,7 +1007,7 @@ var json = {
                     {
                         "replyCount": 0,
                         "votes": 1,
-                        "date": "38 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
