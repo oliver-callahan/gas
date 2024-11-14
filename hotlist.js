@@ -3,7 +3,7 @@ var json = {
     "title": "Just 5 levels[GAME]",
     "votes": 71,
     "created": "2 days ago",
-    "updated": "29 minutes ago",
+    "updated": "34 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Duke",
@@ -628,7 +628,7 @@ var json = {
                         "text": "Hey, wydm? it is just five levels :P"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "JSCoder",
                             "id": "kaid_3032679493880386290676439",
@@ -692,7 +692,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "CHOViolin",
                     "id": "kaid_355666959582199141483622",
@@ -791,7 +791,7 @@ var json = {
                         "text": "You should make a game :P"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Green falcon",
                             "id": "kaid_455614962916004540799706",
@@ -993,7 +993,7 @@ var json = {
                         "text": "Thank you, DR! Then your be disappointed to hear that I am actually drawing a new level every single time lol<br>I only had one day to make this and tried the other way but ran into a couple glitches...<br><br>Yeah I don't know how to fix this... how would you do it?"
                     },
                     {
-                        "date": "39 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "BΣYӨПD",
                             "id": "kaid_5370656553883782878121797",
@@ -1002,7 +1002,7 @@ var json = {
                         "text": "<pre><code>(function() {return this;})().LoopProtector.prototype.leave = function() {};</code></pre><br>is my favorite way to get the job done. I put it in the program, scrolled down to write this, and scrolled back up - no crashing."
                     },
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
