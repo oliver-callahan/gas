@@ -328,7 +328,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "SwankyMan™",
                             "id": "kaid_82898098000024228278987",
@@ -481,7 +481,7 @@ var json = {
                         "text": "Nicely done!<br><br>I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "5 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "WinWinKhan",
                             "id": "kaid_936941229910200376858712",
@@ -657,7 +657,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "35 minutes ago",
+                "date": "40 minutes ago",
                 "author": {
                     "name": "Green falcon",
                     "id": "kaid_455614962916004540799706",
