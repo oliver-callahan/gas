@@ -103,7 +103,7 @@ var json = {
                         "text": "Yes, it looks better. No, it doesn't lag for me. Also its super easy to win with zero deaths now for me lol"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -461,7 +461,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "WinWinKhan",
                     "id": "kaid_936941229910200376858712",
@@ -856,7 +856,7 @@ var json = {
                         "text": "I won by the top left level :P<br><br>It looks pretty good, I would mess around with colors. Also its pretty laggy with lava 😢"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -957,7 +957,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "math manual",
                     "id": "kaid_1132758746388014174224664",
@@ -1004,7 +1004,7 @@ var json = {
                         "text": "try to jump after you fall off the block. it's hard but possible.",
                         "replies": [
                             {
-                                "date": "5 hours ago",
+                                "date": "6 hours ago",
                                 "author": {
                                     "name": "Oreo",
                                     "id": "kaid_726551157454425501696621",
