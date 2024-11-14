@@ -828,7 +828,7 @@ var json = {
                         "text": "I would love to see it :)"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -837,7 +837,7 @@ var json = {
                         "text": "Well I just found out that the first part was deleted -_-<br>so you should probably just follow Liam K's.<br><br>sorry about that :/"
                     },
                     {
-                        "date": "29 minutes ago",
+                        "date": "34 minutes ago",
                         "author": {
                             "name": "Green falcon",
                             "id": "kaid_455614962916004540799706",
@@ -1160,7 +1160,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "14 minutes ago",
+                "date": "19 minutes ago",
                 "author": {
                     "name": "Zpikemaster24",
                     "id": "kaid_753888317123473340091614",
@@ -1310,7 +1310,7 @@ var json = {
                 "replies": [],
                 "answers": [
                     {
-                        "replyCount": 2,
+                        "replyCount": 3,
                         "votes": 1,
                         "date": "21 hours ago",
                         "author": {
@@ -1337,6 +1337,15 @@ var json = {
                                     "avatar": "/images/avatars/svg/starky-ultimate.svg"
                                 },
                                 "text": "You mean just put all the game code into a iife? I tried that but failed to get it to work so I switched to this.<br><br>I think I know how to do it now(I was trying something weird)<br><br>The reason I put them into there own iifes is because it helps me sort through it easier.(in a smaller case like this it wouldn't matter that much but when it gets to like 6k it's rough.)<br><br>I'll try something like that next time, and I'll make sure to ask you for help if I need to ;P<br><br>And thanks =D"
+                            },
+                            {
+                                "date": "a few seconds ago",
+                                "author": {
+                                    "name": "Mushy Avocado",
+                                    "id": "kaid_889538221957342292210697",
+                                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
+                                },
+                                "text": "Nah you don't need to wrap the whole thing in an IIFE. That wouldn't really do anything. I would just divide related parts of the code in an IIFE. <br><br>Here's a little example for a logo intro wrapped in an IIFE so it doesn't affect other code:<br><pre><code>var Logo = (function() {<br>    // Notice the generic variables \"x\" and \"y\"? Since it's in an IIFE,<br>    // you don't have to worry about overwriting these <br>    // somewhere else.<br>    var frame = 0;<br>    var x = 0;<br>    var y = 0;<br>    function drawLogo() {<br>       // Code goes here<br>    }<br>    return {<br>        isDone: false,<br>        draw: drawLogo,<br>    };<br>})();<br><br>draw = function() {<br>    if (!Logo.isDone) {<br>        Logo.draw();<br>    }<br>};</code></pre>"
                             }
                         ]
                     }
