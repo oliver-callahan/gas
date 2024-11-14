@@ -481,7 +481,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 2,
-                "date": "a day ago",
+                "date": "2 days ago",
                 "author": {
                     "name": "WinWinKhan",
                     "id": "kaid_936941229910200376858712",
@@ -501,7 +501,7 @@ var json = {
                         "text": "Nicely done!<br><br>I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "13 hours ago",
+                        "date": "14 hours ago",
                         "author": {
                             "name": "WinWinKhan",
                             "id": "kaid_936941229910200376858712",
@@ -701,7 +701,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "ezekiel.carter2009",
                     "id": "kaid_4345125146474084185234199",
@@ -735,7 +735,7 @@ var json = {
                         "text": "Oh thanks Green falcon! ;P"
                     },
                     {
-                        "date": "19 minutes ago",
+                        "date": "24 minutes ago",
                         "author": {
                             "name": "Green falcon",
                             "id": "kaid_455614962916004540799706",
@@ -744,7 +744,7 @@ var json = {
                         "text": "ur welcome the duke ;p"
                     },
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -753,7 +753,7 @@ var json = {
                         "text": "You should make a game :P"
                     },
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "Green falcon",
                             "id": "kaid_455614962916004540799706",
@@ -894,7 +894,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "BΣYӨПD",
                     "id": "kaid_5370656553883782878121797",
@@ -1011,7 +1011,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "32 minutes ago",
+                "date": "37 minutes ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -1022,7 +1022,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "ASBackup",
                             "id": "kaid_714780036830891967670231",
@@ -1031,7 +1031,7 @@ var json = {
                         "text": "this is awesome :D<br>i beat it >:)"
                     },
                     {
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1082,7 +1082,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
@@ -1193,7 +1193,7 @@ var json = {
                         "text": "Yes you may, though I would recommend trying to make it different and adding graphics.",
                         "replies": [
                             {
-                                "date": "36 minutes ago",
+                                "date": "41 minutes ago",
                                 "author": {
                                     "name": "Zpikemaster24",
                                     "id": "kaid_753888317123473340091614",
