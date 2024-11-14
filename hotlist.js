@@ -114,9 +114,9 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 2,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "S 🇳 🇴 🇴 🇵 🇾",
                     "id": "kaid_117061054145957092515447",
@@ -125,7 +125,17 @@ var json = {
                 "text": "The last level is super cool.",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Thanks snoopy! Go jump on Charlie Brown for me will ya? ;P"
+                    }
+                ]
             },
             {
                 "replyCount": 5,
@@ -150,7 +160,7 @@ var json = {
                         "text": "Thank you! Yep that's the biggest thing that sets this aside form other platformers.<br><br>Btw I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "theBTG15",
                             "id": "kaid_1184047636356324637542824",
@@ -159,7 +169,7 @@ var json = {
                         "text": "I think it looks a lot better ngl. The previous one hurt my eyes. It does kind of lag but I think that's because I use a potato for a computer."
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "theBTG15",
                             "id": "kaid_1184047636356324637542824",
@@ -1016,7 +1026,7 @@ var json = {
                         "text": "How would you do it?",
                         "replies": [
                             {
-                                "date": "21 minutes ago",
+                                "date": "26 minutes ago",
                                 "author": {
                                     "name": "Mushy Avocado",
                                     "id": "kaid_889538221957342292210697",
@@ -1025,7 +1035,7 @@ var json = {
                                 "text": "Maybe just make the classes global? I prefer to use IIFEs when I have a bunch of related classes that I don't want polluting the global scope, so I return an object from the IIFE containing those classes. Or when I have variables that I want to keep from being in the global scope, so I enclose it in an IIFE. Of course, it's just a preference though. How you write your code is up to you<br><br>Here's an example:<br><br><pre><code>var Platformer = (function() {<br><br>    var internalVariable = true;<br><br>    return {<br>        Block: Block,<br>        Level: Level,<br>        <br>    };<br>})();<br><br>// Example use:<br>var block = new Platformer.Block();</code></pre><br><br>Cool game btw. I like idea"
                             },
                             {
-                                "date": "2 minutes ago",
+                                "date": "7 minutes ago",
                                 "author": {
                                     "name": "Duke",
                                     "id": "kaid_351465532815782433620675",
