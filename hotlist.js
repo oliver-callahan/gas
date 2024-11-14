@@ -70,7 +70,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 0,
-                "votes": 14,
+                "votes": 15,
                 "date": "2 days ago",
                 "author": {
                     "name": "Ezra",
@@ -207,7 +207,7 @@ var json = {
                         "text": "yeah it hurt my eye too haha<br><br>I added a button that allows you to remove lag(and particles but that is the only way)"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "theBTG15",
                             "id": "kaid_1184047636356324637542824",
@@ -654,7 +654,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "31 minutes ago",
+                "date": "36 minutes ago",
                 "author": {
                     "name": "CHOViolin",
                     "id": "kaid_355666959582199141483622",
@@ -726,7 +726,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "23 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -962,7 +962,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
                             "id": "kaid_706406430552760652245376",
@@ -1122,7 +1122,7 @@ var json = {
                 "replies": [],
                 "answers": [
                     {
-                        "replyCount": 0,
+                        "replyCount": 1,
                         "votes": 1,
                         "date": "2 hours ago",
                         "author": {
@@ -1131,7 +1131,17 @@ var json = {
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
                         "text": "Yes you may, though I would recommend trying to make it different and adding graphics.",
-                        "replies": []
+                        "replies": [
+                            {
+                                "date": "a minute ago",
+                                "author": {
+                                    "name": "Zpikemaster24",
+                                    "id": "kaid_753888317123473340091614",
+                                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                                },
+                                "text": "I will try to make it different. thx!"
+                            }
+                        ]
                     }
                 ]
             },
@@ -1159,7 +1169,7 @@ var json = {
                         "text": "How would you do it?",
                         "replies": [
                             {
-                                "date": "15 hours ago",
+                                "date": "16 hours ago",
                                 "author": {
                                     "name": "Mushy Avocado",
                                     "id": "kaid_889538221957342292210697",
