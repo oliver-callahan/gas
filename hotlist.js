@@ -3,7 +3,7 @@ var json = {
     "title": "Just 5 levels[GAME]",
     "votes": 79,
     "created": "2 days ago",
-    "updated": "37 minutes ago",
+    "updated": "42 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Duke",
@@ -639,7 +639,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -648,7 +648,7 @@ var json = {
                         "text": "heeyyyy what are you talking about...<br>but yes I have to agree it's over voted..."
                     },
                     {
-                        "date": "14 minutes ago",
+                        "date": "19 minutes ago",
                         "author": {
                             "name": "Jackson H",
                             "id": "kaid_5938807447267118718814449",
@@ -657,7 +657,7 @@ var json = {
                         "text": "This is rightfully voted. <br><br><br>But yes I always vote HACK'S stuff."
                     },
                     {
-                        "date": "6 minutes ago",
+                        "date": "10 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -695,7 +695,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -780,9 +780,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 1,
-                "date": "2 minutes ago",
+                "date": "7 minutes ago",
                 "author": {
                     "name": "Radar",
                     "id": "kaid_3902988618718040904060736",
@@ -793,13 +793,22 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "a minute ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
                         "text": "hey, you know what? I'm fine with that lol<br>but yeah I was hoping for like 30-50 votes lol.<br>not it being my most voted project :P<br><br>But seriously, I am gonna try to make my next program much better."
+                    },
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "Radar",
+                            "id": "kaid_3902988618718040904060736",
+                            "avatar": "/images/avatars/svg/leafers-seed.svg"
+                        },
+                        "text": "yeah,lol<br>Yes that's around what it normally would get lol<br>It probably will get there lol<br><br>You joined Echolite? Well please pump out quality programs or me as a judge will be >:( lol jk"
                     }
                 ]
             },
@@ -1121,7 +1130,7 @@ var json = {
                         "text": "Thank you, DR! Then your be disappointed to hear that I am actually drawing a new level every single time lol<br>I only had one day to make this and tried the other way but ran into a couple glitches...<br><br>Yeah I don't know how to fix this... how would you do it?"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "BΣYӨПD",
                             "id": "kaid_5370656553883782878121797",
@@ -1148,7 +1157,7 @@ var json = {
                         "text": "It's from @dkareh on KA, so you could credit it to him."
                     },
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1161,13 +1170,13 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "18 minutes ago",
+                "date": "23 minutes ago",
                 "author": {
                     "name": "Jackson H",
                     "id": "kaid_5938807447267118718814449",
                     "avatar": "/images/avatars/svg/starky-ultimate.svg"
                 },
-                "text": "Nice game! :)<br><br>It was really fun. Thanks Duke.  :)<br><br>I had 0 deaths!",
+                "text": "Nice game! :)<br><br>It was really fun. Thanks Duke.  :)<br><br>I had 0 deaths!<br><br>You have my vote+++++",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -1199,7 +1208,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "38 minutes ago",
+                "date": "43 minutes ago",
                 "author": {
                     "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                     "id": "kaid_693763055742960827086832",
@@ -1407,7 +1416,7 @@ var json = {
                     {
                         "replyCount": 1,
                         "votes": 1,
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1470,7 +1479,7 @@ var json = {
                                 "text": "You mean just put all the game code into a iife? I tried that but failed to get it to work so I switched to this.<br><br>I think I know how to do it now(I was trying something weird)<br><br>The reason I put them into there own iifes is because it helps me sort through it easier.(in a smaller case like this it wouldn't matter that much but when it gets to like 6k it's rough.)<br><br>I'll try something like that next time, and I'll make sure to ask you for help if I need to ;P<br><br>And thanks =D"
                             },
                             {
-                                "date": "2 hours ago",
+                                "date": "3 hours ago",
                                 "author": {
                                     "name": "Mushy Avocado",
                                     "id": "kaid_889538221957342292210697",
