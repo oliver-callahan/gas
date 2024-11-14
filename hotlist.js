@@ -3,7 +3,7 @@ var json = {
     "title": "Just 5 levels[GAME]",
     "votes": 68,
     "created": "2 days ago",
-    "updated": "21 minutes ago",
+    "updated": "26 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Duke",
@@ -114,7 +114,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -561,7 +561,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Cyan Spirit",
                             "id": "kaid_1418532449612597727143882",
@@ -588,7 +588,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "JSCoder",
                     "id": "kaid_3032679493880386290676439",
@@ -608,7 +608,7 @@ var json = {
                         "text": "Hey, wydm? it is just five levels :P"
                     },
                     {
-                        "date": "39 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "JSCoder",
                             "id": "kaid_3032679493880386290676439",
@@ -617,7 +617,7 @@ var json = {
                         "text": "yeah, but that is suspicious in and of itself =]"
                     },
                     {
-                        "date": "11 minutes ago",
+                        "date": "16 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -744,7 +744,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -798,7 +798,7 @@ var json = {
                         "text": "I would love to see it :)"
                     },
                     {
-                        "date": "16 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1279,7 +1279,7 @@ var json = {
                     {
                         "replyCount": 2,
                         "votes": 1,
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1347,7 +1347,7 @@ var json = {
                     {
                         "replyCount": 1,
                         "votes": 2,
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
