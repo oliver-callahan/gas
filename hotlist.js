@@ -53,7 +53,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 3,
+                "replyCount": 4,
                 "votes": 4,
                 "date": "a day ago",
                 "author": {
@@ -84,13 +84,22 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "2 minutes ago",
+                        "date": "7 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
                             "avatar": "/images/avatars/svg/leafers-seed.svg"
                         },
                         "text": "Yes, it looks better. No, it doesn't lag for me. Also its super easy to win with zero deaths now for me lol"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Yeah hopefully the next one will be a bit harder"
                     }
                 ]
             },
@@ -111,7 +120,7 @@ var json = {
             {
                 "replyCount": 5,
                 "votes": 2,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "theBTG15",
                     "id": "kaid_1184047636356324637542824",
@@ -419,7 +428,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Shifter -OFF-",
                             "id": "kaid_892112752920553577482062",
@@ -591,7 +600,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "ezekiel.carter2009",
                     "id": "kaid_4345125146474084185234199",
@@ -875,7 +884,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -988,7 +997,7 @@ var json = {
                     {
                         "replyCount": 0,
                         "votes": 1,
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
