@@ -3,7 +3,7 @@ var json = {
     "title": "Just 5 levels[GAME]",
     "votes": 68,
     "created": "2 days ago",
-    "updated": "16 minutes ago",
+    "updated": "21 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Duke",
@@ -207,7 +207,7 @@ var json = {
                         "text": "yeah it hurt my eye too haha<br><br>I added a button that allows you to remove lag(and particles but that is the only way)"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "theBTG15",
                             "id": "kaid_1184047636356324637542824",
@@ -608,7 +608,7 @@ var json = {
                         "text": "Hey, wydm? it is just five levels :P"
                     },
                     {
-                        "date": "34 minutes ago",
+                        "date": "39 minutes ago",
                         "author": {
                             "name": "JSCoder",
                             "id": "kaid_3032679493880386290676439",
@@ -617,7 +617,7 @@ var json = {
                         "text": "yeah, but that is suspicious in and of itself =]"
                     },
                     {
-                        "date": "6 minutes ago",
+                        "date": "11 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -798,7 +798,7 @@ var json = {
                         "text": "I would love to see it :)"
                     },
                     {
-                        "date": "10 minutes ago",
+                        "date": "16 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1048,7 +1048,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
                             "id": "kaid_706406430552760652245376",
@@ -1288,7 +1288,7 @@ var json = {
                         "text": "How would you do it?",
                         "replies": [
                             {
-                                "date": "17 hours ago",
+                                "date": "18 hours ago",
                                 "author": {
                                     "name": "Mushy Avocado",
                                     "id": "kaid_889538221957342292210697",
