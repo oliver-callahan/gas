@@ -123,7 +123,7 @@ var json = {
                         "text": "Yes, it looks better. No, it doesn't lag for me. Also its super easy to win with zero deaths now for me lol"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -701,7 +701,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "Green falcon",
                     "id": "kaid_455614962916004540799706",
@@ -947,7 +947,7 @@ var json = {
                         "text": "I won by the top left level :P<br><br>It looks pretty good, I would mess around with colors. Also its pretty laggy with lava 😢"
                     },
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1180,7 +1180,7 @@ var json = {
                         "text": "try to jump after you fall off the block. it's hard but possible.",
                         "replies": [
                             {
-                                "date": "18 hours ago",
+                                "date": "19 hours ago",
                                 "author": {
                                     "name": "Oreo",
                                     "id": "kaid_726551157454425501696621",
