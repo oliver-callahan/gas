@@ -103,7 +103,7 @@ var json = {
                         "text": "Yes, it looks better. No, it doesn't lag for me. Also its super easy to win with zero deaths now for me lol"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -127,7 +127,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -461,7 +461,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "20 hours ago",
+                "date": "21 hours ago",
                 "author": {
                     "name": "WinWinKhan",
                     "id": "kaid_936941229910200376858712",
@@ -545,7 +545,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "8 minutes ago",
+                "date": "13 minutes ago",
                 "author": {
                     "name": "Yogurt",
                     "id": "kaid_23839232709913550984474",
@@ -856,7 +856,7 @@ var json = {
                         "text": "I won by the top left level :P<br><br>It looks pretty good, I would mess around with colors. Also its pretty laggy with lava 😢"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -957,7 +957,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "11 hours ago",
                 "author": {
                     "name": "math manual",
                     "id": "kaid_1132758746388014174224664",
@@ -1004,7 +1004,7 @@ var json = {
                         "text": "try to jump after you fall off the block. it's hard but possible.",
                         "replies": [
                             {
-                                "date": "4 hours ago",
+                                "date": "5 hours ago",
                                 "author": {
                                     "name": "Oreo",
                                     "id": "kaid_726551157454425501696621",
@@ -1040,7 +1040,7 @@ var json = {
                         "text": "How would you do it?",
                         "replies": [
                             {
-                                "date": "36 minutes ago",
+                                "date": "41 minutes ago",
                                 "author": {
                                     "name": "Mushy Avocado",
                                     "id": "kaid_889538221957342292210697",
@@ -1049,7 +1049,7 @@ var json = {
                                 "text": "Maybe just make the classes global? I prefer to use IIFEs when I have a bunch of related classes that I don't want polluting the global scope, so I return an object from the IIFE containing those classes. Or when I have variables that I want to keep from being in the global scope, so I enclose it in an IIFE. Of course, it's just a preference though. How you write your code is up to you<br><br>Here's an example:<br><br><pre><code>var Platformer = (function() {<br><br>    var internalVariable = true;<br><br>    return {<br>        Block: Block,<br>        Level: Level,<br>        <br>    };<br>})();<br><br>// Example use:<br>var block = new Platformer.Block();</code></pre><br><br>Cool game btw. I like idea"
                             },
                             {
-                                "date": "17 minutes ago",
+                                "date": "22 minutes ago",
                                 "author": {
                                     "name": "Duke",
                                     "id": "kaid_351465532815782433620675",
