@@ -95,7 +95,7 @@ var json = {
                         "text": "lol we totally didn't copy anything ;P"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -104,7 +104,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -161,7 +161,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -278,7 +278,7 @@ var json = {
                         "text": "Thank you and nice!(I have too haha it's pretty easy)<br>Btw I fixed the color scheme and added lava particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -287,7 +287,7 @@ var json = {
                         "text": "You're welcome! :)<br>It looks great! :D<br>Um, let to check. Nope. No lag. Not even the the last level. :)"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -296,7 +296,7 @@ var json = {
                         "text": "Thanks!<br>Great I was afraid that it might =D<br>I might add particles for when the player moves and jumps. I'll let you know if I add that."
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Ace Rogers (Off)",
                             "id": "kaid_714276242204949021450419",
@@ -329,7 +329,7 @@ var json = {
                         "text": "Thanks!<br>Have you played all of it?"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -449,7 +449,7 @@ var json = {
                         "text": "sweet job!"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -482,7 +482,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -542,7 +542,7 @@ var json = {
                         "text": "the only one that I knew you could beat was the top right one lol(when they are all four at once)"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -551,7 +551,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Cyan Spirit",
                             "id": "kaid_1418532449612597727143882",
@@ -598,7 +598,7 @@ var json = {
                         "text": "try to air jump.<br><br>it really gets cool at the last level :P"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -640,7 +640,7 @@ var json = {
                         "text": "haha thank you!<br>yeah the graphics was definitely the lacking part. yeah I'm too lazy to change them idk why but it takes me wayyy to long lol<br><br>oooh that would be a great idea... I may add that tomorrow haha!<br><br>I already have a idea that I think will make your head spin :P<br>thanks again!"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -871,7 +871,7 @@ var json = {
                         "text": "yay =D"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1028,7 +1028,7 @@ var json = {
                     {
                         "replyCount": 1,
                         "votes": 1,
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1064,7 +1064,7 @@ var json = {
                     {
                         "replyCount": 2,
                         "votes": 1,
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
