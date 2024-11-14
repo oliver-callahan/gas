@@ -70,7 +70,7 @@ var json = {
         "tips": [
             {
                 "replyCount": 0,
-                "votes": 13,
+                "votes": 14,
                 "date": "2 days ago",
                 "author": {
                     "name": "Ezra",
@@ -135,8 +135,8 @@ var json = {
             },
             {
                 "replyCount": 1,
-                "votes": 2,
-                "date": "18 hours ago",
+                "votes": 3,
+                "date": "19 hours ago",
                 "author": {
                     "name": "S 🇳 🇴 🇴 🇵 🇾",
                     "id": "kaid_117061054145957092515447",
@@ -599,7 +599,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -854,7 +854,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1061,7 +1061,7 @@ var json = {
         "questions": [
             {
                 "replyCount": 0,
-                "votes": 1,
+                "votes": 0,
                 "date": "a day ago",
                 "author": {
                     "name": "math manual",
@@ -1073,7 +1073,7 @@ var json = {
                 "answers": [
                     {
                         "replyCount": 0,
-                        "votes": 2,
+                        "votes": 3,
                         "date": "a day ago",
                         "author": {
                             "name": "Duke",
@@ -1082,42 +1082,6 @@ var json = {
                         },
                         "text": "Why not?",
                         "replies": []
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "19 hours ago",
-                "author": {
-                    "name": "Oreo",
-                    "id": "kaid_726551157454425501696621",
-                    "avatar": "/images/avatars/svg/starky-seedling.svg"
-                },
-                "text": "i cant get past 3",
-                "replies": [],
-                "answers": [
-                    {
-                        "replyCount": 1,
-                        "votes": 1,
-                        "date": "18 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "try to jump after you fall off the block. it's hard but possible.",
-                        "replies": [
-                            {
-                                "date": "18 hours ago",
-                                "author": {
-                                    "name": "Oreo",
-                                    "id": "kaid_726551157454425501696621",
-                                    "avatar": "/images/avatars/svg/starky-seedling.svg"
-                                },
-                                "text": "i got it"
-                            }
-                        ]
                     }
                 ]
             },
@@ -1136,7 +1100,7 @@ var json = {
                     {
                         "replyCount": 0,
                         "votes": 1,
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1193,8 +1157,44 @@ var json = {
                 ]
             },
             {
+                "replyCount": 0,
+                "votes": 0,
+                "date": "19 hours ago",
+                "author": {
+                    "name": "Oreo",
+                    "id": "kaid_726551157454425501696621",
+                    "avatar": "/images/avatars/svg/starky-seedling.svg"
+                },
+                "text": "i cant get past 3",
+                "replies": [],
+                "answers": [
+                    {
+                        "replyCount": 1,
+                        "votes": 2,
+                        "date": "18 hours ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "try to jump after you fall off the block. it's hard but possible.",
+                        "replies": [
+                            {
+                                "date": "18 hours ago",
+                                "author": {
+                                    "name": "Oreo",
+                                    "id": "kaid_726551157454425501696621",
+                                    "avatar": "/images/avatars/svg/starky-seedling.svg"
+                                },
+                                "text": "i got it"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "replyCount": 1,
-                "votes": 1,
+                "votes": 0,
                 "date": "6 hours ago",
                 "author": {
                     "name": "ReggieCool2013",
@@ -1204,7 +1204,7 @@ var json = {
                 "text": "pls vote me<br> i beg pls",
                 "replies": [
                     {
-                        "date": "38 minutes ago",
+                        "date": "43 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
