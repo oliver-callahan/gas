@@ -268,7 +268,7 @@ var json = {
             {
                 "replyCount": 4,
                 "votes": 2,
-                "date": "a day ago",
+                "date": "2 days ago",
                 "author": {
                     "name": "Ace Rogers (Off)",
                     "id": "kaid_714276242204949021450419",
@@ -608,7 +608,7 @@ var json = {
                         "text": "Hey, wydm? it is just five levels :P"
                     },
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "JSCoder",
                             "id": "kaid_3032679493880386290676439",
@@ -771,7 +771,7 @@ var json = {
                         "text": "yess I'm about to finish the intro to js and intro to Advanced JS: Games & Visualizations"
                     },
                     {
-                        "date": "34 minutes ago",
+                        "date": "39 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -780,7 +780,7 @@ var json = {
                         "text": "yay!<br>I made a small tutorial for someone else, I can show it to you too if you want me too.(a platformer tutorial)"
                     },
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "Green falcon",
                             "id": "kaid_455614962916004540799706",
@@ -921,7 +921,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "23 minutes ago",
+                "date": "28 minutes ago",
                 "author": {
                     "name": "Harmony",
                     "id": "kaid_5029554478572114895720391",
@@ -1052,7 +1052,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -1063,7 +1063,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "ASBackup",
                             "id": "kaid_714780036830891967670231",
@@ -1249,7 +1249,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Mushy Avocado",
                     "id": "kaid_889538221957342292210697",
@@ -1292,9 +1292,32 @@ var json = {
                 ]
             },
             {
+                "replyCount": 1,
+                "votes": 1,
+                "date": "9 hours ago",
+                "author": {
+                    "name": "ReggieCool2013",
+                    "id": "kaid_9144584103432744361214001",
+                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
+                },
+                "text": "pls vote me<br> i beg pls",
+                "replies": [
+                    {
+                        "date": "3 hours ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "The guidelines say don't ask for votes..."
+                    }
+                ],
+                "answers": []
+            },
+            {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Oreo",
                     "id": "kaid_726551157454425501696621",
@@ -1326,29 +1349,6 @@ var json = {
                         ]
                     }
                 ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 0,
-                "date": "9 hours ago",
-                "author": {
-                    "name": "ReggieCool2013",
-                    "id": "kaid_9144584103432744361214001",
-                    "avatar": "/images/avatars/svg/duskpin-sapling.svg"
-                },
-                "text": "pls vote me<br> i beg pls",
-                "replies": [
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "The guidelines say don't ask for votes..."
-                    }
-                ],
-                "answers": []
             }
         ]
     }
