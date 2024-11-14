@@ -735,7 +735,7 @@ var json = {
                         "text": "Oh thanks Green falcon! ;P"
                     },
                     {
-                        "date": "29 minutes ago",
+                        "date": "34 minutes ago",
                         "author": {
                             "name": "Green falcon",
                             "id": "kaid_455614962916004540799706",
@@ -744,7 +744,7 @@ var json = {
                         "text": "ur welcome the duke ;p"
                     },
                     {
-                        "date": "28 minutes ago",
+                        "date": "33 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -753,7 +753,7 @@ var json = {
                         "text": "You should make a game :P"
                     },
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "Green falcon",
                             "id": "kaid_455614962916004540799706",
@@ -905,7 +905,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1011,7 +1011,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "42 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -1022,7 +1022,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "ASBackup",
                             "id": "kaid_714780036830891967670231",
@@ -1031,7 +1031,7 @@ var json = {
                         "text": "this is awesome :D<br>i beat it >:)"
                     },
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1172,7 +1172,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "Zpikemaster24",
                     "id": "kaid_753888317123473340091614",
