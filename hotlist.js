@@ -127,7 +127,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -224,7 +224,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "8 hours ago",
+                "date": "9 hours ago",
                 "author": {
                     "name": "HB_the_Pencil (semi-retired)",
                     "id": "kaid_412656070256786668848958",
@@ -337,7 +337,7 @@ var json = {
                         "text": "Yw!<br><br>Yes (...With 32 deaths)<br><br>It looks good! No lag that I notice.<br><br><b>EDIT</b> 3 deaths :)"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -545,7 +545,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "23 minutes ago",
+                "date": "28 minutes ago",
                 "author": {
                     "name": "Yogurt",
                     "id": "kaid_23839232709913550984474",
@@ -588,7 +588,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "- k a t i t e -",
                             "id": "kaid_312040000225853665820004",
@@ -668,7 +668,7 @@ var json = {
                         "text": "Thank you!<br>haha yeah that level I made for people who like to rage quit lol<br><br>I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -969,7 +969,7 @@ var json = {
                     {
                         "replyCount": 0,
                         "votes": 2,
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1049,7 +1049,7 @@ var json = {
                                 "text": "Maybe just make the classes global? I prefer to use IIFEs when I have a bunch of related classes that I don't want polluting the global scope, so I return an object from the IIFE containing those classes. Or when I have variables that I want to keep from being in the global scope, so I enclose it in an IIFE. Of course, it's just a preference though. How you write your code is up to you<br><br>Here's an example:<br><br><pre><code>var Platformer = (function() {<br><br>    var internalVariable = true;<br><br>    return {<br>        Block: Block,<br>        Level: Level,<br>        <br>    };<br>})();<br><br>// Example use:<br>var block = new Platformer.Block();</code></pre><br><br>Cool game btw. I like idea"
                             },
                             {
-                                "date": "32 minutes ago",
+                                "date": "36 minutes ago",
                                 "author": {
                                     "name": "Duke",
                                     "id": "kaid_351465532815782433620675",
