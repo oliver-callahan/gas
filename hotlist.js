@@ -255,7 +255,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -654,7 +654,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 minutes ago",
+                "date": "11 minutes ago",
                 "author": {
                     "name": "CHOViolin",
                     "id": "kaid_355666959582199141483622",
@@ -713,7 +713,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "13 hours ago",
                 "author": {
@@ -724,7 +724,17 @@ var json = {
                 "text": "awesome game!<br>vote++",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Oh thanks Green falcon! ;P"
+                    }
+                ]
             },
             {
                 "replyCount": 11,
@@ -892,7 +902,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1128,7 +1138,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "17 hours ago",
+                "date": "18 hours ago",
                 "author": {
                     "name": "Mushy Avocado",
                     "id": "kaid_889538221957342292210697",
@@ -1173,7 +1183,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 0,
-                "date": "19 hours ago",
+                "date": "20 hours ago",
                 "author": {
                     "name": "Oreo",
                     "id": "kaid_726551157454425501696621",
