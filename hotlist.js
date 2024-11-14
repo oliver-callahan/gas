@@ -245,7 +245,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -524,7 +524,7 @@ var json = {
                         "text": "Thank you!<br><br>Yeah the last level :P<br>It's possible just very hard ;P"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Cyan Spirit",
                             "id": "kaid_1418532449612597727143882",
@@ -737,7 +737,7 @@ var json = {
                         "text": "Its not hard, I was just doing the laws of physics then remembering this is a platformer lol. It wasnt hard after thinking that."
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -746,7 +746,7 @@ var json = {
                         "text": "lol maybe your just better then me cause I only make it a fourth of the times lol"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -755,7 +755,7 @@ var json = {
                         "text": "I do have one request, a double jump powerup. I accidentally got one and that it was cool. Reccomended ;)"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -764,7 +764,7 @@ var json = {
                         "text": "I dont know if im better than you. I do Geometry Dash but still."
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -773,7 +773,7 @@ var json = {
                         "text": "Not in this game sir but in my future games I will :P<br>(A Gray World game that I made has one)"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -782,7 +782,7 @@ var json = {
                         "text": "oh didn't see your second comment woops.<br>yeah idk."
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -809,7 +809,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "23 minutes ago",
+                "date": "28 minutes ago",
                 "author": {
                     "name": "BΣYӨПD",
                     "id": "kaid_5370656553883782878121797",
@@ -834,7 +834,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "17 hours ago",
+                        "date": "18 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1044,7 +1044,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "15 hours ago",
+                "date": "16 hours ago",
                 "author": {
                     "name": "Oreo",
                     "id": "kaid_726551157454425501696621",
@@ -1080,7 +1080,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "13 hours ago",
+                "date": "14 hours ago",
                 "author": {
                     "name": "Mushy Avocado",
                     "id": "kaid_889538221957342292210697",
