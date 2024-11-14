@@ -604,7 +604,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 minutes ago",
+                "date": "12 minutes ago",
                 "author": {
                     "name": "VVhiteTiger",
                     "id": "kaid_154605635905555420140323",
@@ -842,7 +842,7 @@ var json = {
                         "text": "I would love to see it :)"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -851,7 +851,7 @@ var json = {
                         "text": "Well I just found out that the first part was deleted -_-<br>so you should probably just follow Liam K's.<br><br>sorry about that :/"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Green falcon",
                             "id": "kaid_455614962916004540799706",
@@ -1012,7 +1012,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1063,7 +1063,7 @@ var json = {
                         "text": "Alright I'll add that.<br>Whom should I give credit to?(you correct?)"
                     },
                     {
-                        "date": "13 minutes ago",
+                        "date": "18 minutes ago",
                         "author": {
                             "name": "BΣYӨПD",
                             "id": "kaid_5370656553883782878121797",
@@ -1390,7 +1390,7 @@ var json = {
                                 "text": "Nah you don't need to wrap the whole thing in an IIFE. That wouldn't really do anything. I would just divide related parts of the code in an IIFE. <br><br>Here's a little example for a logo intro wrapped in an IIFE so it doesn't affect other code:<br><pre><code>var Logo = (function() {<br>    // Notice the generic variables \"x\" and \"y\"? Since it's in an IIFE,<br>    // you don't have to worry about overwriting these <br>    // somewhere else.<br>    var frame = 0;<br>    var x = 0;<br>    var y = 0;<br>    function drawLogo() {<br>       // Code goes here<br>    }<br>    return {<br>        isDone: false,<br>        draw: drawLogo,<br>    };<br>})();<br><br>draw = function() {<br>    if (!Logo.isDone) {<br>        Logo.draw();<br>    }<br>};</code></pre>"
                             },
                             {
-                                "date": "42 minutes ago",
+                                "date": "an hour ago",
                                 "author": {
                                     "name": "Duke",
                                     "id": "kaid_351465532815782433620675",
@@ -1399,7 +1399,7 @@ var json = {
                                 "text": "Alright I see. I plan to start making most of my games in html and using class, so I most likely won't be using iifes much after that but I'll keep that in mind =D"
                             },
                             {
-                                "date": "27 minutes ago",
+                                "date": "32 minutes ago",
                                 "author": {
                                     "name": "Mushy Avocado",
                                     "id": "kaid_889538221957342292210697",
