@@ -147,7 +147,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "14 hours ago",
+                        "date": "15 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -650,6 +650,20 @@ var json = {
                         "text": "it looks great! i'm not having any problems with lag :D"
                     }
                 ]
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "a minute ago",
+                "author": {
+                    "name": "CHOViolin",
+                    "id": "kaid_355666959582199141483622",
+                    "avatar": "/images/avatars/svg/eggleston-blue.svg"
+                },
+                "text": "I won with 6 deaths.",
+                "locked": false,
+                "pinned": false,
+                "replies": []
             },
             {
                 "replyCount": 2,
@@ -1195,7 +1209,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 0,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "ReggieCool2013",
                     "id": "kaid_9144584103432744361214001",
