@@ -136,7 +136,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 2,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "S 🇳 🇴 🇴 🇵 🇾",
                     "id": "kaid_117061054145957092515447",
@@ -180,7 +180,7 @@ var json = {
                         "text": "Thank you! Yep that's the biggest thing that sets this aside form other platformers.<br><br>Btw I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "theBTG15",
                             "id": "kaid_1184047636356324637542824",
@@ -189,7 +189,7 @@ var json = {
                         "text": "I think it looks a lot better ngl. The previous one hurt my eyes. It does kind of lag but I think that's because I use a potato for a computer."
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "theBTG15",
                             "id": "kaid_1184047636356324637542824",
@@ -588,7 +588,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "a day ago",
+                "date": "2 days ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
@@ -1090,7 +1090,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "34 minutes ago",
+                "date": "39 minutes ago",
                 "author": {
                     "name": "Zpikemaster24",
                     "id": "kaid_753888317123473340091614",
