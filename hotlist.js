@@ -586,9 +586,9 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
-                "date": "38 minutes ago",
+                "date": "43 minutes ago",
                 "author": {
                     "name": "JSCoder",
                     "id": "kaid_3032679493880386290676439",
@@ -597,7 +597,17 @@ var json = {
                 "text": "this name seems suspicious =p",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Hey, wydm? it is just five levels :P"
+                    }
+                ]
             },
             {
                 "replyCount": 3,
@@ -1112,7 +1122,20 @@ var json = {
                 },
                 "text": "Can I spin-off this to make my platformer game?",
                 "replies": [],
-                "answers": []
+                "answers": [
+                    {
+                        "replyCount": 0,
+                        "votes": 1,
+                        "date": "2 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "Yes you may, though I would recommend trying to make it different and adding graphics.",
+                        "replies": []
+                    }
+                ]
             },
             {
                 "replyCount": 0,
@@ -1160,7 +1183,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "5 hours ago",
                 "author": {
@@ -1169,7 +1192,17 @@ var json = {
                     "avatar": "/images/avatars/svg/duskpin-sapling.svg"
                 },
                 "text": "pls vote me<br> i beg pls",
-                "replies": [],
+                "replies": [
+                    {
+                        "date": "3 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "The guidelines say don't ask for votes..."
+                    }
+                ],
                 "answers": []
             }
         ]
