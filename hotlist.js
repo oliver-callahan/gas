@@ -338,7 +338,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "SwankyMan™",
                             "id": "kaid_82898098000024228278987",
