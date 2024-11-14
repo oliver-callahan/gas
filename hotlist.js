@@ -114,7 +114,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -561,7 +561,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "16 hours ago",
+                        "date": "17 hours ago",
                         "author": {
                             "name": "Cyan Spirit",
                             "id": "kaid_1418532449612597727143882",
@@ -588,7 +588,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "JSCoder",
                     "id": "kaid_3032679493880386290676439",
@@ -854,7 +854,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1126,7 +1126,7 @@ var json = {
                     {
                         "replyCount": 2,
                         "votes": 1,
-                        "date": "15 hours ago",
+                        "date": "16 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1171,7 +1171,7 @@ var json = {
                     {
                         "replyCount": 1,
                         "votes": 2,
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
