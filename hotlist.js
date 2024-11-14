@@ -207,7 +207,7 @@ var json = {
                         "text": "yeah it hurt my eye too haha<br><br>I added a button that allows you to remove lag(and particles but that is the only way)"
                     },
                     {
-                        "date": "18 hours ago",
+                        "date": "19 hours ago",
                         "author": {
                             "name": "theBTG15",
                             "id": "kaid_1184047636356324637542824",
@@ -713,7 +713,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 4,
+                "replyCount": 5,
                 "votes": 1,
                 "date": "14 hours ago",
                 "author": {
@@ -735,7 +735,7 @@ var json = {
                         "text": "Oh thanks Green falcon! ;P"
                     },
                     {
-                        "date": "39 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "Green falcon",
                             "id": "kaid_455614962916004540799706",
@@ -744,7 +744,7 @@ var json = {
                         "text": "ur welcome the duke ;p"
                     },
                     {
-                        "date": "38 minutes ago",
+                        "date": "43 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -753,13 +753,22 @@ var json = {
                         "text": "You should make a game :P"
                     },
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "Green falcon",
                             "id": "kaid_455614962916004540799706",
                             "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
                         "text": "yess I'm about to finish the intro to js and intro to Advanced JS: Games & Visualizations"
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "yay!<br>I made a small tutorial for someone else, I can show it to you too if you want me too.(a platformer tutorial)"
                     }
                 ]
             },
@@ -989,7 +998,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
                             "id": "kaid_706406430552760652245376",
@@ -1229,7 +1238,7 @@ var json = {
                         "text": "How would you do it?",
                         "replies": [
                             {
-                                "date": "16 hours ago",
+                                "date": "17 hours ago",
                                 "author": {
                                     "name": "Mushy Avocado",
                                     "id": "kaid_889538221957342292210697",
