@@ -3,7 +3,7 @@ var json = {
     "title": "Just 5 levels[GAME]",
     "votes": 79,
     "created": "2 days ago",
-    "updated": "32 minutes ago",
+    "updated": "37 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Duke",
@@ -555,7 +555,7 @@ var json = {
                         "text": "Nicely done!<br><br>I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "WinWinKhan",
                             "id": "kaid_936941229910200376858712",
@@ -639,7 +639,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -648,7 +648,7 @@ var json = {
                         "text": "heeyyyy what are you talking about...<br>but yes I have to agree it's over voted..."
                     },
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "Jackson H",
                             "id": "kaid_5938807447267118718814449",
@@ -657,7 +657,7 @@ var json = {
                         "text": "This is rightfully voted. <br><br><br>But yes I always vote HACK'S stuff."
                     },
                     {
-                        "date": "a few seconds ago",
+                        "date": "6 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -778,6 +778,30 @@ var json = {
                 "locked": false,
                 "pinned": false,
                 "replies": []
+            },
+            {
+                "replyCount": 1,
+                "votes": 1,
+                "date": "2 minutes ago",
+                "author": {
+                    "name": "Radar",
+                    "id": "kaid_3902988618718040904060736",
+                    "avatar": "/images/avatars/svg/leafers-seed.svg"
+                },
+                "text": "Duke i think everyone just loves you lol",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "hey, you know what? I'm fine with that lol<br>but yeah I was hoping for like 30-50 votes lol.<br>not it being my most voted project :P<br><br>But seriously, I am gonna try to make my next program much better."
+                    }
+                ]
             },
             {
                 "replyCount": 2,
@@ -1053,7 +1077,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "Harmony",
                     "id": "kaid_5029554478572114895720391",
@@ -1077,7 +1101,7 @@ var json = {
             {
                 "replyCount": 5,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "BΣYӨПD",
                     "id": "kaid_5370656553883782878121797",
@@ -1124,7 +1148,7 @@ var json = {
                         "text": "It's from @dkareh on KA, so you could credit it to him."
                     },
                     {
-                        "date": "32 minutes ago",
+                        "date": "37 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1137,13 +1161,13 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "13 minutes ago",
+                "date": "18 minutes ago",
                 "author": {
                     "name": "Jackson H",
                     "id": "kaid_5938807447267118718814449",
                     "avatar": "/images/avatars/svg/starky-ultimate.svg"
                 },
-                "text": "Nice game! :)<br><br>It was really fun. Thanks Duke.  :)<br><br>I had 25 deaths!",
+                "text": "Nice game! :)<br><br>It was really fun. Thanks Duke.  :)<br><br>I had 0 deaths!",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -1175,7 +1199,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "32 minutes ago",
+                "date": "38 minutes ago",
                 "author": {
                     "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                     "id": "kaid_693763055742960827086832",
@@ -1278,7 +1302,7 @@ var json = {
                         "text": "this is awesome :D<br>i beat it >:)"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
