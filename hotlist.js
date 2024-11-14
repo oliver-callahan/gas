@@ -3,7 +3,7 @@ var json = {
     "title": "Just 5 levels[GAME]",
     "votes": 77,
     "created": "2 days ago",
-    "updated": "7 minutes ago",
+    "updated": "12 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Duke",
@@ -639,7 +639,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -876,7 +876,7 @@ var json = {
                         "text": "I would love to see it :)"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -885,7 +885,7 @@ var json = {
                         "text": "Well I just found out that the first part was deleted -_-<br>so you should probably just follow Liam K's.<br><br>sorry about that :/"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Green falcon",
                             "id": "kaid_455614962916004540799706",
@@ -1106,7 +1106,7 @@ var json = {
                         "text": "It's from @dkareh on KA, so you could credit it to him."
                     },
                     {
-                        "date": "7 minutes ago",
+                        "date": "12 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1143,7 +1143,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "8 minutes ago",
+                "date": "12 minutes ago",
                 "author": {
                     "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                     "id": "kaid_693763055742960827086832",
@@ -1432,7 +1432,7 @@ var json = {
                                 "text": "Alright I see. I plan to start making most of my games in html and using class, so I most likely won't be using iifes much after that but I'll keep that in mind =D"
                             },
                             {
-                                "date": "an hour ago",
+                                "date": "2 hours ago",
                                 "author": {
                                     "name": "Mushy Avocado",
                                     "id": "kaid_889538221957342292210697",
