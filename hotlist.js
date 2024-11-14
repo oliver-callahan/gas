@@ -501,7 +501,7 @@ var json = {
                         "text": "Nicely done!<br><br>I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "WinWinKhan",
                             "id": "kaid_936941229910200376858712",
@@ -599,7 +599,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "21 minutes ago",
+                        "date": "26 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -687,7 +687,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "18 hours ago",
+                "date": "19 hours ago",
                 "author": {
                     "name": "ezekiel.carter2009",
                     "id": "kaid_4345125146474084185234199",
@@ -843,7 +843,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "BΣYӨПD",
                     "id": "kaid_5370656553883782878121797",
@@ -854,7 +854,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1136,7 +1136,7 @@ var json = {
                     {
                         "replyCount": 0,
                         "votes": 1,
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1204,7 +1204,7 @@ var json = {
                 "text": "pls vote me<br> i beg pls",
                 "replies": [
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
