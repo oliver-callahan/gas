@@ -1,9 +1,9 @@
 var json = {
     "code": "/** Ezra X Duke **/\n\n//  CONTROLS: Arrow Keys\n\n// idea. Just 5 levels, a challegne for you to beat.(it's gonna be a series)\n\n\n// Ezra did a ton 3/4's of the code\nnoStroke();\ntextAlign(CENTER, TOP);\n\n// Too much lag? change this to false!\nvar lag = true;\n\n// nice thingy made by dkareh \n(function() {return this;})().LoopProtector.prototype.leave = function() {};\n\n// vars\nvar click = 0;\nvar d = 0;\nvar scene = 1;\nvar cam = {\n    x: 0,\n    y: 0,\n    s: 100\n};\nvar lPars = [];\nvar lava = [];\nvar portals = [];\nvar blocks = [];\nvar players = [];\nvar createLevel;\n\nvar level = 0;\nvar levels = [\n    [\n        \"bbbbbbbbbbbbbbbbbbbb\",\n        \"b                  b\",\n        \"b                  b\",\n        \"b                 @b\",\n        \"b                 bb\",\n        \"b                  b\",\n        \"b                  b\",\n        \"b      bbbbb       b\",\n        \"b                  b\",\n        \"b                  b\",\n        \"b                  b\",\n        \"bbbbbbb            b\",\n        \"b                  b\",\n        \"b                  b\",\n        \"b    b             b\",\n        \"b    b             b\",\n        \"b    b             b\",\n        \"bbb  b             b\",\n        \"bp   blllllllllllllb\",\n        \"bbbbbbbbbbbbbbbbbbbb\",\n    ],\n    [\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b                 @bb  @             p b\",\n        \"b                 bbb                b b\",\n        \"b                  bb  b               b\",\n        \"b      bbbbb       bb                  b\",\n        \"b                  bbb             b   b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"bbbbbbb            bbb        b        b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b    b             bb     b            b\",\n        \"b    b             bbb                 b\",\n        \"b    b             bb                  b\",\n        \"bbb  b             bb                  b\",\n        \"bbb  b             bb   b              b\",\n        \"b    blllllllllllllbblllllllllllllllllbb\",\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n    ],\n    [\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b                @ bb  @               b\",\n        \"b                b bb                b b\",\n        \"b  b               bb  b               b\",\n        \"b                  bb                  b\",\n        \"b             b    bbb             b   b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b         b        bbb        b        b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b     b            bb     b            b\",\n        \"b                  bbb                 b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b                  bb   b              b\",\n        \"bllllllllllllllllllbblllllllllllllllllbb\",\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"bbbbbbbbbbbbbbbbbbbb\",\n        \"b                  b\",\n        \"b                  b\",\n        \"b                 @b\",\n        \"b                  b\",\n        \"b                  b\",\n        \"b               b  b\",\n        \"b                  b\",\n        \"b        b         b\",\n        \"b                  b\",\n        \"bb                 b\",\n        \"b                  b\",\n        \"b                  b\",\n        \"b  b         b    bb\",\n        \"b                  b\",\n        \"b                  b\",\n        \"b                 bb\",\n        \"b                  b\",\n        \"bp                 b\",\n        \"bbbbbbbbbbbbbbbbbbbb\",\n    ],\n    [\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b                 @bb  @               b\",\n        \"b                 bbb                b b\",\n        \"b                  bb  b               b\",\n        \"b      bbbbb       bb                  b\",\n        \"b                  bbb             b   b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"bbbbbbb            bbb        b        b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b    b             bb     b            b\",\n        \"b    b             bbb                 b\",\n        \"b    b             bb                  b\",\n        \"bbb  b             bb                  b\",\n        \"bbb  b             bb   b              b\",\n        \"b    blllllllllllllbblllllllllllllllllbb\",\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b                 @bb                  b\",\n        \"b                  bb                 @b\",\n        \"b                  bb                  b\",\n        \"b               b  bbb      b      b   b\",\n        \"b                  bb                  b\",\n        \"b        b         bb                  b\",\n        \"b                  bb                  b\",\n        \"bb                 bbb                 b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b  b         b    bbb                  b\",\n        \"b                  bbb                 b\",\n        \"b                  bb                  b\",\n        \"b                 bbb                  b\",\n        \"b                  bb   b    b     b   b\",\n        \"b                  bbllllllllllllllllbpb\",\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n    ],\n    [\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b                 @bb  @             p b\",\n        \"b                 bbb                b b\",\n        \"b                  bb  b               b\",\n        \"b      bbbbb       bb                  b\",\n        \"b                  bbb             b   b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"bbbbbbb            bbb        b        b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b    b             bb     b            b\",\n        \"b    b             bbb                 b\",\n        \"b    b             bb                  b\",\n        \"bbb  b             bb                  b\",\n        \"bbb  b             bb   b              b\",\n        \"bp   blllllllllllllbblllllllllllllllllbb\",\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b                 @bb                  b\",\n        \"b                  bb                 @b\",\n        \"b                  bb                  b\",\n        \"b               b  bbb      b      b   b\",\n        \"b                  bb                  b\",\n        \"b        b         bb                  b\",\n        \"b                  bb                  b\",\n        \"bb                 bbb                 b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b  b         b    bbb                  b\",\n        \"b                  bbb                 b\",\n        \"b                  bb                  b\",\n        \"b                 bbb                  b\",\n        \"b                  bb   b    b     b   b\",\n        \"bp                 bbllllllllllllllllbpb\",\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n    ],\n];\n\n// what happens when keys are pressed and released\nvar keys = {};\nkeyPressed = function(){\n    keys[keyCode] = true;\n};\nkeyReleased = function(){\n    keys[keyCode] = false;\n};\n\n// Helper Functions\nvar rectCollide = function(obj1, obj2){\n    return(obj1.x + obj1.w > obj2.x && obj1.y + obj1.h > obj2.y && obj1.x < obj2.x + obj2.w && obj1.y < obj2.y + obj2.h);    \n};\n\n// Block class\nvar Block = (function() {\n    function Block(config) {\n        this.x = config.x;\n        this.y = config.y;\n        this.w = 20;\n        this.h = 20;\n    }\n    Block.prototype = {\n        display: function() {\n            fill(77, 77, 77);\n            rect(this.x, this.y, this.w, this.h);\n        },\n        collideX: function(object) {\n            if(rectCollide(this, object)) {\n                if (object.x > this.x) {\n                    object.x = this.x + this.w;\n                    object.xv = 0;\n                } else {\n                    object.x = this.x - object.w;\n                    object.xv = 0;\n                }\n            }\n        },\n        collideY: function(object) {\n            if(rectCollide(this, object)) {\n                if (object.y < this.y) {\n                    object.y = this.y - object.h;    \n                    object.canJump = true;\n                    object.yv = 0;\n                } else {\n                    object.y = this.y +this.h;\n                    object.yv = 0;\n                }\n            }\n        },\n    };\n    return Block;\n})();\n\n// lava particle class\nvar LPar = (function() {\n    function LPar(config) {\n        this.x = config.x;\n        this.y = config.y;\n        this.size = random(4, 10);\n        this.vis = 255;\n        this.dead = false;\n    }\n    LPar.prototype.run = function() {\n        fill(196, 53, 53, this.vis);\n        ellipseMode(CORNER);\n        ellipse(this.x, this.y, this.size, this.size);\n        \n        this.y-=0.2;\n        this.vis-=2;\n        if(this.vis < -20) {\n            this.dead = true;\n        }\n    };\n    return LPar;\n})();\n\n// lava class\nvar Lava = (function() {\n    function Lava(config) {\n        this.x = config.x;\n        this.y = config.y;\n        this.w = 20;\n        this.h = 20;\n        this.pushParTime = 0;\n    }\n    Lava.prototype = {\n        display: function() {\n            fill(219, 48, 48);\n            rect(this.x, this.y, this.w, this.h);\n            \n            if(this.pushParTime++ > 1 && lag) {\n                lPars.push(new LPar({x: random(this.x, this.x+this.w-5), y: this.y+10}));\n                this.pushParTime = 0;\n            }\n        },\n        collide: function(object) {\n            if(rectCollide(this, object)) {\n                createLevel();\n                d++;\n            }\n        },\n    };\n    return Lava;\n})();\n\n// portal class\nvar Portal = (function() {\n    function Portal(config) {\n        this.x = config.x;\n        this.y = config.y;\n        this.w = 20;\n        this.h = 20;\n    }\n    Portal.prototype = {\n        display: function() {\n            fill(181, 27, 189);\n            rect(this.x, this.y, this.w, this.h);\n        },\n        collide: function(object) {\n            if(rectCollide(this, object)) {\n                if(level !== 4) {\n                    level++;\n                    createLevel();\n                    scene++;\n                }\n                else {\n                    scene = 'win';\n                }\n            }\n        },\n    };\n    return Portal;\n})();\n\n// Player class\nvar Player = (function() {\n    function Player(config) {\n        this.x = config.x;\n        this.y = config.y;\n        this.w = 20;\n        this.h = 20;\n        \n        this.xv = 0;\n        this.yv = 0;\n        this.canJump = false;\n        this.grav = 0.32;\n        this.jumpPower = 7;\n    }\n    Player.prototype = {\n        display: function() {\n            fill(80, 80, 250);\n            rect(this.x, this.y, this.w, this.h);\n            fill(0, 0, 0);\n            rect(this.x+3, this.y+4, 4, 4);\n            rect(this.x+this.w-7, this.y+4, 4, 4);\n        },\n        moveX: function() {\n            this.x+=this.xv;\n            this.xv = 0;\n            \n            if(keys[LEFT]){\n                this.xv = -3;\n                this.state = 'left';\n            }\n            if(keys[RIGHT]){\n                this.xv = 3;\n                this.state = 'right';\n            }\n        },\n        moveY: function() {\n            // update player's position\n            this.y += this.yv;\n            this.yv += this.grav;\n            if(keys[UP] && this.canJump) {\n                this.yv = -this.jumpPower;\n                this.canJump = false;\n            }\n        },\n        update: function() {\n            this.display();\n            \n            this.moveX();\n            for(var i = 0; i < blocks.length; i++) {\n                blocks[i].collideX(this);\n            }\n            \n            this.moveY();\n            for(var i = 0; i < blocks.length; i++) {\n                blocks[i].collideY(this);\n            }\n            \n            for(var i = 0; i < lava.length; i++) {\n                lava[i].collide(this);\n            }\n            \n            for(var i = 0; i < portals.length; i++) {\n                portals[i].collide(this);\n            }\n        },\n    };\n    return Player;\n})();\n\nvar createLevel = function() {\n    blocks = [];\n    lava = [];\n    portals = [];\n    players = [];\n    \n    for(var i = 0; i < levels[level].length;i++){    \n        for(var j = 0; j < levels[level][i].length;j++){\n            switch(levels[level][i][j]) {\n                case 'p':\n                    players.push(new Player({\n                        x: j*20,\n                        y: i*20\n                    }));\n                break;\n                case 'b':\n                    blocks.push(new Block({x: j*20, y: i*20}));\n                break;\n                case 'l':\n                    lava.push(new Lava({x: j*20, y: i*20}));\n                break;\n                case '@':\n                    portals.push(new Portal({x: j*20, y: i*20}));\n                break;\n            }\n        }\n    }\n};\ncreateLevel();\n\n\nvar runGame = function() {\n    background(255);\n    \n    \n    for(var i = 0; i < lPars.length; i++) {\n        lPars[i].run();\n        if(lPars[i].dead) {\n            lPars.splice(i, 1);\n        }\n    }\n    \n    for(var i = 0; i < players.length; i++) {\n        players[i].update();\n    }\n    \n    \n    for(var i = 0; i < lava.length; i++) {\n        lava[i].display();\n    }\n    \n    for(var i = 0; i < blocks.length; i++) {\n        blocks[i].display();\n    }\n    \n    for(var i = 0; i < portals.length; i++) {\n        portals[i].display();\n    }\n};\n\n\nfunction scenes() {\n    pushMatrix();\n    background(255, 255, 255);\n    scale(cam.s/100);\n    translate(round(cam.x), round(cam.y));\n    \n    if(scene !== 'win') {\n        runGame();\n    }\n    popMatrix();\n    \n    \n    switch(scene) {\n        case 2:\n            cam.x-=(cam.x+400)/5;\n        break;\n        case 3:\n            cam.x-=(cam.x-0)/5;\n            cam.y-=(cam.y+400)/5;\n        break;\n        case 4:\n            cam.x-=(cam.x+400)/5;\n        break;\n        case 5:\n            cam.s-=(cam.s-50)/5;\n            cam.x-=(cam.x+0)/5;\n            cam.y-=(cam.y+0)/5;\n        break;\n        case 'win':\n            textAlign(CENTER, CENTER);\n            cam.x = 0;\n            cam.y = 0;\n            background(255);\n            noStroke();\n            fill(0);\n            textSize(83);\n            text(\"You win!\", 200, 150);\n            textSize(23);\n            text(\"With \" + d + \" deaths\", 200, 275);\n            stroke(143, 143, 143);\n            strokeWeight(10);\n            line(100, 200, 300, 200);\n    }\n    \n    \n}\n\n\ndraw = function() {\n    scenes();\n    if(click > 20) {\n        background(51, 44, 150);\n        pushMatrix();\n        fill(0);\n        rotate(-20);\n        textSize(50);\n        text(\"Just\", 127, 117);\n        popMatrix();\n        pushMatrix();\n        fill(0);\n        rotate(10);\n        textSize(50);\n        text(\"Five\", 248, 113);\n        popMatrix();\n        pushMatrix();\n        fill(0);\n        rotate(-5);\n        textSize(50);\n        text(\"Levels\", 179, 261);\n        popMatrix();\n    }\n};\n\nvar mouseClicked = function() {\n    click++;\n};\n\n\n// not half bad with that many lines.",
     "title": "Just 5 levels[GAME]",
-    "votes": 80,
+    "votes": 81,
     "created": "2 days ago",
-    "updated": "an hour ago",
+    "updated": "2 hours ago",
     "type": "PJS",
     "author": {
         "name": "Duke",
@@ -628,7 +628,7 @@ var json = {
             {
                 "replyCount": 6,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "VVhiteTiger",
                     "id": "kaid_154605635905555420140323",
@@ -639,7 +639,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -666,7 +666,7 @@ var json = {
                         "text": "That's debatable.<br><br>but also why does this have anything to do with HACK's stuff...."
                     },
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Jackson H",
                             "id": "kaid_5938807447267118718814449",
@@ -675,7 +675,7 @@ var json = {
                         "text": "Because she said that people only vote because of who released it. that's why I said I vote HACK'S stuff. Because when he  release's stuff I vote it, cause I like it."
                     },
                     {
-                        "date": "42 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -684,7 +684,7 @@ var json = {
                         "text": "VVhiteTiger isn't a she :P<br>But there are some people who vote just because they like me, which is not what I want."
                     },
                     {
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "Jackson H",
                             "id": "kaid_5938807447267118718814449",
@@ -795,7 +795,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "41 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
@@ -806,7 +806,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "37 minutes ago",
+                        "date": "42 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -815,7 +815,7 @@ var json = {
                         "text": "Thanks =D<br><br>lol and I'm still waiting :P<br>(you should join The Code Wars)<br><br>lol yeah it's a tough one.<br>80th O.o<br>that's too many man lol<br><br>NOT AN EDIT BUT I WANT TO DO ALL CAPS SO WHY NOT:<br>Yes it is. Get the two players on the right lined up then try."
                     },
                     {
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "Samurai Warrior™ ✝ (Offline)",
                             "id": "kaid_333534297788735128142174",
@@ -824,7 +824,7 @@ var json = {
                         "text": ":)<br><br>It'll be a few days yet.<br>well I probably won't because<br>1) procrastination<br>2) I'm a little busy irl<br>3) okay I probably should...<br>that last one isn't a good reason...<br>I'll look into it :)<br><br>naw you deserve it<br><br>OKAY I GUESS WE'RE DOING THIS... WHY NOT?<br>okay, I'll have to try that :P"
                     },
                     {
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -880,7 +880,7 @@ var json = {
                         "text": "yeah,lol<br>Yes that's around what it normally would get lol<br>It probably will get there lol<br><br>You joined Echolite? Well please pump out quality programs or me as a judge will be >:( lol jk"
                     },
                     {
-                        "date": "43 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -889,7 +889,7 @@ var json = {
                         "text": "and I literally just made it in one day -_-<br>and your programs are just so much better and funnier and are getting less votes.<br><br>yeah if it gets there... <b>face palm</b><br><br>lol I'm scared now...<br>hey if I do make a good one how about giving it 20 points? ;P"
                     },
                     {
-                        "date": "29 minutes ago",
+                        "date": "34 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -898,7 +898,7 @@ var json = {
                         "text": "well, this game is fun lol<br>my game isn't as fun even though the graphics are better lol<br><br>it will lol<br><br><b>evil laugh</b><br>uhh i don't even know the grading critieria and what the highest score possible is lol"
                     },
                     {
-                        "date": "24 minutes ago",
+                        "date": "29 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -907,7 +907,7 @@ var json = {
                         "text": "bro super slime smash is my favorite ka game. O.O<br><br>nooooo lol<br><br><b>yikes</b><br>yeah the max is ten hehe"
                     },
                     {
-                        "date": "20 minutes ago",
+                        "date": "25 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -916,7 +916,7 @@ var json = {
                         "text": "no there are a lot better games like dat's Bee Swarm Simulator<br><br>oh then if you make a good one you get 9.67 are you ok with that?"
                     },
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -925,7 +925,7 @@ var json = {
                         "text": "I still like yours the best.<br><br>lol wow that's a high score."
                     },
                     {
-                        "date": "15 minutes ago",
+                        "date": "20 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -934,7 +934,7 @@ var json = {
                         "text": "thanks :)<br><br>but good = perfect"
                     },
                     {
-                        "date": "13 minutes ago",
+                        "date": "18 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -943,7 +943,7 @@ var json = {
                         "text": "hey you deserve it. I have spent too much time playing that game lol<br><br>bad = 1<br>ok =  3 <br>decent = 5<br>good = 8<br>perfect = 10<br><br>there is a chance to get a ten but most likely not.<br>even 9.67 is really high. the highest I got was a 6.5"
                     },
                     {
-                        "date": "9 minutes ago",
+                        "date": "14 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -952,7 +952,7 @@ var json = {
                         "text": "super duper bad = 1<br>super bad = 2<br>bad = 3<br>not bad = 4<br>ok = 5<br>decent = 6<br>mildly good = 7<br>good = 8<br>great = 9<br>perfect = 10<br><br>the highest score you've <em>ever</em> got is 6.5!?!?! how!?!"
                     },
                     {
-                        "date": "6 minutes ago",
+                        "date": "11 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -961,7 +961,7 @@ var json = {
                         "text": "super duper bad = 0.2<br>super bad = 0.5<br>bad = 2<br>not bad = ok<br>ok = 4<br>decent = mildly good<br>mildly good =  6<br>good = 8<br>perfect = 10l<br><br>I was really bad in all the comps till this last primavera and the judges are strict lol<br>(I got 6.5 on gray world and 3-4 on FFC lol)<br><br>It just depends on some judges. I myself am a really strict judge."
                     },
                     {
-                        "date": "4 minutes ago",
+                        "date": "9 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -1077,7 +1077,7 @@ var json = {
                         "text": "yay!<br>I made a small tutorial for someone else, I can show it to you too if you want me too.(a platformer tutorial)"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Green falcon",
                             "id": "kaid_455614962916004540799706",
@@ -1316,7 +1316,7 @@ var json = {
                         "text": "It's from @dkareh on KA, so you could credit it to him."
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1340,7 +1340,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1349,7 +1349,7 @@ var json = {
                         "text": "Thank you!<br><br>Next game I'll make sure to make better =D<br><br>nice job!"
                     },
                     {
-                        "date": "23 minutes ago",
+                        "date": "28 minutes ago",
                         "author": {
                             "name": "Jackson H",
                             "id": "kaid_5938807447267118718814449",
@@ -1358,7 +1358,7 @@ var json = {
                         "text": "This is one of the best game's I have played in a long time.<br><br>Keep up the good work! :)"
                     },
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1367,7 +1367,7 @@ var json = {
                         "text": "Have you seen Radars game?<br><br>I'll try!"
                     },
                     {
-                        "date": "12 minutes ago",
+                        "date": "17 minutes ago",
                         "author": {
                             "name": "Jackson H",
                             "id": "kaid_5938807447267118718814449",
@@ -1404,7 +1404,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "an hour ago",
+                "date": "2 hours ago",
                 "author": {
                     "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                     "id": "kaid_693763055742960827086832",
@@ -1487,7 +1487,7 @@ var json = {
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
@@ -1498,7 +1498,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "ASBackup",
                             "id": "kaid_714780036830891967670231",
