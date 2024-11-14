@@ -448,7 +448,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "11 hours ago",
                         "author": {
                             "name": "Shifter -OFF-",
                             "id": "kaid_892112752920553577482062",
@@ -634,13 +634,27 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "ezekiel.carter2009",
                     "id": "kaid_4345125146474084185234199",
                     "avatar": "/images/avatars/svg/blobby-green.svg"
                 },
                 "text": "15 deaths to beat game. Good Game!",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "5 minutes ago",
+                "author": {
+                    "name": "Green falcon",
+                    "id": "kaid_455614962916004540799706",
+                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                },
+                "text": "awesome game!<br>vote++",
                 "locked": false,
                 "pinned": false,
                 "replies": []
