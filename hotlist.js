@@ -3,7 +3,7 @@ var json = {
     "title": "Just 5 levels[GAME]",
     "votes": 71,
     "created": "2 days ago",
-    "updated": "39 minutes ago",
+    "updated": "44 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Duke",
@@ -134,7 +134,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -581,7 +581,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "20 hours ago",
+                        "date": "21 hours ago",
                         "author": {
                             "name": "Cyan Spirit",
                             "id": "kaid_1418532449612597727143882",
@@ -608,7 +608,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "JSCoder",
                     "id": "kaid_3032679493880386290676439",
@@ -764,7 +764,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1002,7 +1002,7 @@ var json = {
                         "text": "<pre><code>(function() {return this;})().LoopProtector.prototype.leave = function() {};</code></pre><br>is my favorite way to get the job done. I put it in the program, scrolled down to write this, and scrolled back up - no crashing."
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1279,7 +1279,7 @@ var json = {
                     {
                         "replyCount": 2,
                         "votes": 1,
-                        "date": "19 hours ago",
+                        "date": "20 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
