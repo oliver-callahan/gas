@@ -818,7 +818,7 @@ var json = {
                         "text": "I would love to see it :)"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
