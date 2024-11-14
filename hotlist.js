@@ -3,7 +3,7 @@ var json = {
     "title": "Just 5 levels[GAME]",
     "votes": 56,
     "created": "a day ago",
-    "updated": "7 hours ago",
+    "updated": "8 hours ago",
     "type": "PJS",
     "author": {
         "name": "Duke",
@@ -178,7 +178,7 @@ var json = {
                         "text": "Yeah, it comes down to 25 fps on chromebook. I looked at the amount of lines on this and I was impressed! Nice job!"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -545,7 +545,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "44 minutes ago",
+                "date": "an hour ago",
                 "author": {
                     "name": "Yogurt",
                     "id": "kaid_23839232709913550984474",
@@ -869,7 +869,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "AmethystSky",
                     "id": "kaid_784805823121542822870790",
@@ -918,7 +918,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
