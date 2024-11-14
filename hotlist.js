@@ -347,6 +347,30 @@ var json = {
                 ]
             },
             {
+                "replyCount": 1,
+                "votes": 2,
+                "date": "a day ago",
+                "author": {
+                    "name": "cwalsh1223 BBB#",
+                    "id": "kaid_792288208072906614241148",
+                    "avatar": "/images/avatars/svg/spunky-sam-red.svg"
+                },
+                "text": "Nice (but generic) platformer. I beat it with 0 deaths (yay)<br>I like the final level. :)",
+                "locked": false,
+                "pinned": false,
+                "replies": [
+                    {
+                        "date": "a day ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "It is indeed a generic platformer. Made in one day :P<br>Yeah the last level is the biggest part."
+                    }
+                ]
+            },
+            {
                 "replyCount": 4,
                 "votes": 2,
                 "date": "2 days ago",
@@ -604,7 +628,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "12 minutes ago",
+                "date": "17 minutes ago",
                 "author": {
                     "name": "VVhiteTiger",
                     "id": "kaid_154605635905555420140323",
@@ -661,7 +685,7 @@ var json = {
                         "text": "yeah, but that is suspicious in and of itself =]"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1063,7 +1087,7 @@ var json = {
                         "text": "Alright I'll add that.<br>Whom should I give credit to?(you correct?)"
                     },
                     {
-                        "date": "18 minutes ago",
+                        "date": "23 minutes ago",
                         "author": {
                             "name": "BΣYӨПD",
                             "id": "kaid_5370656553883782878121797",
@@ -1232,30 +1256,6 @@ var json = {
                 "votes": 1,
                 "date": "a day ago",
                 "author": {
-                    "name": "cwalsh1223 BBB#",
-                    "id": "kaid_792288208072906614241148",
-                    "avatar": "/images/avatars/svg/spunky-sam-red.svg"
-                },
-                "text": "Nice (but generic) platformer. I beat it with 0 deaths (yay)<br>I like the final level. :)",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "It is indeed a generic platformer. Made in one day :P<br>Yeah the last level is the biggest part."
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
                     "name": "Luke Ellis",
                     "id": "kaid_8535468719137003545030723",
                     "avatar": "/images/avatars/svg/orange-juice-squid.svg"
@@ -1372,7 +1372,7 @@ var json = {
                                 "text": "Maybe just make the classes global? I prefer to use IIFEs when I have a bunch of related classes that I don't want polluting the global scope, so I return an object from the IIFE containing those classes. Or when I have variables that I want to keep from being in the global scope, so I enclose it in an IIFE. Of course, it's just a preference though. How you write your code is up to you<br><br>Here's an example:<br><br><pre><code>var Platformer = (function() {<br><br>    var internalVariable = true;<br><br>    return {<br>        Block: Block,<br>        Level: Level,<br>        <br>    };<br>})();<br><br>// Example use:<br>var block = new Platformer.Block();</code></pre><br><br>Cool game btw. I like idea"
                             },
                             {
-                                "date": "20 hours ago",
+                                "date": "21 hours ago",
                                 "author": {
                                     "name": "Duke",
                                     "id": "kaid_351465532815782433620675",
@@ -1399,7 +1399,7 @@ var json = {
                                 "text": "Alright I see. I plan to start making most of my games in html and using class, so I most likely won't be using iifes much after that but I'll keep that in mind =D"
                             },
                             {
-                                "date": "32 minutes ago",
+                                "date": "37 minutes ago",
                                 "author": {
                                     "name": "Mushy Avocado",
                                     "id": "kaid_889538221957342292210697",
