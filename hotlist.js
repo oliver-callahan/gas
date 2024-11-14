@@ -144,7 +144,7 @@ var json = {
                         "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
                     },
                     {
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -604,6 +604,20 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
+                "date": "2 minutes ago",
+                "author": {
+                    "name": "VVhiteTiger",
+                    "id": "kaid_154605635905555420140323",
+                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                },
+                "text": "When you realize that people only vote because of who released it.",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
                 "date": "20 hours ago",
                 "author": {
                     "name": "Yogurt",
@@ -618,7 +632,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "8 hours ago",
                 "author": {
                     "name": "JSCoder",
                     "id": "kaid_3032679493880386290676439",
@@ -774,7 +788,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -846,7 +860,7 @@ var json = {
                         "text": "oh no :d<br><br>the thumbnail is legendary =0<br><br>its ok :)"
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -998,7 +1012,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "30 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1049,7 +1063,7 @@ var json = {
                         "text": "Alright I'll add that.<br>Whom should I give credit to?(you correct?)"
                     },
                     {
-                        "date": "3 minutes ago",
+                        "date": "8 minutes ago",
                         "author": {
                             "name": "BΣYӨПD",
                             "id": "kaid_5370656553883782878121797",
@@ -1340,7 +1354,7 @@ var json = {
                     {
                         "replyCount": 5,
                         "votes": 1,
-                        "date": "21 hours ago",
+                        "date": "a day ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1376,7 +1390,7 @@ var json = {
                                 "text": "Nah you don't need to wrap the whole thing in an IIFE. That wouldn't really do anything. I would just divide related parts of the code in an IIFE. <br><br>Here's a little example for a logo intro wrapped in an IIFE so it doesn't affect other code:<br><pre><code>var Logo = (function() {<br>    // Notice the generic variables \"x\" and \"y\"? Since it's in an IIFE,<br>    // you don't have to worry about overwriting these <br>    // somewhere else.<br>    var frame = 0;<br>    var x = 0;<br>    var y = 0;<br>    function drawLogo() {<br>       // Code goes here<br>    }<br>    return {<br>        isDone: false,<br>        draw: drawLogo,<br>    };<br>})();<br><br>draw = function() {<br>    if (!Logo.isDone) {<br>        Logo.draw();<br>    }<br>};</code></pre>"
                             },
                             {
-                                "date": "32 minutes ago",
+                                "date": "37 minutes ago",
                                 "author": {
                                     "name": "Duke",
                                     "id": "kaid_351465532815782433620675",
@@ -1385,7 +1399,7 @@ var json = {
                                 "text": "Alright I see. I plan to start making most of my games in html and using class, so I most likely won't be using iifes much after that but I'll keep that in mind =D"
                             },
                             {
-                                "date": "17 minutes ago",
+                                "date": "22 minutes ago",
                                 "author": {
                                     "name": "Mushy Avocado",
                                     "id": "kaid_889538221957342292210697",
