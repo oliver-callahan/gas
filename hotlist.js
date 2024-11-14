@@ -3,7 +3,7 @@ var json = {
     "title": "Just 5 levels[GAME]",
     "votes": 78,
     "created": "2 days ago",
-    "updated": "22 minutes ago",
+    "updated": "27 minutes ago",
     "type": "PJS",
     "author": {
         "name": "Duke",
@@ -626,7 +626,7 @@ var json = {
                 ]
             },
             {
-                "replyCount": 1,
+                "replyCount": 2,
                 "votes": 1,
                 "date": "an hour ago",
                 "author": {
@@ -639,20 +639,29 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
                         "text": "heeyyyy what are you talking about...<br>but yes I have to agree it's over voted..."
+                    },
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Jackson H",
+                            "id": "kaid_5938807447267118718814449",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "This is rightfully voted. <br><br><br>But yes I always vote HACK'S stuff."
                     }
                 ]
             },
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "21 hours ago",
+                "date": "a day ago",
                 "author": {
                     "name": "Yogurt",
                     "id": "kaid_23839232709913550984474",
@@ -858,7 +867,7 @@ var json = {
                         "text": "yess I'm about to finish the intro to js and intro to Advanced JS: Games & Visualizations"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1097,7 +1106,7 @@ var json = {
                         "text": "Alright I'll add that.<br>Whom should I give credit to?(you correct?)"
                     },
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "BΣYӨПD",
                             "id": "kaid_5370656553883782878121797",
@@ -1106,7 +1115,7 @@ var json = {
                         "text": "It's from @dkareh on KA, so you could credit it to him."
                     },
                     {
-                        "date": "22 minutes ago",
+                        "date": "27 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1119,13 +1128,13 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 minutes ago",
+                "date": "8 minutes ago",
                 "author": {
                     "name": "Jackson H",
                     "id": "kaid_5938807447267118718814449",
                     "avatar": "/images/avatars/svg/starky-ultimate.svg"
                 },
-                "text": "Nice game! :)<br><br>It was really fun. Thanks Duke.  :)",
+                "text": "Nice game! :)<br><br>It was really fun. Thanks Duke.  :)<br><br>I had 25 deaths!",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -1157,7 +1166,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "22 minutes ago",
+                "date": "28 minutes ago",
                 "author": {
                     "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
                     "id": "kaid_693763055742960827086832",
@@ -1273,7 +1282,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Zpikemaster24",
                     "id": "kaid_753888317123473340091614",
@@ -1374,7 +1383,7 @@ var json = {
                         "text": "Yes you may, though I would recommend trying to make it different and adding graphics.",
                         "replies": [
                             {
-                                "date": "6 hours ago",
+                                "date": "7 hours ago",
                                 "author": {
                                     "name": "Zpikemaster24",
                                     "id": "kaid_753888317123473340091614",
