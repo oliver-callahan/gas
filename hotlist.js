@@ -767,7 +767,7 @@ var json = {
                         "text": "yeah but 6 was too scared because 7 8 9.<br><br>by saying that it proves that you are :P"
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "JSCoder",
                             "id": "kaid_3032679493880386290676439",
@@ -842,7 +842,7 @@ var json = {
                         "text": "Thanks =D<br><br>lol and I'm still waiting :P<br>(you should join The Code Wars)<br><br>lol yeah it's a tough one.<br>80th O.o<br>that's too many man lol<br><br>NOT AN EDIT BUT I WANT TO DO ALL CAPS SO WHY NOT:<br>Yes it is. Get the two players on the right lined up then try."
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Samurai Warrior™ ✝ (Offline)",
                             "id": "kaid_333534297788735128142174",
@@ -1104,7 +1104,7 @@ var json = {
                         "text": "yess I'm about to finish the intro to js and intro to Advanced JS: Games & Visualizations"
                     },
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1343,7 +1343,7 @@ var json = {
                         "text": "Alright I'll add that.<br>Whom should I give credit to?(you correct?)"
                     },
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "BΣYӨПD",
                             "id": "kaid_5370656553883782878121797",
@@ -1376,7 +1376,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1556,7 +1556,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "6 hours ago",
+                "date": "7 hours ago",
                 "author": {
                     "name": "Zpikemaster24",
                     "id": "kaid_753888317123473340091614",
@@ -1657,7 +1657,7 @@ var json = {
                         "text": "Yes you may, though I would recommend trying to make it different and adding graphics.",
                         "replies": [
                             {
-                                "date": "10 hours ago",
+                                "date": "11 hours ago",
                                 "author": {
                                     "name": "Zpikemaster24",
                                     "id": "kaid_753888317123473340091614",
