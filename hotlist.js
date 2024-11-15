@@ -20,7 +20,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 4,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "Cataclysmic Code 🌩",
                     "id": "kaid_820167475461480890635740",
@@ -58,7 +58,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "The one",
                     "id": "kaid_9809147761059943698111879",
@@ -133,7 +133,7 @@ var json = {
             {
                 "replyCount": 1,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -144,7 +144,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 minutes ago",
+                        "date": "16 minutes ago",
                         "author": {
                             "name": "CodingChamp01",
                             "id": "kaid_987747824768899590269539",
@@ -182,7 +182,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "ASBackup",
                             "id": "kaid_714780036830891967670231",
@@ -191,7 +191,7 @@ var json = {
                         "text": "still reading this lol<br>i don't like feta either tbh i like any other cheeses tho :)"
                     },
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "ASBackup",
                             "id": "kaid_714780036830891967670231",
