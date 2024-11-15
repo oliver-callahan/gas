@@ -477,7 +477,7 @@ var json = {
                 "votes": 2,
                 "date": "2 days ago",
                 "author": {
-                    "name": "Shifter -OFF-",
+                    "name": "Shifter -ON-",
                     "id": "kaid_892112752920553577482062",
                     "avatar": "/images/avatars/svg/blobby-purple.svg"
                 },
@@ -497,7 +497,7 @@ var json = {
                     {
                         "date": "2 days ago",
                         "author": {
-                            "name": "Shifter -OFF-",
+                            "name": "Shifter -ON-",
                             "id": "kaid_892112752920553577482062",
                             "avatar": "/images/avatars/svg/blobby-purple.svg"
                         },
@@ -524,7 +524,7 @@ var json = {
                     {
                         "date": "a day ago",
                         "author": {
-                            "name": "Shifter -OFF-",
+                            "name": "Shifter -ON-",
                             "id": "kaid_892112752920553577482062",
                             "avatar": "/images/avatars/svg/blobby-purple.svg"
                         },
@@ -824,7 +824,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
