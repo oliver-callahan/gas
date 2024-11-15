@@ -157,7 +157,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "12 hours ago",
+                "date": "13 hours ago",
                 "author": {
                     "name": "A+10333",
                     "id": "kaid_539345742584903189251569",
@@ -211,6 +211,20 @@ var json = {
                     "avatar": "/images/avatars/svg/leaf-grey.svg"
                 },
                 "text": "very interesting...",
+                "locked": false,
+                "pinned": false,
+                "replies": []
+            },
+            {
+                "replyCount": 0,
+                "votes": 1,
+                "date": "4 minutes ago",
+                "author": {
+                    "name": "Panda15",
+                    "id": "kaid_9155426718383676698036057",
+                    "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                },
+                "text": "I see you put some effort int tho drawings on every page. If you use a font other than the default you can make it much more intersting because right now the lettering looks out of place next to the doodles",
                 "locked": false,
                 "pinned": false,
                 "replies": []
