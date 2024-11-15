@@ -44,7 +44,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 2,
-                "date": "16 hours ago",
+                "date": "17 hours ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
@@ -144,7 +144,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "36 minutes ago",
+                        "date": "41 minutes ago",
                         "author": {
                             "name": "CodingChamp01",
                             "id": "kaid_987747824768899590269539",
