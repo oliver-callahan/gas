@@ -18,8 +18,8 @@ var json = {
     "posts": {
         "tips": [
             {
-                "replyCount": 0,
-                "votes": 3,
+                "replyCount": 1,
+                "votes": 4,
                 "date": "6 hours ago",
                 "author": {
                     "name": "Cataclysmic Code 🌩",
@@ -29,7 +29,17 @@ var json = {
                 "text": "Fruit candy never has and never shall compare to chocolate and this is guy talkin here :D Besides the enjoyment of chocolate I don't know if we have anything else in common tho lol. Take the first ten facts for example:<br>I prefer US spelling even tho I live in Canada.<br>I don't like pink cuz ima guy but it also burns my eyes.<br>I speak spanish as my second language.<br>My basement is as far as I shall ever travel (jk jk but I really should get out more).<br>Me in the morning: -_- Me at night: 🥳🎉🥳<br>Birthday is in the start of spring<br>Wait... Another common fact! Christmas is da best!<br>Two in a row, Maybe I was wrong :O I celebrate all of the major Jewish holidays as well :)<br>At least you didn't mention Romance XD Impossible not to share the fact too ig<br>What are the chances o.O I am too! Four in a row :O<br>I have never had goat cheese but feta is yum... streak broken<br>Oh wait I just did 11 oh well so I'm 5/11 not as different as I first thought but we get less similar later on...",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "4 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "lol as soon as I saw that fruit candy thing I scrolled down big time cause I hate fruit candy and love chocolate and this is a guy speaking.<br><br>and of course when I scrolled down the first thing I see was this"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
