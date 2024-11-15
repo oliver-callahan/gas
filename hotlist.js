@@ -144,7 +144,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "CodingChamp01",
                             "id": "kaid_987747824768899590269539",
