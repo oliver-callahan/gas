@@ -666,7 +666,7 @@ var json = {
                         "text": "That's debatable.<br><br>but also why does this have anything to do with HACK's stuff...."
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Jackson H",
                             "id": "kaid_5938807447267118718814449",
@@ -675,7 +675,7 @@ var json = {
                         "text": "Because she said that people only vote because of who released it. that's why I said I vote HACK'S stuff. Because when he  release's stuff I vote it, cause I like it."
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -740,7 +740,7 @@ var json = {
                         "text": "yeah, but that is suspicious in and of itself =]"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -767,7 +767,7 @@ var json = {
                         "text": "yeah but 6 was too scared because 7 8 9.<br><br>by saying that it proves that you are :P"
                     },
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "JSCoder",
                             "id": "kaid_3032679493880386290676439",
@@ -822,7 +822,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "3 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
@@ -907,7 +907,7 @@ var json = {
                         "text": "yeah,lol<br>Yes that's around what it normally would get lol<br>It probably will get there lol<br><br>You joined Echolite? Well please pump out quality programs or me as a judge will be >:( lol jk"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1059,9 +1059,9 @@ var json = {
                 "votes": 1,
                 "date": "a day ago",
                 "author": {
-                    "name": "Green falcon",
+                    "name": "shaquille.oatmeal.",
                     "id": "kaid_455614962916004540799706",
-                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                    "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                 },
                 "text": "awesome game!<br>vote++",
                 "locked": false,
@@ -1079,9 +1079,9 @@ var json = {
                     {
                         "date": "10 hours ago",
                         "author": {
-                            "name": "Green falcon",
+                            "name": "shaquille.oatmeal.",
                             "id": "kaid_455614962916004540799706",
-                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                         },
                         "text": "ur welcome the duke ;p"
                     },
@@ -1097,9 +1097,9 @@ var json = {
                     {
                         "date": "10 hours ago",
                         "author": {
-                            "name": "Green falcon",
+                            "name": "shaquille.oatmeal.",
                             "id": "kaid_455614962916004540799706",
-                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                         },
                         "text": "yess I'm about to finish the intro to js and intro to Advanced JS: Games & Visualizations"
                     },
@@ -1115,9 +1115,9 @@ var json = {
                     {
                         "date": "9 hours ago",
                         "author": {
-                            "name": "Green falcon",
+                            "name": "shaquille.oatmeal.",
                             "id": "kaid_455614962916004540799706",
-                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                         },
                         "text": "I would love to see it :)"
                     },
@@ -1133,9 +1133,9 @@ var json = {
                     {
                         "date": "7 hours ago",
                         "author": {
-                            "name": "Green falcon",
+                            "name": "shaquille.oatmeal.",
                             "id": "kaid_455614962916004540799706",
-                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                         },
                         "text": "oh no :d<br><br>the thumbnail is legendary =0<br><br>its ok :)"
                     },
