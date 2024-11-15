@@ -758,7 +758,7 @@ var json = {
                         "text": "Doing only 5 discriminated against 6.<br><br>Not me =p. I would never be suspicious =]"
                     },
                     {
-                        "date": "31 minutes ago",
+                        "date": "36 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -869,7 +869,7 @@ var json = {
             {
                 "replyCount": 13,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Radar",
                     "id": "kaid_3902988618718040904060736",
@@ -880,7 +880,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
