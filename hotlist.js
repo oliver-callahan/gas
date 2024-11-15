@@ -749,7 +749,7 @@ var json = {
                         "text": "lol but just how?<br>you know what, I think your just the suspicious one :P"
                     },
                     {
-                        "date": "11 minutes ago",
+                        "date": "16 minutes ago",
                         "author": {
                             "name": "JSCoder",
                             "id": "kaid_3032679493880386290676439",
@@ -815,7 +815,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "an hour ago",
+                        "date": "2 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -858,7 +858,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 12,
+                "replyCount": 13,
                 "votes": 1,
                 "date": "2 hours ago",
                 "author": {
@@ -977,6 +977,15 @@ var json = {
                             "avatar": "/images/avatars/svg/leafers-seed.svg"
                         },
                         "text": "It seems like all judges are strict judges lol. It looks like by peer pressure, i shall have to fit into that category lol."
+                    },
+                    {
+                        "date": "5 minutes ago",
+                        "author": {
+                            "name": "Duke",
+                            "id": "kaid_351465532815782433620675",
+                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                        },
+                        "text": "lol yeaaahhh.<br>But yeah I just think of like the best game. and then judge down from there"
                     }
                 ]
             },
