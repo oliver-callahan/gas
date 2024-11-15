@@ -684,7 +684,7 @@ var json = {
                         "text": "VVhiteTiger isn't a she :P<br>But there are some people who vote just because they like me, which is not what I want."
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Jackson H",
                             "id": "kaid_5938807447267118718814449",
@@ -824,7 +824,7 @@ var json = {
                         "text": ":)<br><br>It'll be a few days yet.<br>well I probably won't because<br>1) procrastination<br>2) I'm a little busy irl<br>3) okay I probably should...<br>that last one isn't a good reason...<br>I'll look into it :)<br><br>naw you deserve it<br><br>OKAY I GUESS WE'RE DOING THIS... WHY NOT?<br>okay, I'll have to try that :P"
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -889,7 +889,7 @@ var json = {
                         "text": "and I literally just made it in one day -_-<br>and your programs are just so much better and funnier and are getting less votes.<br><br>yeah if it gets there... <b>face palm</b><br><br>lol I'm scared now...<br>hey if I do make a good one how about giving it 20 points? ;P"
                     },
                     {
-                        "date": "44 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -898,7 +898,7 @@ var json = {
                         "text": "well, this game is fun lol<br>my game isn't as fun even though the graphics are better lol<br><br>it will lol<br><br><b>evil laugh</b><br>uhh i don't even know the grading critieria and what the highest score possible is lol"
                     },
                     {
-                        "date": "39 minutes ago",
+                        "date": "44 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -907,7 +907,7 @@ var json = {
                         "text": "bro super slime smash is my favorite ka game. O.O<br><br>nooooo lol<br><br><b>yikes</b><br>yeah the max is ten hehe"
                     },
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -916,7 +916,7 @@ var json = {
                         "text": "no there are a lot better games like dat's Bee Swarm Simulator<br><br>oh then if you make a good one you get 9.67 are you ok with that?"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -925,7 +925,7 @@ var json = {
                         "text": "I still like yours the best.<br><br>lol wow that's a high score."
                     },
                     {
-                        "date": "30 minutes ago",
+                        "date": "35 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -934,7 +934,7 @@ var json = {
                         "text": "thanks :)<br><br>but good = perfect"
                     },
                     {
-                        "date": "28 minutes ago",
+                        "date": "33 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -943,7 +943,7 @@ var json = {
                         "text": "hey you deserve it. I have spent too much time playing that game lol<br><br>bad = 1<br>ok =  3 <br>decent = 5<br>good = 8<br>perfect = 10<br><br>there is a chance to get a ten but most likely not.<br>even 9.67 is really high. the highest I got was a 6.5"
                     },
                     {
-                        "date": "24 minutes ago",
+                        "date": "29 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -952,7 +952,7 @@ var json = {
                         "text": "super duper bad = 1<br>super bad = 2<br>bad = 3<br>not bad = 4<br>ok = 5<br>decent = 6<br>mildly good = 7<br>good = 8<br>great = 9<br>perfect = 10<br><br>the highest score you've <em>ever</em> got is 6.5!?!?! how!?!"
                     },
                     {
-                        "date": "21 minutes ago",
+                        "date": "26 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -961,7 +961,7 @@ var json = {
                         "text": "super duper bad = 0.2<br>super bad = 0.5<br>bad = 2<br>not bad = ok<br>ok = 4<br>decent = mildly good<br>mildly good =  6<br>good = 8<br>perfect = 10l<br><br>I was really bad in all the comps till this last primavera and the judges are strict lol<br>(I got 6.5 on gray world and 3-4 on FFC lol)<br><br>It just depends on some judges. I myself am a really strict judge."
                     },
                     {
-                        "date": "19 minutes ago",
+                        "date": "24 minutes ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -1041,7 +1041,7 @@ var json = {
                         "text": "Oh thanks Green falcon! ;P"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Green falcon",
                             "id": "kaid_455614962916004540799706",
@@ -1050,7 +1050,7 @@ var json = {
                         "text": "ur welcome the duke ;p"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1104,7 +1104,7 @@ var json = {
                         "text": "oh no :d<br><br>the thumbnail is legendary =0<br><br>its ok :)"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1280,7 +1280,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1349,7 +1349,7 @@ var json = {
                         "text": "Thank you!<br><br>Next game I'll make sure to make better =D<br><br>nice job!"
                     },
                     {
-                        "date": "38 minutes ago",
+                        "date": "43 minutes ago",
                         "author": {
                             "name": "Jackson H",
                             "id": "kaid_5938807447267118718814449",
@@ -1358,7 +1358,7 @@ var json = {
                         "text": "This is one of the best game's I have played in a long time.<br><br>Keep up the good work! :)"
                     },
                     {
-                        "date": "33 minutes ago",
+                        "date": "38 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1367,7 +1367,7 @@ var json = {
                         "text": "Have you seen Radars game?<br><br>I'll try!"
                     },
                     {
-                        "date": "27 minutes ago",
+                        "date": "32 minutes ago",
                         "author": {
                             "name": "Jackson H",
                             "id": "kaid_5938807447267118718814449",
@@ -1600,7 +1600,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "Zpikemaster24",
                     "id": "kaid_753888317123473340091614",
