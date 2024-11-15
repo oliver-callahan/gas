@@ -767,7 +767,7 @@ var json = {
                         "text": "yeah but 6 was too scared because 7 8 9.<br><br>by saying that it proves that you are :P"
                     },
                     {
-                        "date": "35 minutes ago",
+                        "date": "40 minutes ago",
                         "author": {
                             "name": "JSCoder",
                             "id": "kaid_3032679493880386290676439",
@@ -833,7 +833,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1059,7 +1059,7 @@ var json = {
                 "votes": 1,
                 "date": "a day ago",
                 "author": {
-                    "name": "shaquille.oatmeal.",
+                    "name": "Shåqu¡llë.Øåtmëål",
                     "id": "kaid_455614962916004540799706",
                     "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                 },
@@ -1079,7 +1079,7 @@ var json = {
                     {
                         "date": "10 hours ago",
                         "author": {
-                            "name": "shaquille.oatmeal.",
+                            "name": "Shåqu¡llë.Øåtmëål",
                             "id": "kaid_455614962916004540799706",
                             "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                         },
@@ -1097,7 +1097,7 @@ var json = {
                     {
                         "date": "10 hours ago",
                         "author": {
-                            "name": "shaquille.oatmeal.",
+                            "name": "Shåqu¡llë.Øåtmëål",
                             "id": "kaid_455614962916004540799706",
                             "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                         },
@@ -1115,7 +1115,7 @@ var json = {
                     {
                         "date": "9 hours ago",
                         "author": {
-                            "name": "shaquille.oatmeal.",
+                            "name": "Shåqu¡llë.Øåtmëål",
                             "id": "kaid_455614962916004540799706",
                             "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                         },
@@ -1133,7 +1133,7 @@ var json = {
                     {
                         "date": "7 hours ago",
                         "author": {
-                            "name": "shaquille.oatmeal.",
+                            "name": "Shåqu¡llë.Øåtmëål",
                             "id": "kaid_455614962916004540799706",
                             "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
                         },
