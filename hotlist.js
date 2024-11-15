@@ -648,7 +648,7 @@ var json = {
                         "text": "heeyyyy what are you talking about...<br>but yes I have to agree it's over voted..."
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Jackson H",
                             "id": "kaid_5938807447267118718814449",
@@ -767,7 +767,7 @@ var json = {
                         "text": "yeah but 6 was too scared because 7 8 9.<br><br>by saying that it proves that you are :P"
                     },
                     {
-                        "date": "10 minutes ago",
+                        "date": "15 minutes ago",
                         "author": {
                             "name": "JSCoder",
                             "id": "kaid_3032679493880386290676439",
@@ -988,7 +988,7 @@ var json = {
                         "text": "super duper bad = 0.2<br>super bad = 0.5<br>bad = 2<br>not bad = ok<br>ok = 4<br>decent = mildly good<br>mildly good =  6<br>good = 8<br>perfect = 10l<br><br>I was really bad in all the comps till this last primavera and the judges are strict lol<br>(I got 6.5 on gray world and 3-4 on FFC lol)<br><br>It just depends on some judges. I myself am a really strict judge."
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -1182,7 +1182,7 @@ var json = {
                         "text": "It does'nt lag at all and looks good! Maybe make those blocks black and not gray"
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -1191,7 +1191,7 @@ var json = {
                         "text": "I did never mind cuz i made it over."
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1200,7 +1200,7 @@ var json = {
                         "text": "Great! I might add another thing and ask you if it lags.<br><br>yeah I saw that I was just agreeing that it is hard."
                     },
                     {
-                        "date": "a day ago",
+                        "date": "2 days ago",
                         "author": {
                             "name": "3DA Games",
                             "id": "kaid_46113533788750322324717",
@@ -1267,7 +1267,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "a day ago",
+                "date": "2 days ago",
                 "author": {
                     "name": "jedimaster09",
                     "id": "kaid_4940962515427875209226",
@@ -1292,7 +1292,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "5 hours ago",
+                        "date": "6 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
