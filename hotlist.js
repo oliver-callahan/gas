@@ -657,7 +657,7 @@ var json = {
                         "text": "This is rightfully voted. <br><br><br>But yes I always vote HACK'S stuff."
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -711,7 +711,7 @@ var json = {
             {
                 "replyCount": 5,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "12 hours ago",
                 "author": {
                     "name": "JSCoder",
                     "id": "kaid_3032679493880386290676439",
@@ -758,7 +758,7 @@ var json = {
                         "text": "Doing only 5 discriminated against 6.<br><br>Not me =p. I would never be suspicious =]"
                     },
                     {
-                        "date": "26 minutes ago",
+                        "date": "31 minutes ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -988,7 +988,7 @@ var json = {
                         "text": "It seems like all judges are strict judges lol. It looks like by peer pressure, i shall have to fit into that category lol."
                     },
                     {
-                        "date": "40 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1059,7 +1059,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "9 hours ago",
+                        "date": "10 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
