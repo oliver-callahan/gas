@@ -1,1568 +1,168 @@
 var json = {
-    "code": "/** Ezra X Duke **/\n\n//  CONTROLS: Arrow Keys\n\n// idea. Just 5 levels, a challegne for you to beat.(it's gonna be a series)\n\n\n// Ezra did a ton 3/4's of the code\nnoStroke();\ntextAlign(CENTER, TOP);\n\n// Too much lag? change this to false!\nvar lag = true;\n\n// nice thingy made by dkareh \n(function() {return this;})().LoopProtector.prototype.leave = function() {};\n\n// vars\nvar click = 0;\nvar d = 0;\nvar scene = 1;\nvar cam = {\n    x: 0,\n    y: 0,\n    s: 100\n};\nvar lPars = [];\nvar lava = [];\nvar portals = [];\nvar blocks = [];\nvar players = [];\nvar createLevel;\n\nvar level = 0;\nvar levels = [\n    [\n        \"bbbbbbbbbbbbbbbbbbbb\",\n        \"b                  b\",\n        \"b                  b\",\n        \"b                 @b\",\n        \"b                 bb\",\n        \"b                  b\",\n        \"b                  b\",\n        \"b      bbbbb       b\",\n        \"b                  b\",\n        \"b                  b\",\n        \"b                  b\",\n        \"bbbbbbb            b\",\n        \"b                  b\",\n        \"b                  b\",\n        \"b    b             b\",\n        \"b    b             b\",\n        \"b    b             b\",\n        \"bbb  b             b\",\n        \"bp   blllllllllllllb\",\n        \"bbbbbbbbbbbbbbbbbbbb\",\n    ],\n    [\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b                 @bb  @             p b\",\n        \"b                 bbb                b b\",\n        \"b                  bb  b               b\",\n        \"b      bbbbb       bb                  b\",\n        \"b                  bbb             b   b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"bbbbbbb            bbb        b        b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b    b             bb     b            b\",\n        \"b    b             bbb                 b\",\n        \"b    b             bb                  b\",\n        \"bbb  b             bb                  b\",\n        \"bbb  b             bb   b              b\",\n        \"b    blllllllllllllbblllllllllllllllllbb\",\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n    ],\n    [\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b                @ bb  @               b\",\n        \"b                b bb                b b\",\n        \"b  b               bb  b               b\",\n        \"b                  bb                  b\",\n        \"b             b    bbb             b   b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b         b        bbb        b        b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b     b            bb     b            b\",\n        \"b                  bbb                 b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b                  bb   b              b\",\n        \"bllllllllllllllllllbblllllllllllllllllbb\",\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"bbbbbbbbbbbbbbbbbbbb\",\n        \"b                  b\",\n        \"b                  b\",\n        \"b                 @b\",\n        \"b                  b\",\n        \"b                  b\",\n        \"b               b  b\",\n        \"b                  b\",\n        \"b        b         b\",\n        \"b                  b\",\n        \"bb                 b\",\n        \"b                  b\",\n        \"b                  b\",\n        \"b  b         b    bb\",\n        \"b                  b\",\n        \"b                  b\",\n        \"b                 bb\",\n        \"b                  b\",\n        \"bp                 b\",\n        \"bbbbbbbbbbbbbbbbbbbb\",\n    ],\n    [\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b                 @bb  @               b\",\n        \"b                 bbb                b b\",\n        \"b                  bb  b               b\",\n        \"b      bbbbb       bb                  b\",\n        \"b                  bbb             b   b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"bbbbbbb            bbb        b        b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b    b             bb     b            b\",\n        \"b    b             bbb                 b\",\n        \"b    b             bb                  b\",\n        \"bbb  b             bb                  b\",\n        \"bbb  b             bb   b              b\",\n        \"b    blllllllllllllbblllllllllllllllllbb\",\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b                 @bb                  b\",\n        \"b                  bb                 @b\",\n        \"b                  bb                  b\",\n        \"b               b  bbb      b      b   b\",\n        \"b                  bb                  b\",\n        \"b        b         bb                  b\",\n        \"b                  bb                  b\",\n        \"bb                 bbb                 b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b  b         b    bbb                  b\",\n        \"b                  bbb                 b\",\n        \"b                  bb                  b\",\n        \"b                 bbb                  b\",\n        \"b                  bb   b    b     b   b\",\n        \"b                  bbllllllllllllllllbpb\",\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n    ],\n    [\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b                 @bb  @             p b\",\n        \"b                 bbb                b b\",\n        \"b                  bb  b               b\",\n        \"b      bbbbb       bb                  b\",\n        \"b                  bbb             b   b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"bbbbbbb            bbb        b        b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b    b             bb     b            b\",\n        \"b    b             bbb                 b\",\n        \"b    b             bb                  b\",\n        \"bbb  b             bb                  b\",\n        \"bbb  b             bb   b              b\",\n        \"bp   blllllllllllllbblllllllllllllllllbb\",\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b                 @bb                  b\",\n        \"b                  bb                 @b\",\n        \"b                  bb                  b\",\n        \"b               b  bbb      b      b   b\",\n        \"b                  bb                  b\",\n        \"b        b         bb                  b\",\n        \"b                  bb                  b\",\n        \"bb                 bbb                 b\",\n        \"b                  bb                  b\",\n        \"b                  bb                  b\",\n        \"b  b         b    bbb                  b\",\n        \"b                  bbb                 b\",\n        \"b                  bb                  b\",\n        \"b                 bbb                  b\",\n        \"b                  bb   b    b     b   b\",\n        \"bp                 bbllllllllllllllllbpb\",\n        \"bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb\",\n    ],\n];\n\n// what happens when keys are pressed and released\nvar keys = {};\nkeyPressed = function(){\n    keys[keyCode] = true;\n};\nkeyReleased = function(){\n    keys[keyCode] = false;\n};\n\n// Helper Functions\nvar rectCollide = function(obj1, obj2){\n    return(obj1.x + obj1.w > obj2.x && obj1.y + obj1.h > obj2.y && obj1.x < obj2.x + obj2.w && obj1.y < obj2.y + obj2.h);    \n};\n\n// Block class\nvar Block = (function() {\n    function Block(config) {\n        this.x = config.x;\n        this.y = config.y;\n        this.w = 20;\n        this.h = 20;\n    }\n    Block.prototype = {\n        display: function() {\n            fill(77, 77, 77);\n            rect(this.x, this.y, this.w, this.h);\n        },\n        collideX: function(object) {\n            if(rectCollide(this, object)) {\n                if (object.x > this.x) {\n                    object.x = this.x + this.w;\n                    object.xv = 0;\n                } else {\n                    object.x = this.x - object.w;\n                    object.xv = 0;\n                }\n            }\n        },\n        collideY: function(object) {\n            if(rectCollide(this, object)) {\n                if (object.y < this.y) {\n                    object.y = this.y - object.h;    \n                    object.canJump = true;\n                    object.yv = 0;\n                } else {\n                    object.y = this.y +this.h;\n                    object.yv = 0;\n                }\n            }\n        },\n    };\n    return Block;\n})();\n\n// lava particle class\nvar LPar = (function() {\n    function LPar(config) {\n        this.x = config.x;\n        this.y = config.y;\n        this.size = random(4, 10);\n        this.vis = 255;\n        this.dead = false;\n    }\n    LPar.prototype.run = function() {\n        fill(196, 53, 53, this.vis);\n        ellipseMode(CORNER);\n        ellipse(this.x, this.y, this.size, this.size);\n        \n        this.y-=0.2;\n        this.vis-=2;\n        if(this.vis < -20) {\n            this.dead = true;\n        }\n    };\n    return LPar;\n})();\n\n// lava class\nvar Lava = (function() {\n    function Lava(config) {\n        this.x = config.x;\n        this.y = config.y;\n        this.w = 20;\n        this.h = 20;\n        this.pushParTime = 0;\n    }\n    Lava.prototype = {\n        display: function() {\n            fill(219, 48, 48);\n            rect(this.x, this.y, this.w, this.h);\n            \n            if(this.pushParTime++ > 1 && lag) {\n                lPars.push(new LPar({x: random(this.x, this.x+this.w-5), y: this.y+10}));\n                this.pushParTime = 0;\n            }\n        },\n        collide: function(object) {\n            if(rectCollide(this, object)) {\n                createLevel();\n                d++;\n            }\n        },\n    };\n    return Lava;\n})();\n\n// portal class\nvar Portal = (function() {\n    function Portal(config) {\n        this.x = config.x;\n        this.y = config.y;\n        this.w = 20;\n        this.h = 20;\n    }\n    Portal.prototype = {\n        display: function() {\n            fill(181, 27, 189);\n            rect(this.x, this.y, this.w, this.h);\n        },\n        collide: function(object) {\n            if(rectCollide(this, object)) {\n                if(level !== 4) {\n                    level++;\n                    createLevel();\n                    scene++;\n                }\n                else {\n                    scene = 'win';\n                }\n            }\n        },\n    };\n    return Portal;\n})();\n\n// Player class\nvar Player = (function() {\n    function Player(config) {\n        this.x = config.x;\n        this.y = config.y;\n        this.w = 20;\n        this.h = 20;\n        \n        this.xv = 0;\n        this.yv = 0;\n        this.canJump = false;\n        this.grav = 0.32;\n        this.jumpPower = 7;\n    }\n    Player.prototype = {\n        display: function() {\n            fill(80, 80, 250);\n            rect(this.x, this.y, this.w, this.h);\n            fill(0, 0, 0);\n            rect(this.x+3, this.y+4, 4, 4);\n            rect(this.x+this.w-7, this.y+4, 4, 4);\n        },\n        moveX: function() {\n            this.x+=this.xv;\n            this.xv = 0;\n            \n            if(keys[LEFT]){\n                this.xv = -3;\n                this.state = 'left';\n            }\n            if(keys[RIGHT]){\n                this.xv = 3;\n                this.state = 'right';\n            }\n        },\n        moveY: function() {\n            // update player's position\n            this.y += this.yv;\n            this.yv += this.grav;\n            if(keys[UP] && this.canJump) {\n                this.yv = -this.jumpPower;\n                this.canJump = false;\n            }\n        },\n        update: function() {\n            this.display();\n            \n            this.moveX();\n            for(var i = 0; i < blocks.length; i++) {\n                blocks[i].collideX(this);\n            }\n            \n            this.moveY();\n            for(var i = 0; i < blocks.length; i++) {\n                blocks[i].collideY(this);\n            }\n            \n            for(var i = 0; i < lava.length; i++) {\n                lava[i].collide(this);\n            }\n            \n            for(var i = 0; i < portals.length; i++) {\n                portals[i].collide(this);\n            }\n        },\n    };\n    return Player;\n})();\n\nvar createLevel = function() {\n    blocks = [];\n    lava = [];\n    portals = [];\n    players = [];\n    \n    for(var i = 0; i < levels[level].length;i++){    \n        for(var j = 0; j < levels[level][i].length;j++){\n            switch(levels[level][i][j]) {\n                case 'p':\n                    players.push(new Player({\n                        x: j*20,\n                        y: i*20\n                    }));\n                break;\n                case 'b':\n                    blocks.push(new Block({x: j*20, y: i*20}));\n                break;\n                case 'l':\n                    lava.push(new Lava({x: j*20, y: i*20}));\n                break;\n                case '@':\n                    portals.push(new Portal({x: j*20, y: i*20}));\n                break;\n            }\n        }\n    }\n};\ncreateLevel();\n\n\nvar runGame = function() {\n    background(255);\n    \n    \n    for(var i = 0; i < lPars.length; i++) {\n        lPars[i].run();\n        if(lPars[i].dead) {\n            lPars.splice(i, 1);\n        }\n    }\n    \n    for(var i = 0; i < players.length; i++) {\n        players[i].update();\n    }\n    \n    \n    for(var i = 0; i < lava.length; i++) {\n        lava[i].display();\n    }\n    \n    for(var i = 0; i < blocks.length; i++) {\n        blocks[i].display();\n    }\n    \n    for(var i = 0; i < portals.length; i++) {\n        portals[i].display();\n    }\n};\n\n\nfunction scenes() {\n    pushMatrix();\n    background(255, 255, 255);\n    scale(cam.s/100);\n    translate(round(cam.x), round(cam.y));\n    \n    if(scene !== 'win') {\n        runGame();\n    }\n    popMatrix();\n    \n    \n    switch(scene) {\n        case 2:\n            cam.x-=(cam.x+400)/5;\n        break;\n        case 3:\n            cam.x-=(cam.x-0)/5;\n            cam.y-=(cam.y+400)/5;\n        break;\n        case 4:\n            cam.x-=(cam.x+400)/5;\n        break;\n        case 5:\n            cam.s-=(cam.s-50)/5;\n            cam.x-=(cam.x+0)/5;\n            cam.y-=(cam.y+0)/5;\n        break;\n        case 'win':\n            textAlign(CENTER, CENTER);\n            cam.x = 0;\n            cam.y = 0;\n            background(255);\n            noStroke();\n            fill(0);\n            textSize(83);\n            text(\"You win!\", 200, 150);\n            textSize(23);\n            text(\"With \" + d + \" deaths\", 200, 275);\n            stroke(143, 143, 143);\n            strokeWeight(10);\n            line(100, 200, 300, 200);\n    }\n    \n    \n}\n\n\ndraw = function() {\n    scenes();\n    if(click > 20) {\n        background(51, 44, 150);\n        pushMatrix();\n        fill(0);\n        rotate(-20);\n        textSize(50);\n        text(\"Just\", 127, 117);\n        popMatrix();\n        pushMatrix();\n        fill(0);\n        rotate(10);\n        textSize(50);\n        text(\"Five\", 248, 113);\n        popMatrix();\n        pushMatrix();\n        fill(0);\n        rotate(-5);\n        textSize(50);\n        text(\"Levels\", 179, 261);\n        popMatrix();\n    }\n};\n\nvar mouseClicked = function() {\n    click++;\n};\n\n\n// not half bad with that many lines.",
-    "title": "Just 5 levels[GAME]",
-    "votes": 84,
-    "created": "2 days ago",
-    "updated": "4 hours ago",
+    "code": "//50 things about me, PenGwen2007! Hope you all enjoy learning a bit about me :)\n\n//Sub? https://www.khanacademy.org/computer-programming/pengwen-subpage/5457980001402880\n\n\n\nvar scene = 1;\nvar draw = function(){\n    \n    //Page One - Font\n    if (scene === 1){\n        background(255, 201, 234);\n\n  noStroke();\nfill(255, 120, 221);\n  beginShape();\nvertex(2, 267);\nvertex(1, 276);\nvertex(39, 301);\nbezierVertex(44, 293, 56, 276, 97, 235);\nbezierVertex(108, 235, 123, 243, 135, 256);\nbezierVertex(134, 276, 123, 298, 90, 323);\nvertex(92, 327);\nvertex(115, 344);\nbezierVertex(128, 347, 145, 339, 173, 277);\nvertex(153, 239);\nvertex(124, 212);\nvertex(94, 218);\nvertex(78, 220);\nvertex(104, 168);\nvertex(65, 187);\nvertex(1, 269);\nendShape();\nbeginShape();\nvertex(156, 88);\nbezierVertex(152, 101, 154, 134, 177, 182);\nbezierVertex(197, 211, 232, 240, 265, 255);\nbezierVertex(274, 255, 293, 241, 304, 224);\nbezierVertex(310, 213, 314, 201, 322, 161);\nvertex(294, 165);\nbezierVertex(289, 176, 282, 190, 262, 211);\nbezierVertex(245, 201, 227, 177, 203, 118);\nvertex(156, 87);\nendShape();\n  \n    fill(255, 140, 198);\n  beginShape();\nvertex(70, 166);\nvertex(0, 267);\nvertex(38, 294);\nbezierVertex(42, 291, 56, 274, 97, 235);\nbezierVertex(116, 226, 129, 234, 140, 253);\nbezierVertex(140, 286, 138, 308, 94, 326);\nvertex(117, 341);\nbezierVertex(135, 341, 164, 306, 176, 270);\nbezierVertex(176, 247, 166, 222, 133, 200);\nbezierVertex(111, 197, 88, 200, 39, 263);\nvertex(105, 168);\nvertex(70, 166);\nendShape();\nbeginShape();\nvertex(156, 87);\nbezierVertex(154, 111, 175, 162, 181, 178);\nbezierVertex(214, 216, 246, 250, 270, 250);\nbezierVertex(297, 234, 316, 200, 321, 161);\nbezierVertex(306, 128, 261, 73, 214, 53);\nbezierVertex(187, 51, 170, 59, 157, 84);\nvertex(205, 120);\nbezierVertex(205, 108, 209, 95, 217, 93);\nbezierVertex(232, 96, 258, 115, 295, 165);\nbezierVertex(293, 192, 271, 216, 259, 220);\nbezierVertex(246, 212, 210, 179, 204, 119);\nvertex(158, 84);\nendShape();\n\ntextFont(createFont(\"Ink Free\"));\ntextSize(79);\nfill(64, 12, 63);\ntext(\"50 Facts\\nAbout Me\",34,60,600,600);\nfill(120, 54, 119);\ntext(\"50 Facts\\nAbout Me\",37,58,600,600);\ntextSize(30);\ntext(\"Click To Continue\",105,347,500,500);\n  \n    }\n    //50 facts pages\n    if (scene === 2){\n        background(255, 227, 241);\n  noFill();\n  stroke(51, 5, 59);\n  beginShape();\nvertex(72, 352);\nbezierVertex(72, 357, 77, 364, 93, 363);\nvertex(72, 352);\nvertex(164, 239);\nvertex(180, 252);\nvertex(185, 234);\nvertex(165, 239);\nvertex(180, 235);\nvertex(183, 239);\nvertex(179, 252);\nvertex(92, 363);\nvertex(86, 359);\nvertex(175, 249);\nvertex(169, 244);\nvertex(79, 356);\nendShape();\n  \n  text (\"I write a lot of random\\nBritish words instead of\\nthe American spelling.  XD\",20,20,500,500);\n    }\n    if (scene === 3){\n        background(255, 227, 241);\n       \nnoFill();\n  beginShape();\nvertex(249, 254);\nvertex(249, 340);\nbezierVertex(266, 348, 301, 349, 351, 344);\nvertex(348, 258);\nbezierVertex(346, 279, 336, 306, 332, 308);\nbezierVertex(329, 290, 329, 277, 323, 264);\nbezierVertex(313, 274, 313, 289, 316, 302);\nbezierVertex(309, 306, 304, 287, 305, 278);\nbezierVertex(312, 270, 302, 265, 295, 282);\nbezierVertex(297, 295, 300, 312, 291, 320);\nbezierVertex(278, 324, 274, 313, 276, 299);\nbezierVertex(286, 286, 288, 274, 283, 269);\nbezierVertex(277, 269, 270, 282, 264, 300);\nbezierVertex(262, 313, 255, 314, 250, 296);\nvertex(249, 288);\nvertex(249, 254);\nbezierVertex(275, 254, 322, 256, 348, 258);\nbezierVertex(344, 251, 308, 243, 250, 253);\nendShape();\nfill(51, 5, 59);\n  text(\"My favorite colours are\\n1.All shades of Pink\\n2.Black\\n3.Dark shades of Green\\n4.Teal\",20,20,500,500);\n    }\n    if (scene === 4){\n     background(255, 227, 241);\n     \n     noFill();\n  beginShape();\nvertex(107, 353);\nbezierVertex(117, 346, 130, 317, 142, 265);\nvertex(148, 215);\nvertex(156, 216);\nvertex(156, 193);\nvertex(156, 216);\nvertex(163, 216);\nbezierVertex(163, 227, 159, 267, 191, 347);\nvertex(165, 347);\nbezierVertex(165, 342, 168, 329, 163, 314);\nvertex(151, 316);\nbezierVertex(146, 322, 143, 335, 139, 350);\nvertex(107, 353);\nendShape();\nbeginShape();\nvertex(274, 286);\nbezierVertex(270, 284, 260, 283, 257, 290);\nbezierVertex(256, 297, 263, 309, 289, 311);\nbezierVertex(293, 304, 296, 286, 296, 282);\nbezierVertex(289, 277, 281, 277, 274, 286);\nendShape();\nbeginShape();\nvertex(255, 231);\nbezierVertex(253, 222, 247, 222, 243, 230);\nbezierVertex(246, 238, 246, 246, 246, 253);\nbezierVertex(250, 250, 260, 243, 266, 241);\nbezierVertex(267, 233, 266, 230, 255, 232);\nendShape();\n  \n  fill(51, 5, 59);\n  text(\"I can speak some French\\n  and still learning how to\\n\\nBonjour! Comment ca va?\",20,20,500,500);\n    }\n    if (scene === 5){\n        background(255, 227, 241);\n  \n  noFill();\n  ellipse(190,247,160,160);\n  beginShape();\nvertex(113, 261);\nbezierVertex(119, 252, 129, 247, 146, 247);\nbezierVertex(163, 248, 187, 228, 181, 220);\nbezierVertex(169, 209, 155, 200, 148, 179);\nbezierVertex(162, 172, 184, 167, 205, 168);\nbezierVertex(212, 178, 210, 191, 212, 216);\nbezierVertex(224, 225, 228, 257, 218, 282);\nbezierVertex(194, 285, 213, 298, 259, 287);\nbezierVertex(267, 269, 271, 235, 262, 212);\nbezierVertex(252, 196, 243, 181, 205, 168);\nbezierVertex(195, 167, 179, 164, 147, 180);\nbezierVertex(136, 185, 122, 208, 115, 218);\nbezierVertex(110, 232, 109, 249, 111, 261);\nendShape();\nbeginShape();\nvertex(51, 244);\nbezierVertex(62, 256, 102, 276, 178, 291);\nendShape();\nbeginShape();\nvertex(73, 207);\nbezierVertex(85, 219, 106, 232, 133, 239);\nendShape();\n\n  \n  text(\"I want to travel the world\\n      But mostly Europe\",20,20,500,500);\n    }\n    if (scene === 6){\n        background(255, 227, 241);\n  \n  ellipse(190,247,160,160);\n  beginShape();\nvertex(153, 156);\nbezierVertex(160, 147, 168, 121, 172, 102);\nbezierVertex(180, 107, 183, 137, 192, 149);\nbezierVertex(202, 149, 223, 135, 248, 116);\nbezierVertex(244, 137, 235, 154, 238, 168);\nbezierVertex(258, 166, 286, 155, 301, 155);\nbezierVertex(297, 173, 280, 190, 273, 203);\nbezierVertex(281, 214, 310, 224, 321, 232);\nbezierVertex(323, 244, 297, 257, 280, 258);\nbezierVertex(286, 272, 308, 286, 316, 303);\nbezierVertex(309, 311, 292, 305, 261, 303);\nbezierVertex(258, 318, 280, 347, 291, 357);\nbezierVertex(268, 366, 247, 350, 237, 325);\nbezierVertex(226, 341, 217, 367, 192, 381);\nbezierVertex(186, 374, 171, 354, 178, 339);\nbezierVertex(150, 347, 119, 370, 101, 368);\nbezierVertex(110, 354, 131, 343, 134, 328);\nbezierVertex(123, 326, 95, 326, 62, 311);\nbezierVertex(69, 306, 90, 301, 106, 292);\nbezierVertex(89, 287, 57, 265, 43, 256);\nbezierVertex(56, 248, 85, 255, 101, 248);\nbezierVertex(86, 236, 57, 192, 58, 182);\nbezierVertex(70, 180, 94, 198, 112, 193);\nbezierVertex(115, 166, 103, 134, 102, 115);\nbezierVertex(119, 131, 132, 150, 153, 155);\nendShape();\n  \n    text(\" I've always been and will\\nalways be a morning person\",20,20,500,500);\n    }\n    if (scene === 7){\n        background(255, 227, 241);\n  \n  beginShape();\nvertex(52, 179);\nvertex(49, 356);\nvertex(344, 357);\nvertex(341, 180);\nvertex(52, 181);\nvertex(51, 213);\nvertex(341, 212);\nvertex(342, 230);\nvertex(50, 230);\nvertex(51, 246);\nvertex(342, 247);\nvertex(342, 265);\nvertex(50, 265);\nvertex(50, 289);\nvertex(343, 287);\nvertex(343, 311);\nvertex(50, 308);\nvertex(49, 335);\nvertex(343, 334);\nvertex(344, 357);\nvertex(299, 356);\nvertex(299, 212);\nvertex(261, 212);\nvertex(260, 357);\nvertex(223, 357);\nvertex(224, 212);\nvertex(176, 213);\nvertex(175, 356);\nvertex(139, 357);\nvertex(142, 212);\nvertex(99, 213);\nvertex(95, 356);\nendShape();\n  \n     text(\"MID-SUMMER\",98,182,500,500); \n    text(\"My birthday is sometime in\\n           mid-summer\",20,20,500,500);\n    }\n    if (scene === 8){\n        background(255, 227, 241);\n  beginShape();\nvertex(186, 152);\nvertex(179, 158);\nvertex(184, 147);\nvertex(173, 143);\nvertex(184, 142);\nvertex(188, 129);\nvertex(191, 141);\nvertex(199, 142);\nvertex(192, 147);\nvertex(197, 155);\nvertex(187, 151);\nvertex(157, 192);\nvertex(167, 187);\nvertex(134, 235);\nvertex(146, 229);\nvertex(97, 315);\nvertex(282, 314);\nvertex(238, 233);\nvertex(248, 238);\nvertex(204, 187);\nvertex(218, 192);\nvertex(189, 152);\nendShape();\n  ellipse(127,292,8,8);\n  ellipse(195,175,8,8);\n  ellipse(173,197,8,8);\n  ellipse(215,220,8,8);\n  ellipse(156,247,8,8);\n  ellipse(237,279,8,8);\n  ellipse(179,295,8,8);\n    text(\"     My favorite holiday is\\n             Christmas\",20,20,500,500);\n    }\n    if (scene === 9){\n        background(255, 227, 241);\n  \n  beginShape();\nvertex(262, 280);\nvertex(190, 167);\nvertex(119, 284);\nvertex(262, 280);\nvertex(226, 281);\nvertex(259, 203);\nvertex(120, 208);\nvertex(190, 327);\nvertex(227, 280);\nendShape();\n  \n  \n    text(\"   I celebrate at least 3\\n Jewish holidays each year\",20,20,500,500);\n    }\n    if (scene === 10){\n        background(255, 227, 241);\n        \n  beginShape();\nvertex(33, 176);\nvertex(23, 358);\nbezierVertex(24, 365, 34, 372, 43, 360);\nvertex(40, 271);\nvertex(45, 365);\nbezierVertex(60, 370, 64, 364, 67, 357);\nbezierVertex(67, 350, 76, 330, 69, 271);\nbezierVertex(67, 260, 56, 242, 58, 211);\nbezierVertex(58, 197, 64, 182, 70, 177);\nvertex(294, 180);\nbezierVertex(299, 183, 305, 198, 298, 249);\nbezierVertex(296, 284, 299, 306, 306, 349);\nbezierVertex(308, 354, 316, 354, 326, 351);\nvertex(332, 283);\nvertex(329, 351);\nbezierVertex(337, 359, 344, 358, 349, 352);\nbezierVertex(351, 342, 356, 328, 341, 244);\nbezierVertex(341, 232, 344, 215, 343, 172);\nvertex(32, 168);\nvertex(32, 178);\nvertex(68, 177);\nbezierVertex(62, 189, 58, 202, 58, 226);\nbezierVertex(58, 237, 62, 252, 68, 268);\nbezierVertex(70, 282, 71, 298, 71, 322);\nvertex(301, 326);\nbezierVertex(301, 317, 298, 292, 297, 268);\nbezierVertex(297, 251, 300, 232, 301, 215);\nbezierVertex(301, 204, 299, 192, 294, 180);\nvertex(343, 181);\nendShape();\n  text(\"Someone Presents\\n     A MOVIE\",68,193,500,500);\n  \n    text(\"My favorite movie genres are\\n  Comedy, Fantasy, Mystery\\n     and Action/Adventure\",20,20,500,500);\n    }\n    if (scene === 11){\n        background(255, 227, 241);\n  \n  beginShape();\nvertex(172, 222);\nbezierVertex(169, 221, 166, 213, 166, 208);\nbezierVertex(166, 206, 175, 200, 181, 198);\nbezierVertex(184, 198, 193, 204, 196, 213);\nbezierVertex(196, 219, 194, 225, 188, 226);\nbezierVertex(188, 231, 196, 237, 205, 241);\nbezierVertex(205, 246, 195, 247, 188, 239);\nbezierVertex(188, 248, 188, 259, 205, 284);\nbezierVertex(205, 289, 199, 294, 183, 262);\nbezierVertex(181, 277, 174, 293, 164, 296);\nbezierVertex(158, 295, 158, 290, 176, 260);\nbezierVertex(176, 256, 176, 245, 171, 242);\nbezierVertex(165, 248, 152, 252, 150, 249);\nbezierVertex(150, 244, 157, 241, 171, 236);\nbezierVertex(174, 231, 175, 226, 171, 220);\nendShape();\n  beginShape();\nvertex(217, 293);\nvertex(217, 197);\nvertex(230, 197);\nvertex(217, 197);\nvertex(217, 211);\nvertex(221, 211);\nvertex(217, 211);\nvertex(217, 221);\nvertex(220, 221);\nvertex(217, 221);\nvertex(217, 229);\nvertex(221, 229);\nvertex(217, 228);\nvertex(217, 239);\nvertex(224, 239);\nvertex(218, 239);\nvertex(217, 248);\nvertex(220, 248);\nvertex(217, 248);\nvertex(217, 260);\nvertex(220, 260);\nvertex(218, 260);\nvertex(218, 273);\nvertex(221, 273);\nvertex(216, 273);\nvertex(217, 283);\nvertex(221, 283);\nvertex(216, 283);\nvertex(217, 292);\nendShape();\n   text(\"2nd\",110,167,500,500);\n    text(\"    I'm the second tallest\\n       person in my family\",20,20,500,500);\n    }\n    if (scene === 12){\nbackground(255, 227, 241); \n\nbeginShape();\nvertex(237, 210);\nvertex(112, 264);\nbezierVertex(112, 267, 112, 271, 114, 271);\nvertex(243, 271);\nbezierVertex(248, 255, 249, 230, 234, 206);\nvertex(112, 263);\nendShape();\nellipse(220,239,5,5);\nellipse(161,258,8,8);\nellipse(227,251,8,8);      \n\ntext(\"  I don't like goat cheese\\n        or feta, sorry\",20,20,500,500);\n    }\n    if (scene === 13){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(179, 167);\nvertex(57, 229);\nvertex(59, 325);\nvertex(187, 326);\nvertex(185, 238);\nvertex(58, 241);\nvertex(71, 241);\nvertex(188, 183);\nvertex(178, 167);\nvertex(172, 191);\nvertex(166, 193);\nvertex(170, 171);\nvertex(160, 178);\nvertex(151, 201);\nvertex(143, 204);\nvertex(152, 181);\nvertex(138, 188);\nvertex(126, 213);\nvertex(118, 217);\nvertex(130, 192);\nvertex(116, 198);\nvertex(100, 226);\nvertex(91, 231);\nvertex(103, 205);\nvertex(87, 214);\nvertex(72, 239);\nvertex(65, 241);\nvertex(73, 221);\nvertex(64, 226);\nvertex(57, 241);\nvertex(58, 259);\nvertex(185, 257);\nendShape();\nbeginShape();\nvertex(241, 308);\nvertex(282, 261);\nbezierVertex(278, 259, 272, 258, 272, 253);\nbezierVertex(272, 248, 278, 239, 285, 234);\nbezierVertex(297, 224, 313, 228, 319, 241);\nbezierVertex(325, 250, 321, 272, 299, 265);\nvertex(252, 315);\nbezierVertex(244, 321, 238, 316, 241, 307);\nvertex(282, 261);\nvertex(300, 266);\nvertex(273, 248);\nvertex(314, 264);\nvertex(278, 240);\nvertex(321, 253);\nvertex(286, 232);\nvertex(318, 239);\nvertex(296, 228);\nvertex(273, 249);\nvertex(307, 229);\nvertex(273, 257);\nvertex(313, 232);\nvertex(281, 261);\nvertex(318, 238);\nvertex(292, 264);\nvertex(321, 246);\nvertex(306, 266);\nvertex(322, 254);\nendShape();\n        \ntext(\"I want to be a voice actor\\n and singer along with my\\n       graphic design\",20,20,500,500);\n    }\n    if (scene === 14){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(38, 332);\nvertex(124, 202);\nbezierVertex(126, 202, 129, 202, 129, 206);\nvertex(48, 336);\nbezierVertex(43, 339, 36, 339, 38, 332);\nvertex(57, 305);\nvertex(65, 311);\nvertex(68, 306);\nvertex(59, 301);\nendShape();\nbeginShape();\nvertex(300, 190);\nvertex(302, 358);\nvertex(301, 338);\nvertex(287, 353);\nvertex(302, 341);\nvertex(310, 348);\nvertex(302, 339);\nvertex(301, 297);\nvertex(271, 328);\nvertex(301, 296);\nvertex(327, 319);\nvertex(300, 297);\nvertex(302, 276);\nvertex(344, 278);\nvertex(374, 260);\nvertex(343, 278);\nvertex(355, 311);\nvertex(343, 278);\nvertex(381, 280);\nvertex(392, 272);\nvertex(380, 280);\nvertex(387, 299);\nvertex(380, 281);\nvertex(394, 281);\nvertex(302, 275);\nvertex(264, 275);\nvertex(242, 257);\nvertex(263, 276);\nvertex(242, 305);\nvertex(263, 276);\nvertex(231, 277);\nvertex(218, 267);\nvertex(230, 278);\nvertex(219, 293);\nvertex(230, 276);\nvertex(206, 278);\nvertex(302, 275);\nvertex(301, 248);\nvertex(272, 224);\nvertex(301, 249);\nvertex(336, 224);\nvertex(300, 248);\nvertex(300, 226);\nvertex(286, 212);\nvertex(302, 225);\nvertex(321, 206);\nvertex(300, 224);\nvertex(301, 265);\nvertex(292, 274);\nvertex(301, 283);\nvertex(310, 276);\nvertex(301, 266);\nendShape();\ntext(\"J.K.Rowling        JenniferKropf\",3,352,500,500);\n        \ntext(\"Harry Potter and The Winter\\n   Soul Series are two of my\\n          favorite books\",20,20,500,500);\n    }\n    if (scene === 15){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(165, 187);\nbezierVertex(162, 187, 156, 195, 158, 203);\nbezierVertex(157, 205, 151, 212, 144, 218);\nbezierVertex(146, 221, 155, 225, 161, 213);\nbezierVertex(156, 227, 147, 238, 140, 243);\nbezierVertex(145, 246, 151, 239, 164, 224);\nbezierVertex(160, 244, 145, 265, 128, 271);\nbezierVertex(133, 279, 172, 276, 150, 291);\nbezierVertex(189, 261, 179, 248, 175, 225);\nbezierVertex(182, 220, 191, 212, 199, 195);\nbezierVertex(196, 195, 190, 200, 175, 216);\nbezierVertex(175, 216, 174, 212, 170, 208);\nbezierVertex(172, 204, 176, 203, 177, 190);\nbezierVertex(174, 186, 169, 184, 163, 188);\nendShape();\nbeginShape();\nvertex(197, 196);\nbezierVertex(199, 205, 207, 216, 214, 222);\nbezierVertex(218, 231, 218, 247, 206, 280);\nbezierVertex(207, 285, 212, 286, 224, 250);\nbezierVertex(223, 265, 225, 282, 240, 286);\nbezierVertex(241, 285, 236, 275, 233, 275);\nbezierVertex(233, 267, 231, 248, 238, 258);\nbezierVertex(246, 261, 252, 264, 247, 257);\nbezierVertex(238, 249, 230, 241, 230, 229);\nbezierVertex(243, 232, 250, 235, 263, 238);\nbezierVertex(257, 232, 238, 226, 228, 222);\nbezierVertex(231, 217, 239, 209, 239, 199);\nbezierVertex(232, 194, 226, 194, 221, 207);\nbezierVertex(219, 212, 221, 219, 224, 223);\nbezierVertex(219, 222, 212, 213, 199, 198);\nendShape();\nbeginShape();\nvertex(113, 263);\nbezierVertex(107, 270, 111, 283, 132, 300);\nendShape();\nbeginShape();\nvertex(239, 305);\nbezierVertex(245, 301, 264, 277, 261, 268);\nendShape();\n        \ntext(\"I know how to do the Waltz\",20,20,500,500);\n    }\n    if (scene === 16){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(172, 169);\nvertex(170, 324);\nbezierVertex(177, 326, 187, 327, 193, 327);\nvertex(194, 167);\nbezierVertex(187, 167, 178, 167, 171, 169);\nvertex(171, 177);\nvertex(176, 177);\nvertex(172, 177);\nvertex(172, 185);\nvertex(175, 186);\nvertex(172, 186);\nvertex(172, 196);\nvertex(175, 196);\nvertex(172, 196);\nvertex(172, 212);\nvertex(175, 212);\nvertex(172, 212);\nvertex(172, 228);\nvertex(194, 228);\nvertex(172, 229);\nvertex(170, 241);\nvertex(175, 241);\nvertex(171, 241);\nvertex(171, 250);\nvertex(176, 250);\nvertex(171, 250);\nvertex(171, 258);\nvertex(175, 258);\nvertex(172, 258);\nvertex(171, 271);\nvertex(173, 271);\nvertex(170, 271);\nvertex(170, 279);\nvertex(175, 280);\nvertex(170, 282);\nvertex(170, 294);\nvertex(175, 294);\nvertex(171, 295);\nvertex(171, 305);\nvertex(179, 305);\nvertex(169, 305);\nvertex(172, 314);\nvertex(178, 314);\nvertex(170, 314);\nvertex(170, 320);\nvertex(173, 321);\nendShape();\ntext(\"70℉  ->\",64,211,500,500);    \ntext(\"<-  65℉\",194,224,500,500); \ntext(\"I don't like it as much when\\n     the temperature is\\n           below 70℉\",20,20,500,500);\n    }\n    if (scene === 17){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(85, 182);\nvertex(81, 361);\nvertex(210, 363);\nvertex(212, 291);\nvertex(245, 292);\nvertex(243, 361);\nvertex(272, 361);\nvertex(274, 172);\nvertex(242, 172);\nvertex(245, 262);\nvertex(211, 263);\nvertex(211, 170);\nvertex(180, 170);\nvertex(178, 324);\nvertex(115, 321);\nvertex(118, 183);\nvertex(85, 183);\nendShape();\ntext(\"Luigi\\n\\n\\n                              Hagrid\",20,190,500,500);\n        \ntext(\"  I can do an impression of\\nLuigi then to Hagrid without\\n   messing one of them up\",20,20,500,500);\n    }\n    if (scene === 18){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(212, 193);\nvertex(87, 192);\nvertex(88, 361);\nvertex(212, 359);\nvertex(211, 193);\nvertex(211, 190);\nvertex(88, 188);\nvertex(87, 194);\nvertex(91, 183);\nvertex(217, 187);\nvertex(220, 354);\nvertex(212, 359);\nvertex(218, 352);\nvertex(214, 189);\nvertex(210, 191);\nendShape();\ntext(\"Books by\\nPenGwen2007\",214,176,500,500);\n  text(\"Stack\\n   of\\nBooks\",106,209,500,500);      \ntext(\"    I love writing books\\nAnd have written about 8\",29,20,500,500);\n    }\n    if (scene === 19){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(121, 287);\nbezierVertex(125, 231, 170, 200, 211, 170);\nbezierVertex(231, 192, 245, 251, 169, 317);\nbezierVertex(147, 323, 138, 320, 133, 312);\nvertex(167, 271);\nvertex(129, 309);\nbezierVertex(124, 306, 120, 298, 121, 286);\nvertex(115, 260);\nvertex(109, 230);\nvertex(120, 248);\nvertex(112, 267);\nvertex(120, 246);\nvertex(128, 256);\nbezierVertex(128, 249, 125, 240, 133, 219);\nbezierVertex(129, 235, 126, 245, 132, 246);\nbezierVertex(139, 235, 146, 225, 147, 214);\nbezierVertex(154, 204, 155, 195, 152, 195);\nbezierVertex(143, 198, 140, 209, 147, 217);\nbezierVertex(151, 217, 159, 210, 172, 191);\nendShape();\n        \ntext(\"I only have one online friend\\n            Ace Rogers\",20,20,500,500);\n    }\n    if (scene === 20){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(43, 348);\nvertex(47, 345);\nvertex(48, 215);\nvertex(33, 221);\nvertex(49, 207);\nvertex(104, 208);\nvertex(118, 225);\nvertex(102, 215);\nvertex(66, 218);\nvertex(67, 247);\nvertex(87, 246);\nvertex(92, 258);\nvertex(86, 253);\nvertex(65, 255);\nvertex(65, 343);\nvertex(43, 349);\nvertex(65, 342);\nvertex(65, 285);\nvertex(76, 282);\nvertex(92, 291);\nvertex(95, 310);\nvertex(88, 297);\nvertex(76, 292);\nvertex(72, 341);\nvertex(66, 342);\nvertex(81, 342);\nvertex(100, 304);\nvertex(107, 287);\nvertex(126, 289);\nvertex(130, 308);\nvertex(137, 340);\nvertex(87, 342);\nvertex(109, 327);\nvertex(122, 324);\nvertex(123, 303);\nvertex(113, 300);\nvertex(105, 315);\nvertex(110, 327);\nvertex(122, 325);\nvertex(137, 339);\nvertex(161, 313);\nvertex(134, 295);\nvertex(132, 299);\nvertex(135, 290);\nvertex(176, 299);\nvertex(149, 341);\nvertex(174, 337);\nvertex(165, 331);\nvertex(181, 338);\nvertex(172, 344);\nvertex(136, 342);\nvertex(172, 344);\nvertex(180, 338);\nvertex(181, 332);\nvertex(186, 318);\nvertex(197, 314);\nvertex(220, 326);\nvertex(213, 333);\nvertex(198, 329);\nvertex(206, 325);\nvertex(200, 321);\nvertex(192, 325);\nvertex(197, 329);\nvertex(192, 332);\nvertex(191, 336);\nvertex(202, 341);\nvertex(204, 335);\nvertex(207, 343);\nvertex(200, 347);\nvertex(179, 339);\nvertex(200, 347);\nvertex(205, 344);\nvertex(218, 334);\nvertex(223, 314);\nvertex(225, 328);\nvertex(233, 326);\nvertex(247, 331);\nvertex(251, 356);\nvertex(238, 356);\nvertex(243, 339);\nvertex(230, 338);\nvertex(229, 354);\nvertex(217, 354);\nvertex(223, 339);\nvertex(218, 335);\nendShape();\nbeginShape();\nvertex(303, 235);\nvertex(268, 243);\nvertex(290, 244);\nvertex(291, 340);\nvertex(271, 341);\nvertex(303, 348);\nvertex(327, 341);\nvertex(351, 350);\nvertex(378, 339);\nvertex(361, 338);\nvertex(361, 247);\nvertex(379, 247);\nvertex(343, 233);\nvertex(329, 244);\nvertex(329, 337);\nvertex(326, 334);\nvertex(320, 337);\nvertex(319, 243);\nvertex(302, 235);\nendShape();\n        \ntext(\"I watched Disney Frozen II\\nIn WDW on Nov 22nd 2019\",20,20,500,500);\n    }\n    if (scene === 21){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(133, 191);\nbezierVertex(162, 210, 206, 216, 250, 193);\nbezierVertex(220, 181, 186, 181, 133, 190);\nvertex(130, 276);\nbezierVertex(155, 283, 209, 286, 254, 277);\nvertex(249, 195);\nvertex(219, 145);\nvertex(186, 184);\nvertex(153, 147);\nvertex(133, 191);\nvertex(131, 232);\nvertex(136, 228);\nvertex(146, 222);\nvertex(164, 234);\nbezierVertex(169, 242, 165, 258, 153, 280);\nbezierVertex(169, 283, 187, 283, 218, 283);\nbezierVertex(217, 277, 214, 257, 223, 233);\nvertex(234, 224);\nvertex(252, 239);\nvertex(240, 246);\nvertex(234, 237);\nvertex(218, 256);\nvertex(188, 274);\nvertex(164, 261);\nvertex(147, 238);\nvertex(141, 250);\nvertex(132, 246);\nvertex(133, 190);\nvertex(154, 165);\nvertex(175, 183);\nvertex(203, 183);\nvertex(217, 163);\nvertex(234, 187);\nendShape();\n        \ntext(\"I enjoy cooking exotic foods\\n    that I can decorate\",20,20,500,500);\n    }\n    if (scene === 22){\nbackground(255, 227, 241); \n      \nbeginShape();\nvertex(124, 133);\nbezierVertex(117, 140, 107, 153, 107, 162);\nbezierVertex(134, 170, 204, 171, 267, 167);\nbezierVertex(264, 148, 235, 135, 226, 132);\nbezierVertex(177, 132, 150, 135, 123, 134);\nbezierVertex(111, 147, 108, 156, 108, 162);\nbezierVertex(115, 178, 130, 230, 134, 333);\nbezierVertex(163, 347, 212, 351, 264, 337);\nbezierVertex(259, 309, 247, 249, 265, 168);\nbezierVertex(288, 175, 298, 205, 263, 336);\nbezierVertex(270, 336, 279, 343, 279, 351);\nbezierVertex(246, 361, 199, 366, 166, 358);\nbezierVertex(143, 354, 124, 346, 118, 335);\nbezierVertex(123, 333, 130, 331, 134, 331);\nbezierVertex(142, 336, 161, 344, 183, 345);\nbezierVertex(169, 340, 156, 335, 151, 325);\nbezierVertex(165, 331, 174, 334, 186, 338);\nbezierVertex(193, 338, 205, 333, 221, 324);\nbezierVertex(215, 336, 208, 338, 197, 344);\nbezierVertex(191, 336, 194, 326, 208, 317);\nbezierVertex(194, 320, 189, 326, 186, 338);\nbezierVertex(185, 339, 182, 342, 182, 345);\nbezierVertex(195, 347, 234, 343, 264, 337);\nbezierVertex(260, 320, 263, 294, 271, 275);\nbezierVertex(274, 247, 268, 209, 263, 181);\nvertex(265, 170);\nbezierVertex(227, 151, 201, 136, 160, 143);\nbezierVertex(157, 154, 184, 156, 221, 149);\nbezierVertex(216, 137, 219, 125, 178, 117);\nbezierVertex(165, 125, 155, 136, 159, 146);\nendShape();\nbeginShape();\nvertex(32, 174);\nvertex(77, 258);\nvertex(17, 190);\nvertex(33, 175);\nendShape();\nbeginShape();\nvertex(85, 290);\nvertex(23, 271);\nvertex(23, 297);\nvertex(83, 290);\nendShape();\n\n        \ntext(\"I'm afraid to use the blender\",20,20,500,500);\n    }\n    if (scene === 23){\nbackground(255, 227, 241); \n      \nbeginShape();\nvertex(156, 235);\nbezierVertex(147, 230, 142, 220, 141, 213);\nbezierVertex(143, 198, 151, 192, 163, 186);\nbezierVertex(184, 186, 190, 201, 195, 214);\nbezierVertex(193, 223, 182, 236, 174, 236);\nbezierVertex(178, 242, 190, 253, 204, 259);\nbezierVertex(197, 262, 184, 261, 178, 255);\nbezierVertex(182, 268, 186, 281, 182, 294);\nbezierVertex(166, 298, 148, 299, 144, 291);\nbezierVertex(144, 282, 149, 271, 151, 258);\nbezierVertex(144, 263, 131, 264, 118, 260);\nbezierVertex(131, 257, 145, 251, 155, 235);\nvertex(162, 223);\nvertex(174, 223);\nvertex(155, 235);\nbezierVertex(158, 244, 157, 261, 144, 288);\nbezierVertex(149, 295, 155, 296, 177, 295);\nbezierVertex(177, 280, 172, 266, 170, 236);\nbezierVertex(174, 228, 182, 220, 182, 207);\nbezierVertex(180, 198, 175, 196, 164, 201);\nbezierVertex(159, 198, 154, 198, 151, 208);\nbezierVertex(148, 214, 148, 219, 154, 234);\nbezierVertex(146, 226, 143, 223, 140, 214);\nvertex(150, 215);\nbezierVertex(150, 213, 157, 208, 164, 214);\nbezierVertex(165, 210, 172, 207, 179, 214);\nvertex(188, 210);\nendShape();  \ntext(\"Penguin = PenGwen\",72,297,500,500);\ntext(\"My username is actually my\\nnickname (without numbers)\",20,20,500,500);\n    }\n    if (scene === 24){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(49, 247);\nbezierVertex(42, 247, 34, 229, 36, 226);\nbezierVertex(43, 215, 54, 212, 64, 213);\nbezierVertex(74, 229, 78, 242, 55, 248);\nbezierVertex(55, 258, 58, 270, 65, 284);\nbezierVertex(55, 286, 38, 287, 29, 281);\nbezierVertex(37, 276, 50, 266, 47, 247);\nbezierVertex(36, 259, 29, 262, 31, 265);\nbezierVertex(38, 265, 46, 254, 48, 248);\nbezierVertex(51, 248, 56, 251, 69, 256);\nbezierVertex(67, 262, 61, 262, 55, 249);\nendShape();\nbeginShape();\nvertex(330, 188);\nbezierVertex(340, 174, 339, 160, 324, 158);\nbezierVertex(309, 165, 302, 180, 319, 190);\nbezierVertex(315, 199, 307, 207, 301, 219);\nbezierVertex(310, 217, 317, 207, 321, 204);\nbezierVertex(318, 219, 310, 230, 309, 246);\nbezierVertex(312, 245, 316, 235, 322, 221);\nbezierVertex(324, 235, 328, 245, 334, 250);\nbezierVertex(335, 236, 332, 224, 330, 206);\nvertex(340, 211);\nbezierVertex(339, 222, 338, 237, 335, 249);\nbezierVertex(344, 249, 347, 233, 349, 214);\nbezierVertex(351, 235, 360, 249, 368, 252);\nbezierVertex(366, 242, 358, 228, 356, 213);\nbezierVertex(366, 216, 369, 226, 375, 227);\nbezierVertex(371, 216, 358, 207, 352, 191);\nbezierVertex(362, 186, 368, 173, 367, 166);\nbezierVertex(358, 156, 350, 156, 346, 168);\nbezierVertex(343, 175, 343, 183, 347, 194);\nbezierVertex(347, 200, 340, 203, 333, 202);\nbezierVertex(333, 196, 329, 190, 330, 186);\nendShape();\nbeginShape();\nvertex(245, 154);\nbezierVertex(254, 160, 268, 182, 269, 205);\nbezierVertex(259, 180, 259, 173, 273, 163);\nbezierVertex(273, 154, 265, 146, 262, 147);\nbezierVertex(263, 163, 276, 177, 283, 196);\nbezierVertex(287, 191, 290, 163, 282, 143);\nbezierVertex(280, 157, 287, 172, 299, 186);\nendShape();\nbeginShape();\nvertex(101, 254);\nbezierVertex(98, 261, 104, 264, 112, 261);\nbezierVertex(109, 252, 107, 259, 108, 266);\nbezierVertex(117, 267, 125, 259, 122, 253);\nbezierVertex(118, 260, 123, 272, 135, 270);\nendShape();\n        \ntext(\"I'm afraid of being alone\",33,20,500,500);\n    }\n    if (scene === 25){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(174, 239);\nbezierVertex(168, 248, 156, 254, 139, 263);\nbezierVertex(142, 266, 152, 268, 170, 254);\nbezierVertex(170, 262, 160, 270, 141, 267);\nbezierVertex(142, 274, 149, 277, 160, 280);\nbezierVertex(172, 283, 181, 283, 194, 285);\nbezierVertex(201, 280, 191, 277, 163, 273);\nbezierVertex(175, 274, 187, 277, 194, 279);\nbezierVertex(200, 276, 204, 270, 202, 267);\nbezierVertex(193, 271, 183, 273, 175, 274);\nvertex(186, 272);\nbezierVertex(185, 267, 185, 261, 187, 258);\nbezierVertex(192, 263, 195, 264, 203, 267);\nbezierVertex(200, 262, 191, 256, 184, 243);\nbezierVertex(192, 241, 199, 230, 190, 222);\nbezierVertex(183, 216, 174, 216, 173, 239);\nendShape();\nbeginShape();\nvertex(286, 189);\nbezierVertex(275, 198, 275, 211, 286, 219);\nbezierVertex(286, 226, 282, 237, 260, 241);\nbezierVertex(260, 246, 282, 246, 290, 234);\nbezierVertex(292, 246, 294, 255, 294, 262);\nbezierVertex(293, 274, 283, 289, 268, 302);\nbezierVertex(273, 306, 282, 305, 301, 268);\nbezierVertex(315, 260, 342, 237, 354, 216);\nbezierVertex(339, 216, 327, 232, 310, 252);\nbezierVertex(306, 241, 306, 234, 342, 218);\nbezierVertex(340, 215, 322, 210, 306, 229);\nbezierVertex(302, 223, 301, 219, 311, 204);\nbezierVertex(307, 194, 300, 191, 286, 189);\nendShape();\n        \ntext(\" I do yoga and meditations\\n    every morning for fun\",20,20,500,500);\n    }\n    if (scene === 26){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(23, 236);\nvertex(116, 218);\nvertex(123, 270);\nvertex(158, 300);\nvertex(67, 348);\nvertex(35, 303);\nvertex(24, 236);\nvertex(32, 244);\nvertex(111, 225);\nvertex(119, 273);\nvertex(123, 271);\nvertex(37, 304);\nvertex(44, 301);\nvertex(32, 244);\nvertex(24, 235);\nvertex(35, 303);\nvertex(68, 347);\nvertex(94, 334);\nvertex(90, 329);\nvertex(125, 309);\nvertex(130, 315);\nendShape();\nbeginShape();\nvertex(277, 248);\nbezierVertex(270, 248, 265, 257, 269, 307);\nbezierVertex(273, 311, 276, 311, 282, 307);\nvertex(277, 248);\nvertex(350, 248);\nbezierVertex(357, 248, 365, 259, 363, 308);\nbezierVertex(358, 311, 349, 310, 350, 305);\nvertex(350, 248);\nvertex(350, 308);\nvertex(282, 308);\nvertex(278, 268);\nbezierVertex(274, 265, 271, 265, 270, 271);\nbezierVertex(273, 274, 276, 274, 277, 270);\nvertex(277, 249);\nvertex(350, 249);\nvertex(350, 297);\nbezierVertex(355, 294, 359, 292, 360, 296);\nbezierVertex(360, 301, 357, 301, 352, 298);\nendShape();\n        \ntext(\"I enjoying playing computer\\n and Nintendo Switch games\",20,20,500,500);\n    }\n    if (scene === 27){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(94, 245);\nvertex(94, 328);\nbezierVertex(108, 331, 136, 327, 143, 318);\nbezierVertex(144, 295, 139, 264, 93, 246);\nvertex(180, 257);\nvertex(189, 257);\nvertex(262, 247);\nvertex(263, 326);\nbezierVertex(237, 326, 218, 302, 261, 247);\nvertex(255, 244);\nvertex(186, 256);\nvertex(101, 244);\nvertex(94, 247);\nvertex(93, 328);\nvertex(175, 329);\nvertex(181, 332);\nvertex(192, 330);\nvertex(262, 326);\nvertex(194, 330);\nvertex(192, 258);\nvertex(184, 257);\nvertex(176, 327);\nendShape();\n        \ntext(\"If you leave alone for too\\nlong, you'll find me reading\",20,20,500,500);\n    }\n    if (scene === 28){\nbackground(255, 227, 241); \n        \n\nbeginShape();\nvertex(337, 222);\nvertex(352, 257);\nvertex(249, 316);\nbezierVertex(252, 322, 253, 318, 255, 313);\nbezierVertex(258, 318, 257, 325, 249, 324);\nbezierVertex(244, 319, 242, 315, 241, 313);\nbezierVertex(238, 313, 234, 305, 234, 298);\nbezierVertex(236, 293, 240, 288, 251, 290);\nvertex(246, 295);\nbezierVertex(244, 297, 243, 306, 250, 315);\nvertex(233, 320);\nbezierVertex(234, 310, 232, 305, 222, 300);\nvertex(244, 297);\nvertex(251, 290);\nbezierVertex(266, 280, 279, 270, 314, 254);\nbezierVertex(325, 247, 328, 238, 308, 217);\nendShape();\nbeginShape();\nvertex(65, 250);\nvertex(79, 272);\nbezierVertex(84, 272, 96, 278, 99, 297);\nvertex(120, 317);\nvertex(112, 332);\nvertex(91, 314);\nbezierVertex(78, 314, 62, 295, 63, 285);\nvertex(47, 263);\nvertex(64, 251);\nvertex(79, 273);\nbezierVertex(74, 274, 66, 279, 63, 286);\nbezierVertex(66, 299, 76, 306, 90, 315);\nbezierVertex(95, 313, 97, 305, 98, 296);\nvertex(92, 296);\nvertex(97, 297);\nvertex(97, 290);\nvertex(81, 293);\nvertex(83, 281);\nvertex(79, 284);\nvertex(84, 281);\nvertex(87, 287);\nendShape();\n        \ntext(\"     I'm always wearing\\n   something on my wrist\",20,20,500,500);\n    }\n    if (scene === 29){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(133, 191);\nbezierVertex(160, 203, 207, 204, 248, 193);\nbezierVertex(222, 193, 191, 189, 133, 191);\nbezierVertex(132, 207, 137, 240, 142, 312);\nbezierVertex(155, 324, 189, 335, 230, 315);\nbezierVertex(230, 292, 242, 250, 246, 193);\nbezierVertex(259, 193, 288, 225, 231, 315);\nbezierVertex(238, 282, 249, 253, 245, 200);\nbezierVertex(229, 205, 195, 212, 134, 198);\nendShape();\ntext(\"MUG\",150,228,500,500);     \ntext(\"I can't hold a mug in my\\n  left hand the same as my\\n       right hand\",20,20,500,500);\n    }\n    if (scene === 30){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(30, 258);\nvertex(81, 242);\nbezierVertex(87, 245, 98, 238, 102, 231);\nvertex(138, 212);\nvertex(166, 290);\nvertex(132, 304);\nbezierVertex(130, 309, 123, 313, 115, 312);\nvertex(61, 335);\nvertex(30, 258);\nvertex(37, 250);\nvertex(90, 237);\nvertex(131, 209);\nvertex(138, 213);\nendShape();\nbeginShape();\nvertex(254, 229);\nvertex(369, 293);\nvertex(343, 338);\nvertex(229, 267);\nvertex(255, 229);\nvertex(249, 238);\nvertex(364, 301);\nvertex(351, 323);\nvertex(238, 253);\nvertex(250, 239);\nvertex(260, 245);\nvertex(241, 275);\nvertex(258, 285);\nvertex(277, 253);\nvertex(292, 262);\nvertex(273, 295);\nvertex(287, 303);\nvertex(308, 271);\nvertex(326, 281);\nvertex(303, 313);\nvertex(323, 326);\nvertex(345, 291);\nvertex(364, 302);\nendShape();\ntext(\"Narnia Chronicls\",0,304,500,500);\ntext(\"  1\\n2\",214,215,500,500);        \ntext(\"I've finshed reading the\\nNarnia Chronicles in 2 weeks\",20,20,500,500);\n    }\n    if (scene === 31){\nbackground(255, 227, 241); \n     \nbeginShape();\nvertex(97, 290);\nvertex(239, 183);\nbezierVertex(242, 180, 243, 180, 249, 185);\nvertex(320, 266);\nbezierVertex(323, 269, 323, 276, 320, 276);\nvertex(164, 371);\nbezierVertex(161, 371, 156, 371, 156, 366);\nvertex(95, 297);\nbezierVertex(92, 297, 92, 294, 97, 290);\nendShape();\nbeginShape();\nvertex(244, 189);\nvertex(305, 267);\nvertex(239, 311);\nvertex(236, 307);\nvertex(293, 267);\nvertex(226, 314);\nvertex(221, 308);\nvertex(283, 261);\nvertex(212, 314);\nvertex(204, 304);\nvertex(275, 252);\nvertex(194, 309);\nvertex(187, 301);\nvertex(267, 243);\nvertex(178, 306);\nvertex(171, 298);\nvertex(256, 235);\nvertex(177, 293);\nvertex(171, 286);\nvertex(251, 225);\nvertex(179, 278);\nvertex(173, 270);\nvertex(244, 216);\nvertex(183, 263);\nvertex(176, 256);\nvertex(237, 211);\nvertex(182, 250);\nvertex(176, 243);\nvertex(243, 190);\nvertex(237, 194);\nvertex(299, 271);\nendShape();\nbeginShape();\nvertex(162, 371);\nvertex(173, 371);\nvertex(326, 279);\nvertex(322, 268);\nendShape();\nellipse(155,313,40,40);   \nellipse(155,310,40,32); \nbeginShape();\nvertex(74, 218);\nbezierVertex(65, 219, 60, 227, 59, 234);\nbezierVertex(59, 240, 68, 250, 76, 253);\nbezierVertex(87, 251, 97, 240, 103, 226);\nbezierVertex(103, 213, 108, 177, 117, 131);\nvertex(165, 133);\nbezierVertex(158, 159, 157, 205, 151, 225);\nbezierVertex(146, 217, 136, 212, 126, 214);\nbezierVertex(119, 226, 118, 245, 128, 253);\nbezierVertex(145, 248, 158, 235, 167, 219);\nbezierVertex(175, 196, 180, 152, 180, 120);\nbezierVertex(156, 117, 130, 116, 100, 121);\nbezierVertex(98, 128, 98, 162, 89, 217);\nbezierVertex(83, 228, 77, 225, 72, 218);\nendShape();\ntext(\"     I play the Kalimba\",20,20,500,500);\n    }\n    if (scene === 32){\nbackground(255, 227, 241); \n      \nbeginShape();\nvertex(15, 228);\nbezierVertex(13, 235, 5, 231, 7, 217);\nbezierVertex(15, 203, 48, 197, 80, 224);\nbezierVertex(95, 245, 112, 294, 106, 321);\nbezierVertex(96, 341, 70, 352, 45, 341);\nbezierVertex(43, 335, 47, 294, 14, 228);\nbezierVertex(35, 223, 70, 242, 87, 304);\nbezierVertex(84, 318, 67, 325, 45, 236);\nendShape();\nbeginShape();\nvertex(144, 172);\nbezierVertex(140, 183, 114, 192, 105, 201);\nbezierVertex(101, 216, 102, 254, 109, 274);\nbezierVertex(112, 295, 148, 322, 188, 288);\nbezierVertex(178, 286, 155, 293, 133, 294);\nbezierVertex(115, 275, 114, 245, 118, 203);\nbezierVertex(135, 191, 143, 179, 144, 172);\nendShape();\nbeginShape();\nvertex(233, 280);\nbezierVertex(230, 271, 223, 273, 222, 286);\nbezierVertex(225, 293, 241, 294, 297, 199);\nbezierVertex(285, 225, 265, 267, 251, 304);\nbezierVertex(274, 266, 307, 222, 321, 207);\nbezierVertex(307, 233, 284, 272, 277, 309);\nbezierVertex(281, 312, 288, 312, 294, 303);\nbezierVertex(294, 298, 307, 263, 337, 224);\nbezierVertex(348, 219, 370, 231, 362, 258);\nbezierVertex(353, 266, 336, 291, 332, 329);\nbezierVertex(341, 336, 373, 335, 395, 280);\nbezierVertex(385, 307, 367, 341, 374, 352);\nendShape();\ntext(\"🤔\",56,176,500,500);\ntext(\"🤩\",279,326,500,500);        \ntext(\"I don't understand the DC\\nUniverse, but I do love the\\n                MCU\",20,20,500,500);\n    }\n    if (scene === 33){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(1, 164);\nbezierVertex(14, 195, 76, 269, 173, 328);\nvertex(1, 321);\nvertex(14, 188);\nvertex(42, 322);\nvertex(62, 243);\nvertex(99, 325);\nvertex(121, 293);\nvertex(145, 327);\nvertex(162, 321);\nvertex(171, 328);\nvertex(398, 284);\nvertex(399, 363);\nvertex(176, 383);\nvertex(1, 384);\nvertex(0, 326);\nvertex(172, 332);\nvertex(172, 329);\nvertex(172, 201);\nvertex(286, 197);\nvertex(290, 305);\nvertex(247, 313);\nvertex(247, 282);\nvertex(216, 282);\nvertex(216, 319);\nvertex(398, 284);\nvertex(399, 123);\nvertex(289, 125);\nvertex(285, 198);\nvertex(287, 157);\nvertex(213, 157);\nvertex(214, 198);\nvertex(286, 197);\nvertex(290, 306);\nvertex(336, 296);\nvertex(334, 248);\nvertex(381, 246);\nvertex(384, 288);\nvertex(359, 292);\nvertex(358, 247);\nendShape();    \n    \ntext(\"  I like to draw real people\\n       or places\",20,20,500,500);\n    }\n    if (scene === 34){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(89, 379);\nvertex(203, 292);\nvertex(128, 232);\nvertex(249, 142);\nvertex(391, 321);\nvertex(306, 368);\nvertex(223, 308);\nvertex(101, 392);\nvertex(88, 379);\nendShape();\nbeginShape();\nvertex(77, 219);\nbezierVertex(69, 216, 53, 213, 47, 223);\nbezierVertex(47, 236, 73, 263, 97, 268);\nbezierVertex(101, 258, 116, 218, 111, 204);\nbezierVertex(103, 191, 85, 193, 78, 218);\nendShape();\nbeginShape();\nvertex(61, 300);\nbezierVertex(61, 297, 70, 291, 75, 297);\nbezierVertex(75, 304, 78, 325, 72, 339);\nbezierVertex(65, 332, 50, 323, 43, 312);\nbezierVertex(43, 303, 52, 298, 62, 301);\nendShape();\ntext(\"All\\n   Women\\n          Are\\n             Equal\",173,192,500,500);\n        \ntext(\"I'm a Women's Rights Actvist\",4,20,500,500);\n    }\n    if (scene === 35){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(261, 365);\nvertex(321, 280);\nbezierVertex(326, 287, 327, 306, 351, 322);\nvertex(379, 294);\nvertex(338, 261);\nvertex(322, 282);\nvertex(327, 292);\nvertex(347, 270);\nvertex(357, 276);\nvertex(333, 307);\nvertex(340, 314);\nvertex(369, 286);\nvertex(378, 296);\nvertex(372, 301);\nvertex(335, 267);\nvertex(329, 273);\nvertex(366, 307);\nvertex(357, 316);\nvertex(323, 280);\nvertex(320, 282);\nvertex(261, 365);\nvertex(307, 389);\nvertex(352, 322);\nbezierVertex(348, 325, 333, 331, 320, 282);\nendShape();\nbeginShape();\nvertex(98, 251);\nvertex(15, 354);\nbezierVertex(15, 358, 27, 359, 25, 364);\nbezierVertex(24, 370, 31, 371, 41, 382);\nbezierVertex(85, 340, 119, 296, 133, 267);\nbezierVertex(122, 269, 119, 262, 115, 258);\nbezierVertex(113, 253, 104, 253, 99, 250);\nvertex(98, 259);\nvertex(99, 251);\nvertex(107, 253);\nvertex(107, 258);\nendShape();\n\ntext(\"Fruit Candies\",7,288,500,500);        \ntext(\"I've always had a pending\\nquestion, why do boys like\\nfruit candy more than\\nchocolate (which girls like)?\",20,20,500,500);\n    }\n    if (scene === 36){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(176, 226);\nvertex(147, 244);\nvertex(175, 233);\nvertex(142, 277);\nvertex(162, 277);\nvertex(168, 300);\nvertex(171, 277);\nvertex(187, 277);\nvertex(195, 297);\nvertex(195, 278);\nvertex(216, 278);\nvertex(188, 234);\nvertex(205, 246);\nvertex(186, 226);\nbezierVertex(196, 220, 200, 210, 196, 193);\nbezierVertex(178, 187, 170, 189, 166, 201);\nbezierVertex(164, 208, 165, 218, 175, 227);\nendShape();\ntext(\"🎗\",110,178,500,500);     \ntext(\"🎗\",221,178,500,500);\ntext(\"I'm a she/her\",78,20,500,500);\n    }\n    if (scene === 37){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(85, 297);\nbezierVertex(104, 279, 139, 254, 160, 238);\nbezierVertex(180, 249, 187, 256, 193, 261);\nbezierVertex(209, 256, 242, 241, 263, 240);\nbezierVertex(285, 249, 313, 270, 320, 269);\nvertex(321, 257);\nvertex(337, 258);\nvertex(337, 279);\nvertex(321, 279);\nvertex(320, 270);\nbezierVertex(316, 270, 302, 264, 263, 242);\nbezierVertex(247, 245, 209, 258, 193, 263);\nbezierVertex(200, 268, 205, 280, 205, 296);\nbezierVertex(175, 323, 133, 353, 118, 352);\nbezierVertex(104, 341, 85, 324, 85, 297);\nvertex(108, 276);\nbezierVertex(107, 286, 97, 300, 96, 313);\nbezierVertex(103, 326, 122, 332, 132, 315);\nbezierVertex(131, 298, 128, 282, 118, 278);\nbezierVertex(116, 283, 124, 294, 138, 313);\nvertex(130, 302);\nbezierVertex(133, 294, 139, 292, 145, 306);\nbezierVertex(152, 306, 153, 297, 153, 284);\nbezierVertex(156, 282, 161, 286, 161, 298);\nbezierVertex(155, 303, 153, 303, 151, 300);\nvertex(161, 297);\nbezierVertex(164, 297, 167, 297, 163, 273);\nbezierVertex(165, 286, 173, 289, 178, 288);\nendShape();\n        \ntext(\"My favorite kind of tea is Chai\\n (Which smells like Christmas)\",10,20,500,500);\n    }\n    if (scene === 38){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(54, 259);\nbezierVertex(74, 259, 108, 249, 137, 236);\nbezierVertex(136, 250, 135, 268, 153, 289);\nvertex(156, 297);\nvertex(184, 318);\nvertex(107, 367);\nvertex(89, 321);\nvertex(82, 309);\nbezierVertex(79, 296, 68, 278, 54, 258);\nvertex(77, 295);\nvertex(83, 309);\nvertex(86, 307);\nvertex(91, 315);\nvertex(89, 320);\nvertex(92, 315);\nvertex(150, 297);\nvertex(156, 298);\nvertex(150, 296);\nvertex(147, 288);\nvertex(153, 288);\nvertex(146, 288);\nvertex(85, 307);\nvertex(82, 310);\nvertex(82, 316);\nvertex(87, 322);\nvertex(105, 371);\nvertex(186, 319);\nvertex(182, 317);\nvertex(178, 366);\nvertex(167, 366);\nvertex(170, 329);\nvertex(121, 362);\nvertex(121, 374);\nvertex(113, 376);\nvertex(112, 366);\nvertex(104, 371);\nvertex(92, 335);\nvertex(92, 370);\nvertex(82, 370);\nvertex(87, 321);\nendShape();\nbeginShape();\nvertex(274, 282);\nvertex(344, 194);\nbezierVertex(358, 206, 376, 227, 381, 253);\nvertex(340, 273);\nbezierVertex(341, 282, 338, 285, 313, 286);\nbezierVertex(322, 283, 333, 279, 337, 274);\nvertex(318, 282);\nvertex(285, 297);\nbezierVertex(282, 290, 281, 284, 274, 281);\nendShape();\ntext(\"Director\",60,260,500,500);        \ntext(\"I create my own short films\\n   for my family to watch\",20,20,500,500);\n    }\n    if (scene === 39){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(80, 362);\nvertex(139, 307);\nbezierVertex(134, 307, 127, 307, 121, 313);\nbezierVertex(121, 308, 127, 304, 129, 304);\nbezierVertex(126, 302, 118, 302, 117, 296);\nbezierVertex(121, 296, 127, 300, 139, 307);\nbezierVertex(139, 299, 135, 285, 140, 271);\nbezierVertex(140, 283, 140, 292, 146, 294);\nbezierVertex(146, 288, 145, 286, 144, 282);\nbezierVertex(150, 285, 150, 293, 138, 309);\nbezierVertex(138, 310, 139, 319, 148, 325);\nbezierVertex(142, 325, 138, 321, 137, 318);\nbezierVertex(135, 323, 125, 326, 134, 312);\nvertex(82, 364);\nvertex(80, 361);\nendShape();\nbeginShape();\nvertex(249, 353);\nvertex(284, 299);\nbezierVertex(286, 297, 291, 296, 319, 313);\nbezierVertex(325, 315, 326, 322, 290, 375);\nbezierVertex(286, 380, 282, 380, 245, 360);\nbezierVertex(243, 359, 245, 354, 248, 351);\nendShape();\nellipse(300,288,10,10);\nellipse(313,301,10,10);\nellipse(248,342,10,10);\nbeginShape();\nvertex(273, 347);\nvertex(269, 363);\nvertex(277, 354);\nvertex(280, 371);\nvertex(282, 350);\nvertex(279, 343);\nvertex(281, 336);\nvertex(290, 336);\nvertex(294, 350);\nvertex(289, 360);\nvertex(282, 351);\nvertex(289, 337);\nvertex(289, 322);\nvertex(305, 334);\nvertex(298, 327);\nvertex(291, 346);\nvertex(289, 327);\nvertex(289, 324);\nvertex(291, 312);\nvertex(298, 312);\nvertex(301, 324);\nvertex(299, 328);\nendShape();\ntext(\"Parsley taste like soap to me\",10,20,500,500);\n    }\n    if (scene === 40){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(61, 209);\nbezierVertex(64, 211, 69, 216, 70, 227);\nvertex(105, 260);\nvertex(67, 229);\nbezierVertex(59, 230, 55, 217, 61, 210);\nbezierVertex(61, 218, 61, 222, 64, 223);\nbezierVertex(64, 220, 64, 218, 62, 211);\nbezierVertex(73, 211, 88, 228, 128, 239);\nbezierVertex(159, 225, 189, 185, 230, 183);\nbezierVertex(269, 217, 280, 275, 339, 234);\nbezierVertex(339, 217, 312, 186, 261, 243);\nbezierVertex(243, 299, 188, 347, 95, 350);\nbezierVertex(98, 311, 178, 307, 268, 384);\nbezierVertex(293, 376, 302, 353, 258, 318);\nbezierVertex(263, 290, 294, 260, 335, 298);\nbezierVertex(333, 297, 324, 302, 322, 309);\nbezierVertex(312, 315, 302, 325, 300, 336);\nbezierVertex(300, 345, 310, 367, 318, 374);\nbezierVertex(331, 379, 354, 379, 365, 364);\nbezierVertex(370, 346, 367, 320, 338, 309);\nbezierVertex(340, 304, 340, 295, 333, 298);\nbezierVertex(331, 302, 327, 307, 321, 311);\nbezierVertex(329, 309, 334, 307, 338, 308);\nvertex(310, 319);\nvertex(350, 316);\nvertex(302, 329);\nvertex(361, 329);\nvertex(301, 341);\nvertex(365, 339);\nvertex(304, 349);\nvertex(365, 350);\nvertex(308, 358);\nvertex(364, 359);\nvertex(314, 364);\nvertex(359, 365);\nvertex(319, 371);\nvertex(351, 374);\nvertex(366, 339);\nvertex(332, 379);\nvertex(359, 326);\nvertex(318, 375);\nvertex(349, 316);\nvertex(310, 359);\nvertex(338, 309);\nvertex(306, 346);\nvertex(322, 310);\nvertex(301, 336);\nendShape();\n        \ntext(\"I've sewn some orniments,\\n scarfs, blankets and hats\",30,20,500,500);\n    }\n    if (scene === 41){\nbackground(255, 227, 241); \n\nbeginShape();\nvertex(30, 343);\nbezierVertex(41, 337, 57, 335, 81, 353);\nbezierVertex(102, 353, 160, 334, 206, 355);\nendShape();\nbeginShape();\nvertex(2, 252);\nbezierVertex(14, 238, 27, 231, 48, 230);\nbezierVertex(71, 244, 95, 250, 136, 247);\nbezierVertex(155, 236, 182, 227, 240, 226);\nbezierVertex(276, 236, 307, 242, 358, 225);\nbezierVertex(372, 217, 390, 216, 398, 216);\nbezierVertex(392, 211, 383, 200, 356, 175);\nbezierVertex(330, 178, 308, 193, 265, 218);\nbezierVertex(239, 222, 237, 222, 213, 227);\nbezierVertex(258, 225, 287, 213, 336, 194);\nbezierVertex(352, 197, 366, 198, 375, 194);\nendShape();\nbeginShape();\nvertex(148, 250);\nvertex(225, 249);\nvertex(152, 259);\nvertex(214, 258);\nvertex(161, 267);\nvertex(203, 268);\nvertex(172, 274);\nvertex(194, 275);\nvertex(182, 281);\nvertex(191, 282);\nvertex(185, 287);\nvertex(189, 287);\nvertex(186, 292);\nendShape();\nbeginShape();\nvertex(143, 244);\nbezierVertex(160, 193, 200, 184, 235, 225);\nendShape();\n        \ntext(\"I'm afraid of being on the\\nocean, but think it's beautiful\",20,20,500,500);\n    }\n    if (scene === 42){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(247, 282);\nvertex(247, 223);\nbezierVertex(245, 216, 236, 217, 230, 222);\nvertex(229, 246);\nbezierVertex(223, 250, 215, 262, 218, 289);\nbezierVertex(214, 281, 212, 260, 229, 244);\nvertex(187, 203);\nbezierVertex(179, 203, 174, 208, 176, 215);\nvertex(200, 239);\nvertex(169, 209);\nbezierVertex(162, 209, 157, 212, 158, 221);\nvertex(188, 251);\nvertex(154, 220);\nbezierVertex(148, 221, 143, 229, 153, 245);\nvertex(175, 265);\nvertex(152, 243);\nbezierVertex(147, 244, 144, 251, 149, 257);\nvertex(196, 306);\nbezierVertex(212, 310, 230, 309, 248, 281);\nendShape();\nbeginShape();\nvertex(200, 202);\nbezierVertex(208, 202, 213, 205, 215, 215);\nendShape();\nbeginShape();\nvertex(201, 189);\nbezierVertex(214, 190, 223, 200, 227, 216);\nendShape();\nbeginShape();\nvertex(149, 273);\nbezierVertex(152, 280, 157, 284, 164, 285);\nendShape();\nbeginShape();\nvertex(136, 273);\nbezierVertex(139, 285, 147, 292, 167, 298);\nendShape();\n        \ntext(\"I love helping others and\\ngetting to know them as well\",20,20,500,500);\n    }\n    if (scene === 43){\nbackground(255, 227, 241); \n stroke(51, 5, 59);\nfill(51, 5, 59);\nbeginShape();\nvertex(122, 204);\nbezierVertex(126, 209, 132, 210, 147, 215);\nbezierVertex(144, 222, 138, 237, 151, 266);\nvertex(161, 218);\nbezierVertex(173, 224, 189, 226, 221, 220);\nvertex(227, 260);\nbezierVertex(236, 248, 238, 236, 238, 216);\nbezierVertex(247, 212, 251, 210, 257, 202);\nbezierVertex(263, 231, 263, 256, 247, 299);\nbezierVertex(238, 311, 206, 325, 186, 327);\nbezierVertex(166, 321, 139, 308, 123, 288);\nbezierVertex(116, 267, 114, 238, 122, 206);\nendShape();\n\nnoFill();  \nellipse(189,234,200,200);\ntext(\"I like all kinds of Pokémon\\nBut mostly Dark types\",20,20,500,500);\n    }\n    if (scene === 44){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(100, 185);\nbezierVertex(80, 198, 75, 215, 74, 234);\nbezierVertex(96, 257, 117, 286, 118, 306);\nbezierVertex(93, 336, 81, 350, 81, 362);\nbezierVertex(91, 375, 109, 385, 116, 398);\nvertex(81, 398);\nbezierVertex(88, 386, 108, 373, 122, 346);\nbezierVertex(122, 336, 112, 315, 70, 285);\nbezierVertex(70, 260, 98, 247, 119, 233);\nbezierVertex(119, 206, 112, 193, 100, 185);\nendShape();\nbeginShape();\nvertex(306, 275);\nbezierVertex(320, 263, 342, 260, 350, 261);\nbezierVertex(343, 271, 326, 275, 307, 276);\nbezierVertex(310, 286, 320, 295, 323, 319);\nbezierVertex(319, 331, 314, 341, 304, 351);\nbezierVertex(334, 352, 363, 349, 391, 325);\nbezierVertex(382, 325, 370, 321, 364, 307);\nbezierVertex(360, 293, 355, 278, 350, 261);\nendShape();\n        \ntext(\"My favorite subject that\\nI've done in school is Science\",20,20,500,500);\n    }\n    if (scene === 45){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(130, 117);\nbezierVertex(116, 113, 92, 117, 82, 128);\nbezierVertex(65, 155, 58, 183, 60, 211);\nbezierVertex(70, 244, 97, 275, 142, 284);\nbezierVertex(110, 264, 87, 245, 73, 220);\nbezierVertex(73, 183, 84, 151, 93, 143);\nbezierVertex(97, 139, 110, 131, 128, 119);\nendShape();\nbeginShape();\nvertex(313, 201);\nvertex(308, 228);\nvertex(268, 231);\nvertex(309, 237);\nvertex(315, 279);\nvertex(319, 239);\nvertex(352, 226);\nvertex(319, 226);\nvertex(314, 200);\nendShape();\nbeginShape();\nvertex(257, 319);\nvertex(266, 287);\nvertex(268, 319);\nvertex(305, 323);\nvertex(268, 329);\nvertex(257, 374);\nvertex(257, 329);\nvertex(223, 325);\nvertex(257, 319);\nendShape();\n        \ntext(\"I like being outside at night\\nwhen the stars & moon is out\",20,20,500,500);\n    }\n    if (scene === 46){\nbackground(255, 227, 241); \n        textSize(79);\ntext(\"🧆\",10,170,500,500);   \ntext(\"🥙\",300,300,500,500); \ntext(\"🍛\",130,240,500,500); \ntextSize(31);\ntext(\"I love Arabic foods\",79,20,500,500);\n    }\n    if (scene === 47){\nbackground(255, 227, 241); \n\nbeginShape();\nvertex(91, 267);\nbezierVertex(104, 251, 116, 253, 122, 269);\nbezierVertex(129, 317, 114, 361, 109, 364);\nbezierVertex(87, 357, 82, 329, 91, 267);\nvertex(72, 267);\nvertex(36, 314);\nvertex(74, 270);\nvertex(89, 273);\nvertex(73, 281);\nvertex(47, 324);\nvertex(75, 286);\nvertex(89, 278);\nvertex(86, 316);\nvertex(68, 323);\nvertex(39, 350);\nvertex(67, 395);\nvertex(46, 351);\nvertex(70, 328);\nvertex(87, 321);\nvertex(87, 330);\nvertex(75, 335);\nvertex(62, 349);\nvertex(88, 391);\nvertex(69, 349);\nvertex(75, 340);\nvertex(89, 336);\nvertex(94, 351);\nvertex(105, 362);\nvertex(109, 364);\nvertex(119, 344);\nvertex(120, 337);\nvertex(127, 343);\nvertex(127, 354);\nvertex(118, 388);\nvertex(133, 355);\nvertex(132, 342);\nvertex(121, 334);\nvertex(123, 319);\nvertex(132, 326);\nvertex(145, 343);\nvertex(130, 390);\nvertex(152, 342);\nvertex(135, 323);\nvertex(123, 314);\nvertex(123, 281);\nvertex(130, 284);\nvertex(146, 313);\nvertex(133, 278);\nvertex(122, 276);\nvertex(139, 272);\nvertex(158, 303);\nvertex(141, 262);\nvertex(122, 271);\nendShape();\nbeginShape();\nvertex(325, 230);\nvertex(274, 294);\nvertex(318, 294);\nvertex(281, 391);\nvertex(337, 291);\nvertex(292, 287);\nvertex(326, 231);\nendShape();\n        \ntext(\"Spiderman and Ms Marvel\\nare my two favorite super\\nheros (I love most MCU\\ncharacters)\",20,20,500,500);\n    }\n    if (scene === 48){\nbackground(255, 227, 241); \n      \nellipse(100,300,20,20);  \nellipse(200,300,20,20);  \nellipse(300,300,20,20);  \ntext(\"I'm starting to regret\\ndoing this many facts...\\nI'm quite impatient\\nsometimes...\",20,20,500,500);\n    }\n    if (scene === 49){\nbackground(255, 227, 241); \n    \nbeginShape();\nvertex(37, 209);\nbezierVertex(44, 200, 65, 206, 77, 237);\nbezierVertex(80, 264, 82, 296, 61, 381);\nvertex(88, 317);\nbezierVertex(92, 346, 109, 369, 153, 376);\nbezierVertex(137, 366, 111, 346, 92, 297);\nbezierVertex(92, 280, 120, 249, 159, 212);\nbezierVertex(134, 219, 116, 241, 95, 267);\nbezierVertex(93, 234, 85, 211, 45, 206);\nendShape();\nbeginShape();\nvertex(230, 374);\nbezierVertex(260, 332, 278, 268, 287, 178);\nbezierVertex(298, 242, 313, 316, 364, 377);\nbezierVertex(337, 359, 316, 326, 296, 274);\nbezierVertex(285, 306, 282, 320, 233, 371);\nbezierVertex(256, 347, 274, 323, 283, 308);\nvertex(308, 304);\nendShape();\n        \ntext(\"KA is where I found out\\nhow much I love to code\",20,20,500,500);\n    }\n    if (scene === 50){\nbackground(255, 227, 241); \n        \ntext(\"🦓\",272,364,500,500);\ntext(\"🐧\",59,220,500,500);\ntext(\"🦝\",159,280,500,500);        \ntext(\"Most of my favorite animals\\nare black and white\",20,20,500,500);\n    }\n    if (scene === 51){\nbackground(255, 227, 241); \n        \nbeginShape();\nvertex(60, 242);\nbezierVertex(64, 224, 76, 198, 96, 195);\nbezierVertex(122, 204, 139, 237, 139, 241);\nbezierVertex(123, 224, 106, 206, 93, 202);\nbezierVertex(85, 213, 71, 230, 59, 243);\nendShape();\nbeginShape();\nvertex(233, 245);\nbezierVertex(243, 227, 255, 207, 274, 190);\nbezierVertex(296, 195, 316, 229, 326, 246);\nbezierVertex(301, 226, 289, 210, 276, 201);\nbezierVertex(264, 211, 255, 222, 235, 243);\nendShape();\nbeginShape();\nvertex(94, 307);\nbezierVertex(120, 344, 141, 362, 199, 372);\nbezierVertex(234, 367, 274, 337, 299, 301);\nbezierVertex(254, 325, 226, 344, 196, 359);\nbezierVertex(170, 349, 129, 329, 94, 306);\nendShape();\n        \ntext(\"This is my last fact...\\nI'm happy that you read\\nthrough this long thing :D\",20,20,500,500);\n    }\n    //end\n    if (scene === 52){\nbackground(255, 227, 241); \ntext(\"THE END!\\nThank you\\nfor reading\\n\\nHope you \\ncheck out\\nmy other\\nprograms!\",123,20,500,500);\n    }\n    mousePressed = function(){\n        scene++;\n};\n};\n\n\n//If any of you have any question for me, let me know! :)",
+    "title": "50 facts about ME!",
+    "votes": 22,
+    "created": "10 hours ago",
+    "updated": "10 hours ago",
     "type": "PJS",
     "author": {
-        "name": "Duke",
-        "id": "kaid_351465532815782433620675",
-        "avatar": "/images/avatars/svg/starky-ultimate.svg"
+        "name": "PenGwen2007",
+        "id": "kaid_7555256339261326807371220",
+        "avatar": "/images/avatars/svg/starky-tree.svg"
     },
     "dimensions": {
         "width": 400,
         "height": 400
     },
-    "forks": [
-        {
-            "title": "Spin-off of \"Just 5 levels[GAME]\"",
-            "id": "4558367730089984",
-            "forks": 0,
-            "votes": 1,
-            "author": {
-                "name": "Ghya Valentina García Davila",
-                "id": "kaid_529732435341413792264298"
-            }
-        },
-        {
-            "title": "Derivação de \"Just 5 levels[GAME]\"",
-            "id": "5063537719164928",
-            "forks": 0,
-            "votes": 1,
-            "author": {
-                "name": "Ian Estrela",
-                "id": "kaid_116774633893147340426657"
-            }
-        },
-        {
-            "title": "Spin-off of \"Just 5 levels[GAME]\"",
-            "id": "5087761674452992",
-            "forks": 0,
-            "votes": 1,
-            "author": {
-                "name": "bdf1043",
-                "id": "kaid_720244477854709756909290"
-            }
-        },
-        {
-            "title": "Spin-off of \"Just 5 levels[GAME]\"",
-            "id": "5296094297636864",
-            "forks": 0,
-            "votes": 1,
-            "author": {
-                "name": "amyers",
-                "id": "kaid_640463414302712927699876"
-            }
-        },
-        {
-            "title": "Spin-off of \"Just 5 levels[GAME]\"",
-            "id": "5412831642959872",
-            "forks": 0,
-            "votes": 1,
-            "author": {
-                "name": "amyer32",
-                "id": "kaid_7422139629257125255978"
-            }
-        },
-        {
-            "title": "Spin-off of \"Just 5 levels[GAME]\"",
-            "id": "5699699823525888",
-            "forks": 0,
-            "votes": 1,
-            "author": {
-                "name": "karineburgess13",
-                "id": "kaid_927472887123052260601858"
-            }
-        },
-        {
-            "title": "Basic platformer (more levels coming very soon!)",
-            "id": "6374504046444544",
-            "forks": 0,
-            "votes": 1,
-            "author": {
-                "name": "Zpikemaster24",
-                "id": "kaid_753888317123473340091614"
-            }
-        },
-        {
-            "title": "Just 5 levels[GAME]EASY(not mine)",
-            "id": "6462571579097088",
-            "forks": 0,
-            "votes": 1,
-            "author": {
-                "name": "liamford.stu",
-                "id": "kaid_179275454209023722256311"
-            }
-        }
-    ],
+    "forks": [],
     "posts": {
         "tips": [
             {
                 "replyCount": 0,
-                "votes": 16,
-                "date": "2 days ago",
+                "votes": 3,
+                "date": "4 hours ago",
                 "author": {
-                    "name": "Ezra",
-                    "id": "kaid_1112279572017452692208390",
-                    "avatar": "/images/avatars/svg/leaf-red.svg"
+                    "name": "Cataclysmic Code 🌩",
+                    "id": "kaid_820167475461480890635740",
+                    "avatar": "/images/avatars/svg/boggle-green.svg"
                 },
-                "text": "sub to duke https://www.khanacademy.org/computer-programming/moi-subby-page/6690459761688576<br><br>sub to me for lameee programs Yay: <br> https://www.khanacademy.org/computer-programming/my-subscription-page/4980149521399808<br><br><em>please keep at top</em>",
+                "text": "Fruit candy never has and never shall compare to chocolate and this is guy talkin here :D Besides the enjoyment of chocolate I don't know if we have anything else in common tho lol. Take the first ten facts for example:<br>I prefer US spelling even tho I live in Canada.<br>I don't like pink cuz ima guy but it also burns my eyes.<br>I speak spanish as my second language.<br>My basement is as far as I shall ever travel (jk jk but I really should get out more).<br>Me in the morning: -_- Me at night: 🥳🎉🥳<br>Birthday is in the start of spring<br>Wait... Another common fact! Christmas is da best!<br>Two in a row, Maybe I was wrong :O I celebrate all of the major Jewish holidays as well :)<br>At least you didn't mention Romance XD Impossible not to share the fact too ig<br>What are the chances o.O I am too! Four in a row :O<br>I have never had goat cheese but feta is yum... streak broken<br>Oh wait I just did 11 oh well so I'm 5/11 not as different as I first thought but we get less similar later on...",
                 "locked": false,
                 "pinned": false,
                 "replies": []
-            },
-            {
-                "replyCount": 4,
-                "votes": 4,
-                "date": "2 days ago",
-                "author": {
-                    "name": "Radar",
-                    "id": "kaid_3902988618718040904060736",
-                    "avatar": "/images/avatars/svg/leafers-seed.svg"
-                },
-                "text": "Nice just how this is a collab and how ezra posted the subpage links and how the better coder released it makes it sound familiar",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "lol we totally didn't copy anything ;P"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Radar",
-                            "id": "kaid_3902988618718040904060736",
-                            "avatar": "/images/avatars/svg/leafers-seed.svg"
-                        },
-                        "text": "Yes, it looks better. No, it doesn't lag for me. Also its super easy to win with zero deaths now for me lol"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Yeah hopefully the next one will be a bit harder"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 3,
-                "date": "a day ago",
-                "author": {
-                    "name": "S 🇳 🇴 🇴 🇵 🇾",
-                    "id": "kaid_117061054145957092515447",
-                    "avatar": "/images/avatars/svg/mr-pants-orange.svg"
-                },
-                "text": "The last level is super cool.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thanks snoopy! Go jump on Charlie Brown for me will ya? ;P"
-                    }
-                ]
-            },
-            {
-                "replyCount": 5,
-                "votes": 2,
-                "date": "2 days ago",
-                "author": {
-                    "name": "theBTG15",
-                    "id": "kaid_1184047636356324637542824",
-                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                },
-                "text": "This is nice! I like the final level.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thank you! Yep that's the biggest thing that sets this aside form other platformers.<br><br>Btw I fixed the color scheme and added particles, how does it look and does it lag?"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "theBTG15",
-                            "id": "kaid_1184047636356324637542824",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I think it looks a lot better ngl. The previous one hurt my eyes. It does kind of lag but I think that's because I use a potato for a computer."
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "theBTG15",
-                            "id": "kaid_1184047636356324637542824",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Yeah, it comes down to 25 fps on chromebook. I looked at the amount of lines on this and I was impressed! Nice job!"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "yeah it hurt my eye too haha<br><br>I added a button that allows you to remove lag(and particles but that is the only way)"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "theBTG15",
-                            "id": "kaid_1184047636356324637542824",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Nice! Very smooth."
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 2,
-                "date": "a day ago",
-                "author": {
-                    "name": "Electric Dolphin ⚡️🐬",
-                    "id": "kaid_1188776231699286995947997",
-                    "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                },
-                "text": "This is really creative!<br>You can do <code>translate(round(cam.x), round(cam.y));</code> to stop the seams in between blocks when the camera moves.<br>I eventually got 0 deaths.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thanks!<br>Oh yeah I meant to do that! thanks!"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 2,
-                "date": "a day ago",
-                "author": {
-                    "name": "HB_the_Pencil (semi-retired)",
-                    "id": "kaid_412656070256786668848958",
-                    "avatar": "/images/avatars/svg/mr-pants-green.svg"
-                },
-                "text": "Dang, that last level... I couldn't beat it :P",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "yeah it's rough lol(try getting both things on the right lined up)"
-                    }
-                ]
-            },
-            {
-                "replyCount": 4,
-                "votes": 2,
-                "date": "2 days ago",
-                "author": {
-                    "name": "Ace Rogers (Off)",
-                    "id": "kaid_714276242204949021450419",
-                    "avatar": "/images/avatars/svg/leaf-blue.svg"
-                },
-                "text": "Nice game! I won with 0 deaths. :)",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thank you and nice!(I have too haha it's pretty easy)<br>Btw I fixed the color scheme and added lava particles, how does it look and does it lag?"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Ace Rogers (Off)",
-                            "id": "kaid_714276242204949021450419",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "You're welcome! :)<br>It looks great! :D<br>Um, let to check. Nope. No lag. Not even the the last level. :)"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thanks!<br>Great I was afraid that it might =D<br>I might add particles for when the player moves and jumps. I'll let you know if I add that."
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Ace Rogers (Off)",
-                            "id": "kaid_714276242204949021450419",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "You're welcome! :)<br>That would be neat. Okay. :)"
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 2,
-                "date": "a day ago",
-                "author": {
-                    "name": "cwalsh1223 BBB#",
-                    "id": "kaid_792288208072906614241148",
-                    "avatar": "/images/avatars/svg/spunky-sam-red.svg"
-                },
-                "text": "Nice (but generic) platformer. I beat it with 0 deaths (yay)<br>I like the final level. :)",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "It is indeed a generic platformer. Made in one day :P<br>Yeah the last level is the biggest part."
-                    }
-                ]
-            },
-            {
-                "replyCount": 4,
-                "votes": 2,
-                "date": "2 days ago",
-                "author": {
-                    "name": "SwankyMan™",
-                    "id": "kaid_82898098000024228278987",
-                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                },
-                "text": "Yay! First again!<br><br>Thats pretty cool!",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thanks!<br>Have you played all of it?"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "SwankyMan™",
-                            "id": "kaid_82898098000024228278987",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Yw!<br><br>Yes (...With 32 deaths)<br><br>It looks good! No lag that I notice.<br><br><b>EDIT</b> 3 deaths :)"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "lol it's not <em>that</em> bad :P<br><br>great!"
-                    }
-                ]
-            },
-            {
-                "replyCount": 4,
-                "votes": 2,
-                "date": "2 days ago",
-                "author": {
-                    "name": "wealR",
-                    "id": "kaid_831993479561352012904348",
-                    "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                },
-                "text": "yay i won with 22 deaths!",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "that's lame lol(inside joke y'all)"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "wealR",
-                            "id": "kaid_831993479561352012904348",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "haha i just won with 0 deaths!"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "yeah it's not that hard"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Mathlete11",
-                            "id": "kaid_4902531429433401500771997",
-                            "avatar": "/images/avatars/svg/starky-sapling.svg"
-                        },
-                        "text": "...I failed the 1st level like 50 times XC<br><br>I feel rly lame XD"
-                    }
-                ]
-            },
-            {
-                "replyCount": 5,
-                "votes": 2,
-                "date": "2 days ago",
-                "author": {
-                    "name": "Shifter -ON-",
-                    "id": "kaid_892112752920553577482062",
-                    "avatar": "/images/avatars/svg/blobby-purple.svg"
-                },
-                "text": "Yay I won with 198 deaths! XD. Great game, I would have never thought of this!",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "lol my best is 0 :P<br><br>thank you!"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Shifter -ON-",
-                            "id": "kaid_892112752920553577482062",
-                            "avatar": "/images/avatars/svg/blobby-purple.svg"
-                        },
-                        "text": "I'm trying to get as little deaths as I can. EDIT: I just got a new record: 3 deaths!"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "sweet job!"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Shifter -ON-",
-                            "id": "kaid_892112752920553577482062",
-                            "avatar": "/images/avatars/svg/blobby-purple.svg"
-                        },
-                        "text": "It looks great! there's no lag at all!"
-                    }
-                ]
-            },
-            {
-                "replyCount": 2,
-                "votes": 2,
-                "date": "2 days ago",
-                "author": {
-                    "name": "WinWinKhan",
-                    "id": "kaid_936941229910200376858712",
-                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
-                },
-                "text": "Done with 44 death.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Nicely done!<br><br>I fixed the color scheme and added particles, how does it look and does it lag?"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "WinWinKhan",
-                            "id": "kaid_936941229910200376858712",
-                            "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
-                        },
-                        "text": "Not at all for me, maybe it would lag a lot in older devices though."
-                    }
-                ]
-            },
-            {
-                "replyCount": 5,
-                "votes": 1,
-                "date": "2 days ago",
-                "author": {
-                    "name": "Cyan Spirit",
-                    "id": "kaid_1418532449612597727143882",
-                    "avatar": "/images/avatars/svg/cacteye-blue.svg"
-                },
-                "text": "Wow, really cool!! ! !<br><br>Right now I'm trying to beat each of the four different levels when they're together at the end.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thank you!<br><br>Yeah the last level :P<br>It's possible just very hard ;P"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Cyan Spirit",
-                            "id": "kaid_1418532449612597727143882",
-                            "avatar": "/images/avatars/svg/cacteye-blue.svg"
-                        },
-                        "text": "You're welcome! :P<br>I've beaten the top two already in that last level. The bottom two seem like they might be possible, just very extremely hard."
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "the only one that I knew you could beat was the top right one lol(when they are all four at once)"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Cyan Spirit",
-                            "id": "kaid_1418532449612597727143882",
-                            "avatar": "/images/avatars/svg/cacteye-blue.svg"
-                        },
-                        "text": "I do like it! And it doesn't seem to lag for me.<br>But now that the lava has particles it makes me want to see way more particles and detailed graphics! :P<br><br>Also, lol.<br>I still can't beat those bottom two..."
-                    }
-                ]
-            },
-            {
-                "replyCount": 6,
-                "votes": 1,
-                "date": "5 hours ago",
-                "author": {
-                    "name": "VVhiteTiger",
-                    "id": "kaid_154605635905555420140323",
-                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                },
-                "text": "When you realize that people only vote because of who released it.",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "heeyyyy what are you talking about...<br>but yes I have to agree it's over voted..."
-                    },
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Jackson H",
-                            "id": "kaid_5938807447267118718814449",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "This is rightfully voted. <br><br><br>But yes I always vote HACK'S stuff."
-                    },
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "That's debatable.<br><br>but also why does this have anything to do with HACK's stuff...."
-                    },
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Jackson H",
-                            "id": "kaid_5938807447267118718814449",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Because she said that people only vote because of who released it. that's why I said I vote HACK'S stuff. Because when he  release's stuff I vote it, cause I like it."
-                    },
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "VVhiteTiger isn't a she :P<br>But there are some people who vote just because they like me, which is not what I want."
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Jackson H",
-                            "id": "kaid_5938807447267118718814449",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I am really really sorry, I did't know it was a he. I would never vote   for someone just because I like them, that's not me. I vote for HACK'S stuff because I really like it. I just released my first big project so I hope people don't vote because they just like me.<br><br>Thank you for the advice:)"
-                    }
-                ]
             },
             {
                 "replyCount": 0,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "Yogurt",
-                    "id": "kaid_23839232709913550984474",
-                    "avatar": "/images/avatars/svg/cs-winston.svg"
-                },
-                "text": "Did it in 10 deaths, this is pretty good!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 6,
-                "votes": 1,
-                "date": "13 hours ago",
-                "author": {
-                    "name": "JSCoder",
-                    "id": "kaid_3032679493880386290676439",
-                    "avatar": "/images/avatars/svg/leaf-orange.svg"
-                },
-                "text": "this name seems suspicious =p",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "12 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Hey, wydm? it is just five levels :P"
-                    },
-                    {
-                        "date": "9 hours ago",
-                        "author": {
-                            "name": "JSCoder",
-                            "id": "kaid_3032679493880386290676439",
-                            "avatar": "/images/avatars/svg/leaf-orange.svg"
-                        },
-                        "text": "yeah, but that is suspicious in and of itself =]"
-                    },
-                    {
-                        "date": "9 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "lol but just how?<br>you know what, I think your just the suspicious one :P"
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "JSCoder",
-                            "id": "kaid_3032679493880386290676439",
-                            "avatar": "/images/avatars/svg/leaf-orange.svg"
-                        },
-                        "text": "Doing only 5 discriminated against 6.<br><br>Not me =p. I would never be suspicious =]"
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "yeah but 6 was too scared because 7 8 9.<br><br>by saying that it proves that you are :P"
-                    },
-                    {
-                        "date": "an hour ago",
-                        "author": {
-                            "name": "JSCoder",
-                            "id": "kaid_3032679493880386290676439",
-                            "avatar": "/images/avatars/svg/leaf-orange.svg"
-                        },
-                        "text": "it eight not ate. I think I was wondering if I should use that joke  but I guess you did. =]<br><br>I think you are the suspicious one =p"
-                    }
-                ]
-            },
-            {
-                "replyCount": 3,
-                "votes": 1,
-                "date": "2 days ago",
+                "votes": 2,
+                "date": "9 hours ago",
                 "author": {
                     "name": "- k a t i t e -",
                     "id": "kaid_312040000225853665820004",
                     "avatar": "/images/avatars/svg/duskpin-sapling.svg"
                 },
-                "text": "this is super cool!<br><br>i can't beat the third level, none of the jumps seem to work :(",
+                "text": "this is so cool! i love all the graphics <3",
                 "locked": false,
                 "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "try to air jump.<br><br>it really gets cool at the last level :P"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "- k a t i t e -",
-                            "id": "kaid_312040000225853665820004",
-                            "avatar": "/images/avatars/svg/duskpin-sapling.svg"
-                        },
-                        "text": "it looks great! i'm not having any problems with lag :D"
-                    }
-                ]
+                "replies": []
             },
             {
-                "replyCount": 3,
+                "replyCount": 2,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "an hour ago",
                 "author": {
-                    "name": "Samurai Warrior™ ✝ (Offline)",
-                    "id": "kaid_333534297788735128142174",
+                    "name": "kitty mascot",
+                    "id": "kaid_1066778980955332043559618",
                     "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                 },
-                "text": "Nice!<br><br>I'm still working on that game you forced me to make lol<br><br>Me on level 3:<br><b>wait it's impossible</b>...<br><b>oh you can air-jump</b>...<br>lol <br>80th<br><br>EDIT:<br>Is level 5 possible? :O",
+                "text": "\"I can do an impression of Luigi then to Hagrid without messing one of them up\"<br>...that is an odd talent XD",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "an hour ago",
                         "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thanks =D<br><br>lol and I'm still waiting :P<br>(you should join The Code Wars)<br><br>lol yeah it's a tough one.<br>80th O.o<br>that's too many man lol<br><br>NOT AN EDIT BUT I WANT TO DO ALL CAPS SO WHY NOT:<br>Yes it is. Get the two players on the right lined up then try."
-                    },
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Samurai Warrior™ ✝ (Offline)",
-                            "id": "kaid_333534297788735128142174",
+                            "name": "kitty mascot",
+                            "id": "kaid_1066778980955332043559618",
                             "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
-                        "text": ":)<br><br>It'll be a few days yet.<br>well I probably won't because<br>1) procrastination<br>2) I'm a little busy irl<br>3) okay I probably should...<br>that last one isn't a good reason...<br>I'll look into it :)<br><br>naw you deserve it<br><br>OKAY I GUESS WE'RE DOING THIS... WHY NOT?<br>okay, I'll have to try that :P"
+                        "text": "what type of yogas do you do?"
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "an hour ago",
                         "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                            "name": "kitty mascot",
+                            "id": "kaid_1066778980955332043559618",
+                            "avatar": "/images/avatars/svg/sneak-peak-green.svg"
                         },
-                        "text": "oooh yay.<br>1) it will help you not procrastinate.<br>2) aren't we all<br>3) Hey that's a good point<br>I need you on this team :P<br><br>uhhhhh yeahhhh<br><br>IDK IT\"S COOOL IG...<br>gl"
+                        "text": "i was afraid of using a vacuum for a while XD like... two years .-."
                     }
                 ]
             },
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "11 hours ago",
+                "date": "43 minutes ago",
                 "author": {
-                    "name": "CHOViolin",
-                    "id": "kaid_355666959582199141483622",
-                    "avatar": "/images/avatars/svg/eggleston-blue.svg"
-                },
-                "text": "I won with 6 deaths.",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 13,
-                "votes": 1,
-                "date": "4 hours ago",
-                "author": {
-                    "name": "Radar",
-                    "id": "kaid_3902988618718040904060736",
-                    "avatar": "/images/avatars/svg/leafers-seed.svg"
-                },
-                "text": "Duke i think everyone just loves you lol",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "hey, you know what? I'm fine with that lol<br>but yeah I was hoping for like 30-50 votes lol.<br>not it being my most voted project :P<br><br>But seriously, I am gonna try to make my next program much better."
-                    },
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Radar",
-                            "id": "kaid_3902988618718040904060736",
-                            "avatar": "/images/avatars/svg/leafers-seed.svg"
-                        },
-                        "text": "yeah,lol<br>Yes that's around what it normally would get lol<br>It probably will get there lol<br><br>You joined Echolite? Well please pump out quality programs or me as a judge will be >:( lol jk"
-                    },
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "and I literally just made it in one day -_-<br>and your programs are just so much better and funnier and are getting less votes.<br><br>yeah if it gets there... <b>face palm</b><br><br>lol I'm scared now...<br>hey if I do make a good one how about giving it 20 points? ;P"
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Radar",
-                            "id": "kaid_3902988618718040904060736",
-                            "avatar": "/images/avatars/svg/leafers-seed.svg"
-                        },
-                        "text": "well, this game is fun lol<br>my game isn't as fun even though the graphics are better lol<br><br>it will lol<br><br><b>evil laugh</b><br>uhh i don't even know the grading critieria and what the highest score possible is lol"
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "bro super slime smash is my favorite ka game. O.O<br><br>nooooo lol<br><br><b>yikes</b><br>yeah the max is ten hehe"
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Radar",
-                            "id": "kaid_3902988618718040904060736",
-                            "avatar": "/images/avatars/svg/leafers-seed.svg"
-                        },
-                        "text": "no there are a lot better games like dat's Bee Swarm Simulator<br><br>oh then if you make a good one you get 9.67 are you ok with that?"
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I still like yours the best.<br><br>lol wow that's a high score."
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Radar",
-                            "id": "kaid_3902988618718040904060736",
-                            "avatar": "/images/avatars/svg/leafers-seed.svg"
-                        },
-                        "text": "thanks :)<br><br>but good = perfect"
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "hey you deserve it. I have spent too much time playing that game lol<br><br>bad = 1<br>ok =  3 <br>decent = 5<br>good = 8<br>perfect = 10<br><br>there is a chance to get a ten but most likely not.<br>even 9.67 is really high. the highest I got was a 6.5"
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Radar",
-                            "id": "kaid_3902988618718040904060736",
-                            "avatar": "/images/avatars/svg/leafers-seed.svg"
-                        },
-                        "text": "super duper bad = 1<br>super bad = 2<br>bad = 3<br>not bad = 4<br>ok = 5<br>decent = 6<br>mildly good = 7<br>good = 8<br>great = 9<br>perfect = 10<br><br>the highest score you've <em>ever</em> got is 6.5!?!?! how!?!"
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "super duper bad = 0.2<br>super bad = 0.5<br>bad = 2<br>not bad = ok<br>ok = 4<br>decent = mildly good<br>mildly good =  6<br>good = 8<br>perfect = 10l<br><br>I was really bad in all the comps till this last primavera and the judges are strict lol<br>(I got 6.5 on gray world and 3-4 on FFC lol)<br><br>It just depends on some judges. I myself am a really strict judge."
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Radar",
-                            "id": "kaid_3902988618718040904060736",
-                            "avatar": "/images/avatars/svg/leafers-seed.svg"
-                        },
-                        "text": "It seems like all judges are strict judges lol. It looks like by peer pressure, i shall have to fit into that category lol."
-                    },
-                    {
-                        "date": "2 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "lol yeaaahhh.<br>But yeah I just think of like the best game. and then judge down from there"
-                    }
-                ]
-            },
-            {
-                "replyCount": 2,
-                "votes": 1,
-                "date": "2 days ago",
-                "author": {
-                    "name": "HAMBURGER RiDER",
-                    "id": "kaid_410991944085535280495507",
-                    "avatar": "/images/avatars/svg/starky-sapling.svg"
-                },
-                "text": "Whoa, super unique idea!<br>Love the transitions to different levels, the only thing I could have asked for was better graphics, or even less harsh colors haha<br><br>I was a little disappointed, though, that only one of the players had to reach the end!<br>I thought they all had to - it would be much harder that way. (once they reached the goal they would disappear)<br><br>Looking forward to the next challenge :D<br>Vote ++;",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "haha thank you!<br>yeah the graphics was definitely the lacking part. yeah I'm too lazy to change them idk why but it takes me wayyy to long lol<br><br>oooh that would be a great idea... I may add that tomorrow haha!<br><br>I already have a idea that I think will make your head spin :P<br>thanks again!"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "ezekiel.carter2009",
-                    "id": "kaid_4345125146474084185234199",
-                    "avatar": "/images/avatars/svg/blobby-green.svg"
-                },
-                "text": "15 deaths to beat game. Good Game!",
-                "locked": false,
-                "pinned": false,
-                "replies": []
-            },
-            {
-                "replyCount": 9,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "Shåqu¡llë.Øåtmëål",
-                    "id": "kaid_455614962916004540799706",
-                    "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                },
-                "text": "awesome game!<br>vote++",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "11 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Oh thanks Green falcon! ;P"
-                    },
-                    {
-                        "date": "10 hours ago",
-                        "author": {
-                            "name": "Shåqu¡llë.Øåtmëål",
-                            "id": "kaid_455614962916004540799706",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "ur welcome the duke ;p"
-                    },
-                    {
-                        "date": "10 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "You should make a game :P"
-                    },
-                    {
-                        "date": "10 hours ago",
-                        "author": {
-                            "name": "Shåqu¡llë.Øåtmëål",
-                            "id": "kaid_455614962916004540799706",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "yess I'm about to finish the intro to js and intro to Advanced JS: Games & Visualizations"
-                    },
-                    {
-                        "date": "10 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "yay!<br>I made a small tutorial for someone else, I can show it to you too if you want me too.(a platformer tutorial)"
-                    },
-                    {
-                        "date": "9 hours ago",
-                        "author": {
-                            "name": "Shåqu¡llë.Øåtmëål",
-                            "id": "kaid_455614962916004540799706",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "I would love to see it :)"
-                    },
-                    {
-                        "date": "9 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Well I just found out that the first part was deleted -_-<br>so you should probably just follow Liam K's.<br><br>sorry about that :/"
-                    },
-                    {
-                        "date": "7 hours ago",
-                        "author": {
-                            "name": "Shåqu¡llë.Øåtmëål",
-                            "id": "kaid_455614962916004540799706",
-                            "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                        },
-                        "text": "oh no :d<br><br>the thumbnail is legendary =0<br><br>its ok :)"
-                    },
-                    {
-                        "date": "6 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "lol yes the thumbnail"
-                    }
-                ]
-            },
-            {
-                "replyCount": 11,
-                "votes": 1,
-                "date": "2 days ago",
-                "author": {
-                    "name": "3DA Games",
-                    "id": "kaid_46113533788750322324717",
+                    "name": "TH3 ROUG3 L3G3ND™",
+                    "id": "kaid_2809101008758048501324524",
                     "avatar": "/images/avatars/svg/boggle-blue.svg"
                 },
-                "text": "Very good game! I do have a few things I need you to improve on:<br>    Its good but the creation of the first no death level sometimes isn't possible to jump on if you arent good, actually never minddd",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thank you!<br>haha yeah that level I made for people who like to rage quit lol<br><br>I fixed the color scheme and added particles, how does it look and does it lag?"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "3DA Games",
-                            "id": "kaid_46113533788750322324717",
-                            "avatar": "/images/avatars/svg/boggle-blue.svg"
-                        },
-                        "text": "It does'nt lag at all and looks good! Maybe make those blocks black and not gray"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "3DA Games",
-                            "id": "kaid_46113533788750322324717",
-                            "avatar": "/images/avatars/svg/boggle-blue.svg"
-                        },
-                        "text": "I did never mind cuz i made it over."
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Great! I might add another thing and ask you if it lags.<br><br>yeah I saw that I was just agreeing that it is hard."
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "3DA Games",
-                            "id": "kaid_46113533788750322324717",
-                            "avatar": "/images/avatars/svg/boggle-blue.svg"
-                        },
-                        "text": "Its not hard, I was just doing the laws of physics then remembering this is a platformer lol. It wasnt hard after thinking that."
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "lol maybe your just better then me cause I only make it a fourth of the times lol"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "3DA Games",
-                            "id": "kaid_46113533788750322324717",
-                            "avatar": "/images/avatars/svg/boggle-blue.svg"
-                        },
-                        "text": "I do have one request, a double jump powerup. I accidentally got one and that it was cool. Reccomended ;)"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "3DA Games",
-                            "id": "kaid_46113533788750322324717",
-                            "avatar": "/images/avatars/svg/boggle-blue.svg"
-                        },
-                        "text": "I dont know if im better than you. I do Geometry Dash but still."
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Not in this game sir but in my future games I will :P<br>(A Gray World game that I made has one)"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "oh didn't see your second comment woops.<br>yeah idk."
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "3DA Games",
-                            "id": "kaid_46113533788750322324717",
-                            "avatar": "/images/avatars/svg/boggle-blue.svg"
-                        },
-                        "text": "Yeah does sound good! Also weird reason if you go to TT and type something then back to the games it makes you restart and idk why. The graphics are gone after that :("
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "2 days ago",
-                "author": {
-                    "name": "jedimaster09",
-                    "id": "kaid_4940962515427875209226",
-                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                },
-                "text": "Finished in 2 deaths. The best part of the platformer is the last level.",
+                "text": "Switch is best!",
                 "locked": false,
                 "pinned": false,
                 "replies": []
             },
             {
-                "replyCount": 1,
+                "replyCount": 0,
                 "votes": 1,
-                "date": "9 hours ago",
+                "date": "4 hours ago",
                 "author": {
-                    "name": "Harmony",
-                    "id": "kaid_5029554478572114895720391",
+                    "name": "sugarnlight",
+                    "id": "kaid_516497598968512440616556",
                     "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
                 },
-                "text": "contorls are cool too, but what about the controls? XD",
+                "text": "I will never understand morning people...<br>I think the ocean is beautiful too, but I've never been to one in person.<br>My favorite school subject is also science!<br>Also, mad respect to you for actually taking the time to create a graphic for each fact. You earned my sub :)",
                 "locked": false,
                 "pinned": false,
-                "replies": [
-                    {
-                        "date": "6 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "lol thanks for the catch"
-                    }
-                ]
-            },
-            {
-                "replyCount": 5,
-                "votes": 1,
-                "date": "15 hours ago",
-                "author": {
-                    "name": "BΣYӨПD",
-                    "id": "kaid_5370656553883782878121797",
-                    "avatar": "/images/avatars/svg/leaf-blue.svg"
-                },
-                "text": "Very creative structure, and I love the translation between the levels as opposed to just erasing it and drawing a new one.<br><br>Keep in mind that the program crashes when you scroll to the T&T, which is annoying because I was on the last level but now I have to restart. UI is an important part of projects too 😔",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "12 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thank you, DR! Then your be disappointed to hear that I am actually drawing a new level every single time lol<br>I only had one day to make this and tried the other way but ran into a couple glitches...<br><br>Yeah I don't know how to fix this... how would you do it?"
-                    },
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "BΣYӨПD",
-                            "id": "kaid_5370656553883782878121797",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "<pre><code>(function() {return this;})().LoopProtector.prototype.leave = function() {};</code></pre><br>is my favorite way to get the job done. I put it in the program, scrolled down to write this, and scrolled back up - no crashing."
-                    },
-                    {
-                        "date": "8 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Alright I'll add that.<br>Whom should I give credit to?(you correct?)"
-                    },
-                    {
-                        "date": "6 hours ago",
-                        "author": {
-                            "name": "BΣYӨПD",
-                            "id": "kaid_5370656553883782878121797",
-                            "avatar": "/images/avatars/svg/leaf-blue.svg"
-                        },
-                        "text": "It's from @dkareh on KA, so you could credit it to him."
-                    },
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thank you sir!"
-                    }
-                ]
-            },
-            {
-                "replyCount": 4,
-                "votes": 1,
-                "date": "4 hours ago",
-                "author": {
-                    "name": "Jackson H",
-                    "id": "kaid_5938807447267118718814449",
-                    "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                },
-                "text": "Nice game! :)<br><br>It was really fun. Thanks Duke.  :)<br><br>I had 0 deaths!<br><br>You have my vote+++++",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "4 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thank you!<br><br>Next game I'll make sure to make better =D<br><br>nice job!"
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Jackson H",
-                            "id": "kaid_5938807447267118718814449",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "This is one of the best game's I have played in a long time.<br><br>Keep up the good work! :)"
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Have you seen Radars game?<br><br>I'll try!"
-                    },
-                    {
-                        "date": "3 hours ago",
-                        "author": {
-                            "name": "Jackson H",
-                            "id": "kaid_5938807447267118718814449",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Yes I have. It's really fun, me and my brother play this one and that one and khanbattel none stop."
-                    }
-                ]
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "HACK",
-                    "id": "kaid_6815067100354522609320825",
-                    "avatar": "/images/avatars/svg/cs-ohnoes.svg"
-                },
-                "text": "How do you beat level 1",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "try air jumping"
-                    }
-                ]
+                "replies": []
             },
             {
                 "replyCount": 0,
                 "votes": 1,
                 "date": "4 hours ago",
                 "author": {
-                    "name": "WinstonWinner000 (Parlor Indie)♞⚂♠",
-                    "id": "kaid_693763055742960827086832",
-                    "avatar": "/images/avatars/svg/cs-winston.svg"
+                    "name": "A+10333",
+                    "id": "kaid_539345742584903189251569",
+                    "avatar": "/images/avatars/svg/stelly-orange.svg"
                 },
-                "text": "Nice game! :)<br><br>Though I would recommend making more original graphics.",
+                "text": "Wow, 50?! I can barely give 10 facts about myself ;-;<br><br>You should meet my sister; she also writes the british spelling a lot as well XD<br><br>I'm learning Japanese as a second language and Spanish as a third :)<br>(言語を勉強してのが好きです！)<br><br>Wait... I like fruit candy more than chocolate O.o<br>(I don't know, chocolate is just too much for me ig)<br><br>I like black tea the most :)<br><br>I also like Arabic food ;)<br><br>Vote++; cuz u r a rlly cool person :O",
                 "locked": false,
                 "pinned": false,
                 "replies": []
-            },
-            {
-                "replyCount": 6,
-                "votes": 1,
-                "date": "2 days ago",
-                "author": {
-                    "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
-                    "id": "kaid_706406430552760652245376",
-                    "avatar": "/images/avatars/svg/cacteye-yellow.svg"
-                },
-                "text": "Nice job, very rage-inducing  <br><br>Don't ask what happened to my best pair of headphones 🥵",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thank you, yes I made it hard on purpose ;P<br><br>haha. Tip, win by the top right level. Get the right sides guys lined up. And remember to air jump ;P"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
-                            "id": "kaid_706406430552760652245376",
-                            "avatar": "/images/avatars/svg/cacteye-yellow.svg"
-                        },
-                        "text": "I won, nice tip."
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "yay =D"
-                    },
-                    {
-                        "date": "2 days ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "I fixed the color scheme and added particles, how does it look and does it lag?"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "𝕜𝕚𝕒𝕒𝕟𝕥𝕠𝕝𝕚𝕒",
-                            "id": "kaid_706406430552760652245376",
-                            "avatar": "/images/avatars/svg/cacteye-yellow.svg"
-                        },
-                        "text": "I won by the top left level :P<br><br>It looks pretty good, I would mess around with colors. Also its pretty laggy with lava 😢"
-                    },
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "hmmm let me try that...(EDIT: yeah I beat it)<br><br>just change that one lag var to false;"
-                    }
-                ]
             },
             {
                 "replyCount": 2,
                 "votes": 1,
-                "date": "10 hours ago",
+                "date": "4 hours ago",
                 "author": {
                     "name": "ASBackup",
                     "id": "kaid_714780036830891967670231",
                     "avatar": "/images/avatars/svg/aqualine-tree.svg"
                 },
-                "text": "can't remember if i commented, but I saved my vote to make this officially ur 2nd highest :P",
+                "text": "ca va bien merci et twa?<br>i did that by guessing lol<br><br>looks great :)<br>the mini-graphics are an amazing touch :)",
                 "locked": false,
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "10 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "ASBackup",
                             "id": "kaid_714780036830891967670231",
                             "avatar": "/images/avatars/svg/aqualine-tree.svg"
                         },
-                        "text": "this is awesome :D<br>i beat it >:)"
+                        "text": "still reading this lol<br>i don't like feta either tbh i like any other cheeses tho :)"
                     },
                     {
-                        "date": "10 hours ago",
+                        "date": "4 hours ago",
                         "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
+                            "name": "ASBackup",
+                            "id": "kaid_714780036830891967670231",
+                            "avatar": "/images/avatars/svg/aqualine-tree.svg"
                         },
-                        "text": "lol of course you did :P<br><br>thank you!"
+                        "text": "im a boy and i fancy me a solid reece stick or caramilk bar over candy"
                     }
                 ]
             },
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "7 hours ago",
+                "date": "2 hours ago",
                 "author": {
-                    "name": "Zpikemaster24",
-                    "id": "kaid_753888317123473340091614",
-                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
+                    "name": "SquiirelBoyMO",
+                    "id": "kaid_773398490746126089688872",
+                    "avatar": "/images/avatars/svg/leaf-grey.svg"
                 },
-                "text": "Here's my version so far, https://www.khanacademy.org/computer-programming/basic-platformer-credit-to-duke-for-letting-me-use-his-platformer-engine/6374504046444544",
+                "text": "very interesting...",
                 "locked": false,
                 "pinned": false,
                 "replies": []
@@ -1570,141 +170,18 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "a day ago",
+                "date": "5 hours ago",
                 "author": {
-                    "name": "AmethystSky",
-                    "id": "kaid_784805823121542822870790",
-                    "avatar": "/images/avatars/svg/duskpin-ultimate.svg"
+                    "name": "The one",
+                    "id": "kaid_9809147761059943698111879",
+                    "avatar": "/images/avatars/svg/aqualine-ultimate.svg"
                 },
-                "text": "Finally completed it, 21 deaths (mostly on the last level and the second one)",
+                "text": "fruit candy is bla no offense",
                 "locked": false,
                 "pinned": false,
                 "replies": []
-            },
-            {
-                "replyCount": 1,
-                "votes": 1,
-                "date": "a day ago",
-                "author": {
-                    "name": "Luke Ellis",
-                    "id": "kaid_8535468719137003545030723",
-                    "avatar": "/images/avatars/svg/orange-juice-squid.svg"
-                },
-                "text": "Man, I haven't seen a platformer with a level like that last one before. Nice job, Duke and [Ezra].",
-                "locked": false,
-                "pinned": false,
-                "replies": [
-                    {
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Thank you!"
-                    }
-                ]
             }
         ],
-        "questions": [
-            {
-                "replyCount": 0,
-                "votes": 0,
-                "date": "a day ago",
-                "author": {
-                    "name": "math manual",
-                    "id": "kaid_1132758746388014174224664",
-                    "avatar": "/images/avatars/svg/cs-hopper-cool.svg"
-                },
-                "text": "Why? Of all the names?",
-                "replies": [],
-                "answers": [
-                    {
-                        "replyCount": 0,
-                        "votes": 3,
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Why not?",
-                        "replies": []
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 1,
-                "date": "14 hours ago",
-                "author": {
-                    "name": "Zpikemaster24",
-                    "id": "kaid_753888317123473340091614",
-                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                },
-                "text": "Can I spin-off this to make my platformer game?",
-                "replies": [],
-                "answers": [
-                    {
-                        "replyCount": 1,
-                        "votes": 1,
-                        "date": "12 hours ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "Yes you may, though I would recommend trying to make it different and adding graphics.",
-                        "replies": [
-                            {
-                                "date": "11 hours ago",
-                                "author": {
-                                    "name": "Zpikemaster24",
-                                    "id": "kaid_753888317123473340091614",
-                                    "avatar": "/images/avatars/svg/sneak-peak-green.svg"
-                                },
-                                "text": "I will try to make it different. thx!"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "replyCount": 0,
-                "votes": 0,
-                "date": "a day ago",
-                "author": {
-                    "name": "Oreo",
-                    "id": "kaid_726551157454425501696621",
-                    "avatar": "/images/avatars/svg/starky-seedling.svg"
-                },
-                "text": "i cant get past 3",
-                "replies": [],
-                "answers": [
-                    {
-                        "replyCount": 1,
-                        "votes": 2,
-                        "date": "a day ago",
-                        "author": {
-                            "name": "Duke",
-                            "id": "kaid_351465532815782433620675",
-                            "avatar": "/images/avatars/svg/starky-ultimate.svg"
-                        },
-                        "text": "try to jump after you fall off the block. it's hard but possible.",
-                        "replies": [
-                            {
-                                "date": "a day ago",
-                                "author": {
-                                    "name": "Oreo",
-                                    "id": "kaid_726551157454425501696621",
-                                    "avatar": "/images/avatars/svg/starky-seedling.svg"
-                                },
-                                "text": "i got it"
-                            }
-                        ]
-                    }
-                ]
-            }
-        ]
+        "questions": []
     }
 }
