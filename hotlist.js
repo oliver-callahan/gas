@@ -20,7 +20,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 3,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "Cataclysmic Code 🌩",
                     "id": "kaid_820167475461480890635740",
@@ -95,7 +95,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "4 hours ago",
+                "date": "5 hours ago",
                 "author": {
                     "name": "sugarnlight",
                     "id": "kaid_516497598968512440616556",
@@ -134,7 +134,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "ASBackup",
                             "id": "kaid_714780036830891967670231",
@@ -143,7 +143,7 @@ var json = {
                         "text": "still reading this lol<br>i don't like feta either tbh i like any other cheeses tho :)"
                     },
                     {
-                        "date": "4 hours ago",
+                        "date": "5 hours ago",
                         "author": {
                             "name": "ASBackup",
                             "id": "kaid_714780036830891967670231",
@@ -170,7 +170,7 @@ var json = {
             {
                 "replyCount": 0,
                 "votes": 1,
-                "date": "5 hours ago",
+                "date": "6 hours ago",
                 "author": {
                     "name": "The one",
                     "id": "kaid_9809147761059943698111879",
