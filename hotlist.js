@@ -767,7 +767,7 @@ var json = {
                         "text": "yeah but 6 was too scared because 7 8 9.<br><br>by saying that it proves that you are :P"
                     },
                     {
-                        "date": "25 minutes ago",
+                        "date": "30 minutes ago",
                         "author": {
                             "name": "JSCoder",
                             "id": "kaid_3032679493880386290676439",
@@ -898,7 +898,7 @@ var json = {
                         "text": "hey, you know what? I'm fine with that lol<br>but yeah I was hoping for like 30-50 votes lol.<br>not it being my most voted project :P<br><br>But seriously, I am gonna try to make my next program much better."
                     },
                     {
-                        "date": "3 hours ago",
+                        "date": "4 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -1122,7 +1122,7 @@ var json = {
                         "text": "I would love to see it :)"
                     },
                     {
-                        "date": "8 hours ago",
+                        "date": "9 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1131,7 +1131,7 @@ var json = {
                         "text": "Well I just found out that the first part was deleted -_-<br>so you should probably just follow Liam K's.<br><br>sorry about that :/"
                     },
                     {
-                        "date": "6 hours ago",
+                        "date": "7 hours ago",
                         "author": {
                             "name": "Green falcon",
                             "id": "kaid_455614962916004540799706",
