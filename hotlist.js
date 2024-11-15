@@ -131,7 +131,7 @@ var json = {
                 "replies": []
             },
             {
-                "replyCount": 0,
+                "replyCount": 1,
                 "votes": 1,
                 "date": "11 hours ago",
                 "author": {
@@ -142,7 +142,17 @@ var json = {
                 "text": "I will never understand morning people...<br>I think the ocean is beautiful too, but I've never been to one in person.<br>My favorite school subject is also science!<br>Also, mad respect to you for actually taking the time to create a graphic for each fact. You earned my sub :)",
                 "locked": false,
                 "pinned": false,
-                "replies": []
+                "replies": [
+                    {
+                        "date": "a minute ago",
+                        "author": {
+                            "name": "CodingChamp01",
+                            "id": "kaid_987747824768899590269539",
+                            "avatar": "/images/avatars/svg/piceratops-ultimate.svg"
+                        },
+                        "text": "Waking up early takes discipline and mornings are quiet, peaceful and productive (and healthy)<br>staying awake late is just lazy ¯\\<em>_(ツ)_</em>/¯"
+                    }
+                ]
             },
             {
                 "replyCount": 0,
