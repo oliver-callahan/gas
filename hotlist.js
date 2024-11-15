@@ -722,7 +722,7 @@ var json = {
                 "pinned": false,
                 "replies": [
                     {
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -765,6 +765,15 @@ var json = {
                             "avatar": "/images/avatars/svg/starky-ultimate.svg"
                         },
                         "text": "yeah but 6 was too scared because 7 8 9.<br><br>by saying that it proves that you are :P"
+                    },
+                    {
+                        "date": "a few seconds ago",
+                        "author": {
+                            "name": "JSCoder",
+                            "id": "kaid_3032679493880386290676439",
+                            "avatar": "/images/avatars/svg/leaf-orange.svg"
+                        },
+                        "text": "it eight not ate. I think I was wondering if I should use that joke  but I guess you did. =]<br><br>I think you are the suspicious one =p"
                     }
                 ]
             },
@@ -934,7 +943,7 @@ var json = {
                         "text": "no there are a lot better games like dat's Bee Swarm Simulator<br><br>oh then if you make a good one you get 9.67 are you ok with that?"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -943,7 +952,7 @@ var json = {
                         "text": "I still like yours the best.<br><br>lol wow that's a high score."
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Radar",
                             "id": "kaid_3902988618718040904060736",
@@ -1316,7 +1325,7 @@ var json = {
                         "text": "Thank you, DR! Then your be disappointed to hear that I am actually drawing a new level every single time lol<br>I only had one day to make this and tried the other way but ran into a couple glitches...<br><br>Yeah I don't know how to fix this... how would you do it?"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "BΣYӨПD",
                             "id": "kaid_5370656553883782878121797",
@@ -1385,7 +1394,7 @@ var json = {
                         "text": "This is one of the best game's I have played in a long time.<br><br>Keep up the good work! :)"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -1639,7 +1648,7 @@ var json = {
                     {
                         "replyCount": 1,
                         "votes": 1,
-                        "date": "11 hours ago",
+                        "date": "12 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
