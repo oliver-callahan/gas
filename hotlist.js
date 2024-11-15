@@ -666,7 +666,7 @@ var json = {
                         "text": "That's debatable.<br><br>but also why does this have anything to do with HACK's stuff...."
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Jackson H",
                             "id": "kaid_5938807447267118718814449",
@@ -675,7 +675,7 @@ var json = {
                         "text": "Because she said that people only vote because of who released it. that's why I said I vote HACK'S stuff. Because when he  release's stuff I vote it, cause I like it."
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -740,7 +740,7 @@ var json = {
                         "text": "yeah, but that is suspicious in and of itself =]"
                     },
                     {
-                        "date": "7 hours ago",
+                        "date": "8 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -758,7 +758,7 @@ var json = {
                         "text": "Doing only 5 discriminated against 6.<br><br>Not me =p. I would never be suspicious =]"
                     },
                     {
-                        "date": "41 minutes ago",
+                        "date": "an hour ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
@@ -813,7 +813,7 @@ var json = {
             {
                 "replyCount": 3,
                 "votes": 1,
-                "date": "2 hours ago",
+                "date": "3 hours ago",
                 "author": {
                     "name": "Samurai Warrior™ ✝ (Offline)",
                     "id": "kaid_333534297788735128142174",
@@ -898,7 +898,7 @@ var json = {
                         "text": "yeah,lol<br>Yes that's around what it normally would get lol<br>It probably will get there lol<br><br>You joined Echolite? Well please pump out quality programs or me as a judge will be >:( lol jk"
                     },
                     {
-                        "date": "2 hours ago",
+                        "date": "3 hours ago",
                         "author": {
                             "name": "Duke",
                             "id": "kaid_351465532815782433620675",
